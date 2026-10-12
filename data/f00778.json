@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_BANK39_CURVED_NATIVE_PRICE_BINDING",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank39_native_curved_rank_envelope_pending.json.gz",
+    "sha256": "15b9b5bdefbbf8cc6d97637b6a8a14b5d4809cf43b42763fd9917f7389f4bda2"
+  },
+  "input_sha256": "15b9b5bdefbbf8cc6d97637b6a8a14b5d4809cf43b42763fd9917f7389f4bda2",
+  "operator_b": "711/1000",
+  "native_price_producer_input": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/native_curved_endpoint_prices.json",
+    "sha256": "77881d9d5503ba50aca80c9a0e3b9b8cfa3d06455c170525f7c12878632822f1",
+    "implementation_sha256": "e1f7f91339b7ded8c938c113c294f46c86d61d2d56be76597170e41374562cd4"
+  },
+  "accepted_native_numeric_report": {
+    "path": "new_round_2026-10-02/audit/numeric/CURVED_NATIVE_ENDPOINT_PRICE_REPLAY.json",
+    "sha256": "f4ac994516a6ed6ce0407cdfd733cc99aa8c2bfa5d497d7be829f9e5706410c3"
+  },
+  "curved_uniform_tables": 469,
+  "selected_endpoint_prices_recomputed_in_accepted_report": 13936,
+  "source_binding_exact": true,
+  "script_sha256": "64b5bb17dbf74fe0433f0268cd90544a1718e7bf350e707e143d6f3a9f59114f",
+  "scope": "The exact native endpoint ledger named by bank39 equals the independently accepted469-table native-curved input. Polygon/chord/envelope and whole-source geometry require the separate theory replay."
+}

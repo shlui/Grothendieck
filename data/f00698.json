@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa215_producer_manifest.json",
+    "sha256": "d488d9bd6533cc8bd6ff2077db24f5c47e5119dc8b688383b9145c287cc8cf22"
+  },
+  "profiles": [
+    {
+      "name": "new_moderate_kappa215_b711",
+      "label": "interval_new_moderate_kappa215_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate_kappa215_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa215_source_box/input/profile_interval_new_moderate_kappa215_b711.json",
+          "sha256": "4125096795f028bf9f3252e29b94982321475eb5d3f5026e67262fb99cb16f56"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate_kappa215_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa215_source_box/input/body_interval_new_moderate_kappa215_b711.json.gz",
+          "sha256": "2871c44eaa743718029b1aaeaad184e8162575c18a8c19f5d512559fa1f8cb05"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate_kappa215_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa215_source_box/input/exterior_interval_new_moderate_kappa215_b711.json.gz",
+          "sha256": "ea25af9cc128636949cf345e76f52d157c671ad097e41a522397def543f3a1f3"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate_kappa215_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa215_source_box/input/tail_interval_new_moderate_kappa215_b711.json",
+          "sha256": "e977e22e88f9467c0f3e64b27e5b27e981abccd7e1874d063724ae21981d3abd"
+        }
+      ]
+    }
+  ]
+}

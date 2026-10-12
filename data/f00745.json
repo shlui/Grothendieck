@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/moderate_u749_q20_extra_manifest.json",
+    "sha256": "cec448f34001cf94ac65e4f7b03004cc87d82205845bf4f06e6fd5fcb2cb9ff2"
+  },
+  "profiles": [
+    {
+      "name": "new_moderate_u749_b711",
+      "label": "interval_new_moderate_u749_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/profile_moderate_u749_b7171.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u749_source_box/input/profile_interval_new_moderate_u749_b711.json",
+          "sha256": "920fd75c015a88f9ee648c423e36c74102e297e4dcbd314b43d341f5caf7368c"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/body_moderate_u749_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u749_source_box/input/body_interval_new_moderate_u749_b711.json.gz",
+          "sha256": "b37608ed2f82207fb09f56c5c8f4a620c9381e933e24f114da1723c53dc952dd"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/exterior_moderate_u749_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u749_source_box/input/exterior_interval_new_moderate_u749_b711.json.gz",
+          "sha256": "a8305dd69bb95737213351da1b2012fd96d752f60d84096068c04a49fedd328e"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/tail_moderate_u749_q20.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u749_source_box/input/tail_interval_new_moderate_u749_b711.json",
+          "sha256": "45091d01a0c7187569461eac180a82efa6f68987b7975259cb59cf925d074807"
+        }
+      ]
+    }
+  ]
+}

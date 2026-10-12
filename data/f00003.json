@@ -1,0 +1,75 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_BANK43_STRONG_SHAPEU_REFINED_B711_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "140904959/250000000",
+  "constructive_G_R_lower_bound": "250000000/140904959",
+  "constructive_G_R_lower_bound_decimal": "1.77424557499072832489877095099257649264139809302240384598529",
+  "upper_amplitude_exact_maximum": "563619834426673/1000000000000000",
+  "lower_amplitude_upper_bound": "563307766601/1000000000000",
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_coverage": [
+    "0",
+    "1381/2000"
+  ],
+  "upper_amplitude_coverage": [
+    "1381/2000",
+    "sqrt(2/pi)"
+  ],
+  "protected_upper_parent_cells": 272579,
+  "inherited_proved_empty_cells": 8737,
+  "complete_whole_q_profiles": 43,
+  "verified_bound_files": 593,
+  "bindings": {
+    "accepted39_global": {
+      "path": "new_round_2026-10-02/audit/BANK39_GLOBAL_ACCEPTANCE.json",
+      "sha256": "65934e31d9b5653c9ca1048e99b999594018c7a605da8f173254ac26ec878ffd"
+    },
+    "same711_lower": {
+      "path": "verified_2026-10-01/tonight/operator/preferred_global/tonight/audit/global_b7171/b711_complete_lower_target_transport.json",
+      "sha256": "cca65e7ffd484f09af6759f30acad5a1f9f0e335c40cc61fabae87a06f3b03dc"
+    },
+    "strong_shape_geometry": {
+      "path": "new_round_2026-10-02/sequence_theory/BANK43_STRONG_SHAPE_GEOMETRY_AUDIT.json",
+      "sha256": "4ba5ff57832cf7125f1355d538801e2467cdf18586a0a5549c62979e3ca7c44b"
+    },
+    "strong_shape_R3_prices_and_local_gates": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY.json",
+      "sha256": "c8ff5638adbf879fb3bae09187b66abdfbcf515232ff2e39422b0b42ceb10720"
+    },
+    "strong_shape_B0_planes": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY.json",
+      "sha256": "95e5759438757f6322361e5e64ec1fc295d5f92e3519d447b30c8e8760b46055"
+    },
+    "native_curved_endpoint_prices": {
+      "path": "new_round_2026-10-02/audit/numeric/CURVED_NATIVE_ENDPOINT_PRICE_REPLAY.json",
+      "sha256": "f4ac994516a6ed6ce0407cdfd733cc99aa8c2bfa5d497d7be829f9e5706410c3"
+    },
+    "strong_tensor_shape_proof": {
+      "path": "new_round_2026-10-02/audit/LINEAR_TENSOR_SHAPE_CONSTRAINT.md",
+      "sha256": "c70583101687652e5a8cc6facf446dfb4ac1115efcec08121103d0f5dd633a4b"
+    },
+    "u_refinement_geometry": {
+      "path": "new_round_2026-10-02/sequence_theory/BANK43_U_REFINEMENT_GEOMETRY_AUDIT.json",
+      "sha256": "4abf09ec21f0525c0e272b21156e70f03f91c80ad886da087b84369510c49548"
+    },
+    "envelope": {
+      "path": "new_round_2026-10-02/cubic_search/b711_bank43_u0005_refinement_proposal.json.gz",
+      "sha256": "f7e3ec62679dd1ddcc636c5ea6f1fd40e10572bd2283081a8e3be65296542b8a"
+    },
+    "TENSOR_SHAPE_NECESSARY_CONSTRAINT": {
+      "path": "new_round_2026-10-02/audit/TENSOR_SHAPE_NECESSARY_CONSTRAINT.md",
+      "sha256": "39e3a076ef801f91526b2e286170343f63af56bab4774809b0973aeb37e5e048"
+    },
+    "PHYSICAL_SHAPE_BOUNDARY_PRICING": {
+      "path": "new_round_2026-10-02/audit/PHYSICAL_SHAPE_BOUNDARY_PRICING.md",
+      "sha256": "3558b284511c315122ac2b214db51ac93d7de9273ea98d7e9f8bdde86892f535"
+    }
+  },
+  "analytic_composition": "The tensor identity and two-leg projection inequality imply 4\u03ba\u03b6\u2212\u03ba\u226454. Every accepted moment family is convex on fixed sides and the complete physical upper curve, so all feasible boundary candidates suffice. Uniform source halfspaces retain every physical point. Rank dominance regions and every native source knot are exhaustively maximized. Every subdivided amplitude parent has a complete closed child cover and unchanged accepted numerical premises. The single coefficient .711 and independently complete lower-amplitude branch are retained.",
+  "target_1775_reached": false,
+  "target_norm_threshold": "40/71",
+  "scope": "Complete all-dimension scalar norm certificate for the fixed cubic operator. The explicit reduced Gaussian matrix family converges to1/N(.711), at least the certified reciprocal. Equality to this upper certificate or unrestrictedG_R is not asserted. No inherited historical endpoint premise is used."
+}

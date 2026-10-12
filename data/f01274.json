@@ -1,0 +1,12 @@
+{
+  "status": "PASS_EXACT_FORMAL_MOMENT_AND_POINT_IDENTITIES",
+  "formal_rational_cases": 300,
+  "point_cases": 300,
+  "dimensions": [
+    1,
+    12
+  ],
+  "seed": 20261002,
+  "source_sha256": "99e0d9a3186f27463d0117e71e3833d67a5da8ed745d71b4fae84c2ac3163fef",
+  "scope": "Arithmetic identity only; Gaussian cell moments and the global scalar cap are separate certificate inputs."
+}

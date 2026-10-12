@@ -1,0 +1,75 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_GLOBAL_B7171_SCALAR_BOUND",
+  "operator_b": "7171/10000",
+  "norm_upper_bound": "70756627/125000000",
+  "strictly_smaller_cell_cap": "566053014383/1000000000000",
+  "constructive_G_R_lower_bound": "125000000/70756627",
+  "constructive_G_R_lower_bound_display": 1.7666189769051597,
+  "global_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "global_source_rho": "847/1000",
+  "scope": "Fresh global bound for P1-(7171/10000)P3 and its explicit Gaussian-cell/reduced/rational matrix sequence. This does not prove G_R>=1.775, the retained1.773 premise, the retained upper1.780498 premise, or a three-digit value of G_R.",
+  "historical_1773_or_1780498_premises_used": false,
+  "new_contact_credit_used": false,
+  "independent_endpoint_prices": 8448,
+  "independent_R3_corner_prices": 392,
+  "global_middle_cells": 39662,
+  "bindings": {
+    "first_transfers": {
+      "path": "tonight/audit/native_b7171_union/first_four_transfers_independent.json",
+      "sha256": "0419960f3fb4b64bd5ba4a584625be245ac36871d51290a438ce0b465cede25f",
+      "status": "PASS_INDEPENDENT_DIRECTED_FIRST_FOUR_B7171_TRANSFERS"
+    },
+    "lower_base": {
+      "path": "tonight/audit/native_b7171_union/u600_682_independent_replay.json",
+      "sha256": "eb8546f2d91078ffb10bcab078b0052dbdcb2b7fb3ef90a18e7bd98ce0101d04",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "lower_R3_union": {
+      "path": "tonight/audit/native_b7171_union/u682_6905_independent_replay.json",
+      "sha256": "08c7880512c74878a623c2fc3ed1aabebad1fd278b135726b06fd15af7b5513c",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "lower_R3_price": {
+      "path": "tonight/audit/diffuse_b7171_R3/independent_extended_remainder_box.json",
+      "sha256": "4922890c2a5156583014f51b97d295b377e552013b70ba1f572de23e5f3df32a",
+      "status": "PASS_INDEPENDENT_B7171_EXTENDED_REMAINDER_BOX_PRICING"
+    },
+    "upper_target": {
+      "path": "tonight/audit/native_b7171_union/u775_c_independent_replay.json",
+      "sha256": "a14399892c05e75ed3cd9221ac8aaf66411d65bd51ded828f534c6eb1d948b69",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "middle_native_lower": {
+      "path": "tonight/audit/global_b7171/native_middle_lower_input_replay.json",
+      "sha256": "bf4c5acd062bfeaa48fc89004114ed24e70424daa94b1332b4df4c24ebacd0df",
+      "status": "PASS_INDEPENDENT_NATIVE_ENVELOPE_INPUT_REPLAY"
+    },
+    "middle_native_upper": {
+      "path": "tonight/audit/global_b7171/native_middle_upper_input_replay.json",
+      "sha256": "294a1880d21594d5dd47499b4b5361700089a14fd2536137e3e686f8f1eb7ad7",
+      "status": "PASS_INDEPENDENT_NATIVE_ENVELOPE_INPUT_REPLAY"
+    },
+    "middle_R3_corners": {
+      "path": "tonight/audit/global_b7171/R3_corner_replay.json",
+      "sha256": "95b8c1d30890923d1d1fe690ac2d027f04a5b9aa98c538428ed62587906f6919",
+      "status": "PASS_INDEPENDENT_384BIT_ALL_R3_CORNER_PRICES_AND_WHOLE_Q_BINDINGS"
+    },
+    "middle_exact_partition": {
+      "path": "tonight/theory/global_native_R3_envelope_algebra_audit.json",
+      "sha256": "1c87ef9889fc745319e02214449b02379e2a10bfd38290e601429dc19a61a407",
+      "status": "PASS_EXACT_ENVELOPE_ALGEBRA_AND_EXHAUSTIVE_PHYSICAL_SOURCE_COVERAGE"
+    },
+    "cubic_L1_prices": {
+      "path": "tonight/audit/refit847/independent_complete_price_cover.json",
+      "sha256": "111c0f9c34a9cff93c93382dd1fc55477e633dedbf5c2ef01a8fc3afb7701d83",
+      "status": "PASS_INDEPENDENT_COMPLETE_CUBIC_L1_REFIT847_PRICE_COVER"
+    }
+  },
+  "frozen_envelope": {
+    "path": "tonight/recovery/profile_cover/global_middle_b7171_native_R3_envelope.json",
+    "sha256": "cfdf430efaa9ed0f1dc4dd12f69a8a9c83674ef9ce57f9ca7834c3f80e9c1007"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "reduced_search/energy/stein_L1_row_0.json": "8341f1590b69b79ac135d21d385a30e1a0905c46222d4b1f39bb5bd32d6f9dc5",
+  "reduced_search/energy/stein_L1_row_2.json": "61032a318ce70a47140ca732d01302dbdcd3622a0b95c5d798663afd041a0c0c",
+  "reduced_search/energy/stein_L1_row_3.json": "eb8ddcb6a753f856faaaa52113f2807170358cb83b86df5496ff9bf1d3a70e52",
+  "reduced_search/energy/stein_L1_row_4.json": "7e4728d18cb54322d4451b520a142921f9f2b26cada05775ba1af3f097828498",
+  "reduced_search/energy/stein_L1_row_k8.json": "9eb370240e68fb8648b1971f5c6cd97ac35ad01a3d04792feb8d102acd2e77be",
+  "reduced_search/energy/stein_L1_row_5.json": "1a4d5258fa15b58dbe19b6893bb18fb582748f6ea9157cca9c0a65e3e62e579a",
+  "reduced_search/energy/stein_L1_row_6.json": "f2b4824c824c1618ed28f261588d701c91e9722fb460c4e54864b213a19801e2",
+  "reduced_search/energy/stein_L1_row_7.json": "65404786779495b9b9fa128797dafc8c26303747f6d409f8bf081ad5690e1652",
+  "reduced_search/energy/halfline_stein_verifier.py": "e737a40e40535a0c8876d66ccdc44e0c55ea7c68ed99a1a36a776b1f9c85840e",
+  "reduced_search/energy/audit_stein_L1_independent.py": "976ebae637f416c2f0aa9aa5958f9152972038c565367aeef8b92a01111ecaab",
+  "reduced_search/energy/633/PROOF.md": "50005af5cea73d38a9d616ffb8b48f5cf71e76c021468c51688b725ad20100c6",
+  "reduced_search/energy/cubic_L1_certificate.json": "e6cb519fa141c797bbf9a8409b98730c8162746c399d5f67241cc74e89511988",
+  "tonight/operator/cubic_L1_refinement/certify_kappa_shape_caps.py": "a137184d78ccad414811c272d73dc0667d8ddb46eb6fd0baf3eedc7a17865bd2",
+  "tonight/operator/cubic_L1_refinement/kappa_shape_caps.json": "182cffd5d930738f3d389705ed39fcbaffeb22a3f6f1136387db206ee2afe41e",
+  "tonight/operator/cubic_L1_refinement/mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+  "tonight/audit/refit847/certify_refit_rows_independently.py": "28a9315c75852a76d55397137641b115461d939bda62c4766272e4c3ed27aeae",
+  "tonight/audit/refit847/replay_complete_refit_cover.py": "3184882f183495f889b46a383fbb09a4f203882f8f84c6b44c3721b68631d51e",
+  "tonight/audit/refit847/independent_row_68.json": "d4294e264609e88932507b7dc632f7eaa9920bc2c0863b782745f52f75c3ccdc",
+  "tonight/audit/refit847/independent_row_96.json": "6cf41fd675d16d2a2f401ff69dcfa14c25b39da56ab71e8df30888d5a1c2bfed",
+  "tonight/audit/refit847/independent_complete_price_cover.json": "111c0f9c34a9cff93c93382dd1fc55477e633dedbf5c2ef01a8fc3afb7701d83"
+}

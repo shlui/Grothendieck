@@ -1,0 +1,35 @@
+{
+  "status": "ALL_CRITERIA_INDEPENDENTLY_ACCEPTED",
+  "profiles": [
+    {
+      "name": "new_moderate_u741_k075_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/profile_moderate_u741_k075_b7171.json",
+      "profile_sha256": "60866b85b0717638b4316e9b74ffaff0fd62c84c641458024a142cd20a92771e",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_u741_k075_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "89406a53ad2134e64c9fa4442a87a95a30a943c5a64239875f56765bc3176a51",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/body_moderate_u741_k075_q20.json.gz",
+          "sha256": "dad58982a87ae90ed84dfd52381f9993d56e020d3e17ee5b190297089a607e4c"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/exterior_moderate_u741_k075_q20.json.gz",
+          "sha256": "05521d98f6c5529b1d2e0ba9ef95f89885c0220191d1253d53360056a9ef6669"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/tail_moderate_u741_k075_q20.json",
+          "sha256": "79a37caa28d64c509555dfe0b359d453d6671a31d79650d6cc9934045d0a4ef1"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    }
+  ],
+  "producer_manifest_binding": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/moderate_u741_k075_q20_extra_manifest.json",
+    "sha256": "bca89319264d8b827e516907b9311d52bca0fb26e4852539586a6c9d38b1e42b"
+  }
+}

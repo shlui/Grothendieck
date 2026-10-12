@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_DENSE_HIGHK_RANK_ALIASES",
+  "adapter": "replay_new_rank_dense_highk_q_trees.py",
+  "adapter_change": "Only new literal highk01=(1/100,1/100000000) branch and CLI choice; proof arithmetic unchanged.",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/HIGHK_DENSE_Q01_GATE_MANIFEST.json",
+    "sha256": "994b9b271b5178680b1ab91c8e7cc05c83bb270c4526b1e3035c1b54d3ea7f43"
+  },
+  "profiles": [
+    {
+      "name": "highk_dense76625",
+      "label": "interval_highk_dense76625",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_denseq_b7171.json",
+          "alias": "new_round_2026-10-02/audit/dense_highk_source_box/input/profile_interval_highk_dense76625.json",
+          "sha256": "0bd2b059e4c4e1b5d6ba12db0bca29803656a2ac587e7a059288fe20fbdef33d"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_denseq_q01.json.gz",
+          "alias": "new_round_2026-10-02/audit/dense_highk_source_box/input/body_interval_highk_dense76625.json.gz",
+          "sha256": "8e6bc32a1cc36bbc873bb4b8a18c89f52d071b727c62696b68182c7f97f89dec"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_denseq_q01.json.gz",
+          "alias": "new_round_2026-10-02/audit/dense_highk_source_box/input/exterior_interval_highk_dense76625.json.gz",
+          "sha256": "8699f8527fafff7c249441af37c1b88a2b76a96422f4026f5660bd8da2a3597e"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_denseq_q01.json",
+          "alias": "new_round_2026-10-02/audit/dense_highk_source_box/input/tail_interval_highk_dense76625.json",
+          "sha256": "2698260101bb2799d3c4da9557d231e5b93a7bb6b77beca22d2cfd506a271b34"
+        }
+      ]
+    }
+  ]
+}

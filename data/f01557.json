@@ -1,0 +1,44 @@
+{
+  "status": "PASS_FINAL_GOAL_MAIN_MATHEMATICAL_SCOPE_AND_CONSTANT_AUDIT",
+  "main": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/deliverables/Grothendieck_reduced_sequence_2026-10-01.tex",
+    "sha256": "79ce4795929227efa2cf24116256d456b75e3a76a8c571ba3f19a1304f7a227e"
+  },
+  "accepted_norm": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json",
+    "sha256": "f1e6bf6641fa20dd23e1f60cd1c2deb743ac0be98035210ab6d58b24718c6f08"
+  },
+  "finite_binding": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/FINAL_GOAL_FINITE_FORMULA_ACCEPTANCE.json",
+    "sha256": "7b7112752918a3e71d0f1f4756212c26d6b8985171d7e4ccd58d5b7d5243cb75"
+  },
+  "rational_table": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/FINAL_GOAL_RATIONAL_FINITE_BOUND.json",
+    "sha256": "45e6b6892265684c7b78f4bdd40610d66979acaada9f2d7b53582d71c8947a70"
+  },
+  "operator_b": "711/1000",
+  "norm_cap": "40/71",
+  "lower_endpoint": "71/40",
+  "rounding": "three significant digits1.78",
+  "checks": [
+    "Headline is the accepted all-dimension coefficient711/1000 scalar cap<=40/71 and constructive lower71/40.",
+    "N is the supremum over Gaussian dimensions; C and V maxima agree with absolute bilinear norms by feasible sign/vector negation.",
+    "Final89-criterion coverage uses272579 physical source parents,8737 inherited proved-empty cells,19693 closed amplitude children and18486 current closed moment children.",
+    "The final proof distinguishes parent5280 uniform moment tables from356 final tables=344 exact reuse+12 fresh, with4 independently repriced source-plane boxes.",
+    "Full-E criteria retain their actual radial curvature; negative curvatures use affine tangents, not rank-only convexity.",
+    "Native rows retain one entire fixed kernel and split every radial knot before chord or affine maximum evaluation.",
+    "Closed source/moment partitions retain boundaries, degenerate polygons and all inherited caps; the final goal uses a non-strict exact40/71 cap.",
+    "The exact reduced sequence actual ratio limit is1/N(.711), at least1.775; no equality with the cap or unrestrictedG_R is claimed.",
+    "The certified finite lower formulas, not the actual denominator or actual ratio, have quantitativeO(d^-1)/O(n^-4) rate.",
+    "All4 displayed rational finite-table floors match the exact bound-file fractions and the same acceptedf1e6 norm proof.",
+    "The table dimensiond is correctly distinguished from the much larger implicit matrix order after product-cell construction and exact cloning.",
+    "The Poincare proof ofa_d>=1-1/(2d) and positive rational tail/bulk domination are consistent with the logarithmic-cutoff familydomain0<b<1,d>=4.",
+    "The unconditional self-contained upper<1760/987<1.785 suffices for three significant digits1.78; three decimal places are not asserted.",
+    "Published Peng<=1.7813 is a stronger separate cited upper and is unnecessary for the self-contained rounding conclusion.",
+    "The exhaustive reduced sequence approaching unrestrictedG_R is distinguished from the certified fixed-cubic family.",
+    "HistoricalOctober1 checkpoints, unreconstructed699 premises, partial regional bounds and method ceilings are scoped separately from the completed89 global norm.",
+    "Higher-degree and identity-tail families require their own complete scalar caps; no such fresh numerical norm claim is promoted."
+  ],
+  "substantive_issues": [],
+  "scope": "Independent mathematical consistency/read-only manuscript audit and exact table/norm binding; it does not repeat completed local/numeric certificate replays."
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_KAPPA_SHAPE_L1_PRICES",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 768,
+    "status": "PASS"
+  },
+  "leaves": 2780,
+  "corner_prices_checked": 11120,
+  "global_cap": "848515/1000000",
+  "stronger_cover_maximum": "848514861689/1000000000000",
+  "interval_caps": [
+    {
+      "kappa_interval": [
+        "0",
+        "1"
+      ],
+      "rho": "830643632499/1000000000000"
+    },
+    {
+      "kappa_interval": [
+        "1",
+        "10"
+      ],
+      "rho": "848514861689/1000000000000"
+    },
+    {
+      "kappa_interval": [
+        "10",
+        "90"
+      ],
+      "rho": "847790331491/1000000000000"
+    },
+    {
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ],
+      "rho": "102589340301/125000000000"
+    },
+    {
+      "kappa_interval": [
+        "3/10",
+        "11/10"
+      ],
+      "rho": "83202951247/100000000000"
+    },
+    {
+      "kappa_interval": [
+        "11/10",
+        "4"
+      ],
+      "rho": "423485406457/500000000000"
+    },
+    {
+      "kappa_interval": [
+        "4",
+        "10"
+      ],
+      "rho": "848514861689/1000000000000"
+    },
+    {
+      "kappa_interval": [
+        "10",
+        "20"
+      ],
+      "rho": "847790331491/1000000000000"
+    },
+    {
+      "kappa_interval": [
+        "20",
+        "40"
+      ],
+      "rho": "83851506357/100000000000"
+    },
+    {
+      "kappa_interval": [
+        "40",
+        "60"
+      ],
+      "rho": "162898485503/200000000000"
+    },
+    {
+      "kappa_interval": [
+        "60",
+        "90"
+      ],
+      "rho": "418958521681/500000000000"
+    }
+  ],
+  "source_price_sha256": "182cffd5d930738f3d389705ed39fcbaffeb22a3f6f1136387db206ee2afe41e",
+  "verifier_sha256": "d449c3f5d13bbfb1171bd91b51cca71f9332a40bc6b0461249d49b39d2d7a10c",
+  "scope": "Independent expanded MPFR formulas and exact exhaustive kappa cover. Accepted whole-line row inequalities and fresh633 moment/Stein identities are proof inputs; no new Grothendieck operator norm endpoint."
+}

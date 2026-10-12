@@ -1,0 +1,37 @@
+% Fragment for the main paper; requires its theorem/proof environments.
+\begin{theorem}[Repriced cubic absolute-moment bound]
+For every real third Gaussian chaos $Q$ in every finite dimension with
+$\mathbb E Q^2=1$,
+\[
+ \mathbb E|Q|<\rho_*:=\frac{848515}{10^6},\qquad
+ \|P_3\|_{L_\infty\to L_2}^2\le\rho_*^2.
+\]
+\end{theorem}
+\begin{proof}
+Write $\kappa=\mathbb E Q^4-3$ and
+$U=\|DQ\|^2/3-1$. The coupled cubic cumulant theorem gives
+$0<\kappa\le90$ and
+$\mathbb E U^2=\kappa(7/45+s/15)$ for some $s\in[0,1]$.
+Let $q_{0,i},q_{2,i},q_{4,i},q_{6,i},\eta_i$ be the frozen rational
+parameters of any one of the eight accepted complete-halfline Stein rows.
+Its already proved scalar inequality and the Stein identity yield
+\[
+\mathbb E|Q|\le L_i(\kappa,s)
+ =c+q_{0,i}+q_{2,i}+(3+\kappa)q_{4,i}
+ +[15+15\kappa+(K-633s/15)\kappa^{3/2}]q_{6,i}
+ +\eta_i\kappa(7/90+s/30),
+\]
+where $c=\sqrt{2/\pi}$ and $K=194/\sqrt{10}$.
+Each row is valid for all cumulants, because its scalar comparison holds
+on the entire real line. For a fixed row, $L_i$ is affine in $s$ and
+convex in $\kappa$, since $q_{6,i}>0$ and $K-633/15>0$.
+The included exact certificate partitions $[0,90]$ into 2780 rational
+intervals, selects one accepted row per interval, and verifies the four
+cumulant/shape corner prices. Its largest outward rational upper bound
+is $848514861689/10^{12}<\rho_*$. A separate directed MPFR verifier
+reconstructs all 11120 prices and exact exhaustive coverage. This proves
+the first assertion without any new scalar potential or historical
+Grothendieck norm premise. Normalizing a nonzero $P_3f$ and using
+$\|P_3f\|_2=\mathbb E[f(P_3f/\|P_3f\|_2)]\le\mathbb E|Q|$
+for $|f|\le1$ proves the projection consequence.
+\end{proof}

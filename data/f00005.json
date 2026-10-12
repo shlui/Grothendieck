@@ -1,0 +1,60 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_BANK70_SHARED_MOMENT_B711_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "22537477/40000000",
+  "constructive_G_R_lower_bound": "40000000/22537477",
+  "constructive_G_R_lower_bound_decimal": "1.77482155611295798549234237709926448288776955823404722720294",
+  "upper_amplitude_exact_maximum": "14085923098681/25000000000000",
+  "lower_amplitude_upper_bound": "563307766601/1000000000000",
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_coverage": [
+    "0",
+    "1381/2000"
+  ],
+  "upper_amplitude_coverage": [
+    "1381/2000",
+    "sqrt(2/pi)"
+  ],
+  "protected_upper_parent_cells": 272579,
+  "inherited_proved_empty_cells": 8737,
+  "closed_u_children": 19693,
+  "selected_shared_moment_parents": 1155,
+  "closed_moment_children": 18480,
+  "proved_empty_moment_children": 356,
+  "complete_whole_q_profiles": 70,
+  "fresh_rank_moment_tables": 43550,
+  "fresh_rank_moment_point_prices": 174133,
+  "fresh_uniform_source_boxes": 655,
+  "verified_bound_files": 432,
+  "target_1775_reached": false,
+  "target_norm_threshold": "40/71",
+  "norm_cap_relation": "STRICT_BELOW_CLEAN_CAP",
+  "bindings": {
+    "accepted70_full_peak_global": {
+      "path": "new_round_2026-10-02/audit/BANK70_MONOTONE_RANK_GLOBAL_ACCEPTANCE.json",
+      "sha256": "0bc85a63d92fb9770cd7da8ba9e1756041cfc388f6363f1a207faa664b4e9a75"
+    },
+    "shared_moment_geometry": {
+      "path": "new_round_2026-10-02/sequence_theory/BANK70_SHARED_MOMENT4_GEOMETRY_AUDIT.json",
+      "sha256": "6a9c867a882073ee913c57acc369392c986f207bae70ed36d709652cb14a69e3"
+    },
+    "shared_moment_R3_prices_and_local_gates": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "sha256": "8679c9340e04fa7060ff1981f25e546c38074f426183937bd7177a692e37e6b2"
+    },
+    "shared_moment_B0_planes": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY.json",
+      "sha256": "12eaae65d24541f8c6745a3045c539aa11420cfe85699c3ff0a9c215ec322f71"
+    },
+    "envelope": {
+      "path": "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+      "sha256": "322eb4c03bace797cf4f75377cd915979005a88959395ed5300ad6558b4d0eb6"
+    }
+  },
+  "moment_subdivision_side": 4,
+  "analytic_composition": "Every accepted complete amplitude/source child retains its inherited bound. Each selected child has a complete closed4x4 cumulant/shared-shape subdivision. Every exposed moment boundary and uniform source-plane endpoint is freshly priced on the SAME physical child domain. Closed rank-dominance regions and vertices are exhaustively maximized; source clips retain every physical point. All unsplit and previously covered children remain. The same .711 complete lower-amplitude branch is retained.",
+  "scope": "Complete all-dimension fixed-cubic scalar norm proof; matrix ratio limit is1/N(.711), at least this certified reciprocal. Equality to the norm cap or unrestrictedG_R is not asserted. No historical endpoint premise is used."
+}

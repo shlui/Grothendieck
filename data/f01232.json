@@ -1,0 +1,37 @@
+{
+  "status": "ALL_CRITERIA_INDEPENDENTLY_ACCEPTED",
+  "profiles": [
+    {
+      "name": "new_mediumu_kappa125_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa125_b711.json",
+      "profile_sha256": "c46934502da693a444b49b2dbfe746fcc3b78d17718f868970bdbc563ef5b14b",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/200000",
+      "reserve6": "1/100000000",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "acceptance_kind": "INDEPENDENT_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/mediumu_kappa125_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "04f164c5af9586165d531171ec72c9f72ea556fb59efb7bbce6a5480aa122762",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa125_b711_q5.json.gz",
+          "sha256": "a49bec4fa288cbcc5584aae24c827bdbc0d636a003bc1c39294a784fb8503d01"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa125_b711_q5.json.gz",
+          "sha256": "a6307f0c45dc8e693c1c96904902ad37ad958f6a4ff8a6ab52ff07c3e0547cb1"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa125_b711_q5.json",
+          "sha256": "e8cde1f7253cbfda0d4135ac8be4e02a0d0044aa0431d5abdbedf1f0089536ac"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa125_source_box.json",
+      "source_price_operator_b": "711/1000"
+    }
+  ],
+  "producer_manifest_binding": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa125_producer_manifest.json",
+    "sha256": "18a1f88558edc5c7f853a8763d196fb51a971f2157848eb62b322adf385e3da7"
+  }
+}

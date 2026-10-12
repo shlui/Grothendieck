@@ -1,0 +1,48 @@
+{
+  "status": "PASS_EXACT_RATIONAL_FINITE_ARITHMETIC",
+  "operator_b": "711/1000",
+  "scalar_cap_input": "40/71",
+  "norm_proof": {
+    "path": "new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json",
+    "sha256": "f1e6bf6641fa20dd23e1f60cd1c2deb743ac0be98035210ab6d58b24718c6f08"
+  },
+  "endpoint_lower": "71/40",
+  "endpoint_lower_floor12": "1.775000000000",
+  "finite_bounds": [
+    {
+      "dimension": 1000,
+      "q_lower": "1334858237/1336000000",
+      "loss_upper": "118917620937263237/20812416750000000000000",
+      "rationalization_error": "1/1000000",
+      "ratio_lower": "1476408822485896923060173/832498147681589250000000",
+      "ratio_lower_floor12": "1.773467997012"
+    },
+    {
+      "dimension": 10000,
+      "q_lower": "133348592237/133360000000",
+      "loss_upper": "11897305089387497630237/208312491667500000000000000000",
+      "rationalization_error": "1/100000000",
+      "ratio_lower": "14788920746713458439156418253173/8332499814601869083925000000000",
+      "ratio_lower_floor12": "1.774848013893"
+    },
+    {
+      "dimension": 1000000,
+      "q_lower": "1333334859332237/1333336000000000",
+      "loss_upper": "118979105551651854499999763000237/20833312499916666750000000000000000000000000",
+      "rationalization_error": "1/1000000000000",
+      "ratio_lower": "1479163922059653361811216410835000016826983173/833332499998145835187494083339250000000000000",
+      "ratio_lower_floor12": "1.774998481474"
+    },
+    {
+      "dimension": 100000000,
+      "q_lower": "13333333485933332237/13333333600000000000",
+      "loss_upper": "1189791660555207901854169999999976300000237/2083333312499999166666675000000000000000000000000000000000",
+      "rationalization_error": "1/10000000000000000",
+      "ratio_lower": "147916663922072784033490868618263285864287500001682699983173/83333332499999981458333518749994083333392500000000000000000",
+      "ratio_lower_floor12": "1.774999984814"
+    }
+  ],
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "5660e5ff118a2c1a2f5cf811941d71ea7d7fe8ef006b46b67cafa1e430166451",
+  "scope": "Finite lower bounds conditional on the stated scalar cap; actual family limit1/N is distinct from1/cap."
+}

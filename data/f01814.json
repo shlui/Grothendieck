@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_UNIFORM_POLYGON_PLANES_AND_INVERSE_CAPS",
+  "input_sha256": "4aa1b822d6c0530a2b20628a8f5b535c2c20f9c6dc0435bdf7960b80a083d244",
+  "operator_b": "713/1000",
+  "precision_bits": 768,
+  "bank_sha256": "81501d52d87de02743a955be40ac9157f60098cf940a8aaa65cf3b6e33cba94c",
+  "kappa_bands": 45,
+  "uniform_polygon_planes": 450,
+  "recorded_cell_plane_rows": 374670,
+  "distinct_row_bands": 450,
+  "fresh_directed_corner_prices": 1800,
+  "inverse_caps": 250,
+  "producer_code_imported": false,
+  "analytic_review": "Each fixed q6-positive all-line row has a price convex in kappa and affine in shape; four endpoint prices uniformly bound E J_A(Q) over the whole band. Thus a*u+r<=cap is a valid physical plane before clipping. Inverse caps are independently checked via the monotone forward source function.",
+  "scope": "Numeric premises only. Complete polygon/source coverage, all selected native/R3 prices, and final global union require separate exact audits."
+}

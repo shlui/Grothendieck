@@ -1,0 +1,43 @@
+{
+  "status": "PASS_FRESH_END_TO_END_FINAL_GOAL_ALL_LOCAL_REPLAY",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "40/71",
+  "norm_cap_relation": "LEQ_EXACT_TARGET_40_OVER_71",
+  "constructive_G_R_lower_bound": "71/40",
+  "constructive_G_R_lower_bound_decimal": "1.775",
+  "universal_strict_upper": "1760/987",
+  "three_significant_digit_rounding": "1.78",
+  "immutable_input_files": 3300,
+  "protected_baseline_full_replayed": true,
+  "new_local_criteria": 60,
+  "new_local_parts_replayed": 180,
+  "fresh_default_numeric_geometry_upper_jobs": 38,
+  "all_replay_stages": 219,
+  "seconds": 1774.0098571777344,
+  "immutable_hashes_rechecked_after_run": true,
+  "bindings": {
+    "input_manifest": {
+      "path": "new_round_2026-10-02/audit/portable_replay/FINAL_GOAL_INPUT_MANIFEST.json",
+      "sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a"
+    },
+    "replay_config": {
+      "path": "new_round_2026-10-02/audit/portable_replay/FINAL_GOAL_REPLAY_CONFIG.json",
+      "sha256": "5d1eb1b7291afd78080aa9ecfbb3624d94268b2fee41d596c2a01bc4da7997b3"
+    },
+    "complete_global_acceptance": {
+      "path": "new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json",
+      "sha256": "f1e6bf6641fa20dd23e1f60cd1c2deb743ac0be98035210ab6d58b24718c6f08"
+    },
+    "raw_all_local_result": {
+      "path": "new_round_2026-10-02/audit/final_goal_all_local_replay/REPLAY_RESULT.json",
+      "sha256": "c43f0ac299c2144b1951c280afba471416d6125b22617ae3ba211aa0a3f36e86"
+    },
+    "entrypoint": {
+      "path": "new_round_2026-10-02/audit/portable_replay/freeze_final_all_local_acceptance.py",
+      "sha256": "cc8e85cc70967144b9a5ebfef758f0095edae9c9b056812d88422b58f5133e13"
+    }
+  },
+  "scope": "The complete native Python all-local mode finished. It includes all default directed numerical, complete closed geometry and exact upper/rounding jobs, every current new whole-line criterion, and the protected baseline full local/scalar mode. No optimizer was called. The fixed Gaussian matrix sequence has actual ratio limit 1/N(.711), at least 1.775; equality to the cap or unrestricted constant is not asserted.",
+  "detailed_reports": "The raw summary retains SHA256 digests of every fresh report. Detailed output reports are reproducible from the frozen input manifest and are not immutable proof inputs.",
+  "docker_execution_tested": false
+}

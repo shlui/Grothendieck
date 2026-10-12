@@ -1,0 +1,31 @@
+{
+  "scope": "Floating mixedh projection of frozen localprofile onphysicalCLT-plus-H3 source law; notglobalnormcertificate",
+  "e": 0.2770182236270307,
+  "r": 0.2576,
+  "rows": [
+    {
+      "order": 32,
+      "mixed_projection": -0.010631413750113233,
+      "negative_cubic_penalty": -8.137940999478963e-05,
+      "agreement_amplitude": 0.755618481929409
+    },
+    {
+      "order": 64,
+      "mixed_projection": -0.010523694019358432,
+      "negative_cubic_penalty": -7.97386577854179e-05,
+      "agreement_amplitude": 0.7556046330968048
+    },
+    {
+      "order": 128,
+      "mixed_projection": -0.010671089509392795,
+      "negative_cubic_penalty": -8.198794894858054e-05,
+      "agreement_amplitude": 0.7555927056017929
+    },
+    {
+      "order": 256,
+      "mixed_projection": -0.010645054258536474,
+      "negative_cubic_penalty": -8.158836972037358e-05,
+      "agreement_amplitude": 0.7555988768199193
+    }
+  ]
+}

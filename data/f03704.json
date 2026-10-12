@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_MODERATEFACE_Q50_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/moderateface_literature/q50/profile_rank_exact.json",
+  "profile_sha256": "5fd1c1b6594fc23a9e6c4ee9c40db303e27f94dcc88143db1676dc47e51ce39e",
+  "reserves": [
+    "1/20000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/moderateface_q50_R3_recheck/independent_interval_moderateface_q50_q50_body.json",
+      "sha256": "7ca03976f6ec6c1f7284b85d172a58e7ea68567300a1482d407894d83c9fefe7",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2709,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/moderateface_q50_R3_recheck/independent_interval_moderateface_q50_q50_exterior.json",
+      "sha256": "ed865e5db10e5369672c0f7e39e6c10b55816cfd31ca4de58935ad41b6cec8c2",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 157,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/moderateface_q50_R3_recheck/independent_interval_moderateface_q50_q50_tail.json",
+      "sha256": "3ab1ecef57d2ec5f3e6461724fe370c2a78a550ccfc4d42284cab73f8b1cb655",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "94be82dcbfb3acd97278c1c416c13f2c9ce973dbe41bc2d38cce6f504fc5d251",
+  "adapter_path": "tonight/audit/replay_R3_q50_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance.",
+  "byte_identical_input_aliases": {
+    "tonight/audit/moderateface_q50_R3_input/profile_interval_moderateface_q50.json": {
+      "original": "tonight/operator/moderateface_literature/q50/profile_rank_exact.json",
+      "sha256": "5fd1c1b6594fc23a9e6c4ee9c40db303e27f94dcc88143db1676dc47e51ce39e"
+    },
+    "tonight/audit/moderateface_q50_R3_input/body_interval_moderateface_q50.json.gz": {
+      "original": "tonight/operator/moderateface_literature/q50/body_rank.json.gz",
+      "sha256": "0d13453369a5ed32ae8a3e2fc334190785e07a4f516372060a81d5ce67d672d6"
+    },
+    "tonight/audit/moderateface_q50_R3_input/exterior_interval_moderateface_q50.json.gz": {
+      "original": "tonight/operator/moderateface_literature/q50/exterior_rank.json.gz",
+      "sha256": "8290f7cef1bf27ae378855c99572b69db86c85cc5b5cb8ecf0133266a78c7738"
+    },
+    "tonight/audit/moderateface_q50_R3_input/tail_interval_moderateface_q50.json": {
+      "original": "tonight/operator/moderateface_literature/q50/tail32_rank.json",
+      "sha256": "2f60a76d10866b81d0d7d123a16763faab2b19d0fb758291f3e86e7e485a8a0a"
+    }
+  }
+}

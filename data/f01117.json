@@ -1,0 +1,30 @@
+{
+  "status": "PRODUCER_COMPLETE_UNCHANGED_KAPPA26_Q40_PENDING_INDEPENDENT_AUDIT",
+  "profiles": [
+    {
+      "name": "new_kappa26_q40_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/profile_new_kappa26_b711.json",
+      "profile_sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/25000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/KAPPA26_Q40_GATE_MANIFEST.json",
+      "acceptance_sha256": "72fa432a8caba147583269dce1ad927b6997f82dadaeeaf3120c61eb5d13049b",
+      "proof_status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/body_kappa26_q40.json.gz",
+          "sha256": "bb6e50a52c344aaf4b682dc6f30e94091e379ba132906388cd4f8b60135b6f57"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/exterior_kappa26_q40.json.gz",
+          "sha256": "2569d615de6bfeafdf3766b045496356cf90efb348dd604d9c44c93718b890d9"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/tail_kappa26_q40.json",
+          "sha256": "6b77d782df645a54064ed07529414d67a0f7e8d8e15f8ef778be9c92122160f0"
+        }
+      ]
+    }
+  ]
+}

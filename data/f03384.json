@@ -1,0 +1,536 @@
+{
+  "status": "FROZEN_COMPLETE_FULLUPPER_PARENT_CHAIN_REPLAY_CONFIG",
+  "accepted_cache_report": "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json",
+  "geometry_nodes": 9,
+  "jobs": [
+    {
+      "name": "complete_cubic_L1_moment_prices",
+      "args": [
+        "tonight/audit/refit847/replay_complete_refit_cover.py"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "all_line_cubic_contact_coefficients",
+      "args": [
+        "tonight/audit/verify_cubic_head_contact.py"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "all_line_linear_source_coefficients",
+      "args": [
+        "tonight/audit/verify_linear_contact_bank.py"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "all_final57_native_endpoint_prices",
+      "args": [
+        "tonight/audit/global_b7171/replay_final57_native_endpoints.py"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_00_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_00_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_00_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_00_R3_cache.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_00_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_00_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_00_complete_geometry",
+      "args": [
+        "tonight/theory/audit_fullupper_polygon_envelope.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+        "--cache-audit",
+        "tonight/audit/global_b7171/portable_chain_00_R3_cache.json",
+        "--plane-audit",
+        "tonight/audit/global_b7171/portable_chain_00_plane_prices.json",
+        "--native-audit",
+        "tonight/audit/global_b7171/final57_kappa_native_endpoint_replay.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_01_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_01_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_01_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_01_R3_cache.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_01_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_01_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_01_monotone_geometry",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+        "--cache-audit",
+        "tonight/audit/global_b7171/portable_chain_01_R3_cache.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_twentytwobank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_02_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_02_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_02_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_02_R3_cache.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_02_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_02_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_02_adaptive_child_partition",
+      "args": [
+        "tonight/theory/audit_adaptive_polygon_refinement.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_twentytwobank_monotone_audit.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_twentytwobank_adaptive_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_03_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_03_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_03_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_03_R3_cache.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_03_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_03_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_03_monotone_geometry",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_twentytwobank_adaptive_audit.json",
+        "--cache-audit",
+        "tonight/audit/global_b7171/portable_chain_03_R3_cache.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_twentythreebank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_04_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_04_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_04_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_04_R3_cache.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_04_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/portable_chain_04_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_04_monotone_geometry",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_twentythreebank_monotone_audit.json",
+        "--cache-audit",
+        "tonight/audit/global_b7171/portable_chain_04_R3_cache.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_twentyfivebank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_05_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final57_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/full_upper57_b713_27_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_05_all_R3_corners",
+      "args": [
+        "tonight/audit/global_b7171/replay_generic_R3_cache_57.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_05_all_source_planes_and_inverse",
+      "args": [
+        "tonight/audit/global_b7171/check_fullupper57_plane_prices.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/full_upper57_b713_27_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "portable_chain_05_monotone_geometry",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_twentyfivebank_monotone_audit.json",
+        "--cache-audit",
+        "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json",
+        "--output",
+        "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "parent_contact_credits",
+      "args": [
+        "tonight/audit/global_b7171/check_polygon_contact_credits.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+        "--r3-report",
+        "tonight/audit/global_b7171/portable_chain_01_R3_cache.json",
+        "--output",
+        "tonight/audit/global_b7171/full_upper57_b713_22_contact_credits.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final_active_and_inherited_contact_credits",
+      "args": [
+        "tonight/audit/global_b7171/check_adaptive_contact_credits.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--r3-report",
+        "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json",
+        "--output",
+        "tonight/audit/global_b7171/full_upper57_b713_27_contact_credits.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "complete_chosen_b_lower_branch",
+      "args": [
+        "tonight/audit/global_b7171/replay_lower_target_transport.py",
+        "--b",
+        "713/1000",
+        "--output",
+        "tonight/audit/global_b7171/b713_complete_lower_target_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "complete_parent27_global_assembly",
+      "args": [
+        "tonight/audit/global_b7171/assemble_fullupper_global_acceptance.py",
+        "--envelope",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "--native-baseline",
+        "tonight/audit/global_b7171/final57_kappa_native_endpoint_replay.json",
+        "--native",
+        "tonight/audit/global_b7171/full_upper57_b713_27_native_transport.json",
+        "--cache",
+        "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json",
+        "--plane",
+        "tonight/audit/global_b7171/full_upper57_b713_27_plane_prices.json",
+        "--contact",
+        "tonight/audit/global_b7171/full_upper57_b713_27_contact_credits.json",
+        "--geometry",
+        "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+        "--lower",
+        "tonight/audit/global_b7171/b713_complete_lower_target_transport.json",
+        "--cap",
+        "564016519/1000000000",
+        "--output",
+        "tonight/audit/global_b7171/FULLUPPER57_TWENTYSEVENBANK_GLOBAL_ACCEPTANCE.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "all_final68_native_endpoint_prices",
+      "args": [
+        "tonight/audit/global_b7171/replay_final68_native_endpoints.py"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final68_target_b_native_transport",
+      "args": [
+        "tonight/audit/global_b7171/check_final68_native_transport.py",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/full_upper68_b713_native_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final68_all_extra_physical_planes",
+      "args": [
+        "tonight/audit/global_b7171/check_native68_overlay_planes.py",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+        "--output",
+        "tonight/audit/global_b7171/full_upper68_b713_plane_prices.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "exact_final68_child_partition_geometry",
+      "args": [
+        "tonight/theory/audit_native_kappa_refinement.py",
+        "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+        "--native-audit",
+        "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+        "--output",
+        "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "complete_native68_global_assembly",
+      "args": [
+        "tonight/audit/global_b7171/assemble_native_kappa_refinement_acceptance.py",
+        "--envelope",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+        "--parent-global",
+        "tonight/audit/global_b7171/FULLUPPER57_TWENTYSEVENBANK_GLOBAL_ACCEPTANCE.json",
+        "--geometry",
+        "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+        "--native",
+        "tonight/audit/global_b7171/full_upper68_b713_native_transport.json",
+        "--plane",
+        "tonight/audit/global_b7171/full_upper68_b713_plane_prices.json",
+        "--baseline",
+        "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+        "--output",
+        "tonight/audit/global_b7171/FULLUPPER68_NATIVE_REFINED_GLOBAL_ACCEPTANCE.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final_twentyeight_fresh_monotone_delta",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+        "--output",
+        "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "complete_twentyeight_global_assembly",
+      "args": [
+        "tonight/audit/global_b7171/assemble_monotone_global_acceptance.py",
+        "--parent-global",
+        "tonight/audit/global_b7171/FULLUPPER68_NATIVE_REFINED_GLOBAL_ACCEPTANCE.json",
+        "--envelope",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+        "--geometry",
+        "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+        "--output",
+        "tonight/audit/global_b7171/FULLUPPER68_TWENTYEIGHTBANK_GLOBAL_ACCEPTANCE.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final_twentynine_fresh_monotone_delta",
+      "args": [
+        "tonight/theory/audit_monotone_R3_upgrade_fresh.py",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+        "--parent-audit",
+        "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+        "--output",
+        "tonight/theory/fullupper_b713_native_kappa68_twentyninebank_monotone_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "complete_reference713_final29_global_assembly",
+      "args": [
+        "tonight/audit/global_b7171/assemble_monotone_global_acceptance.py",
+        "--parent-global",
+        "tonight/audit/global_b7171/FULLUPPER68_TWENTYEIGHTBANK_GLOBAL_ACCEPTANCE.json",
+        "--envelope",
+        "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+        "--geometry",
+        "tonight/theory/fullupper_b713_native_kappa68_twentyninebank_monotone_audit.json",
+        "--output",
+        "tonight/audit/global_b7171/FINAL29_GLOBAL_ACCEPTANCE.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final711_same_b_complete_lower_branch",
+      "args": [
+        "tonight/audit/global_b7171/replay_lower_target_transport_exact_early.py",
+        "--b",
+        "711/1000",
+        "--output",
+        "tonight/audit/global_b7171/b711_complete_lower_target_transport.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final711_exact43_profile_beta_spectral_bindings",
+      "args": [
+        "tonight/audit/global_b7171/replay_assigned_beta_bindings.py",
+        "--scan",
+        "tonight/recovery/profile_cover/assigned_twenty-nine_coefficient_scan.json",
+        "--parent-global",
+        "tonight/audit/global_b7171/FINAL29_GLOBAL_ACCEPTANCE.json",
+        "--b",
+        "711/1000",
+        "--output",
+        "tonight/audit/global_b7171/final29_b711_beta_spectral_audit.json"
+      ],
+      "bits": 768
+    },
+    {
+      "name": "final711_all272579_uniform_cell_transports",
+      "args": [
+        "tonight/theory/audit_assigned_b711_shifted_cells.py"
+      ],
+      "bits": 768
+    }
+  ],
+  "assembly_args": [
+    "tonight/audit/global_b7171/assemble_b711_global_acceptance.py",
+    "--parent-global",
+    "tonight/audit/global_b7171/FINAL29_GLOBAL_ACCEPTANCE.json",
+    "--transport",
+    "tonight/theory/assigned_b711_shifted_cells_audit.json",
+    "--spectral",
+    "tonight/audit/global_b7171/final29_b711_beta_spectral_audit.json",
+    "--lower",
+    "tonight/audit/global_b7171/b711_complete_lower_target_transport.json",
+    "--output",
+    "tonight/audit/global_b7171/FINAL_B711_GLOBAL_ACCEPTANCE.json"
+  ],
+  "scope": "Fresh native endpoints, every chain R3 cache/physical plane/inverse table, exact complete base and every monotone/adaptive child partition, active/inherited contact prices, same-b lower branch, and global assembly. Complete scalar/local leaf replay is optional and separately explicit. The final native-only cumulant overlay also freshly checks all13936 new native endpoints, exact target-b transport, every new source plane, all child intervals and exact polygon/knot/edge prices.",
+  "additional_gate_binding_reports": [
+    "tonight/audit/global_b7171/final29_additional_R3_gate_bindings.json"
+  ],
+  "reference_envelope_operator_b": "713/1000"
+}

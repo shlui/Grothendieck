@@ -1,0 +1,14 @@
+{
+  "tonight/audit/highk_lowr_R3_input/profile_interval_highk_lowr.json": {
+    "original": "tonight/operator/highk_lowr_literature/profile_rank_exact.json",
+    "sha256": "596886cd59aea3a29b51d6a12311faa3f11d0966bbdc580021970004a5b15c30"
+  },
+  "tonight/audit/highk_lowr_R3_input/body_interval_highk_lowr.json.gz": {
+    "original": "tonight/operator/highk_lowr_literature/body_rank.json.gz",
+    "sha256": "ab8d23fa76e85acf193589e116a2254ed4f54cb849b4e9bdc781fb97d1b4c30d"
+  },
+  "tonight/audit/highk_lowr_R3_input/exterior_interval_highk_lowr.json.gz": {
+    "original": "tonight/operator/highk_lowr_literature/exterior_rank.json.gz",
+    "sha256": "281bbecfa6a37b53f86e731756eb77b1100f73de296f0b35b582cd12dd78b42a"
+  }
+}

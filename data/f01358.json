@@ -1,0 +1,282 @@
+{
+  "status": "SIX_NEW_REFERENCE_B7171_EXACT_RANK_PROFILES_WITH_INDEPENDENT_WHOLE_Q_ACCEPTANCE",
+  "scope": "All frozen local gates are dimension-uniform and transport in u,r,kappa; global source assembly and any new operator-b selection are separate proofs.",
+  "profiles": [
+    {
+      "name": "new_worst_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_worst_b711.json",
+      "profile_sha256": "8b49090e2684eab495e626bdae895c6926bd2329b1d42967f6361ee015287e6e",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/two_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "ae0622154fa6aac8b1e021517979c1ddfcee8eac843bca44ba133808d6e6ef09",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_worst_b711_tight.json.gz",
+          "sha256": "ca7a45f77bf60a176e52f0c1626fb6b2fae228971001d9e817d5d402bf9e8155"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_worst_b711_tight.json.gz",
+          "sha256": "419ef6b6dd42d0d6362b54ad34e9cd2990587004d928e3d1b345dddc76e56b64"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_worst_b711_tight.json",
+          "sha256": "b28c9c95424df46eb0630a9fdb4dd40047ba843be42f721c7f2de35ae18f4ebb"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".7585",
+          ".759"
+        ],
+        "r": [
+          ".244",
+          ".246"
+        ],
+        "kappa": [
+          ".53",
+          ".8"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_diffuse_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuse_b711.json",
+      "profile_sha256": "92230015accb7a65213e49146c8c6329b83be925a2f3d4e468c7818d340f8cf4",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/two_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "ae0622154fa6aac8b1e021517979c1ddfcee8eac843bca44ba133808d6e6ef09",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuse_b711.json.gz",
+          "sha256": "572ed02fb19af0b9f88d9d98c18952b6aa171521b52f1524e12e78ac022dac54"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuse_b711.json.gz",
+          "sha256": "d1e9246066175b2a818e26a08bb5ff7e870f4a42358293b0753c2d04c3bb0b42"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_diffuse_b711.json",
+          "sha256": "dc86ce0ea3c8d00459e61801cf36e2c7447f2c79f0bb0218462623367a8e9d60"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".7425",
+          ".743"
+        ],
+        "r": [
+          ".290",
+          ".292"
+        ],
+        "kappa": [
+          "0",
+          ".1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_moderate1_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate1_b711.json",
+      "profile_sha256": "19cb93418920d791a1cb11b02c6c991e09a852744dc66f1c32966d982ffbbb89",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "0b957f130941b7526ef3a7d37877cfe1d81a05c879eeddd195a93b503092e8f4",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate1_b711.json.gz",
+          "sha256": "b3921acf04b6520b9f12d8fae28b35658f4c1e6429a7afd5309a6a84e62d0299"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate1_b711.json.gz",
+          "sha256": "956f43e68adf8d7beef1a2676a509bc3b1464bb190d5404c85c51581e8fcb0bd"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate1_b711.json",
+          "sha256": "87e8b18fc42926f82e00686bf488eeb3a68ed9e0d0983dd248d37785a9f7d016"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".723",
+          ".7235"
+        ],
+        "r": [
+          ".336",
+          ".338"
+        ],
+        "kappa": [
+          "1.75",
+          "1.8"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_moderate2_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate2_b711.json",
+      "profile_sha256": "f78bf606f85588a5f0d9738f2046c44e30aa3096abd378d1a6caada6a17338d1",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "0b957f130941b7526ef3a7d37877cfe1d81a05c879eeddd195a93b503092e8f4",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate2_b711.json.gz",
+          "sha256": "9c7ebe9e2c415526482a001d310c163646fd2acb1a3d28791f929bf79302377d"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate2_b711.json.gz",
+          "sha256": "479cd74df2e78aa7b34e1db3cb7fc85b4ffbbfe66f07826154a88c90e86979cf"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate2_b711.json",
+          "sha256": "f021959cbed053fe6fabb32495880682def1bbb1d9fbb410250c56541ecae547"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".756",
+          ".7565"
+        ],
+        "r": [
+          ".252",
+          ".254"
+        ],
+        "kappa": [
+          "2",
+          "2.25"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_ridge_diffuse_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_diffuse_b711.json",
+      "profile_sha256": "46ec6e4232ce307d969bd1b642592af8fb752919fe67ec86dee50209d831d4ae",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_ridge_diffuse_b711.json.gz",
+          "sha256": "9abd9c3515c6911ce0c146fe6e3f7f03563ece36df6ade6f4a940b5c58283f36"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_ridge_diffuse_b711.json.gz",
+          "sha256": "7d5daf56706ba05400c81370be4bf90d1a9c28b016db534d3296814a4fe25c28"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_ridge_diffuse_b711.json",
+          "sha256": "d62997eb378085a720b9e97e0461afb574732d8804a51cf32450fe6e470335e1"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".766",
+          ".7665"
+        ],
+        "r": [
+          ".218",
+          ".220"
+        ],
+        "kappa": [
+          "0",
+          ".1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_ridge_moderate_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_moderate_b711.json",
+      "profile_sha256": "c30f3516a073c52fd59f1573e957aa000f30eb2a901538be7c53eadbefab6654",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_ridge_moderate_b711.json.gz",
+          "sha256": "fe144998b4a405f9575917e89139bb0a72c3ee6778169a4406dd8420e1ada090"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_ridge_moderate_b711.json.gz",
+          "sha256": "9d6f35a22d757b792252075b13011f0c971e70602f790156c0ac73a475ea32d6"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_ridge_moderate_b711.json",
+          "sha256": "a16e10bce05f80639872b0ae9ab1ecc558b7005935b862c30d7940bfbe22a2cf"
+        }
+      ],
+      "source_domain": {
+        "u": [
+          ".765",
+          ".770"
+        ],
+        "r": [
+          ".202",
+          ".204"
+        ],
+        "kappa": [
+          ".8",
+          "1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "source_ledger_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_six_source_boxes.json",
+      "source_ledger_sha256": "8540bdaaede4b12fced4e05ca5fbcc6ae09acdf8cfc6a088295088e533c9425f",
+      "source_price_operator_b": "711/1000"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_INDEPENDENT_EXTENDED_CRITICAL_NATIVE_ALL_SELECTED_ENDPOINT_PRICES",
+  "operator_b": "7171/10000",
+  "endpoint_prices_recomputed": 224,
+  "precision_bits": 768,
+  "frame": {
+    "mask": "tonight/recovery/profile_cover/critical_extended_r032_b7171_endpoint_ledger.json",
+    "mask_sha256": "fdbe997e36bd81f286f1c5c128f7e8d5151c42d33a7bd107a094df89450148f1",
+    "package": "tonight/native_frames/critical_extended_r032",
+    "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9",
+    "replay_sha256": "e8d1c866d4bc15033387bf20e9179ff795351a33578e21d16bb7655acf2a9ae1"
+  },
+  "exact_gram_cost": "-13235742513404877573653807317367827/28429447301441456250000000000000000",
+  "kappa_interval": [
+    "0",
+    "90"
+  ],
+  "all_shapes": [
+    "0",
+    "1"
+  ],
+  "source_grid_endpoint": "8/25",
+  "packages": [
+    {
+      "package": "tonight/native_frames/critical_extended_r032",
+      "manifest_sha256": "a41537440aa2c93458110efaa3ce87bfae3dd5fb20625a57a882f2646264ecef",
+      "replay_sha256": "e8d1c866d4bc15033387bf20e9179ff795351a33578e21d16bb7655acf2a9ae1",
+      "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9"
+    }
+  ],
+  "producer_code_imported": false,
+  "seconds": 0.9566340446472168,
+  "scope": "Accepted native physical gate and exact b-transport with independently repriced selected scalar/L1 endpoint bounds. The updated global source partition and contact credit are separate.",
+  "envelope_input_sha256": "efda4aa16d57edc8c67eb94c4121a376b026ee8a52d141de8dace0460711f561"
+}

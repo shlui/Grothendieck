@@ -1,0 +1,377 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_B711_R3_COMPONENTS",
+  "operator_b": "711/1000",
+  "whole_q_binding": {
+    "path": "new_round_2026-10-02/audit/ridge_source_boxes/WHOLE_Q_ACCEPTANCE.json",
+    "sha256": "81aed7322acde8870e98621ea09d476d4ca0858ed4c5c1557c08ef4318fa4136"
+  },
+  "components": [
+    {
+      "name": "new_ridge_diffuse_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_diffuse_b711.json",
+        "sha256": "46ec6e4232ce307d969bd1b642592af8fb752919fe67ec86dee50209d831d4ae"
+      },
+      "operator_b": "711/1000",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_body.json",
+          "sha256": "b7f4b993abc7a0369300edf88109e41675b62f210619c84f2b40ab7706ead411",
+          "profile": "interval_new_ridge_diffuse_b711",
+          "part": "body",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 7580
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_exterior.json",
+          "sha256": "bcf53a04ab0afff84ac345904e91b9f739c7160ea249d9b98f3e165465a52cf7",
+          "profile": "interval_new_ridge_diffuse_b711",
+          "part": "exterior",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 201
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_tail.json",
+          "sha256": "b9cd6ed70351c6127fb1b0c3c5e4c0cd3c23c2a6f845d515c090fb0324ddab31",
+          "profile": "interval_new_ridge_diffuse_b711",
+          "part": "tail",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/new_ridge_diffuse_b711_source_price.json",
+        "sha256": "a749f3ea122c61b5df63cbb874767d500d9b10da4e0ed27da9c3ab03df17dbf0"
+      },
+      "source_domain": {
+        "u": [
+          ".766",
+          ".7665"
+        ],
+        "r": [
+          ".218",
+          ".220"
+        ],
+        "kappa": [
+          "0",
+          ".1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "maximum_directed_upper": "562992073312783935039753813099852879571090877855045125219324464991305390751718008966456903431604517356064926804327123436327056617128943295748687733331150594995061925560203899293979494947751466386844722057349541683344103004767346062884420547/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_rounded_cap": "562993/1000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "47925492473/50000000000",
+              "13631971649/100000000000"
+            ],
+            "off_diagonal": "725632613/4000000000",
+            "determinant": "977548728656842940329/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "97925492473/50000000000",
+              "1781971649/100000000000"
+            ],
+            "off_diagonal": "725632613/4000000000",
+            "determinant": "19911721946742940329/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "12375492473/50000000000",
+              "13631971649/100000000000"
+            ],
+            "off_diagonal": "725632613/4000000000",
+            "determinant": "8315544412942940329/10000000000000000000000"
+          }
+        ]
+      }
+    },
+    {
+      "name": "new_ridge_moderate_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_moderate_b711.json",
+        "sha256": "c30f3516a073c52fd59f1573e957aa000f30eb2a901538be7c53eadbefab6654"
+      },
+      "operator_b": "711/1000",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_body.json",
+          "sha256": "9a50069dfc55b47f62a7bc31d16f1722ec993e8bb2e6ff04c4d9489e90009cc3",
+          "profile": "interval_new_ridge_moderate_b711",
+          "part": "body",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 4508
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_exterior.json",
+          "sha256": "4ab396cb21a126a0531a41e350d8b4bd68ef24287a66973ffb2ff10844835187",
+          "profile": "interval_new_ridge_moderate_b711",
+          "part": "exterior",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 224
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_tail.json",
+          "sha256": "6e7be78d5584a9064dc5ae41aee52cf0f21f1334f1a3ef15253d439b4384bb11",
+          "profile": "interval_new_ridge_moderate_b711",
+          "part": "tail",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/new_ridge_moderate_b711_source_price.json",
+        "sha256": "812c80511fab4a0b5034f7de69db5bf0bd23db9159b1254667d8842e1c55b932"
+      },
+      "source_domain": {
+        "u": [
+          ".765",
+          ".770"
+        ],
+        "r": [
+          ".202",
+          ".204"
+        ],
+        "kappa": [
+          ".8",
+          "1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "maximum_directed_upper": "562726662070591007320695862468400148027993773709796061852309803790275788799343310339274994508069182613734000353898545036049316786439670067750627897888163285658687862271756080973976243262268189745011744331501263315377299288435846168101115107/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_rounded_cap": "562727/1000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "18448156043/20000000000",
+              "1672585967/12500000000"
+            ],
+            "off_diagonal": "16574556359/100000000000",
+            "determinant": "959529158084254606359/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "38448156043/20000000000",
+              "191335967/12500000000"
+            ],
+            "off_diagonal": "16574556359/100000000000",
+            "determinant": "19544686136504606359/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "4228156043/20000000000",
+              "1672585967/12500000000"
+            ],
+            "off_diagonal": "16574556359/100000000000",
+            "determinant": "8162260054654606359/10000000000000000000000"
+          }
+        ]
+      }
+    },
+    {
+      "name": "root_ridge_k125_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/root_moderate_fit/certificate/profile_ridge_k125.json",
+        "sha256": "8039bfa4b9d94185df48e1a714f16b30e8adda342aebc13bfd169e67dea32f5e"
+      },
+      "operator_b": "711/1000",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_body.json",
+          "sha256": "32f55aa71a3af2ec6d4dc02132ed12e2362d3bf32ae12ab57f8ef9498ef23081",
+          "profile": "interval_root_ridge_k125_b711",
+          "part": "body",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 2749
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_exterior.json",
+          "sha256": "3cfe96cebad89b414ed35f13aa41e2ba7ffa07c7090a64464748a7de20c0b2f0",
+          "profile": "interval_root_ridge_k125_b711",
+          "part": "exterior",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 156
+        },
+        {
+          "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_tail.json",
+          "sha256": "8b868ac4d757bc65ab14dcca22ee99989017468e65a3a1c82e02b0255b29b1e3",
+          "profile": "interval_root_ridge_k125_b711",
+          "part": "tail",
+          "branch": "lowerface",
+          "reserve0": "1/10000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/root_ridge_k125_b711_source_price.json",
+        "sha256": "29ea5c4842eccc9dd83731fd5524f5c5371f4d43c465ec3e4e81b9d1d5a7fe3a"
+      },
+      "source_domain": {
+        "u": [
+          ".766",
+          ".7665"
+        ],
+        "r": [
+          ".220",
+          ".222"
+        ],
+        "kappa": [
+          "1.25",
+          "1.3"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "maximum_directed_upper": "563202110644829937675472477290022697530158689284353988510155340484423301857966633874589099000771539725199612160177884243336370738863186898522371153658777462494061546581520324866506475490991610445291240054308061956451114116521349357991035543/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_rounded_cap": "563203/1000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "255515625081192317689/625000000000000000000"
+            ],
+            "off_diagonal": "309545407662720993527/1250000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "33328125081192317689/625000000000000000000"
+            ],
+            "off_diagonal": "309545407662720993527/1250000000000000000000",
+            "determinant": "650559732069329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "14667705737/20000000000",
+              "12063634711/100000000000"
+            ],
+            "off_diagonal": "179840637/4000000000",
+            "determinant": "86451506110018157941/1000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "34667705737/20000000000",
+              "213634711/100000000000"
+            ],
+            "off_diagonal": "179840637/4000000000",
+            "determinant": "1681696728293157941/1000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "447705737/20000000000",
+              "12063634711/100000000000"
+            ],
+            "off_diagonal": "179840637/4000000000",
+            "determinant": "679063314808157941/1000000000000000000000"
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Whole-q physical gates plus exact711 spectral prerequisites and directed restricted-source prices. Former conditional source-premise wording is resolved by the bound whole-q acceptance. No complete amplitude coverage/global norm claim; old frozen proof unchanged."
+}

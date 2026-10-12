@@ -1,0 +1,327 @@
+{
+  "status": "PASS_TEN_NEW_INDEPENDENT_B711_REGIONAL_COMPONENTS",
+  "operator_b": "711/1000",
+  "components": [
+    {
+      "name": "new_worst_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_worst_b711.json",
+        "sha256": "8b49090e2684eab495e626bdae895c6926bd2329b1d42967f6361ee015287e6e"
+      },
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/two_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "ae0622154fa6aac8b1e021517979c1ddfcee8eac843bca44ba133808d6e6ef09"
+      },
+      "source_domain": {
+        "u": [
+          "1517/2000",
+          "759/1000"
+        ],
+        "r": [
+          "61/250",
+          "123/500"
+        ],
+        "kappa": [
+          "53/100",
+          "4/5"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "281667/500000"
+    },
+    {
+      "name": "new_diffuse_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuse_b711.json",
+        "sha256": "92230015accb7a65213e49146c8c6329b83be925a2f3d4e468c7818d340f8cf4"
+      },
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/two_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "ae0622154fa6aac8b1e021517979c1ddfcee8eac843bca44ba133808d6e6ef09"
+      },
+      "source_domain": {
+        "u": [
+          "297/400",
+          "743/1000"
+        ],
+        "r": [
+          "29/100",
+          "73/250"
+        ],
+        "kappa": [
+          "0",
+          "1/10"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "563201/1000000"
+    },
+    {
+      "name": "new_moderate1_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate1_b711.json",
+        "sha256": "19cb93418920d791a1cb11b02c6c991e09a852744dc66f1c32966d982ffbbb89"
+      },
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/moderate_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "0b957f130941b7526ef3a7d37877cfe1d81a05c879eeddd195a93b503092e8f4"
+      },
+      "source_domain": {
+        "u": [
+          ".723",
+          ".7235"
+        ],
+        "r": [
+          ".336",
+          ".338"
+        ],
+        "kappa": [
+          "1.75",
+          "1.8"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "22511/40000"
+    },
+    {
+      "name": "new_moderate2_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate2_b711.json",
+        "sha256": "f78bf606f85588a5f0d9738f2046c44e30aa3096abd378d1a6caada6a17338d1"
+      },
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/moderate_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "0b957f130941b7526ef3a7d37877cfe1d81a05c879eeddd195a93b503092e8f4"
+      },
+      "source_domain": {
+        "u": [
+          ".756",
+          ".7565"
+        ],
+        "r": [
+          ".252",
+          ".254"
+        ],
+        "kappa": [
+          "2",
+          "2.25"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "563321/1000000"
+    },
+    {
+      "name": "highk_native76625_repaired",
+      "profile": {
+        "path": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_native_face_b7171.json",
+        "sha256": "939773f8d3542b86b3459748b289f3f0dbf7bbbb4193147f8c592396fd54b7e7"
+      },
+      "reserve0": "3/100",
+      "reserve6": "1/5000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/highk_repaired_source_box/COMPONENT_ACCEPTANCE.json",
+        "sha256": "7c818251bfc6d703d3555209372675eb0be8f0e4483c97179ba703ebec4a8416"
+      },
+      "source_domain": {
+        "u": [
+          "383/500",
+          "1533/2000"
+        ],
+        "r": [
+          "27/125",
+          "109/500"
+        ],
+        "kappa": [
+          "60",
+          "90"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "138277/250000"
+    },
+    {
+      "name": "new_ridge_diffuse_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_diffuse_b711.json",
+        "sha256": "46ec6e4232ce307d969bd1b642592af8fb752919fe67ec86dee50209d831d4ae"
+      },
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d"
+      },
+      "source_domain": {
+        "u": [
+          ".766",
+          ".7665"
+        ],
+        "r": [
+          ".218",
+          ".220"
+        ],
+        "kappa": [
+          "0",
+          ".1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "562993/1000000"
+    },
+    {
+      "name": "new_ridge_moderate_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_ridge_moderate_b711.json",
+        "sha256": "c30f3516a073c52fd59f1573e957aa000f30eb2a901538be7c53eadbefab6654"
+      },
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d"
+      },
+      "source_domain": {
+        "u": [
+          ".765",
+          ".770"
+        ],
+        "r": [
+          ".202",
+          ".204"
+        ],
+        "kappa": [
+          ".8",
+          "1"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "562727/1000000"
+    },
+    {
+      "name": "root_ridge_k125_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/root_moderate_fit/certificate/profile_ridge_k125.json",
+        "sha256": "8039bfa4b9d94185df48e1a714f16b30e8adda342aebc13bfd169e67dea32f5e"
+      },
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+        "sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d"
+      },
+      "source_domain": {
+        "u": [
+          ".766",
+          ".7665"
+        ],
+        "r": [
+          ".220",
+          ".222"
+        ],
+        "kappa": [
+          "1.25",
+          "1.3"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "563203/1000000"
+    },
+    {
+      "name": "highk_dense76625",
+      "profile": {
+        "path": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_denseq_b7171.json",
+        "sha256": "0bd2b059e4c4e1b5d6ba12db0bca29803656a2ac587e7a059288fe20fbdef33d"
+      },
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/dense_highk_source_box/COMPONENT_ACCEPTANCE.json",
+        "sha256": "0d36784e35000e88f7038f16b20fff52e5cc80406a88b81e1b004cd18835ef9d"
+      },
+      "source_domain": {
+        "u": [
+          "383/500",
+          "1533/2000"
+        ],
+        "r": [
+          "27/125",
+          "109/500"
+        ],
+        "kappa": [
+          "60",
+          "90"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "106419/200000"
+    },
+    {
+      "name": "new_secondary_moderate_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_secondary_moderate_b711.json",
+        "sha256": "f15bf00581aaea4a0d7c86eec37f1fe1dd3ed6f14f0c6a99a4aca891d18a96c9"
+      },
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "component_acceptance": {
+        "path": "new_round_2026-10-02/audit/secondary_moderate_source_box/COMPONENT_ACCEPTANCE.json",
+        "sha256": "36bb42929333710cbf922abe58d6ef6464fab7204806046d3aef52b9f0bb6b3a"
+      },
+      "source_domain": {
+        "u": [
+          ".721",
+          ".7225"
+        ],
+        "r": [
+          ".334",
+          ".338"
+        ],
+        "kappa": [
+          "1.65",
+          "1.85"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_cap": "28149/50000"
+    }
+  ],
+  "scope": "Accepted regional whole-q and source components only; no global coverage implied by this catalog."
+}

@@ -1,0 +1,75 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "rows": [
+    {
+      "status": "NUMERICAL_NEGATIVE_QUINTIC_DISCOVERY_ONLY",
+      "polynomial_degree": 5,
+      "degree": 12,
+      "scale": 2.0,
+      "kappa": 0.53,
+      "a": 2.925,
+      "eta": 0.0008691409066990146,
+      "phi_coefficients": [
+        -0.7555027680525696,
+        0.36251703698532006,
+        -0.04694207500767279,
+        0.0022975643858197223,
+        -3.40794020273864e-05,
+        0.6935405307994142,
+        -0.8902845444454255,
+        -0.18700746319019293,
+        0.5087129217684853,
+        0.6923025597723428,
+        0.5601272891704742,
+        0.3482012849677954,
+        0.1773808499060784,
+        0.07494167469451458,
+        0.02579434628875215,
+        0.00688593863498081,
+        0.0012840384109988553,
+        0.00012768723611787563
+      ],
+      "majorant": [
+        -0.13250737928210085,
+        0.13604877008006258,
+        -0.001207451753584062,
+        6.815880403285504e-06
+      ],
+      "J_upper_sampled": 2.4660673125201646,
+      "J_Gaussian": 2.466434635730282,
+      "max_scaled_violation_dense": 4.388156504830931e-14,
+      "history": [
+        {
+          "iteration": 0,
+          "status": "Optimization terminated successfully",
+          "iterations": 101,
+          "rank": 16,
+          "cap": 2.466067312394224,
+          "constraint_min": -7.253037502330051e-14,
+          "violation": 8.95835358324973e-10,
+          "seconds": 2.19268798828125
+        },
+        {
+          "iteration": 1,
+          "status": "Optimization terminated successfully",
+          "iterations": 41,
+          "rank": 16,
+          "cap": 2.4660673124228185,
+          "constraint_min": -1.509414966173594e-13,
+          "violation": 4.515219877294457e-10,
+          "seconds": 3.292783260345459
+        },
+        {
+          "iteration": 2,
+          "status": "Optimization terminated successfully",
+          "iterations": 9,
+          "rank": 16,
+          "cap": 2.4660673125201646,
+          "constraint_min": -4.382738543287114e-14,
+          "violation": 4.388156504830931e-14,
+          "seconds": 3.7313714027404785
+        }
+      ]
+    }
+  ]
+}

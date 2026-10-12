@@ -1,0 +1,63 @@
+{
+  "status": "PASS_COMPACT_PORTABLE_PACKAGE_BUILD_SMOKE",
+  "inventory": {
+    "status": "PASS_PACKAGED_VERIFICATION_INVENTORY",
+    "original_archive_files_checked": 7647,
+    "frozen_manifest_entries": 3300,
+    "distinct_frozen_manifest_files": 3292,
+    "packaged_verification_files": 7755,
+    "frozen_manifest_sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a",
+    "package_inventory_sha256": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "logical_path_map_sha256": "ec3ff54b7f658b68de62f1eeb6e137914bc26e67e15f163cf69a9b14846960dc",
+    "mapped_package_members": 7777,
+    "compact_physical_paths_validated": true,
+    "mathematical_replay_performed": false
+  },
+  "package_only_inventory_historical_root_reads_blocked": true,
+  "changed_packaged_input_rejected_while_historical_root_present": true,
+  "path_map_guard_cases_rejected": [
+    "parent_traversal",
+    "physical_target_collision",
+    "physical_case_collision",
+    "windows_reserved_name",
+    "physical_directory_case_collision"
+  ],
+  "frozen_manifest_parent_aliases_checked": 8,
+  "frozen_logical_root_escape_rejected": true,
+  "full_dry_run_top_level_stages": 219,
+  "strict_dry_run_top_level_stages": 37,
+  "saved_historical_successful_stage_records": 219,
+  "strict_dependencies": {
+    "required_python_modules": [],
+    "missing": [],
+    "mpfr_library": "libmpfr.so.6",
+    "python": "3.12.14"
+  },
+  "full_dependencies": {
+    "required_python_modules": [
+      "flint",
+      "gmpy2",
+      "scipy"
+    ],
+    "missing": [
+      "flint",
+      "gmpy2"
+    ],
+    "mpfr_library": "libmpfr.so.6",
+    "python": "3.12.14"
+  },
+  "bindings": {
+    "tools/replay.py": "668775b3975869f0961e841d21ccb06ec12fcca1744a0b0b4d846824f45c618c",
+    "tools/build_inventory.py": "d5a96037d301c82377a0732a55320b0709e84e158104d55e9e7f0de18bcaded3",
+    "tools/package_smoke.py": "a198ac9870e53b074cd54b7911df791a6f95a083a439e52e15c407b1b2fc293e",
+    "tools/package_paths.py": "1e60470f6cb844f3499e585210233ab7307f0dc1c05dc5e98da5b9df19fa1686",
+    "Dockerfile": "fa53c33992d649d045f5fc06cf5abe5714421a6f26ccd520c85968b31db10e67",
+    "requirements.txt": "661e6aa9cf240182cc37c21287ae8f028a0891b22d86f784a5bb8a64c53d1eed",
+    "inventories/VERIFICATION_FILES.json": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "inventories/SOURCE_ARCHIVE_FILES.json": "622666d5e223466d781b257230ee30d3fac4c0dec8bb2d255c03cb8c21d0f394"
+  },
+  "logical_path_map_sha256": "ec3ff54b7f658b68de62f1eeb6e137914bc26e67e15f163cf69a9b14846960dc",
+  "new_complete_math_replay_performed": false,
+  "new_31_job_strict_math_replay_performed": false,
+  "scope": "Compact map validity, original logical byte identities, complete stage plans, source lookup independence, and tamper rejection. Saved mathematical replay reports remain separate; this packaging smoke does not rerun them."
+}

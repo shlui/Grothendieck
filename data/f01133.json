@@ -1,0 +1,30 @@
+{
+  "status": "PRODUCER_COMPLETE_LOWU_KAPPA02_PENDING_INDEPENDENT_AUDIT",
+  "profiles": [
+    {
+      "name": "new_lowu_kappa02_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/profile_lowu_kappa02_b7171.json",
+      "profile_sha256": "5cf3fa96af1af1bc770d0b54728b593454bcd6f3c6003a19ddfc93e5ec417cf5",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/LOWU_KAPPA02_Q20_GATE_MANIFEST.json",
+      "acceptance_sha256": "56cbc1b7e3f6acec587202f1b302a173da64e5849800d410eb212c0cd7b23677",
+      "proof_status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/body_lowu_kappa02_q20.json.gz",
+          "sha256": "7ac6620be489091d5592c9dbfb3d97a9b9658593baed2406064f07e586ced3ab"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/exterior_lowu_kappa02_q20.json.gz",
+          "sha256": "7ab85032bce1f38adccbfab3d697e832be9a343358fc819ba5c6270f698ea8c5"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/tail_lowu_kappa02_q20.json",
+          "sha256": "77f0459a62edc3df1cd27a6c33946d025cfd163c80b5faf279f6dce67d508d55"
+        }
+      ]
+    }
+  ]
+}

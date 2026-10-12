@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_broad_highk_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/BROAD_HIGHK_GATE_MANIFEST.json",
+    "sha256": "400da53a6f521b9b2978bde8ab4ea293465939cf45e1326a2160c1adcd175fd5"
+  },
+  "profiles": [
+    {
+      "name": "new_broad_highk_b711",
+      "label": "interval_new_broad_highk_b711",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_broad_highk.json",
+          "alias": "new_round_2026-10-02/audit/broad_highk_source_box/input/profile_interval_new_broad_highk_b711.json",
+          "sha256": "f9235c547f98b9c77eae51c997d0259d921fc5c614af195f6643aedf87bff6f1"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/broad_highk_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/broad_highk_source_box/input/body_interval_new_broad_highk_b711.json.gz",
+          "sha256": "2d850156d93e9bc2ee6869c6764e3a71c634dbc05f960c79a18764d6f7ce7d2f"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/broad_highk_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/broad_highk_source_box/input/exterior_interval_new_broad_highk_b711.json.gz",
+          "sha256": "042ffdb01d01a84c16040fe4b8886b9cbd28c89390c1bdf8377e9d985992a54a"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/broad_highk_tail.json",
+          "alias": "new_round_2026-10-02/audit/broad_highk_source_box/input/tail_interval_new_broad_highk_b711.json",
+          "sha256": "9f13b128f72f0f3611048cd411cf7aceeef0d5f1b383ef0a8a880916e7741225"
+        }
+      ]
+    }
+  ]
+}

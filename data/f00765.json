@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/moderate_u753_q20_extra_manifest.json",
+    "sha256": "1f7307b292aa486b7ae101f1d2a7a8670ef2c5622730933e0e17b315eefe1442"
+  },
+  "profiles": [
+    {
+      "name": "new_moderate_u753_b711",
+      "label": "interval_new_moderate_u753_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/profile_moderate_u753_b7171.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u753_source_box/input/profile_interval_new_moderate_u753_b711.json",
+          "sha256": "4e4aadd5ad201b26095e8b5a2f3141928532cb7d860a48ccba39c7f71fe962a7"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/body_moderate_u753_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u753_source_box/input/body_interval_new_moderate_u753_b711.json.gz",
+          "sha256": "393f40d92e66f150535341310fa77d56e830614a09c49e9a06f6c62ee25d0442"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/exterior_moderate_u753_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u753_source_box/input/exterior_interval_new_moderate_u753_b711.json.gz",
+          "sha256": "ac2a256efd8eebd277edaed2730ecce269d0cb9e89aea3d1e8d718e311a4d9e1"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/tail_moderate_u753_q20.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u753_source_box/input/tail_interval_new_moderate_u753_b711.json",
+          "sha256": "464067062ac88b71804410419eac522ca999024809b37bfe56b8c2145d631e0a"
+        }
+      ]
+    }
+  ]
+}

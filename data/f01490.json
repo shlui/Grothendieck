@@ -1,0 +1,29 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_root_kappa225_rank_budget02_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_rank.json",
+      "profile_sha256": "c4acd7bab07c26dba3dd70f0a7ccc6aad62114f1c5c579dd152604eb62c6b647",
+      "reserve0": "1/50",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/KAPPA225_RANK_BUDGET02_GATE_MANIFEST.json",
+      "acceptance_sha256": "06a5be35b92ca4606b774f3322fc5966a7451ea9c58b280f9852c35631c052e8",
+      "proof_status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_rank_budget02_body.json.gz",
+          "sha256": "cce6c5865de632406a47d03babc85dac1964ef876417cd2e08dc1dd71062934f"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_rank_budget02_exterior.json.gz",
+          "sha256": "a3301f285d0498d2d15ef511e2bc413285beb13b06c18bd68f99a2cbbcd6cc5f"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_rank_budget02_tail.json",
+          "sha256": "45efae062f3af7be44079b1291f5ca8a8c95a584c621b27c499830199430d3c6"
+        }
+      ]
+    }
+  ]
+}

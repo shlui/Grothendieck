@@ -1,0 +1,57 @@
+\begin{proposition}[Exact transport to a smaller cubic coefficient]
+\label{prop:smaller-b-transport}
+Freeze a valid physical Gaussian profile at $b_0>0$, including its
+whole-line local and scalar majorants.  For every $0<b\leq b_0$ all
+its positive semidefinite gates remain valid.  At the same physical
+parameters $(u,r,\kappa,\text{shape})$, the resulting pairing upper
+price changes exactly by
+\[
+ (b-b_0)r^2+c_\beta\left(\frac1b-\frac1{b_0}\right).
+\]
+Here $c_\beta=\beta^2$ for orthonormal longitudinal Hermites and
+$c_\beta=6\beta^2$ for raw longitudinal Hermites in the R3 criterion.
+No new local Gaussian integration is required.  In the first case
+the local potential changes only by its constant
+$\beta^2(1/b-1/b_0)$; in the second it is unchanged.
+\end{proposition}
+\begin{proof}
+Each gate at the smaller coefficient is the old gate plus a positive
+semidefinite diagonal matrix.  For example, the raw even gate gains
+$\operatorname{diag}(0,(b_0-b)/2)$, and the raw odd gates gain
+$\operatorname{diag}(0,(b_0-b)/6)$ or
+$\operatorname{diag}(b_0-b,0)$.  The normalized gates behave likewise;
+the independent gates $E\succeq pp^T$, $E\succeq0$, $R\succeq0$
+do not change.  The rank-one raw gate also weakens.
+
+The only remaining appearances of $b$ in the completed criterion are
+the source term $br^2$ and the longitudinal square-completion constant.
+The norm of the raw third Hermite is squared norm six, accounting for
+the displayed factor.  All source residual and scalar majorant terms
+are independent of $b$.  In the normalized native criterion the added
+local constant cancels out of the centered Stein target, so its Stein
+solution and all derivative inequalities remain the same.  Its added
+constant is simply charged in the outer expectation.  This proves the
+exact price identity.
+\end{proof}
+
+\paragraph{Uniform cell pricing and a global coefficient.}
+Suppose an old valid uniform cap $U_0$ covers a physical source cell
+$r\in[r_-,r_+]$, where $0\leq r_-\leq r_+$.  Since $b-b_0\leq0$,
+the transported uniform cap
+\[
+ U_0+(b-b_0)r_-^2+c_\beta(1/b-1/b_0)
+\]
+is immediately valid.  For tighter endpoint repricing, the native
+source curvature changes to $\xi(b)=\xi(b_0)+b-b_0$, and the full-even
+R3 curvature changes to $a_r(b)=a_r(b_0)+b-b_0$.  Their respective
+chord reserves must be updated to
+\[
+ (-\xi(b))_+(r_+-r_-)^2/4,
+ \qquad (-a_r(b))_+(r_+-r_-)^2/4.
+\]
+Every such fixed-profile cell cap is convex in $b>0$.  A fixed
+selection of profiles covering all physical cells therefore gives a
+convex maximum of caps.  A norm certificate requires one coefficient
+$b$ valid for the entire cover.  Minimizing separately for each sign
+pair, at $b=\min\{b_0,\sqrt{c_\beta}/r\}$ when $r,c_\beta>0$,
+does not prove a bound for a single operator.

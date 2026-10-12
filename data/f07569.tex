@@ -1,0 +1,77 @@
+% Standalone analytic fragment. No numerical coverage is asserted here.
+\begin{lemma}[Exact pricing on physical source polygons]
+\label{lem:physical-source-polygon-price}
+Fix an amplitude interval $[u_-,u_+]$, a source interval $[r_-,r_+]$,
+and a cumulant interval. Suppose that, throughout the cumulant interval
+and for every allowed shape, proved scalar inequalities imply
+\[
+ a_j u+r\le C_j,\qquad a_j>0\quad(1\le j\le m).
+\]
+Let $K$ be the intersection of these half-planes with the amplitude--source
+rectangle, after any separately proved coordinate restrictions.
+For rational inputs its vertices and the maximum on $K$ of
+\[
+ F(u,r)=u^2+L_u u+g r^2+L_r r+C
+\]
+are computable using rational arithmetic. For a nonempty $K$, it suffices
+to check its vertices and, on each edge, the stationary point in the edge
+interior when the restricted quadratic is concave. This includes segments
+and singletons. An empty intersection contains no physical source.
+
+For a native certificate interpolated in $r$, first split $K$ at every
+source knot. On each resulting piece apply this rule to each of the four
+cumulant--shape corner bounds, and take the maximum of the resulting
+bounds. A fixed nonnegative contact multiplier may be included by changing
+only $L_u,L_r,C$.
+\end{lemma}
+\begin{proof}
+Every defining half-plane contains every physical source in the nominal
+rectangle, so intersection and coordinate clipping preserve all physical
+points. Rational line intersections give all vertices, retaining points
+on the boundaries. If a full-dimensional polygon had a maximizing point
+in its interior, sufficiently small horizontal displacements would stay
+in the polygon. Their two objective values have average
+$F(u,r)+\delta^2$, contradicting maximality. Thus its maximum lies on its
+boundary. On the edge $(u,r)=(u_0,r_0)+t(\Delta u,\Delta r)$,
+$0\le t\le1$, the quadratic coefficient is
+$(\Delta u)^2+g(\Delta r)^2$. Endpoints suffice when this coefficient is
+nonnegative; otherwise also check the unique stationary point if it lies
+in $(0,1)$. All these operations are rational. The same calculation covers
+the lower-dimensional cases.
+
+A native source chord is valid only between successive saved knots.
+Splitting at every knot therefore retains its validity on each closed
+piece; shared boundaries have both valid endpoint bounds. For each fixed
+cumulant--shape corner the chord changes only the linear and constant
+coefficients in $r$. The already proved corner inequalities and positive
+interpolation uniformly bound the whole cumulant--shape cell. Taking the
+maximum over the four corner prices and all source pieces gives a uniform
+bound. The scalar row chosen at a source endpoint is fixed throughout its
+cumulant--shape cell; different endpoints may use different globally
+valid scalar rows.
+
+For a contact with parameters $a,B$, put $d^2=6B^2$ and let $A$ be its
+uniform scalar price. The nonnegative multiplier $\lambda$ adds
+\[
+ -\lambda a u-\lambda r+
+ \lambda\left(A+\frac{\beta d}{b}\right)
+ +\frac{\lambda^2d^2}{4b}.
+\]
+Here $\beta$ is the normalized native Hermite coefficient; for a raw
+Hermite R3 profile the product $\beta d$ is $6\beta_{\rm raw}B$.
+The coefficient of $u^2$ remains one, so the same boundary computation
+applies. The multiplier and scalar contact are fixed on the whole
+cell. Selecting any one of several proved upper bounds on each cell
+preserves validity.
+\end{proof}
+
+\begin{remark}[Uniform source planes]
+For the accepted even sextic scalar rows, the moment price is affine in
+shape and convex in cumulant: the sextic coefficient is nonnegative and
+the coefficient multiplying $\kappa^{3/2}$ is positive throughout the
+shape interval. Hence the largest of the four endpoint prices is a
+uniform $C_j$. A single fixed scalar row is used for each plane over the
+whole cumulant interval. Taking the smallest uniform price among several
+such rows is valid; taking separate minima at the four corners would
+require a separate justification.
+\end{remark}

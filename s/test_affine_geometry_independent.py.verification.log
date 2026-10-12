@@ -1,0 +1,63 @@
+{
+  "status": "PASS_MANUAL_EXACT_AFFINE_GEOMETRY_FIXTURES",
+  "accepted": [
+    {
+      "name": "square_secant",
+      "exact_upper": "1",
+      "stats": {
+        "radial_pieces": 1,
+        "native_piece_bindings": 0,
+        "affine_dominance_regions": 1,
+        "affine_dominance_vertices": 4
+      }
+    },
+    {
+      "name": "identical_closed_segment",
+      "exact_upper": "0",
+      "stats": {
+        "radial_pieces": 1,
+        "native_piece_bindings": 0,
+        "affine_dominance_regions": 2,
+        "affine_dominance_vertices": 4
+      }
+    },
+    {
+      "name": "point_negative_tangent",
+      "exact_upper": "-1/4",
+      "stats": {
+        "radial_pieces": 1,
+        "native_piece_bindings": 0,
+        "affine_dominance_regions": 1,
+        "affine_dominance_vertices": 1
+      }
+    },
+    {
+      "name": "interior_dominance_tie",
+      "exact_upper": "1/2",
+      "stats": {
+        "radial_pieces": 1,
+        "native_piece_bindings": 0,
+        "affine_dominance_regions": 2,
+        "affine_dominance_vertices": 7
+      }
+    },
+    {
+      "name": "native_knot_closed_cover",
+      "exact_upper": "21/16",
+      "stats": {
+        "radial_pieces": 2,
+        "native_piece_bindings": 2,
+        "affine_dominance_regions": 2,
+        "affine_dominance_vertices": 8
+      }
+    }
+  ],
+  "rejected_tamper_cases": [
+    "missing_radial_half",
+    "wrong_native_endpoint_cap",
+    "missing_closed_dominance_region",
+    "wrong_negative_tangent_constant",
+    "majorant_rectangle_omits_vertices"
+  ],
+  "scope": "Independent manually specified fixtures; supplements complete frozen-data replay, does not replace it."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_secondary_kappa066_producer_manifest.json",
+    "sha256": "3a5866ba082ab1af4f41d7c0262d0df8d20e1075e71164f523aab37ca3cfa961"
+  },
+  "profiles": [
+    {
+      "name": "new_secondary_kappa066_b711",
+      "label": "interval_new_secondary_kappa066_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_secondary_kappa066_b711.json",
+          "alias": "new_round_2026-10-02/audit/secondary_kappa066_source_box/input/profile_interval_new_secondary_kappa066_b711.json",
+          "sha256": "af30dc6d243e3e96a05ba7ddd621090a8304925a20b3632374691fb34c787798"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_secondary_kappa066_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/secondary_kappa066_source_box/input/body_interval_new_secondary_kappa066_b711.json.gz",
+          "sha256": "c016d2dc1911970993272ec6b000cfa191647fd5eb5f92879c87dd5207b38293"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_secondary_kappa066_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/secondary_kappa066_source_box/input/exterior_interval_new_secondary_kappa066_b711.json.gz",
+          "sha256": "d3f4115f5913c76f4d39ebf266c748a13df7c9b5d33465f37b180caac0d99c51"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_secondary_kappa066_b711.json",
+          "alias": "new_round_2026-10-02/audit/secondary_kappa066_source_box/input/tail_interval_new_secondary_kappa066_b711.json",
+          "sha256": "1971f96b42b864ba1ba50640869edeef0fff6814dfb5763e4e00a774ac67453e"
+        }
+      ]
+    }
+  ]
+}

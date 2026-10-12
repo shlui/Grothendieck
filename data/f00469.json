@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa15_source_box/REPLAY_MANIFEST.json",
+    "sha256": "f4bb28236e58b349c804ee0cc924ec23c9ec248e1560099a2bf68c96c54aaf81"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa15_source_box/reports/independent_interval_new_kappa15_b711_lowerface_body.json",
+      "sha256": "2449c905f04fefb116d934c0d0a854f1a9d04c4842f538812a60a38f488aa84e",
+      "profile": "interval_new_kappa15_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2717
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa15_source_box/reports/independent_interval_new_kappa15_b711_lowerface_exterior.json",
+      "sha256": "d0fbec0ca6e4b0fdd7f427cebb698a9cc6a36a825ed4fbeffa71cdb5f089f0c9",
+      "profile": "interval_new_kappa15_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 127
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa15_source_box/reports/independent_interval_new_kappa15_b711_lowerface_tail.json",
+      "sha256": "6da0cf6efa9922b5331aa36ee2b00f9d863a361aec598b047cd9bd2c8638f33d",
+      "profile": "interval_new_kappa15_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 3.962550401687622,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

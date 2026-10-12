@@ -1,0 +1,102 @@
+% Self-contained universal upper bound; the final rounding implication is
+% explicitly conditional until the goal global scalar certificate is accepted.
+\begin{proposition}[An elementary universal upper bound]
+\label{prop:new-self-contained-upper}
+With $c=\log(1+\sqrt2)$,
+\[
+ G_{\mathbb R}\leq\frac{\pi}{2c}
+                <\frac{1760}{987}<\frac{357}{200}=1.785.
+\]
+\end{proposition}
+\begin{proof}
+For a real unit vector $u$, in the Hilbert direct sum of its odd
+real tensor powers define
+\[
+ \Phi(u)=\bigoplus_{k\geq0}
+       \sqrt{\frac{c^{2k+1}}{(2k+1)!}}\,u^{\otimes(2k+1)},\qquad
+ \Psi(u)=\bigoplus_{k\geq0}(-1)^k
+       \sqrt{\frac{c^{2k+1}}{(2k+1)!}}\,u^{\otimes(2k+1)}.
+\]
+Since $\sinh c=1$, both vectors have norm one and
+\[
+ \langle\Phi(u),\Psi(v)\rangle
+                    =\sin\bigl(c\langle u,v\rangle\bigr).
+\]
+Also $c<1$, because $\sinh1>1$, whereas
+$\pi=4\int_0^1(1+x^2)^{-1}\,dx>2$; hence $c<\pi/2$.
+For any finite families $u_i,v_j$, take a standard Gaussian vector
+in the finite-dimensional span of their transformed vectors.  Put
+$\epsilon_i=\operatorname{sgn}\langle G,\Phi(u_i)\rangle$ and
+$\delta_j=\operatorname{sgn}\langle G,\Psi(v_j)\rangle$.
+Two Gaussian linear forms with correlation $\rho$ have sign-product
+expectation $2\arcsin(\rho)/\pi$: in their two-dimensional span,
+rotational invariance makes the angle uniform and their signs
+ differ with probability $\arccos(\rho)/\pi$.  Consequently
+\[
+ \mathbb E[\epsilon_i\delta_j]
+ =\frac2\pi\arcsin\!\left(\sin(c\langle u_i,v_j\rangle)\right)
+ =\frac{2c}{\pi}\langle u_i,v_j\rangle.
+\]
+For every real matrix $A$, its scalar sign norm bounds each rounded
+bilinear form, so
+\[
+ \frac{2c}{\pi}\sum_{i,j}a_{ij}\langle u_i,v_j\rangle
+ =\mathbb E\sum_{i,j}a_{ij}\epsilon_i\delta_j\leq C(A).
+\]
+Taking the vector supremum and then the supremum over matrices
+proves $G_{\mathbb R}\leq\pi/(2c)$.
+
+It remains to certify the numerical comparisons using rational
+arithmetic.  The exact identity
+\[
+ \frac{x^4(1-x)^4}{1+x^2}
+ =x^6-4x^5+5x^4-4x^2+4-\frac4{1+x^2}
+\]
+gives
+\[
+ 0<\int_0^1\frac{x^4(1-x)^4}{1+x^2}\,dx
+                         =\frac{22}{7}-\pi.
+\]
+Set $x_0=141/160$.  The positive exponential series and the
+successive-tail ratio bound $x_0/(k+1)\leq x_0/14$ for $k\geq13$
+give
+\begin{align*}
+ e^{x_0}
+ &<\sum_{k=0}^{12}\frac{x_0^k}{k!}
+       +\frac{x_0^{13}}{13!}\frac1{1-x_0/14}\\
+ &=\frac{36546709859637513399380063330480378767}
+          {15140013877549634840166400000000000000}
+  <\frac{239}{99}<1+\sqrt2.
+\end{align*}
+The middle comparison follows by clearing positive denominators;
+the final one follows from
+$2-(140/99)^2=2/9801>0$.  Thus $c>141/160$, and
+\[
+ \frac\pi{2c}<\frac{22/7}{2(141/160)}
+                =\frac{1760}{987},\qquad
+ \frac{357}{200}-\frac{1760}{987}=\frac{359}{197400}>0.
+\]
+All polynomial and rational computations are exactly replayed by
+\texttt{certify\_elementary\_upper.py}; they require no decimal
+approximation to $\pi$, a logarithm, or a square root.
+\end{proof}
+
+\begin{proposition}[The three-significant-digit implication]
+\label{prop:new-three-significant-digit-implication}
+If a separately accepted complete matrix-sequence certificate proves
+$G_{\mathbb R}\geq71/40$, then
+\[
+ \frac{71}{40}=1.775\leq G_{\mathbb R}
+                         <\frac{1760}{987}<1.785.
+\]
+Thus $G_{\mathbb R}$ rounds to $1.78$ to three significant digits.
+In particular, a complete scalar cap $N(T)\leq40/71$ for a seed
+whose vector numerator tends to one proves this implication.
+\end{proposition}
+\begin{proof}
+The upper endpoint is Proposition~\ref{prop:new-self-contained-upper}.
+The interval $[1.775,1.785)$ is precisely the rounding interval for
+$1.78$ at the hundredths place.  For the stated seed, its actual
+matrix ratio limit is $1/N(T)\geq71/40$, so its matrices give the
+required lower bound for the unrestricted constant.
+\end{proof}

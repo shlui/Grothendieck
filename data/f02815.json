@@ -1,0 +1,15 @@
+{
+  "regional_cap": "1",
+  "operator": "P1-(18/25)P3",
+  "amplitude_interval": [
+    "3/4",
+    "19/25"
+  ],
+  "coverage_interval": [
+    "3/4",
+    "19/25"
+  ],
+  "target_threshold": "40/71",
+  "primitives_only": true,
+  "scope": "Physical/scalar primitives only."
+}

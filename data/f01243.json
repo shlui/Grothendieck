@@ -1,0 +1,516 @@
+{
+  "status": "ALL_NINETEEN_CRITERIA_INDEPENDENTLY_ACCEPTED",
+  "profiles": [
+    {
+      "name": "new_root_kappa225_neighbor_budget01_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_neighbor.json",
+      "profile_sha256": "f1dcfea5e9d00f4bdebd8b955b665a5012bc03d441e698a8816c1eddbd039b0e",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "75c012a413cf1f9af78b9594d1ddd28916892fc5da2bc72a11b90a00ad309fe6",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_body.json.gz",
+          "sha256": "cc4df86e951465127e793cad9afdc4d2abe619bdb810fc0d66b73c2269e5e427"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_exterior.json.gz",
+          "sha256": "e03df75ffc84934447fcf272c332a0433a84a0055fa4eb6a84317a276054f3ee"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_tail.json",
+          "sha256": "90ff12bd9ba62b90eeabd0b5604aa4a9daab4179cf4bf404b9829e8e62992946"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_root_kappa225_dense_step0_budget01_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_dense_step0.json",
+      "profile_sha256": "5085691e9445bcfc8f7c05b789ed6adcccb3ff4d7b200aeb87a4530556c1ca37",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "bacb09f5ed4b747d0b3082799db2b7e61dbaa25f1aa3bdedbf9d429a0a2fb06c",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_body.json.gz",
+          "sha256": "60c671acd4eb8e2c9d4d79cfd30d06fc985a95411dd7580e5ffd90213bfc40f0"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_exterior.json.gz",
+          "sha256": "aa2834ab681953b95b4126785dd542bc7d10b2ef0971d79a95c35dbd6cbaa3fd"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_tail.json",
+          "sha256": "06dc0c9bcadade6df782dfbfc3978feecefff4b6d7a538acb276e50bab808c92"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_moderate_kappa215_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate_kappa215_b711.json",
+      "profile_sha256": "4125096795f028bf9f3252e29b94982321475eb5d3f5026e67262fb99cb16f56",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "acceptance_kind": "INDEPENDENT_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_kappa215_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "bcf5d1a7dd87e1d4665c4933e594d1522752063dfb7a2dc48f3c74d8ffc4eabd",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate_kappa215_b711.json.gz",
+          "sha256": "2871c44eaa743718029b1aaeaad184e8162575c18a8c19f5d512559fa1f8cb05"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate_kappa215_b711.json.gz",
+          "sha256": "ea25af9cc128636949cf345e76f52d157c671ad097e41a522397def543f3a1f3"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate_kappa215_b711.json",
+          "sha256": "e977e22e88f9467c0f3e64b27e5b27e981abccd7e1874d063724ae21981d3abd"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa215_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_root_kappa225_dense_step5_budget001_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_dense_step5.json",
+      "profile_sha256": "45a2b2b2c55a93812ea6a4f5b9542783c2a21169fc086c00fe040ed1fce428ac",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "01ff14ee46d0a87bc726794e75901399d2beff875f0ee9b527dc4407971673ea",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_body.json.gz",
+          "sha256": "84a9e0f19bb6e865895fd165ffb12277f14923ab69d23a1e2b23ceb87d73603f"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_exterior.json.gz",
+          "sha256": "9fde66e9abfbe5a9009eb8242e0a98ad58c30b15126b0a738f0bfdf5129abbb9"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_tail.json",
+          "sha256": "30081c27d54497664f6c317fd415e03abfaa3a92cac53cf6f5a419e8bc3a2bad"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_root_kappa175_early_step1_q20_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa175_early_step1.json",
+      "profile_sha256": "2d794bb8b8770cc4f6cd5567e7f0c6f115943fde265781ca3d28214c67366658",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa175_early_step1_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "78d1de9e8ffa32a9f5f7e56497c401acb7fe1552ce9df0990a3acb2046d035f8",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_body.json.gz",
+          "sha256": "a00c92fd649d24f270e06985efbe1c5d10ac8bea5e78a0460c1699da6dfcb36a"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_exterior.json.gz",
+          "sha256": "482e93481ebc50aa4657c40592589edb6cd7f219edd2f74651512f6c0f4b56be"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_tail.json",
+          "sha256": "64e33eb1142d5639b0502285eb69b05d74eb62fc2752978cf7cb8e1329364b32"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_diffuse_u754_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/profile_diffuse_u754_b7171.json",
+      "profile_sha256": "0f4468e77e7cb0a0e225448c4cdb1373488f4730d528c5676141042131f7aaf0",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/diffuse_u754_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "37a9cb5ffbfb1c8e0d95bf67a376738269c2e47b9d3802260be35f9c73c1815e",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/body_diffuse_u754_q20.json.gz",
+          "sha256": "e3c1642120d6c50a2d1e0f180f903f93ae9a3a871eb2dcfa1004b438bf185b2a"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/exterior_diffuse_u754_q20.json.gz",
+          "sha256": "fbad9939dbc9aecc3be5fbadfbbbf90c07a0e36e2f260150a4f221b04908980f"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/tail_diffuse_u754_q20.json",
+          "sha256": "3a57f82643b4bdbbf1f25905ef4d89f4b9602eb17f3cb0c5d12770fb7b21bd8b"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_mediumu_kappa069_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa069_b711.json",
+      "profile_sha256": "557d23a1257090ebdb38e639ddd831db5cffb76f1e3498dc90d0447f3eae8d25",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "acceptance_kind": "INDEPENDENT_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/mediumu_kappa069_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "03a6992243125eafbd4f695da475b99bbab6c5fbfb158628d4aa2c32aa730174",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa069_b711.json.gz",
+          "sha256": "53ac4b059243c6fb3d74c697e405675000199e3a658a82f9ece9cc2a8f929519"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa069_b711.json.gz",
+          "sha256": "4ffaa41ba1b59412556295781b9d58f862fe2374ba1412544a56e45a875e4d65"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa069_b711.json",
+          "sha256": "912c8345ffbcce0ef31870cc6246e736d25a0376b86394c776564a5999e66fe4"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa069_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_moderate_kappa4125_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate_kappa4125_b711.json",
+      "profile_sha256": "5421ccd043db68d887cb565d6dd07628b9c9af4684e71a1ea9c102146d834490",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "acceptance_kind": "INDEPENDENT_COMPLETE_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_kappa4125_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "b520aa2fa4998213239edf16402bee4f711ded47ad606f441e56811dcfe1edbb",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate_kappa4125_b711.json.gz",
+          "sha256": "81bab0e47101a7dfd837a00fa1d5a2358a6a5284afaa42b51ef182c7483ee125"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate_kappa4125_b711.json.gz",
+          "sha256": "308f620f840013b2c7e1d502d19dbcec536878950293cc0f712d4dda5a3d7cc2"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate_kappa4125_b711.json",
+          "sha256": "06c912e7e6c5ced434f7c7b693c271e4e090fe1b1ebf5c7da47d3058b0334457"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa4125_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_root_kappa16_lowu_step5_q150_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa16_lowu_step5.json",
+      "profile_sha256": "1135b37117364ad3824d2cd3c3e433405015243255cbb56b7f8677c3c4762187",
+      "reserve0": "3/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "cac71c7909e1615cf7e8a8660683510bba75095a05b6acf175ab371888d49eb6",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_body.json.gz",
+          "sha256": "6aa0a84e9bc988a7c8e7aea40a9f3748de343a75850826bbf8274ca87977f801"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_exterior.json.gz",
+          "sha256": "2295b56d7e95927a7442db789e77de013175c6c0302913a436ad74fd4af05c38"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_tail.json",
+          "sha256": "f8651e7c3bde133789bfbfa679fbaa102a3da914b99d318c73a9d943b0baae72"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_moderate_u749_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/profile_moderate_u749_b7171.json",
+      "profile_sha256": "920fd75c015a88f9ee648c423e36c74102e297e4dcbd314b43d341f5caf7368c",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_u749_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "28905377cd8d3a2877001a576dbcd399ae98f7c4038d52a946db8273f675d3d8",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/body_moderate_u749_q20.json.gz",
+          "sha256": "b37608ed2f82207fb09f56c5c8f4a620c9381e933e24f114da1723c53dc952dd"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/exterior_moderate_u749_q20.json.gz",
+          "sha256": "a8305dd69bb95737213351da1b2012fd96d752f60d84096068c04a49fedd328e"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u749_fit/certificate/tail_moderate_u749_q20.json",
+          "sha256": "45091d01a0c7187569461eac180a82efa6f68987b7975259cb59cf925d074807"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_diffuseu760_kappa015_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuseu760_kappa015_b711.json",
+      "profile_sha256": "88cd0c9ab0c8e4d40de36d646b5da1abd47f27166af579c69e57c556f22d0d3c",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "acceptance_kind": "INDEPENDENT_COMPLETE_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "daf6886e93ff26a0f2764218ac4b25274a92b0304f4e8fa143fd3cb1c472ffb7",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuseu760_kappa015_b711.json.gz",
+          "sha256": "f856308aabd3f59068d69f2f121b4b076e690170ffd4dd4b230a6022669fc4b7"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuseu760_kappa015_b711.json.gz",
+          "sha256": "0940044f4dad5c0f76e864c14686cdd2c32c159cda15afd723aa66b40f0d60b9"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_diffuseu760_kappa015_b711.json",
+          "sha256": "9ae6116933e77b3be8745728d4ea400ec3d678f3d114c6c227499913859206c7"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_diffuseu760_kappa015_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_diffuseu753_kappa02_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuseu753_kappa02_b711.json",
+      "profile_sha256": "f0d1f98bae0168616a0f801590fe53a77638a217cd5fe4159fc0198ea24d295b",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "acceptance_kind": "INDEPENDENT_COMPLETE_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "1db2853506406d5e12aeebb5828d8e368118be50e80209574e148b814875555a",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuseu753_kappa02_b711.json.gz",
+          "sha256": "611510bdcbdbb22c83daa55a7cd8b833587163e9f6bb8c0bcc588c35c91985ed"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuseu753_kappa02_b711.json.gz",
+          "sha256": "daba954ca82dd1915cd59159da754743fa7f7b6c276922984094d3f8fdd5784c"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_diffuseu753_kappa02_b711.json",
+          "sha256": "a573e58938782e0675b08f25b4c6b5cb29441abde6b87a3b193bcb31a640fee7"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_diffuseu753_kappa02_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_moderate_u751_k2_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u751_k2_fit/certificate/profile_moderate_u751_k2_b7171.json",
+      "profile_sha256": "40afea46fe8156b0334a059a025e225c2c1aadd81f52e9b17c5b2f5d843a0158",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_u751_k2_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "c171756e7e5920b563a8a12762484edb7a036819972611a2f151cd61f3e21a9f",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u751_k2_fit/certificate/body_moderate_u751_k2_q20.json.gz",
+          "sha256": "a488e880333cd11df6d99355c10d34750477c0a622e9baf612fa2cfa3e2d71b2"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u751_k2_fit/certificate/exterior_moderate_u751_k2_q20.json.gz",
+          "sha256": "b6b6c51bf5e480324592b69409b32971a50761348926db92d9ca3911ec0dd0df"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u751_k2_fit/certificate/tail_moderate_u751_k2_q20.json",
+          "sha256": "50f99201795c36e22760bf8b9ba2a6c614e04b9285f78716c26f4b2caf0a8191"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_root_kappa16_shifted_pe15_q20_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa16_shifted_pe15.json",
+      "profile_sha256": "8056a3ccc72686250a5f0d2dbaedb67d18627ee547844193e97b7b59d07a0834",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "92469070f1290beabbc5276c14b1bdd9219bdd26b0b6f17916c50d0135e45eef",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_shifted_pe15_q20_body.json.gz",
+          "sha256": "10949fba85207f1bc0d080aeaa4809fc79fdcfb6539975515a5dad484538adc7"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_shifted_pe15_q20_exterior.json.gz",
+          "sha256": "87ee8aa466b12183e5edd74ac0ec3662d6aaf3a67ab45ca8bcf1727fb21e0e51"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_shifted_pe15_q20_tail.json",
+          "sha256": "2e5ed85c424d074ee5062edc451d8dd22799c67a204e1db39f3709d3873d4be2"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_moderate_u741_k075_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/profile_moderate_u741_k075_b7171.json",
+      "profile_sha256": "60866b85b0717638b4316e9b74ffaff0fd62c84c641458024a142cd20a92771e",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/moderate_u741_k075_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "89406a53ad2134e64c9fa4442a87a95a30a943c5a64239875f56765bc3176a51",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/body_moderate_u741_k075_q20.json.gz",
+          "sha256": "dad58982a87ae90ed84dfd52381f9993d56e020d3e17ee5b190297089a607e4c"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/exterior_moderate_u741_k075_q20.json.gz",
+          "sha256": "05521d98f6c5529b1d2e0ba9ef95f89885c0220191d1253d53360056a9ef6669"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/tail_moderate_u741_k075_q20.json",
+          "sha256": "79a37caa28d64c509555dfe0b359d453d6671a31d79650d6cc9934045d0a4ef1"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_mediumu_kappa125_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa125_b711.json",
+      "profile_sha256": "c46934502da693a444b49b2dbfe746fcc3b78d17718f868970bdbc563ef5b14b",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/200000",
+      "reserve6": "1/100000000",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "acceptance_kind": "INDEPENDENT_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/mediumu_kappa125_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "04f164c5af9586165d531171ec72c9f72ea556fb59efb7bbce6a5480aa122762",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa125_b711_q5.json.gz",
+          "sha256": "a49bec4fa288cbcc5584aae24c827bdbc0d636a003bc1c39294a784fb8503d01"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa125_b711_q5.json.gz",
+          "sha256": "a6307f0c45dc8e693c1c96904902ad37ad958f6a4ff8a6ab52ff07c3e0547cb1"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa125_b711_q5.json",
+          "sha256": "e8cde1f7253cbfda0d4135ac8be4e02a0d0044aa0431d5abdbedf1f0089536ac"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa125_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_mediumu_kappa325_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa325_b711.json",
+      "profile_sha256": "ca87533bb489a67069d0eee3fb686687f71a0a738d6438077e8e4ace0e25a432",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "acceptance_kind": "INDEPENDENT_COMPLETE_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/mediumu_kappa325_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "5f099c22d054579e057b3b71ead29c82709625595fe465c2623c88058baf8d2b",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa325_b711_q100.json.gz",
+          "sha256": "1d2ba1b742261c756505f9505f535986729021562035feb68cfbb7965bc7ab07"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa325_b711_q100.json.gz",
+          "sha256": "53aba86562e1332c7043897b7b6f7cbced3f19be4f1cd78629ac20959f19788f"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa325_b711_q100.json",
+          "sha256": "c4559c4decb2b09940f4b32cab13e044da51b55c24ce6381c214efddfab1318f"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa325_source_box.json",
+      "source_price_operator_b": "711/1000"
+    },
+    {
+      "name": "new_root_kappa115_mid_u_step2_q50_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa115_mid_u_step2.json",
+      "profile_sha256": "0afca3d950bb9e3219ac312e843797635e4e5c0b9123172a45c560ace4c1f1e6",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa115_mid_u_step2_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "f672278944ad2513046f950813e3fd7e55510a240bf124ee048de1da51811ed6",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_body.json.gz",
+          "sha256": "db2133bdc4f05648bf5f6bc9abf5bb3239228b258fbdf1110c38c426f01e414c"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_exterior.json.gz",
+          "sha256": "435669573a44853795421bbd0f6976462fb25a517fd54d55068e121135635104"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_tail.json",
+          "sha256": "18efa6caf26e0ce53cc75f8008f685f11272289eaf2597a42b81aed5772dfa4c"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    },
+    {
+      "name": "new_kappa26_q40_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/profile_new_kappa26_b711.json",
+      "profile_sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/25000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa26_q40_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "d49fba4a43f0cc7eee8610617d23cb913b8ed23ccbaf39b79334df25b8573c51",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/body_kappa26_q40.json.gz",
+          "sha256": "bb6e50a52c344aaf4b682dc6f30e94091e379ba132906388cd4f8b60135b6f57"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/exterior_kappa26_q40.json.gz",
+          "sha256": "2569d615de6bfeafdf3766b045496356cf90efb348dd604d9c44c93718b890d9"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/tail_kappa26_q40.json",
+          "sha256": "6b77d782df645a54064ed07529414d67a0f7e8d8e15f8ef778be9c92122160f0"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    }
+  ],
+  "source_manifest_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/eighteen_affine_criteria_accepted_manifest.json",
+      "sha256": "a6c32566fd18e8d2156538316f5e58dc770ffc1d2df04a5af5fbd1d5e4038045"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/kappa26_q40_accepted_manifest.json",
+      "sha256": "c655565eae71b0994038eb3016df061f99b41a522863eda1c3454e52c71c5a6d"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INDEPENDENT_ROOT_RIDGE_SOURCE_COMPONENT",
+  "profiles": [
+    {
+      "name": "new_root_ridge_k125_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_moderate_fit/certificate/profile_ridge_k125.json",
+      "profile_sha256": "8039bfa4b9d94185df48e1a714f16b30e8adda342aebc13bfd169e67dea32f5e",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/ridge_source_boxes/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "e9836d5c65ba328129c55563a3704834cd9fa06e685dcd46274b7ac8858f655d",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_REFERENCE_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_moderate_fit/certificate/body_ridge_k125.json.gz",
+          "sha256": "e1fd043bfcf3cd3fe1af5441f7132d3e39eb1badf2514e4e537180abfb51bbe8"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_moderate_fit/certificate/exterior_ridge_k125.json.gz",
+          "sha256": "2ea894088cc3ce5748784a8733d8ff5dc536e15fa9f459dfc48886c5473b3eb0"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_moderate_fit/certificate/tail_ridge_k125.json",
+          "sha256": "3d7fc61d897be52b831e007b119769246ca6163aa96c709967aaa9decefa691e"
+        }
+      ]
+    }
+  ]
+}

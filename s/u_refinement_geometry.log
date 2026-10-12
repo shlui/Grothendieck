@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_STRONG_SHAPE_U_REFINEMENT_GEOMETRY",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank43_u0005_refinement_proposal.json.gz",
+    "sha256": "f7e3ec62679dd1ddcc636c5ea6f1fd40e10572bd2283081a8e3be65296542b8a"
+  },
+  "parent": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+    "sha256": "6c863600f1b4506c9120feb728bbcb018823f219465b54ea449633bb2200a689",
+    "accepted_geometry_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/strong43_geometry.json",
+    "accepted_geometry_report_sha256": "4ba5ff57832cf7125f1355d538801e2467cdf18586a0a5549c62979e3ca7c44b"
+  },
+  "operator_b": "711/1000",
+  "original_parent_cells": 272579,
+  "selected_parents": 4564,
+  "closed_u_children": 19693,
+  "empty_children": 5,
+  "rank_envelopes": 994,
+  "rank_dominance_regions": 2239,
+  "rank_dominance_vertices": 9155,
+  "native_offers": 3275,
+  "native_source_pieces": 3584,
+  "maximum": "563619834426673/1000000000000000",
+  "strict_upper_cap": "140904959/250000000",
+  "producer_imports": false,
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "cf7dfb221e03375e272a3fef9434b9e4df9ae4b43cf82972603fb05420053079",
+  "scope": "Complete exact source geometry and reused accepted-parent price assembly; parent numeric and whole-q binding acceptance remain separate prerequisites."
+}

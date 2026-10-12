@@ -1,0 +1,82 @@
+{"stage": "PASS", "job": "accepted_original_and_strengthened_components"}
+{"stage": "PASS", "job": "original_fourteen_profile_R3_prerequisites"}
+{"stage": "PASS", "job": "all_additional_promoted_rank_prerequisites"}
+{"stage": "PASS", "job": "final_delta_promoted_rank_prerequisites_0"}
+{"stage": "PASS", "job": "complete_cubic_L1_moment_prices"}
+{"stage": "PASS", "job": "all_line_cubic_contact_coefficients"}
+{"stage": "PASS", "job": "all_line_linear_source_coefficients"}
+{"stage": "PASS", "job": "all_final57_native_endpoint_prices"}
+{"stage": "PASS", "job": "portable_chain_00_native_transport"}
+{"stage": "PASS", "job": "portable_chain_00_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_00_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_00_complete_geometry"}
+{"stage": "PASS", "job": "portable_chain_01_native_transport"}
+{"stage": "PASS", "job": "portable_chain_01_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_01_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_01_monotone_geometry"}
+{"stage": "PASS", "job": "portable_chain_02_native_transport"}
+{"stage": "PASS", "job": "portable_chain_02_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_02_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_02_adaptive_child_partition"}
+{"stage": "PASS", "job": "portable_chain_03_native_transport"}
+{"stage": "PASS", "job": "portable_chain_03_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_03_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_03_monotone_geometry"}
+{"stage": "PASS", "job": "portable_chain_04_native_transport"}
+{"stage": "PASS", "job": "portable_chain_04_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_04_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_04_monotone_geometry"}
+{"stage": "PASS", "job": "portable_chain_05_native_transport"}
+{"stage": "PASS", "job": "portable_chain_05_all_R3_corners"}
+{"stage": "PASS", "job": "portable_chain_05_all_source_planes_and_inverse"}
+{"stage": "PASS", "job": "portable_chain_05_monotone_geometry"}
+{"stage": "PASS", "job": "parent_contact_credits"}
+{"stage": "PASS", "job": "final_active_and_inherited_contact_credits"}
+{"stage": "PASS", "job": "complete_chosen_b_lower_branch"}
+{"stage": "PASS", "job": "complete_parent27_global_assembly"}
+{"stage": "PASS", "job": "all_final68_native_endpoint_prices"}
+{"stage": "PASS", "job": "final68_target_b_native_transport"}
+{"stage": "PASS", "job": "final68_all_extra_physical_planes"}
+{"stage": "PASS", "job": "exact_final68_child_partition_geometry"}
+{"stage": "PASS", "job": "complete_native68_global_assembly"}
+{"stage": "PASS", "job": "final_twentyeight_fresh_monotone_delta"}
+{"stage": "PASS", "job": "complete_twentyeight_global_assembly"}
+{"stage": "PASS", "job": "final_twentynine_fresh_monotone_delta"}
+{"stage": "PASS", "job": "complete_reference713_final29_global_assembly"}
+{"stage": "PASS", "job": "final711_same_b_complete_lower_branch"}
+{"stage": "PASS", "job": "final711_exact43_profile_beta_spectral_bindings"}
+{"stage": "PASS", "job": "final711_all272579_uniform_cell_transports"}
+{"stage": "PASS", "job": "complete_fullupper_same_b_global_assembly"}
+{
+  "status": "PASS_PORTABLE_COMPLETE_FULLUPPER_PREFERRED_GLOBAL",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "112782853/200000000",
+  "constructive_G_R_lower_bound": "200000000/112782853",
+  "original_source_sha256": "ea763375a19e63a49174bcf18975c948ab188f993edfb471014cbb2bfec04d2d",
+  "mathematical_and_operational_rewrite_exact": true,
+  "immutable_evidence_manifest_pass": true,
+  "mode": "all_local_scalar_gates_and_complete_global_replay",
+  "scalar_local_primitives_freshly_replayed_this_run": true,
+  "seconds": 1139.1124320030212,
+  "original_and_strengthened_base_reused_from_complete_fresh_checkpoint": false,
+  "extension_filter_used": false,
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "scope": "Complete same-coefficient full-amplitude norm and constructive lower bound. The actual matrix sequence limit is 1/N(b); a three-digit enclosure of unrestricted G_R is not asserted.",
+  "cumulant_points": 68,
+  "complete_whole_q_profiles": 29,
+  "full_upper_original_cells": 281316,
+  "full_upper_priced_cells": 272579,
+  "proved_physically_empty_full_upper_cells": 8737,
+  "full_upper_complete_groups": 1400,
+  "baseline_native_endpoint_prices": 11648,
+  "independent_R3_corner_prices": 6048,
+  "independent_plane_corner_prices": 2240,
+  "uniform_physical_source_planes": 560,
+  "forward_verified_inverse_source_caps": 250,
+  "fixed_contact_credit_cells": 23,
+  "new_native_endpoint_prices": 13936,
+  "new_uniform_source_planes": 140
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FRESH_ADVERSARIAL_ANALYTICAL_REVIEW",
+  "manuscript": "new_round_2026-10-02/deliverables/Grothendieck_reduced_sequence_2026-10-01.tex",
+  "manuscript_sha256": "79ce4795929227efa2cf24116256d456b75e3a76a8c571ba3f19a1304f7a227e",
+  "scope": "Analytical implications and normalization; independent numerical scalar inequalities and exact coverage acceptances supplied by the parent task are assumed rather than rerun. No main files edited.",
+  "checks": {
+    "matrix_limit": "Odd half-cell features use exactly 2 integral_C H. Their bilinear forms equal the Gaussian pairings. Fixed-dimensional odd bounded near-extremizers are approximated in L2 on the non-nested shrinking grids; suffix coordinates integrate out. Thus C(A_d) tends to the true all-dimension N, not to the certificate cap.",
+    "vector_limit": "The radial unit field has energies a_d and a_d/(2(d+2)); the L2 operator norm is one. Midpoint unit fields converge to it. Hence V(A_d) tends to one and rationalized matrix ratios tend to 1/N.",
+    "finite_rate": "The normalization error is quadratic because T_b w=t(R)w and unit fields satisfy e dot w=-|e|^2/2. Every bulk and tail term of L_d was rederived. R_d gives p_d<=d^-4; the even Gaussian spectral gap gives a_d>=1-1/(2d). The rational lower formula approaches 1/B, with no claimed rate for C(A_d).",
+    "exact_reductions": "Integer mass cloning has total copy weight one on each side. Symmetric dilation doubles C and V; J_0 balancing doubles them again. Absolute row/column masses, zero sums, symmetry, zero diagonal and ratios are preserved as claimed. Hemisphere lower bound and eta<=1/16 make every d>=4 seed nonzero.",
+    "operator_scope": "Oddification preserves the T_b pairing, and bilinear bounded maxima reduce to odd signs. The agreement amplitude is <=sqrt(2/pi); reversing a sign therefore remains within the exhaustive amplitude cover. Transverse source normalization uses the actual P3 projection; r=0 can be treated without normalizing zero.",
+    "new_physical_constraints": "Rechecked kappa=36A+54B, V=8A+6B and kappa*z=36A. Top-Gram eigenvalue and commuting two-leg projections imply B>=(2A-1)_+, so 4*kappa*z-kappa<=54 is necessary. The guarded hyperbolic-boundary moment prices are convex on each exposed edge and require its endpoints, exactly as stated.",
+    "source_geometry": "Affine secants upper-bound positive quadratics and tangents upper-bound concave radial quadratics. Closed dominance polygons cover all ties/degeneracies, so vertex maxima of the pointwise minimum are valid. Fixed-profile native knots, shared moment cells and literal whole-line allowances remain required numerical premises.",
+    "longitudinal_source_pricing": "Rechecked the raw-versus-normalized Hermite factors, frozen-centering covariance sign, residual/ellipsoid comparison, exact r transport and smaller-b transport. The contact completion has the stated plus beta*d term when the saved local linear coefficient is retained.",
+    "upper_and_rounding": "The signed odd-tensor rounding proof is the standard exact sine/arcsine construction. It gives GR<1760/987<1.785. With GR>=71/40, the three-significant-digit conclusion 1.78 follows.",
+    "historical_scope": "The .699 norm estimate is separately conditional. It is not used as an unconditional premise in the .711 final norm theorem or matrix bounds."
+  },
+  "substantive_issues": []
+}

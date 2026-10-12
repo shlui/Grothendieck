@@ -1,0 +1,98 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_DIFFUSE_KAPPA03_PENDING_INDEPENDENT_AUDIT",
+  "profile_alias": "new_diffuse_kappa03_b711",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/profile_diffuse_kappa03_b7171.json",
+    "sha256": "34d486409068fe48503fd95af7942650f0fa5542919aca6d276fb542e9068783"
+  },
+  "reference_b": "7171/10000",
+  "reserve0": "1/20000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/body_diffuse_kappa03_q50.json.gz",
+      "sha256": "00a8444de087664cb348176a4dce45afe326b00c77edc726f01590022d1ff75c"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/exterior_diffuse_kappa03_q50.json.gz",
+      "sha256": "7ec9aea5ece085604a22887ce64378edce97d5ecfc20e627e4f4201e94d7a396"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/tail_diffuse_kappa03_q50.json",
+    "sha256": "1c4fd2af36edfbfdc9b1665cc0bf32368c50a5878460e50195990ff59fc3c52c"
+  },
+  "counts": {
+    "body_diffuse_kappa03_q50.json.gz": {
+      "nodes": 7383,
+      "accepted": 3692,
+      "pending": 0
+    },
+    "exterior_diffuse_kappa03_q50.json.gz": {
+      "nodes": 441,
+      "accepted": 221,
+      "pending": 0
+    }
+  },
+  "source_box": {
+    "u": [
+      ".7505",
+      ".751"
+    ],
+    "r": [
+      ".270",
+      ".272"
+    ],
+    "kappa": [
+      ".25",
+      ".4"
+    ]
+  },
+  "source_prices": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/source_price_diffuse_kappa03_b0711_q0_1_20000.json",
+      "sha256": "5d2db27baf47724462f0443c275542759ab07e6c84bd9940e2f5674553d752ee",
+      "operator_b": "711/1000",
+      "maximum_upper_display": 0.5633580851365406
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/source_price_diffuse_kappa03_b0715_q0_1_20000.json",
+      "sha256": "c22d985fe26b131500a9ce4969126a19b7862f94e857e96a468d4c2830525d5d",
+      "operator_b": "143/200",
+      "maximum_upper_display": 0.5633529844358085
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/source_price_diffuse_kappa03_b07171_q0_1_20000.json",
+      "sha256": "1ea6075a44431b8fbe196704a10644f00b1691bd00afeeaab509d4459a1aee34",
+      "operator_b": "7171/10000",
+      "maximum_upper_display": 0.5633516316112948
+    }
+  ],
+  "adapter_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+    }
+  ],
+  "scope": "Producer complete body [0,8], exterior [8,32], and exact tail [32,infinity), one immutable reference7171 rational rank-one profile with the indicated literal reserves. Separate exact target711/715/7171 PSD/source-corner prices pass on the indicated rectangle. Independent whole-q and source numeric replay and a complete same-b global cover remain necessary."
+}

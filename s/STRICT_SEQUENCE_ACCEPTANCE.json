@@ -1,0 +1,232 @@
+{
+  "status": "PASS_STRICT_MODIFIED_SEQUENCE_CERTIFICATE",
+  "unperturbed_coefficient": "711/1000",
+  "fresh_uncapped_operator_norm_cap": "281690137769807/500000000000000",
+  "unperturbed_simple_cap": "140845069/250000000",
+  "modified_coefficient": "711000001/1000000000",
+  "modified_norm_cap": "563380277/1000000000",
+  "modified_cap_margin_below_40_over_71": "333/71000000000",
+  "actual_matrix_ratio_limit_lower_bound": "1000000000/563380277",
+  "actual_ratio_limit_lower_bound_decimal": "1.7750000147768752",
+  "strict_ratio_margin_above_71_over_40": "333/22535211080",
+  "sequence": "H_n=H^*_{10^9*2^(n-1)}(711000001/10^9), n>=1",
+  "first_three": [
+    {
+      "index": 1,
+      "gaussian_dimension": "1000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "1000000000"
+      },
+      "coordinate_interval_count": "30000000002",
+      "seed_order_formula": "(30000000002)^1000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "1999999998288999979",
+        "denominator": "1126760554000000002"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000013258",
+      "comparison_40_numerator_minus_71_denominator": "597559999018",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "209825767188474885930414295289291038945417361040554449851333016662605046539818967825074655123152572952641152",
+          "denominator": "1012513031678567082977485527757618031678321700537439255971081857072079096935364890402041889915203072223685"
+        },
+        "10_log_upper": {
+          "numerator": "67983548569065863041454231673730296618320773600715846321982411838315086839762366497096689403885781717730204583",
+          "denominator": "328054222263855734884705310993468242263776230974130318934630521691353627407058224490261572332525795400473940"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "20833333294677083136109375196651042079510416281250000237000000096333333",
+        "denominator": "11737089092429577536384976942781689666666666750000000000000000000000000"
+      }
+    },
+    {
+      "index": 2,
+      "gaussian_dimension": "2000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "2000000000"
+      },
+      "coordinate_interval_count": "60000000002",
+      "seed_order_formula": "(60000000002)^2000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "3999999998288999989",
+        "denominator": "2253521108000000001"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000014017",
+      "comparison_40_numerator_minus_71_denominator": "1263559999489",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "6994966861946996759954946651661762519631485491459370562293688901260770341238572773223031258472931887307776",
+          "denominator": "32661710699308615579918887992181226828332958081852879224873608292647712804366609367807802900490421684635"
+        },
+        "10_log_upper": {
+          "numerator": "2266369263270826950225402715138411056360786916270032869786756642849193831067998393405637440529909366439316259",
+          "denominator": "10582394266575991447893719709466717492379878418520332868859049086817858948614781435169728139758896625821740"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "1142857141796857140009500001455607144040464285107142857346000000184142857",
+        "denominator": "643863173392354127070422540750503015142857143000000000000000000000000000"
+      }
+    },
+    {
+      "index": 3,
+      "gaussian_dimension": "4000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "4000000000"
+      },
+      "coordinate_interval_count": "120000000002",
+      "seed_order_formula": "(120000000002)^4000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "15999999996577999988",
+        "denominator": "9014084432000000001"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000014397",
+      "comparison_40_numerator_minus_71_denominator": "5191119999449",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "44772435650447782637358479422747647454346947885985305002175139043112542923394508822950656580433840812088192",
+          "denominator": "202502606335713416595497105551523606335664340107487851194216371414415819387072978080408377983040614444737"
+        },
+        "10_log_upper": {
+          "numerator": "14506269150745081574504147332970237775209603041605238320959300003666986137290706778810566381793719800301480695",
+          "denominator": "65610844452771146976941062198693648452755246194826063786926104338270725481411644898052314466505159080094788"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "113777777724999111033125333354114222226696222220666666666982666667032111111",
+        "denominator": "64100155944863849889752738789784037523555555556000000000000000000000000000"
+      }
+    }
+  ],
+  "fresh_directed_price_jobs": 31,
+  "fresh_closed_geometry_stages": 6,
+  "independently_checked_final_leaves": 305039,
+  "immutable_manifest_files_rechecked": 3300,
+  "archive": {
+    "expected_sha256": "35f1119b00800862571051990e2e89eb97f6d32cbcf28d69842bccb4374b4d33",
+    "archive_bytes_checked_in_this_run": true,
+    "path": "/mnt/data/Grothendieck_report_2026-10-02/Grothendieck_reduced_sequence_source_2026-10-01.zip",
+    "sha256": "35f1119b00800862571051990e2e89eb97f6d32cbcf28d69842bccb4374b4d33"
+  },
+  "bindings": {
+    "numeric_replay": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/ALL_DEFAULT_NUMERIC_REPLAYS.json",
+      "sha256": "828e25974c71b48fcd39818ad814fd4a877fbaaf0e4b82071f40077b43691094"
+    },
+    "geometry_stages": [
+      {
+        "name": "strong43_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/strong43_geometry.json",
+        "sha256": "4ba5ff57832cf7125f1355d538801e2467cdf18586a0a5549c62979e3ca7c44b",
+        "actual_checker": {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/audit_strong_shape_geometry.py",
+          "sha256": "b0db601b6bd870e81a080efad80ad6a592aa9b15e7cb1095c4a618a0ea2a1201"
+        }
+      },
+      {
+        "name": "u_refinement_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/u_refinement_geometry.json",
+        "sha256": "3f55d1bb89fbb0fee698cfb55644dab74657b207560a524d963b1a106f6c088c",
+        "actual_checker": {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/audit_u_refinement_geometry.py",
+          "sha256": "cf7dfb221e03375e272a3fef9434b9e4df9ae4b43cf82972603fb05420053079"
+        }
+      },
+      {
+        "name": "layer_00_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/layer_00_geometry.json",
+        "sha256": "1a1ab04272b505d52664fd901b2d145663945d3fc8598d5006115313bdff2b69",
+        "actual_checker": {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/audit_monotone_rank_children_v2.py",
+          "sha256": "510747f152a4ff8971cfb5cb2b0b419c1e9426654b10de5141e2646bf1b98154"
+        }
+      },
+      {
+        "name": "layer_01_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/layer_01_geometry.json",
+        "sha256": "2aa36bb5a2b3275e1d32faca04b08e8cd65fc4cb33668fb2afb975796b813fb1",
+        "actual_checker": {
+          "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_rank_child_moment_refinement_v2.py",
+          "sha256": "a64f96048f596f335e1fb820f5ced836895e165c67263376aa3d8d19ea246afc"
+        }
+      },
+      {
+        "name": "layer_02_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/layer_02_geometry.json",
+        "sha256": "75ddc83296899790991684f18e7a5fc031bb1d553ec28706fad48633f9b3fd6e",
+        "actual_checker": {
+          "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_affine_hybrid_delta_v2.py",
+          "sha256": "b9b502d47a6223c02b3b9aa2f3207b5f12abd232fecaaaa40d874d2cf77a6ed7"
+        }
+      },
+      {
+        "name": "final_geometry",
+        "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/final_geometry.json",
+        "sha256": "10be1dfc2f6acc0e1f9e5add112780be4962e85bfaa974aaf2cd579e8d4ca70a",
+        "actual_checker": {
+          "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_affine_moment_subrefinement.py",
+          "sha256": "dd1fd9222b49288c3f70fab18e2b1fb3a680e965ed587cbefec4766d8eba36d1"
+        }
+      }
+    ],
+    "uncapped_assembly": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/STRICT_UNCAPPED_ASSEMBLY.json",
+      "sha256": "06ff7d4042d074d88b13a8ec428634c16bed38d26f2a0ac736a1009b44c37a90"
+    },
+    "uncapped_checker": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/check_uncapped.py",
+      "sha256": "f978cf6e750ddb949cc22748872d47596f719c1fe01b6bbfdadc4244a7b01263"
+    },
+    "finite_arithmetic": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/finite_sequence_arithmetic.json",
+      "sha256": "b57cf188373e99705046214a79231ca5bb6c45950932393da99de1f626f93e76"
+    },
+    "finite_checker": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/finite_sequence_arithmetic.py",
+      "sha256": "71ffc848b10aced1531191e2604d0f453ebbe5cf5c4bbac74a7f205b755ecebd"
+    },
+    "new_helper": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_affine_hybrid_geometry.py",
+      "sha256": "91225406ef522137d4813e1cced709192734e306e0c96f376ffe571131eebc31"
+    },
+    "manual_helper_fixtures": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/AFFINE_HELPER_MANUAL_FIXTURES.json",
+      "sha256": "b135a748fdc6af9706f9e03facbb2ff5f3d8a57ca69bc9510cd5e8889b419923"
+    },
+    "manual_helper_fixture_checker": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/test_affine_geometry_independent.py",
+      "sha256": "17caa2faea21b3506c471dfa239474134be71e93e409cfe773bee353e7d6d1e9"
+    },
+    "compatibility_patch": {
+      "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/GEOMETRY_COMPATIBILITY_PATCH.json",
+      "sha256": "aabdef2173c4ed162d8aa66c36ee3970ce1a8f0e407c963ec17b8c510773858e"
+    },
+    "input_manifest": {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/portable_replay/FINAL_GOAL_INPUT_MANIFEST.json",
+      "sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a"
+    }
+  },
+  "scope": "All current directed price jobs and six exact current geometry stages freshly replayed. Whole-line local inequalities and the protected original all-local norm proof remain inherited accepted premises; the entire 219-stage local replay was not rerun. New affine helper independently reconstructed and reviewed; no claim to absent original byte identity. No frozen proof input changed."
+}

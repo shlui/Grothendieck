@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXACT_FINAL_ARITHMETIC",
+  "b": "711/1000",
+  "norm_cap": "112782853/200000000",
+  "GR_lower_bound": "200000000/112782853",
+  "GR_lower_bound_decimal": "1.77331921191956369466908236485204005257785064188791180872149",
+  "gap_to_1_775": "7582563/4511314120",
+  "gap_to_1_775_decimal": "0.00168078808043630533091763514795994742214935811208819127850933",
+  "improves_on_historical_display_1_773": true,
+  "target_met": false
+}

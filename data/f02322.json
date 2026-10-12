@@ -1,0 +1,223 @@
+{
+  "status": "PASS",
+  "source": "tonight/recovery/profile_cover/continuous_e7200_u2100_3000_r8_d10.json",
+  "rows": [
+    {
+      "row": 0,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 337,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6147170484562666,
+      "seconds": 0.24654650688171387,
+      "file": "continuous_scalar_row_00.json"
+    },
+    {
+      "row": 1,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 343,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6146677997778168,
+      "seconds": 0.20890140533447266,
+      "file": "continuous_scalar_row_01.json"
+    },
+    {
+      "row": 2,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 438,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6170667566571563,
+      "seconds": 0.27068257331848145,
+      "file": "continuous_scalar_row_02.json"
+    },
+    {
+      "row": 3,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 332,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6370688369875199,
+      "seconds": 0.22114300727844238,
+      "file": "continuous_scalar_row_03.json"
+    },
+    {
+      "row": 4,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 370,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6370752433459245,
+      "seconds": 0.22679972648620605,
+      "file": "continuous_scalar_row_04.json"
+    },
+    {
+      "row": 5,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 459,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6393347216819449,
+      "seconds": 0.26484012603759766,
+      "file": "continuous_scalar_row_05.json"
+    },
+    {
+      "row": 6,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 323,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6743181859337799,
+      "seconds": 0.20138192176818848,
+      "file": "continuous_scalar_row_06.json"
+    },
+    {
+      "row": 7,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 415,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6743174307743197,
+      "seconds": 0.24617266654968262,
+      "file": "continuous_scalar_row_07.json"
+    },
+    {
+      "row": 8,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 480,
+      "tail_cutoff": "64",
+      "largest_corner": 0.6764999112949577,
+      "seconds": 0.2757301330566406,
+      "file": "continuous_scalar_row_08.json"
+    },
+    {
+      "row": 9,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 293,
+      "tail_cutoff": "64",
+      "largest_corner": 0.726467934560031,
+      "seconds": 0.17310047149658203,
+      "file": "continuous_scalar_row_09.json"
+    },
+    {
+      "row": 10,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 360,
+      "tail_cutoff": "64",
+      "largest_corner": 0.7264632224715862,
+      "seconds": 0.2041003704071045,
+      "file": "continuous_scalar_row_10.json"
+    },
+    {
+      "row": 11,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 508,
+      "tail_cutoff": "64",
+      "largest_corner": 0.7285937593042875,
+      "seconds": 0.2676863670349121,
+      "file": "continuous_scalar_row_11.json"
+    },
+    {
+      "row": 12,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 287,
+      "tail_cutoff": "64",
+      "largest_corner": 0.7935061479374148,
+      "seconds": 0.16874933242797852,
+      "file": "continuous_scalar_row_12.json"
+    },
+    {
+      "row": 13,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 331,
+      "tail_cutoff": "64",
+      "largest_corner": 0.7935120802285197,
+      "seconds": 0.1963517665863037,
+      "file": "continuous_scalar_row_13.json"
+    },
+    {
+      "row": 14,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 511,
+      "tail_cutoff": "64",
+      "largest_corner": 0.7956785612139609,
+      "seconds": 0.2672703266143799,
+      "file": "continuous_scalar_row_14.json"
+    },
+    {
+      "row": 15,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 254,
+      "tail_cutoff": "64",
+      "largest_corner": 0.8754262823394805,
+      "seconds": 0.15141987800598145,
+      "file": "continuous_scalar_row_15.json"
+    },
+    {
+      "row": 16,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 278,
+      "tail_cutoff": "64",
+      "largest_corner": 0.8754570840574746,
+      "seconds": 0.155930757522583,
+      "file": "continuous_scalar_row_16.json"
+    },
+    {
+      "row": 17,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 375,
+      "tail_cutoff": "64",
+      "largest_corner": 0.8778744454614476,
+      "seconds": 0.2193288803100586,
+      "file": "continuous_scalar_row_17.json"
+    },
+    {
+      "row": 18,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 290,
+      "tail_cutoff": "64",
+      "largest_corner": 0.9722243048775651,
+      "seconds": 0.17925786972045898,
+      "file": "continuous_scalar_row_18.json"
+    },
+    {
+      "row": 19,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 296,
+      "tail_cutoff": "64",
+      "largest_corner": 0.9723493355723468,
+      "seconds": 0.17663073539733887,
+      "file": "continuous_scalar_row_19.json"
+    },
+    {
+      "row": 20,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 287,
+      "tail_cutoff": "64",
+      "largest_corner": 0.974931337269999,
+      "seconds": 0.15994620323181152,
+      "file": "continuous_scalar_row_20.json"
+    },
+    {
+      "row": 21,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 289,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0838885023753224,
+      "seconds": 0.15813660621643066,
+      "file": "continuous_scalar_row_21.json"
+    },
+    {
+      "row": 22,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 225,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0839941905784096,
+      "seconds": 0.13023066520690918,
+      "file": "continuous_scalar_row_22.json"
+    },
+    {
+      "row": 23,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 322,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0866104630742475,
+      "seconds": 0.17359519004821777,
+      "file": "continuous_scalar_row_23.json"
+    }
+  ],
+  "seconds": 5.025965452194214
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_root_kappa24_middle_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa24_middle.json",
+      "profile_sha256": "e3ebfd7870d53cd4ed5b1146d7d4bf1965452cf24117b870f9ce5e39758f318d",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/KAPPA24_MIDDLE_GATE_MANIFEST.json",
+      "acceptance_sha256": "6090c53595ee3a88858e9acec42bf4f361fbfd0464eaa024eae71ce780c7e91d",
+      "proof_status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa24_middle_body.json.gz",
+          "sha256": "18446757e3cd401ade408a9bfa5f46b533cfd8f1fe8e7cdc184be47282a4f8ae"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa24_middle_exterior.json.gz",
+          "sha256": "4a572df63e1685cefa0b2b37fcfc259e7df505a6857b6ed94a92a3d926073c87"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa24_middle_tail.json",
+          "sha256": "deadce9cd1a383353a651c3abcb4cfd6f6a5f04727b1ce5a7e3ffaee7a1e0708"
+        }
+      ]
+    }
+  ]
+}

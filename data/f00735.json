@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/moderate_u741_k075_q20_extra_manifest.json",
+    "sha256": "bca89319264d8b827e516907b9311d52bca0fb26e4852539586a6c9d38b1e42b"
+  },
+  "profiles": [
+    {
+      "name": "moderate_u741_k075_b7171",
+      "label": "interval_moderate_u741_k075_b7171",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/profile_moderate_u741_k075_b7171.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input/profile_interval_moderate_u741_k075_b7171.json",
+          "sha256": "60866b85b0717638b4316e9b74ffaff0fd62c84c641458024a142cd20a92771e"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/body_moderate_u741_k075_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input/body_interval_moderate_u741_k075_b7171.json.gz",
+          "sha256": "dad58982a87ae90ed84dfd52381f9993d56e020d3e17ee5b190297089a607e4c"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/exterior_moderate_u741_k075_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input/exterior_interval_moderate_u741_k075_b7171.json.gz",
+          "sha256": "05521d98f6c5529b1d2e0ba9ef95f89885c0220191d1253d53360056a9ef6669"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/tail_moderate_u741_k075_q20.json",
+          "alias": "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input/tail_interval_moderate_u741_k075_b7171.json",
+          "sha256": "79a37caa28d64c509555dfe0b359d453d6671a31d79650d6cc9934045d0a4ef1"
+        }
+      ]
+    }
+  ]
+}

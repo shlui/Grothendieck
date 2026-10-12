@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_LASTFACE_U7575_K35_12_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_lastface_u7575_r238_k35_12.json",
+  "profile_sha256": "b9758dcfb52407925d58b53450929e99a21e77b80d35158c84b5beead68d9ee4",
+  "reserves": [
+    "1/10000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/lastface_u7575_R3_recheck/independent_interval_lastface_u7575_r238_k35_12_lowerface_body.json",
+      "sha256": "028c425cd24afab2efc4b1289cdf247d468caa347d9dcb8a07b9bcf85a160715",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2848,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/lastface_u7575_R3_recheck/independent_interval_lastface_u7575_r238_k35_12_lowerface_exterior.json",
+      "sha256": "6f0175ef22abae59253f7f08361a56c67a82f5b115211f42a0e3852fbe3b73a2",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 162,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/lastface_u7575_R3_recheck/independent_interval_lastface_u7575_r238_k35_12_lowerface_tail.json",
+      "sha256": "b68cec390c6c8acc3bdce392e91aeaf33d459d18e6f40a5db6cb293d17739554",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "2824b098fc2d657d3ad16b30557f45ad6c2e81e1d45d855d75f0b58d8d9b9c3a",
+  "adapter_path": "tonight/audit/replay_R3_lowerface_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

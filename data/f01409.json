@@ -1,0 +1,31 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa115_mid_u_step2.json",
+    "sha256": "0afca3d950bb9e3219ac312e843797635e4e5c0b9123172a45c560ace4c1f1e6"
+  },
+  "reference_b": "7171/10000",
+  "target_b": "711/1000",
+  "reserve0": "1/20000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_body.json.gz",
+      "sha256": "db2133bdc4f05648bf5f6bc9abf5bb3239228b258fbdf1110c38c426f01e414c"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_exterior.json.gz",
+      "sha256": "435669573a44853795421bbd0f6976462fb25a517fd54d55068e121135635104"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_tail.json",
+    "sha256": "18efa6caf26e0ce53cc75f8008f685f11272289eaf2597a42b81aed5772dfa4c"
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa115_mid_u_step2_q50_price.json",
+    "sha256": "f17c0eb70ffbd3a8632f670770bca956a9d6f01d01da3fe85e47a4c3bd240902"
+  },
+  "source_box_cap": "17604714853502447850743844976737066412695817/31250000000000000000000000000000000000000000",
+  "scope": "Complete local producer gate. Independent local replay, source pricing and complete global cover remain separate proof obligations."
+}

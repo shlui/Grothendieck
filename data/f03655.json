@@ -1,0 +1,63 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_HIGHK_LOWR_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/highk_lowr_literature/profile_rank_exact.json",
+  "profile_sha256": "596886cd59aea3a29b51d6a12311faa3f11d0966bbdc580021970004a5b15c30",
+  "reserves": [
+    "1/1000",
+    "1/10000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/highk_lowr_R3_recheck/independent_interval_highk_lowr_highk_body.json",
+      "sha256": "a2f09d882b06677f336320ef842e38b95982bf02fe3b2e9efe8aee10b3282251",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 7188,
+      "excluded": 78
+    },
+    "exterior": {
+      "path": "tonight/audit/highk_lowr_R3_recheck/independent_interval_highk_lowr_highk_exterior.json",
+      "sha256": "05ee4a4a437daca0cb10248e78259fadc6647a7131cddee989e6ba2289e37c1f",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 147,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/highk_lowr_R3_recheck/independent_interval_highk_lowr_highk_tail.json",
+      "sha256": "7cbd51fd78fe32492cb079d81b154698d518aa6310deb2ce92955781732e948a",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "84a25bbd589a77a71525b9fa1c9e2f450c0e5d5a9a1e3fcf07d2d710fa2931b4",
+  "adapter_review": "Against the accepted robustcurrent replay, changes are exactly two literal reserve-map/CLI-choice lines. Profile/body/exterior filename aliases are byte-identical to the original literature inputs, as individually hash-verified. Body/ext leaves,78 physical exclusions, and exact tail32 freshly checked.",
+  "scope": "Whole-q physical local gate only. Outer moment/source pricing and exhaustive amplitude coverage are separate.",
+  "byte_identical_input_aliases": {
+    "tonight/audit/highk_lowr_R3_input/profile_interval_highk_lowr.json": {
+      "original": "tonight/operator/highk_lowr_literature/profile_rank_exact.json",
+      "sha256": "596886cd59aea3a29b51d6a12311faa3f11d0966bbdc580021970004a5b15c30"
+    },
+    "tonight/audit/highk_lowr_R3_input/body_interval_highk_lowr.json.gz": {
+      "original": "tonight/operator/highk_lowr_literature/body_rank.json.gz",
+      "sha256": "ab8d23fa76e85acf193589e116a2254ed4f54cb849b4e9bdc781fb97d1b4c30d"
+    },
+    "tonight/audit/highk_lowr_R3_input/exterior_interval_highk_lowr.json.gz": {
+      "original": "tonight/operator/highk_lowr_literature/exterior_rank.json.gz",
+      "sha256": "281bbecfa6a37b53f86e731756eb77b1100f73de296f0b35b582cd12dd78b42a"
+    }
+  }
+}

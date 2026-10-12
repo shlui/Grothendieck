@@ -1,0 +1,23 @@
+{
+  "status": "PASS_MANUSCRIPT_REVIEW",
+  "pages_including_appendices_and_references": 19,
+  "format": "11pt article, one-inch margins",
+  "source_sha256": "27bdc48610064745fbd619ae8fcf13fa130e7cd60a2f0882eb78feac14dd1d99",
+  "pdf_sha256": "39f5ddc864f114f85ceadca45e1e59584ec8ca4a90b42ba6ff130ddb39fe57e2",
+  "definition": "square-matrix phi_d, phi_1, G_R as in older Grothendieck draft",
+  "alpha_theory": "main text; Gaussian optimality attributed to Naor-Regev, finite duality and explicit tail bound included",
+  "matrix_sequence": "b*=711000001/10^9; d_n=10^9*2^(n-1); first three specified by deterministic entry formulas",
+  "limit_lower_bound": "1000000000/563380277 >71/40",
+  "numeric_estimates": "appendices",
+  "checks": [
+    "independent alpha/matrix/norm proof audits",
+    "strict certificate PASS",
+    "no unresolved references or citations",
+    "no duplicate labels or overfull boxes",
+    "all rendered pages visually inspected"
+  ],
+  "limitations": [
+    "Matrices are specified implicitly; enormous arrays were not materialized",
+    "Strict replay inherits the earlier accepted whole-line/local certificates; it is not a second219-stage all-local replay"
+  ]
+}

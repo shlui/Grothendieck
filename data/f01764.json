@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_FINALDIFFUSE_U75875_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_finaldiffuse_u75875_r245_k0_01.json",
+  "profile_sha256": "ee8b662afe6e89a11105b384bbb308c6ebaca0ebd8b3978ac931dac22fa85ce3",
+  "reserves": [
+    "1/10000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/finaldiffuse_u75875_R3_recheck/independent_interval_finaldiffuse_u75875_r245_k0_01_lowerface_body.json",
+      "sha256": "f6c2462890634ebb0d7bc72098a52e70d8c9e071dc15390863df171922d38543",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2096,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/finaldiffuse_u75875_R3_recheck/independent_interval_finaldiffuse_u75875_r245_k0_01_lowerface_exterior.json",
+      "sha256": "cded4a437db4aa0e39f41cfec8548173851961a07e454eb1d91b1998f5782417",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 162,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/finaldiffuse_u75875_R3_recheck/independent_interval_finaldiffuse_u75875_r245_k0_01_lowerface_tail.json",
+      "sha256": "b85d9e3503f887cd30e1df29b2cc33fc7811e40aa8297a19604fd4a12eead930",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "2824b098fc2d657d3ad16b30557f45ad6c2e81e1d45d855d75f0b58d8d9b9c3a",
+  "adapter_path": "tonight/audit/replay_R3_lowerface_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

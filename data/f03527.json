@@ -1,0 +1,24 @@
+{
+  "status": "PASS_PORTABLE_ALL_ADDITIONAL_PROMOTED_RANK_GATES",
+  "mode": "tails_only",
+  "seconds": 1.239694595336914,
+  "profiles": [
+    "last20_40",
+    "finaldiffuse75875"
+  ],
+  "fresh_reports": [
+    {
+      "job": "last20_40_tail",
+      "fresh_report": "replay_outputs_promoted/last20_40_tail/independent_interval_last20_40_highu_tail.json",
+      "sha256": "339516757b0e34bb9db55d111850c69241b6695d4bd1f014869fdbed3f3a455c",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL"
+    },
+    {
+      "job": "finaldiffuse75875_tail",
+      "fresh_report": "replay_outputs_promoted/finaldiffuse75875_tail/independent_interval_finaldiffuse_u75875_r245_k0_01_lowerface_tail.json",
+      "sha256": "b85d9e3503f887cd30e1df29b2cc33fc7811e40aa8297a19604fd4a12eead930",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL"
+    }
+  ],
+  "scope": "Only the accepted additional rank-profile whole-q prerequisites. The separate global numeric and exact coverage entrypoints assemble the same-coefficient operator bound."
+}

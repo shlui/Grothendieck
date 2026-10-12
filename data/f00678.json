@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa325_producer_manifest.json",
+    "sha256": "f754a4f1b6f6dec3481e93036c47ff01fa9f9b407b89b4a2135fd296f299a02d"
+  },
+  "profiles": [
+    {
+      "name": "new_mediumu_kappa325_b711",
+      "label": "interval_new_mediumu_kappa325_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa325_b711.json",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input/profile_interval_new_mediumu_kappa325_b711.json",
+          "sha256": "ca87533bb489a67069d0eee3fb686687f71a0a738d6438077e8e4ace0e25a432"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa325_b711_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input/body_interval_new_mediumu_kappa325_b711.json.gz",
+          "sha256": "1d2ba1b742261c756505f9505f535986729021562035feb68cfbb7965bc7ab07"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa325_b711_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input/exterior_interval_new_mediumu_kappa325_b711.json.gz",
+          "sha256": "53aba86562e1332c7043897b7b6f7cbced3f19be4f1cd78629ac20959f19788f"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa325_b711_q100.json",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input/tail_interval_new_mediumu_kappa325_b711.json",
+          "sha256": "c4559c4decb2b09940f4b32cab13e044da51b55c24ce6381c214efddfab1318f"
+        }
+      ]
+    }
+  ]
+}

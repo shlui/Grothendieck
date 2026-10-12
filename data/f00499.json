@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/REPLAY_MANIFEST.json",
+    "sha256": "c33b48f77424b5bcc0c0deca12fd9331747fd00cd60a2c9d89d06f69d1ca2237"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/reports/independent_interval_new_root_kappa175_early_step1_b711_nextface_body.json",
+      "sha256": "71404c493acd8be7d56a966995cbc6ee8ed0c16a754c5eb8645dd3458b3145f3",
+      "profile": "interval_new_root_kappa175_early_step1_b711",
+      "part": "body",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4013
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/reports/independent_interval_new_root_kappa175_early_step1_b711_nextface_exterior.json",
+      "sha256": "3a3b7c05cab2dd65630933e4ad3db054039f30ca9589485b1bf5317de302da38",
+      "profile": "interval_new_root_kappa175_early_step1_b711",
+      "part": "exterior",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 195
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/reports/independent_interval_new_root_kappa175_early_step1_b711_nextface_tail.json",
+      "sha256": "a99cb22bbfc1b6245546f11cf1bc43d5077b074add771810f78afd54bb13fae4",
+      "profile": "interval_new_root_kappa175_early_step1_b711",
+      "part": "tail",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 9.018326997756958,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

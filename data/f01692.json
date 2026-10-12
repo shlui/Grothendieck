@@ -1,0 +1,216 @@
+{
+  "status": "PASS_EXACT_AMPLITUDE_COVERAGE_LEDGER",
+  "operator": "P1-(18/25)P3",
+  "physical_domain": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "rho_for_energy": "847/1000",
+  "entries": [
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u014_042",
+      "interval": [
+        "7/50",
+        "21/50"
+      ],
+      "cap": "561523/1000000",
+      "local_boxes": 63681,
+      "scalar_leaves": 8403,
+      "replay_sha256": "ac9414927643e56eda762635b9dd7d146398cff013329be85dfc5b0137cfa2bb",
+      "manifest_sha256": "a01393505a776afc71365d2bed41db1234081e557c426af252a0187c56c3371c"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u021_030",
+      "interval": [
+        "21/100",
+        "3/10"
+      ],
+      "cap": "546399/1000000",
+      "local_boxes": 63681,
+      "scalar_leaves": 8403,
+      "replay_sha256": "54e19459ad8f941b4fea4a2aae2100fbb05ad11b24eae0d74df60d32469acc08",
+      "manifest_sha256": "78b7e0322fc4f0b488f8b16c43213db643b5ed00d659ae4d08626c3fc85652ff"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u030_031",
+      "interval": [
+        "3/10",
+        "31/100"
+      ],
+      "cap": "108221/200000",
+      "local_boxes": 68857,
+      "scalar_leaves": 5641,
+      "replay_sha256": "1c25e6b92c31a8cb40f74f237e828694415ed97c225a975dc7a22d670ed64042",
+      "manifest_sha256": "66ef81a84b44acca173c84a9ff20c6e224c4b451c19f59ba500112de5b8aae99"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u030_0485",
+      "interval": [
+        "3/10",
+        "97/200"
+      ],
+      "cap": "562857/1000000",
+      "local_boxes": 61829,
+      "scalar_leaves": 7829,
+      "replay_sha256": "41a2c42f802dc70a24c2189c4bbfdfbc4c5cced3471a2536844d41000315d0d3",
+      "manifest_sha256": "d505661ad1c4b4c2b8dbc75f9de586c6be3afbcf2155d88305c2bf225c929d7d"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u040_054",
+      "interval": [
+        "2/5",
+        "27/50"
+      ],
+      "cap": "563039/1000000",
+      "local_boxes": 58841,
+      "scalar_leaves": 9020,
+      "replay_sha256": "ffa259e596e549b565f136db1ddf36fc2f70df1c740eb56b36f831309c514539",
+      "manifest_sha256": "8340d42134e698e8ad4d653e594cb09d8d722480a6a1f7c7224ced4fb3f49493"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u050_0638",
+      "interval": [
+        "1/2",
+        "319/500"
+      ],
+      "cap": "281633/500000",
+      "local_boxes": 151929,
+      "scalar_leaves": 8380,
+      "replay_sha256": "913a0413a044f622b50b6f467b37ce4d859b2a6975a809af6fa95e90696d76e9",
+      "manifest_sha256": "2804ca587193bd535ab8b1d1c6042a4ec1e8a85e080ada34b29a61b7c88b6aae"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u060_0662",
+      "interval": [
+        "3/5",
+        "331/500"
+      ],
+      "cap": "281651/500000",
+      "local_boxes": 153593,
+      "scalar_leaves": 9775,
+      "replay_sha256": "32d6ec3511112f996d826f93b9504aa3cd359e566a70f1212b768a3f00143b4f",
+      "manifest_sha256": "5dadee8eb05b22885def32dca4c1cf89c2d694866d2af173fa1a6be314044ca3"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u0662_0682",
+      "interval": [
+        "331/500",
+        "341/500"
+      ],
+      "cap": "563367/1000000",
+      "local_boxes": 627497,
+      "scalar_leaves": 9217,
+      "replay_sha256": "249603987837576e95ef53f8663e6c0d8ae0049b0eec801965bb43de014b362a",
+      "manifest_sha256": "e8f5ee150e1e523f014b01f28fa1981e6d7ee13226b36dc7b8741d4097442996"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u077_c",
+      "interval": [
+        "77/100",
+        "159577/200000"
+      ],
+      "cap": "281667/500000",
+      "local_boxes": 53541,
+      "scalar_leaves": 8371,
+      "replay_sha256": "92f7c896583538001379990635009711b87b070e7980ede6ffb80658ea2b4f4a",
+      "manifest_sha256": "ae2200f5dc15434b4f035026e8fa368dc3efec7ecf1e9cd29791c1e392231cae"
+    },
+    {
+      "kind": "complete_amplitude_package",
+      "name": "u079_0797885",
+      "interval": [
+        "79/100",
+        "159577/200000"
+      ],
+      "cap": "9/16",
+      "local_boxes": 98941,
+      "scalar_leaves": 3862,
+      "replay_sha256": "46ad627a01b85ed5439d59272b2f0fff23c1eacb5baa1169968ac59cbe4dbfb4",
+      "manifest_sha256": "9185345a0ca53f8056d9bd8ba41b914e3f1a43b8601f7e21db7ea04d825014c0"
+    },
+    {
+      "kind": "universal_energy_corollary",
+      "name": "energy_u0_021",
+      "interval": [
+        "0",
+        "21/100"
+      ],
+      "cap": "7007931/12500000",
+      "rho": "847/1000",
+      "dependency": "Ten fresh whole-line comparisons and complete 2780-leaf global cubic L1 price cover; pure-third projection duality."
+    },
+    {
+      "kind": "exact_outer_extension_corollary",
+      "name": "lower662_685_fallback",
+      "interval": [
+        "331/500",
+        "137/200"
+      ],
+      "cap": "451/800",
+      "ledger_sha256": "cd88b3c26cdb36162828cbd71318b2258adda0a1cca7c3b76eeb5ee0c33c5fe0",
+      "dependency": "Completed u0662_0682 package unchanged plus independent exact endpoint extension."
+    }
+  ],
+  "target_1775": {
+    "threshold": "40/71",
+    "complete": false,
+    "closed_covered_intervals": [
+      [
+        "0",
+        "341/500"
+      ],
+      [
+        "77/100",
+        "sqrt(2/pi)"
+      ]
+    ],
+    "open_uncovered_intervals": [
+      [
+        "341/500",
+        "77/100"
+      ]
+    ],
+    "participating_theorems": 11
+  },
+  "fallback_800_451": {
+    "threshold": "451/800",
+    "complete": false,
+    "closed_covered_intervals": [
+      [
+        "0",
+        "137/200"
+      ],
+      [
+        "77/100",
+        "sqrt(2/pi)"
+      ]
+    ],
+    "open_uncovered_intervals": [
+      [
+        "137/200",
+        "77/100"
+      ]
+    ],
+    "participating_theorems": 12
+  },
+  "pending_packages": [],
+  "excluded_scopes": [
+    "Conditional R3 cells restrict r and/or kappa and do not count as whole-amplitude coverage.",
+    "Conditional complement masks require a full multidimensional union proof.",
+    "Sampled or optimizer discovery profiles never count as acceptance."
+  ],
+  "retained_project_premises": {
+    "lower": "1.773, conditional on unreplayed historical55-interval norm cover.",
+    "upper": "1.780498480511303, an unreplayed earlierprojectrounding premise."
+  },
+  "global_conclusion": "Neither threshold has complete all-amplitude coverage; no new globalGrothendieck endpoint follows."
+}

@@ -1,0 +1,32 @@
+\begin{proposition}[A sharper universal cubic absolute-moment bound]
+\label{prop:cubic-rho-star}
+For every real Gaussian polynomial $Q$ of pure Hermite degree three with
+$\mathbb E Q^2=1$, in every dimension,
+\[
+ \mathbb E|Q|<\rho_*:=\frac{848521}{10^6}.
+\]
+Consequently $\|P_3\|_{L_\infty\to L_2}<\rho_*$ uniformly over dimension.
+\end{proposition}
+\begin{proof}
+Retain the eight already accepted whole-line Stein comparisons, and put
+$\kappa=\mathbb EQ^4-3$, $V=\mathbb E(\|\nabla Q\|^2/3-1)^2$.
+For a row with coefficients $(q_0,q_2,q_4,q_6)$ and Young parameter
+$\eta>0$, its moment price is
+\[
+ \sqrt{2/\pi}+q_0+q_2+(3+\kappa)q_4+
+ q_6\left[15+15\kappa+\frac{194}{\sqrt{10}}\kappa^{3/2}
+       -633\sqrt\kappa\left(V-\frac{7\kappa}{45}\right)\right]
+ +\frac\eta2 V.
+\]
+It is affine in $V\in[7\kappa/45,2\kappa/9]$. At both endpoints it
+is convex in $\kappa$, since $q_6>0$ and
+$194/\sqrt{10}-633/15>0$. Thus the gap-free eight-interval cover of
+$0\le\kappa\le90$ reduces to the same 32 corner prices. A fresh directed
+MPFR reconstruction bounds every corner below $848521/10^6$; the largest
+is below $0.848520760641951$, at $\kappa=48/5$ on the lower-variance
+endpoint. This repricing changes none of the accepted scalar comparisons.
+Finally, duality gives
+$\|P_3\|_{\infty\to2}=\sup_{Q\in\operatorname{ran}P_3,\,\|Q\|_2=1}
+\mathbb E|Q|$, proving the last assertion with the same strict uniform
+margin.
+\end{proof}

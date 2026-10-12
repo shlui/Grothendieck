@@ -1,0 +1,72 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_RESTRICTED_R3_DOMAIN",
+  "reserve0": "1/50000",
+  "reserve6": "1/5000000",
+  "amplitude_interval": [
+    "341/500",
+    "69/100"
+  ],
+  "kappa_interval": [
+    "0",
+    "1"
+  ],
+  "source_range": "r>=1/5, bounded above by 1649921/1000000-(9/5)u",
+  "shape_interval": [
+    "2/5",
+    "1"
+  ],
+  "accepted_q_leaves": 21873,
+  "q_domain": "Entire real line, by evenness, complete0..64 trees and exacttails64..infinity",
+  "cells": [
+    {
+      "profile": "70",
+      "r": [
+        "1/5",
+        "199/500"
+      ],
+      "cap": "5631/10000"
+    },
+    {
+      "profile": "68",
+      "r": [
+        "199/500",
+        "1649921/1000000-(9/5)u"
+      ],
+      "cap": "14083/25000"
+    }
+  ],
+  "source_price_replay_sha256": "e917b5b411c3baec5249acc00fd946da0fc1d5dc7da99445c78b1d5361cbac6f",
+  "components": [
+    {
+      "file": "independent_68_finer_body.json",
+      "sha256": "6316366a63b3a95b5413a6283581679da4c7ed17e0d5665ff32bc52f51b801ca",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_68_finer_exterior.json",
+      "sha256": "65b3ab08f2e895cc9fc01f5a1c0f28f9d5b7c6f4e5231bed7059707a520864f1",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_68_finer_tail.json",
+      "sha256": "dfa8e6b2d6a84e58d60b1acba427a626bb27b9a01d9a91cbe131327ec1995fce",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL"
+    },
+    {
+      "file": "independent_70_finer_body.json",
+      "sha256": "954433425dfe73b223ce059baab797de12b38c51308068d32344c8b2734b6500",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_70_finer_exterior.json",
+      "sha256": "0d5f061ea1645220a138676aad16ac2298a82f2b2f857cb04a78a0227bfc21b6",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_70_finer_tail.json",
+      "sha256": "b6a9ca28afcbd3531f1d716f410a9a3167a389276f7ff4175b8a778a28e78837",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL"
+    }
+  ],
+  "excluded": "Does not cover kappa>1 or r<1/5, and does not count as complete amplitude coverage without a certified complement union."
+}

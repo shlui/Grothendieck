@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_REFINEDFACE_U75125_K10_12_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_refinedface_u75125_r262_k10_12.json",
+  "profile_sha256": "27d4ff398a218d217de7974c0590758373c286719001b490984ea618783935d6",
+  "reserves": [
+    "1/10000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_body.json",
+      "sha256": "be8ea194c84bd29fe619ac24064a476926076c7f5e53ad6cfe852ecb6cb85079",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2716,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_exterior.json",
+      "sha256": "77a261e51412fc431ff83498f037a4d5ee117e3dbc9c3faa355b986e9f68b975",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 112,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_tail.json",
+      "sha256": "b1e367c4b0d532336f9151322f0dc17207205d5d48c19eb17c1c4709b1de5150",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "2824b098fc2d657d3ad16b30557f45ad6c2e81e1d45d855d75f0b58d8d9b9c3a",
+  "adapter_path": "tonight/audit/replay_R3_lowerface_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

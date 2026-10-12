@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_dense_highk_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_extra_manifest.json",
+    "sha256": "3f2cbf4c0b7eb181191fb75034a3d83848257d17b1189f07a08a25f54d51a7d6"
+  },
+  "profiles": [
+    {
+      "name": "new_root_kappa225_dense_step0_budget01_b711",
+      "label": "interval_new_root_kappa225_dense_step0_budget01_b711",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "tail_R": "64",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_dense_step0.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input/profile_interval_new_root_kappa225_dense_step0_budget01_b711.json",
+          "sha256": "5085691e9445bcfc8f7c05b789ed6adcccb3ff4d7b200aeb87a4530556c1ca37"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input/body_interval_new_root_kappa225_dense_step0_budget01_b711.json.gz",
+          "sha256": "60c671acd4eb8e2c9d4d79cfd30d06fc985a95411dd7580e5ffd90213bfc40f0"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input/exterior_interval_new_root_kappa225_dense_step0_budget01_b711.json.gz",
+          "sha256": "aa2834ab681953b95b4126785dd542bc7d10b2ef0971d79a95c35dbd6cbaa3fd"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step0_budget01_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input/tail_interval_new_root_kappa225_dense_step0_budget01_b711.json",
+          "sha256": "06dc0c9bcadade6df782dfbfc3978feecefff4b6d7a538acb276e50bab808c92"
+        }
+      ]
+    }
+  ]
+}

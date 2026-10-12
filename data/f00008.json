@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYTIC_AND_EXACT_KRIVINE_UPPER_REVIEW",
+  "universal_strict_upper": "1760/987",
+  "strict_below_rounding_endpoint": "357/200",
+  "exponential_upper_rebuilt": "36546709859637513399380063330480378767/15140013877549634840166400000000000000",
+  "rounding_lower_required": "71/40",
+  "rounding_lower_currently_proved": false,
+  "proof_checks": [
+    "Odd tensor maps have norm one by sinh(c)=1, and their cross inner product is sin(c<u,v>).",
+    "The finitely many transformed vectors span a finite-dimensional subspace even though tensor direct sums are infinite. A finite standard Gaussian suffices.",
+    "The Gaussian sign correlation identity applies also at correlations +/-1 by continuity. c<pi/2 makes arcsin(sin(ct))=ct for every t in[-1,1].",
+    "Signed tensor rounding bounds every real rectangular matrix with the classical sign norm, giving G_R<=pi/(2c).",
+    "Independent exact recurrence for the exponential series and polynomial multiplication confirms c>141/160, pi<22/7 and rational upper1760/987<1.785."
+  ],
+  "scope": "Unconditional universal upper bound. The claimed rounding to1.78 remains conditional on the separately certified lower G_R>=1.775.",
+  "bindings": {
+    "THREE_SIGNIFICANT_DIGIT_UPPER_COROLLARY.tex": {
+      "path": "new_round_2026-10-02/sequence_theory/THREE_SIGNIFICANT_DIGIT_UPPER_COROLLARY.tex",
+      "sha256": "99d9cd594ca6dc1f678c1b79f92d5fc4fab729db65ab0db02c99e1e10fdfae80"
+    },
+    "certify_elementary_upper.py": {
+      "path": "new_round_2026-10-02/sequence_theory/certify_elementary_upper.py",
+      "sha256": "55cca84184c04e9318ab04605dbab63b0d003a8ec9703a5fd6f736b29ea8b977"
+    },
+    "ELEMENTARY_KRIVINE_UPPER_EXACT_CERTIFICATE.json": {
+      "path": "new_round_2026-10-02/sequence_theory/ELEMENTARY_KRIVINE_UPPER_EXACT_CERTIFICATE.json",
+      "sha256": "730d46080ee22fb9bd4fce2b779b19213211224a8d945ede4795b3d6046fe1f1"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_mediumu_kappa125_producer_manifest.json",
+    "sha256": "18a1f88558edc5c7f853a8763d196fb51a971f2157848eb62b322adf385e3da7"
+  },
+  "profiles": [
+    {
+      "name": "new_mediumu_kappa125_b711",
+      "label": "interval_new_mediumu_kappa125_b711",
+      "branch": "robust",
+      "reserve0": "1/200000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_mediumu_kappa125_b711.json",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input/profile_interval_new_mediumu_kappa125_b711.json",
+          "sha256": "c46934502da693a444b49b2dbfe746fcc3b78d17718f868970bdbc563ef5b14b"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_mediumu_kappa125_b711_q5.json.gz",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input/body_interval_new_mediumu_kappa125_b711.json.gz",
+          "sha256": "a49bec4fa288cbcc5584aae24c827bdbc0d636a003bc1c39294a784fb8503d01"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_mediumu_kappa125_b711_q5.json.gz",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input/exterior_interval_new_mediumu_kappa125_b711.json.gz",
+          "sha256": "a6307f0c45dc8e693c1c96904902ad37ad958f6a4ff8a6ab52ff07c3e0547cb1"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_mediumu_kappa125_b711_q5.json",
+          "alias": "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input/tail_interval_new_mediumu_kappa125_b711.json",
+          "sha256": "e8cde1f7253cbfda0d4135ac8be4e02a0d0044aa0431d5abdbedf1f0089536ac"
+        }
+      ]
+    }
+  ]
+}

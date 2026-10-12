@@ -1,0 +1,14 @@
+{
+  "regional_cap": "281667/500000",
+  "operator": "P1-(18/25)P3",
+  "amplitude_interval": [
+    "77/100",
+    "159577/200000"
+  ],
+  "coverage_interval": [
+    "77/100",
+    "159577/200000"
+  ],
+  "target_threshold": "40/71",
+  "scope": "Regional theorem, not an unrestricted operator cap."
+}

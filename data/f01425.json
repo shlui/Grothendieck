@@ -1,0 +1,31 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_LOW_R_HIGH_KAPPA_PENDING_INDEPENDENT_REPLAY",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_low_r_highk.json",
+    "sha256": "cb8e4977dcb89129f14cd95d38eb0b8d96b636e089414983b13b1f4acbbf40db"
+  },
+  "reference_b": "7171/10000",
+  "target_b": "711/1000",
+  "reserve0": "1/1000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/low_r_highk_body.json.gz",
+      "sha256": "4a1e89dcd3b8290107533b50cdb6670025d9cdbe2c750c5a388c12da0be13ae5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/low_r_highk_exterior.json.gz",
+      "sha256": "a921597de8900bf391d93ce082da23fa485537575ab18465513c5835eb7317e3"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/low_r_highk_tail.json",
+    "sha256": "ba3250ee942a10997bbc4314147e69210d0e16290d18478530469737238dfbf0"
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/low_r_highk_price.json",
+    "sha256": "b32e2e77d8cd9a0bddef2921d5d1b38194f4ac439ac0e1b8b11b55092026d981"
+  },
+  "source_box_cap": "56229674693098403579118869067598395564690759/100000000000000000000000000000000000000000000",
+  "scope": "Freshwholeq+physicalsourcerectangle; globalcoverseparatelyrequired."
+}

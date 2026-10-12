@@ -1,0 +1,3983 @@
+{
+  "mode": "full",
+  "top_level_stages": 219,
+  "stages": [
+    {
+      "name": "protected_baseline",
+      "all_local": true,
+      "command": [
+        "python",
+        "<disposable_baseline>/verify_bundle.py",
+        "--full",
+        "--workers",
+        "4"
+      ]
+    },
+    {
+      "name": "interval_new_worst_b711_tight_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_worst_b711_tight",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3048
+    },
+    {
+      "name": "interval_new_worst_b711_tight_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_worst_b711_tight",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 144
+    },
+    {
+      "name": "interval_new_worst_b711_tight_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_worst_b711_tight",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3063
+    },
+    {
+      "name": "interval_new_diffuse_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 137
+    },
+    {
+      "name": "interval_new_diffuse_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/two_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate1_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate1_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3052
+    },
+    {
+      "name": "interval_new_moderate1_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate1_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 136
+    },
+    {
+      "name": "interval_new_moderate1_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate1_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate2_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate2_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4038
+    },
+    {
+      "name": "interval_new_moderate2_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate2_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 233
+    },
+    {
+      "name": "interval_new_moderate2_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate2_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_ridge_diffuse_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_diffuse_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 7580
+    },
+    {
+      "name": "interval_new_ridge_diffuse_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_diffuse_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 201
+    },
+    {
+      "name": "interval_new_ridge_diffuse_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_diffuse_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_ridge_moderate_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_moderate_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4508
+    },
+    {
+      "name": "interval_new_ridge_moderate_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_moderate_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 224
+    },
+    {
+      "name": "interval_new_ridge_moderate_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_ridge_moderate_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_highk_native76625_repaired_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_highk_repair_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_native76625_repaired",
+        "--branch",
+        "highk03repair",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highk_repaired_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1403
+    },
+    {
+      "name": "interval_highk_native76625_repaired_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_highk_repair_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_native76625_repaired",
+        "--branch",
+        "highk03repair",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highk_repaired_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 19
+    },
+    {
+      "name": "interval_highk_native76625_repaired_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_highk_repair_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_native76625_repaired",
+        "--branch",
+        "highk03repair",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highk_repaired_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_root_ridge_k125_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_root_ridge_k125_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2749
+    },
+    {
+      "name": "interval_root_ridge_k125_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_root_ridge_k125_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "name": "interval_root_ridge_k125_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_root_ridge_k125_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/ridge_source_boxes/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_highk_dense76625_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_dense76625",
+        "--branch",
+        "highk01",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/dense_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1926
+    },
+    {
+      "name": "interval_highk_dense76625_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_dense76625",
+        "--branch",
+        "highk01",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/dense_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 33
+    },
+    {
+      "name": "interval_highk_dense76625_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_highk_dense76625",
+        "--branch",
+        "highk01",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/dense_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_secondary_moderate_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_moderate_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_moderate_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2489
+    },
+    {
+      "name": "interval_new_secondary_moderate_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_moderate_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_moderate_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 167
+    },
+    {
+      "name": "interval_new_secondary_moderate_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_moderate_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_moderate_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_current_diffuse_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_current_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/current_diffuse_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3075
+    },
+    {
+      "name": "interval_new_current_diffuse_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_current_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/current_diffuse_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 172
+    },
+    {
+      "name": "interval_new_current_diffuse_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_current_diffuse_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/current_diffuse_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa15_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa15_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2717
+    },
+    {
+      "name": "interval_new_kappa15_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa15_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 127
+    },
+    {
+      "name": "interval_new_kappa15_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa15_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_broad_highk_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_broad_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/broad_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2373
+    },
+    {
+      "name": "interval_new_broad_highk_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_broad_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/broad_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 64
+    },
+    {
+      "name": "interval_new_broad_highk_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_broad_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/broad_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse751_q50_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse751_q50_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse751_q50_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 6343
+    },
+    {
+      "name": "interval_new_diffuse751_q50_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse751_q50_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse751_q50_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 128
+    },
+    {
+      "name": "interval_new_diffuse751_q50_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse751_q50_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse751_q50_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa13_b711_q25_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa13_b711_q25",
+        "--branch",
+        "q25",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa13_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3128
+    },
+    {
+      "name": "interval_new_kappa13_b711_q25_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa13_b711_q25",
+        "--branch",
+        "q25",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa13_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 214
+    },
+    {
+      "name": "interval_new_kappa13_b711_q25_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa13_b711_q25",
+        "--branch",
+        "q25",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa13_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_low_r_highk_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_low_r_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/low_r_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2399
+    },
+    {
+      "name": "interval_new_low_r_highk_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_low_r_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/low_r_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 67
+    },
+    {
+      "name": "interval_new_low_r_highk_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_low_r_highk_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/low_r_highk_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate_crossover_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_crossover_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_crossover_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4050
+    },
+    {
+      "name": "interval_new_moderate_crossover_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_crossover_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_crossover_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 241
+    },
+    {
+      "name": "interval_new_moderate_crossover_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_crossover_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_crossover_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_kappa10_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa10_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa10_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4700
+    },
+    {
+      "name": "interval_new_highu_kappa10_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa10_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa10_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 246
+    },
+    {
+      "name": "interval_new_highu_kappa10_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa10_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa10_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_kappa4_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3711
+    },
+    {
+      "name": "interval_new_highu_kappa4_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 191
+    },
+    {
+      "name": "interval_new_highu_kappa4_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_b711",
+        "--branch",
+        "ridge500",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa28_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2919
+    },
+    {
+      "name": "interval_new_kappa28_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 131
+    },
+    {
+      "name": "interval_new_kappa28_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_secondary_kappa066_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_kappa066_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_kappa066_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4096
+    },
+    {
+      "name": "interval_new_secondary_kappa066_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_kappa066_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_kappa066_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 159
+    },
+    {
+      "name": "interval_new_secondary_kappa066_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_secondary_kappa066_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/secondary_kappa066_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa43_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa43_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa43_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2900
+    },
+    {
+      "name": "interval_new_kappa43_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa43_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa43_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 147
+    },
+    {
+      "name": "interval_new_kappa43_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa43_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa43_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse_kappa03_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa03_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3692
+    },
+    {
+      "name": "interval_new_diffuse_kappa03_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa03_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 221
+    },
+    {
+      "name": "interval_new_diffuse_kappa03_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa03_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_kappa09_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa09_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa09_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2978
+    },
+    {
+      "name": "interval_new_highu_kappa09_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa09_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa09_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 192
+    },
+    {
+      "name": "interval_new_highu_kappa09_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa09_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa09_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa28_earlier_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2382
+    },
+    {
+      "name": "interval_new_kappa28_earlier_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 138
+    },
+    {
+      "name": "interval_new_kappa28_earlier_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa28_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa28_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse_kappa015_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5027
+    },
+    {
+      "name": "interval_new_diffuse_kappa015_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 215
+    },
+    {
+      "name": "interval_new_diffuse_kappa015_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa39_earlier_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa39_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa39_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2971
+    },
+    {
+      "name": "interval_new_kappa39_earlier_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa39_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa39_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 166
+    },
+    {
+      "name": "interval_new_kappa39_earlier_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa39_earlier_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa39_earlier_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa26_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3102
+    },
+    {
+      "name": "interval_new_kappa26_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 213
+    },
+    {
+      "name": "interval_new_kappa26_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_kappa4_r205_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_r205_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3322
+    },
+    {
+      "name": "interval_new_highu_kappa4_r205_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_r205_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 155
+    },
+    {
+      "name": "interval_new_highu_kappa4_r205_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa4_r205_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse_u7635_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u7635_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u7635_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4164
+    },
+    {
+      "name": "interval_new_diffuse_u7635_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u7635_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u7635_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 215
+    },
+    {
+      "name": "interval_new_diffuse_u7635_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u7635_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u7635_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_highk_linear_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_highk_linear_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "body",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_highk_linear_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2319
+    },
+    {
+      "name": "interval_new_highu_highk_linear_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_highk_linear_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_highk_linear_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "name": "interval_new_highu_highk_linear_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_highk_linear_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "tail",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_highk_linear_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa225_rank_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_budget02_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa225_rank_b711",
+        "--branch",
+        "budget02",
+        "--part",
+        "body",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_rank_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1013
+    },
+    {
+      "name": "interval_new_kappa225_rank_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_budget02_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa225_rank_b711",
+        "--branch",
+        "budget02",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_rank_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 56
+    },
+    {
+      "name": "interval_new_kappa225_rank_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_budget02_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa225_rank_b711",
+        "--branch",
+        "budget02",
+        "--part",
+        "tail",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_rank_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa065_early_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa065_early_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa065_early_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4177
+    },
+    {
+      "name": "interval_new_kappa065_early_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa065_early_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa065_early_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 176
+    },
+    {
+      "name": "interval_new_kappa065_early_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa065_early_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa065_early_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa175_middle_q25_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa175_middle_q25_b711",
+        "--branch",
+        "q25",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_middle_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5823
+    },
+    {
+      "name": "interval_new_kappa175_middle_q25_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa175_middle_q25_b711",
+        "--branch",
+        "q25",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_middle_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 210
+    },
+    {
+      "name": "interval_new_kappa175_middle_q25_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q25_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa175_middle_q25_b711",
+        "--branch",
+        "q25",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_middle_q25_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa0375_lowu_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa0375_lowu_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa0375_lowu_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3708
+    },
+    {
+      "name": "interval_new_kappa0375_lowu_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa0375_lowu_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa0375_lowu_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "name": "interval_new_kappa0375_lowu_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa0375_lowu_b711",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa0375_lowu_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa02_mid_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa02_mid_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa02_mid_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3780
+    },
+    {
+      "name": "interval_new_kappa02_mid_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa02_mid_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa02_mid_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 150
+    },
+    {
+      "name": "interval_new_kappa02_mid_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa02_mid_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa02_mid_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate_u753_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u753_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u753_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4558
+    },
+    {
+      "name": "interval_new_moderate_u753_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u753_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u753_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 170
+    },
+    {
+      "name": "interval_new_moderate_u753_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u753_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u753_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_kappa375_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa375_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa375_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4556
+    },
+    {
+      "name": "interval_new_highu_kappa375_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa375_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa375_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 193
+    },
+    {
+      "name": "interval_new_highu_kappa375_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_kappa375_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_kappa375_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_highu_k20_40_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_k20_40_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_k20_40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5077
+    },
+    {
+      "name": "interval_new_highu_k20_40_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_k20_40_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_k20_40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 209
+    },
+    {
+      "name": "interval_new_highu_k20_40_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_highu_k20_40_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/highu_k20_40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_lowu_kappa02_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_lowu_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/lowu_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5378
+    },
+    {
+      "name": "interval_new_lowu_kappa02_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_lowu_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/lowu_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 217
+    },
+    {
+      "name": "interval_new_lowu_kappa02_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_lowu_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/lowu_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa24_middle_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa24_middle_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa24_middle_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3050
+    },
+    {
+      "name": "interval_new_kappa24_middle_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa24_middle_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa24_middle_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 166
+    },
+    {
+      "name": "interval_new_kappa24_middle_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa24_middle_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa24_middle_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuse_u754_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u754_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u754_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4273
+    },
+    {
+      "name": "interval_new_diffuse_u754_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u754_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u754_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 189
+    },
+    {
+      "name": "interval_new_diffuse_u754_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuse_u754_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuse_u754_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuseu753_kappa02_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu753_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3981
+    },
+    {
+      "name": "interval_new_diffuseu753_kappa02_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu753_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 146
+    },
+    {
+      "name": "interval_new_diffuseu753_kappa02_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu753_kappa02_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_diffuseu760_kappa015_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu760_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3672
+    },
+    {
+      "name": "interval_new_diffuseu760_kappa015_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu760_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 153
+    },
+    {
+      "name": "interval_new_diffuseu760_kappa015_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_diffuseu760_kappa015_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_kappa26_q40_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q40_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_q40_b711",
+        "--branch",
+        "q40",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_q40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3241
+    },
+    {
+      "name": "interval_new_kappa26_q40_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q40_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_q40_b711",
+        "--branch",
+        "q40",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_q40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 213
+    },
+    {
+      "name": "interval_new_kappa26_q40_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q40_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_kappa26_q40_b711",
+        "--branch",
+        "q40",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa26_q40_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_mediumu_kappa069_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa069_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa069_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4068
+    },
+    {
+      "name": "interval_new_mediumu_kappa069_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa069_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa069_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 143
+    },
+    {
+      "name": "interval_new_mediumu_kappa069_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa069_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa069_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_mediumu_kappa125_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa125_b711",
+        "--branch",
+        "robust",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 7162
+    },
+    {
+      "name": "interval_new_mediumu_kappa125_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa125_b711",
+        "--branch",
+        "robust",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 151
+    },
+    {
+      "name": "interval_new_mediumu_kappa125_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa125_b711",
+        "--branch",
+        "robust",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_mediumu_kappa325_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa325_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2538
+    },
+    {
+      "name": "interval_new_mediumu_kappa325_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa325_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 173
+    },
+    {
+      "name": "interval_new_mediumu_kappa325_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_mediumu_kappa325_b711",
+        "--branch",
+        "lowerface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/mediumu_kappa325_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate_kappa215_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa215_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa215_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3029
+    },
+    {
+      "name": "interval_new_moderate_kappa215_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa215_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa215_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 160
+    },
+    {
+      "name": "interval_new_moderate_kappa215_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa215_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa215_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate_kappa4125_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa4125_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3128
+    },
+    {
+      "name": "interval_new_moderate_kappa4125_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa4125_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 117
+    },
+    {
+      "name": "interval_new_moderate_kappa4125_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_kappa4125_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_moderate_u741_k075_b7171_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u741_k075_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4847
+    },
+    {
+      "name": "interval_moderate_u741_k075_b7171_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u741_k075_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 187
+    },
+    {
+      "name": "interval_moderate_u741_k075_b7171_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u741_k075_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u741_k075_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_moderate_u749_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u749_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u749_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4380
+    },
+    {
+      "name": "interval_new_moderate_u749_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u749_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u749_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 165
+    },
+    {
+      "name": "interval_new_moderate_u749_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_moderate_u749_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u749_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_moderate_u751_k2_b7171_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u751_k2_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u751_k2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4424
+    },
+    {
+      "name": "interval_moderate_u751_k2_b7171_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u751_k2_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u751_k2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 238
+    },
+    {
+      "name": "interval_moderate_u751_k2_b7171_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_moderate_u751_k2_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/moderate_u751_k2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_kappa115_mid_u_step2_b7171_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa115_mid_u_step2_b7171",
+        "--branch",
+        "q50",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa115_mid_u_step2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3519
+    },
+    {
+      "name": "interval_kappa115_mid_u_step2_b7171_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa115_mid_u_step2_b7171",
+        "--branch",
+        "q50",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa115_mid_u_step2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 280
+    },
+    {
+      "name": "interval_kappa115_mid_u_step2_b7171_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa115_mid_u_step2_b7171",
+        "--branch",
+        "q50",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa115_mid_u_step2_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_root_kappa16_lowu_step5_q150_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q150_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa16_lowu_step5_q150_b711",
+        "--branch",
+        "q150",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4293
+    },
+    {
+      "name": "interval_new_root_kappa16_lowu_step5_q150_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q150_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa16_lowu_step5_q150_b711",
+        "--branch",
+        "q150",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 424
+    },
+    {
+      "name": "interval_new_root_kappa16_lowu_step5_q150_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q150_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa16_lowu_step5_q150_b711",
+        "--branch",
+        "q150",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_kappa16_shifted_pe15_b7171_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa16_shifted_pe15_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5622
+    },
+    {
+      "name": "interval_kappa16_shifted_pe15_b7171_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa16_shifted_pe15_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 301
+    },
+    {
+      "name": "interval_kappa16_shifted_pe15_b7171_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_kappa16_shifted_pe15_b7171",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_root_kappa175_early_step1_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa175_early_step1_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "body",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4013
+    },
+    {
+      "name": "interval_new_root_kappa175_early_step1_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa175_early_step1_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 195
+    },
+    {
+      "name": "interval_new_root_kappa175_early_step1_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa175_early_step1_b711",
+        "--branch",
+        "nextface",
+        "--part",
+        "tail",
+        "--tail-R",
+        "32",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step0_budget01_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step0_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "body",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1793
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step0_budget01_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step0_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 65
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step0_budget01_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step0_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "tail",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step5_budget001_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step5_budget001_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "body",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3073
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step5_budget001_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step5_budget001_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 69
+    },
+    {
+      "name": "interval_new_root_kappa225_dense_step5_budget001_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_dense_step5_budget001_b711",
+        "--branch",
+        "broad1000",
+        "--part",
+        "tail",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "interval_new_root_kappa225_neighbor_budget01_b711_body",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_neighbor_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "body",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1577
+    },
+    {
+      "name": "interval_new_root_kappa225_neighbor_budget01_b711_exterior",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_neighbor_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "exterior",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 88
+    },
+    {
+      "name": "interval_new_root_kappa225_neighbor_budget01_b711_tail",
+      "script": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+      "args": [
+        "--profile",
+        "interval_new_root_kappa225_neighbor_budget01_b711",
+        "--branch",
+        "highk01",
+        "--part",
+        "tail",
+        "--tail-R",
+        "64",
+        "--data-dir",
+        "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input",
+        "--output-dir",
+        "{output}/whole_q"
+      ],
+      "expected_status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "name": "BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_linear_tensor_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_linear_tensor_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK48_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank48_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank48_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK48_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK49_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank49_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank49_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK49_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK50_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank50_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank50_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK50_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK52_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank52_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank52_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK52_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK55_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank55_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank55_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK55_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK59_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank59_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank59_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK59_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK63_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank63_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank63_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK63_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK66_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank66_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank66_full_rank_peak_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK66_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK70_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank63_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank63_kappa_shape2_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank66_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank66_kappa_shape2_fullrank_refinement_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_split_linear_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank73_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank73_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank76_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank76_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank77_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank77_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank78_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank78_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank80_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank80_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank81_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank81_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank83_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank83_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank84_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank84_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank86_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank86_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank88_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank88_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank84_kappa6_moment2_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank84_kappa6_moment2_affine_delta_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank86_final_moment2_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank86_moment2_final_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_final_moment2_goal_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_final_moment2_goal_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "native_curved",
+      "script": "new_round_2026-10-02/audit/numeric/replay_curved_native_prices.py",
+      "args": [
+        "--source",
+        "new_round_2026-10-02/native_curved_endpoint_prices.json",
+        "--output",
+        "{numeric}/native_curved.json"
+      ]
+    },
+    {
+      "name": "strong43_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_strong_shape_geometry.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "{output}/strong43_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "u_refinement_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_u_refinement_geometry.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_u0005_refinement_proposal.json.gz",
+        "{output}/u_refinement_geometry.json",
+        "--parent-report",
+        "{output}/strong43_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "layer_00_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_monotone_rank_children_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+        "{output}/layer_00_geometry.json",
+        "--parent-report",
+        "{output}/u_refinement_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "layer_01_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_rank_child_moment_refinement_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "{output}/layer_01_geometry.json",
+        "--parent-report",
+        "{output}/layer_00_geometry.json"
+      ],
+      "compatibility_copy": true
+    },
+    {
+      "name": "layer_02_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_affine_hybrid_delta_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+        "{output}/layer_02_geometry.json",
+        "--parent-report",
+        "{output}/layer_01_geometry.json"
+      ],
+      "compatibility_copy": true
+    },
+    {
+      "name": "final_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_affine_moment_subrefinement.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "{output}/final_geometry.json",
+        "--parent-report",
+        "{output}/layer_02_geometry.json"
+      ],
+      "compatibility_copy": true
+    },
+    {
+      "name": "three_digit_rounding",
+      "script": "new_round_2026-10-02/audit/replay_elementary_upper.py",
+      "args": [
+        "--output",
+        "{output}/three_digit_rounding.json",
+        "--lower-acceptance",
+        "new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json"
+      ]
+    }
+  ],
+  "supplemental_checks": [
+    "exact uncapped 305039-leaf assembly",
+    "finite modified-sequence arithmetic",
+    "independent affine helper fixtures",
+    "fresh report/hash acceptance"
+  ],
+  "materialization_root": "/workspace/scratch/8242d848994f",
+  "source_root": "/workspace/scratch/7cbe1f6dcfec/shortzip/G/data",
+  "logical_frozen_root": "verification/frozen",
+  "logical_path_map": "/workspace/scratch/7cbe1f6dcfec/shortzip/G/paths.json",
+  "full_local_replay": true,
+  "mathematical_replay_performed": false
+}

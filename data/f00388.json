@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_highu_kappa375_producer_manifest.json",
+    "sha256": "815045b524bd4f199dcccc66325072f0668b1d431203d34d830463751d0fae2d"
+  },
+  "profiles": [
+    {
+      "name": "new_highu_kappa375_b711",
+      "label": "interval_new_highu_kappa375_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_highu_kappa375_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa375_source_box/input/profile_interval_new_highu_kappa375_b711.json",
+          "sha256": "15159451651a8276e1ae3ac2b502a166000e6e9b7efa8ef4fd7effefc6df1325"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_highu_kappa375_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa375_source_box/input/body_interval_new_highu_kappa375_b711.json.gz",
+          "sha256": "6aa982393457f4d66d1cabbf35290c79a043ff88bf82b247d01cccb246f185f8"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_highu_kappa375_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa375_source_box/input/exterior_interval_new_highu_kappa375_b711.json.gz",
+          "sha256": "2fbbda8adbbf6edb51a6c73a73acb5ec63e7168603e98e01211523340c64ddfe"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_highu_kappa375_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa375_source_box/input/tail_interval_new_highu_kappa375_b711.json",
+          "sha256": "5b7c0b601ba140c1d8cd78889e78c5a66093f9d8b5d33486fd28457a38047a40"
+        }
+      ]
+    }
+  ]
+}

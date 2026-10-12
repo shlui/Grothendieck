@@ -1,0 +1,78 @@
+{
+  "status": "PASS_INDEPENDENT_TWO_RANK_PROFILES_WHOLE_Q",
+  "reserve0": "1/20000",
+  "reserve6": "1/100000000",
+  "q_domain": "Entire real line",
+  "body_domain": [
+    "0",
+    "8"
+  ],
+  "exterior_domain": [
+    "8",
+    "32"
+  ],
+  "tail_domain": [
+    "32",
+    "infinity"
+  ],
+  "input_bindings": {
+    "path": "new_round_2026-10-02/audit/two_source_boxes/INPUT_BINDINGS.json",
+    "sha256": "a4475b7ac09211483affbc41583c15901fc96babf02bc157465da77325967e51"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_body.json",
+      "sha256": "e816da1f48f8eaf0989e8ffe656cec094d8bf690520426e2cce974cd28016ccf",
+      "profile": "interval_new_worst_b711_tight",
+      "part": "body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3048
+    },
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_exterior.json",
+      "sha256": "6cb8ac852be1cda36b609debbe41e6ac74f421ff25c00832cdad54cd4d590367",
+      "profile": "interval_new_worst_b711_tight",
+      "part": "exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 144
+    },
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_tail.json",
+      "sha256": "8f104487e06f832d019d8f5110b066f88bf39fa55db06872077b411b3ea8aea1",
+      "profile": "interval_new_worst_b711_tight",
+      "part": "tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_body.json",
+      "sha256": "84643052c1ef8f981d209ccabaa747e4782206ede1baf429ac4bf7ba580e1fc8",
+      "profile": "interval_new_diffuse_b711",
+      "part": "body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3063
+    },
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_exterior.json",
+      "sha256": "199a9b6b088596fead5d36fea52373b541cf7eac6a76d102fa92aeef0692187b",
+      "profile": "interval_new_diffuse_b711",
+      "part": "exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 137
+    },
+    {
+      "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_tail.json",
+      "sha256": "55baff57778b82814687aa0078965058050cb441ddf411dade4427b1505f4421",
+      "profile": "interval_new_diffuse_b711",
+      "part": "tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 6.978777170181274,
+  "scope": "Independent physical whole-q gates at frozen reference profile parameters. Same-b outer pricing and target spectral gates require separate acceptance; no global amplitude coverage is asserted."
+}

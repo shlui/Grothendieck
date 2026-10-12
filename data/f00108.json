@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_diffuseu760_kappa015_producer_manifest.json",
+    "sha256": "d7d7153e12638b1a3c7ba050114cc70c7bf8b24e1d4128f2a381fbda01ae16d4"
+  },
+  "profiles": [
+    {
+      "name": "new_diffuseu760_kappa015_b711",
+      "label": "interval_new_diffuseu760_kappa015_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuseu760_kappa015_b711.json",
+          "alias": "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input/profile_interval_new_diffuseu760_kappa015_b711.json",
+          "sha256": "88cd0c9ab0c8e4d40de36d646b5da1abd47f27166af579c69e57c556f22d0d3c"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuseu760_kappa015_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input/body_interval_new_diffuseu760_kappa015_b711.json.gz",
+          "sha256": "f856308aabd3f59068d69f2f121b4b076e690170ffd4dd4b230a6022669fc4b7"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuseu760_kappa015_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input/exterior_interval_new_diffuseu760_kappa015_b711.json.gz",
+          "sha256": "0940044f4dad5c0f76e864c14686cdd2c32c159cda15afd723aa66b40f0d60b9"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_diffuseu760_kappa015_b711.json",
+          "alias": "new_round_2026-10-02/audit/diffuseu760_kappa015_source_box/input/tail_interval_new_diffuseu760_kappa015_b711.json",
+          "sha256": "9ae6116933e77b3be8745728d4ea400ec3d678f3d114c6c227499913859206c7"
+        }
+      ]
+    }
+  ]
+}

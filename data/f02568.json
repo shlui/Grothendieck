@@ -1,0 +1,14 @@
+{
+  "tonight/audit/secondary_highu_R3_input/profile_interval_secondary_highu.json": {
+    "original": "tonight/operator/secondary_highu_literature/profile_rank_exact.json",
+    "sha256": "b89722f83c3aab74e36b9f2501c133dc2e3b105958df96d0cedc522fd03487ee"
+  },
+  "tonight/audit/secondary_highu_R3_input/body_interval_secondary_highu.json.gz": {
+    "original": "tonight/operator/secondary_highu_literature/body_rank.json.gz",
+    "sha256": "62828c179ebef5d16b4cbd959f38dcaba7ff441cb89400996fab8d43aaedb4ae"
+  },
+  "tonight/audit/secondary_highu_R3_input/exterior_interval_secondary_highu.json.gz": {
+    "original": "tonight/operator/secondary_highu_literature/exterior_rank.json.gz",
+    "sha256": "871b45d56bd704469ab7fda2caf3519dad3f6cc663b3afcbd3c401af1ec38767"
+  }
+}

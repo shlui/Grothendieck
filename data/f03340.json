@@ -1,0 +1,11 @@
+{
+  "mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+  "CUBIC_L1_REPRICING.md": "80d5be5b276151a9b08050a34583a720d1c681cbf8f02b90c6d3eb829b257fcd",
+  "verify_kappa_shape_caps.py": "d449c3f5d13bbfb1171bd91b51cca71f9332a40bc6b0461249d49b39d2d7a10c",
+  "CUBIC_L1_REPRICING.tex": "99363660cc0f491256e782a0cfd273c88b974504bb3b1a1079e5db0f01d81680",
+  "independent_price_verification.json": "ab1d32096849073bad3b6ae5c1519653a574fbe3d73ebb75e8659d818efc91de",
+  "certify_kappa_shape_caps.py": "a137184d78ccad414811c272d73dc0667d8ddb46eb6fd0baf3eedc7a17865bd2",
+  "kappa_shape_caps.json": "182cffd5d930738f3d389705ed39fcbaffeb22a3f6f1136387db206ee2afe41e",
+  "kappa_shape_caps.log": "300de7d3bbf48552ed39037426f286d727d5b28e70f1530f0cff2af548e391d9",
+  "independent_price_verification.log": "ab1d32096849073bad3b6ae5c1519653a574fbe3d73ebb75e8659d818efc91de"
+}

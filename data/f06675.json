@@ -1,0 +1,144 @@
+{
+  "operator": "P1-(18/25)P3",
+  "status": "REGIONAL_CERTIFICATES_ONLY_NO_GLOBAL_ENDPOINT",
+  "primary_union": [
+    [
+      "7/50",
+      "341/500"
+    ],
+    [
+      "77/100",
+      "159577/200000"
+    ]
+  ],
+  "unclosed_amplitude_interval": [
+    "341/500",
+    "77/100"
+  ],
+  "low_energy_branch_separately_proved": [
+    "0",
+    "7/50"
+  ],
+  "certificates": [
+    {
+      "package": "tonight/regional_certificates/u014_042",
+      "primary": true,
+      "coverage": [
+        "7/50",
+        "21/50"
+      ],
+      "cap": "561523/1000000",
+      "total": 0.5615224092673706,
+      "local_boxes": 63681,
+      "scalar_leaves": 8403
+    },
+    {
+      "package": "tonight/regional_certificates/u030_0485",
+      "primary": true,
+      "coverage": [
+        "3/10",
+        "97/200"
+      ],
+      "cap": "562857/1000000",
+      "total": 0.5628561304475073,
+      "local_boxes": 61829,
+      "scalar_leaves": 7829
+    },
+    {
+      "package": "tonight/regional_certificates/u040_054",
+      "primary": true,
+      "coverage": [
+        "2/5",
+        "27/50"
+      ],
+      "cap": "563039/1000000",
+      "total": 0.5630388074831402,
+      "local_boxes": 58841,
+      "scalar_leaves": 9020
+    },
+    {
+      "package": "tonight/regional_certificates/u050_0638",
+      "primary": true,
+      "coverage": [
+        "1/2",
+        "319/500"
+      ],
+      "cap": "281633/500000",
+      "total": 0.5632654317607064,
+      "local_boxes": 151929,
+      "scalar_leaves": 8380
+    },
+    {
+      "package": "tonight/regional_certificates/u060_0662",
+      "primary": true,
+      "coverage": [
+        "3/5",
+        "331/500"
+      ],
+      "cap": "281651/500000",
+      "total": 0.5633017222013856,
+      "local_boxes": 153593,
+      "scalar_leaves": 9775
+    },
+    {
+      "package": "tonight/regional_certificates/u0662_0682",
+      "primary": true,
+      "coverage": [
+        "331/500",
+        "341/500"
+      ],
+      "cap": "563367/1000000",
+      "total": 0.5633665764005076,
+      "local_boxes": 627497,
+      "scalar_leaves": 9217
+    },
+    {
+      "package": "tonight/regional_certificates/u077_c",
+      "primary": true,
+      "coverage": [
+        "77/100",
+        "159577/200000"
+      ],
+      "cap": "281667/500000",
+      "total": 0.5633337922468212,
+      "local_boxes": 53541,
+      "scalar_leaves": 8371
+    },
+    {
+      "package": "tonight/regional_certificates/u021_030",
+      "primary": false,
+      "coverage": [
+        "21/100",
+        "3/10"
+      ],
+      "cap": "546399/1000000",
+      "total": 0.5463986699711757,
+      "local_boxes": 63681,
+      "scalar_leaves": 8403
+    },
+    {
+      "package": "tonight/regional_certificates/u030_031",
+      "primary": false,
+      "coverage": [
+        "3/10",
+        "31/100"
+      ],
+      "cap": "108221/200000",
+      "total": 0.5411042259876313,
+      "local_boxes": 68857,
+      "scalar_leaves": 5641
+    },
+    {
+      "package": "tonight/regional_certificates/u079_0797885",
+      "primary": false,
+      "coverage": [
+        "79/100",
+        "159577/200000"
+      ],
+      "cap": "9/16",
+      "total": 0.5624352524241397,
+      "local_boxes": 98941,
+      "scalar_leaves": 3862
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_HIGHU_HIGHK_U7775_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/highu_highk_literature/profile_rank_exact.json",
+  "profile_sha256": "525be8e9bde51f2fcf3d680cef02e30bda14eaf91889580f4f72ac8adefec5f4",
+  "reserves": [
+    "1/1000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/highu_highk_R3_recheck/independent_interval_highu_highk_highu_body.json",
+      "sha256": "23272c70be5598013947c3af83fe7a5d87805dc37517c9084fe2fc17458077a2",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5508,
+      "excluded": 64
+    },
+    "exterior": {
+      "path": "tonight/audit/highu_highk_R3_recheck/independent_interval_highu_highk_highu_exterior.json",
+      "sha256": "73b88dc9738667427a2a64438b1350920129a12eccab4e185b6a61324c135add",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 288,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/highu_highk_R3_recheck/independent_interval_highu_highk_highu_tail.json",
+      "sha256": "d2dbceaf0b171091bdc5b9db0a8cab625401d17076a2daa87b49f0e6956efa39",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "15767b345f04247ae2cce1c6a9c4b79d59e5854044111359e515ebdf81164d09",
+  "adapter_path": "tonight/audit/replay_R3_highu_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance.",
+  "byte_identical_input_aliases": {
+    "tonight/audit/highu_highk_R3_input/profile_interval_highu_highk.json": {
+      "original": "tonight/operator/highu_highk_literature/profile_rank_exact.json",
+      "sha256": "525be8e9bde51f2fcf3d680cef02e30bda14eaf91889580f4f72ac8adefec5f4"
+    },
+    "tonight/audit/highu_highk_R3_input/body_interval_highu_highk.json.gz": {
+      "original": "tonight/operator/highu_highk_literature/body_rank.json.gz",
+      "sha256": "9f830416730d33adba1f43af8a224b7e2529d7b418dac6abddd2d482af967ca9"
+    },
+    "tonight/audit/highu_highk_R3_input/exterior_interval_highu_highk.json.gz": {
+      "original": "tonight/operator/highu_highk_literature/exterior_rank.json.gz",
+      "sha256": "89b7f5917c04eb096cf2be9839b12273220ecf385f57e3b464ccf04849fc6111"
+    },
+    "tonight/audit/highu_highk_R3_input/tail_interval_highu_highk.json": {
+      "original": "tonight/operator/highu_highk_literature/tail32_rank.json",
+      "sha256": "30468a4e5ddcefaa8cf6b37be72aa8e86bf85b4eac5ab007264d24e124938e11"
+    }
+  }
+}

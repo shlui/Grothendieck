@@ -1,0 +1,202 @@
+{
+  "status": "PASS_CURRENT_SAME_B7171_GLOBAL_AND_REGIONAL_LEDGER",
+  "operator_b": "7171/10000",
+  "target_threshold": "40/71",
+  "complete_target_amplitude_coverage": [
+    [
+      "0",
+      "1381/2000"
+    ],
+    [
+      "31/40",
+      "sqrt(2/pi)"
+    ]
+  ],
+  "complete_global_amplitude_coverage": [
+    [
+      "0",
+      "sqrt(2/pi)"
+    ]
+  ],
+  "global_cap": "141203321/250000000",
+  "constructive_lower_bound": "250000000/141203321",
+  "constructive_lower_bound_display": 1.7704966018469213,
+  "global_acceptance_path": "tonight/audit/global_b7171/POLYGON_GLOBAL_B7171_ACCEPTANCE.json",
+  "global_acceptance_sha256": "7e466325717bfc402c4b727537fd623c112162d93ae5f72cd56201cdd290bfc7",
+  "middle_complete_band_caps": [
+    {
+      "u_interval": [
+        "1381/2000",
+        "139/200"
+      ],
+      "complete_physical_band_upper": "35219455957/62500000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "139/200",
+        "7/10"
+      ],
+      "complete_physical_band_upper": "140930778891/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "7/10",
+        "141/200"
+      ],
+      "complete_physical_band_upper": "281932119279/500000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "141/200",
+        "71/100"
+      ],
+      "complete_physical_band_upper": "112807119831/200000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "71/100",
+        "143/200"
+      ],
+      "complete_physical_band_upper": "564277692837/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "143/200",
+        "18/25"
+      ],
+      "complete_physical_band_upper": "282162871691/500000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "18/25",
+        "289/400"
+      ],
+      "complete_physical_band_upper": "141091523299/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "289/400",
+        "29/40"
+      ],
+      "complete_physical_band_upper": "564492735077/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "29/40",
+        "291/400"
+      ],
+      "complete_physical_band_upper": "564607076649/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "291/400",
+        "73/100"
+      ],
+      "complete_physical_band_upper": "564716069017/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "73/100",
+        "293/400"
+      ],
+      "complete_physical_band_upper": "11296173119/20000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "293/400",
+        "147/200"
+      ],
+      "complete_physical_band_upper": "564813282537/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "147/200",
+        "37/50"
+      ],
+      "complete_physical_band_upper": "56472084531/100000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "37/50",
+        "149/200"
+      ],
+      "complete_physical_band_upper": "141133863103/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "149/200",
+        "3/4"
+      ],
+      "complete_physical_band_upper": "141091765519/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "3/4",
+        "151/200"
+      ],
+      "complete_physical_band_upper": "141049687857/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "151/200",
+        "19/25"
+      ],
+      "complete_physical_band_upper": "564078103989/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "19/25",
+        "153/200"
+      ],
+      "complete_physical_band_upper": "141027759011/250000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "153/200",
+        "77/100"
+      ],
+      "complete_physical_band_upper": "563833307691/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "77/100",
+        "771/1000"
+      ],
+      "complete_physical_band_upper": "563540778943/1000000000000",
+      "target_pass": false
+    },
+    {
+      "u_interval": [
+        "771/1000",
+        "31/40"
+      ],
+      "complete_physical_band_upper": "563504593823/1000000000000",
+      "target_pass": false
+    }
+  ],
+  "historical_1773_is_project_premise_not_fresh_global_certificate": true,
+  "historical_1780498_is_project_premise_not_public_established_bound": true,
+  "method_ceiling_only": "1.77546249641157915... from a lower witness for the .7171 scalar norm; this is not an upper bound on G_R.",
+  "three_significant_digit_G_R_value_certified": false,
+  "newer_joint_or_extended_frames_used": true,
+  "accepted_current_scope": "Coarse eleven-profile exact source polygons with accepted extended native frame; no fine46 or robust gates used."
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa175_middle_source_box/REPLAY_MANIFEST.json",
+    "sha256": "fdbbc0a66bf2a107562c1b156dda4339992b15c424e7e8b6c8021b3a3520e9a3"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_middle_source_box/reports/independent_interval_new_kappa175_middle_b711_lowerface_body.json",
+      "sha256": "c7846fa077ae938908eae569693b45903f14d0d5d51438caf6f96e29aaf6db20",
+      "profile": "interval_new_kappa175_middle_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4305
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_middle_source_box/reports/independent_interval_new_kappa175_middle_b711_lowerface_exterior.json",
+      "sha256": "cca73f9d11aceb7bb7e65fd175a8f12aee40a8f0fc99c9f96a96c5c883e07edb",
+      "profile": "interval_new_kappa175_middle_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 210
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa175_middle_source_box/reports/independent_interval_new_kappa175_middle_b711_lowerface_tail.json",
+      "sha256": "bff921f7a813f7050cf8ecde0bfdd7ad8d9bfca7678d14566bf49a10b99143b8",
+      "profile": "interval_new_kappa175_middle_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 6.781786203384399,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

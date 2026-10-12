@@ -1,0 +1,143 @@
+{
+  "status": "PASS_EXACT_ANALYTIC_COVERAGE_AND_FROZEN_BINDINGS",
+  "scope": "Complete upper-pairing amplitude cover only, conditional on the separately independently replayed scalar/local primitives and endpoint prices; not a global norm bound.",
+  "operator_b": "7171/10000",
+  "target": "40/71",
+  "complete_amplitude_interval": [
+    "0",
+    "1381/2000"
+  ],
+  "physical_L1_rho": "847/1000",
+  "native_shape": [
+    "0",
+    "1"
+  ],
+  "R3_shape": [
+    "2/5",
+    "1"
+  ],
+  "exact_shape_map": "z=2/5+(3/5)s",
+  "low_branch_cap": "7042043/12500000",
+  "early_transfers": [
+    {
+      "amplitude_interval": [
+        "7/50",
+        "21/50"
+      ],
+      "package": "tonight/regional_certificates/u014_042",
+      "directed_total_display": 0.5614980512684536
+    },
+    {
+      "amplitude_interval": [
+        "3/10",
+        "97/200"
+      ],
+      "package": "tonight/regional_certificates/u030_0485",
+      "directed_total_display": 0.5628408415227212
+    },
+    {
+      "amplitude_interval": [
+        "2/5",
+        "27/50"
+      ],
+      "package": "tonight/regional_certificates/u040_054",
+      "directed_total_display": 0.5630450093603316
+    },
+    {
+      "amplitude_interval": [
+        "1/2",
+        "319/500"
+      ],
+      "package": "tonight/regional_certificates/u050_0638",
+      "directed_total_display": 0.5632071271653015
+    }
+  ],
+  "lower_union": {
+    "amplitude_interval": [
+      "3/5",
+      "341/500"
+    ],
+    "u_bands": 8,
+    "kappa_bands": 14,
+    "complete_product_groups": 112,
+    "native_cells": 30268,
+    "r3_cells": 0,
+    "maximum_cell_cap": "563067382411/1000000000000",
+    "source_upper_at_lower_u": {
+      "3/5": "272307313763703/500000000000000",
+      "319/500": "492708762281779/1000000000000000",
+      "13/20": "237400963681093/500000000000000",
+      "33/50": "3673765910667/8000000000000",
+      "331/500": "456026900858147/1000000000000000",
+      "333/500": "44955731257733/100000000000000",
+      "67/100": "13842955348573/31250000000000",
+      "27/40": "217289645139917/500000000000000"
+    }
+  },
+  "native_R3_union": {
+    "amplitude_interval": [
+      "341/500",
+      "1381/2000"
+    ],
+    "u_bands": 3,
+    "kappa_bands": 14,
+    "complete_product_groups": 42,
+    "native_cells": 9661,
+    "r3_cells": 41,
+    "maximum_cell_cap": "563379835873/1000000000000",
+    "source_upper_at_lower_u": {
+      "341/500": "211247409954391/500000000000000",
+      "137/200": "26074392586483/62500000000000",
+      "69/100": "40817134512573/100000000000000"
+    }
+  },
+  "mask_binding_checks": [
+    {
+      "mask": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json",
+      "package": "tonight/regional_certificates/u0662_0682",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json",
+      "package": "tonight/native_frames/repriced0685_0700",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/repriced700_b7171_target_mask.json",
+      "package": "tonight/native_frames/repriced0700_0720",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/core050_b7171_target_mask.json",
+      "package": "tonight/regional_certificates/u050_0638",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/core060_b7171_target_mask.json",
+      "package": "tonight/regional_certificates/u060_0662",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json",
+      "package": "tonight/regional_certificates/u0662_0682",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json",
+      "package": "tonight/native_frames/repriced0685_0700",
+      "same_b_transport": "PASS"
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/repriced700_b7171_target_mask.json",
+      "package": "tonight/native_frames/repriced0700_0720",
+      "same_b_transport": "PASS"
+    }
+  ],
+  "frozen_inputs": {
+    "tonight/recovery/profile_cover/native_b7171_regional_transfer_assembly.json": "7aab56d7e52f812431ea74a1c658efa0a60ac3d4a1bcb468d29ac2514782b0e0",
+    "tonight/recovery/profile_cover/native_lower_base_b7171_target_union.json": "5708e8ad1e375e04524d601c94e12967995b6b7edcb888ae254b03d8487c2dc8",
+    "tonight/recovery/profile_cover/native_R3_b7171_u682_6905_union.json": "6a71b94dec852b4078d66d52766c07a44acebe2762dd87af24213735ee7a74e7",
+    "tonight/recovery/profile_cover/native_union_b7171_target.json": "cbead97ab57f0d164100e462378a7ff93e68dd9a390896c3b8c0d8db22b27b31",
+    "tonight/operator/projection/lower_amp_certificate/b7171_native_remainder_extended_box.json": "3e52eb38ec5ad64a91322d45b0ad340b5ad20203c584ebf58282cf287b9aed2c"
+  }
+}

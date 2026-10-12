@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/lowu_kappa02_q20_extra_manifest.json",
+    "sha256": "20fb9f72e4fd0cc7e31fac24d02db3a3326b47ad6007285b6c92658e2c93ff4b"
+  },
+  "profiles": [
+    {
+      "name": "new_lowu_kappa02_b711",
+      "label": "interval_new_lowu_kappa02_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/profile_lowu_kappa02_b7171.json",
+          "alias": "new_round_2026-10-02/audit/lowu_kappa02_source_box/input/profile_interval_new_lowu_kappa02_b711.json",
+          "sha256": "5cf3fa96af1af1bc770d0b54728b593454bcd6f3c6003a19ddfc93e5ec417cf5"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/body_lowu_kappa02_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/lowu_kappa02_source_box/input/body_interval_new_lowu_kappa02_b711.json.gz",
+          "sha256": "7ac6620be489091d5592c9dbfb3d97a9b9658593baed2406064f07e586ced3ab"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/exterior_lowu_kappa02_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/lowu_kappa02_source_box/input/exterior_interval_new_lowu_kappa02_b711.json.gz",
+          "sha256": "7ab85032bce1f38adccbfab3d697e832be9a343358fc819ba5c6270f698ea8c5"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/lowu_kappa02_fit/certificate/tail_lowu_kappa02_q20.json",
+          "alias": "new_round_2026-10-02/audit/lowu_kappa02_source_box/input/tail_interval_new_lowu_kappa02_b711.json",
+          "sha256": "77f0459a62edc3df1cd27a6c33946d025cfd163c80b5faf279f6dce67d508d55"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "description": "Exact rational arithmetic for the strict modified matrix sequence",
+  "sequence": "H_n = H^*_{d_n}(b), d_n=10^9 2^(n-1), n>=1",
+  "b": {
+    "numerator": "711000001",
+    "denominator": "1000000000"
+  },
+  "unperturbed_raw_cap": {
+    "numerator": "281690137769807",
+    "denominator": "500000000000000"
+  },
+  "unperturbed_rounded_cap": {
+    "numerator": "140845069",
+    "denominator": "250000000"
+  },
+  "perturbed_norm_cap": {
+    "numerator": "563380277",
+    "denominator": "1000000000"
+  },
+  "lower_formula": "[1-(1+b)/(2d)-10/d^2]/[B+1/d^2]",
+  "finite_lower_bound_limit": {
+    "numerator": "1000000000",
+    "denominator": "563380277"
+  },
+  "finite_lower_bound_limit_downrounded_12_decimals": "1.775000014776",
+  "monotonicity": "For real d>=4: F'(d)=[a B d^2+(20 B+2)d-a]/(B d^2+1)^2>0, a=(1+b)/2",
+  "norm_cap_gap_from_40_over_71": {
+    "numerator": "333",
+    "denominator": "71000000000"
+  },
+  "conditions": {
+    "b_between_zero_and_one": true,
+    "d_at_least_four": true,
+    "loss_bound_9_over_d_squared": "For d>=4, 0<b<1: Lbar_d <= (101/12)/d^2 < 9/d^2"
+  },
+  "first_three": [
+    {
+      "index": 1,
+      "gaussian_dimension": "1000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "1000000000"
+      },
+      "coordinate_interval_count": "30000000002",
+      "seed_order_formula": "(30000000002)^1000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "1999999998288999979",
+        "denominator": "1126760554000000002"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000013258",
+      "comparison_40_numerator_minus_71_denominator": "597559999018",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "209825767188474885930414295289291038945417361040554449851333016662605046539818967825074655123152572952641152",
+          "denominator": "1012513031678567082977485527757618031678321700537439255971081857072079096935364890402041889915203072223685"
+        },
+        "10_log_upper": {
+          "numerator": "67983548569065863041454231673730296618320773600715846321982411838315086839762366497096689403885781717730204583",
+          "denominator": "328054222263855734884705310993468242263776230974130318934630521691353627407058224490261572332525795400473940"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "20833333294677083136109375196651042079510416281250000237000000096333333",
+        "denominator": "11737089092429577536384976942781689666666666750000000000000000000000000"
+      }
+    },
+    {
+      "index": 2,
+      "gaussian_dimension": "2000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "2000000000"
+      },
+      "coordinate_interval_count": "60000000002",
+      "seed_order_formula": "(60000000002)^2000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "3999999998288999989",
+        "denominator": "2253521108000000001"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000014017",
+      "comparison_40_numerator_minus_71_denominator": "1263559999489",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "6994966861946996759954946651661762519631485491459370562293688901260770341238572773223031258472931887307776",
+          "denominator": "32661710699308615579918887992181226828332958081852879224873608292647712804366609367807802900490421684635"
+        },
+        "10_log_upper": {
+          "numerator": "2266369263270826950225402715138411056360786916270032869786756642849193831067998393405637440529909366439316259",
+          "denominator": "10582394266575991447893719709466717492379878418520332868859049086817858948614781435169728139758896625821740"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "1142857141796857140009500001455607144040464285107142857346000000184142857",
+        "denominator": "643863173392354127070422540750503015142857143000000000000000000000000000"
+      }
+    },
+    {
+      "index": 3,
+      "gaussian_dimension": "4000000000",
+      "grid_radius": 15,
+      "grid_mesh": {
+        "numerator": "1",
+        "denominator": "4000000000"
+      },
+      "coordinate_interval_count": "120000000002",
+      "seed_order_formula": "(120000000002)^4000000000/2",
+      "final_matrix_order_formula": "4 L_d, where L_d=sum_{i,j}|(Z_d)_{ij}|",
+      "lower_bound": {
+        "numerator": "15999999996577999988",
+        "denominator": "9014084432000000001"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000014397",
+      "comparison_40_numerator_minus_71_denominator": "5191119999449",
+      "radius_certificate": {
+        "10_log_lower": {
+          "numerator": "44772435650447782637358479422747647454346947885985305002175139043112542923394508822950656580433840812088192",
+          "denominator": "202502606335713416595497105551523606335664340107487851194216371414415819387072978080408377983040614444737"
+        },
+        "10_log_upper": {
+          "numerator": "14506269150745081574504147332970237775209603041605238320959300003666986137290706778810566381793719800301480695",
+          "denominator": "65610844452771146976941062198693648452755246194826063786926104338270725481411644898052314466505159080094788"
+        },
+        "between_integer_squares": [
+          196,
+          225
+        ]
+      },
+      "sharper_original_formula_lower_bound": {
+        "numerator": "113777777724999111033125333354114222226696222220666666666982666667032111111",
+        "denominator": "64100155944863849889752738789784037523555555556000000000000000000000000000"
+      }
+    }
+  ],
+  "optional_sharper_cap": {
+    "numerator": "563380276257023",
+    "denominator": "1000000000000000"
+  },
+  "optional_first_three_power_ten": [
+    {
+      "gaussian_dimension": "100000000",
+      "grid_radius": 14,
+      "lower_bound": {
+        "numerator": "2083333294677081454843768258854640447912531250023699999796333333",
+        "denominator": "1173708897131708566828459897316385475192500000000000000000000000"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000001932"
+    },
+    {
+      "gaussian_dimension": "1000000000",
+      "grid_radius": 15,
+      "lower_bound": {
+        "numerator": "20833333294677083136109375196651042079510416281250000237000000096333333",
+        "denominator": "11737089076950890051863664504696439604751916750000000000000000000000000"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000015599"
+    },
+    {
+      "gaussian_dimension": "10000000000",
+      "grid_radius": 16,
+      "lower_bound": {
+        "numerator": "208333333294677083304235937503372760416470135416656250000002370000003096333333",
+        "denominator": "117370890875142702575367185198119291896797519166675000000000000000000000000000"
+      },
+      "lower_bound_downrounded_12_decimals": "1.775000016965"
+    }
+  ],
+  "scope": "Arithmetic verification only; the operator norm cap is an independently supplied premise."
+}

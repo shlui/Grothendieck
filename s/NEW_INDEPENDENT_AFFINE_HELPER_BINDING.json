@@ -1,0 +1,8 @@
+{
+  "kind": "NEW_INDEPENDENT_RECONSTRUCTION",
+  "path": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_affine_hybrid_geometry.py",
+  "sha256": "91225406ef522137d4813e1cced709192734e306e0c96f376ffe571131eebc31",
+  "original_helper_present_in_archive": false,
+  "original_byte_identity_claimed": false,
+  "specification": "Exact source-knot splitting; uniform native chords; quadratic secant/tangent majorants; closed affine dominance polygons; rational vertices and maxima."
+}

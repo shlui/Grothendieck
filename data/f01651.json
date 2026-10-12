@@ -1,0 +1,11 @@
+{
+  "files": {
+    "reduced_search/operator/cubic720/certify_cubic720_norm_witness.py": "664975e9629130ddbaea502c336e0858e1c92db5a152127ae31952b4ae890240",
+    "reduced_search/operator/cubic720/mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+    "reduced_search/operator/cubic720/README.md": "4e200fbc46988c1243e87b5590056979858c644d579c16870a9d770d86eddec7",
+    "tonight/audit/replay_cubic7171_witness.py": "65b1ec5a6b987fef2c51e9fdc6390c6132119b74ac5c68f9e827042e3b37b527",
+    "tonight/audit/cubic7171_witness_independent_replay.json": "ec68d32dde0cd0be7caad9ce6c382866c2c00737fe4fb99f052622c8ad73124f",
+    "tonight/operator/adversarial3d/SUMMARY.json": "7eb93771a0ae18c8b7eefa39c894a9a8385258fd963adf78d46acb7a7982e989"
+  },
+  "notes": "The cubic720 producer and adapter are unchanged. The floating 3D summary motivates coefficients but is not a proof premise. The original-degree CLT accounting is in cubic720/README.md; integration is freshly reproduced here and independently."
+}

@@ -1,0 +1,172 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_FINAL46_KAPPA_NATIVE_SELECTED_ENDPOINT_PRICES",
+  "input_sha256": "7174fe2b8899ed7c9d9d7828820199354829b160b6d1610842d80c85900a82dc",
+  "operator_b": "7171/10000",
+  "precision_bits": 768,
+  "cumulant_points": [
+    "0",
+    "1/10",
+    "3/10",
+    "7/20",
+    "2/5",
+    "9/20",
+    "1/2",
+    "53/100",
+    "4/5",
+    "17/20",
+    "9/10",
+    "19/20",
+    "1",
+    "11/10",
+    "23/20",
+    "6/5",
+    "5/4",
+    "13/10",
+    "27/20",
+    "7/5",
+    "29/20",
+    "3/2",
+    "31/20",
+    "8/5",
+    "33/20",
+    "17/10",
+    "7/4",
+    "9/5",
+    "37/20",
+    "19/10",
+    "39/20",
+    "2",
+    "9/4",
+    "5/2",
+    "11/4",
+    "3",
+    "13/4",
+    "7/2",
+    "15/4",
+    "4",
+    "10",
+    "12",
+    "20",
+    "40",
+    "60",
+    "90"
+  ],
+  "frames": [
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame00_fine_kappa.json",
+      "mask_sha256": "2a9fc242901f4f94e203a4273c979694134da390cc2742cb1453ca7086490143",
+      "package": "tonight/regional_certificates/u0662_0682",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60",
+      "selected_corner_prices_recomputed": 1440,
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame01_fine_kappa.json",
+      "mask_sha256": "c2898220d2c2fec839ee33957ca7a0c700710199c6f844609e25631babebe003",
+      "package": "tonight/native_frames/repriced0685_0700",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+      "selected_corner_prices_recomputed": 1440,
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame02_fine_kappa.json",
+      "mask_sha256": "4e3c729a7e1570bc17affccc4190d58a7151fcd7a6aa379f71361916b67b2756",
+      "package": "tonight/native_frames/repriced0700_0720",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+      "selected_corner_prices_recomputed": 1440,
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame03_fine_kappa.json",
+      "mask_sha256": "4df6a24ad3488948bd7736b83386ad6e8f46fc94f3bbce4dc746472138155914",
+      "package": "tonight/regional_certificates/u077_c",
+      "source_sha256": "e1a793fea166e03dd50de2ee4849b2e66bf1d91b32278a4305f34186a6fa1338",
+      "selected_corner_prices_recomputed": 1440,
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame04_fine_kappa.json",
+      "mask_sha256": "11c21e5d94134c1f8abc1e0bde296f38518e9ddd025496770c1a35eb7b815e71",
+      "package": "tonight/regional_certificates/u079_0797885",
+      "source_sha256": "d5ec3008fe256ee3e31d105876948da7caccb68be2673e5088a836af867c6bf6",
+      "selected_corner_prices_recomputed": 720,
+      "r_grid_points": 5
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame05_fine_kappa.json",
+      "mask_sha256": "18fc20e6b37f128623506cac28ea75f2988a40f92b6806b34abcb0ddcc6b1fcd",
+      "package": "tonight/native_frames/critical0750_0760",
+      "source_sha256": "e2e9ded9da1f455fab4be11e9af60bf077aaf2603c9af78dd6498f6f0312b4e9",
+      "selected_corner_prices_recomputed": 2160,
+      "r_grid_points": 13
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_2_4/frame06_fine_kappa.json",
+      "mask_sha256": "aee81961e29c5854018d70200d8b5a491b3bc14537f2e18d44a251611626defb",
+      "package": "tonight/native_frames/critical_extended_r032",
+      "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9",
+      "selected_corner_prices_recomputed": 720,
+      "r_grid_points": 5
+    }
+  ],
+  "selected_endpoint_prices_recomputed": 9360,
+  "accepted_package_bindings": [
+    {
+      "package": "tonight/regional_certificates/u0662_0682",
+      "manifest_sha256": "e8f5ee150e1e523f014b01f28fa1981e6d7ee13226b36dc7b8741d4097442996",
+      "replay_sha256": "249603987837576e95ef53f8663e6c0d8ae0049b0eec801965bb43de014b362a",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60"
+    },
+    {
+      "package": "tonight/native_frames/repriced0685_0700",
+      "manifest_sha256": "fd33c2c637b0311f26685d5e072ed5d76c80b4f7a7297900dafd62e5d14469b2",
+      "replay_sha256": "555a1c5bb4f2719a89ed7496a60cbceaaf1fd45cd7ae38c8d5b7cc3047df8f88",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12"
+    },
+    {
+      "package": "tonight/native_frames/u0685_0700",
+      "manifest_sha256": "719bc9121b97dd9a054711ff9124ff954d437f5104c42eca2cec2aab6011d0e9",
+      "replay_sha256": "a9e53073628a7d2185a715769a9400bb9e26d9046f08ba35e6f8e544a0569735",
+      "source_sha256": "a8eabbcb7d9000990c4e14c553a9096df5e337898c2899d37546add9f4fd7f85"
+    },
+    {
+      "package": "tonight/native_frames/repriced0700_0720",
+      "manifest_sha256": "63cb82aba3082b76c8e3d343227f1a965844278aaece8ecf08270144d5096dca",
+      "replay_sha256": "9fa290d2ebe056c00bfc4671c8cafd580323bb235e8e3fdd8ed02dc4267235dd",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55"
+    },
+    {
+      "package": "tonight/native_frames/u0700_0720",
+      "manifest_sha256": "cac5e2e672a743c461ba25e963ecec0e2e9341659f73f29177bdb8caae5615ff",
+      "replay_sha256": "1c81eb01fc48b88d3f1015078bbdd0fa92fe4611e8f6db9b3883b3f6b58cc876",
+      "source_sha256": "d63dda2f23b04599d23fba2b77fe9102cad876cbfef55171ed42abb7188c883e"
+    },
+    {
+      "package": "tonight/regional_certificates/u077_c",
+      "manifest_sha256": "ae2200f5dc15434b4f035026e8fa368dc3efec7ecf1e9cd29791c1e392231cae",
+      "replay_sha256": "92f7c896583538001379990635009711b87b070e7980ede6ffb80658ea2b4f4a",
+      "source_sha256": "e1a793fea166e03dd50de2ee4849b2e66bf1d91b32278a4305f34186a6fa1338"
+    },
+    {
+      "package": "tonight/regional_certificates/u079_0797885",
+      "manifest_sha256": "9185345a0ca53f8056d9bd8ba41b914e3f1a43b8601f7e21db7ea04d825014c0",
+      "replay_sha256": "46ad627a01b85ed5439d59272b2f0fff23c1eacb5baa1169968ac59cbe4dbfb4",
+      "source_sha256": "d5ec3008fe256ee3e31d105876948da7caccb68be2673e5088a836af867c6bf6"
+    },
+    {
+      "package": "tonight/native_frames/critical0750_0760",
+      "manifest_sha256": "6c39bdf9bf625790eae49f137dafecb18b101dfe19ae6526afcb2b5da0ad3359",
+      "replay_sha256": "4708e201834b9300aa75ba473d9b1a5b6b743d6b48102d3bb1545a2ef42a152e",
+      "source_sha256": "e2e9ded9da1f455fab4be11e9af60bf077aaf2603c9af78dd6498f6f0312b4e9"
+    },
+    {
+      "package": "tonight/native_frames/critical_extended_r032",
+      "manifest_sha256": "a41537440aa2c93458110efaa3ce87bfae3dd5fb20625a57a882f2646264ecef",
+      "replay_sha256": "e8d1c866d4bc15033387bf20e9179ff795351a33578e21d16bb7655acf2a9ae1",
+      "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9"
+    }
+  ],
+  "producer_modules_imported": false,
+  "seconds": 16.480250358581543,
+  "scope": "Numeric native endpoint premises only. Fine-cumulant physical partition, source constraints, all profile-bank caches, and final global envelope require their own audits."
+}

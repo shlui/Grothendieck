@@ -1,0 +1,222 @@
+% Self-contained mathematical fragment. Requires amsmath, amssymb, amsthm,
+% and proposition/proof environments. All Hermites here are unnormalized.
+Let $T_b=P_1-bP_3$, $b>0$, on real standard Gaussian space, where $P_j$
+is the orthogonal projection onto total Hermite degree $j$.
+For odd signs $f,g$ put $h=(f+g)/2$, $k=(f-g)/2$.
+Then $(h,k)$ takes the four values $(\pm1,0),(0,\pm1)$.
+Rotate the Gaussian coordinates as $(Z,W)$ so that $P_1h=uZ$,
+with $Z$ independent of $W$.  Use the raw longitudinal Hermites
+\[
+ H_0=1,\quad H_1=Z,\quad H_2=Z^2-1,\quad H_3=Z^3-3Z,
+ \qquad m_j(W)=\mathbb E_Z[H_jk].
+\]
+If $r=\|P_3^Wm_0\|_2>0$, define the normalized cubic source
+$Q=P_3^Wm_0/r$.  Thus $\mathbb EQ^2=1$ and
+$\mathbb E[Qm_0]=r$.  All remaining projections act on $W$.
+
+\begin{proposition}[An exact residual of the physical cubic source]
+\label{prop:physical-r3-source}
+Put
+\[
+ \kappa=\mathbb EQ^4-3,\quad c_6=\mathbb EQ^6-15\mathbb EQ^4+30,
+ \quad S(q)=q^3-3q,
+\]
+\[
+ \mathcal R=Q^3-(3+\kappa)Q-P_1^W(Q^3),\quad
+ \Delta=\mathcal R-S(Q),\quad
+ D=\kappa^2+\|P_1^W(Q^3)\|_2^2.
+\]
+The residual $\mathcal R$ is odd, orthogonal to first chaos and to $Q$, and
+\begin{equation}\label{eq:physical-r3-identities}
+ \mathbb E\mathcal R^2=6+9\kappa+c_6-D,\quad
+ \mathbb E\Delta^2=D,\quad
+ \mathbb E[Q\Delta]=-\kappa,\quad
+ \mathbb E[S(Q)\Delta]=-D.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Since $Q$ has pure degree three, $P_1^W(Q^3)$ is orthogonal to $Q$.
+The coefficient removed from $Q^3$ along the unit vector $Q$ is
+$\mathbb EQ^4=3+\kappa$.  Also
+$\Delta=-\kappa Q-P_1^W(Q^3)$.  Orthogonal expansion of these two
+expressions proves all four identities.
+\end{proof}
+
+\begin{proposition}[An inverse-free physical dual criterion]
+\label{prop:physical-r3-dual}
+Fix $p=(p_0,p_2)$ and a symmetric matrix
+$R=\left(\begin{smallmatrix}R_{11}&R_{13}\\R_{13}&R_{33}\end{smallmatrix}\right)$
+such that
+\begin{equation}\label{eq:physical-r3-gates}
+ p_2^2\geq\frac b2(1+p_0^2),\qquad
+ R\succeq0,\quad R-\operatorname{diag}(-1,b/6)\succeq0,
+ \quad R-\operatorname{diag}(b,0)\succeq0.
+\end{equation}
+Choose real $\ell,\beta,\gamma,y,\zeta,c,d$ and $G>0$.  Write
+\[
+ \sigma^2=p_0^2+2p_2^2,\quad \rho=1+\zeta^2/G,\quad
+ g(q)=cq+dS(q),\quad a(q)=\zeta[-S(q)+g(q)/(2G)].
+\]
+For $v=(s,v_1,v_3)$ define
+\begin{align*}
+ L(z)&=\ell z+\beta H_3(z),\\
+ B(q,z;v)&=q\gamma+q(y-p_0p_2r)H_2(z)
+       +[a(q)+\rho s][p_0+p_2H_2(z)]\\
+ &\quad +(R_{11}v_1+R_{13}v_3)z
+       +(R_{13}v_1+R_{33}v_3)H_3(z),
+\end{align*}
+and the physical dual ellipsoid
+\[
+ \mathcal E_p=\{(s,v_1,v_3):s^2/\sigma^2+v_1^2+v_3^2/6\leq1\}.
+\]
+Put
+\begin{equation}\label{eq:physical-r3-local}
+ \Phi(q)=\sup_{v\in\mathcal E_p}\left\{
+ 2\mathbb E_Z\max(|L(Z)|,|B(q,Z;v)|)
+ -\rho s^2-R_{11}v_1^2-2R_{13}v_1v_3-R_{33}v_3^2
+ +\frac{g(q)^2}{4G}\right\}.
+\end{equation}
+Then
+\begin{align}\label{eq:physical-r3-criterion}
+ \langle T_bf,g\rangle\leq{}&u^2-2\ell u+\frac{6\beta^2}{b}
+ +(b-p_0^2)r^2-2\gamma r+\frac{y^2}{p_2^2}
+ +\mathbb E\Phi(Q)\notag\\
+ &+\zeta^2(6+9\kappa+c_6)-c\kappa+(G-d-\zeta^2)D.
+\end{align}
+The ellipsoid in \eqref{eq:physical-r3-local} may be restricted to
+$v_1\geq0$ without changing the supremum, and $\Phi(-q)=\Phi(q)$.
+\end{proposition}
+\begin{proof}
+Let $V=p_0m_0+p_2m_2$ and $t=\mathbb E[Qm_2]$.
+Let $\Pi$ project onto odd transverse degrees at least three,
+orthogonally to $Q$.  Hermite orthogonality and
+\eqref{eq:physical-r3-gates} give
+\begin{align*}
+ -\|P_1k\|_2^2+b\|P_3k\|_2^2
+ \leq{}&\mathbb EV^2+
+ \mathbb E(R_{11}m_1^2+2R_{13}m_1m_3+R_{33}m_3^2)\\
+ &+(b-p_0^2)r^2-2p_0p_2rt-p_2^2t^2-\|\Pi V\|_2^2.
+\end{align*}
+Indeed the relevant raw-Hermite blocks are
+$\operatorname{diag}(-1,b/2)$ on $(m_0,m_2)$ in transverse degree one,
+$\operatorname{diag}(-1,b/6)$ on $(m_1,m_3)$ in degree zero, and
+$\operatorname{diag}(b,0)$ on that latter pair in degree two.
+The first gate is exactly the first block inequality for $pp^T$.
+In even longitudinal/transverse degree three,
+$P_3^Wm_0=rQ$; subtracting the $Q$ component of $V$ leaves precisely
+the indicated unused loss.  Higher odd transverse degrees supply the
+remaining part of $\|\Pi V\|_2^2$.
+
+Now $\mathcal R$ lies in the range of $\Pi$, so
+\[
+ -\|\Pi V\|_2^2\leq-2\zeta\mathbb E[\mathcal RV]
+                          +\zeta^2\mathbb E\mathcal R^2.
+\]
+The pointwise square inequality
+\[
+ -2\zeta\Delta V\leq g(Q)\Delta+G\Delta^2+
+                    (\zeta V+g(Q)/2)^2/G
+\]
+and \eqref{eq:physical-r3-identities} yield the last line of
+\eqref{eq:physical-r3-criterion}; the remaining local quadratic is
+$\rho V^2$ with linear coefficient $2a(Q)V$ and constant $g(Q)^2/(4G)$.
+Complete $-p_2^2t^2\leq2yt+y^2/p_2^2$, and insert the exact zeros
+$2\gamma\mathbb E[Qm_0]-2\gamma r$ and
+$2\ell\mathbb E[Zh]-2\ell u$.
+Finally
+$-b\|P_3h\|_2^2\leq-(b/6)(\mathbb E[H_3h])^2
+\leq2\beta\mathbb E[H_3h]+6\beta^2/b$.
+
+For each fixed $W$, Bessel's inequality gives
+$m_0^2+m_1^2+m_2^2/2+m_3^2/6\leq\mathbb E_Zk^2\leq1$.
+Hence $(V,m_1,m_3)\in\mathcal E_p$ by Cauchy--Schwarz in the even block.
+For a positive quadratic form $A$, the identity
+\[
+ x^TAx=\sup_v\{2v^TAx-v^TAv\}
+\]
+holds also when $A$ is singular, with equality at $v=x$.
+Apply it to $\operatorname{diag}(\rho,R)$ and interchange the two
+suprema.  Maximizing the resulting linear functional over the four
+pointwise possibilities for $(h,k)$ gives $2\max(|L|,|B|)$.
+Restricting the dual supremum to $\mathcal E_p$ loses no value because
+it contains every physical moment vector.  Conversely every dual vector
+gives at most the physical supremum by the same quadratic identity.
+This proves \eqref{eq:physical-r3-local} without a matrix inverse.
+
+Under $z\mapsto-z$, the simultaneous reflection
+$(v_1,v_3)\mapsto(-v_1,-v_3)$ preserves the value and the ellipsoid.
+Thus $v_1\geq0$ suffices.  Under $(q,s)\mapsto(-q,-s)$ the even part
+of $B$ changes sign; reflecting $z$ and changing the overall sign
+of $B$ restores the same absolute value.  This proves the evenness in $q$.
+\end{proof}
+
+\begin{proposition}[A frozen-centering scalar majorant]
+\label{prop:physical-r3-stein-majorant}
+Let $U=\|\nabla_WQ\|^2/3-1$ and $\mathcal V=\mathbb EU^2$.
+Fix any $\theta\in\mathbb R$, $\eta>0$, real $a_0,a_2$, and a
+continuously differentiable test function $\varphi$ such that
+$\varphi$ and $\varphi'$ have at most polynomial growth.
+Set
+\[
+ e(q)=\varphi'(q)-a_0-a_2(q^2-1),\qquad
+ \lambda(q)=-1-\theta(q^2-1),
+\]
+\[
+ P(q)=\begin{cases}
+ e(q)^2/(2\eta),&e(q)\geq\eta\lambda(q),\\
+ \lambda(q)e(q)-\eta\lambda(q)^2/2,&e(q)<\eta\lambda(q).
+ \end{cases}
+\]
+If, for every real $q$,
+\begin{equation}\label{eq:physical-r3-scalar-majorant}
+ \Phi(q)\leq A_0+A_2q^2+A_4q^4+A_6q^6+
+ q\varphi(q)-[1+\theta(q^2-1)]\varphi'(q)-P(q),
+\end{equation}
+then
+\begin{align}\label{eq:physical-r3-stein-price}
+ \mathbb E\Phi(Q)\leq{}&A_0+A_2+(3+\kappa)A_4
+ +(15+15\kappa+c_6)A_6\notag\\
+ &+\frac\eta2[\mathcal V-2\theta\kappa/3+\theta^2(\kappa+2)]
+ +a_2[\kappa/3-\theta(\kappa+2)].
+\end{align}
+In particular one may freeze $\theta=\kappa_0/[3(\kappa_0+2)]$
+throughout a whole cumulant interval; the covariance correction in
+\eqref{eq:physical-r3-stein-price} keeps its displayed positive sign.
+When $\varphi$ is odd, the proposed majorant is even, so it suffices
+to verify \eqref{eq:physical-r3-scalar-majorant} for $q\geq0$.
+\end{proposition}
+\begin{proof}
+Since $Q$ has pure degree three, Gaussian integration by parts gives
+$\mathbb E[Q\varphi(Q)]=\mathbb E[(1+U)\varphi'(Q)]$.
+It also gives $\mathbb EU=0$ and
+$\mathbb E[U(Q^2-1)]=\kappa/3$; the latter follows by using
+$\varphi(q)=q^3$.  Put $U_\theta=U-\theta(Q^2-1)$.
+Then $U_\theta\geq\lambda(Q)$, its variance is
+$\mathcal V-2\theta\kappa/3+\theta^2(\kappa+2)$, and
+$\mathbb E[U_\theta(Q^2-1)]=\kappa/3-\theta(\kappa+2)$.
+By construction $P(q)=\sup_{v\geq\lambda(q)}[ve(q)-\eta v^2/2]$.
+Therefore $U_\theta e(Q)-P(Q)\leq\eta U_\theta^2/2$.
+Take expectations in \eqref{eq:physical-r3-scalar-majorant} and apply
+these identities.  This proves \eqref{eq:physical-r3-stein-price}.
+\end{proof}
+
+\paragraph{Exact transport of the source amplitude.}
+Freeze a reference $r_0$ and $y_0$, and set
+\[
+ y(r)=y_0+p_0p_2(r-r_0),\qquad v_y=y_0/p_2-p_0r_0.
+\]
+Then $y(r)-p_0p_2r=y_0-p_0p_2r_0$, so the entire function $\Phi$ is
+unchanged for every $r$.  Its outer quadratic simplifies exactly to
+\begin{equation}\label{eq:physical-r3-transport}
+ (b-p_0^2)r^2-2\gamma r+y(r)^2/p_2^2
+ =br^2-2(\gamma-p_0v_y)r+v_y^2.
+\end{equation}
+Consequently no local amplitude error is needed for this transport;
+both the $u$ and $r$ outer quadratics are convex and are bounded on
+rectangles by their vertex values.  The source moments and cumulants
+must still be covered separately.  A proposed scalar majorant becomes
+a norm certificate only after it bounds \eqref{eq:physical-r3-local}
+for the whole real $q$ line and its outer expectation is bounded for
+every admissible physical source.  No finite grid maximization establishes
+those requirements.  The case $r=0$ can be handled separately by a
+source-free criterion, without normalizing a zero projection.

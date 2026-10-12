@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "scope": "dimension-free connected Wick-diagram identities",
+  "fourth": {
+    "labeled_connected_degree3_graphs": 7,
+    "isomorphism_classes": 2,
+    "sum_coefficients": "3240",
+    "coefficients": [
+      {
+        "canonical_edges": [
+          0,
+          1,
+          2,
+          2,
+          1,
+          0
+        ],
+        "coefficient": "1944"
+      },
+      {
+        "canonical_edges": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "coefficient": "1296"
+      }
+    ]
+  },
+  "sixth": {
+    "labeled_connected_degree3_graphs": 640,
+    "isomorphism_classes": 6,
+    "sum_coefficients": "11314080",
+    "coefficients": [
+      {
+        "canonical_edges": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "2099520"
+      },
+      {
+        "canonical_edges": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "699840"
+      },
+      {
+        "canonical_edges": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "4199040"
+      },
+      {
+        "canonical_edges": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "1049760"
+      },
+      {
+        "canonical_edges": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "466560"
+      },
+      {
+        "canonical_edges": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "2799360"
+      }
+    ]
+  }
+}

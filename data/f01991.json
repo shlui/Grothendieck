@@ -1,0 +1,18 @@
+{
+  "tonight/audit/moderateface_q50_R3_input/profile_interval_moderateface_q50.json": {
+    "original": "tonight/operator/moderateface_literature/q50/profile_rank_exact.json",
+    "sha256": "5fd1c1b6594fc23a9e6c4ee9c40db303e27f94dcc88143db1676dc47e51ce39e"
+  },
+  "tonight/audit/moderateface_q50_R3_input/body_interval_moderateface_q50.json.gz": {
+    "original": "tonight/operator/moderateface_literature/q50/body_rank.json.gz",
+    "sha256": "0d13453369a5ed32ae8a3e2fc334190785e07a4f516372060a81d5ce67d672d6"
+  },
+  "tonight/audit/moderateface_q50_R3_input/exterior_interval_moderateface_q50.json.gz": {
+    "original": "tonight/operator/moderateface_literature/q50/exterior_rank.json.gz",
+    "sha256": "8290f7cef1bf27ae378855c99572b69db86c85cc5b5cb8ecf0133266a78c7738"
+  },
+  "tonight/audit/moderateface_q50_R3_input/tail_interval_moderateface_q50.json": {
+    "original": "tonight/operator/moderateface_literature/q50/tail32_rank.json",
+    "sha256": "2f60a76d10866b81d0d7d123a16763faab2b19d0fb758291f3e86e7e485a8a0a"
+  }
+}

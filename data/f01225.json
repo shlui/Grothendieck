@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INDEPENDENT_HIGHK_REPAIRED_SOURCE_COMPONENT",
+  "profiles": [
+    {
+      "name": "highk_native76625",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_native_face_b7171.json",
+      "profile_sha256": "939773f8d3542b86b3459748b289f3f0dbf7bbbb4193147f8c592396fd54b7e7",
+      "reserve0": "3/100",
+      "reserve6": "1/5000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/highk_repaired_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "7c818251bfc6d703d3555209372675eb0be8f0e4483c97179ba703ebec4a8416",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_REFERENCE_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_q6_2e7.json.gz",
+          "sha256": "5cd6fc956d3c11d0f2d1b7d2dca4ba3aac7f028cd0f589d6c2baaa05cf4a0123"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_q6_2e7.json.gz",
+          "sha256": "c0d69eb904d088ad5111ef0dd7569d319424466ae10c33c0ea72a6323b445c3d"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_q6_2e7.json",
+          "sha256": "7f0518e86af8c1ff8d5a4448fea86f395e2a69cd6699a7908d6125345ab2409d"
+        }
+      ]
+    }
+  ]
+}

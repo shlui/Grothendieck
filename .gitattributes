@@ -1,0 +1,2 @@
+# Preserve exact bytes required by the certificate inventories and CHECKSUMS.sha256.
+* -text

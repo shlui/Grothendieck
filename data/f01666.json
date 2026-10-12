@@ -1,0 +1,59 @@
+{
+  "status": "PASS_EXACT_RELAXATION_LIMITATION_NOT_NEW_LOWER_BOUND",
+  "baseline_operator": "P1-(699/1000)P3",
+  "baseline_uniform_cap": "1000/1773",
+  "baseline_endpoint": "1773/1000",
+  "tail_degree": 20001,
+  "formal_gram": {
+    "e1_f": "1000/1773",
+    "e1_g": "1000/1773",
+    "c1": "1000/1773",
+    "eL_f": "773/1773",
+    "eL_g": "773/1773",
+    "cL": "0",
+    "odd_identity_correlation": "1000/1773"
+  },
+  "first_energy_cap_gap_floor": "0.07260397992539296180085936257",
+  "full_seven_phase_lhs_rational_upper": "2290129666972482316813474864837/591000000000000000000000000000",
+  "full_seven_phase_gap_floor": "0.12499210326145124058633694613",
+  "finite_borell_noise_parameters": [
+    {
+      "r": "1/10",
+      "normalized_positive_gap_floor": "0.07260397992539296180085936257"
+    },
+    {
+      "r": "1/2",
+      "normalized_positive_gap_floor": "0.07260397992539296180085936257"
+    },
+    {
+      "r": "9/10",
+      "normalized_positive_gap_floor": "0.07260397992539296180085936257"
+    },
+    {
+      "r": "99/100",
+      "normalized_positive_gap_floor": "0.07260397992539296180085936257"
+    },
+    {
+      "r": "999/1000",
+      "normalized_positive_gap_floor": "0.072603979035709990922612335045"
+    },
+    {
+      "r": "9999/10000",
+      "normalized_positive_gap_floor": "0.01360583421182812005081504571"
+    }
+  ],
+  "support_masses": {
+    "h": "2773/3546",
+    "k": "773/3546"
+  },
+  "center_mass_threshold_gap_floor": "0.010348396221094190637337845459",
+  "h_first_moment_cap_gap_floor": "0.015308200412310640924061207756",
+  "earlier_cap_697_gap_floor": "0.000047721109437531803136870775",
+  "earlier_refined_cap_gap_floor": "0.01917398052423019506894623088",
+  "song_yue_cap_margin_floor": "0.000786686302546116472758552249",
+  "pi_interval": [
+    "3.141592653589793238462643383279502884197169399375105820",
+    "3.141592653589793238462643383279502884197169399375105821"
+  ],
+  "limitation": "For a finite head plus constant odd tail, relaxed pairing equals first_eigenvalue*(1000/1773). No strict improvement follows from this relaxation."
+}

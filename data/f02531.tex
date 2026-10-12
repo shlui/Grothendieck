@@ -1,0 +1,67 @@
+\begin{proposition}[A freshly certified amplitude region]
+Let $T=P_1-(18/25)P_3$ on any finite Gaussian space, let $f,g$ be real
+sign functions, and set $h=(f+g)/2$ and $u=\|P_1h\|_2$.
+Then
+\[
+ \frac3{10}\le u\le\frac{31}{100}
+ \quad\Longrightarrow\quad
+ \langle Tf,g\rangle<\frac{541105}{10^6}<\frac{40}{71}.
+\]
+This is a regional bilinear bound, not a global operator-norm certificate.
+\end{proposition}
+
+\begin{proof}
+Odd projection preserves the pairing, first projection, and diamond
+constraint. Rotate $P_1h=uZ$ and use the free transverse Gram criterion
+with exact decimal-rational parameters
+\[
+\begin{gathered}
+\ell=.2965580000326554,\quad\beta=.022240821855608026,\\
+\delta=.6820570029781547,\quad\nu=.14703467858089253,\\
+M=\begin{pmatrix}
+.08307972045434268&0&.252879592537246&0\\
+0&.8537107780949452&0&.3261179491490146\\
+.252879592537246&0&.7800974015494087&0\\
+0&.3261179491490146&0&.8040884714078567
+\end{pmatrix}.
+\end{gathered}
+\]
+All positive and domination gates are checked by exact rational
+determinants; the Gram cost is $G=-.7128325123004955\ldots\ge-4$.
+The native local potential includes $\beta^2/b$.
+
+The physical longitudinal moments satisfy Bessel's bound
+$\sum_{j=0}^3k_j^2\le1$ and coordinate bounds $1,.8,.7,.625$.
+For a moment box centered at $c$ with half widths $w$, exact quadratic
+completion bounds the entire physical objective by its directed
+Gaussian support value at $c$ plus $w^{\mathsf T}|M|w$.
+The complete local certificate accepts all 51 source nodes using
+68,857 boxes. Convexity gives every nodal chord; the verified affine
+tail slope gives the unbounded source tail.
+
+The uniform cubic absolute-moment bound $\rho=849/1000$ bounds the
+transverse source by $.8107245010955333$ throughout this amplitude region.
+Six source intervals are covered by 18 frozen scalar rows, three at each
+nonzero endpoint, with cumulant intervals $[0,1],[1,10],[10,90]$.
+Fresh whole-line acceptance consists of 5,641 directed Taylor leaves
+on $[0,64]$ and exact translated-polynomial tails on $[64,\infty)$.
+The frozen rows have added $q_0=1/500$ and $q_6=1/20000000$.
+Convexity of each coupled moment price in the cumulant and affinity in
+the Malliavin shape reduce the complete outer cover to 72 certified
+corners. The maximum scalar price including $Gr^2$ is less than
+$.617615842$.
+
+The source interpolation reserve uses the actual frozen quadratic
+coefficient: $\max\{-G,0\}\max_i(r_{i+1}-r_i)^2/4
+=.003253655771832797\ldots$.
+The local height inflation is $1/125$,
+and the tail-slope repair costs at most
+$10^{-6}\rho r_{\max}$. Checking the two amplitude endpoints maximizes
+$u^2-2\ell u$. The full exact-rational ledger consequently gives
+\[
+ .5411042259876313\ldots<\frac{541105}{10^6}.
+\]
+The accepting assembly uses only directed prices and exact rationals,
+not the solver's sampled objective. Its active corner is the fifth
+nonzero source endpoint, cumulant $90$, and lower Malliavin shape.
+\end{proof}

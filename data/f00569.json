@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa24_middle_source_box/REPLAY_MANIFEST.json",
+    "sha256": "a1fabc9da01c71fb8de39c4670e17c84bf69e47bdcb8d84b56c9fbc050b6d223"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa24_middle_source_box/reports/independent_interval_new_kappa24_middle_b711_nextface_body.json",
+      "sha256": "b5af2d4e5bb200eed9103121aa55ba2c028d1945ca1c07f4e929ddd145b1fe16",
+      "profile": "interval_new_kappa24_middle_b711",
+      "part": "body",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3050
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa24_middle_source_box/reports/independent_interval_new_kappa24_middle_b711_nextface_exterior.json",
+      "sha256": "b59d769c48dafd2c4e9dbcbe3d22b16e3e0e497bbb9509413f1ff013a63c4570",
+      "profile": "interval_new_kappa24_middle_b711",
+      "part": "exterior",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 166
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa24_middle_source_box/reports/independent_interval_new_kappa24_middle_b711_nextface_tail.json",
+      "sha256": "05a3e513dc03d34752c4b1c1971857e5059fc635d93c458809754be4d532b0af",
+      "profile": "interval_new_kappa24_middle_b711",
+      "part": "tail",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 7.390666961669922,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

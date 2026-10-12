@@ -1,0 +1,138 @@
+{
+  "numbered_equation_labels": [
+    {
+      "label": "eq:intro-phi-d",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:intro-phi-one",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:seed",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:lipschitz",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:balanced",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:finite-simple-bound",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:classical-limit",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:log-cutoff-error",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:deficit",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:new-strong-cubic-shape",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:wick6",
+      "later_reference": true,
+      "reference_count": 3
+    },
+    {
+      "label": "eq:variance-shape",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:physical-r3-scalar-majorant",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:sourcegate",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:Rrho",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:cubic-source-bound",
+      "later_reference": true,
+      "reference_count": 3
+    },
+    {
+      "label": "eq:physical-r3-identities",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:r3-D-bound",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:unified-PSD",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:physical-r3-criterion",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "prop:smaller-b-transport",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:physical-domain",
+      "later_reference": true,
+      "reference_count": 1
+    },
+    {
+      "label": "eq:633scalar",
+      "later_reference": true,
+      "reference_count": 2
+    },
+    {
+      "label": "eq:compact-cubic-entry",
+      "later_reference": true,
+      "reference_count": 2
+    }
+  ],
+  "all_equation_labels_referenced_later": true,
+  "result_count": 11,
+  "optional_result_titles": false,
+  "appendix_subsection_count": 4,
+  "no_appendix_sections": true,
+  "no_expectation_probability_commands": true,
+  "a4_11pt": true,
+  "invariance_present": true,
+  "proof_steps_review": "Independent editorial review passed; associated matrix and multiplicity-pattern descriptions clarified. All mathematical displays unchanged except equation (1) delimiters.",
+  "equation_1_automatic_absolute_delimiters": true,
+  "bibliography_alphabetical": true,
+  "bibliography_entries_unchanged": true,
+  "all_displayed_mathematics_unchanged_except_equation_1_delimiters": true,
+  "unnecessary_named_method_terms_removed": true
+}

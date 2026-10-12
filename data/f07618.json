@@ -1,0 +1,21 @@
+{
+  "status": "PASS_DIRECTED_PUBLISHED_UPPER_FORMULA_ARITHMETIC",
+  "formula": "pi/(2*log(1+sqrt(2)))-347/1000000",
+  "published_primary_source": "https://arxiv.org/html/2608.11158v2",
+  "theorem_scope": "Cited external upper-bound theorem; its numerical proof is not replayed here.",
+  "directed_enclosure": {
+    "lower": "1.7818669781913691117744134529725493407917319097732393810249599568e0",
+    "upper": "1.7818669781913691117744134529725493407917319097732393810249599569e0"
+  },
+  "outward_decimal_upper": "1781867/1000000",
+  "three_significant_digit_rounding_interval": [
+    "1775/1000",
+    "1785/1000"
+  ],
+  "lower_bound_still_required": "1775/1000",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 256,
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa0375_lowu.json",
+    "sha256": "866ee63439ae350be3d45023d2fd6371463de0c000a198259108f23ddd51ca76"
+  },
+  "reference_b": "7171/10000",
+  "target_b": "711/1000",
+  "reserve0": "1/20000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa0375_lowu_body.json.gz",
+      "sha256": "9b4990d01735b95def9edddca0003c3ab10f147699730d09e198c11e49521324"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa0375_lowu_exterior.json.gz",
+      "sha256": "777eb0adf6a2cf7f317f02996f55ea771022a55cfb32e1fc6ca35c532bafce5d"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa0375_lowu_tail.json",
+    "sha256": "c16378c9f496788733dd05b233a28c6a215f2360e8d607015ab2364419e83b6f"
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa0375_lowu_price_q50.json",
+    "sha256": "59b5bdb83e1a8c7011cd2c92df2a091c6121e7045b892df7e847c0dd118846e4"
+  },
+  "source_box_cap": "281388034993355703426079560736175760870948211/500000000000000000000000000000000000000000000",
+  "scope": "Complete local producer gate. Independent local replay, source pricing and complete global cover remain separate proof obligations."
+}

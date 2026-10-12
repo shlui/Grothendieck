@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_RATIONAL_IDENTITIES_AND_BERNSTEIN_RANGES",
+  "derivative_orders": 4,
+  "chebyshev_order": 16,
+  "distinct_identity_points": 35,
+  "exact_identity_checks": 140,
+  "active_range_checks": 28,
+  "additional_range_checks": 64,
+  "reference_seconds": 0.595844800969644,
+  "integer_seconds": 0.03349139598867623,
+  "measured_range_speedup": 17.790981336552974,
+  "proof_scope": "All rational derivative identities by degree/zero count; exact Bernstein recurrences and identical ranges.",
+  "source_hashes": {
+    "operator/projection/certificate/rational_phi_bounds.py": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222",
+    "theory/bernstein_integer_bounds.py": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd",
+    "operator/projection/results/shape_residual_n16_clip1_res1_u0.755_r0.25755_k0.53_pub0_pe0.15.json": "b2f2da26d07f51a71cc47ebcd78d734504cba5d858793ebf2fe6f9970ebd9c06"
+  }
+}

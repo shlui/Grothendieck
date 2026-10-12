@@ -1,0 +1,40 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYTIC_AND_EXACT_COMPACT_CUBIC_CELL_ENTRY_REVIEW",
+  "checks": [
+    {
+      "dimension": 1,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 2,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 3,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 4,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 7,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 13,
+      "conditional_identity": true
+    },
+    {
+      "dimension": 37,
+      "conditional_identity": true
+    }
+  ],
+  "fragment": {
+    "path": "new_round_2026-10-02/sequence_theory/COMPACT_CUBIC_CELL_ENTRIES.tex",
+    "sha256": "a36e3a43baea5ca0a9493e6230356b641b3d2a4fd99a89038a259c309c4ef8e1"
+  },
+  "entrypoint_sha256": "fc900f8b058f3dda3a39f3c11fa9035bf248e2ec557c707594b9bf835476f439",
+  "analytic_review": "The degree-three orthonormal Hermite patterns (3),(2,1),(1,1,1) have factors1/6,1/2,1. Independence survives product-cell conditioning. Expanding the elementary symmetric cubic gives the stated O(d) expression; point substitution gives the displayed kernel. Gaussian interval moments follow by integration by parts. Antipodal odd-cell features are2 times their cell integrals, hence weights w_C=2 gamma(C) give exactly the folded matrix entry.",
+  "scope": "An arbitrary-dimensional algebra identity. No new norm cap, density assertion, or convergence rate is introduced."
+}

@@ -1,0 +1,134 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_B711_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "112782853/200000000",
+  "constructive_G_R_lower_bound": "200000000/112782853",
+  "constructive_G_R_lower_bound_display": 1.7733192119195638,
+  "envelope": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+    "sha256": "c2374d14257d5e3e3014c7939c32f0edf61af7f07a31a94c0ddcb97e18665188"
+  },
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_upper_bound": "563307766601/1000000000000",
+  "full_upper_amplitude_upper_bound": "563914263671/1000000000000",
+  "source_rho": "847/1000",
+  "cumulant_points": 68,
+  "complete_whole_q_profiles": 29,
+  "full_upper_original_cells": 281316,
+  "full_upper_priced_cells": 272579,
+  "proved_physically_empty_full_upper_cells": 8737,
+  "full_upper_complete_groups": 1400,
+  "baseline_native_endpoint_prices": 11648,
+  "independent_R3_corner_prices": 6048,
+  "independent_plane_corner_prices": 2240,
+  "uniform_physical_source_planes": 560,
+  "forward_verified_inverse_source_caps": 250,
+  "fixed_contact_credit_cells": 23,
+  "bindings": {
+    "parent_global": {
+      "path": "tonight/audit/global_b7171/FINAL29_GLOBAL_ACCEPTANCE.json",
+      "sha256": "3154170b0dd5343687c5b2f7209876fb19dca0c83c4a018ad986453cbbbad947"
+    },
+    "transport": {
+      "path": "tonight/theory/assigned_b711_shifted_cells_audit.json",
+      "sha256": "594184b28f6a39d0f74a208a6d626bba1aa99c485759868b3c7e4b646bcaefa7"
+    },
+    "spectral": {
+      "path": "tonight/audit/global_b7171/final29_b711_beta_spectral_audit.json",
+      "sha256": "f9b11c42be051257df0c525e0eee97e11a446779bc71931515ab25d763979fb5"
+    },
+    "lower": {
+      "path": "tonight/audit/global_b7171/b711_complete_lower_target_transport.json",
+      "sha256": "cca65e7ffd484f09af6759f30acad5a1f9f0e335c40cc61fabae87a06f3b03dc"
+    }
+  },
+  "accepted_geometry_proof_chain": [
+    {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_twentyninebank_monotone_audit.json",
+      "sha256": "c11d49f838f082eff3d0081b967cd74de5f3944c6dfa6bfd56d4285739e141ee"
+    },
+    {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+      "sha256": "19085b78c57d4b4a8988c376a6d3f39e217956c1c60a4b211b03905bee064570"
+    },
+    {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+      "sha256": "e0600b6f39f80b926043af3dbf0ba0693ecad4273b865cf0ed9b3e21ddfe1d57"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+      "sha256": "e124507691e53c154ae95b2e655bfdaabc0a8c26ea2a980d61ea23b817937764"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentyfivebank_monotone_audit.json",
+      "sha256": "d9d2e763bb67c49eaec2e09c19067556b8953092b1f0e54b64712627f3e346bd"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentythreebank_monotone_audit.json",
+      "sha256": "a77421c0c5c6aa38e69ff1b81d2b202e2bcf02aa2ba362e336af5e644a9b6cf1"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentytwobank_adaptive_audit.json",
+      "sha256": "b6b195d08f56ba69bafac235272ce6ff7e61cc583f7477922a354f73408786fe"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentytwobank_monotone_audit.json",
+      "sha256": "cd39fee1f5ae5758e3a74317e0dbd0c966ea5abef8846e932f3493fa0fd17c5a"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+      "sha256": "96480c72e8f5c0cc5ca2ce170acdacfe96697b5726a037c6e1f56ecaa73e01a5"
+    }
+  ],
+  "historical_1773_or_1780498_premises_used": false,
+  "analytic_review": "The accepted .713 physical partition and complete local gates are retained. A SINGLE new coefficient .711 is applied to all upper cells. Every ordinary completion shifts by beta_norm^2*(1/b-1/b0)+(b-b0)r^2; fixed contact completion replaces beta_norm by beta_norm+lambda*d/2. For the negative radial difference, each full physical cell is uniformly bounded at its nonnegative radial lower endpoint. All 43 exact beta/profile bindings and target spectral gates are independently accepted, and all 272579 shifted cell caps are independently recomputed. The 8737 physical empty cells do not depend on the operator coefficient. The separately accepted .711 lower branch covers [0,.6905], completing the same-coefficient global norm bound.",
+  "matrix_sequence_limit": "Actual limit is 1/N(b), at least the certified reciprocal cap; equality to the cap and convergence to unrestricted G_R are not asserted for this fixed family.",
+  "scope": "Complete fresh all-dimension scalar norm and explicit matrix-sequence lower bound at .711. The reference envelope is the .713 proof source; every selected cell is explicitly transported to .711. No coefficient choices are mixed across cells and no historical1.773 premise is used.",
+  "new_native_endpoint_prices": 13936,
+  "new_uniform_source_planes": 140,
+  "refinement_bindings": {
+    "parent_global": {
+      "path": "tonight/audit/global_b7171/FULLUPPER57_TWENTYSEVENBANK_GLOBAL_ACCEPTANCE.json",
+      "sha256": "7d1ea3ca1bda2b0275889702ba8650ddd89afeb0e333f206529313f99cfbec43"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+      "sha256": "e0600b6f39f80b926043af3dbf0ba0693ecad4273b865cf0ed9b3e21ddfe1d57"
+    },
+    "native": {
+      "path": "tonight/audit/global_b7171/full_upper68_b713_native_transport.json",
+      "sha256": "634b6524e02d2ccd70d3a29434cd1f50a954a3e0d6f828af3016e451aa12e137"
+    },
+    "plane": {
+      "path": "tonight/audit/global_b7171/full_upper68_b713_plane_prices.json",
+      "sha256": "2cf643a726f35732fbdde97688451c09d81ed1d9d0b6e813f63a0e59a3530407"
+    },
+    "baseline": {
+      "path": "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+      "sha256": "df196c7cce6e81e00eb32511031bdde642f3e2b1af6cfb07d10a402c42786186"
+    }
+  },
+  "monotone_bindings": {
+    "parent_global": {
+      "path": "tonight/audit/global_b7171/FULLUPPER68_TWENTYEIGHTBANK_GLOBAL_ACCEPTANCE.json",
+      "sha256": "d77ab503158bd261c885254d9d2ee9d8e86e37666e7d98c214ca385abf985bad"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_twentyninebank_monotone_audit.json",
+      "sha256": "c11d49f838f082eff3d0081b967cd74de5f3944c6dfa6bfd56d4285739e141ee"
+    },
+    "new_complete_whole_q_gates": [
+      {
+        "path": "tonight/audit/finaldiffuse_u75875_R3_recheck/ACCEPTANCE.json",
+        "sha256": "be8a7b8440aae78b71134c81caa369264355373a3365f72a9109864d9ab96fea",
+        "profile": "finaldiffuse75875"
+      }
+    ]
+  },
+  "independent_new_corner_prices": 280,
+  "independent_new_polygon_prices": 343,
+  "reference_envelope_operator_b": "713/1000"
+}

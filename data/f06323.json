@@ -1,0 +1,46 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_ROBUST_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_robust_middlehigh_box.json",
+  "profile_sha256": "52d9794838af734385b3af1670f01fcc8dd7fb4f8fc93f94b0010ee6b796aeb3",
+  "reserves": [
+    "1/200000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "20"
+    ],
+    [
+      "20",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_body.json",
+      "sha256": "f1c487bf3f482641b04cdc3d83c5b84040b38faee3405fb7a5992bafbc8e3805",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 6789
+    },
+    "exterior": {
+      "path": "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_exterior.json",
+      "sha256": "75336ac64ce80caf3d89822930b7a3a55980707d6f32f0799403af27517eb9dc",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 248
+    },
+    "tail": {
+      "path": "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_tail.json",
+      "sha256": "a34fa96a92a245451fe8c5c18838d03e0b90afbff763c7dd283495309ac614ef",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  },
+  "adapter_sha256": "944ad82c5331ae059c727bcaaf1fca22e0af9e738e7d04a6471c3c2e3023024a",
+  "adapter_review": "Exact source diff against the accepted rank replay contains only two literal reserve-map and CLI-choice line changes. All body/exterior leaves and tail20 polynomial freshly checked. Tail replay reads the exact profile anew, with its hash bound here.",
+  "scope": "Whole-q physical local gate only. Outer moment/source pricing and exhaustive amplitude coverage are separate."
+}

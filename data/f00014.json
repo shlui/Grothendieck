@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYTIC_RATIONAL_FINITE_BOUND",
+  "source": {
+    "path": "new_round_2026-10-02/sequence_theory/RATIONAL_LOG_CUTOFF_FINITE_BOUND_POINCARE.tex",
+    "sha256": "0759c29c4ecdc4e310f7469ce558580dcc6ada37dba3d0b701dff2cc36aaede9"
+  },
+  "cutoff_proposition": {
+    "path": "new_round_2026-10-02/sequence_theory/LOGARITHMIC_CUTOFF_SEQUENCE.tex",
+    "sha256": "a0ec7c276c521a97ce59df0bc10f8ecc27e711f764ef14a51ff2e0d41a4a6dfe"
+  },
+  "conditions": [
+    "integer d>=4",
+    "0<b<1",
+    "separately accepted complete scalar cap N(P1-bP3)<=B"
+  ],
+  "radial_variance_proof": "R=norm(X) belongs to Gaussian W^{1,2}, with weak-gradient norm one almost everywhere. R(-X)=R(X), so its centered Hermite expansion has only even degrees at least two. Gaussian derivative Parseval gives sum k||P_k R||_2^2=1. Thus VarR<=1/2, and (ER)^2/d=(d-VarR)/d>=1-1/(2d).",
+  "rational_loss_comparison": "The cutoff probability p<=d^-4 gives sqrt(p)<=d^-2. Since sqrt(1+2/(d+2))<=1+1/(d+2) and the bulk/tail coefficients are nonnegative for 0<b<1, the displayed rational Lbar dominates the exact midpoint error. Subtracting total entry approximation d^-2 and using scalar denominator B+d^-2 preserves the lower ratio bound.",
+  "rate_scope": "The certified lower bounds tend to1/B at O(d^-1), or O(n^-4) after d=n^4. No quantitative denominator convergence rate or equality N=B is asserted.",
+  "independent_review": "Analytic derivation, not a replay of a producer numerical claim."
+}

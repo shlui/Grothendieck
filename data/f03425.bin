@@ -1,0 +1,74 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_ASSIGNED_B711_CELL_TRANSPORT",
+  "operator_b": "711/1000",
+  "baseline_b": "713/1000",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+    "sha256": "ea763375a19e63a49174bcf18975c948ab188f993edfb471014cbb2bfec04d2d",
+    "accepted_audit": "tonight/theory/fullupper_b713_native_kappa68_twentyninebank_monotone_audit.json",
+    "audit_sha256": "c7a8998decaac7b503d6dae5b1bf9ba42fd28f3aeb29486d743dda9194427b09"
+  },
+  "source_scan": {
+    "path": "tonight/recovery/profile_cover/assigned_twenty-nine_coefficient_scan.json",
+    "sha256": "b169d11c95f8cfe770e3ea8d08fe678585ec1229bb1f84e86782748fc5ba6f0e"
+  },
+  "exact_profile_bindings": 43,
+  "directed_precision_bits": 768,
+  "ordinary_cells": 272557,
+  "contact_cells": 22,
+  "inherited_prefixes_resolved": 549,
+  "cells": 272579,
+  "preserved_empty_cells": 8737,
+  "fresh_native_contact_cross_values": 0,
+  "exact_R3_target_spectra": {
+    "R3:rank68": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:rank70": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:full68": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:full70": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:critical755": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:diffuse7478": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:diffuse7505": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:lowr76": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:highk7575": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:middle7475": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:middlehigh7475": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:interval_robust_middlehigh_box": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:interval_robust_currentworst_box": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:robust_broadcurrent": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:moderatek": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:highk7625": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:secondary7475": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:primary7425": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:lowerface7175": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:nextface7375": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:lowerdiffuse72125": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:moderateface7375q50": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:finalface7475": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:lastface7575": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:highu7775": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:refinedface75125": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:curve12_20": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:last20_40": "PASS_EXACT_SIX_PSD_GATES_AT_711",
+    "R3:finaldiffuse75875": "PASS_EXACT_SIX_PSD_GATES_AT_711"
+  },
+  "maximum_independent_upper": "563914263671/1000000000000",
+  "strict_rational_cap": "112782853/200000000",
+  "worst_cell": {
+    "parent_index": 195896,
+    "u_interval": [
+      "1517/2000",
+      "759/1000"
+    ],
+    "r_interval": [
+      "61/250",
+      "123/500"
+    ],
+    "kappa_interval": [
+      "53/100",
+      "4/5"
+    ],
+    "winner": "R3:lastface7575",
+    "independent_upper": "563914263671/1000000000000"
+  },
+  "proof": "Every fixed physical cell uses the same operator .711. The frozen ordinary completion changes by delta_b*r^2+beta_norm^2*delta_reciprocal. Fixed contact completion adds its exact effective-beta cross/square terms. Since delta_b<0, r_lower gives a uniform radial upper. Accepted parent caps bound all physical points, including inherited children. All original physical exclusions and partitions are unchanged."
+}

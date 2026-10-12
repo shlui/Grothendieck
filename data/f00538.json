@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_broad_highk_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_extra_manifest.json",
+    "sha256": "6cea71d4186e9706e22349633a039e03baf2c8a6b239d5b4993b7abc8b4f312c"
+  },
+  "profiles": [
+    {
+      "name": "new_root_kappa225_dense_step5_budget001_b711",
+      "label": "interval_new_root_kappa225_dense_step5_budget001_b711",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "tail_R": "64",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_dense_step5.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input/profile_interval_new_root_kappa225_dense_step5_budget001_b711.json",
+          "sha256": "45a2b2b2c55a93812ea6a4f5b9542783c2a21169fc086c00fe040ed1fce428ac"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input/body_interval_new_root_kappa225_dense_step5_budget001_b711.json.gz",
+          "sha256": "84a9e0f19bb6e865895fd165ffb12277f14923ab69d23a1e2b23ceb87d73603f"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input/exterior_interval_new_root_kappa225_dense_step5_budget001_b711.json.gz",
+          "sha256": "9fde66e9abfbe5a9009eb8242e0a98ad58c30b15126b0a738f0bfdf5129abbb9"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_dense_step5_budget001_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_dense_step5_budget001_source_box/input/tail_interval_new_root_kappa225_dense_step5_budget001_b711.json",
+          "sha256": "30081c27d54497664f6c317fd415e03abfaa3a92cac53cf6f5a419e8bc3a2bad"
+        }
+      ]
+    }
+  ]
+}

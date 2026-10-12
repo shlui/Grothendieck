@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "profiles": [
+    {
+      "name": "new_highu_kappa10_b711",
+      "label": "interval_new_highu_kappa10_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_highu_kappa10_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa10_source_box/input/profile_interval_new_highu_kappa10_b711.json",
+          "sha256": "13fab6374dd9e0def943140575eba580e77285dbea062a5a2d15138784668701"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_highu_kappa10_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa10_source_box/input/body_interval_new_highu_kappa10_b711.json.gz",
+          "sha256": "ea324f06b91d5e239da5662ec0c8be24fe81a661e2cb1653c6f2cfc103400732"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_highu_kappa10_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa10_source_box/input/exterior_interval_new_highu_kappa10_b711.json.gz",
+          "sha256": "d816e7584476c20621c898e7623a19edffb97423811cb4ff05cd6fa9e4da4b2e"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_highu_kappa10_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa10_source_box/input/tail_interval_new_highu_kappa10_b711.json",
+          "sha256": "5e8914b948ea6a3e638e24f851d6fbb4ab5f1d96f0c5dbd60123cb828f4a78f1"
+        }
+      ]
+    }
+  ]
+}

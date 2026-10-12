@@ -1,0 +1,31 @@
+{
+  "status": "PASS_ATOMIC_FINAL711_COMPLETE_PREFERRED_GLOBAL_PACKAGE",
+  "path": "/workspace/scratch/8242d848994f/tonight/operator/preferred_global",
+  "zip": "/workspace/scratch/8242d848994f/tonight/operator/preferred_global.zip",
+  "zip_sha256": "c70cc71fbaa2f908dabcfe011fe4fb882856629d83e8a95013ee5b406f3dd3ec",
+  "zip_bytes": 257288695,
+  "immutable_manifest_files": 1974,
+  "manifest_sha256": "84ff5f7bb44d6574bb02216e92f527112e6f754fab4bc0d9aeb330298238eeca",
+  "preferred_and711_phase_seconds": 624.9107687473297,
+  "base_checkpoint_seconds": 113.91181826591492,
+  "single_final711_default_invocation_repeated": false,
+  "operator_b": "711/1000",
+  "norm_cap": "112782853/200000000",
+  "constructive_G_R_lower_bound": "200000000/112782853",
+  "crc_and_all_zip_member_hashes_pass": true,
+  "original_and_strengthened_unchanged": true,
+  "path_independent_actual_zip_extraction_smoke": {
+    "status": "PASS_PORTABLE_EXTRACTION_MANIFEST_AND_ORIGINAL_SOURCE_SMOKE",
+    "manifest_files": 1974,
+    "operator_b": "711/1000",
+    "norm_cap": "112782853/200000000",
+    "scope": "Immutable file identities and relative package lookup only; complete mathematical replay is a separate mode."
+  },
+  "extracted_fresh43_beta_profile_target_spectral_bindings": "PASS_INDEPENDENT_ALL_ASSIGNED_PROFILE_BETA_SPECTRAL_BINDINGS",
+  "previous_final14_checkpoint_preserved": true,
+  "extension_filter_used": false,
+  "fresh_final_graph_isolated_baseline_seconds": 144.17212414741516,
+  "all_canonical_inputs_unchanged_after_fresh_isolated_baseline": true,
+  "scheduler_isolation_hardened": true,
+  "previous_final711_archive_preserved": true
+}

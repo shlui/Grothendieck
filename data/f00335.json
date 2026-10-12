@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_READ_ONLY_ELEMENTARY_KRIVINE_UPPER_REPLAY",
+  "universal_strict_upper": "1760/987",
+  "strict_below_rounding_endpoint": "357/200",
+  "exponential_upper": "36546709859637513399380063330480378767/15140013877549634840166400000000000000",
+  "exact_rational_arithmetic": true,
+  "three_significant_digit_lower_required": "71/40",
+  "three_significant_digit_rounding_proved": true,
+  "bindings": {
+    "accepted_analytic_review": {
+      "path": "new_round_2026-10-02/audit/ELEMENTARY_KRIVINE_UPPER_INDEPENDENT_AUDIT.json",
+      "sha256": "5f6f9c73630b50eb75a47df87a43bf65147f1e2cb3a3af4635e812d115d11879"
+    },
+    "complete_constructive_lower": {
+      "path": "new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json",
+      "sha256": "f1e6bf6641fa20dd23e1f60cd1c2deb743ac0be98035210ab6d58b24718c6f08"
+    }
+  },
+  "entrypoint_sha256": "49708c51562bee8f4d0eddf26884995c56c054c990be64440e04199a23e2172b",
+  "scope": "Unconditional universal upper bound. Rounding1.78 additionally needs an independently accepted complete constructive lower bound at least71/40.",
+  "constructive_lower": "71/40",
+  "rounding_result": "1.78",
+  "certified_rounding_interval": [
+    "71/40",
+    "1760/987 (strict)"
+  ]
+}

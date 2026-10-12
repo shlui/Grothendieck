@@ -1,0 +1,13 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank48_monotone_rank_upgrade_proposal.json.gz",
+    "sha256": "1fbd1da72aac2ba6e41bd15c73ab08ac37cf2aed71b8b0b8e1d178b9454bc013"
+  },
+  "profiles": 5,
+  "kappa_bands": 68,
+  "moment_boxes": 68,
+  "corner_tables": 340,
+  "directed_corner_prices": 1360,
+  "verified_premise_file_count": 30
+}

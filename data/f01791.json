@@ -1,0 +1,8 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_FINAL14_BACKUP",
+  "path": "tonight/operator/preferred_global_final14_b713.zip",
+  "sha256": "ca2db028c1769337b65d954de6ae306717d5f21c192788e83eee5658b2a64409",
+  "bytes": 38224512,
+  "norm_cap": "564479481/1000000000",
+  "constructive_G_R_lower_bound": "1000000000/564479481"
+}

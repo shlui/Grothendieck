@@ -1,0 +1,30 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_secondary_moderate_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_secondary_moderate_b711.json",
+      "profile_sha256": "f15bf00581aaea4a0d7c86eec37f1fe1dd3ed6f14f0c6a99a4aca891d18a96c9",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_seven_source_boxes.json",
+      "acceptance_sha256": "0847f92390e3eae705837fa05cdc35ca2a072e0e37e5493e1c9aa60472eff070",
+      "proof_status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_secondary_moderate_b711.json.gz",
+          "sha256": "9a4aa14faf93da08e195521810de03e87ec31fe2017f791dfe373787a8496006"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_secondary_moderate_b711.json.gz",
+          "sha256": "5c690dd50a1a65f8d8a5cea5935a4186274a7770d6d3eaed2aba2eced8af17a9"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_secondary_moderate_b711.json",
+          "sha256": "e68ce9b9e42666d6a2c1db6860739b9db115233a4ed84df50608bc554fe293fb"
+        }
+      ]
+    }
+  ]
+}

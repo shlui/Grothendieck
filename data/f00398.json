@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_r205_fit/certificate/highu_kappa4_r205_q20_extra_manifest.json",
+    "sha256": "5f5d3b4f8b37c37b1a011b96af7dd935fb01115638e51aa3b5db0206b92a8955"
+  },
+  "profiles": [
+    {
+      "name": "new_highu_kappa4_r205_b711",
+      "label": "interval_new_highu_kappa4_r205_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_r205_fit/certificate/profile_highu_kappa4_r205_b7171.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input/profile_interval_new_highu_kappa4_r205_b711.json",
+          "sha256": "597ed947b4bf6646f9617887b8a72288951553908ba65f5993fe106cbb052043"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_r205_fit/certificate/body_highu_kappa4_r205_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input/body_interval_new_highu_kappa4_r205_b711.json.gz",
+          "sha256": "55db20af162128b87404d472790cb959b012030d40b23a12433b05c4fb50ed5e"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_r205_fit/certificate/exterior_highu_kappa4_r205_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input/exterior_interval_new_highu_kappa4_r205_b711.json.gz",
+          "sha256": "9de94d0580c6e0ab68fe25228beec4d2b793036a91dfa15d7eafca94b308d961"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_r205_fit/certificate/tail_highu_kappa4_r205_q20.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa4_r205_source_box/input/tail_interval_new_highu_kappa4_r205_b711.json",
+          "sha256": "5df93b04a2bcd3646ceebbe8e1856309c3d4dcc5b9b2c17bb459aeff123e5a73"
+        }
+      ]
+    }
+  ]
+}

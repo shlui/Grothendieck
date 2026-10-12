@@ -1,0 +1,7 @@
+{
+  "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+  "uniform_source_boxes": 4,
+  "selected_uniform_planes": 40,
+  "selected_directed_prices": 160,
+  "all60_row_directed_prices": 960
+}

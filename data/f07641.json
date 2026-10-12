@@ -1,0 +1,95 @@
+{
+  "status": "PASS_EXACT_B713_OUTER_TRANSPORT_FROM_ACCEPTED_B7171_BRANCHES",
+  "operator_b": "713/1000",
+  "baseline_b": "7171/10000",
+  "scope": "All amplitudes [0,.6905] and [.775,sqrt(2/pi)]; not the middle interval.",
+  "general_formula": "56338/100000+(1/b-1/(7171/10000))/16 for every0<b<=7171/10000",
+  "baseline_uniform_cap": "28169/50000",
+  "uniform_beta_square_cap": "1/16",
+  "transport_shift": "5125/10225846",
+  "outer_cap": "144154052987/255646150000",
+  "accepted_coverage_proofs": {
+    "tonight/theory/same_b_native_R3_glue_audit.json": "cc7b36674e04162712f9b782be63a77fff8d421e474f66b9d50ded09b7dcb40d",
+    "tonight/theory/global_native_R3_envelope_algebra_audit.json": "1c87ef9889fc745319e02214449b02379e2a10bfd38290e601429dc19a61a407"
+  },
+  "profile_budget_checks": [
+    {
+      "profile": "tonight/regional_certificates/u014_042/data/local_summary.json",
+      "sha256": "5b28ac7bb6c19e8dc5ac2716f6a19861c248008ff701c85ce65781c9a30b9b2f",
+      "source_sha256": "fb404834fe514a2fc7d6c26c3d8569d805dd6787f44f19e96262dce62ec0e6cf",
+      "normalization": "normalized_native",
+      "beta_square": "982577823921478392153834764961/40000000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u030_0485/data/local_summary.json",
+      "sha256": "8a4b187556e6912652840eb18e75e66ff863d9415e5e641395eb4bac50bf6146",
+      "source_sha256": "ca1e8e5ee97375ccee180b5bbd7795d6e79fb2b17255ee6d501d020c59a08c85",
+      "normalization": "normalized_native",
+      "beta_square": "12548391070944099833451821075409/10000000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u040_054/data/local_summary.json",
+      "sha256": "93b2c4c0b69bca84115d8c0529e4a72c808e9b35083fe41c1be23d821f1591f8",
+      "source_sha256": "93adaaaa0d52df930c0485aa0e4fa457dffa3aa50313c4a6606d8e1e04246798",
+      "normalization": "normalized_native",
+      "beta_square": "11109176914827569611457098106721/2500000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u050_0638/data/local_summary.json",
+      "sha256": "8d057374aa563c74707d857052ab094f00435a23bc94bbc006849e793b9a3ddd",
+      "source_sha256": "177097b34111920751b05b843b5c0439eb83f6cf81a51fa64e7f4a095cf87124",
+      "normalization": "normalized_native",
+      "beta_square": "274625797097572011398614640089/25000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u060_0662/data/local_summary.json",
+      "sha256": "a8418ecd57b2012fd0132c7fe86861b309fbf21a12c083f5733d7d570bab0dd0",
+      "source_sha256": "ed735814619d9022c0213bacc97b030ae3819c6344d1ba6c1f38255a231f4d94",
+      "normalization": "normalized_native",
+      "beta_square": "1729289366590865756246727470041/100000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u0662_0682/data/local_summary.json",
+      "sha256": "381518fae984b9c24eadcacade58ef64319b65cae8485d6c3bf851c10136db95",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60",
+      "normalization": "normalized_native",
+      "beta_square": "230713565942988401010332522789449/10000000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u077_c/data/local_summary.json",
+      "sha256": "f4b9c4e3bff9c937810c5e71a7c2499cb4235739bba501f2ce2e03712ee8b5ae",
+      "source_sha256": "e1a793fea166e03dd50de2ee4849b2e66bf1d91b32278a4305f34186a6fa1338",
+      "normalization": "normalized_native",
+      "beta_square": "4289057927007316016546332963921/100000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/regional_certificates/u079_0797885/data/local_summary.json",
+      "sha256": "6ed12b2c8458965064ce0ca96c1cba0cb64c0c34cda6e521954a1ea30ebd285c",
+      "source_sha256": "d5ec3008fe256ee3e31d105876948da7caccb68be2673e5088a836af867c6bf6",
+      "normalization": "normalized_native",
+      "beta_square": "518118901330680000369632855428929/10000000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/native_frames/repriced0685_0700/data/local_summary.json",
+      "sha256": "067bd00145f891bd7e45d236488746e79698e95d832995c390916f2598cf710e",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+      "normalization": "normalized_native",
+      "beta_square": "10384227693087841950835893542689/400000000000000000000000000000000"
+    },
+    {
+      "profile": "tonight/native_frames/repriced0700_0720/data/local_summary.json",
+      "sha256": "b0ebc33671d0498c0c1d4d02311d51b56fae8b600bd513278cbcfb94a42e93c5",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+      "normalization": "normalized_native",
+      "beta_square": "3029314167205104835140561/100000000000000000000000000"
+    },
+    {
+      "profile": "tonight/operator/projection/lower_amp_certificate/profile_u.70.json",
+      "sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78",
+      "normalization": "raw_R3",
+      "beta_square": "128550213636839109723/5000000000000000000000"
+    }
+  ],
+  "analytic_prerequisite": "Exact native/R3 smaller-b transport; elementary low-u bound decreases with b.",
+  "claim": "Both unchanged complete physical source covers transfer to one common coefficient b=.713."
+}

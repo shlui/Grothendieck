@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_SELECTED_CONTACT_CREDIT_NUMERIC_BINDINGS",
+  "input_sha256": "c4268cff560e5239b064b7761b96ae5dbaeb2da0146447fdfb8af20c0f592f44",
+  "precision_bits": 768,
+  "selected_contact_cells": 80,
+  "distinct_contact_corner_prices": 84,
+  "native_normalized_beta_terms_checked": 1,
+  "R3_raw_beta_terms_checked": 4,
+  "producer_code_imported": false,
+  "analytic_review": "Every contact row and lambda is fixed over its whole cell. All four coupled cumulant/shape gate prices are bounded; normalized native beta*d/b uses directed sqrt6, raw R3 beta*d/b equals6*beta_raw*B/b. The recorded S has PLUS beta*d/b. The exact cell outer/chord/quadratic pricing is separately audited.",
+  "scope": "Numeric contact-credit premises on all selected cells; complete physical partition and all options are separate."
+}

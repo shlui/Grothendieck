@@ -1,0 +1,46 @@
+\subsection{A monotone sequence converging to the full constant}
+The analytic cubic sequence below has limit $1/\mathcal N(b)$.
+The reduction also permits an unconditional sequence converging to the
+full Grothendieck constant, without assuming that a cubic operator is
+optimal.
+
+\begin{proposition}\label{prop:universal-monotone}
+Let $\mathcal A_n$ consist of all nonzero real matrices of dimensions
+at most $n$ whose entries lie in
+$2^{-n}\mathbb Z\cap[-1,1]$. Choose a matrix $S_n\in\mathcal A_n$
+maximizing $G$, with a fixed lexicographic rule for ties. Clear its
+dyadic denominator and apply \eqref{eq:clone} and \eqref{eq:balanced},
+obtaining $U_n$. Then every $U_n$ belongs to the simultaneous reduced
+class and
+\[
+ G(U_n)\le G(U_{n+1}),\qquad
+ \lim_{n\to\infty}G(U_n)=G_{\mathbb R}.
+\]
+\end{proposition}
+\begin{proof}
+Each candidate set is finite and the sets are nested. Both norms are
+positive on a nonzero matrix, and the exact reductions preserve their
+ratio, so the maxima exist and increase monotonically.
+For any fixed nonzero real matrix $A$, homogeneity permits the
+normalization $\max_{ij}|A_{ij}|\le1$. Its dyadic approximants $A^{(n)}$
+belong to $\mathcal A_n$ for sufficiently large $n$ and have total
+entry error tending to zero. The two norms satisfy
+\[
+ |C(A)-C(B)|\le\sum_{ij}|A_{ij}-B_{ij}|,
+ \qquad |V(A)-V(B)|\le\sum_{ij}|A_{ij}-B_{ij}|.
+\]
+Consequently $G(A^{(n)})\to G(A)$ and
+$\liminf_nG(U_n)\ge G(A)$. Taking the supremum over $A$ proves the
+asserted limit; the reverse inequality follows from the definition of
+$G_{\mathbb R}$.
+\end{proof}
+
+This is a finite exact specification at every stage. The scalar norm is
+computed by sign enumeration. The vector norm is the maximum of the
+rational linear functional
+$\sum_{ij}A_{ij}X_{i,m+j}$ on the compact set of positive semidefinite
+$(m+n)$-by-$(m+n)$ matrices with diagonal one. Its polynomial
+description makes exact algebraic optimization and comparison possible.
+Enumeration is computationally expensive. The analytic subfamily gives
+controlled candidates and a quantitative limit, while retaining a best
+previous candidate prevents a weaker trial from replacing it.

@@ -1,0 +1,133 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_B711_R3_COMPONENTS",
+  "operator_b": "711/1000",
+  "whole_q_binding": {
+    "path": "new_round_2026-10-02/audit/highu_kappa4_source_box/WHOLE_Q_ACCEPTANCE.json",
+    "sha256": "e1f597f457e7d0e669d4e3e29f7ecd068f33955aa40a4266397aa60d414110cd"
+  },
+  "components": [
+    {
+      "name": "new_highu_kappa4_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/cubic_search/coefficient/highu_kappa4_fit/certificate/profile_highu_kappa4_b7171.json",
+        "sha256": "1563bc10f6acb1cddee24305ee216aa07f49b24e1654dd48b3ee5fc22f0b03c5"
+      },
+      "operator_b": "711/1000",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/highu_kappa4_source_box/reports/independent_interval_new_highu_kappa4_b711_ridge500_body.json",
+          "sha256": "bc92888a75b33faf7898ddaf938561192e47127fad5dffe38931660e8d76d1f1",
+          "profile": "interval_new_highu_kappa4_b711",
+          "part": "body",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 3711
+        },
+        {
+          "path": "new_round_2026-10-02/audit/highu_kappa4_source_box/reports/independent_interval_new_highu_kappa4_b711_ridge500_exterior.json",
+          "sha256": "0ecf7156c70ff7e6f6b5561c77a1e9298f5e3ec6cc44107227d7b03c4c79ba1e",
+          "profile": "interval_new_highu_kappa4_b711",
+          "part": "exterior",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 191
+        },
+        {
+          "path": "new_round_2026-10-02/audit/highu_kappa4_source_box/reports/independent_interval_new_highu_kappa4_b711_ridge500_tail.json",
+          "sha256": "0d51dfd936d364908835ab9eca00094627a8479f6fe7fd4be072767681086019",
+          "profile": "interval_new_highu_kappa4_b711",
+          "part": "tail",
+          "branch": "ridge500",
+          "reserve0": "1/2000",
+          "reserve6": "1/100000000",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/new_highu_kappa4_q500_b711_source_price.json",
+        "sha256": "0c599264590323fcbd3327389d8cb39b318f7979ed3db0dc410272774b00acf3"
+      },
+      "source_domain": {
+        "u": [
+          "77/100",
+          "771/1000"
+        ],
+        "r": [
+          "49/250",
+          "101/500"
+        ],
+        "kappa": [
+          "4",
+          "5"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "maximum_directed_upper": "281557731893065268086840978338856062796364204102638951572695518412698994770929874741301720465883383237256038411310756945926874880920462468226888779978554967301457740507116202259074728330873261939115101300925430241112586639722668619085912469/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_rounded_cap": "140779/250000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "89176421509/100000000000",
+              "3304766143/25000000000"
+            ],
+            "off_diagonal": "1519505577/10000000000",
+            "determinant": "118492394296743798281/1250000000000000000000"
+          },
+          {
+            "diagonal": [
+              "189176421509/100000000000",
+              "342266143/25000000000"
+            ],
+            "off_diagonal": "1519505577/10000000000",
+            "determinant": "3513127086537548281/1250000000000000000000"
+          },
+          {
+            "diagonal": [
+              "18076421509/100000000000",
+              "3304766143/25000000000"
+            ],
+            "off_diagonal": "1519505577/10000000000",
+            "determinant": "1007957913093798281/1250000000000000000000"
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Whole-q physical gates plus exact711 spectral prerequisites and directed restricted-source prices. Former conditional source-premise wording is resolved by the bound whole-q acceptance. No complete amplitude coverage/global norm claim; old frozen proof unchanged."
+}

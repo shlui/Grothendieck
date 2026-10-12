@@ -1,0 +1,64 @@
+{
+  "status": "SAME_LITERAL_PROFILE_NEW_RESERVE_REPROOF_ONLY",
+  "old_profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_kappa26_b711.json",
+    "sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359"
+  },
+  "copied_profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/profile_new_kappa26_b711.json",
+    "sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359"
+  },
+  "old_manifest": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_kappa26_accepted_manifest.json",
+    "sha256": "00ca3893b4e78d1802a3d9daa0cfa8bf262ba58fb806c39e44fc02c317719b13"
+  },
+  "old_acceptance": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa26_source_box/COMPONENT_ACCEPTANCE.json",
+    "sha256": "839e2720a1c77104f5c5b551dfaf4b9ccc31cfd8e1442690ad0c6399cd748393"
+  },
+  "reserve0_original": "1/20000",
+  "reserve0_new": "1/25000",
+  "reserve6_unchanged": "1/100000000",
+  "adapters": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/price_frozen_profile.py",
+      "sha256": "20bedc17dffb764b0807da4721dc2e3355c819834d466c92fbe7a1dba09b2684",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/price_frozen_profile.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/rational_phi_bounds.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/scan_true_local_witness.py",
+      "sha256": "afa63ac263f976bd64febf3e7d13ef50ef5de4c1f9d485ba89bceebb4feb1a60",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/scan_true_local_witness.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/gaussian_max_certificate.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/bernstein_integer_bounds.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/certify_local_point.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/certify_local_bernstein_region.py"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+      "copied_from": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u741_k075_fit/certificate/mpfr_interval.py"
+    }
+  ]
+}

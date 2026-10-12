@@ -1,0 +1,103 @@
+% Analytic extensions only. No new numerical norm certificate is asserted.
+\begin{proposition}[Jensen reductions with a rank local oracle]
+\label{prop:jensen-rank-reductions}
+Retain the raw-Hermite rank residual-source notation
+$p=(p_0,p_2)$, $L$, $B$, $\mathcal E_p$, $\Phi$, $b>0$ and $R$.
+Let $0\le\omega<1$, $\nu^2=2/\pi$, and put $C_0=1-\nu^2$.
+Use the exact source transport
+\[
+ y(r)=y_0+p_0p_2(r-r_0),\qquad v_y=y_0-p_0p_2r_0,
+ \qquad \eta=\gamma-p_0v_y/p_2.
+\]
+Write $\mathcal C$ for the usual residual price, including
+$6\beta^2/b$ and $v_y^2/p_2^2$, but excluding the amplitude and
+source quadratics and $\mathbb E\Phi(Q)$.
+Assume the three usual odd-block spectral gates for $R$.
+
+For the ellipse reduction choose any $v_{\rm e}\ge\nu^2$ and assume only
+\begin{equation}\label{eq:jensen-ellipse-even-gate}
+ p_2^2\ge\frac b2\left(1+\frac{p_0^2}{1+v_{\rm e}\omega}\right).
+\end{equation}
+Then the ordinary rank local oracle, with constant longitudinal head,
+gives
+\begin{equation}\label{eq:jensen-ellipse-rank-price}
+ \langle T_bf,g\rangle\le
+ (1-\omega)u^2-2\ell u+(b-v_{\rm e}\omega)r^2-2\eta r
+ +\mathcal C+v_{\rm e}\omega+\mathbb E\Phi(Q).
+\end{equation}
+The stronger old gate $p_2^2\ge(b/2)(1+p_0^2)$ is not required.
+
+For the quartic reduction replace the even gate by
+\begin{equation}\label{eq:jensen-quartic-even-gate}
+ p_2^2\ge\frac b2\left(1+\frac{p_0^2}{1+\omega}\right).
+\end{equation}
+Define the modified local oracle by adding one independent bounded
+dual variable $\tau\in[-1,1]$ to the rank oracle: replace $B(q,Z;v)$
+inside $2\mathbb E_Z\max(|L|,|B|)$ by
+$B(q,Z;v)+2\omega C_0\tau^3$, subtract $3\omega C_0\tau^4$
+outside this expectation, and maximize over both $v\in\mathcal E_p$
+and $\tau\in[-1,1]$. Denote the result by $\Phi_\omega(q)$.
+Then
+\begin{equation}\label{eq:jensen-quartic-rank-price}
+ \langle T_bf,g\rangle\le
+ (1-\omega)u^2-2\ell u+(b-\omega)r^2-2\eta r
+ +\mathcal C+\omega\nu^2+\mathbb E\Phi_\omega(Q),
+\end{equation}
+and $0\le\Phi_\omega(q)-\Phi(q)\le\omega C_0$.
+Neither extension introduces a quadratic dependence of the longitudinal
+head on $q$. Existing residual curvature allowances remain necessary;
+the quartic extension adds no new such allowance and its coarse tail
+increases by at most $\omega C_0$.
+\end{proposition}
+\begin{proof}
+Set $A(W)=\mathbb E_Z[Zh]$ and $m_0(W)=\mathbb E_Zk$.
+Alignment of $P_1h=uZ$ gives $\mathbb EA=u$, and Jensen gives
+$\mathbb EA^2\ge u^2$. The conditional profile budget proves
+\[
+ A^2+\nu^2m_0^2\le\nu^2,\qquad
+ A^2+m_0^2-C_0m_0^4\le\nu^2.
+\]
+Thus the integrated quantities
+\[
+ v_{\rm e}-u^2-v_{\rm e}\mathbb Em_0^2,\qquad
+ \nu^2-u^2-\mathbb Em_0^2+C_0\mathbb Em_0^4
+\]
+are nonnegative, using $v_{\rm e}\ge\nu^2$ for the first.
+
+Apply the full even-block criterion with
+$E=pp^T+a e_0e_0^T$, taking $a=v_{\rm e}\omega$ or $a=\omega$.
+The gates $E\succeq0$ and $E-pp^T\succeq0$ are automatic.
+The remaining gate is equivalent to
+\[
+ \det(E-\operatorname{diag}(-1,b/2))
+ =(1+a)p_2^2-\frac b2(1+a+p_0^2)\ge0,
+\]
+which is exactly the respective displayed even gate. In particular
+$p_2\ne0$. Add $\omega$ times the corresponding nonnegative
+integrated budget to the full criterion. Its negative $m_0^2$ term
+cancels the extra local even-block entry exactly, so the effective
+local quadratic remains the original rank quadratic. The extra outer
+terms are $\omega(v_{\rm e}-u^2-r^2v_{\rm e})$ in the ellipse case and
+$\omega(\nu^2-u^2-r^2)$ in the quartic case. Exact $y(r)$ transport
+then gives the two stated prices.
+
+In the quartic case the additional local term is
+$\omega C_0m_0^4$. Convexity of $x^4$ gives, for $|x|\le1$,
+\[
+ x^4=\sup_{|\tau|\le1}(4\tau^3x-3\tau^4),
+\]
+with equality at $\tau=x$. Since $m_0=\mathbb E_Zk$, the linear
+part shifts the support field by $2\omega C_0\tau^3$, proving
+the stated local formula by the same PSD duality as for the rank
+oracle. The actual physical moment vector and $\tau=m_0$ are
+admissible, and the two dual suprema may be interchanged with the
+physical supremum. The added physical term lies between zero and
+$\omega C_0$, proving the local gap and tail statements.
+The extra dual terms do not depend on $q$, and $1-\omega>0$ preserves
+the positive amplitude curvature needed for exact polygon pricing.
+\end{proof}
+
+These are analytic sufficient criteria. Any newly fitted parameters,
+including ones violating the stronger old rank gate, require validation
+of the true even-block gates and a complete local scalar certificate
+before yielding an operator norm bound.

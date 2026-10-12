@@ -1,0 +1,289 @@
+{
+  "status": "PASS_INDEPENDENT_HASH_BOUND_32_CORNER_TWO_RESTRICTED_R3_SOURCE_PRICES",
+  "scope": "The32 product-corner prices, exact six target PSD gates, exact radial transport and convex moment signs pass. Complete independent whole-q premises are separate and pending; full physical source/amplitude coverage is separate. Frozen FINAL711 is unchanged.",
+  "operator_b": "711/1000",
+  "target_norm_cap": "40/71",
+  "precision_bits": 768,
+  "source_ledger": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_711_two_source_boxes.json",
+    "sha256": "a9647ca6c624af3965dac8f13b3249e8f401c1972869f116c668b05e6a9c4037"
+  },
+  "boxes": [
+    {
+      "name": "new_worst_b711",
+      "profile": {
+        "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_worst_b711.json",
+        "sha256": "8b49090e2684eab495e626bdae895c6926bd2329b1d42967f6361ee015287e6e"
+      },
+      "domain": {
+        "u": [
+          "1517/2000",
+          "759/1000"
+        ],
+        "r": [
+          "61/250",
+          "123/500"
+        ],
+        "kappa": [
+          "53/100",
+          "4/5"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "reference_b": "7171/10000",
+      "target_b": "711/1000",
+      "reserves": [
+        "1/20000",
+        "1/100000000"
+      ],
+      "source_audit": {
+        "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/numeric/new_worst_tight_b711_source_price.json",
+        "sha256": "ce2a9d983bfe9087b69a78a12ee736e62adba081162e52d1ccad0e5b42a7429e"
+      },
+      "maximum_independent_upper": "563333847024659381104022713191054829349344183296261899322308931907890274155354676462642451/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "maximum_display": 0.5633338470246594,
+      "strict_rounded_cap": "281667/500000",
+      "margin_to_40_71": "3296861249183941614387363435107116196562985965405148116065834539790534969817971152385979/71000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "73370880517/100000000000",
+              "3016818357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "6760534793972345769/78125000000000000000"
+          },
+          {
+            "diagonal": [
+              "173370880517/100000000000",
+              "54318357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "17217638966806893/9765625000000000000"
+          },
+          {
+            "diagonal": [
+              "2270880517/100000000000",
+              "3016818357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "57541507012970769/78125000000000000000"
+          }
+        ]
+      },
+      "expanded_coefficients": {
+        "theta": "133/1599",
+        "A": "51688583748486681/10000000000000000000000",
+        "B": "497537616251513319/10000000000000000000000",
+        "constant": "2049098549696232891554119054373625479025039575708007367823933/1735123328004385597592707796325000000000000000000000000000000",
+        "q4": "-1141691/3125000000",
+        "q6": "7061/4000000000",
+        "yc": "7718510963117215649255109/250000000000000000000000000",
+        "r_quadratic": "711/1000",
+        "r_linear": "-1384001030511271281319604712038671321/4013320107625000000000000000000000000",
+        "ell": "607/800",
+        "b": "711/1000"
+      },
+      "q_gate_inputs": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_worst_b711_tight.json.gz",
+          "sha256": "ca7a45f77bf60a176e52f0c1626fb6b2fae228971001d9e817d5d402bf9e8155",
+          "q": [
+            "0",
+            "8"
+          ],
+          "producer_leaves": 3048,
+          "independent_replay": "PENDING_SEPARATE_ACCEPTANCE"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_worst_b711_tight.json.gz",
+          "sha256": "419ef6b6dd42d0d6362b54ad34e9cd2990587004d928e3d1b345dddc76e56b64",
+          "q": [
+            "8",
+            "32"
+          ],
+          "producer_leaves": 144,
+          "independent_replay": "PENDING_SEPARATE_ACCEPTANCE"
+        }
+      ],
+      "all_q_input_hashes": {
+        "profile_new_worst_b711.json": "8b49090e2684eab495e626bdae895c6926bd2329b1d42967f6361ee015287e6e",
+        "body_new_worst_b711_tight.json.gz": "ca7a45f77bf60a176e52f0c1626fb6b2fae228971001d9e817d5d402bf9e8155",
+        "exterior_new_worst_b711_tight.json.gz": "419ef6b6dd42d0d6362b54ad34e9cd2990587004d928e3d1b345dddc76e56b64",
+        "tail_new_worst_b711_tight.json": "b28c9c95424df46eb0630a9fdb4dd40047ba843be42f721c7f2de35ae18f4ebb"
+      },
+      "whole_q_acceptance": "PENDING_SEPARATE_INDEPENDENT_BODY_EXTERIOR_TAIL_ACCEPTANCE"
+    },
+    {
+      "name": "new_diffuse_b711",
+      "profile": {
+        "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuse_b711.json",
+        "sha256": "92230015accb7a65213e49146c8c6329b83be925a2f3d4e468c7818d340f8cf4"
+      },
+      "domain": {
+        "u": [
+          "297/400",
+          "743/1000"
+        ],
+        "r": [
+          "29/100",
+          "73/250"
+        ],
+        "kappa": [
+          "0",
+          "1/10"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "reference_b": "7171/10000",
+      "target_b": "711/1000",
+      "reserves": [
+        "1/20000",
+        "1/100000000"
+      ],
+      "source_audit": {
+        "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/numeric/new_diffuse_tight_b711_source_price.json",
+        "sha256": "6a1a77abe7a9aee111bb4436bfef844f556f440ba252a1ba04c14c82765303ef"
+      },
+      "maximum_independent_upper": "563200920490849329844868479261760256601962750357630943766419284580696164722828114887523383/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "maximum_display": 0.5632009204908494,
+      "strict_rounded_cap": "563201/1000000",
+      "margin_to_40_71": "12734645149697581014337972415021781260644724608202992584230794770572304679203842985839807/71000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "73364348303/100000000000",
+              "6033410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "865315963657049520257/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "173364348303/100000000000",
+              "108410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "17630444866499520257/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "2264348303/100000000000",
+              "6033410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "7365055542449520257/10000000000000000000000"
+          }
+        ]
+      },
+      "expanded_coefficients": {
+        "theta": "1/123",
+        "A": "410582560785601849/10000000000000000000000",
+        "B": "5869102439214398151/10000000000000000000000",
+        "constant": "36003853906903003663569444010427825351991523150798795007471/30801005822563057945432682775000000000000000000000000000000",
+        "q4": "-18372031/25000000000",
+        "q6": "191709/20000000000",
+        "yc": "8151023348693791788456509/250000000000000000000000000",
+        "r_quadratic": "711/1000",
+        "r_linear": "-1674965876855286451079888136200047921/4013320107625000000000000000000000000",
+        "ell": "18447667403/25000000000",
+        "b": "711/1000"
+      },
+      "q_gate_inputs": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuse_b711.json.gz",
+          "sha256": "572ed02fb19af0b9f88d9d98c18952b6aa171521b52f1524e12e78ac022dac54",
+          "q": [
+            "0",
+            "8"
+          ],
+          "producer_leaves": 3063,
+          "independent_replay": "PENDING_SEPARATE_ACCEPTANCE"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuse_b711.json.gz",
+          "sha256": "d1e9246066175b2a818e26a08bb5ff7e870f4a42358293b0753c2d04c3bb0b42",
+          "q": [
+            "8",
+            "32"
+          ],
+          "producer_leaves": 137,
+          "independent_replay": "PENDING_SEPARATE_ACCEPTANCE"
+        }
+      ],
+      "all_q_input_hashes": {
+        "profile_new_diffuse_b711.json": "92230015accb7a65213e49146c8c6329b83be925a2f3d4e468c7818d340f8cf4",
+        "body_new_diffuse_b711.json.gz": "572ed02fb19af0b9f88d9d98c18952b6aa171521b52f1524e12e78ac022dac54",
+        "exterior_new_diffuse_b711.json.gz": "d1e9246066175b2a818e26a08bb5ff7e870f4a42358293b0753c2d04c3bb0b42",
+        "tail_new_diffuse_b711.json": "dc86ce0ea3c8d00459e61801cf36e2c7447f2c79f0bb0218462623367a8e9d60"
+      },
+      "whole_q_acceptance": "PENDING_SEPARATE_INDEPENDENT_BODY_EXTERIOR_TAIL_ACCEPTANCE"
+    }
+  ],
+  "product_corner_prices": 32,
+  "numeric_code": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/numeric/audit_worst_R3_B0.py",
+    "sha256": "c5349ecfce2ef11b0d0a289619e30b7f7d5036bc4beeb9a6577e7904889e4832"
+  },
+  "assembler_sha256": "0ce56ea87bf709defb6fbf112678c8beacc3870a8898cc3c7df8bcc03e5de578",
+  "producer_modules_imported": false,
+  "proof": "For each frozen rank profile, y(r)=y_anchor+E02*(r-r_anchor), theta=kappa_profile/(3*(kappa_profile+2)), and the transported price changes by6*beta_raw\u00b2*(1/b-1/b_ref). Rank E ensures the radial quadratic is exactly b>0; u\u00b2 has coefficient1. A=q6+reserve6+zeta\u00b2>0 and D=G-d0-zeta\u00b2>0. Together with194/sqrt10-633/15>0 these prove separate kappa/shape convexity, so the complete16 vertices uniformly bound each physical source box. Positive nuisance covariance is included with its signed actual value, not discarded. No fitted witness or sampled source law is used as coverage."
+}

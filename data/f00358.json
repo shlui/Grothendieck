@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/highu_k20_40_fit/certificate/highu_k20_40_q100_extra_manifest.json",
+    "sha256": "cea8cba37d9e9df863d52c0140649bb1e8e53d77919e8d86ea1f3ea30a9e0c04"
+  },
+  "profiles": [
+    {
+      "name": "new_highu_k20_40_b711",
+      "label": "interval_new_highu_k20_40_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_k20_40_fit/certificate/profile_highu_k20_40_b7171.json",
+          "alias": "new_round_2026-10-02/audit/highu_k20_40_source_box/input/profile_interval_new_highu_k20_40_b711.json",
+          "sha256": "9bd6fcba2637aa490093c9b07d688f8d2c5c830b2e18576705f4a0e07a2c8ac5"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_k20_40_fit/certificate/body_highu_k20_40_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_k20_40_source_box/input/body_interval_new_highu_k20_40_b711.json.gz",
+          "sha256": "2e3c96c02612cef63dd77054d04ed6db076235ea235e745a256f37af754e0db1"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_k20_40_fit/certificate/exterior_highu_k20_40_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_k20_40_source_box/input/exterior_interval_new_highu_k20_40_b711.json.gz",
+          "sha256": "c9a93569366ad36e3cc102bfa4056917e5d688f1f224a4a798b90cd20b3fd49a"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highu_k20_40_fit/certificate/tail_highu_k20_40_q100.json",
+          "alias": "new_round_2026-10-02/audit/highu_k20_40_source_box/input/tail_interval_new_highu_k20_40_b711.json",
+          "sha256": "255ba6b396544d249d87d24616aacc8e4f37b59ae062290a243b7ed119481da5"
+        }
+      ]
+    }
+  ]
+}

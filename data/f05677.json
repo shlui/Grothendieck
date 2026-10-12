@@ -1,0 +1,42 @@
+[
+  {
+    "label": "interval_robust_moderatek_box",
+    "checker": "replay_R3_robust_current_q_trees.py",
+    "branch": "robustcurrent",
+    "audit": "robust_moderatek_R3_recheck",
+    "ledger": "moderatek",
+    "R": 20
+  },
+  {
+    "label": "interval_primary_u7425_k4_10",
+    "checker": "replay_R3_highk_q_trees.py",
+    "branch": "highk",
+    "audit": "primary_u7425_R3_recheck",
+    "ledger": "primary",
+    "R": 32
+  },
+  {
+    "label": "interval_lowerface_u7175_k053_08",
+    "checker": "replay_R3_lowerface_q_trees.py",
+    "branch": "lowerface",
+    "audit": "lowerface_u7175_R3_recheck",
+    "ledger": "lowerface",
+    "R": 32
+  },
+  {
+    "label": "interval_nextface_u7375_k4_10",
+    "checker": "replay_R3_nextface_q_trees.py",
+    "branch": "nextface",
+    "audit": "nextface_u7375_R3_recheck",
+    "ledger": "nextface",
+    "R": 32
+  },
+  {
+    "label": "interval_lowerdiffuse_u72125_k0_01",
+    "checker": "replay_R3_lowerface_q_trees.py",
+    "branch": "lowerface",
+    "audit": "lowerdiffuse_u72125_R3_recheck",
+    "ledger": "lowerdiffuse",
+    "R": 32
+  }
+]

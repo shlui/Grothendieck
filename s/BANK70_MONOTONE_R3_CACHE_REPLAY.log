@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+    "sha256": "73e209757177e0278cad69b7dc1b96eca888daecce15235770099715c1894eed"
+  },
+  "profiles": 27,
+  "fresh_tables": 272,
+  "fresh_directed_prices": 1088,
+  "reused_tables": 1564,
+  "corner_tables": 1836,
+  "directed_corner_prices": 7344,
+  "verified_premise_file_count": 235
+}

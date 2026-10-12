@@ -1,0 +1,78 @@
+\begin{proposition}[Further certified source regions]
+\label{prop:r3-additional-source-regions}
+For $b=18/25$, use the physical parameters $u,r,\kappa$ of an odd
+Gaussian sign pair.  In every Gaussian dimension and for every
+admissible cubic tensor shape,
+\begin{gather*}
+ u\in[341/500,1381/2000],\quad 0\leq\kappa\leq1,
+ \quad r\geq1/5\\
+ \Longrightarrow\quad
+ \langle T_bf,g\rangle\leq\frac{563371}{10^6}<\frac{40}{71}.
+\end{gather*}
+There are also the following full-even-block bounds.  Put
+\[
+ t=r-\frac{389}{1000}+\frac95\left(u-\frac7{10}\right).
+\]
+Under the common restriction $-1/200\leq t\leq1/50$, the bounds are
+\[
+\begin{array}{c|c|c}
+ u&\kappa&\langle T_bf,g\rangle\text{ at most}\\\hline
+ {[.69,.70]}&[0,1]&551/1000\\
+ {[.70,.72]}&[0,1]&68/125\\
+ {[.70,.72]}&[0,2]&451/800
+\end{array}
+\]
+The first two table caps are below $40/71$; the last is $0.56375$.
+Every finite decimal here denotes its exact rational value.
+\end{proposition}
+\begin{proof}[Certificate proof]
+On $0\leq\kappa\leq1$, the accepted Stein row prices give
+\[
+ \mathbb E|Q|\leq\frac{830643632499}{10^{12}}
+ <\rho_1:=\frac{207661}{250000}.
+\]
+The support--source comparison with this cap, $a=9/5$, and
+$\lambda=0$ has directed right side below
+$1.649920196798<1649921/10^6$.  Thus every such physical
+source satisfies
+\[
+ r\leq\frac{1649921}{10^6}-\frac95u.
+\]
+The two accepted rank-one R3 profiles cover the source intervals
+$[1/5,199/500]$ and
+$[199/500,1649921/10^6-(9/5)u]$.  Their whole-line local proofs use
+constant reserve $1/50000$ and sixth-degree reserve $1/5000000$.
+Independent replay accepts all $21873$ compact scalar leaves and the
+exact tails starting at64.  Exact $y(r)$ transport and convex
+endpoint pricing on the two source polygons give respective maxima
+below $0.563249470254$ and $0.563370758117$, proving the first cap.
+The complete replay is recorded in
+\texttt{COMPLETE\_\allowbreak RESTRICTED\_\allowbreak DOMAIN\_\allowbreak REPLAY.json}.
+The outer extension is recorded in
+\texttt{independent\_\allowbreak finer\_\allowbreak amplitude\_\allowbreak extension.json}.
+
+For the table, the accepted full-even profile uses constant reserve
+$1/1000$ and sixth-degree reserve $1/10^6$.
+Its independent whole-line replay checks $56194$ partition events,
+$27636$ accepted leaves and $462$ exact physical-ellipsoid exclusions,
+then glues the exact tail beyond64.  The six matrix gates and
+$y(r)$ transport are exact.  Let
+$a_r=b-E_{00}+E_{02}^2/E_{22}<0$.  On each $(u,t)$ rectangle,
+product-corner interpolation incurs at most
+\[
+ (-a_r)\{(9/5)^2(\Delta u)^2+(\Delta t)^2\}/4.
+\]
+This follows because the mixed term is interpolated exactly and the
+variance of the affine source is $(9/5)^2\operatorname{Var}(u)+
+\operatorname{Var}(t)$; the positive $u^2$ term only improves the
+comparison.  Source prices are separately convex in $\kappa$ and
+the shared shape.  All48 vertex prices, including these reserves,
+have independent directed maxima below
+$0.550507802111$, $0.543476058131$, and $0.563687366986$.
+They prove the table caps; the record is
+\texttt{general\_r3\_source\_bands\_audit.json}.
+\end{proof}
+The first conclusion retains both $\kappa\leq1$ and $r\geq1/5$.
+The table retains its restrictions on $t$ and $\kappa$.
+Their union is a collection of physical-source regions, and does not
+establish complete amplitude coverage or a global operator norm bound.

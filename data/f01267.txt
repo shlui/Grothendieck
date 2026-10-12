@@ -1,0 +1,44 @@
+Completed constructive lower bound for the real Grothendieck constant
+October 2, 2026
+
+The complete independently accepted same-coefficient norm certificate is
+new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json.
+It proves N(P_1-(711/1000)P_3) <= 40/71 and hence G_R >= 71/40 = 1.775.
+The explicit reduced rational matrix family has actual ratio limit
+1/N(P_1-(711/1000)P_3), at least 1.775. Its certified finite lower
+formulas tend to 1.775. Neither that limit nor the certified norm cap
+is identified with the exact unrestricted Grothendieck constant.
+
+The paper includes a self-contained strict universal upper bound
+G_R < 1760/987 < 1.785. Thus G_R rounds to 1.78 to three significant
+digits. The separately cited published upper bound 1.7813 narrows the
+enclosure but is unnecessary for this rounding conclusion.
+
+Paper:
+new_round_2026-10-02/deliverables/Grothendieck_reduced_sequence_2026-10-01.pdf
+Editable TeX source is adjacent. The October 1 filenames preserve the
+existing deliverables; the manuscript's date and result are October 2.
+
+Reproduction guide:
+new_round_2026-10-02/audit/portable_replay/README_GOAL_REPLAY.md
+Frozen 3,300-input manifest:
+new_round_2026-10-02/audit/portable_replay/FINAL_GOAL_INPUT_MANIFEST.json
+The --all-local mode rebuilds the complete protected baseline, all
+60 new literal-budget criteria (180 component jobs), and all 38 default
+numeric, geometry, and upper-bound jobs. A native environment with the
+dependencies in the guide is sufficient. Docker is an optional route;
+no Docker execution claim is made by this package.
+
+Source archive metadata:
+new_round_2026-10-02/deliverables/FINAL_SOURCE_INPUTS.json
+The archive retains all frozen proof inputs, the entire 6,066-member
+historical source inventory, and explicitly selected completed analytic,
+finite arithmetic, compact-entry, and manuscript audit extras. Accepted
+certificate bytes and their original absolute path bindings are unchanged.
+Follow the guide's materialization option when replaying at another root.
+
+The archive is checked against the allowlist before packaging, checked
+for ZIP CRC errors, extracted into a fresh directory, and checked again
+against every member's SHA-256 hash. New replay outputs are kept outside
+the immutable input graph. Independently accepted local/numeric/geometry
+proof reports are included; rerunning the guide produces fresh reports.

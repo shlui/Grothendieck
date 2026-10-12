@@ -1,0 +1,77 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_FULLUPPER_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "713/1000",
+  "norm_upper_bound": "7054083/12500000",
+  "constructive_G_R_lower_bound": "12500000/7054083",
+  "constructive_G_R_lower_bound_display": 1.772023379934713,
+  "envelope": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+    "sha256": "3fef1faa9b148fe29d1a9346cb98bb8f9f3c124324737599ec9659c9fe35680d"
+  },
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_upper_bound": "563295214999/1000000000000",
+  "full_upper_amplitude_upper_bound": "112865327683/200000000000",
+  "source_rho": "847/1000",
+  "cumulant_points": 57,
+  "complete_whole_q_profiles": 19,
+  "full_upper_original_cells": 255360,
+  "full_upper_priced_cells": 253282,
+  "proved_physically_empty_full_upper_cells": 2078,
+  "full_upper_complete_groups": 1400,
+  "baseline_native_endpoint_prices": 11648,
+  "independent_R3_corner_prices": 4256,
+  "independent_plane_corner_prices": 2240,
+  "uniform_physical_source_planes": 560,
+  "forward_verified_inverse_source_caps": 250,
+  "fixed_contact_credit_cells": 139,
+  "bindings": {
+    "native_baseline": {
+      "path": "tonight/audit/global_b7171/final57_kappa_native_endpoint_replay.json",
+      "sha256": "215ec2d8475a7c4f8db8125f138200187146e23c94191f49b32425d896e12421",
+      "status": "PASS_INDEPENDENT_ALL_FINAL57_KAPPA_NATIVE_SELECTED_ENDPOINT_PRICES"
+    },
+    "native": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_native_transport.json",
+      "sha256": "40dbff22ab1261a60e5136c8ea6d42ececec22f144f646b46f7d8cf88e10ee68",
+      "status": "PASS_INDEPENDENT_EXACT_REFINED_NATIVE_SMALLER_B_TRANSPORT"
+    },
+    "cache": {
+      "path": "tonight/audit/global_b7171/full_upper57_nineteenbank_R3_corner_replay.json",
+      "sha256": "2bcc960aa3076f0df28f4e7455ffe2b82b5f3bed755dd71a081b67c0b64035fe",
+      "status": "PASS_INDEPENDENT_GENERIC_COMPLETE_R3_KAPPA_CACHE"
+    },
+    "plane": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_plane_prices_fast.json",
+      "sha256": "7bc7a24b2112e9cdd7d6f2663546d78b58a022042079e2d69bdb9a7560b271c8",
+      "status": "PASS_INDEPENDENT_UNIFORM_POLYGON_PLANES_AND_INVERSE_CAPS"
+    },
+    "contact": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_contact_credits.json",
+      "sha256": "3ada12916bfa580ba7f1eb7d71125898e4b7bb7f7c368e7511fc5b19cae6fd8f",
+      "status": "PASS_INDEPENDENT_SELECTED_CONTACT_CREDIT_NUMERIC_BINDINGS"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+      "sha256": "fafa3892832071e8b5cf48c184b501f843401e1f03166ea38263463d4ebc2c31",
+      "status": "PASS_PRODUCER_FREE_EXACT_POLYGON_GLOBAL_MIDDLE_COVER"
+    },
+    "lower": {
+      "path": "tonight/audit/global_b7171/b713_complete_lower_target_transport.json",
+      "sha256": "db2fa84c782969f27c08c8c3ab8e5c4d68aa1cf3ac86502cda885bdb1687681d",
+      "status": "PASS_INDEPENDENT_COMPLETE_SMALLER_B_LOWER_TARGET_BRANCH"
+    }
+  },
+  "accepted_geometry_proof_chain": [
+    {
+      "path": "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+      "sha256": "fafa3892832071e8b5cf48c184b501f843401e1f03166ea38263463d4ebc2c31"
+    }
+  ],
+  "historical_1773_or_1780498_premises_used": false,
+  "analytic_review": "The low-amplitude proof and exhaustive full-upper proof use the SAME operator coefficient. Their intervals meet at .6905 and jointly contain the entire physical amplitude range [0,sqrt(2/pi)]. Each proof covers all physical source, cumulant and tensor-shape values, including exact positive-head exclusions. Every numeric premise and complete geometric assembly is separately accepted and hash-bound. Absolute norm follows by sign symmetry; odd-sign reduction was proved in the construction theorem.",
+  "matrix_sequence_limit": "Actual limit is 1/N(b), at least the certified reciprocal cap; equality to the cap and convergence to unrestricted G_R are not asserted for this fixed family.",
+  "scope": "Complete fresh all-dimension scalar norm and explicit matrix-sequence lower bound. This is not a three-significant-digit enclosure of G_R."
+}

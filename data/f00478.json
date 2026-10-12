@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q150_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_extra_manifest.json",
+    "sha256": "fbe3dc905a13b36a41ec17ec86a13e7b64607067fb59c9404cd5402e52dd3e8c"
+  },
+  "profiles": [
+    {
+      "name": "new_root_kappa16_lowu_step5_q150_b711",
+      "label": "interval_new_root_kappa16_lowu_step5_q150_b711",
+      "branch": "q150",
+      "reserve0": "3/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa16_lowu_step5.json",
+          "alias": "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input/profile_interval_new_root_kappa16_lowu_step5_q150_b711.json",
+          "sha256": "1135b37117364ad3824d2cd3c3e433405015243255cbb56b7f8677c3c4762187"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input/body_interval_new_root_kappa16_lowu_step5_q150_b711.json.gz",
+          "sha256": "6aa0a84e9bc988a7c8e7aea40a9f3748de343a75850826bbf8274ca87977f801"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input/exterior_interval_new_root_kappa16_lowu_step5_q150_b711.json.gz",
+          "sha256": "2295b56d7e95927a7442db789e77de013175c6c0302913a436ad74fd4af05c38"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/input/tail_interval_new_root_kappa16_lowu_step5_q150_b711.json",
+          "sha256": "f8651e7c3bde133789bfbfa679fbaa102a3da914b99d318c73a9d943b0baae72"
+        }
+      ]
+    }
+  ]
+}

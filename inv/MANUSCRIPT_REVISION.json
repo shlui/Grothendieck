@@ -1,0 +1,168 @@
+{
+  "status": "PASS_MANUSCRIPT_REVISION",
+  "date_utc": "2026-10-03T18:10:12.062014+00:00",
+  "pages_including_references_and_appendices": 19,
+  "page_size": "A4",
+  "font_size_pt": 11,
+  "source_checks": {
+    "numbered_equation_labels": [
+      {
+        "label": "eq:intro-phi-d",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:intro-phi-one",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:seed",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:lipschitz",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:balanced",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:finite-simple-bound",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:classical-limit",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:log-cutoff-error",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:deficit",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:new-strong-cubic-shape",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:wick6",
+        "later_reference": true,
+        "reference_count": 3
+      },
+      {
+        "label": "eq:variance-shape",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:physical-r3-scalar-majorant",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:sourcegate",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:Rrho",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:cubic-source-bound",
+        "later_reference": true,
+        "reference_count": 3
+      },
+      {
+        "label": "eq:physical-r3-identities",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:r3-D-bound",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:unified-PSD",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:physical-r3-criterion",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "prop:smaller-b-transport",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:physical-domain",
+        "later_reference": true,
+        "reference_count": 1
+      },
+      {
+        "label": "eq:633scalar",
+        "later_reference": true,
+        "reference_count": 2
+      },
+      {
+        "label": "eq:compact-cubic-entry",
+        "later_reference": true,
+        "reference_count": 2
+      }
+    ],
+    "all_equation_labels_referenced_later": true,
+    "result_count": 11,
+    "optional_result_titles": false,
+    "appendix_subsection_count": 4,
+    "no_appendix_sections": true,
+    "no_expectation_probability_commands": true,
+    "a4_11pt": true,
+    "invariance_present": true,
+    "proof_steps_review": "Independent editorial review passed; associated matrix and multiplicity-pattern descriptions clarified. All mathematical displays unchanged except equation (1) delimiters.",
+    "equation_1_automatic_absolute_delimiters": true,
+    "bibliography_alphabetical": true,
+    "bibliography_entries_unchanged": true,
+    "all_displayed_mathematics_unchanged_except_equation_1_delimiters": true,
+    "unnecessary_named_method_terms_removed": true
+  },
+  "rendered_pages_reviewed": 19,
+  "latex_compilation": "PASS",
+  "undefined_or_duplicate_references": false,
+  "overfull_boxes": false,
+  "optional_result_titles": false,
+  "unused_numbered_equation_labels": false,
+  "independent_proof_review": "Analytic notation, Hermite/tensor normalization, strong-shape projector proof, residual slice and two-square Gram arguments, exact PAQ invariance and universal balanced-class reduction audited; first-three formulas specialize the unchanged deterministic construction.",
+  "verification_inventory": {
+    "status": "PASS_PACKAGED_VERIFICATION_INVENTORY",
+    "original_archive_files_checked": 7647,
+    "frozen_manifest_entries": 3300,
+    "distinct_frozen_manifest_files": 3292,
+    "packaged_verification_files": 7755,
+    "frozen_manifest_sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a",
+    "package_inventory_sha256": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "mathematical_replay_performed": false
+  },
+  "new_mathematical_replay_performed": false,
+  "numerical_coefficients_and_frozen_inputs_changed": false,
+  "paper_sha256": {
+    "Grothendieck_streamlined.pdf": "c6150d62a6fcba311acee4faf43d450088eb8cd6f04a367afc413f243086d450",
+    "Grothendieck_streamlined.tex": "02a8d2065ad3b4921eadd81e3c8dd55f7356a428a3b5c5d7d3c8f0d2551e885c"
+  }
+}

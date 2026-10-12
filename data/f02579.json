@@ -1,0 +1,460 @@
+{
+  "status": "PASS_INDEPENDENT_TAIL_AND_PRICE_RECONSTRUCTION",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 256,
+    "status": "PASS"
+  },
+  "L1_bound": "849/1000",
+  "rows": [
+    {
+      "row_path": "stein_L1_row_0.json",
+      "row_sha256": "8341f1590b69b79ac135d21d385a30e1a0905c46222d4b1f39bb5bd32d6f9dc5",
+      "kappa_interval": [
+        "0",
+        "39/100"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "26835048594473095919172172371/250000000000000000000000000000000000",
+          "polynomial_sha256": "e67f6c10d47d8839d0e471146111585a60ba19be16a2a6848e9da009a42e529b"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "26835048594473095919172172371/250000000000000000000000000000000000",
+          "polynomial_sha256": "e72c96a9b46d1c12ffdda7ef881f03c8da7e22c8c43422d759407c9d60538eb5"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "0",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.0909478192035017187989211986876373695171726232986931533185165934e-1",
+            "upper": "8.0909478192035017187989211986876373695171726232986931533185165935e-1"
+          }
+        },
+        {
+          "kappa": "0",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.0909478192035017187989211986876373695171726232986931533185165934e-1",
+            "upper": "8.0909478192035017187989211986876373695171726232986931533185165935e-1"
+          }
+        },
+        {
+          "kappa": "39/100",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.2594222410495721874256431739239797878684367328264254202102748484e-1",
+            "upper": "8.2594222410495721874256431739239797878684367328264254202102748485e-1"
+          }
+        },
+        {
+          "kappa": "39/100",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.2317530125660254485965688102269473536995358214324194198804133969e-1",
+            "upper": "8.2317530125660254485965688102269473536995358214324194198804133970e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_2.json",
+      "row_sha256": "61032a318ce70a47140ca732d01302dbdcd3622a0b95c5d798663afd041a0c0c",
+      "kappa_interval": [
+        "39/100",
+        "39/25"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "14024261945661410334485832681/250000000000000000000000000000000000",
+          "polynomial_sha256": "c7d83867924871f3129c1df8295a17bc0c2a9f9200267f09f2463f7d2b18e73b"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "14024261945661410334485832681/250000000000000000000000000000000000",
+          "polynomial_sha256": "46fe52ebd47c6f739279fd485033b70f76a744e7b32cf016e94c743ffc151c06"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "39/100",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.2465184399461080026209294202329626466094282673371064364517904181e-1",
+            "upper": "8.2465184399461080026209294202329626466094282673371064364517904182e-1"
+          }
+        },
+        {
+          "kappa": "39/100",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.2602000564636454028817573448165201583951317052748229524201449981e-1",
+            "upper": "8.2602000564636454028817573448165201583951317052748229524201449982e-1"
+          }
+        },
+        {
+          "kappa": "39/25",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.3959814743838222251083203043835729195885511089393327517180405247e-1",
+            "upper": "8.3959814743838222251083203043835729195885511089393327517180405248e-1"
+          }
+        },
+        {
+          "kappa": "39/25",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.3595820791040234791949437010520330138741786124410648794648771647e-1",
+            "upper": "8.3595820791040234791949437010520330138741786124410648794648771648e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_3.json",
+      "row_sha256": "eb8ddcb6a753f856faaaa52113f2807170358cb83b86df5496ff9bf1d3a70e52",
+      "kappa_interval": [
+        "39/25",
+        "4"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "2324661721504969429160912969/62500000000000000000000000000000000",
+          "polynomial_sha256": "1526cec16adfc5c917a9b464905891204f02def95d81d67a7a91d3d1002d1eb7"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "2324661721504969429160912969/62500000000000000000000000000000000",
+          "polynomial_sha256": "ef4832539694825277ed45a49d5c67be84d2e9ee130b475bd34a32d849c0aad6"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "39/25",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.3690759522719042208218124002058403158506328600844121160154606209e-1",
+            "upper": "8.3690759522719042208218124002058403158506328600844121160154606210e-1"
+          }
+        },
+        {
+          "kappa": "39/25",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.3959640200615178166452331820182042120599265858331885541360206980e-1",
+            "upper": "8.3959640200615178166452331820182042120599265858331885541360206981e-1"
+          }
+        },
+        {
+          "kappa": "4",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4706107142054693010697306238608953649005189831797731041972283019e-1",
+            "upper": "8.4706107142054693010697306238608953649005189831797731041972283020e-1"
+          }
+        },
+        {
+          "kappa": "4",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4319129621236513650697306238608953649005189831797731041972283019e-1",
+            "upper": "8.4319129621236513650697306238608953649005189831797731041972283020e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_4.json",
+      "row_sha256": "7e4728d18cb54322d4451b520a142921f9f2b26cada05775ba1af3f097828498",
+      "kappa_interval": [
+        "4",
+        "34/5"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "28193022588197822211668626359/1000000000000000000000000000000000000",
+          "polynomial_sha256": "76af2dd0543ab62ada2a0d71e02f050e4baa225feb275d5207cfc2cb41d43de8"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "28193022588197822211668626359/1000000000000000000000000000000000000",
+          "polynomial_sha256": "02f86c7182ccacc38a6629c78d2f57e4d9860a26fd3f20a13c7e4cd5196144f2"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "4",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4353484185442307158200581641417477600050807715970731491379877984e-1",
+            "upper": "8.4353484185442307158200581641417477600050807715970731491379877985e-1"
+          }
+        },
+        {
+          "kappa": "4",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4695009254727010304867248308084144266717474382637398158046544650e-1",
+            "upper": "8.4695009254727010304867248308084144266717474382637398158046544651e-1"
+          }
+        },
+        {
+          "kappa": "34/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4735889993371438563792244171832531359648312767867133997480826975e-1",
+            "upper": "8.4735889993371438563792244171832531359648312767867133997480826976e-1"
+          }
+        },
+        {
+          "kappa": "34/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4522056242911495251154948869901530026020710268694233377983339520e-1",
+            "upper": "8.4522056242911495251154948869901530026020710268694233377983339521e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_k8.json",
+      "row_sha256": "9eb370240e68fb8648b1971f5c6cd97ac35ad01a3d04792feb8d102acd2e77be",
+      "kappa_interval": [
+        "34/5",
+        "48/5"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "24956986681088058640663587479/1000000000000000000000000000000000000",
+          "polynomial_sha256": "65830977ed80714003465d6bc9a6ceb8a7acc9d31c2b9b69f6973816d77f7c36"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "24956986681088058640663587479/1000000000000000000000000000000000000",
+          "polynomial_sha256": "43a6af2e81ad813676e17c25cc9e5374f6229b93e72e2e370e32deb7093f3a5c"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "34/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4515893569989456985927646565816655711708725960018755098290058318e-1",
+            "upper": "8.4515893569989456985927646565816655711708725960018755098290058319e-1"
+          }
+        },
+        {
+          "kappa": "34/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4729159179244203542217260165722737296907593041686764218687078224e-1",
+            "upper": "8.4729159179244203542217260165722737296907593041686764218687078225e-1"
+          }
+        },
+        {
+          "kappa": "48/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4852076064195086950259435986809648646239119270943375581888561997e-1",
+            "upper": "8.4852076064195086950259435986809648646239119270943375581888561998e-1"
+          }
+        },
+        {
+          "kappa": "48/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4458400285965952760275420930136477776735929734769116722757710758e-1",
+            "upper": "8.4458400285965952760275420930136477776735929734769116722757710759e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_5.json",
+      "row_sha256": "1a4d5258fa15b58dbe19b6893bb18fb582748f6ea9157cca9c0a65e3e62e579a",
+      "kappa_interval": [
+        "48/5",
+        "76/5"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "21074673727289357144592812159/1000000000000000000000000000000000000",
+          "polynomial_sha256": "ceebd76d8dcaa2b12794fee4b7e737e791b9665424609bcbe861ca30291c3083"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "21074673727289357144592812159/1000000000000000000000000000000000000",
+          "polynomial_sha256": "81791ee174db67fbc24eb49107d2ff9ebd9654edbb7becb33274cdf9068bf14a"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "48/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4507359629656743798161738411917758314404028042014804834512540692e-1",
+            "upper": "8.4507359629656743798161738411917758314404028042014804834512540693e-1"
+          }
+        },
+        {
+          "kappa": "48/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4850793447442841619710759772767657342414502539565404211570708978e-1",
+            "upper": "8.4850793447442841619710759772767657342414502539565404211570708979e-1"
+          }
+        },
+        {
+          "kappa": "76/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4689769308168913211849654690328219952401335676874270673426760987e-1",
+            "upper": "8.4689769308168913211849654690328219952401335676874270673426760988e-1"
+          }
+        },
+        {
+          "kappa": "76/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.3994925490311693932978421513508537998510836939150258480412945747e-1",
+            "upper": "8.3994925490311693932978421513508537998510836939150258480412945748e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_6.json",
+      "row_sha256": "f2b4824c824c1618ed28f261588d701c91e9722fb460c4e54864b213a19801e2",
+      "kappa_interval": [
+        "76/5",
+        "28"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "2147412064884719793863908797/125000000000000000000000000000000000",
+          "polynomial_sha256": "2a59b0e61a73871f081ab457a0b8adf47e7f6688681ea937cda9029145c164c8"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "2147412064884719793863908797/125000000000000000000000000000000000",
+          "polynomial_sha256": "3fb9ad7a38cc30c1abf7a4356f8c9dd32c3461ea061920c19e876e3edfe160b1"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "76/5",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.4166958371764491573173597871980443916878240051797969889519613346e-1",
+            "upper": "8.4166958371764491573173597871980443916878240051797969889519613347e-1"
+          }
+        },
+        {
+          "kappa": "76/5",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.4699976137315494150269601020262095579395852333227158519439676959e-1",
+            "upper": "8.4699976137315494150269601020262095579395852333227158519439676960e-1"
+          }
+        },
+        {
+          "kappa": "28",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.3853918300245010895264320309878657585945895902118959749512725880e-1",
+            "upper": "8.3853918300245010895264320309878657585945895902118959749512725881e-1"
+          }
+        },
+        {
+          "kappa": "28",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.2322550657713062808400652338999182567105534811190499308983264067e-1",
+            "upper": "8.2322550657713062808400652338999182567105534811190499308983264068e-1"
+          }
+        }
+      ]
+    },
+    {
+      "row_path": "stein_L1_row_7.json",
+      "row_sha256": "65404786779495b9b9fa128797dafc8c26303747f6d409f8bf081ad5690e1652",
+      "kappa_interval": [
+        "28",
+        "90"
+      ],
+      "exact_independent_tail": [
+        {
+          "endpoint": 0,
+          "coefficient_count": 39,
+          "minimum_coefficient": "131745323032824036862983159/10000000000000000000000000000000000",
+          "polynomial_sha256": "97b52fcb29f5e80161dd6fd65a066c6bfa0519f872c92d25a352702a66b810e2"
+        },
+        {
+          "endpoint": 1,
+          "coefficient_count": 39,
+          "minimum_coefficient": "131745323032824036862983159/10000000000000000000000000000000000",
+          "polynomial_sha256": "1bdb81cf1155a1e18024c557e6f448d7de43b0768fb2ec8ada423b7ed138d459"
+        }
+      ],
+      "independent_directed_prices": [
+        {
+          "kappa": "28",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.2898750744777521444197524440682018219899361957230165319582349516e-1",
+            "upper": "8.2898750744777521444197524440682018219899361957230165319582349517e-1"
+          }
+        },
+        {
+          "kappa": "28",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "8.3840459301658168020680749838759800859665874901465328436317476814e-1",
+            "upper": "8.3840459301658168020680749838759800859665874901465328436317476815e-1"
+          }
+        },
+        {
+          "kappa": "90",
+          "sixth_coefficient_offset": "0",
+          "price_interval": {
+            "lower": "8.3791704336193636987989211986876373695171726232986931533185165934e-1",
+            "upper": "8.3791704336193636987989211986876373695171726232986931533185165935e-1"
+          }
+        },
+        {
+          "kappa": "90",
+          "sixth_coefficient_offset": "211/5",
+          "price_interval": {
+            "lower": "7.3550495204998191416130132790663411498081993863620900166416392125e-1",
+            "upper": "7.3550495204998191416130132790663411498081993863620900166416392126e-1"
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Exact tail and directed endpoint prices; compact certificate replay and fresh sharp633 theorem proof are separate."
+}

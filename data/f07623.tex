@@ -1,0 +1,44 @@
+% Numerical corollary; uses the notation of r3_physical_dual_criterion.tex.
+\begin{proposition}[A certified cubic-source rectangle]
+\label{prop:r3-certified-rectangle}
+For $b=18/25$, every odd Gaussian sign pair whose physical parameters satisfy
+\[
+ u\in[7549/10000,7551/10000],\qquad
+ r\in[2574/10000,2577/10000],\qquad
+ \kappa\in[51/100,55/100]
+\]
+obeys
+\[
+ \langle(P_1-bP_3)f,g\rangle\leq\frac{28167}{50000}
+ =0.56334<\frac{40}{71}.
+\]
+The bound covers every admissible cubic tensor shape and every Gaussian
+dimension.
+\end{proposition}
+\begin{proof}[Certificate proof]
+The exact rational profile is frozen in
+\texttt{frozen\_R3\_profile\_exact.json}.  The scalar majorant uses reserves
+$2\cdot10^{-5}$ in its constant coefficient and $10^{-6}$ in its
+degree-six coefficient.  Exact rational Bernstein derivative bounds and
+directed $256$-bit MPFR arithmetic certify the whole interval $q\in[0,8]$:
+the completed partition has $6751$ nodes and $3376$ accepted leaves.
+A fresh independent traversal rechecked all accepted leaves and the
+physical-center quadratic radii, with stable source hashes.
+The independently replayed $[8,64]$ cover and exact nonnegative-coefficient
+tail proof for $q\geq64$ remain valid after increasing the constant reserve.
+Evenness covers negative $q$.
+
+Use the fresh sixth-cumulant comparison and the exact cubic projection bound
+\[
+ c_6\leq\left[\frac{194}{\sqrt{10}}
+              -\frac{633}{9}(z-2/5)\right]\kappa^{3/2},\qquad
+ D\leq\kappa^2+\frac94(\kappa z)^{3/2},\quad z\in[2/5,1].
+\]
+In the outer price their respective coefficients are nonnegative.
+After the exact $y(r)$ transport, the price is separately convex in
+$u,r,\kappa,z$; thus its $16$ rectangle vertices suffice.
+Independent directed evaluation gives the upper bound
+$0.563333433603497\ldots<28167/50000$.
+\end{proof}
+This certifies the displayed rectangle of physical parameters.  It is not
+a global bound for $\|P_1-(18/25)P_3\|_{\infty\to1}$.

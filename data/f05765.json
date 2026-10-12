@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_PRIMARY_U7425_K4_10_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_primary_u7425_k4_10.json",
+  "profile_sha256": "dccd514d5fbf7883e1391f42befcfb2995973ff741206530e63d97d387b65a0b",
+  "reserves": [
+    "1/1000",
+    "1/10000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/primary_u7425_R3_recheck/independent_interval_primary_u7425_k4_10_highk_body.json",
+      "sha256": "76995ecbc1e033592517d2e2a77047ba778e16127300f94fde8086e5c65ed3e8",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3371,
+      "excluded": 26
+    },
+    "exterior": {
+      "path": "tonight/audit/primary_u7425_R3_recheck/independent_interval_primary_u7425_k4_10_highk_exterior.json",
+      "sha256": "50009b0331e9e29da151b52573345c80ad31a5301f433b814859a3316a47a8b0",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 92,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/primary_u7425_R3_recheck/independent_interval_primary_u7425_k4_10_highk_tail.json",
+      "sha256": "dd18f999ef129c550c08d01aebfcc3748666182fd9bbc68e85e0a2b26c2c7d4b",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "84a25bbd589a77a71525b9fa1c9e2f450c0e5d5a9a1e3fcf07d2d710fa2931b4",
+  "adapter_path": "tonight/audit/replay_R3_highk_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

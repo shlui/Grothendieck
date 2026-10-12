@@ -1,0 +1,75 @@
+\begin{theorem}[A fresh complete scalar norm certificate]
+\label{thm:global-b7171-norm}
+Let $b_*=7171/10000$ and $B_*=70756627/125000000$.
+The dimension-uniform Gaussian sign norm satisfies
+\[
+ N(b_*)\le B_*=.566053016.
+\]
+For the explicit reduced rational matrix sequence $H_n(b_*)$
+constructed above, with total entry approximation error at most
+$n^{-4}$,
+\[
+ \lim_{n\to\infty}G(H_n(b_*))
+ =\frac1{N(b_*)}
+ \ge\frac{125000000}{70756627}
+ =1.766618976905\ldots .
+\]
+In particular the last rational number is a rigorous lower bound for
+$G_{\mathbb R}$.
+\end{theorem}
+\begin{proof}[Certificate proof]
+Theorem~\ref{thm:same-b7171-regions} bounds every pairing with
+agreement amplitude $u\le1381/2000$ or $u\ge31/40$ by a number below
+$B_*$.  The remaining closed interval $[1381/2000,31/40]$ has an
+explicit partition into $16$ amplitude intervals and $14$ cumulant
+intervals.  In each of the $224$ product groups the source intervals
+are contiguous from zero to the directed outward bound
+$R_{.847}(u_-)$ at its lower amplitude endpoint.  They therefore
+cover every physical source, including all cumulants $[0,90]$ and
+all tensor shapes $z\in[2/5,1]$.
+
+Each of the $39662$ resulting continuous cells uses one complete
+native frame or one of seven independently replayed whole-line
+R3 profiles.  The latter include both rank-one and full-even-block
+profiles.  The exact transport $y(r)=y_0+E_{02}(r-r_0)$ preserves
+the entire local potential.  Its outer price is a fixed rational
+quadratic in $r$, plus $u^2-2\ell u$ and a separately convex
+cumulant--shape price.  The six matrix gates hold at the original
+coefficient and at $b_*$; the constant translation is exactly
+$6\beta_{\rm raw}^2(1/b_*-1/b_0)$.
+The centering parameter is frozen at the fitting cumulant, and its
+variance and covariance corrections are retained at every actual
+cumulant.  Thus the original fitting interval imposes no restriction
+on these whole-line comparisons.
+
+An independent directed replay reconstructs all $392$ R3 corner
+prices forming the $98$ cumulant-band constants, binds all seven
+profiles to their complete compact covers and exact tails, and
+checks the original and transported matrix gates.  Separate
+independent replays check every selected native endpoint price.
+An exact verifier reconstructs the transported quadratic
+coefficients from the rational profiles, maximizes each source
+quadratic including its interior vertex, and verifies the minimum
+of the complete native and R3 bounds on every cell.  The maximum is
+\[
+ \frac{566053014383}{10^{12}}<B_*.
+\]
+It also checks every partition group, source endpoint and frozen
+input hash.  These records are
+\texttt{global\_middle\_b7171\_native\_R3\_envelope.json},
+\texttt{R3\_corner\_replay.json}, and
+\texttt{global\_native\_R3\_envelope\_algebra\_audit.json}.
+The middle and two outer amplitude branches cover all feasible
+$0\le u\le\sqrt{2/\pi}$.  Replacing $g$ by $-g$ gives the same bound
+for the absolute pairing, proving the norm cap.
+
+The Gaussian-to-matrix convergence proved above gives
+$C(A_n(b_*))\to N(b_*)$ and $V(A_n(b_*))\to1$.
+The total entry error $n^{-4}$ tends to zero, and the exact cloning,
+dilation and balancing transformations preserve the ratio.
+Hence the reduced rational sequence has actual limiting ratio
+$1/N(b_*)$, with the displayed certified lower bound.
+\end{proof}
+The certified cap $B_*$ is an upper bound for the denominator.
+The theorem does not identify that denominator with $B_*$ or the
+matrix limit with its reciprocal.

@@ -1,0 +1,296 @@
+% New-round theorem fragment. No numerical all-sign norm bound is asserted.
+% Requires amsmath, amssymb, amsthm and proposition/proof environments.
+\section{Finite odd multipliers with an identity tail}
+Let $P_j^{(d)}$ be the orthogonal projection onto total Gaussian Hermite
+degree $j$, and let $P_{\rm odd}^{(d)}$ be antipodal odd projection.
+Fix computable real coefficients $\tau,c_0,\ldots,c_K$ and put
+\[
+ T^{(d)}=\tau P_{\rm odd}^{(d)}+
+                 \sum_{k=0}^Kc_kP_{2k+1}^{(d)},\qquad
+ \lambda_{2k+1}=\tau+c_k\ (k\leq K).
+\]
+Its remaining odd eigenvalues are $\tau$.  Suppose
+\begin{equation}\label{eq:new-odd-spectral-cube}
+ \tau+c_0=1,\qquad |\tau|\leq1,\qquad
+                    |\tau+c_k|\leq1\quad(1\leq k\leq K).
+\end{equation}
+Define
+\[
+ N(T)=\sup_{d\geq1}\sup_{|f|,|g|\leq1}
+             \langle f,T^{(d)}g\rangle.
+\]
+The absolute value may equivalently be inserted in this definition.
+Odd signs suffice: odd projection preserves the unit ball of $L_\infty$,
+and a bilinear functional over bounded odd functions has the same
+supremum as over odd signs.
+
+\begin{proposition}[Exact radial Hermite energies]
+\label{prop:new-all-radial-energies}
+For $X\sim\gamma_d$, write $R=\|X\|$, $V=X/R$, and
+\[
+ a_d=\frac{(\mathbb ER)^2}{d}
+ =\frac{2\Gamma((d+1)/2)^2}{d\Gamma(d/2)^2},\qquad \alpha=d/2.
+\]
+With the generalized Laguerre polynomial $L_k^\alpha$, one has
+\begin{align}
+ P_{2k+1}^{(d)}V_i
+  &=\frac{\mathbb ER}{d}\frac{(1/2)_k}{(\alpha+1)_k}
+             X_iL_k^\alpha(R^2/2),\label{eq:new-vector-projection}\\
+ e_{2k+1}(d):=\sum_i\|P_{2k+1}^{(d)}V_i\|_2^2
+  &=a_d\frac{(1/2)_k^2}{k!(\alpha+1)_k}.
+             \label{eq:new-radial-energy}
+\end{align}
+In particular
+\[
+ e_1=a_d,\quad e_3=\frac{a_d}{2(d+2)},\quad
+ e_5=\frac{9a_d}{8(d+2)(d+4)},\quad
+ e_7=\frac{75a_d}{16(d+2)(d+4)(d+6)}.
+\]
+The exact natural-vector objective is
+\begin{equation}\label{eq:new-exact-natural-value}
+ q_d(T)=\tau+\sum_{k=0}^Kc_ke_{2k+1}(d)\longrightarrow1.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Gaussian projection commutes with orthogonal rotations.  Thus the
+projection of the equivariant vector field $V$ onto degree $2k+1$ is
+a constant times $X_iL_k^\alpha(R^2/2)$.  Indeed an equivariant vector
+polynomial is $X_i$ times a radial polynomial, and orthogonality to
+the lower odd degrees is precisely Laguerre orthogonality with
+weight $t^\alpha e^{-t}$.
+Put $t=R^2/2$.  Radial integration and Laguerre orthogonality give
+\[
+ \mathbb E[X_i^2L_k^\alpha(t)^2]=\frac{(\alpha+1)_k}{k!},\qquad
+ \mathbb E[V_iX_iL_k^\alpha(t)]
+       =\frac{\mathbb ER}{d}\frac{(1/2)_k}{k!}.
+\]
+For the second identity, use
+\[
+ \int_0^\infty t^{\alpha-1/2}e^{-t}L_k^\alpha(t)\,dt
+       =\Gamma(\alpha+1/2)\frac{(1/2)_k}{k!},
+\]
+which follows by integrating the generating function
+$(1-z)^{-\alpha-1}\exp[-tz/(1-z)]$ and comparing coefficients.
+Taking the ratio proves \eqref{eq:new-vector-projection}; its squared
+norm proves \eqref{eq:new-radial-energy}.  Parseval gives
+$\sum_{k\geq0}e_{2k+1}(d)=1$.  Finally $a_d\to1$ and every fixed
+$e_{2k+1}(d)$ with $k\geq1$ tends to zero.  Since $\tau+c_0=1$,
+\eqref{eq:new-exact-natural-value} follows.
+\end{proof}
+
+\begin{proposition}[An explicit reduced matrix sequence]
+\label{prop:new-odd-tail-matrix-sequence}
+For $n\geq2$, set $d=n^2$.  Partition each Gaussian coordinate into
+intervals of mesh $n^{-2}$ from $-n$ to $n$, together with the two
+exterior intervals.  Retain one cell $C$ from each antipodal pair,
+using the cells with first coordinate negative.  Set
+\[
+ w_C=2\gamma_d(C),\qquad D_w=\operatorname{diag}(w_C),\qquad
+ F_j[C,\xi]=2\int_C H_\xi\,d\gamma_d\quad(|\xi|=j),
+\]
+where $H_\xi$ is the normalized product Hermite polynomial.  Define
+\begin{equation}\label{eq:new-odd-tail-seed}
+ A_n(T)=\tau D_w+\sum_{k=0}^Kc_kF_{2k+1}F_{2k+1}^T.
+\end{equation}
+Then
+\begin{equation}\label{eq:new-tail-matrix-limits}
+ C(A_n(T))\to N(T),\qquad V(A_n(T))\to1,
+ \qquad G(A_n(T))\to\frac1{N(T)}.
+\end{equation}
+Choose dyadic rational approximants with total entrywise error at most
+$\eta_n=n^{-4}$.  Clear their denominators, delete zero rows and
+columns, and apply the exact absolute row/column cloning reduction,
+the symmetric off-diagonal dilation, and the signed balanced copy.
+The resulting rational matrices $H_n(T)$ are symmetric, zero-diagonal,
+have zero row and column sums, and have $|H_n(T)|$ doubly stochastic.
+Their ratios have the same limit $1/N(T)$.
+\end{proposition}
+\begin{proof}
+Odd extension of the cell values turns the finite bilinear form
+\eqref{eq:new-odd-tail-seed} into $\langle f,T^{(d)}g\rangle$.
+The diagonal term is exact because for odd cell functions
+\[
+ \langle f,P_{\rm odd}^{(d)}g\rangle
+           =\sum_Cw_Cf_Cg_C.
+\]
+The remaining terms are the exact Hermite projection pairings.
+Thus $C(A_n(T))\leq N(T)$.  Every pair of bounded odd functions in a
+fixed dimension can be approximated in $L_2$ by conditional averages
+on the first coordinates of these grids as $n\to\infty$.
+Continuous compactly supported approximation proves this even though
+the grids are not nested.  The other coordinates integrate out, and
+$T^{(d)}$ is consistent under such cylindrical embeddings.  Since
+its $L_2$ norm is one, the pairings converge.  Finite cube maxima
+occur at sign vertices, proving $\liminf C(A_n(T))\geq N(T)$.
+
+For vector-valued odd cell functions of pointwise norm one, the same
+$L_2$ operator bound and Cauchy--Schwarz give $V(A_n(T))\leq1$.
+Use the unit vector at the clipped cell midpoint as the trial field.
+The quantitative estimate below proves that its objective tends to
+$q_d(T)$ and hence to one.  This proves the vector limit.  Positivity
+is explicit: for $s=\operatorname{sgn}X_1$, first-chaos energy is
+$2/\pi$ and all remaining odd eigenvalues are at least $-1$, whence
+$N(T)\geq\langle s,Ts\rangle\geq4/\pi-1>0$.
+
+Both finite norms change by at most total entrywise approximation
+error.  Consequently rational approximation preserves both limits.
+For completeness, if $Z$ is the cleared integer seed, put
+$r_i=\sum_j|Z_{ij}|$, $s_j=\sum_i|Z_{ij}|$, and replace its entry by
+$Z_{ij}/(r_is_j)$ on each of the $r_i$ row and $s_j$ column copies.
+Both norms are unchanged, because every original row and column has
+total absolute copying weight one; the absolute matrix is doubly
+stochastic.  Off-diagonal symmetric dilation multiplies both norms
+by two.  Tensoring with
+$\tfrac12\left(\begin{smallmatrix}1&-1\\-1&1\end{smallmatrix}\right)$
+multiplies both by two again and imposes zero sums.  All ratios are
+therefore preserved exactly.
+\end{proof}
+
+\begin{proposition}[The general asymptotic vector value]
+\label{prop:new-general-vector-value}
+Drop \eqref{eq:new-odd-spectral-cube} and assume only that $T$ is
+nonzero.  Write
+\[
+ M=\max\bigl(|\tau|,|\tau+c_0|,\ldots,|\tau+c_K|\bigr).
+\]
+The seed \eqref{eq:new-odd-tail-seed} and its rational reductions satisfy
+\[
+ C(A_n(T))\to N(T),\qquad V(A_n(T))\to M,
+                    \qquad G(H_n(T))\to M/N(T).
+\]
+For every fixed odd Hermite degree $j$ and $d\geq j$, the square-free
+tensor trial field used in the proof has norm-square variance
+\[
+ \epsilon_{d,j}^2=
+ \sum_{r=1}^j
+ \frac{\binom jr\binom{d-j}{j-r}}{\binom dj}(3^r-1)
+                  \leq\frac{j(3^j-1)}d.
+\]
+Terms with an impossible intersection size have binomial coefficient
+zero.  Its unit normalization attains $|\lambda_j|$
+within $2M\epsilon_{d,j}$ in continuum vector objective.
+\end{proposition}
+\begin{proof}
+Let $m=\binom dj$ and define the vector with components indexed by
+$j$-subsets $S$ of $\{1,\ldots,d\}$,
+\[
+ Y_S(X)=m^{-1/2}\prod_{i\in S}X_i,\qquad U=Y/\|Y\|.
+\]
+The exceptional zero set has Gaussian measure zero.  Every component
+has pure degree $j$, and $\mathbb E\|Y\|^2=1$.  For two subsets
+$S,S'$, their norm-square moment is $3^{|S\cap S'|}$.
+Counting intersections proves the variance formula.  If $R$ is their
+intersection size, $\mathbb ER=j^2/d$ and
+$3^r-1\leq r(3^j-1)/j$ for $0\leq r\leq j$, giving its upper bound.
+The elementary inequality $(\sqrt{x}-1)^2\leq(x-1)^2$ yields
+\[
+ \|U-Y\|_{L_2}^2=\mathbb E(\|Y\|-1)^2
+                   \leq\epsilon_{d,j}^2.
+\]
+Thus
+$|\langle U,TU\rangle-\lambda_j|\leq2M\epsilon_{d,j}$.
+If $\lambda_j<0$, use $-U$ on the right.  Any selected nonzero odd
+eigenvalue is covered; for the tail eigenvalue choose an odd
+$j>2K+1$.  This proves that the continuum supremum of the vector
+objective over all dimensions is $M$.
+
+For each fixed trial dimension, conditional cell averages of $U$
+on the first coordinates converge in $L_2$ as $n\to\infty$.
+They have pointwise norm at most one; completing left and right
+ball vectors in separate orthogonal coordinates gives admissible
+finite unit vectors with the same cross pairings.  Therefore the
+seed vector norms have $\liminf\geq M$.  The $L_2$ norm of $T$ gives
+the reverse bound.  The scalar convergence and rational reductions
+are the same as in the preceding proof, with operator norm $M$
+replacing one.  A nonzero multiplier has $N(T)>0$, since otherwise
+all its pairings against bounded functions vanish, contradicting its
+nonzero Hermite action.
+\end{proof}
+
+\paragraph{An explicit finite error through degree seven.}
+Here $K\leq3$.  Set missing $c_k$ equal to zero and put
+\[
+ \lambda_*=\min(\tau,\tau+c_0,\tau+c_1,\tau+c_2,\tau+c_3),
+ \qquad C_* = |\tau-\lambda_*|.
+\]
+Define the following nonnegative rational expressions in $d$ and
+the absolute coefficient values:
+\begin{align*}
+ B_0&=|c_0|+|c_1|/2+3|c_2|/8+5|c_3|/16,\\
+ B_1&=\frac{|c_1|/2+3|c_2|/4+15|c_3|/16}{d+2},\\
+ B_2&=\frac{3|c_2|/8+15|c_3|/16}{(d+2)(d+4)},\\
+ B_3&=\frac{5|c_3|/16}{(d+2)(d+4)(d+6)}.
+\end{align*}
+Let $J_0=1$, $J_j=\prod_{a=1}^j(d+2a-1)$ and
+$M_j=\prod_{a=0}^{j-1}(d+2a)$, with $M_0=1$.  Put
+\begin{align*}
+ Q_d^*&=C_*^2+2C_*\sum_{j=0}^3B_jJ_j
+          +\frac1d\sum_{i,j=0}^3B_iB_jM_{i+j+1},\\
+ \mathcal L_n(T)&=
+ \frac{d}{n^4}\left[
+ \frac{C_*}{d-2}+\frac{B_0}{d-1}+B_1
+ +(d+1)B_2+(d+1)(d+3)B_3\right]
+       +4\sqrt{Q_d^*}\sqrt{2n\varphi(n)},\quad d=n^2.
+\end{align*}
+Then $\mathcal L_n(T)=O(n^{-4})$ and
+\begin{equation}\label{eq:new-tail-finite-lower}
+ V(A_n(T))\geq q_{n^2}(T)-\mathcal L_n(T).
+\end{equation}
+In particular, if a separately proved all-sign bound is $N(T)\leq B$,
+the rational reduced sequence satisfies the completely explicit bound
+\[
+ G(H_n(T))\geq
+ \frac{\max(0,q_{n^2}(T)-\mathcal L_n(T)-n^{-4})}{B+n^{-4}}.
+\]
+This is a lower bound; it does not identify $N(T)$ with $B$.
+
+\begin{proof}[Proof of the error estimate]
+The radial projection formula gives $TV=t_d(R)V$, where
+\[
+ t_d(R)=\tau+\frac{\mathbb ER}{d}R\sum_{k=0}^3
+ c_k\frac{(1/2)_k}{(d/2+1)_k}L_k^{d/2}(R^2/2).
+\]
+Let $v$ be the clipped-midpoint unit field and $\delta=v-V$.
+Both fields are odd and unit length, so
+$2\delta\cdot V=-\|\delta\|^2$.  Since the minimum odd eigenvalue
+is $\lambda_*$,
+\[
+ \langle v,Tv\rangle\geq q_d(T)
+             -\mathbb E[(t_d(R)-\lambda_*)\|\delta\|^2].
+\]
+The coefficientwise absolute Laguerre expansion shows
+\[
+ (t_d(R)-\lambda_*)_+\leq
+ B_d(R):=C_*+\frac{\mathbb ER}{d}
+                         \sum_{j=0}^3 B_jR^{2j+1}.
+\]
+On the no-clipping event normalization gives
+$\|\delta\|^2\leq dn^{-4}/R^2$; on its complement it is at most
+four.  The latter event has probability at most $2n\varphi(n)$.
+Gaussian radial moments give
+\[
+ \mathbb ER^{2j}=M_j,\qquad
+ \mathbb ER^{2j+1}=(\mathbb ER)J_j,\qquad
+ \mathbb ER^{-1}=\frac{\mathbb ER}{d-1},\quad
+ \mathbb ER^{-2}=\frac1{d-2}.
+\]
+Use $(\mathbb ER)^2/d=a_d\leq1$ in
+$\mathbb E[B_d(R)/R^2]$ and $\mathbb EB_d(R)^2$, followed by
+Cauchy--Schwarz on the clipping event.  These are exactly the two
+terms of $\mathcal L_n(T)$.  Finally $B_j=O(d^{-j})$, $J_j=O(d^j)$,
+$M_j=O(d^j)$, which proves the asserted rate.
+\end{proof}
+
+\paragraph{Two useful subfamilies.}
+For $T=P_1-b_3P_3-b_5P_5-b_7P_7$ the exact numerator is
+$a_d-b_3e_3-b_5e_5-b_7e_7$.  For the normalized identity-tail family
+\[
+ T_{\tau,b}=(1-\tau)P_1-bP_3+\tau P_{\rm odd},
+ \qquad q_d(T_{\tau,b})=\tau+(1-\tau)a_d-be_3.
+\]
+In the latter family the spectral-cube conditions are
+$|\tau|\leq1$ and $|\tau-b|\leq1$.  The identity tail is represented
+by the diagonal in \eqref{eq:new-odd-tail-seed}, and is not discarded
+at finite $n$.  Its numerator has leading loss
+$(1-\tau+b)/(2d)$.  For every such family, a useful numerical endpoint
+still requires a proved bound for the complete scalar norm $N(T)$.

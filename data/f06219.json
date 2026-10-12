@@ -1,0 +1,357 @@
+{
+  "status": "PASS_DIRECTED_ROBUST_RESTRICTED_R3_SOURCE_BOXES",
+  "scope": "Only these continuous source boxes. Complete amplitude/source union is separate.",
+  "convexity": "Positive rank-one r curvature; u quadratic positive. Cumulant price separately convex in kappa and shared shape, including positive covariance term.",
+  "boxes": [
+    {
+      "name": "interval_robust_middlehigh_box",
+      "u": [
+        "149/200",
+        "3/4"
+      ],
+      "r": [
+        "137/500",
+        "69/250"
+      ],
+      "kappa": [
+        "11/10",
+        "2"
+      ],
+      "reserve0": "1/200000",
+      "reserve6": "1/100000000",
+      "cap": "563379/1000000",
+      "branch": "robust",
+      "audit": "robust_middlehigh_R3_recheck",
+      "profile": "profile_interval_robust_middlehigh_box.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "20",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 6789
+        },
+        {
+          "q": [
+            "8",
+            "20"
+          ],
+          "accepted": 248
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_body.json",
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_exterior.json",
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_tail.json"
+      ],
+      "maximum_directed_upper": "5633779009525879779634622601706894330338116761094889932015546773371091/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "149/200",
+          "r": "137/500",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.633687703611176581887432187626308224801587978095848976392747370179471e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "137/500",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.633322615962685198464095643193801577050880605156392261497811565529781e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "137/500",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.633699326990327514583383364428499998983325693365276710144283829946364e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "137/500",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.632364672970375816777897797247099831663767023573178698013729361384065e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "69/250",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.633767386146728846938671424904702556156379045825462198264010313604198e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "69/250",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.633402298498237463515334880472195908405671672886005483369074508954508e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "69/250",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.633779009525879779634622601706894330338116761094889932015546773371091e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "69/250",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.632444355505928081829137034525494163018558091302791919884992304808792e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "137/500",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.633687703611176581887432187626308224801587978095848976392747370179471e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "137/500",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.633322615962685198464095643193801577050880605156392261497811565529781e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "137/500",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.633699326990327514583383364428499998983325693365276710144283829946364e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "137/500",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.632364672970375816777897797247099831663767023573178698013729361384065e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "69/250",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.633767386146728846938671424904702556156379045825462198264010313604198e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "69/250",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.633402298498237463515334880472195908405671672886005483369074508954508e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "69/250",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.633779009525879779634622601706894330338116761094889932015546773371091e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "69/250",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.632444355505928081829137034525494163018558091302791919884992304808792e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_robust_middlehigh_box.json": "52d9794838af734385b3af1670f01fcc8dd7fb4f8fc93f94b0010ee6b796aeb3",
+        "tonight/operator/projection/targeted_certificate/price_robust_source_boxes.py": "75c19e249cbf16a2a2f10a2911703122e87122fc8a14d0361191c880cb83b852",
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_body.json": "f1c487bf3f482641b04cdc3d83c5b84040b38faee3405fb7a5992bafbc8e3805",
+        "tonight/operator/projection/targeted_certificate/body_interval_robust_middlehigh_box.json.gz": "900b156edfecf8dcc95e2db9b655cd1b00a08430ecc99113194742081e5522a5",
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_exterior.json": "75336ac64ce80caf3d89822930b7a3a55980707d6f32f0799403af27517eb9dc",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_robust_middlehigh_box.json.gz": "3fcf740a9502059139bdd4db7308339f289906c35c0ab3450923f354257c43ed",
+        "tonight/audit/robust_middlehigh_R3_recheck/independent_interval_robust_middlehigh_box_robust_tail.json": "a34fa96a92a245451fe8c5c18838d03e0b90afbff763c7dd283495309ac614ef",
+        "tonight/operator/projection/targeted_certificate/tail_interval_robust_middlehigh_box.json": "e5aa783dd6ef990bd3caf7662543fdc4de01b02bf5af1f1af83617e219ade07f"
+      }
+    },
+    {
+      "name": "interval_robust_currentworst_box",
+      "u": [
+        "293/400",
+        "147/200"
+      ],
+      "r": [
+        "77/250",
+        "31/100"
+      ],
+      "kappa": [
+        "4/5",
+        "1"
+      ],
+      "reserve0": "1/50000",
+      "reserve6": "1/10000000",
+      "cap": "70421/125000",
+      "branch": "robustcurrent",
+      "audit": "robust_currentworst_R3_recheck",
+      "profile": "profile_interval_robust_currentworst_box.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "20",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 4086
+        },
+        {
+          "q": [
+            "8",
+            "20"
+          ],
+          "accepted": 114
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_body.json",
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_exterior.json",
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_tail.json"
+      ],
+      "maximum_directed_upper": "5633669266573543215512937408045635248250607166992887160989583451482061/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "293/400",
+          "r": "77/250",
+          "kappa": "4/5",
+          "shape": "2/5",
+          "upper": "5.633329833590047910285980835469403550015647968725651195938255853753552e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "77/250",
+          "kappa": "4/5",
+          "shape": "1",
+          "upper": "5.632528234273554052717010154164339822193908691177670905134298297429974e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "77/250",
+          "kappa": "1",
+          "shape": "2/5",
+          "upper": "5.633557770140993075200725355225012313328782685257406274038413462076699e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "77/250",
+          "kappa": "1",
+          "shape": "1",
+          "upper": "5.632325860224038977007383941403113574468796385731616926023868538044569e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "31/100",
+          "kappa": "4/5",
+          "shape": "2/5",
+          "upper": "5.633329833645098050598192888290026484937472450461132082889425843158915e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "31/100",
+          "kappa": "4/5",
+          "shape": "1",
+          "upper": "5.632528234328604193029222206984962757115733172913151792085468286835336e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "31/100",
+          "kappa": "1",
+          "shape": "2/5",
+          "upper": "5.633557770196043215512937408045635248250607166992887160989583451482061e-1"
+        },
+        {
+          "u": "293/400",
+          "r": "31/100",
+          "kappa": "1",
+          "shape": "1",
+          "upper": "5.632325860279089117319595994223736509390620867467097812975038527449931e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "4/5",
+          "shape": "2/5",
+          "upper": "5.633441329967547910285980835469403550015647968725651195938255853753552e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "4/5",
+          "shape": "1",
+          "upper": "5.632639730651054052717010154164339822193908691177670905134298297429974e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "1",
+          "shape": "2/5",
+          "upper": "5.633669266518493075200725355225012313328782685257406274038413462076699e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "1",
+          "shape": "1",
+          "upper": "5.632437356601538977007383941403113574468796385731616926023868538044569e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "31/100",
+          "kappa": "4/5",
+          "shape": "2/5",
+          "upper": "5.633441330022598050598192888290026484937472450461132082889425843158915e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "31/100",
+          "kappa": "4/5",
+          "shape": "1",
+          "upper": "5.632639730706104193029222206984962757115733172913151792085468286835336e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "31/100",
+          "kappa": "1",
+          "shape": "2/5",
+          "upper": "5.633669266573543215512937408045635248250607166992887160989583451482061e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "31/100",
+          "kappa": "1",
+          "shape": "1",
+          "upper": "5.632437356656589117319595994223736509390620867467097812975038527449931e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_robust_currentworst_box.json": "58c80822ad3e99453521dfdd8032a7b5c8e78873e446a7c9cc2926002ef9a530",
+        "tonight/operator/projection/targeted_certificate/price_robust_source_boxes.py": "75c19e249cbf16a2a2f10a2911703122e87122fc8a14d0361191c880cb83b852",
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_body.json": "fa03bc83e81a1429b8676051e2b7fdba0194754b74d75e3a9834d0f65b978131",
+        "tonight/operator/projection/targeted_certificate/body_interval_robust_currentworst_box.json.gz": "8ed87e96fdb378197a889039e5f06ec600bdccd8611a79472892a63218d0cc73",
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_exterior.json": "bae7ea749d4b617d8911991b3d1a74d4fb13a006438f0d568d5593fa3c654d90",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_robust_currentworst_box.json.gz": "61ca1fa67458b37912f5f0df80b0d6931ccfe7c6c4b999d547575d9d4ac9ee39",
+        "tonight/audit/robust_currentworst_R3_recheck/independent_interval_robust_currentworst_box_robustcurrent_tail.json": "6fce6ca28b5a34c2f48c354e51866883e1050504ab29bc00f10f5b26215800e9",
+        "tonight/operator/projection/targeted_certificate/tail_interval_robust_currentworst_box.json": "ebbd0884832b75c88f33b96d1c99f2fe85d6377573ddf833aee482e60f6ffd3a"
+      }
+    }
+  ]
+}

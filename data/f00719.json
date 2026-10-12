@@ -1,0 +1,81 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/moderate_source_boxes/REPLAY_MANIFEST.json",
+    "sha256": "b5c74f17098c9b32d7cab9f4df5cb5c9bdf1ff4a92ad3f34516f8b48e7ae2ff8"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate1_b711_lowerface_body.json",
+      "sha256": "da409e07727ce24aaf4095d2c612202206e427452a2bce865d012666d21fa571",
+      "profile": "interval_new_moderate1_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3052
+    },
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate1_b711_lowerface_exterior.json",
+      "sha256": "068224c875e8d4f63bf4f09b34fde02a25bfc8f33702d3a87783e3d2e2cbf222",
+      "profile": "interval_new_moderate1_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 136
+    },
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate1_b711_lowerface_tail.json",
+      "sha256": "89ba1b1cb3e9b6695680f103f19f52f7ebfe67c57acf4ebc4467f69d2cebd721",
+      "profile": "interval_new_moderate1_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate2_b711_q50_body.json",
+      "sha256": "906b00c808234a0f9984a3d21bceec70919807ca3a75dee4ea7eb21c4eb3844f",
+      "profile": "interval_new_moderate2_b711",
+      "part": "body",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4038
+    },
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate2_b711_q50_exterior.json",
+      "sha256": "255b995c3fdf4051b812dfb28b3cd6a9de8be57931c0a91e90b9408b3385fd11",
+      "profile": "interval_new_moderate2_b711",
+      "part": "exterior",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 233
+    },
+    {
+      "path": "new_round_2026-10-02/audit/moderate_source_boxes/reports/independent_interval_new_moderate2_b711_q50_tail.json",
+      "sha256": "471bd56a52403d9c8b7ad273cdf08e8ac94ee9b6d808226faf94d14c7b739709",
+      "profile": "interval_new_moderate2_b711",
+      "part": "tail",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 6.266869306564331,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

@@ -1,0 +1,9 @@
+{
+  "regional_cap": "108221/200000",
+  "operator": "P1-(18/25)P3",
+  "amplitude_interval": [
+    "3/10",
+    "31/100"
+  ],
+  "scope": "Regional theorem, not an unrestricted operator cap."
+}

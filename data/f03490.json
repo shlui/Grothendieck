@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+    "sha256": "c2374d14257d5e3e3014c7939c32f0edf61af7f07a31a94c0ddcb97e18665188"
+  },
+  "source_sha256": "c2374d14257d5e3e3014c7939c32f0edf61af7f07a31a94c0ddcb97e18665188",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+    "sha256": "19bdfc35acc6aa85023cb11f9be068a9adbe9d93906c264338a497da22b009ef",
+    "accepted_geometry_audit": "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+    "audit_sha256": "6d0247d96b1efdab43120b827ed243685c5d75cff633843d0b9f62e3b5cc359e"
+  },
+  "numeric_cache_audit": {
+    "status": "PASS_FRESH_PRODUCER_FREE_NEW_MPFR768_CORNERS",
+    "fresh_corners": 280,
+    "unchanged_parent_cache_entries": 1582
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "identical_priced_cells": 272579,
+  "identical_empty_cells": 8737,
+  "improved_cells": 343,
+  "new_winner_counts": {
+    "finaldiffuse75875": 343
+  },
+  "improved_polygon_prices": 343,
+  "new_profiles": {
+    "finaldiffuse75875": {
+      "path": "tonight/operator/projection/targeted_certificate/profile_interval_finaldiffuse_u75875_r245_k0_01.json",
+      "sha256": "ee8b662afe6e89a11105b384bbb308c6ebaca0ebd8b3978ac931dac22fa85ce3",
+      "reserves": [
+        "1/10000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/finaldiffuse_u75875_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "be8a7b8440aae78b71134c81caa369264355373a3365f72a9109864d9ab96fea"
+    }
+  },
+  "maximum_cell_cap": "4511417459/8000000000",
+  "strict_rational_cap": "35245449/62500000",
+  "proof": "The accepted parent provides the identical physical partition. Every changed price is an independently accepted rank-profile polynomial maximum on that same polygon or containing rectangle. All unchanged old prices remain valid."
+}

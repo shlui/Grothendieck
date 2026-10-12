@@ -1,0 +1,30 @@
+{
+  "status": "PENDING_INDEPENDENT",
+  "profiles": [
+    {
+      "name": "new_diffuse751_q50_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/new_diffuse_fit/certificate/profile_new_diffuse751_b711.json",
+      "profile_sha256": "40cc5b535dd015ff1e8cb5ec158a6969b385c6026cacbd33e6efa5da411003a2",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "proof_status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/new_diffuse_fit/certificate/body_new_diffuse751_q50_b711.json.gz",
+          "sha256": "e7596ce57ffd10778a366913c1c7caaf87c2ef6d7203cb88a20ac0e70a409d05"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/new_diffuse_fit/certificate/exterior_new_diffuse751_q50_b711.json.gz",
+          "sha256": "4558269bf70ffdb47440f2eb2d1b347ee0402debb108b8cfaa1f8b768051c500"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/new_diffuse_fit/certificate/tail_new_diffuse751_q50_b711.json",
+          "sha256": "f0b85264b021bc1cd364a0d34747dcb0af339f12bd2c0e7cdbe5e22ec1a6bb86"
+        }
+      ],
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/new_diffuse_fit/certificate/new_diffuse751_q50_source_box.json",
+      "acceptance_sha256": "54f8cfd5571383dec987dfbe2f5bd4c84d7347b3a8a997efd622701dfa1efd79"
+    }
+  ]
+}

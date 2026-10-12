@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_extra_manifest.json",
+    "sha256": "a557a0b0bb4c4ad3475cb03ddd5728425bf9e305ab76a79cb81a2ff113407908"
+  },
+  "profiles": [
+    {
+      "name": "new_root_kappa175_early_step1_b711",
+      "label": "interval_new_root_kappa175_early_step1_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa175_early_step1.json",
+          "alias": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input/profile_interval_new_root_kappa175_early_step1_b711.json",
+          "sha256": "2d794bb8b8770cc4f6cd5567e7f0c6f115943fde265781ca3d28214c67366658"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input/body_interval_new_root_kappa175_early_step1_b711.json.gz",
+          "sha256": "a00c92fd649d24f270e06985efbe1c5d10ac8bea5e78a0460c1699da6dfcb36a"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input/exterior_interval_new_root_kappa175_early_step1_b711.json.gz",
+          "sha256": "482e93481ebc50aa4657c40592589edb6cd7f219edd2f74651512f6c0f4b56be"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa175_early_step1_q20_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa175_early_step1_source_box/input/tail_interval_new_root_kappa175_early_step1_b711.json",
+          "sha256": "64e33eb1142d5639b0502285eb69b05d74eb62fc2752978cf7cb8e1329364b32"
+        }
+      ]
+    }
+  ]
+}

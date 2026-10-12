@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+    "sha256": "5fc97f4ea2f62152a4bbe06b61ceaf18cde3f0284d54a889761ef9da95f588da"
+  },
+  "source_sha256": "5fc97f4ea2f62152a4bbe06b61ceaf18cde3f0284d54a889761ef9da95f588da",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+    "sha256": "41874864eddaf9beadf67cda0b78f9219d99b06fc0f2ff07209efd19403df5c7",
+    "accepted_geometry_audit": "tonight/theory/fullupper57_b713_twentytwobank_adaptive_audit.json",
+    "audit_sha256": "49aff4709feaac3ea0c6d947b8c7890ff2ea16d038a390cacd387627345ba430"
+  },
+  "numeric_cache_audit": {
+    "status": "PASS_FRESH_PRODUCER_FREE_NEW_MPFR768_CORNERS",
+    "fresh_corners": 224,
+    "unchanged_parent_cache_entries": 1232
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "identical_priced_cells": 271217,
+  "identical_empty_cells": 8669,
+  "improved_cells": 2397,
+  "new_winner_counts": {
+    "finalface7475": 2397
+  },
+  "improved_polygon_prices": 2389,
+  "new_profiles": {
+    "finalface7475": {
+      "path": "tonight/operator/projection/targeted_certificate/profile_interval_finalface_u7475_r269_k4_10.json",
+      "sha256": "43837bd1b58ea268d56efc687c009e4f253f62ba7ad0ae63ff990f01c0936c66",
+      "reserves": [
+        "1/20000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/finalface_u7475_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "1729d001ea63d247c020722a81b7df1d096a50a16fa4b485d9ab521cef80cf32"
+    }
+  },
+  "maximum_cell_cap": "282030878609/500000000000",
+  "strict_rational_cap": "564061759/1000000000",
+  "proof": "The accepted parent provides the identical physical partition. Every changed price is an independently accepted rank-profile polynomial maximum on that same polygon or containing rectangle. All unchanged old prices remain valid."
+}

@@ -1,0 +1,38 @@
+% Self-contained proof fragment for insertion after the sharp633/Stein lemmas.
+\begin{theorem}[A refitted uniform cubic absolute-moment bound]
+For every normalized real third Gaussian chaos $Q$ in every finite dimension,
+\[
+ \mathbb E|Q|<\frac{847}{1000},\qquad
+ \|P_3\|_{L_\infty\to L_2}^2\le\frac{717409}{10^6}.
+\]
+\end{theorem}
+\begin{proof}
+Parameterize the coupled shape by
+$\mathbb E U^2=\kappa(7/45+s/15)$, where
+$\kappa=\mathbb E Q^4-3\in[0,90]$ and $s\in[0,1]$.
+For any complete-halfline scalar row with frozen rational parameters
+$(q_0,q_2,q_4,q_6,\eta)$, the Stein identity and sharp633 theorem imply
+\[
+\mathbb E|Q|\le c+q_0+q_2+(3+\kappa)q_4
++[15+15\kappa+(K-633s/15)\kappa^{3/2}]q_6
++\eta\kappa(7/90+s/30),
+\]
+where $c=\sqrt{2/\pi}$ and $K=194/\sqrt{10}$.
+Eight accepted scalar rows are supplemented by two fresh degree-12 rows.
+Their entire-halfline inequalities are verified by directed compact Taylor
+and exact polynomial-tail comparisons; a separate direct-Chebyshev
+implementation replays the new rows with 768-bit sixth-order Taylor bounds
+on $[0,80]$ and independently reconstructed Fraction tails.
+Each row has $q_6>0$ and $\eta>0$, so its price is convex in $\kappa$
+and affine in $s$ on every allowed rectangle. Its validity is global in
+cumulant, independent of the interval where it was discovered.
+The exact certificate partitions $[0,90]$ into 2780 rational intervals,
+selects one of the ten rows on each, and verifies all four corner prices.
+The largest outward rational cap is
+$423485406457/500000000000=.846970812914<.847$.
+An independent MPFR implementation reconstructs all 11120 selected
+prices and 111200 ten-row candidate checks, verifies source hashes and
+exact exhaustive coverage, and agrees with the bound. This proves the
+first assertion using only the freshly included sharp633 and Stein inputs.
+Normalizing a nonzero cubic projection proves the second by duality.
+\end{proof}

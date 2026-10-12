@@ -1,0 +1,182 @@
+{
+  "status": "PASS_DIRECTED_ROBUST_RESTRICTED_R3_SOURCE_BOXES",
+  "scope": "Only these continuous source boxes. Complete amplitude/source union is separate.",
+  "convexity": "Positive rank-one r curvature; u quadratic positive. Cumulant price separately convex in kappa and shared shape, including positive covariance term.",
+  "boxes": [
+    {
+      "name": "interval_robust_broadcurrent_box",
+      "u": [
+        "73/100",
+        "147/200"
+      ],
+      "r": [
+        "77/250",
+        "159/500"
+      ],
+      "kappa": [
+        "0",
+        "2"
+      ],
+      "reserve0": "1/50000",
+      "reserve6": "1/10000000",
+      "cap": "70459/125000",
+      "branch": "robustcurrent",
+      "audit": "robust_broadcurrent_R3_recheck",
+      "profile": "profile_interval_robust_broadcurrent_box.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "20",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 4834
+        },
+        {
+          "q": [
+            "8",
+            "20"
+          ],
+          "accepted": 125
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_body.json",
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_exterior.json",
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_tail.json"
+      ],
+      "maximum_directed_upper": "704588494472294710798892346798538537290458019940400909941144314664869/1250000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "73/100",
+          "r": "77/250",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.636504440565171312718686472623152800806596712353050875809813180606194e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "77/250",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.636504440565171312718686472623152800806596712353050875809813180606194e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "77/250",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.636707955504760534387553763875487612816982977274236910743569500561900e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "77/250",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.635334323841502592498398007771438617505420440601985960099540015144374e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "159/500",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.636504440838768464722271483135973486313277894602021244595398197363246e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "159/500",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.636504440838768464722271483135973486313277894602021244595398197363246e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "159/500",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.636707955778357686391138774388308298323664159523207279529154517318952e-1"
+        },
+        {
+          "u": "73/100",
+          "r": "159/500",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.635334324115099744501983018284259303012101622850956328885125031901427e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.636504440565171312718686472623152800806596712353050875809813180606194e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.636504440565171312718686472623152800806596712353050875809813180606194e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.636707955504760534387553763875487612816982977274236910743569500561900e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "77/250",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.635334323841502592498398007771438617505420440601985960099540015144374e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "159/500",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.636504440838768464722271483135973486313277894602021244595398197363246e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "159/500",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.636504440838768464722271483135973486313277894602021244595398197363246e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "159/500",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.636707955778357686391138774388308298323664159523207279529154517318952e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "159/500",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.635334324115099744501983018284259303012101622850956328885125031901427e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_robust_broadcurrent_box.json": "f043fffb36cb054fc6340343ecf4da22c64f126344f1a290873b561da6c038cf",
+        "tonight/operator/projection/targeted_certificate/price_broadcurrent_source_box.py": "8a30b2ad7140659469d3ebe8d70e15532c732f2a0a243ab3f6f8c0f08c25319e",
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_body.json": "75da9af7aea4a78894779a30e71651c79571f42da73aec2309e398e5b1ff8e29",
+        "tonight/operator/projection/targeted_certificate/body_interval_robust_broadcurrent_box.json.gz": "4ae3b44b8e4a31918988dfa2aafc996d103ee64d5ff98e84659be03258742f55",
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_exterior.json": "2ae805aa98ef19f1101cb997a248793913c9e6c3bfc0c161290571c381f2a00a",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_robust_broadcurrent_box.json.gz": "51ff11c6920dc27855058cafab116b7b1e7c70baff4924a04db2551bea99b6b4",
+        "tonight/audit/robust_broadcurrent_R3_recheck/independent_interval_robust_broadcurrent_box_robustcurrent_tail.json": "ce95d0a48d1391cc8b14727c296e8dc2893d71e156f907d5136ba07f40b48eb6",
+        "tonight/operator/projection/targeted_certificate/tail_interval_robust_broadcurrent_box.json": "90d0d4b4905491aca927cf920c3770cc1244632f5ca74c1d125116097ab6315b"
+      }
+    }
+  ]
+}

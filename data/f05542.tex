@@ -1,0 +1,67 @@
+% Uses the physical parameters and exact profile of r3_physical_dual_criterion.tex.
+\begin{proposition}[Certified moving bands of cubic-source parameters]
+\label{prop:r3-certified-moving-polygons}
+Let $b=18/25$ and use the physical parameters $u,r,\kappa$ of an odd
+Gaussian sign pair.  Define
+\[
+ t=r-\frac{5151}{20000}+3\left(u-\frac{151}{200}\right).
+\]
+In each of the following three cases, the pairing is bounded by the
+listed cap, in every Gaussian dimension and for every admissible
+dimensionless cubic tensor shape $z\in[2/5,1]$:
+\[
+\begin{array}{c|c|c|c}
+ u& |t|\text{ at most}&\kappa&
+ \langle(P_1-bP_3)f,g\rangle\text{ at most}\\ \hline
+ {[.7538,.7562]}&.00025&[.3,.8]&28168/50000\\
+ {[.75,.76]}&.001&[.3,.8]&451/800\\
+ {[.7505,.7595]}&.001&[.15,1.1]&451/800
+\end{array}
+\]
+All finite decimals in the table are exact rational numbers.  The first
+cap is $0.56336<40/71$; the other two are $0.56375$.
+\end{proposition}
+\begin{proof}[Certificate proof]
+Use the accepted whole-line scalar majorant from the exact frozen profile,
+with constant reserve $1/50000$ and sixth-degree reserve $1/1000000$.
+The transport $y(r)=y_0+p_0p_2(r-r_0)$ leaves this entire local majorant
+unchanged.  Its outer amplitude part is
+\[
+ u^2-2\ell u+br^2-2(\gamma-p_0v_y)r+v_y^2,
+ \qquad v_y=y_0/p_2-p_0r_0.
+\]
+After $r=5151/20000-3(u-151/200)+t$, its Hessian divided by two is
+\[
+ \begin{pmatrix}187/25&-54/25\\-54/25&18/25\end{pmatrix},
+ \qquad \det=18/25>0.
+\]
+Thus it is jointly convex in $(u,t)$.
+
+In the source-moment price the coefficients of the sixth cumulant and
+the projection allowance are respectively
+\[
+ A=\frac{22262234067601129}{2500000000000000000000}>0,
+ \qquad
+ B=\frac{172316040932398871}{2500000000000000000000}>0.
+\]
+The fresh source bounds therefore give a price consisting of affine
+terms in each source coordinate, plus
+\[
+ \left[A\left\{\frac{194}{\sqrt{10}}
+       -\frac{633}{9}(z-2/5)\right\}
+       +\frac94Bz^{3/2}\right]\kappa^{3/2}+B\kappa^2.
+\]
+The coefficient in braces is positive for $2/5\leq z\leq1$.
+Consequently the price is separately convex in $\kappa$ and $z$.
+Each affine parameter rectangle $(u,t,\kappa,z)$ is therefore bounded
+by its $16$ vertex prices.  Independent exact-profile directed evaluation
+at $256$ bits gives, respectively,
+\[
+ 0.563356280368,\qquad 0.563648547036,\qquad 0.563686934863
+\]
+as rational upper bounds for the three vertex maxima.  These are strictly
+below the respective table caps.
+\end{proof}
+The restrictions on $t$ are restrictions on the actual projection norm $r$.
+These moving bands do not cover every $r$ at their listed amplitudes and
+do not by themselves bound the global operator norm.

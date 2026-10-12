@@ -1,0 +1,9 @@
+{
+  "status": "PASS_PORTABLE_R3_REPLAY",
+  "complete_q_replay_seconds": 286.2504835128784,
+  "complete_q_result": "COMPLETE_PORTABLE_REPLAY.json",
+  "additional_new_b7171_source_price_and_box_replay": "PASS",
+  "final_quick_seconds": 14.604281663894653,
+  "changes_after_complete_q_replay": "Added the independently accepted new-b7171 outer-source price auditor, with relative path adapter only; all exact profiles, q trees and core arithmetic unchanged.",
+  "scope": "Restricted physical source cells only; no global norm or improved G_R endpoint."
+}

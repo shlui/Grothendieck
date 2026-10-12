@@ -1,0 +1,40 @@
+\begin{corollary}[A fully rational finite bound]
+\label{cor:new-rational-log-cutoff-bound}
+In Proposition~\ref{prop:new-log-cutoff-sequence}, assume
+$0<b<1$, $d\geq4$ and $N(P_1-bP_3)\leq B$. Define the rational numbers
+\[
+ \underline q_d=
+ \left(1-\frac1{2d}\right)
+ \left(1-\frac b{2(d+2)}\right),
+\]
+\[
+ \overline L_d=
+ \frac1d\left(\frac{1-b/2}{d-1}
+                   +\frac b{2(d+2)}+\frac b{d-2}\right)
+ +\frac4{d^2}\left(1+\frac b{2(d+2)}\right)
+ +\frac{4b}{d^4}.
+\]
+Then the same rational reduced matrices satisfy
+\[
+ G(H_d^*(b))\geq
+ \frac{\max(0,\underline q_d-\overline L_d-d^{-2})}{B+d^{-2}}.
+\]
+If $B$ is rational, this bound uses only rational arithmetic. It does
+not require a numerical gamma-function evaluation or a Gaussian tail
+evaluation. The right-hand side converges to $1/B$ at rate $O(d^{-1})$.
+\end{corollary}
+\begin{proof}
+The lower bound $a_d\geq1-1/(2d)$ gives
+$q_d(b)\geq\underline q_d$. The logarithmic cutoff gives
+$p_d\leq d^{-4}$. Finally,
+\[
+ \sqrt{\frac{d+4}{d+2}}
+ =\sqrt{1+\frac2{d+2}}\leq1+\frac1{d+2}.
+\]
+Substitute these inequalities into the stated midpoint-error bound,
+using $\sqrt{p_d}\leq d^{-2}$ and the positive coefficients of its
+tail terms. Thus $\mathcal L_d^*(b)\leq\overline L_d$.
+The finite ratio bound of the logarithmic-cutoff proposition now proves
+the assertion. Since $\underline q_d=1-(1+b)/(2d)+O(d^{-2})$ and
+$\overline L_d=O(d^{-2})$, the stated rate follows.
+\end{proof}

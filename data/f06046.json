@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_NEXTFACE_U7375_K4_10_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_nextface_u7375_k4_10.json",
+  "profile_sha256": "8992fa825c6c8abb01a92c8f4a1ca78d9ba40a05d72846c47e3977ed1db808ea",
+  "reserves": [
+    "1/50000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_body.json",
+      "sha256": "b97de0aa10dcfee6936cba9d08f6a7ce84c807c52c995a2421370a0afe1b1e6b",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3847,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_exterior.json",
+      "sha256": "8043775a2377ba6f50f8f3a02398c90caa4855398a396114573b7439d58865df",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 147,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_tail.json",
+      "sha256": "db2d0db2bfe810959f650c3825442ff77f891b980763701f98bb542cf058b11e",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "9c1975cecd30cc0743b7eb7e974edb48ae550c9a26a61fba234cf3f9f11a93fc",
+  "adapter_path": "tonight/audit/replay_R3_nextface_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

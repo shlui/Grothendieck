@@ -1,0 +1,57 @@
+{
+  "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentyfivebank_refined_envelope.json.gz",
+    "sha256": "7dee483bf92a9844a4d52ec7f24f4b1713919c7fa9eb2e793e4753b559a3976a"
+  },
+  "source_sha256": "7dee483bf92a9844a4d52ec7f24f4b1713919c7fa9eb2e793e4753b559a3976a",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentythreebank_refined_envelope.json.gz",
+    "sha256": "5fc97f4ea2f62152a4bbe06b61ceaf18cde3f0284d54a889761ef9da95f588da",
+    "accepted_geometry_audit": "tonight/theory/fullupper57_b713_twentythreebank_monotone_audit.json",
+    "audit_sha256": "2ea51b3208ba13c7c0904f0d203ab0fc79a76da7309941576ea315eada0f5865"
+  },
+  "numeric_cache_audit": {
+    "status": "PASS_FRESH_PRODUCER_FREE_NEW_MPFR768_CORNERS",
+    "fresh_corners": 448,
+    "unchanged_parent_cache_entries": 1288
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "identical_priced_cells": 271217,
+  "identical_empty_cells": 8669,
+  "improved_cells": 27889,
+  "new_winner_counts": {
+    "highu7775": 18911,
+    "lastface7575": 8978
+  },
+  "improved_polygon_prices": 9575,
+  "new_profiles": {
+    "lastface7575": {
+      "path": "tonight/operator/projection/targeted_certificate/profile_interval_lastface_u7575_r238_k35_12.json",
+      "sha256": "b9758dcfb52407925d58b53450929e99a21e77b80d35158c84b5beead68d9ee4",
+      "reserves": [
+        "1/10000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/lastface_u7575_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "261a83c92138dcd09543b8fe506c368ba2ffb7e9da79ca8aa4fc786f74777344"
+    },
+    "highu7775": {
+      "path": "tonight/operator/highu_highk_literature/profile_rank_exact.json",
+      "sha256": "525be8e9bde51f2fcf3d680cef02e30bda14eaf91889580f4f72ac8adefec5f4",
+      "reserves": [
+        "1/1000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/highu_highk_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "b7fa4ab640434a4ff1b61ad3fc8afbac9b0fa356f10f23729d0ef17957e13d4b"
+    }
+  },
+  "maximum_cell_cap": "564056805381/1000000000000",
+  "strict_rational_cap": "564056807/1000000000",
+  "proof": "The accepted parent provides the identical physical partition. Every changed price is an independently accepted rank-profile polynomial maximum on that same polygon or containing rectangle. All unchanged old prices remain valid."
+}

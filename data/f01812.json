@@ -1,0 +1,213 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_SMALLER_B_OUTER_SOURCE_TRANSPORT",
+  "operator_b": "713/1000",
+  "baseline_b": "7171/10000",
+  "outer_norm_upper_bound": "144154052987/255646150000",
+  "outer_norm_upper_display": 0.5638811810269782,
+  "baseline_uniform_outer_cap": "28169/50000",
+  "uniform_beta_squared_bound": "1/16",
+  "exact_uniform_completion_shift": "5125/10225846",
+  "complete_outer_amplitude_coverage": [
+    [
+      "0",
+      "1381/2000"
+    ],
+    [
+      "31/40",
+      "sqrt(2/pi)"
+    ]
+  ],
+  "elementary_low_u_end": "21/100",
+  "elementary_energy_cap": "555612617/1000000000",
+  "accepted_native_cells_transported": 45025,
+  "accepted_R3_cells_transported": 41,
+  "first_four_complete_regions_transported": 4,
+  "native_profiles": {
+    "tonight/regional_certificates/u014_042": {
+      "beta_normalized": "991250636277969/200000000000000000",
+      "beta_squared": "982577823921478392153834764961/40000000000000000000000000000000000",
+      "manifest_sha256": "a01393505a776afc71365d2bed41db1234081e557c426af252a0187c56c3371c",
+      "source_sha256": "fb404834fe514a2fc7d6c26c3d8569d805dd6787f44f19e96262dce62ec0e6cf",
+      "replay_sha256": "ac9414927643e56eda762635b9dd7d146398cff013329be85dfc5b0137cfa2bb"
+    },
+    "tonight/regional_certificates/u030_0485": {
+      "beta_normalized": "3542370826289097/100000000000000000",
+      "beta_squared": "12548391070944099833451821075409/10000000000000000000000000000000000",
+      "manifest_sha256": "d505661ad1c4b4c2b8dbc75f9de586c6be3afbcf2155d88305c2bf225c929d7d",
+      "source_sha256": "ca1e8e5ee97375ccee180b5bbd7795d6e79fb2b17255ee6d501d020c59a08c85",
+      "replay_sha256": "41a2c42f802dc70a24c2189c4bbfdfbc4c5cced3471a2536844d41000315d0d3"
+    },
+    "tonight/regional_certificates/u040_054": {
+      "beta_normalized": "3333043191263439/50000000000000000",
+      "beta_squared": "11109176914827569611457098106721/2500000000000000000000000000000000",
+      "manifest_sha256": "8340d42134e698e8ad4d653e594cb09d8d722480a6a1f7c7224ced4fb3f49493",
+      "source_sha256": "93adaaaa0d52df930c0485aa0e4fa457dffa3aa50313c4a6606d8e1e04246798",
+      "replay_sha256": "ffa259e596e549b565f136db1ddf36fc2f70df1c740eb56b36f831309c514539"
+    },
+    "tonight/regional_certificates/u050_0638": {
+      "beta_normalized": "524047514160283/5000000000000000",
+      "beta_squared": "274625797097572011398614640089/25000000000000000000000000000000",
+      "manifest_sha256": "2804ca587193bd535ab8b1d1c6042a4ec1e8a85e080ada34b29a61b7c88b6aae",
+      "source_sha256": "177097b34111920751b05b843b5c0439eb83f6cf81a51fa64e7f4a095cf87124",
+      "replay_sha256": "913a0413a044f622b50b6f467b37ce4d859b2a6975a809af6fa95e90696d76e9"
+    },
+    "tonight/regional_certificates/u060_0662": {
+      "beta_normalized": "1315024473761179/10000000000000000",
+      "beta_squared": "1729289366590865756246727470041/100000000000000000000000000000000",
+      "manifest_sha256": "5dadee8eb05b22885def32dca4c1cf89c2d694866d2af173fa1a6be314044ca3",
+      "source_sha256": "ed735814619d9022c0213bacc97b030ae3819c6344d1ba6c1f38255a231f4d94",
+      "replay_sha256": "32d6ec3511112f996d826f93b9504aa3cd359e566a70f1212b768a3f00143b4f"
+    },
+    "tonight/native_frames/repriced0685_0700": {
+      "beta_normalized": "3222456779087633/20000000000000000",
+      "beta_squared": "10384227693087841950835893542689/400000000000000000000000000000000",
+      "manifest_sha256": "fd33c2c637b0311f26685d5e072ed5d76c80b4f7a7297900dafd62e5d14469b2",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+      "replay_sha256": "555a1c5bb4f2719a89ed7496a60cbceaaf1fd45cd7ae38c8d5b7cc3047df8f88"
+    },
+    "tonight/regional_certificates/u0662_0682": {
+      "beta_normalized": "15189258242027107/100000000000000000",
+      "beta_squared": "230713565942988401010332522789449/10000000000000000000000000000000000",
+      "manifest_sha256": "e8f5ee150e1e523f014b01f28fa1981e6d7ee13226b36dc7b8741d4097442996",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60",
+      "replay_sha256": "249603987837576e95ef53f8663e6c0d8ae0049b0eec801965bb43de014b362a"
+    },
+    "tonight/native_frames/repriced0700_0720": {
+      "beta_normalized": "1740492507081/10000000000000",
+      "beta_squared": "3029314167205104835140561/100000000000000000000000000",
+      "manifest_sha256": "63cb82aba3082b76c8e3d343227f1a965844278aaece8ecf08270144d5096dca",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+      "replay_sha256": "9fa290d2ebe056c00bfc4671c8cafd580323bb235e8e3fdd8ed02dc4267235dd"
+    },
+    "tonight/regional_certificates/u077_c": {
+      "beta_normalized": "2071004086670839/10000000000000000",
+      "beta_squared": "4289057927007316016546332963921/100000000000000000000000000000000",
+      "manifest_sha256": "ae2200f5dc15434b4f035026e8fa368dc3efec7ecf1e9cd29791c1e392231cae",
+      "source_sha256": "e1a793fea166e03dd50de2ee4849b2e66bf1d91b32278a4305f34186a6fa1338",
+      "replay_sha256": "92f7c896583538001379990635009711b87b070e7980ede6ffb80658ea2b4f4a"
+    },
+    "tonight/regional_certificates/u079_0797885": {
+      "beta_normalized": "22762225315875423/100000000000000000",
+      "beta_squared": "518118901330680000369632855428929/10000000000000000000000000000000000",
+      "manifest_sha256": "9185345a0ca53f8056d9bd8ba41b914e3f1a43b8601f7e21db7ea04d825014c0",
+      "source_sha256": "d5ec3008fe256ee3e31d105876948da7caccb68be2673e5088a836af867c6bf6",
+      "replay_sha256": "46ad627a01b85ed5439d59272b2f0fff23c1eacb5baa1169968ac59cbe4dbfb4"
+    }
+  },
+  "rank70_profile": {
+    "path": "tonight/operator/projection/lower_amp_certificate/profile_u.70.json",
+    "sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78",
+    "beta_raw": "6545996579/100000000000",
+    "normalized_beta_squared": "128550213636839109723/5000000000000000000000",
+    "target_b_spectral_gates": {
+      "b": "713/1000",
+      "six_PSD_matrices": [
+        {
+          "diagonal": [
+            "374999999998563726361/2500000000000000000000",
+            "4140000001340692304841/10000000000000000000000"
+          ],
+          "off_diagonal": "1245993579637075594449/5000000000000000000000",
+          "determinant": "0"
+        },
+        {
+          "diagonal": [
+            "2874999999998563726361/2500000000000000000000",
+            "575000001340692304841/10000000000000000000000"
+          ],
+          "off_diagonal": "1245993579637075594449/5000000000000000000000",
+          "determinant": "20125000671370215525107/5000000000000000000000000"
+        },
+        {
+          "diagonal": [
+            "0",
+            "0"
+          ],
+          "off_diagonal": "0",
+          "determinant": "0"
+        },
+        {
+          "diagonal": [
+            "5482150693/6250000000",
+            "20539806879/100000000000"
+          ],
+          "off_diagonal": "3590114493/20000000000",
+          "determinant": "1479414012431520098127/10000000000000000000000"
+        },
+        {
+          "diagonal": [
+            "11732150693/6250000000",
+            "25969420637/300000000000"
+          ],
+          "off_diagonal": "3590114493/20000000000",
+          "determinant": "3908165345707360294381/30000000000000000000000"
+        },
+        {
+          "diagonal": [
+            "1025900693/6250000000",
+            "20539806879/100000000000"
+          ],
+          "off_diagonal": "3590114493/20000000000",
+          "determinant": "14925781958820098127/10000000000000000000000"
+        }
+      ]
+    }
+  },
+  "region_results": [
+    {
+      "interval": [
+        "3/5",
+        "341/500"
+      ],
+      "native_cells": 30268,
+      "R3_cells": 0,
+      "original_accepted_report": "tonight/audit/native_b7171_union/u600_682_independent_replay.json"
+    },
+    {
+      "interval": [
+        "341/500",
+        "1381/2000"
+      ],
+      "native_cells": 9661,
+      "R3_cells": 41,
+      "original_accepted_report": "tonight/audit/native_b7171_union/u682_6905_independent_replay.json"
+    },
+    {
+      "interval": [
+        "31/40",
+        "159577/200000"
+      ],
+      "native_cells": 5096,
+      "R3_cells": 0,
+      "original_accepted_report": "tonight/audit/native_b7171_union/u775_c_independent_replay.json"
+    }
+  ],
+  "bindings": {
+    "tonight/audit/global_b7171/STRENGTHENED_GLOBAL_B7171_ACCEPTANCE.json": {
+      "sha256": "84aae21b9edd05d698d023ce2b9b6308c37544cf5e6e6f60417b5917d71e195c",
+      "status": "PASS_INDEPENDENT_STRENGTHENED_COMPLETE_GLOBAL_B7171_SCALAR_BOUND"
+    },
+    "tonight/audit/native_b7171_union/first_four_transfers_independent.json": {
+      "sha256": "0419960f3fb4b64bd5ba4a584625be245ac36871d51290a438ce0b465cede25f",
+      "status": "PASS_INDEPENDENT_DIRECTED_FIRST_FOUR_B7171_TRANSFERS"
+    },
+    "tonight/audit/native_b7171_union/u600_682_independent_replay.json": {
+      "sha256": "eb8546f2d91078ffb10bcab078b0052dbdcb2b7fb3ef90a18e7bd98ce0101d04",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "tonight/audit/native_b7171_union/u682_6905_independent_replay.json": {
+      "sha256": "08c7880512c74878a623c2fc3ed1aabebad1fd278b135726b06fd15af7b5513c",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "tonight/audit/native_b7171_union/u775_c_independent_replay.json": {
+      "sha256": "a14399892c05e75ed3cd9221ac8aaf66411d65bd51ded828f534c6eb1d948b69",
+      "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION"
+    },
+    "tonight/audit/diffuse_b7171_R3/independent_extended_remainder_box.json": {
+      "sha256": "4922890c2a5156583014f51b97d295b377e552013b70ba1f572de23e5f3df32a",
+      "status": "PASS_INDEPENDENT_B7171_EXTENDED_REMAINDER_BOX_PRICING"
+    }
+  },
+  "analytic_review": "The same frozen local potentials remain valid. Reducing b strengthens every spectral inequality. Native beta_norm squared and rank70 six times beta_raw squared are each at most1/16. Their exact constant shift is at most(1/b-1/b0)/16; the additional(b-b0)*r^2 is nonpositive and may be dropped uniformly. Every old complete outer-cell upper bound and first-four regional total is independently checked below .56338, so the new complete outer cap is .56338 plus the recorded shift. Physical source coverage does not depend on the operator coefficient.",
+  "scope": "Complete outer-source theorem only, at the displayed new coefficient. A global bound additionally needs a complete middle proof at EXACTLY that coefficient and a common cap exceeding this outer cap."
+}

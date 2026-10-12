@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EXACT_ACCEPTED_ANALYTIC_SOURCE_BANK_BINDING",
+  "bank": "tonight/moments/linear_contact_bank/source_bank.json",
+  "bank_sha256": "81501d52d87de02743a955be40ac9157f60098cf940a8aaa65cf3b6e33cba94c",
+  "independent_analytic_replay": "tonight/audit/linear_contact_bank_independent.json",
+  "analytic_status": "PASS_INDEPENDENT_COMPLETE_LINEAR_CONTACT_SOURCE_BANK",
+  "exact_scaled_rows": 60,
+  "proof": "The finer-cumulant source planes use fixed rows from this accepted analytic bank. Their coefficient identities and all-line majorants are unchanged; only valid moment endpoint prices are recomputed on smaller cumulant bands. The main exact refinement replay independently recomputes all 560 selected moment corner prices."
+}

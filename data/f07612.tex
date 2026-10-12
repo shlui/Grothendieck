@@ -1,0 +1,153 @@
+% Self-contained fragment.  Requires amsmath, amssymb, and theorem environments
+% named proposition and proof.  No numerical-profile certificate is asserted.
+\begin{proposition}[Sharp conditional Gaussian profile and a quartic budget]
+\label{prop:conditional-gaussian-budget}
+Let $Z$ be standard normal and let measurable real functions $h,k$ satisfy
+$|h|+|k|\leq1$.  Put
+\[
+ \nu=\sqrt{2/\pi},\qquad A=\mathbb E[Zh],\qquad
+ p=|\mathbb E k|,\qquad C=1-\nu^2.
+\]
+If $p=2\Phi(t)-1$, $t\in[0,\infty]$, then
+\begin{equation}\label{eq:sharp-conditional-profile}
+ |A|\leq\nu e^{-t^2/2}.
+\end{equation}
+This bound is sharp for every $p$.  In particular,
+\begin{equation}\label{eq:quartic-conditional-budget}
+ A^2+p^2-Cp^4\leq\nu^2.
+\end{equation}
+The quartic budget improves the ellipse
+$A^2+\nu^2p^2\leq\nu^2$ by $Cp^2(1-p^2)$.
+\end{proposition}
+
+\begin{proof}
+Write $\alpha=|k|$ and $\alpha_0=\mathbf1_{\{|Z|\leq t\}}$.
+Since $\mathbb E\alpha\geq p=\mathbb E\alpha_0$ and
+$(|Z|-t)(\alpha-\alpha_0)\geq0$ pointwise,
+\[
+ \mathbb E[|Z|\alpha]\geq\mathbb E[|Z|\alpha_0].
+\]
+Consequently $|A|\leq\mathbb E[|Z|(1-\alpha)]\leq2\phi(t)
+=\nu e^{-t^2/2}$.  Equality is attained by
+$h=\operatorname{sgn}(Z)\mathbf1_{\{|Z|>t\}}$ and
+$k=\mathbf1_{\{|Z|\leq t\}}$.
+
+For the polynomial budget set $p(t)=2\Phi(t)-1$, so
+$p'=\nu e^{-t^2/2}$ and $p''=-tp'$.  Define
+\[
+ D(t)=\nu^2e^{-t^2}-\nu^2+p(t)^2-Cp(t)^4,
+ \qquad g(t)=p(t)-2Cp(t)^3-tp'(t).
+\]
+Then $D'=2p'g$ and $g'=p'(t^2-6Cp^2)$.
+The ratio $t/p(t)$ strictly increases from $1/\nu$ to infinity:
+indeed $p(t)>tp'(t)$ for $t>0$ because $p'$ strictly decreases.
+Furthermore $1/\nu^2<6C$ and $1-2C>0$; for example these follow
+already from $3<\pi<22/7$.
+Thus $g'$ changes sign exactly once, from negative to positive.
+As $g(0)=0$ and $\lim_{t\to\infty}g(t)=1-2C>0$, the function $g$
+has exactly one further zero.  It follows that $D$ first decreases
+and then increases.  Its two endpoint limits are zero, so $D\leq0$.
+Combining this with \eqref{eq:sharp-conditional-profile} proves
+\eqref{eq:quartic-conditional-budget}.
+\end{proof}
+
+\begin{proposition}[A mixed cubic completion with one scalar source]
+\label{prop:mixed-cubic-completion}
+Let $Z$ and $W$ be independent standard Gaussian coordinates.  Let $f,g$
+be odd signs and put $h=(f+g)/2$, $k=(f-g)/2$,
+\[
+ A(W)=\mathbb E_Z[Zh],\qquad k_0(W)=\mathbb E_Z k.
+\]
+Suppose $r=\|P_3^Wk_0\|_2>0$ and write
+$Q=P_3^Wk_0/r=I_3(F)$, with $6\|F\|^2=1$.  Here Wiener integrals are
+normalized by $\mathbb E I_j(H)^2=j!\|H\|^2$.
+Set
+\[
+ G=F\otimes_2F,\quad s=\|G\|^2,\quad
+ D=1+\frac{3\|\operatorname{Sym}(F\otimes_1F)\|^2}{2s},\quad
+ R_2=\frac{I_2(G)}{\sqrt{2s}},\quad \kappa=\mathbb E Q^4-3.
+\]
+Then $\mathbb ER_2=0$, $\mathbb ER_2^2=1$, and
+\begin{equation}\label{eq:mixed-source-normalization}
+ \theta:=\mathbb E[Q^2R_2]=18\sqrt{2s},\qquad
+ \theta^2=\frac{\kappa}{2D}.
+\end{equation}
+For $t=\mathbb E[AR_2]$, any $b,w>0$ and $a,c\in\mathbb R$ satisfy
+\begin{align}
+ -bt^2\leq{}&w\{\nu^2+a^2+2ac+c^2(3+\kappa)\}
+ -w\mathbb E k_0^2+wC\mathbb E k_0^4
+ \notag\\[-1mm]
+ &-2w\mathbb E[(a+cQ^2)A]
+ -\frac{bw c^2\kappa}{2D(b+w)},
+ \label{eq:quartic-mixed-completion}
+\end{align}
+where $\nu^2=2/\pi$ and $C=1-\nu^2$.
+The direction $ZR_2(W)$ is a unit cubic Hermite function orthogonal to
+$H_3(Z)=(Z^3-3Z)/\sqrt6$.  Hence its penalty $-bt^2$ can be retained
+in addition to a completion using only the longitudinal cubic direction.
+\end{proposition}
+
+\begin{proof}
+The Gaussian product formula yields
+\[
+ P_2(Q^2)=18I_2(G),\qquad
+ \kappa=1296s+1944\|\operatorname{Sym}(F\otimes_1F)\|^2=1296sD.
+\]
+These identities give \eqref{eq:mixed-source-normalization}.
+Also $G$ is positive semidefinite, since
+$G_{ij}=\sum_{a,b}F_{iab}F_{jab}$.  Thus $R_2$ is the normalized,
+centered quadratic form determined by this actual cubic source.
+
+Put $\eta=a+cQ^2$.  Orthogonal projection onto the unit vector $R_2$
+gives $\mathbb E(A-\eta)^2\geq(t-c\theta)^2$.  Completing one scalar
+square gives
+\[
+ bt^2+w(t-c\theta)^2\geq\frac{bw}{b+w}c^2\theta^2,
+\]
+and therefore
+\[
+ -bt^2\leq w\mathbb E(A-\eta)^2-
+ \frac{bw}{b+w}c^2\theta^2.
+\]
+Conditionally on $W$, $h,k$ satisfy $|h|+|k|=1$, so
+Proposition~\ref{prop:conditional-gaussian-budget} gives
+$A^2\leq\nu^2-k_0^2+Ck_0^4$.  Expanding the square and using
+$\mathbb E\eta^2=a^2+2ac+c^2(3+\kappa)$ proves
+\eqref{eq:quartic-mixed-completion}.  The final orthogonality claim
+follows from independence of $Z,W$ and $\mathbb ER_2=0$.
+\end{proof}
+
+\paragraph{Insertion into a local scalar criterion.}
+If the original conditional potential contains $2\ell A$ and local
+moments $\mathbf k=(k_0,k_1,k_2,k_3)$, write $q=Q(W)$ for the value
+of the normalized source.  Formula
+\eqref{eq:quartic-mixed-completion} replaces
+\[
+ \ell\quad\hbox{by}\quad\ell-w(a+cq^2)
+\]
+at scalar source value $q$, adds the local polynomial
+$-wk_0^2+wCk_0^4$, and adds only the explicit outer price
+\[
+ w\{\nu^2+a^2+2ac+c^2(3+\kappa)\}
+ -\frac{bw c^2\kappa}{2D(b+w)}.
+\]
+It introduces no additional source or local moment coordinate.  If a
+different implementation uses the source amplitude $rq$ as its scalar
+coordinate, the coefficient of its square is $c/r^2$ instead of $c$.
+For entirely rational frozen data one may replace $\nu^2$ in the outer
+price by $637/1000$ and $C$ in the local quartic term by $91/250$;
+both changes increase the upper bound.
+This insertion is an exact inequality, not a global norm certificate:
+the modified local potential and its source tail must still be bounded
+on their complete domains.  The added local quartic term requires its
+own enclosure; a certificate for the original quadratic local potential
+does not automatically cover it.  In particular the quadratic dependence
+on $q$ requires a new chord allowance.  If the unmodified local
+potential is a supremum of affine functions of $q$, then its modified
+physical supremum $\Psi$ obeys, for $q\in[q_0,q_1]$,
+\[
+ \Psi(q)\leq\operatorname{Chord}_{q_0,q_1}\Psi(q)
+       +2w|c|\nu(q-q_0)(q_1-q).
+\]
+Indeed adding $2w|c|\nu q^2$ makes every candidate convex, because
+$|A|\leq\nu$.  Any pre-existing curvature allowance must also be retained.

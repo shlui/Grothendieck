@@ -1,0 +1,126 @@
+{
+  "status": "PASS_INDEPENDENT_TARGETED_FULL_E_WHOLE_Q_PROFILE",
+  "scope": "One frozen full-E operator profile valid on the entire q line; outer source/u/kappa coverage is separate.",
+  "operator_b": "7171/10000",
+  "global_reserve0": "1/200",
+  "global_reserve6": "1/100000",
+  "groups": [
+    {
+      "path": "tonight/operator/projection/targeted_certificate/general_highk_body.json.gz",
+      "sha256": "a08425e27676ff3a2cab355872baf75fc1cc7b2aba4c63f3235c3dcc9946fe33",
+      "q_interval": [
+        "0",
+        "8"
+      ],
+      "reserve0": "1/200",
+      "reserve6": "1/1000000",
+      "events": 21029,
+      "leaves": 10339,
+      "excluded": 176,
+      "directed_endpoints": 12517,
+      "q_nodes": 106,
+      "largest_leaf_residual": "-1867521033567759492322853636554480201371679920710960205910074779179/1284547000000000000000000000000000000000000000000000000000000000000000000",
+      "global_majorant_dominance": "PASS",
+      "seconds": 46.299692153930664
+    },
+    {
+      "path": "tonight/operator/projection/targeted_certificate/general_highk_exterior16_loose.json.gz",
+      "sha256": "d689ff537799d77b59f2f6eef1922a75e0179f1a33816fa5cdc5f9f3d9ad4c72",
+      "q_interval": [
+        "8",
+        "16"
+      ],
+      "reserve0": "1/200",
+      "reserve6": "1/100000",
+      "events": 39,
+      "leaves": 20,
+      "excluded": 0,
+      "directed_endpoints": 34,
+      "q_nodes": 9,
+      "largest_leaf_residual": "-206512243943549251584129240862821656254155505013045148454551234390683/3211367500000000000000000000000000000000000000000000000000000000000000",
+      "global_majorant_dominance": "PASS",
+      "seconds": 0.4651601314544678
+    }
+  ],
+  "events": 21068,
+  "leaves": 10359,
+  "excluded": 176,
+  "six_gates": [
+    {
+      "gate": "E",
+      "first_diagonal": "265272572177/100000000000",
+      "second_diagonal": "22083580393/20000000000",
+      "determinant": "1203076517672602267719/2500000000000000000000"
+    },
+    {
+      "gate": "E-longitudinal-one",
+      "first_diagonal": "365272572177/100000000000",
+      "second_diagonal": "14912580393/20000000000",
+      "determinant": "689312047946018517719/2500000000000000000000"
+    },
+    {
+      "gate": "E-ppT",
+      "first_diagonal": "6256814304426436273639/2500000000000000000000",
+      "second_diagonal": "27025254673827633551/39062500000000000000",
+      "determinant": "80837314557370065680729707/250000000000000000000000000000000"
+    },
+    {
+      "gate": "R",
+      "first_diagonal": "75411050117/100000000000",
+      "second_diagonal": "27283910391/100000000000",
+      "determinant": "2001737549815084013651/10000000000000000000000"
+    },
+    {
+      "gate": "R-transverse-zero",
+      "first_diagonal": "175411050117/100000000000",
+      "second_diagonal": "45996731173/300000000000",
+      "determinant": "2633674188266739013651/10000000000000000000000"
+    },
+    {
+      "gate": "R-transverse-two",
+      "first_diagonal": "3701050117/100000000000",
+      "second_diagonal": "27283910391/100000000000",
+      "determinant": "45208335676474013651/10000000000000000000000"
+    }
+  ],
+  "tail": {
+    "status": "PASS_EXACT_FULL_E_TAIL",
+    "R": "16",
+    "reserve0": "1/200",
+    "reserve6": "1/100000",
+    "trace": "3786100605720541925520108665453000337/513818800000000000000000000000000000",
+    "difference_polynomial": [
+      "-19496366378759645570254878289571162543961375358619/700480847260625305600000000000000000000000000000",
+      "-672657575705705581172079/33149600000000000000000",
+      "65932469610036397792725159867/22596156363245977600000000000",
+      "-733080726878100994131147/256909400000000000000000000",
+      "-12381295721578566018983/551663973712060000000000",
+      "0",
+      "50903002772467/513818800000000000"
+    ],
+    "shifted_coefficients": [
+      "402084403823207256410569537828355999606950624641381/700480847260625305600000000000000000000000000000",
+      "27914528361840198964405146561503405663/85507915925369300000000000000000000",
+      "89879655061461767764605908151299093913/1368126654805908800000000000000000000",
+      "1141771889199452530885150236425720907/171015831850738600000000000000000000",
+      "6121983503746672796228743/17101583185073860000000000",
+      "152709008317401/16056837500000000",
+      "50903002772467/513818800000000000"
+    ]
+  },
+  "frozen_source_hashes": {
+    "tonight/operator/projection/targeted_certificate/general_profile_highk_u7575_r259_k2_4.json": "2310c2ce589ffe3f0d69064b07d4ca47548c87e1df794f0f042578dfa88cbc0b",
+    "tonight/operator/projection/targeted_certificate/general_highk_body.json.gz": "a08425e27676ff3a2cab355872baf75fc1cc7b2aba4c63f3235c3dcc9946fe33",
+    "tonight/operator/projection/targeted_certificate/general_highk_exterior16_loose.json.gz": "d689ff537799d77b59f2f6eef1922a75e0179f1a33816fa5cdc5f9f3d9ad4c72",
+    "tonight/theory/replay_targeted_highk.py": "8a89f036cb61c59cebaa7b8a88cb27574486dbb3c4a82dfdadda918fa92f7355",
+    "tonight/theory/replay_general_r3_cover.py": "dfc49cbce769f7dcdea1edde9e6653d83c4be931092f55a054606f5f62cc61aa",
+    "tonight/theory/audit_general_r3_parameters_tail.py": "2d80f2f0de780fb9ea2b1ec99d248ad0a71c1611640490360bc8fecc6c9bd1a1",
+    "tonight/operator/projection/certificate/mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+    "tonight/operator/projection/certificate/gaussian_max_certificate.py": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5",
+    "tonight/operator/projection/certificate/certify_local_point.py": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7",
+    "tonight/operator/projection/certificate/certify_local_bernstein_region.py": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad",
+    "tonight/operator/projection/certificate/rational_phi_bounds.py": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222",
+    "tonight/operator/projection/certificate/bernstein_integer_bounds.py": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+  },
+  "seconds": 46.77776885032654
+}

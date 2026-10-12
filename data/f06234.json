@@ -1,0 +1,362 @@
+{
+  "status": "PASS_DIRECTED_CONTINUOUS_TARGETED_R3_SOURCE_BOXES",
+  "scope": "Only these source boxes. Each fixed comparison is independently accepted on the complete q line; global all-source norm additionally requires domain union with native and other R3 gates.",
+  "boxes": [
+    {
+      "name": "highk_global_worst_box",
+      "kind": "full",
+      "profile": "general_profile_highk_u7575_r259_k2_4.json",
+      "u": [
+        "151/200",
+        "19/25"
+      ],
+      "r": [
+        "129/500",
+        "5199/20000"
+      ],
+      "kappa": [
+        "11/10",
+        "4"
+      ],
+      "reserve0": "1/200",
+      "reserve6": "1/100000",
+      "cap": "279/500",
+      "trees": [
+        "general_highk_body.json.gz",
+        "general_highk_exterior16_loose.json.gz"
+      ],
+      "audit": "tonight/theory/targeted_highk_whole_q_audit.json",
+      "tail": "general_highk_tail16_loose.json",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "776440419804935232281/2760447549125000000000",
+      "maximum_directed_upper": "557907501082827679384161789050140052233693724702399304974023/1000000000000000000000000000000000000000000000000000000000000",
+      "margin_to_40_71": "388567423119234763724512977440056291407745546129649346844367/71000000000000000000000000000000000000000000000000000000000000",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "leaves": 10339,
+          "recorded_reserve0": "1/200",
+          "recorded_reserve6": "1/1000000",
+          "global_majorant_domination": "Nonnegative coefficientwise increment to q^0 and q^6."
+        },
+        {
+          "q": [
+            "8",
+            "16"
+          ],
+          "leaves": 20,
+          "recorded_reserve0": "1/200",
+          "recorded_reserve6": "1/100000",
+          "global_majorant_domination": "Nonnegative coefficientwise increment to q^0 and q^6."
+        }
+      ],
+      "vertices": [
+        {
+          "u": "151/200",
+          "r": "129/500",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.57907501082827679384161789050140052233693724702399304974023e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "129/500",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.54004950598387483965193052927109980523496764393170272536527e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "129/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.42896441244782809118589574345680848130429557726430428207431e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "129/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.12615307014581525142924660653433822522674199056500744059779e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "5199/20000",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "5.18368004848362210305778207566736886758596119681535784349168e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "5199/20000",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "5.14465454363922014886809471443706815048399159372306751911672e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "5199/20000",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.03356945010317340040205992862277682655331952705566907582576e-1"
+        },
+        {
+          "u": "151/200",
+          "r": "5199/20000",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "4.73075810780116056064541079170030657047576594035637223434924e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "129/500",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "2.65482501082827679384161789050140052233693724702399304974023e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "129/500",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "2.61579950598387483965193052927109980523496764393170272536527e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "129/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "2.50471441244782809118589574345680848130429557726430428207431e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "129/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "2.20190307014581525142924660653433822522674199056500744059779e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "5199/20000",
+          "kappa": "11/10",
+          "shape": "2/5",
+          "upper": "2.25943004848362210305778207566736886758596119681535784349168e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "5199/20000",
+          "kappa": "11/10",
+          "shape": "1",
+          "upper": "2.22040454363922014886809471443706815048399159372306751911672e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "5199/20000",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "2.10931945010317340040205992862277682655331952705566907582576e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "5199/20000",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "1.80650810780116056064541079170030657047576594035637223434924e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/general_profile_highk_u7575_r259_k2_4.json": "2310c2ce589ffe3f0d69064b07d4ca47548c87e1df794f0f042578dfa88cbc0b",
+        "tonight/operator/projection/targeted_certificate/general_highk_tail16_loose.json": "e8b05e89b12f96e5bc131f8631e2b96f665f92f2ed6772d676c0740021e4a551",
+        "tonight/theory/targeted_highk_whole_q_audit.json": "247a5b67235bb74281be981e8919ea63d23122de03f89666a32519ffb5a1d16f",
+        "tonight/operator/projection/targeted_certificate/price_targeted_source_boxes.py": "66b89dacfb724027da851d14ce60ff7a96518dff2ddf12c52c3c5113e9cb2168",
+        "tonight/operator/projection/targeted_certificate/general_highk_body.json.gz": "a08425e27676ff3a2cab355872baf75fc1cc7b2aba4c63f3235c3dcc9946fe33",
+        "tonight/operator/projection/targeted_certificate/general_highk_exterior16_loose.json.gz": "d689ff537799d77b59f2f6eef1922a75e0179f1a33816fa5cdc5f9f3d9ad4c72"
+      }
+    },
+    {
+      "name": "lowr_center_box",
+      "kind": "rank",
+      "profile": "profile_interval_lowr_u76_r16_k0_2.json",
+      "u": [
+        "37/50",
+        "19/25"
+      ],
+      "r": [
+        "1/10",
+        "21/100"
+      ],
+      "kappa": [
+        "0",
+        "2"
+      ],
+      "reserve0": "1/1000",
+      "reserve6": "1/1000000",
+      "cap": "559/1000",
+      "trees": [
+        "body_interval_lowr_u76_r16_k0_2.json.gz",
+        "exterior_interval_lowr_u76_r16_k0_2.json.gz"
+      ],
+      "audit": "tonight/audit/targeted_lowr_R3_recheck/ACCEPTANCE.json",
+      "tail": "tail_interval_lowr_u76_r16_k0_2.json",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "maximum_directed_upper": "69702264599216571325163253425735214773026229052554765364857/125000000000000000000000000000000000000000000000000000000000",
+      "margin_to_40_71": "51139213455623435913409006772799751115137737268611659095153/8875000000000000000000000000000000000000000000000000000000000",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "leaves": 5701,
+          "recorded_reserve0": "1/1000",
+          "recorded_reserve6": "1/1000000",
+          "global_majorant_domination": "Nonnegative coefficientwise increment to q^0 and q^6."
+        },
+        {
+          "q": [
+            "8",
+            "64"
+          ],
+          "leaves": 45,
+          "recorded_reserve0": "1/1000",
+          "recorded_reserve6": "1/1000000",
+          "global_majorant_domination": "Nonnegative coefficientwise increment to q^0 and q^6."
+        }
+      ],
+      "vertices": [
+        {
+          "u": "37/50",
+          "r": "1/10",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.24579374671051533687527014460939350614419010630713682011703e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "1/10",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.24579374671051533687527014460939350614419010630713682011703e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "1/10",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.24782893694671249833562190773974812557192978072339528541659e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "1/10",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.24663534003446026056875975508621736043784031363831418023494e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "21/100",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.42925573046912854455270851092846256241435864978812276388900e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "21/100",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.42925573046912854455270851092846256241435864978812276388900e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "21/100",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.43129092070532570601306027405881718184209832420438122918856e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "21/100",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.43009732379307346824619812140528641670800885711930012400690e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "1/10",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.39068399394251533687527014460939350614419010630713682011703e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "1/10",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.39068399394251533687527014460939350614419010630713682011703e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "1/10",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.39271918417871249833562190773974812557192978072339528541659e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "1/10",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.39152558726646026056875975508621736043784031363831418023494e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "21/100",
+          "kappa": "0",
+          "shape": "2/5",
+          "upper": "5.57414597770112854455270851092846256241435864978812276388900e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "21/100",
+          "kappa": "0",
+          "shape": "1",
+          "upper": "5.57414597770112854455270851092846256241435864978812276388900e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "21/100",
+          "kappa": "2",
+          "shape": "2/5",
+          "upper": "5.57618116793732570601306027405881718184209832420438122918856e-1"
+        },
+        {
+          "u": "19/25",
+          "r": "21/100",
+          "kappa": "2",
+          "shape": "1",
+          "upper": "5.57498757102507346824619812140528641670800885711930012400690e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_lowr_u76_r16_k0_2.json": "0acb51e62ac020cb729c4464d64b04aeafeefd844276f99debe0d4d471d009a9",
+        "tonight/operator/projection/targeted_certificate/tail_interval_lowr_u76_r16_k0_2.json": "d61c242e6cf07398f48f892181d9a950c1a5c9881ea803ea902506d975025a2b",
+        "tonight/audit/targeted_lowr_R3_recheck/ACCEPTANCE.json": "6836ce619b2e6e86c85f8acc615b8f018c57173af47fd0b780be0fd319cc3117",
+        "tonight/operator/projection/targeted_certificate/price_targeted_source_boxes.py": "66b89dacfb724027da851d14ce60ff7a96518dff2ddf12c52c3c5113e9cb2168",
+        "tonight/operator/projection/targeted_certificate/body_interval_lowr_u76_r16_k0_2.json.gz": "3a7ef13deb6b8bb5909a9ab4799667bd221f7d74783c92354004b81cff76efa0",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_lowr_u76_r16_k0_2.json.gz": "be168931fce063317c4913feaef5a121eada2af6046d817f15a6c7bf7d0378aa"
+      }
+    }
+  ]
+}

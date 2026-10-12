@@ -1,0 +1,243 @@
+{
+  "status": "PASS_INDEPENDENT_TWO_NEW_B711_R3_COMPONENTS",
+  "operator_b": "711/1000",
+  "whole_q_binding": {
+    "path": "new_round_2026-10-02/audit/two_source_boxes/WHOLE_Q_ACCEPTANCE.json",
+    "sha256": "036887c3768a2020f70e496a39411a91db47d8215f88a6030c86ed4e69703d56"
+  },
+  "source_price_binding": {
+    "path": "new_round_2026-10-02/audit/numeric/TWO_NEW_B711_SOURCE_PRICE_ACCEPTANCE.json",
+    "sha256": "f7cd4c1bbb6c18145b5dc2b5d0225cbc61f44856c65beb9b3d194b1c0484defe"
+  },
+  "components": [
+    {
+      "name": "new_worst_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_worst_b711.json",
+        "sha256": "8b49090e2684eab495e626bdae895c6926bd2329b1d42967f6361ee015287e6e"
+      },
+      "reference_b": "7171/10000",
+      "operator_b": "711/1000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_body.json",
+          "sha256": "e816da1f48f8eaf0989e8ffe656cec094d8bf690520426e2cce974cd28016ccf",
+          "profile": "interval_new_worst_b711_tight",
+          "part": "body",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 3048
+        },
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_exterior.json",
+          "sha256": "6cb8ac852be1cda36b609debbe41e6ac74f421ff25c00832cdad54cd4d590367",
+          "profile": "interval_new_worst_b711_tight",
+          "part": "exterior",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 144
+        },
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_worst_b711_tight_q50_tail.json",
+          "sha256": "8f104487e06f832d019d8f5110b066f88bf39fa55db06872077b411b3ea8aea1",
+          "profile": "interval_new_worst_b711_tight",
+          "part": "tail",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/new_worst_tight_b711_source_price.json",
+        "sha256": "ce2a9d983bfe9087b69a78a12ee736e62adba081162e52d1ccad0e5b42a7429e"
+      },
+      "source_domain": {
+        "u": [
+          "1517/2000",
+          "759/1000"
+        ],
+        "r": [
+          "61/250",
+          "123/500"
+        ],
+        "kappa": [
+          "53/100",
+          "4/5"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_rounded_cap": "281667/500000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "73370880517/100000000000",
+              "3016818357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "6760534793972345769/78125000000000000000"
+          },
+          {
+            "diagonal": [
+              "173370880517/100000000000",
+              "54318357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "17217638966806893/9765625000000000000"
+          },
+          {
+            "diagonal": [
+              "2270880517/100000000000",
+              "3016818357/25000000000"
+            ],
+            "off_diagonal": "2238192531/50000000000",
+            "determinant": "57541507012970769/78125000000000000000"
+          }
+        ]
+      },
+      "global_use": "Beyond the listed priced source rectangle, a separate exact outer-price audit is required."
+    },
+    {
+      "name": "new_diffuse_b711",
+      "profile": {
+        "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuse_b711.json",
+        "sha256": "92230015accb7a65213e49146c8c6329b83be925a2f3d4e468c7818d340f8cf4"
+      },
+      "reference_b": "7171/10000",
+      "operator_b": "711/1000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "whole_q_reports": [
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_body.json",
+          "sha256": "84643052c1ef8f981d209ccabaa747e4782206ede1baf429ac4bf7ba580e1fc8",
+          "profile": "interval_new_diffuse_b711",
+          "part": "body",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 3063
+        },
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_exterior.json",
+          "sha256": "199a9b6b088596fead5d36fea52373b541cf7eac6a76d102fa92aeef0692187b",
+          "profile": "interval_new_diffuse_b711",
+          "part": "exterior",
+          "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+          "accepted": 137
+        },
+        {
+          "path": "new_round_2026-10-02/audit/two_source_boxes/reports/independent_interval_new_diffuse_b711_q50_tail.json",
+          "sha256": "55baff57778b82814687aa0078965058050cb441ddf411dade4427b1505f4421",
+          "profile": "interval_new_diffuse_b711",
+          "part": "tail",
+          "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+          "accepted": null
+        }
+      ],
+      "source_audit": {
+        "path": "new_round_2026-10-02/audit/numeric/new_diffuse_tight_b711_source_price.json",
+        "sha256": "6a1a77abe7a9aee111bb4436bfef844f556f440ba252a1ba04c14c82765303ef"
+      },
+      "source_domain": {
+        "u": [
+          "297/400",
+          "743/1000"
+        ],
+        "r": [
+          "29/100",
+          "73/250"
+        ],
+        "kappa": [
+          "0",
+          "1/10"
+        ],
+        "shape": [
+          "2/5",
+          "1"
+        ]
+      },
+      "strict_rounded_cap": "563201/1000000",
+      "six_exact_target_PSD_gates": {
+        "b": "711/1000",
+        "six_PSD_matrices": [
+          {
+            "diagonal": [
+              "374999999998563726361/2500000000000000000000",
+              "1030831250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "2874999999998563726361/2500000000000000000000",
+              "142081250321097061321/2500000000000000000000"
+            ],
+            "off_diagonal": "621740877592048665391/2500000000000000000000",
+            "determinant": "17537500643215313199329/5000000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "0",
+              "0"
+            ],
+            "off_diagonal": "0",
+            "determinant": "0"
+          },
+          {
+            "diagonal": [
+              "73364348303/100000000000",
+              "6033410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "865315963657049520257/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "173364348303/100000000000",
+              "108410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "17630444866499520257/10000000000000000000000"
+          },
+          {
+            "diagonal": [
+              "2264348303/100000000000",
+              "6033410043/50000000000"
+            ],
+            "off_diagonal": "4467485651/100000000000",
+            "determinant": "7365055542449520257/10000000000000000000000"
+          }
+        ]
+      },
+      "global_use": "Beyond the listed priced source rectangle, a separate exact outer-price audit is required."
+    }
+  ],
+  "scope": "Complete independent whole-q and directed restricted-source proofs for two profiles. The formerly pending q prerequisite in the individual source records is resolved here. Added offers only; no complete amplitude coverage/global norm claim. Frozen FINAL711 is unchanged."
+}

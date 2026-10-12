@@ -1,0 +1,29 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_root_kappa175_middle_q25_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa175_middle.json",
+      "profile_sha256": "2703f067bfce460cb5aeb29775f6ace9d7d347fab4e0497ae51844e87e10dc2f",
+      "reserve0": "1/40000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/KAPPA175_MIDDLE_Q25_GATE_MANIFEST.json",
+      "acceptance_sha256": "ea2d63cc2abffded4af35a7a069e2d98ac337e83459a4267c604eb48bae0a61f",
+      "proof_status": "PRODUCER_COMPLETE_WHOLE_Q_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_middle_q25_body.json.gz",
+          "sha256": "70ede8d53513f609b293d73f60eb326074736f6f848ab39b393824f5dfa7ab37"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_middle_q25_exterior.json.gz",
+          "sha256": "53f171c69e5fac7cb10f509963725e1a0cbf18b95ae5a6688e94724921ff812a"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa175_middle_q25_tail.json",
+          "sha256": "2ba6cf3b1e1e8b4f477e077856d7df648e0c1870b9848afb6c6b4c1d1253f626"
+        }
+      ]
+    }
+  ]
+}

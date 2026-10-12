@@ -1,0 +1,148 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_MONOTONE_REFINED_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "713/1000",
+  "norm_upper_bound": "281976359/500000000",
+  "constructive_G_R_lower_bound": "500000000/281976359",
+  "constructive_G_R_lower_bound_display": 1.7731982985140964,
+  "envelope": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+    "sha256": "a8a5a9be33c16ad0f0da95b00914e32f34f6592574431f017e0be4a4ce287f4e"
+  },
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_upper_bound": "563295214999/1000000000000",
+  "full_upper_amplitude_upper_bound": "563952716919/1000000000000",
+  "source_rho": "847/1000",
+  "cumulant_points": 68,
+  "complete_whole_q_profiles": 28,
+  "full_upper_original_cells": 281316,
+  "full_upper_priced_cells": 272579,
+  "proved_physically_empty_full_upper_cells": 8737,
+  "full_upper_complete_groups": 1400,
+  "baseline_native_endpoint_prices": 11648,
+  "independent_R3_corner_prices": 6048,
+  "independent_plane_corner_prices": 2240,
+  "uniform_physical_source_planes": 560,
+  "forward_verified_inverse_source_caps": 250,
+  "fixed_contact_credit_cells": 23,
+  "bindings": {
+    "native_baseline": {
+      "path": "tonight/audit/global_b7171/final57_kappa_native_endpoint_replay.json",
+      "sha256": "215ec2d8475a7c4f8db8125f138200187146e23c94191f49b32425d896e12421",
+      "status": "PASS_INDEPENDENT_ALL_FINAL57_KAPPA_NATIVE_SELECTED_ENDPOINT_PRICES"
+    },
+    "native": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_27_native_transport.json",
+      "sha256": "cec91d2b084d42d54c9dccf28826f6b379bb44264abe629b02a9c3beb624c27c",
+      "status": "PASS_INDEPENDENT_EXACT_REFINED_NATIVE_SMALLER_B_TRANSPORT"
+    },
+    "cache": {
+      "path": "tonight/audit/global_b7171/full_upper57_twentysevenbank_R3_corner_replay.json",
+      "sha256": "377b54ca9b4412c5f019072c6676e615205c81c9bfc03b08f6cd7377d4195bea",
+      "status": "PASS_INDEPENDENT_GENERIC_COMPLETE_R3_KAPPA_CACHE"
+    },
+    "plane": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_27_plane_prices.json",
+      "sha256": "594c15b21c66e7b5cfac7da93f6d70524df6530474b81bb648c82cfd17f18b17",
+      "status": "PASS_INDEPENDENT_UNIFORM_POLYGON_PLANES_AND_INVERSE_CAPS"
+    },
+    "contact": {
+      "path": "tonight/audit/global_b7171/full_upper57_b713_27_contact_credits.json",
+      "sha256": "a67336adbe32d2154b592d1cbba281f4052885ec357f01ba7201cd8d3b6b02e9",
+      "status": "PASS_INDEPENDENT_SELECTED_CONTACT_CREDIT_NUMERIC_BINDINGS"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+      "sha256": "970577cd1b877ac02e1bb41c298e9504cb562de8514e896481e9d02f8343ff64",
+      "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE"
+    },
+    "lower": {
+      "path": "tonight/audit/global_b7171/b713_complete_lower_target_transport.json",
+      "sha256": "db2fa84c782969f27c08c8c3ab8e5c4d68aa1cf3ac86502cda885bdb1687681d",
+      "status": "PASS_INDEPENDENT_COMPLETE_SMALLER_B_LOWER_TARGET_BRANCH"
+    }
+  },
+  "accepted_geometry_proof_chain": [
+    {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+      "sha256": "4d5735d61422ac4517b3b71b6fc04823fdaf4502deeb5b335ad3c2999f1b6302"
+    },
+    {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+      "sha256": "f402d037f5850d8f57a8a4ffef5982c41c0486aa88e153c7db9f4ac346bc652f"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+      "sha256": "970577cd1b877ac02e1bb41c298e9504cb562de8514e896481e9d02f8343ff64"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentyfivebank_monotone_audit.json",
+      "sha256": "2ad6ea6a6a7241856faa51a22e6864df85cedf9de0e487c9e81e3df260983b8e"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentythreebank_monotone_audit.json",
+      "sha256": "2ea51b3208ba13c7c0904f0d203ab0fc79a76da7309941576ea315eada0f5865"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentytwobank_adaptive_audit.json",
+      "sha256": "49aff4709feaac3ea0c6d947b8c7890ff2ea16d038a390cacd387627345ba430"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_twentytwobank_monotone_audit.json",
+      "sha256": "349fa49e8b938fd4ced340310250c46c38f7cc8c9da935ecc6d0af3482c025b5"
+    },
+    {
+      "path": "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+      "sha256": "fafa3892832071e8b5cf48c184b501f843401e1f03166ea38263463d4ebc2c31"
+    }
+  ],
+  "historical_1773_or_1780498_premises_used": false,
+  "analytic_review": "The complete same-coefficient parent proof is retained on the identical exhaustive physical partition. Every changed price is independently recomputed from newly accepted complete whole-line R3 gates, with fresh directed moment corners and exact polygon edge/knot extrema; unchanged parent prices remain valid. The complete lower-amplitude parent bound remains below the final cap. This finite delta uses no inherited historical Grothendieck endpoint premise.",
+  "matrix_sequence_limit": "Actual limit is 1/N(b), at least the certified reciprocal cap; equality to the cap and convergence to unrestricted G_R are not asserted for this fixed family.",
+  "scope": "Complete fresh all-dimension scalar norm and explicit matrix-sequence lower bound. This is not a three-significant-digit enclosure of G_R.",
+  "new_native_endpoint_prices": 13936,
+  "new_uniform_source_planes": 140,
+  "refinement_bindings": {
+    "parent_global": {
+      "path": "tonight/audit/global_b7171/FULLUPPER57_TWENTYSEVENBANK_GLOBAL_ACCEPTANCE.json",
+      "sha256": "f73cb06dcca994bdba4cdcd5fb8c81e0b5678a7cf32ee9df4864e0095e61aa54"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+      "sha256": "f402d037f5850d8f57a8a4ffef5982c41c0486aa88e153c7db9f4ac346bc652f"
+    },
+    "native": {
+      "path": "tonight/audit/global_b7171/full_upper68_b713_native_transport.json",
+      "sha256": "7d740053e6b5f7ee0df5078d74483835575598eb6d78df271e5735c9c73d913b"
+    },
+    "plane": {
+      "path": "tonight/audit/global_b7171/full_upper68_b713_plane_prices.json",
+      "sha256": "b3ec71c0df73930d0f798b139c8a999ac707bc9181a5c7e59b463050f3e275ee"
+    },
+    "baseline": {
+      "path": "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+      "sha256": "df196c7cce6e81e00eb32511031bdde642f3e2b1af6cfb07d10a402c42786186"
+    }
+  },
+  "monotone_bindings": {
+    "parent_global": {
+      "path": "tonight/audit/global_b7171/FULLUPPER68_NATIVE_REFINED_GLOBAL_ACCEPTANCE.json",
+      "sha256": "87edcb1077ef2ba8c528f640b4a7d04e3f23bb6cabffb15886fd7a37b6dfcb69"
+    },
+    "geometry": {
+      "path": "tonight/theory/fullupper_b713_native_kappa68_twentyeightbank_monotone_audit.json",
+      "sha256": "4d5735d61422ac4517b3b71b6fc04823fdaf4502deeb5b335ad3c2999f1b6302"
+    },
+    "new_complete_whole_q_gates": [
+      {
+        "path": "tonight/audit/last20_40_R3_recheck/ACCEPTANCE.json",
+        "sha256": "b4147cde47f8998abaaf1e86deddccfd4432beb96b5b9ff5941dfb662349bf1e",
+        "profile": "last20_40"
+      }
+    ]
+  },
+  "independent_new_corner_prices": 280,
+  "independent_new_polygon_prices": 691
+}

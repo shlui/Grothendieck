@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank49_monotone_rank_upgrade_proposal.json.gz",
+    "sha256": "474f5de48bea90bcfdb8261898a6d34e75effb47d13b8188d3bdd554dfaf84e4"
+  },
+  "profiles": 6,
+  "fresh_tables": 68,
+  "fresh_directed_prices": 272,
+  "reused_tables": 340,
+  "corner_tables": 408,
+  "directed_corner_prices": 1632,
+  "verified_premise_file_count": 36
+}

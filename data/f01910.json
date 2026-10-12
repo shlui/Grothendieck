@@ -1,0 +1,319 @@
+{
+  "status": "PASS_INDEPENDENT_SHARED_CORNER_SIMPLEX_THEOREM_AND_THREE_SELECTED_POLYGON_ASSEMBLIES",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 768,
+    "status": "PASS"
+  },
+  "producer_modules_imported": false,
+  "accepted_linear_contact": {
+    "path": "tonight/audit/linear_contact_bank_independent.json",
+    "sha256": "f586d39886a82e449ebfa8ee1f08417e70503c777cde575b6228e3b8c9204b48"
+  },
+  "fresh_native_endpoint_prices": 672,
+  "cases": [
+    {
+      "source": {
+        "path": "tonight/operator/contact_credit_joint/shared_polygon_actual_worst.json",
+        "sha256": "80f3bb8d83260c5b1f6af63a1f82f3a756b5bc420772ccbb06158fc750da0140"
+      },
+      "source_envelope": {
+        "path": "tonight/recovery/profile_cover/global_middle_b7171_refinedeasy_tenbank_planes_envelope.json",
+        "sha256": "535c38527924b360e4b4a930fa6d3c77bd78fd625f648c7769bfb2f7e14759c5"
+      },
+      "profile": "native:tonight/recovery/profile_cover/critical_extended_r032_b7171_endpoint_ledger.json",
+      "contact_row": 0,
+      "branches": 4,
+      "nonzero_ur_branches": 0,
+      "cap": "564813282537/1000000000000",
+      "baseline_cap": "564813282537/1000000000000",
+      "actual_clipped_domain": {
+        "u": [
+          "293/400",
+          "147/200"
+        ],
+        "r": [
+          "31/100",
+          "39/125"
+        ],
+        "kappa": [
+          "4/5",
+          "1"
+        ]
+      },
+      "accepted_source_primitives": {
+        "kind": "native",
+        "frame": {
+          "mask": "tonight/recovery/profile_cover/critical_extended_r032_b7171_endpoint_ledger.json",
+          "mask_sha256": "fdbe997e36bd81f286f1c5c128f7e8d5151c42d33a7bd107a094df89450148f1",
+          "package": "tonight/native_frames/critical_extended_r032",
+          "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9",
+          "replay_sha256": "e8d1c866d4bc15033387bf20e9179ff795351a33578e21d16bb7655acf2a9ae1"
+        }
+      },
+      "scope": "Only this exact clipped rectangle; complete physical-domain cover is conditional on the source envelope."
+    },
+    {
+      "source": {
+        "path": "tonight/operator/contact_credit_joint/shared_polygon_active_B0.json",
+        "sha256": "1a6f056474e15ce4e2769d2500ebf8f6b7c56b46eda9696a055c6a6d34445aaf"
+      },
+      "source_envelope": {
+        "path": "tonight/operator/contact_credit_joint/diagnostic_linear_active_input.json",
+        "sha256": "74de52fe6b90e8b7a44643726d70a1d8cfbe2db896974ac4e65211d925bd62c5"
+      },
+      "profile": "R3:rank70",
+      "contact_row": 9,
+      "branches": 10,
+      "nonzero_ur_branches": 0,
+      "cap": "563221318731/1000000000000",
+      "baseline_cap": "28161231389/50000000000",
+      "actual_clipped_domain": {
+        "u": [
+          "139/200",
+          "699309044642474171/1000000000000000000"
+        ],
+        "r": [
+          "193/500",
+          "97/250"
+        ],
+        "kappa": [
+          "53/100",
+          "4/5"
+        ]
+      },
+      "accepted_source_primitives": {
+        "profile": {
+          "path": "tonight/operator/projection/lower_amp_certificate/profile_u.70.json",
+          "sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78"
+        },
+        "kind": "rank",
+        "target_reserves": [
+          "1/50000",
+          "1/5000000"
+        ],
+        "q_cover": [
+          {
+            "path": "tonight/operator/projection/lower_amp_certificate/body_u70_finer.json.gz",
+            "sha256": "680ed03839e257c429ec7b843bfe946dfb1aa60ab2e2c80e126f6c2ff309f5c4",
+            "q": [
+              "0",
+              "8"
+            ],
+            "gate_reserve0": "1/50000",
+            "gate_reserve6": "1/5000000",
+            "target_minus_gate_reserve0": "0",
+            "target_minus_gate_reserve6": "0",
+            "accepted_leaves": 11470
+          },
+          {
+            "path": "tonight/operator/projection/lower_amp_certificate/exterior_u70_finer.json.gz",
+            "sha256": "100fc45da0de5219a2329a0c5d82a4c524690b716b103a22512850dc3820a7a5",
+            "q": [
+              "8",
+              "64"
+            ],
+            "gate_reserve0": "1/50000",
+            "gate_reserve6": "1/5000000",
+            "target_minus_gate_reserve0": "0",
+            "target_minus_gate_reserve6": "0",
+            "accepted_leaves": 88
+          }
+        ],
+        "tail_binding": {
+          "path": "tonight/operator/projection/lower_amp_certificate/lower_source_domain_finer.json",
+          "sha256": "3978d84b1b1d9fd1d492747f800908e64e96d8fbecff07a1b4bca6bb3cc448f4",
+          "tail_profile": "70"
+        },
+        "fresh_reconstructed_tail": {
+          "status": "PASS_FRESH_EXACT_TAIL",
+          "R": "64",
+          "difference_polynomial": [
+            "-44242109409776147713338016008876203355150316001822001064837/5610628794810244754571264000000000000000000000000000000000",
+            "-3570036778922385850000685694733/7262575875000000000000000000000",
+            "757788582217224236324045430937103/5544099599614866358272000000000000",
+            "-139940626113991850484008581/14525151750000000000000000000",
+            "-5026693542270443726289869/2643632697875436000000000000",
+            "0",
+            "66003822161351/5810060700000000000"
+          ],
+          "shifted_coefficients": [
+            "4189824191950500540076507660783842606747236775302473185998935163/5610628794810244754571264000000000000000000000000000000000",
+            "751772587977396738214515229527565041779585087/10574530791501744000000000000000000000000",
+            "30432572222063139791221523824130730958911211/10828319530497785856000000000000000000000",
+            "9758986343084614871043084333681091303/165227043617214750000000000000000000",
+            "1840161799748151496957281331/2643632697875436000000000000",
+            "66003822161351/15130366406250000",
+            "66003822161351/5810060700000000000"
+          ]
+        },
+        "accepted_independent_proofs": [
+          {
+            "path": "tonight/audit/lower_amp_R3/independent_70_finer_body.json",
+            "sha256": "954433425dfe73b223ce059baab797de12b38c51308068d32344c8b2734b6500"
+          },
+          {
+            "path": "tonight/audit/lower_amp_R3/independent_70_finer_exterior.json",
+            "sha256": "0d5f061ea1645220a138676aad16ac2298a82f2b2f857cb04a78a0227bfc21b6"
+          },
+          {
+            "path": "tonight/audit/lower_amp_R3/independent_70_finer_tail.json",
+            "sha256": "b6a9ca28afcbd3531f1d716f410a9a3167a389276f7ff4175b8a778a28e78837"
+          }
+        ],
+        "original_spectral_gates": {
+          "b": "18/25",
+          "six_PSD_matrices": [
+            {
+              "diagonal": [
+                "374999999998563726361/2500000000000000000000",
+                "4140000001340692304841/10000000000000000000000"
+              ],
+              "off_diagonal": "1245993579637075594449/5000000000000000000000",
+              "determinant": "0"
+            },
+            {
+              "diagonal": [
+                "2874999999998563726361/2500000000000000000000",
+                "540000001340692304841/10000000000000000000000"
+              ],
+              "off_diagonal": "1245993579637075594449/5000000000000000000000",
+              "determinant": "33569013472029/250000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "0",
+                "0"
+              ],
+              "off_diagonal": "0",
+              "determinant": "0"
+            },
+            {
+              "diagonal": [
+                "5482150693/6250000000",
+                "20539806879/100000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "1479414012431520098127/10000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "11732150693/6250000000",
+                "8539806879/100000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "1280821767275520098127/10000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "982150693/6250000000",
+                "20539806879/100000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "547917143520098127/10000000000000000000000"
+            }
+          ]
+        },
+        "transported_spectral_gates": {
+          "b": "7171/10000",
+          "six_PSD_matrices": [
+            {
+              "diagonal": [
+                "374999999998563726361/2500000000000000000000",
+                "4140000001340692304841/10000000000000000000000"
+              ],
+              "off_diagonal": "1245993579637075594449/5000000000000000000000",
+              "determinant": "0"
+            },
+            {
+              "diagonal": [
+                "2874999999998563726361/2500000000000000000000",
+                "554500001340692304841/10000000000000000000000"
+              ],
+              "off_diagonal": "1245993579637075594449/5000000000000000000000",
+              "determinant": "83375006713761042470269/50000000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "0",
+                "0"
+              ],
+              "off_diagonal": "0",
+              "determinant": "0"
+            },
+            {
+              "diagonal": [
+                "5482150693/6250000000",
+                "20539806879/100000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "1479414012431520098127/10000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "11732150693/6250000000",
+                "25764420637/300000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "3869683891434320294381/30000000000000000000000"
+            },
+            {
+              "diagonal": [
+                "1000275693/6250000000",
+                "20539806879/100000000000"
+              ],
+              "off_diagonal": "3590114493/20000000000",
+              "determinant": "6504461138430098127/10000000000000000000000"
+            }
+          ]
+        },
+        "scope": "The scalar local gate has frozen theta and no actual kappa; its accepted whole-q inequality may be priced at every kappa>=0. Actual moment inputs occur only in the separately convex outer price."
+      },
+      "scope": "Only this exact clipped rectangle; complete physical-domain cover is conditional on the source envelope."
+    },
+    {
+      "source": {
+        "path": "tonight/operator/contact_credit_joint/shared_polygon_active_native_B0.json",
+        "sha256": "0a791b848ea170085c788bccaf1c08e4b46ffd4a5849e4a90666ad16a49966eb"
+      },
+      "source_envelope": {
+        "path": "tonight/operator/contact_credit_joint/diagnostic_native_linear_active_input.json",
+        "sha256": "6cdfabbeb84c014fc4f3e915f970c3abfc9f814043fcd26d64a054d695f1b9a3"
+      },
+      "profile": "native:tonight/recovery/profile_cover/repriced685_b7171_target_mask.json",
+      "contact_row": 10,
+      "branches": 4,
+      "nonzero_ur_branches": 3,
+      "cap": "35219663329/62500000000",
+      "baseline_cap": "35219663329/62500000000",
+      "actual_clipped_domain": {
+        "u": [
+          "71/100",
+          "710241160619504237/1000000000000000000"
+        ],
+        "r": [
+          "183/500",
+          "183241160619504237/500000000000000000"
+        ],
+        "kappa": [
+          "2",
+          "4"
+        ]
+      },
+      "accepted_source_primitives": {
+        "kind": "native",
+        "frame": {
+          "mask": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json",
+          "mask_sha256": "425c97c44ee2d0320f472d5b508fe767240d6cb37638dfa2f9d83fb60c05aa9f",
+          "package": "tonight/native_frames/repriced0685_0700",
+          "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+          "replay_sha256": "555a1c5bb4f2719a89ed7496a60cbceaaf1fd45cd7ae38c8d5b7cc3047df8f88"
+        }
+      },
+      "scope": "Only this exact clipped rectangle; complete physical-domain cover is conditional on the source envelope."
+    }
+  ],
+  "theorem": "Sequential separate convexity yields the same product moment-corner weights for profile and pure-linear contact prices. Relaxing to all nonnegative simplex weights constrained by sum(w_i*P_i)>=a*u+r only enlarges the objective. Vertices are single corners or two-corner intersections with the active source plane; equal-P pairs add no new extremum. Each mixed objective has u^2 coefficient one, so a nondegenerate polygon has no interior maximum. Exact rational hull vertices and every concave edge stationary point therefore certify its maximum. Point/segment degeneracies are included.",
+  "mathematical_cautions": "The claimed source rectangle uses the saved physical_u_upper and physical_r_upper clips. Product-weight relaxation alone neither proves those clips nor the global source cover. The source row and profile remain fixed throughout each selected cell, and no convexity of their pointwise minimum is invoked.",
+  "scope": "The simplex theorem and these three conditional selected source cells only. No new complete global norm bound or Grothendieck approximation follows without exhaustive base-domain acceptance."
+}

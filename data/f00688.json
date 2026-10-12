@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "profiles": [
+    {
+      "name": "new_moderate_crossover_b711",
+      "label": "interval_new_moderate_crossover_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_crossover_fit/certificate/profile_moderate_crossover_b7171.json",
+          "alias": "new_round_2026-10-02/audit/moderate_crossover_source_box/input/profile_interval_new_moderate_crossover_b711.json",
+          "sha256": "830c945c6ff67e6ab35d7c9a150c010137afa1ff9400df24264865a76a3dead8"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_crossover_fit/certificate/body_moderate_crossover_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_crossover_source_box/input/body_interval_new_moderate_crossover_b711.json.gz",
+          "sha256": "2ebd135e269cdbdce1b44ee087ecb3cb30a2253d89584316634aa7df2c1cd912"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_crossover_fit/certificate/exterior_moderate_crossover_q100.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_crossover_source_box/input/exterior_interval_new_moderate_crossover_b711.json.gz",
+          "sha256": "62285522988b36542d2a07323f97927f90efb7ec44f379e1701492db923b99a0"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/moderate_crossover_fit/certificate/tail_moderate_crossover_q100.json",
+          "alias": "new_round_2026-10-02/audit/moderate_crossover_source_box/input/tail_interval_new_moderate_crossover_b711.json",
+          "sha256": "9c9f857e5cd8eba1b8966c19dc987aef80f383c580333f5ff46dde80fbf59e57"
+        }
+      ]
+    }
+  ],
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/moderate_crossover_fit/certificate/MODERATE_CROSSOVER_Q100_GATE_MANIFEST.json",
+    "sha256": "6e0e7dbec093e40042089e7df4fca69db922f89030dcc2d1cf3b488d79827851"
+  }
+}

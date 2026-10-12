@@ -1,0 +1,349 @@
+{
+  "status": "PASS",
+  "source": "/workspace/scratch/8242d848994f/tonight/recovery/profile_cover/lower700_720_frozen_source.json",
+  "rows": [
+    {
+      "row": 0,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 364,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0657712727844222,
+      "seconds": 0.739790678024292,
+      "file": "continuous_scalar_row_00.json"
+    },
+    {
+      "row": 1,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 363,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0657701947440035,
+      "seconds": 0.5295226573944092,
+      "file": "continuous_scalar_row_01.json"
+    },
+    {
+      "row": 2,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 490,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0658172034969133,
+      "seconds": 0.6365389823913574,
+      "file": "continuous_scalar_row_02.json"
+    },
+    {
+      "row": 3,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 346,
+      "tail_cutoff": "64",
+      "largest_corner": 1.070746140526451,
+      "seconds": 0.4820590019226074,
+      "file": "continuous_scalar_row_03.json"
+    },
+    {
+      "row": 4,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 386,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0707434040794208,
+      "seconds": 0.4930095672607422,
+      "file": "continuous_scalar_row_04.json"
+    },
+    {
+      "row": 5,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 529,
+      "tail_cutoff": "64",
+      "largest_corner": 1.070782907532171,
+      "seconds": 0.6863486766815186,
+      "file": "continuous_scalar_row_05.json"
+    },
+    {
+      "row": 6,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 373,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0790372670905937,
+      "seconds": 0.592186450958252,
+      "file": "continuous_scalar_row_06.json"
+    },
+    {
+      "row": 7,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 383,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0790333988803018,
+      "seconds": 0.4085886478424072,
+      "file": "continuous_scalar_row_07.json"
+    },
+    {
+      "row": 8,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 580,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0790604250451261,
+      "seconds": 0.48195409774780273,
+      "file": "continuous_scalar_row_08.json"
+    },
+    {
+      "row": 9,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 315,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0906443667727035,
+      "seconds": 0.23885703086853027,
+      "file": "continuous_scalar_row_09.json"
+    },
+    {
+      "row": 10,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 335,
+      "tail_cutoff": "64",
+      "largest_corner": 1.0906403555193374,
+      "seconds": 0.27266383171081543,
+      "file": "continuous_scalar_row_10.json"
+    },
+    {
+      "row": 11,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 517,
+      "tail_cutoff": "64",
+      "largest_corner": 1.090651031800655,
+      "seconds": 0.33780527114868164,
+      "file": "continuous_scalar_row_11.json"
+    },
+    {
+      "row": 12,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 354,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1055672141932147,
+      "seconds": 0.3073866367340088,
+      "file": "continuous_scalar_row_12.json"
+    },
+    {
+      "row": 13,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 368,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1055619356286617,
+      "seconds": 0.21976089477539062,
+      "file": "continuous_scalar_row_13.json"
+    },
+    {
+      "row": 14,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 499,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1055650916342468,
+      "seconds": 0.38608860969543457,
+      "file": "continuous_scalar_row_14.json"
+    },
+    {
+      "row": 15,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 369,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1238056134820482,
+      "seconds": 0.22579240798950195,
+      "file": "continuous_scalar_row_15.json"
+    },
+    {
+      "row": 16,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 362,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1238050227170835,
+      "seconds": 0.22956204414367676,
+      "file": "continuous_scalar_row_16.json"
+    },
+    {
+      "row": 17,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 592,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1238026177735294,
+      "seconds": 0.364182710647583,
+      "file": "continuous_scalar_row_17.json"
+    },
+    {
+      "row": 18,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 704,
+      "tail_cutoff": "128",
+      "largest_corner": 1.145369181031832,
+      "seconds": 0.8768632411956787,
+      "file": "continuous_scalar_row_18.json"
+    },
+    {
+      "row": 19,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 251,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1453598079007683,
+      "seconds": 0.1797647476196289,
+      "file": "continuous_scalar_row_19.json"
+    },
+    {
+      "row": 20,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 592,
+      "tail_cutoff": "64",
+      "largest_corner": 1.145354847247468,
+      "seconds": 0.35841989517211914,
+      "file": "continuous_scalar_row_20.json"
+    },
+    {
+      "row": 21,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 623,
+      "tail_cutoff": "128",
+      "largest_corner": 1.170234080509288,
+      "seconds": 0.6382129192352295,
+      "file": "continuous_scalar_row_21.json"
+    },
+    {
+      "row": 22,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 280,
+      "tail_cutoff": "64",
+      "largest_corner": 1.170228598793726,
+      "seconds": 0.1705024242401123,
+      "file": "continuous_scalar_row_22.json"
+    },
+    {
+      "row": 23,
+      "status": "PASS_FRESH_COMPLETE_SCALAR_HALF_LINE",
+      "leaves": 602,
+      "tail_cutoff": "64",
+      "largest_corner": 1.1702215324163467,
+      "seconds": 0.3610348701477051,
+      "file": "continuous_scalar_row_23.json"
+    }
+  ],
+  "aggregate_note": "All source rows have complete accepted half-lines, exact source binding, explicit row-specific allowances and valid all-active tail domains.",
+  "allowances": [
+    {
+      "row": 0,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 1,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 2,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 3,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 4,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 5,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 6,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 7,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 8,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 9,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 10,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 11,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 12,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 13,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 14,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 15,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 16,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 17,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 18,
+      "q0": "1/20000",
+      "q6": "1/10000000"
+    },
+    {
+      "row": 19,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 20,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 21,
+      "q0": "1/20000",
+      "q6": "1/10000000"
+    },
+    {
+      "row": 22,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    },
+    {
+      "row": 23,
+      "q0": "1/20000",
+      "q6": "1/1000000000"
+    }
+  ],
+  "tail_branches": {
+    "linear": 24
+  },
+  "total_leaves": 10577
+}

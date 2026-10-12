@@ -1,0 +1,44 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_STRONG_SHAPE_NATIVE_CURVED_RANK_GEOMETRY",
+  "scope": "Exact price/geometry assembly; fresh directed cache and whole-q input acceptance remain separate prerequisites.",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+    "sha256": "6c863600f1b4506c9120feb728bbcb018823f219465b54ea449633bb2200a689"
+  },
+  "protected_parent": {
+    "path": "/workspace/scratch/8242d848994f/verified_2026-10-01/tonight/operator/preferred_global/tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyninebank_envelope.json.gz",
+    "sha256": "c2374d14257d5e3e3014c7939c32f0edf61af7f07a31a94c0ddcb97e18665188"
+  },
+  "operator_b": "711/1000",
+  "original_physical_parent_cells": 272579,
+  "physical_moment_constraint": "4*kappa*zeta-kappa<=54",
+  "new_selected_polygon_offers": 13178,
+  "selected_contact_transports": 22,
+  "six_PSD_profile_checks": 43,
+  "directed_constant_records": 3010,
+  "uniform_source_plane_records": 70,
+  "exact_rank_envelope_offers": 3176,
+  "exact_rank_dominance_regions": 7421,
+  "exact_rank_dominance_vertices": 30292,
+  "fresh_exact_empty_cells": 0,
+  "native_curved_input": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/native_curved_endpoint_prices.json",
+    "sha256": "77881d9d5503ba50aca80c9a0e3b9b8cfa3d06455c170525f7c12878632822f1"
+  },
+  "curved_native_selected_offers": 953,
+  "curved_native_source_pieces": 1074,
+  "curved_native_piece_vertices": 4213,
+  "source_plane_bank": {
+    "path": "/workspace/scratch/8242d848994f/verified_2026-10-01/tonight/operator/preferred_global/tonight/moments/linear_contact_bank/source_bank.json",
+    "sha256": "81501d52d87de02743a955be40ac9157f60098cf940a8aaa65cf3b6e33cba94c"
+  },
+  "maximum": "56367956367761/100000000000000",
+  "strict_upper_cap": "112735913/200000000",
+  "worst_parent_index": 249640,
+  "old_failed_cells": 13356,
+  "new_failed_cells": 4564,
+  "geometry_and_native_knot_basis": "All protected final29 parent cells remain. Physical-shape plane clips and closed rank dominance subpolygons retain every physical point; each new native offer splits every inherited radial knot and first maximizes endpoint caps over a complete closed cumulant-band cover.",
+  "producer_imports": false,
+  "arithmetic": "Python fractions.Fraction",
+  "entrypoint_sha256": "b0db601b6bd870e81a080efad80ad6a592aa9b15e7cb1095c4a618a0ea2a1201"
+}

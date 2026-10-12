@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_ANALYTIC_EVEN_HERMITE_POINCARE_DERIVATION",
+  "proof": "R=norm(X) is Lipschitz and even. Its centered Hermite coefficients have only degrees>=2. Parseval for weak Gaussian derivatives gives sum k||P_kR||^2=E||grad R||^2=1. Therefore VarR<=1/2 and a_d=(d-VarR)/d>=1-1/(2d).",
+  "domain": "0<b<1; integer d>=4; standard Gaussian coordinates",
+  "unchanged_corollary_label": "cor:new-rational-log-cutoff-bound",
+  "new_fragment": {
+    "path": "new_round_2026-10-02/sequence_theory/RATIONAL_LOG_CUTOFF_FINITE_BOUND_POINCARE.tex",
+    "sha256": "0759c29c4ecdc4e310f7469ce558580dcc6ada37dba3d0b701dff2cc36aaede9"
+  },
+  "restored_original_fragment": {
+    "path": "new_round_2026-10-02/sequence_theory/RATIONAL_LOG_CUTOFF_FINITE_BOUND.tex",
+    "sha256": "25a43f3eda43ab1a053a3f88a869cdc9571d2ccbfa5a13aa9c4e02769184ff1c"
+  },
+  "scope": "Analytic proof simplification only. Matrix sequence and finite formula unchanged; no new norm cap."
+}

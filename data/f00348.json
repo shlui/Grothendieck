@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_broad_highk_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_highu_highk_linear_producer_manifest.json",
+    "sha256": "cf57bb8b6b11ed0950bd27e3e88b32106bbf621ebc1967e9a51e74635eb0081a"
+  },
+  "profiles": [
+    {
+      "name": "new_highu_highk_linear_b711",
+      "label": "interval_new_highu_highk_linear_b711",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "tail_R": "64",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_highu_highk_linear_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_highk_linear_source_box/input/profile_interval_new_highu_highk_linear_b711.json",
+          "sha256": "db5b65cdb127ca96ac4ed43972995347f4b4732d2ea323525ed6a3b57291a8b2"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_highu_highk_linear_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_highk_linear_source_box/input/body_interval_new_highu_highk_linear_b711.json.gz",
+          "sha256": "7f05c02eefab82543e056d6da8819170ab1e5638cb563cdd32712ad87ace472e"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_highu_highk_linear_b711_to64.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_highk_linear_source_box/input/exterior_interval_new_highu_highk_linear_b711.json.gz",
+          "sha256": "e633b864c84eff2aaaf3c2f9fc0dfb7c8ebaa7f269fb4f4df890c6fb9d4a812e"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_highu_highk_linear_b711_at64.json",
+          "alias": "new_round_2026-10-02/audit/highu_highk_linear_source_box/input/tail_interval_new_highu_highk_linear_b711.json",
+          "sha256": "dfce2209d03c2bb45b67850700fd1328042b93d3c3f3f17a072c0351aba6c814"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_CURVE12_20_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/curve12_20_literature/profile_rank_exact.json",
+  "profile_sha256": "31aa51ddf29e7e74977464009bed777d63f16b4520f36c059a9d3e90cee5d331",
+  "reserves": [
+    "1/2000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/curve12_20_R3_recheck/independent_interval_curve12_20_curve_body.json",
+      "sha256": "fae7f1c5c3926e42357d17abc06714e2489bba7aca1f89c8dd53b5b4880054c5",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2340,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/curve12_20_R3_recheck/independent_interval_curve12_20_curve_exterior.json",
+      "sha256": "ab2710c143a10c2b13887d0d85ceb29c7dd530e7aa2584c613777a80f06ca9ce",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 141,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/curve12_20_R3_recheck/independent_interval_curve12_20_curve_tail.json",
+      "sha256": "fdb7830aa91fdbf7dbe574141edf87c59ebeae8af9817200594dd507b45dd60c",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "206ad20be4449c6e7b3a20ef2071543e5ffdd80782faa9feea03fdc87da2621a",
+  "adapter_path": "tonight/audit/replay_R3_curve_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance.",
+  "byte_identical_input_aliases": {
+    "tonight/audit/curve12_20_R3_input/profile_interval_curve12_20.json": {
+      "original": "tonight/operator/curve12_20_literature/profile_rank_exact.json",
+      "sha256": "31aa51ddf29e7e74977464009bed777d63f16b4520f36c059a9d3e90cee5d331"
+    },
+    "tonight/audit/curve12_20_R3_input/body_interval_curve12_20.json.gz": {
+      "original": "tonight/operator/curve12_20_literature/body_rank.json.gz",
+      "sha256": "83be478a2149364bace52682232065f8d491ad4c8fae9797d4147bab961c416a"
+    },
+    "tonight/audit/curve12_20_R3_input/exterior_interval_curve12_20.json.gz": {
+      "original": "tonight/operator/curve12_20_literature/exterior_rank.json.gz",
+      "sha256": "06bc7d2e8c728304ad576d30bfb6bbe35afb3a7760b82d7e8d3d3412ad1b9698"
+    },
+    "tonight/audit/curve12_20_R3_input/tail_interval_curve12_20.json": {
+      "original": "tonight/operator/curve12_20_literature/tail32_rank.json",
+      "sha256": "a6df380e99d46b2af972a4c7a93a67983994b308418e034c04fd6bf8ddeb5ad7"
+    }
+  }
+}

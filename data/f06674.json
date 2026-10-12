@@ -1,0 +1,9 @@
+{
+  "status": "PASS_COMPILE_PARSE_RENDER_AND_VISUAL_REVIEW_ALL_PAGES",
+  "pages": 40,
+  "source_sha256": "f778fcae153182900a6b7a14c9a2cdebabc9f3490098748f1d1365f74eaac4fa",
+  "pdf_sha256": "836395a5c09f7fc559940c3046c614537e24fc95e620516a3f19684be0e9533d",
+  "pdf_bytes": 492964,
+  "qa_directory": "/workspace/scratch/8242d848994f/tonight/pdf_qa/final",
+  "visual_review": "All five contact sheets, covering pages 1\u201340, reviewed; readable equations and tables, no clipping or layout defect observed."
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank77_affine_hybrid_proposal.json.gz",
+    "sha256": "2692ed9562bcf545875bb20962f52f001230b0387bdc14bcc2a6482273080812"
+  },
+  "profiles": 10,
+  "profile_kinds": {
+    "full68": "full",
+    "full70": "full",
+    "highk7575": "full",
+    "new_diffuse_u754_b711": "rank",
+    "new_moderate_kappa215_b711": "rank",
+    "new_moderate_kappa4125_b711": "rank",
+    "new_root_kappa175_early_step1_q20_b7171": "rank",
+    "new_root_kappa225_dense_step0_budget01_b7171": "rank",
+    "new_root_kappa225_dense_step5_budget001_b7171": "rank",
+    "new_root_kappa225_neighbor_budget01_b7171": "rank"
+  },
+  "moment_boxes": 240,
+  "corner_tables": 2400,
+  "fresh_directed_prices": 960,
+  "verified_premise_file_count": 585
+}

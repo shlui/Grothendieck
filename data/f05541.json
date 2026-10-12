@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FRESH_PHYSICAL_CENTER_PARTITION_AND_WHOLE_Q_GLUE",
+  "scope": "Whole scalar line for one frozen profile; outer source coverage is separate.",
+  "compact_interval": [
+    "0",
+    "8"
+  ],
+  "leaves_rechecked": 3376,
+  "excluded_boxes_rechecked": 0,
+  "partition_events": 6751,
+  "directed_centers": 3981,
+  "q_nodes": 166,
+  "largest_leaf_residual": "-36369573015177922159803010114722453972958102774923/1000000000000000000000000000000000000000000000000000000000",
+  "seconds": 34.77419066429138,
+  "constant_reserve": "1/50000",
+  "sixth_degree_reserve": "1/1000000",
+  "larger_q_glue": "Previously replayed [8,64] and >=64 tail, dominated constant majorant.",
+  "certificate_sha256": "92ad9ee8fc1c39bc31043176db3dcc476922dc2d9eac59c18f0d7dba3a4e2ff4",
+  "source_hashes": {
+    "certify_local_bernstein_region.py": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad",
+    "certify_local_point.py": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7",
+    "rational_phi_bounds.py": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222",
+    "bernstein_integer_bounds.py": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd",
+    "gaussian_max_certificate.py": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5",
+    "mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/diffuse_u7635_fit/certificate/diffuse_u7635_q20_extra_manifest.json",
+    "sha256": "074d0387d40f5d0283d8c0e091c3e38bddf2684248391a70befc874b2814fd95"
+  },
+  "profiles": [
+    {
+      "name": "new_diffuse_u7635_b711",
+      "label": "interval_new_diffuse_u7635_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_u7635_fit/certificate/profile_diffuse_u7635_b7171.json",
+          "alias": "new_round_2026-10-02/audit/diffuse_u7635_source_box/input/profile_interval_new_diffuse_u7635_b711.json",
+          "sha256": "a85f775d6b8cfd5e68dd0133482e4cfe0744ec3bf3ebbd958ce6b00079df2684"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_u7635_fit/certificate/body_diffuse_u7635_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuse_u7635_source_box/input/body_interval_new_diffuse_u7635_b711.json.gz",
+          "sha256": "ee14f8090fab09ff56e5bbfabba83adf4bc2784d8e3b617d11bae453db6bcf8b"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_u7635_fit/certificate/exterior_diffuse_u7635_q20.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuse_u7635_source_box/input/exterior_interval_new_diffuse_u7635_b711.json.gz",
+          "sha256": "78b8ae9da86ba0792d86edd8939fb8bfd874d7460c944fa2cf4ddd5e41a4f3e0"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_u7635_fit/certificate/tail_diffuse_u7635_q20.json",
+          "alias": "new_round_2026-10-02/audit/diffuse_u7635_source_box/input/tail_interval_new_diffuse_u7635_b711.json",
+          "sha256": "0c0121344efaaed93d51c58df6092e57da18f45b8dc63e241ccb5d86f9249a30"
+        }
+      ]
+    }
+  ]
+}

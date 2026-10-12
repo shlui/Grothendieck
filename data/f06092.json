@@ -1,0 +1,46 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_TARGETED_MIDDLE_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_middle_u7475_r267_k08_1.json",
+  "profile_sha256": "0d9908708672310d9129b2490ad93dd935ed84d468fdb57d33e8cd7855b59930",
+  "reserves": [
+    "1/10000",
+    "1/1000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "16"
+    ],
+    [
+      "16",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/targeted_middle_R3_recheck/independent_interval_middle_u7475_r267_k08_1_middle_body.json",
+      "sha256": "e5369fbff921b420ad6b81076e2af17310a6fb7e23e21e42997f1ed227fd54dc",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4605
+    },
+    "exterior": {
+      "path": "tonight/audit/targeted_middle_R3_recheck/independent_interval_middle_u7475_r267_k08_1_middle_exterior.json",
+      "sha256": "59371bc7df4e43720d8e682bd30abeece7fbe1bb6aec4abb29c3f6f207d9ccf6",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 28
+    },
+    "tail": {
+      "path": "tonight/audit/targeted_middle_R3_recheck/independent_interval_middle_u7475_r267_k08_1_middle_tail.json",
+      "sha256": "160917138f848bf50b9cc9d391bba8171ff6e1798542723e1eda692d9590a9dc",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  },
+  "adapter_sha256": "bb1cf350db18ca91304bc0d9635fdcba2891fbb6d3ec07da654760b00c148c5b",
+  "adapter_review": "Only literal reserves/CLI additions and tail parameter substitution. All point, curvature, Bernstein, physical ellipsoid, and exact tail mathematics unchanged. Tail bound was re-evaluated at16 rather than reusedfrom64.",
+  "scope": "Accepted whole-q physical local gate only; actual moment/source outer price and complete amplitude partition are separate."
+}

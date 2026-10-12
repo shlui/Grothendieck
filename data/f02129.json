@@ -1,0 +1,235 @@
+{
+  "status": "PASS_FRESH_COMPLETE_EXTENDED_CRITICAL_SCALAR_ROWS",
+  "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9",
+  "rows": [
+    {
+      "row_index": 0,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 517,
+      "tail_cutoff": "256"
+    },
+    {
+      "row_index": 1,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 310,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 2,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 287,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 3,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 318,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 4,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 287,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 5,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 394,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 6,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 425,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 7,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 366,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 8,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 494,
+      "tail_cutoff": "256"
+    },
+    {
+      "row_index": 9,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 650,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 10,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 355,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 11,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 350,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 12,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 357,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 13,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 350,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 14,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 402,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 15,
+      "added_q0": "1/20000",
+      "added_q6": "3/10000000",
+      "compact_leaves": 340,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 16,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 458,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 17,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 547,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 18,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 345,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 19,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 341,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 20,
+      "added_q0": "1/20000",
+      "added_q6": "1/100000000",
+      "compact_leaves": 330,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 21,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 412,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 22,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 368,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 23,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 375,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 24,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 392,
+      "tail_cutoff": "256"
+    },
+    {
+      "row_index": 25,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 552,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 26,
+      "added_q0": "1/20000",
+      "added_q6": "1/10000000",
+      "compact_leaves": 318,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 27,
+      "added_q0": "1/20000",
+      "added_q6": "3/100000000",
+      "compact_leaves": 329,
+      "tail_cutoff": "128"
+    },
+    {
+      "row_index": 28,
+      "added_q0": "1/20000",
+      "added_q6": "3/10000000",
+      "compact_leaves": 324,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 29,
+      "added_q0": "1/20000",
+      "added_q6": "3/10000000",
+      "compact_leaves": 327,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 30,
+      "added_q0": "1/20000",
+      "added_q6": "3/10000000",
+      "compact_leaves": 294,
+      "tail_cutoff": "64"
+    },
+    {
+      "row_index": 31,
+      "added_q0": "1/20000",
+      "added_q6": "1/1000000",
+      "compact_leaves": 369,
+      "tail_cutoff": "64"
+    }
+  ],
+  "row_count": 32,
+  "leaf_count": 12283,
+  "repairs_above_requested_q6": 26,
+  "maximum_added_q6": "1/1000000",
+  "scope": "Whole-line scalar rows only, actual q0/q6 repairs must be priced; target already includes physical inflation and receives no second constant padding."
+}

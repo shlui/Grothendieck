@@ -1,0 +1,24 @@
+{
+  "status": "PASS_STRICT_MODIFIED_SEQUENCE_CERTIFICATE",
+  "unperturbed_coefficient": "711/1000",
+  "fresh_uncapped_operator_norm_cap": "281690137769807/500000000000000",
+  "unperturbed_simple_cap": "140845069/250000000",
+  "modified_coefficient": "711000001/1000000000",
+  "modified_norm_cap": "563380277/1000000000",
+  "modified_cap_margin_below_40_over_71": "333/71000000000",
+  "actual_matrix_ratio_limit_lower_bound": "1000000000/563380277",
+  "actual_ratio_limit_lower_bound_decimal": "1.7750000147768752",
+  "strict_ratio_margin_above_71_over_40": "333/22535211080",
+  "sequence": "H_n=H^*_{10^9*2^(n-1)}(711000001/10^9), n>=1",
+  "fresh_directed_price_jobs": 31,
+  "fresh_closed_geometry_stages": 6,
+  "independently_checked_final_leaves": 305039,
+  "immutable_manifest_files_rechecked": 3300,
+  "archive": {
+    "expected_sha256": "35f1119b00800862571051990e2e89eb97f6d32cbcf28d69842bccb4374b4d33",
+    "archive_bytes_checked_in_this_run": true,
+    "path": "/mnt/data/Grothendieck_report_2026-10-02/Grothendieck_reduced_sequence_source_2026-10-01.zip",
+    "sha256": "35f1119b00800862571051990e2e89eb97f6d32cbcf28d69842bccb4374b4d33"
+  },
+  "scope": "All current directed price jobs and six exact current geometry stages freshly replayed. Whole-line local inequalities and the protected original all-local norm proof remain inherited accepted premises; the entire 219-stage local replay was not rerun. New affine helper independently reconstructed and reviewed; no claim to absent original byte identity. No frozen proof input changed."
+}

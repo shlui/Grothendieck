@@ -1,0 +1,30 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_MONOTONE_RANK_CHILD_GEOMETRY",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+    "sha256": "73e209757177e0278cad69b7dc1b96eca888daecce15235770099715c1894eed"
+  },
+  "parent": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank43_u0005_refinement_proposal.json.gz",
+    "sha256": "f7e3ec62679dd1ddcc636c5ea6f1fd40e10572bd2283081a8e3be65296542b8a",
+    "accepted_geometry_report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/u_refinement_geometry.json",
+    "accepted_geometry_report_sha256": "d8644b268c6c580d16e8c12e667f70a946c41684498e5f460fbb682915aeb3c6"
+  },
+  "operator_b": "711/1000",
+  "original_parent_cells": 272579,
+  "closed_u_children": 19693,
+  "nonempty_u_children": 19688,
+  "changed_children": 8222,
+  "fresh_profiles": 27,
+  "fresh_uniform_moment_tables": 1836,
+  "rank_dominance_regions": 13022,
+  "rank_dominance_vertices": 52646,
+  "maximum": "563488931965021/1000000000000000",
+  "strict_upper_cap": "563488933/1000000000",
+  "failed_children": 1155,
+  "cap_relation": "STRICT_UPPER_BOUND",
+  "producer_imports": false,
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "510747f152a4ff8971cfb5cb2b0b419c1e9426654b10de5141e2646bf1b98154",
+  "scope": "Exact unchanged-parent partition and rank-offer assembly only. All new whole-q and directed price inputs still require independent acceptance before norm promotion."
+}

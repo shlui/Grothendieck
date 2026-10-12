@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/REPLAY_MANIFEST.json",
+    "sha256": "99a10f5369fc1c7300206e49cf7d8e1cf8faf0177150f2cf9ee519de2a050828"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+    "sha256": "7a1d97ae95f0f43e39d02ea3add42218ef3be4d58db7c551776d6b51bbefb026"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/reports/independent_interval_new_root_kappa225_dense_step0_budget01_b711_highk01_body.json",
+      "sha256": "b2b8e11c934785e607ba5af4ff95a94f36e12a3353c12103b97083d879f9d725",
+      "profile": "interval_new_root_kappa225_dense_step0_budget01_b711",
+      "part": "body",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1793
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/reports/independent_interval_new_root_kappa225_dense_step0_budget01_b711_highk01_exterior.json",
+      "sha256": "21d908bc2128f46622d10b3f7161241791480b0752acc68fe8620b568388e909",
+      "profile": "interval_new_root_kappa225_dense_step0_budget01_b711",
+      "part": "exterior",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 65
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa225_dense_step0_budget01_source_box/reports/independent_interval_new_root_kappa225_dense_step0_budget01_b711_highk01_tail.json",
+      "sha256": "2aff2feb3ac9ae06573d734ee5f784267b0cfeba0a524905a4ed64f13c333188",
+      "profile": "interval_new_root_kappa225_dense_step0_budget01_b711",
+      "part": "tail",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 5.200090169906616,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

@@ -1,0 +1,385 @@
+{
+  "status": "PASS_INDEPENDENT_FRACTION_ALGEBRA_AND_MPFR_PRICES",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 256,
+    "status": "PASS"
+  },
+  "derivative_numerators": [
+    {
+      "order": 1,
+      "denominator_powers": [
+        2,
+        3
+      ],
+      "coefficients": [
+        {
+          "powers": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": "3"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": "2"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "1/2"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "denominator_powers": [
+        4,
+        5
+      ],
+      "coefficients": [
+        {
+          "powers": [
+            0,
+            4,
+            2
+          ],
+          "coefficient": "36"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            3
+          ],
+          "coefficient": "18"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            4
+          ],
+          "coefficient": "9/4"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": "66"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": "39"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": "6"
+        },
+        {
+          "powers": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": "30"
+        },
+        {
+          "powers": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": "26"
+        },
+        {
+          "powers": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": "11/2"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": "5"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": "2"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            0
+          ],
+          "coefficient": "1/4"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "denominator_powers": [
+        6,
+        7
+      ],
+      "coefficients": [
+        {
+          "powers": [
+            0,
+            6,
+            3
+          ],
+          "coefficient": "756"
+        },
+        {
+          "powers": [
+            0,
+            6,
+            4
+          ],
+          "coefficient": "378"
+        },
+        {
+          "powers": [
+            0,
+            6,
+            5
+          ],
+          "coefficient": "243/4"
+        },
+        {
+          "powers": [
+            0,
+            6,
+            6
+          ],
+          "coefficient": "27/8"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            2
+          ],
+          "coefficient": "1980"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            3
+          ],
+          "coefficient": "1116"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            4
+          ],
+          "coefficient": "837/4"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            5
+          ],
+          "coefficient": "27/2"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            1
+          ],
+          "coefficient": "1728"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            2
+          ],
+          "coefficient": "1194"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            3
+          ],
+          "coefficient": "549/2"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            4
+          ],
+          "coefficient": "171/8"
+        },
+        {
+          "powers": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": "504"
+        },
+        {
+          "powers": [
+            3,
+            3,
+            1
+          ],
+          "coefficient": "540"
+        },
+        {
+          "powers": [
+            3,
+            3,
+            2
+          ],
+          "coefficient": "339/2"
+        },
+        {
+          "powers": [
+            3,
+            3,
+            3
+          ],
+          "coefficient": "17"
+        },
+        {
+          "powers": [
+            4,
+            2,
+            0
+          ],
+          "coefficient": "84"
+        },
+        {
+          "powers": [
+            4,
+            2,
+            1
+          ],
+          "coefficient": "195/4"
+        },
+        {
+          "powers": [
+            4,
+            2,
+            2
+          ],
+          "coefficient": "57/8"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            0
+          ],
+          "coefficient": "21/4"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            1
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "powers": [
+            6,
+            0,
+            0
+          ],
+          "coefficient": "1/8"
+        }
+      ]
+    }
+  ],
+  "majorant_coefficients_without_c": [
+    "331/120",
+    "20/97",
+    "-1096000/265587843",
+    "106274560000/727184560303017"
+  ],
+  "prices": [
+    {
+      "shape": 0,
+      "variance": "371/4500",
+      "price_interval": {
+        "lower": "2.3591572199216469187873997607017412652811030204391672814297364975e0",
+        "upper": "2.3591572199216469187873997607017412652811030204391672814297364976e0"
+      },
+      "source_cap_interval": {
+        "lower": "2.5284429253761267287895326381448673994635083213319520344776535454e-1",
+        "upper": "2.5284429253761267287895326381448673994635083213319520344776535455e-1"
+      },
+      "verified_simple_cap": "252844293/1000000000"
+    },
+    {
+      "shape": 1,
+      "variance": "53/450",
+      "price_interval": {
+        "lower": "2.3572585433868162221564930023545116947820575495007487864468120399e0",
+        "upper": "2.3572585433868162221564930023545116947820575495007487864468120400e0"
+      },
+      "source_cap_interval": {
+        "lower": "2.5094561600278197624804650546725716944730536119477670846484089690e-1",
+        "upper": "2.5094561600278197624804650546725716944730536119477670846484089691e-1"
+      },
+      "verified_simple_cap": "250945617/1000000000"
+    }
+  ],
+  "producer_certificate_sha256": "67adc29049a5693f558226977638e230579f051686d4db6487761257791b3db2",
+  "scope": "All-halfline polynomial source gate; no global operator endpoint."
+}

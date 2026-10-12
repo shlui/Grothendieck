@@ -1,0 +1,41 @@
+{
+  "status": "PASS_PRODUCER_FREE_NATIVE_CUMULANT_REFINEMENT",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+    "sha256": "125ed171cc804e026d868c73351afe47c73ca27ce625cd561af59d8c51551aaa"
+  },
+  "source_sha256": "125ed171cc804e026d868c73351afe47c73ca27ce625cd561af59d8c51551aaa",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentysevenbank_refined_envelope.json.gz",
+    "sha256": "241dfdf71b17a0b868da71d7bb50a8a09d8749644fee60bc932755a60d589c17",
+    "accepted_audit": "tonight/theory/fullupper57_b713_twentysevenbank_monotone_audit.json",
+    "audit_sha256": "970577cd1b877ac02e1bb41c298e9504cb562de8514e896481e9d02f8343ff64"
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "new_native_numeric_audit": {
+    "path": "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+    "sha256": "df196c7cce6e81e00eb32511031bdde642f3e2b1af6cfb07d10a402c42786186"
+  },
+  "cumulant_grid_points": 68,
+  "refined_parents": 364,
+  "exact_child_intervals": 1794,
+  "unchanged_price_cells": 270853,
+  "priced_children": 1726,
+  "exact_empty_children": 68,
+  "total_priced_cells": 272579,
+  "total_empty_cells": 8737,
+  "new_plane_bands": 14,
+  "new_uniform_planes": 140,
+  "new_plane_directed_corner_checks": 560,
+  "new_native_selected_children": 1110,
+  "inherited_selected_children": 616,
+  "native_knot_pieces": 1110,
+  "edge_stationary_points": 262,
+  "maximum_cell_cap": "563952716919/1000000000000",
+  "strict_rational_cap": "281976359/500000000",
+  "proof": "The complete accepted parent cover is retained or exactly partitioned in cumulant. All new planes are independently replayed valid fixed analytic rows. Every selected old parent cap remains physically valid; every new native cap is independently rederived on its complete new source polygon, splitting every radial knot and including edge stationary points."
+}

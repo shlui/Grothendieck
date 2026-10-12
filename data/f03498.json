@@ -1,0 +1,120 @@
+{
+  "status": "PASS_INDEPENDENT_EXACT_REFINED_NATIVE_SMALLER_B_TRANSPORT",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+    "sha256": "dcb089f40be37ae03bf16ff1604897787ec40e2f333ac8e5253d0b14db9d6a51"
+  },
+  "input_sha256": "dcb089f40be37ae03bf16ff1604897787ec40e2f333ac8e5253d0b14db9d6a51",
+  "operator_b": "713/1000",
+  "baseline_b": "7171/10000",
+  "baseline_numeric_audit": {
+    "path": "tonight/audit/global_b7171/final68_kappa_native_endpoint_replay.json",
+    "sha256": "2a54aeb45bccd36c719640c76fd8b4555b8559ff3eee353ee5ad168d4502d651"
+  },
+  "accepted_baseline_directed_prices": 13936,
+  "kappa_bands": 67,
+  "frames": [
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame00_fine_kappa.json",
+      "mask_sha256": "9afd4b7061126bb1d57b57d5c26eb3b73c0afd0c818bdb7b24e59b40a7dffe0c",
+      "package": "tonight/regional_certificates/u0662_0682",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60",
+      "selected_corner_prices_recomputed": 2144,
+      "replay_sha256": "249603987837576e95ef53f8663e6c0d8ae0049b0eec801965bb43de014b362a",
+      "target_gram_cost": "-78208517679194004659146294180996957/110475259243510137500000000000000000",
+      "baseline_gram_cost": "-77755569116295613095396294180996957/110475259243510137500000000000000000",
+      "exact_endpoint_constant_addition": "9459256203662524441423633434367409/51129230000000000000000000000000000000",
+      "target_local_constant_transport": "1614994961600918807072327659526143/5133600000000000000000000000000000000",
+      "normalized_beta_squared": "230713565942988401010332522789449/10000000000000000000000000000000000",
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame01_fine_kappa.json",
+      "mask_sha256": "c64d1e6186dbfd036ca0500c6533962506b01a246b61e09a64f8262e91c66e34",
+      "package": "tonight/native_frames/repriced0685_0700",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+      "selected_corner_prices_recomputed": 2144,
+      "replay_sha256": "555a1c5bb4f2719a89ed7496a60cbceaaf1fd45cd7ae38c8d5b7cc3047df8f88",
+      "target_gram_cost": "-39687391946165299639419115271908319/55267050229479300000000000000000000",
+      "baseline_gram_cost": "-39460797040224434509419115271908319/55267050229479300000000000000000000",
+      "exact_endpoint_constant_addition": "18511014583330500868881375445663/88920400000000000000000000000000000",
+      "target_local_constant_transport": "3160417123983256245906576295601/8928000000000000000000000000000000",
+      "normalized_beta_squared": "10384227693087841950835893542689/400000000000000000000000000000000",
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame02_fine_kappa.json",
+      "mask_sha256": "a22768dce8af6a35e3e0df754e943d8cda215e2b789f4b4463dcdfe30996092a",
+      "package": "tonight/native_frames/repriced0700_0720",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+      "selected_corner_prices_recomputed": 2144,
+      "replay_sha256": "9fa290d2ebe056c00bfc4671c8cafd580323bb235e8e3fdd8ed02dc4267235dd",
+      "target_gram_cost": "-6227372015467386851136505018222299/8812552129749406000000000000000000",
+      "baseline_gram_cost": "-6191240551735414286536505018222299/8812552129749406000000000000000000",
+      "exact_endpoint_constant_addition": "124201880855409298240763001/511292300000000000000000000000",
+      "target_local_constant_transport": "2356133241159525982887103/5704000000000000000000000000",
+      "normalized_beta_squared": "3029314167205104835140561/100000000000000000000000000",
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame03_fine_kappa.json",
+      "mask_sha256": "67ae3e3969b2ba4223e7ad804daeb770e19157cb085c72e609d86233e18df4bf",
+      "package": "tonight/regional_certificates/u077_c",
+      "source_sha256": "e1a793fea166e03dd50de2ee4849b2e66bf1d91b32278a4305f34186a6fa1338",
+      "selected_corner_prices_recomputed": 2144,
+      "replay_sha256": "92f7c896583538001379990635009711b87b070e7980ede6ffb80658ea2b4f4a",
+      "target_gram_cost": "-8816252340290989363481928339379353/33431160839828375000000000000000000",
+      "baseline_gram_cost": "-8679184580847693025981928339379353/33431160839828375000000000000000000",
+      "exact_endpoint_constant_addition": "175851375007299956678399651520761/511292300000000000000000000000000000",
+      "target_local_constant_transport": "30023405489051212115824330747447/51336000000000000000000000000000000",
+      "normalized_beta_squared": "4289057927007316016546332963921/100000000000000000000000000000000",
+      "r_grid_points": 9
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame04_fine_kappa.json",
+      "mask_sha256": "05671b8b3bb2db6d10fe99b7da8f7c8c89dbd81953aad9d34216c626a4779d16",
+      "package": "tonight/regional_certificates/u079_0797885",
+      "source_sha256": "d5ec3008fe256ee3e31d105876948da7caccb68be2673e5088a836af867c6bf6",
+      "selected_corner_prices_recomputed": 1072,
+      "replay_sha256": "46ad627a01b85ed5439d59272b2f0fff23c1eacb5baa1169968ac59cbe4dbfb4",
+      "target_gram_cost": "-1643801267085484989309239556836323/46911115079220560000000000000000000",
+      "baseline_gram_cost": "-1451465695260680693309239556836323/46911115079220560000000000000000000",
+      "exact_endpoint_constant_addition": "21242874954557880015154947072586089/51129230000000000000000000000000000000",
+      "target_local_constant_transport": "402981367701640000287492220889167/570400000000000000000000000000000000",
+      "normalized_beta_squared": "518118901330680000369632855428929/10000000000000000000000000000000000",
+      "r_grid_points": 5
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame05_fine_kappa.json",
+      "mask_sha256": "ed6963c66d0dfd9a0df93d1b0e670e47cc521cd2cd88f85c08a8170ba0d21bb0",
+      "package": "tonight/native_frames/critical0750_0760",
+      "source_sha256": "e2e9ded9da1f455fab4be11e9af60bf077aaf2603c9af78dd6498f6f0312b4e9",
+      "selected_corner_prices_recomputed": 3216,
+      "replay_sha256": "4708e201834b9300aa75ba473d9b1a5b6b743d6b48102d3bb1545a2ef42a152e",
+      "target_gram_cost": "-13352303247340787544278807317367827/28429447301441456250000000000000000",
+      "baseline_gram_cost": "-13235742513404877573653807317367827/28429447301441456250000000000000000",
+      "exact_endpoint_constant_addition": "3921702147528918172314726869463641/12782307500000000000000000000000000000",
+      "target_local_constant_transport": "669558903236644566004953367957207/1283400000000000000000000000000000000",
+      "normalized_beta_squared": "95651271890949223714993338279601/2500000000000000000000000000000000",
+      "r_grid_points": 13
+    },
+    {
+      "mask": "tonight/recovery/profile_cover/kappa_refinement_10_40/frame06_fine_kappa.json",
+      "mask_sha256": "9c7566cd61fa7401209fd310519f02074bd41968161ea6a0d5dbf5dbbbaa60f8",
+      "package": "tonight/native_frames/critical_extended_r032",
+      "source_sha256": "4a3c0dc08f57ae9f336f1967e06710ee804f06e368f4c4a505d9410d709900a9",
+      "selected_corner_prices_recomputed": 1072,
+      "replay_sha256": "e8d1c866d4bc15033387bf20e9179ff795351a33578e21d16bb7655acf2a9ae1",
+      "target_gram_cost": "-13352303247340787544278807317367827/28429447301441456250000000000000000",
+      "baseline_gram_cost": "-13235742513404877573653807317367827/28429447301441456250000000000000000",
+      "exact_endpoint_constant_addition": "3921702147528918172314726869463641/12782307500000000000000000000000000000",
+      "target_local_constant_transport": "669558903236644566004953367957207/1283400000000000000000000000000000000",
+      "normalized_beta_squared": "95651271890949223714993338279601/2500000000000000000000000000000000",
+      "r_grid_points": 5
+    }
+  ],
+  "target_spectral_gates_checked": true,
+  "producer_code_imported": false,
+  "analytic_review": "The frozen target, matrix and scalar rows are unchanged. Every saved four-corner endpoint bound receives exactly beta_norm^2*(1/b-1/b0), while the radial quadratic coefficient receives b-b0. All target-b PSD gates are independently checked. The physical r/kappa/shape domain is unchanged. No new scalar integration is required because the only b-dependence is this exact completion and spectral transport.",
+  "scope": "Exact native numeric premises at the target coefficient only. Complete middle geometry and SAME-b outer amplitude coverage require their separate accepted audits."
+}

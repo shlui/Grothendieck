@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/KAPPA28_EARLIER_GATE_MANIFEST.json",
+    "sha256": "17e3ce09fb1558a70577fd45a47d1d6bce6452dab75677ae0bd8b3216e82c952"
+  },
+  "profiles": [
+    {
+      "name": "new_kappa28_earlier_b711",
+      "label": "interval_new_kappa28_earlier_b711",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa28_earlier.json",
+          "alias": "new_round_2026-10-02/audit/kappa28_earlier_source_box/input/profile_interval_new_kappa28_earlier_b711.json",
+          "sha256": "51197669aa1c42eda18a4b15d33ab3b7dee39216b9e79ad795887b5f67ec3f23"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa28_earlier_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa28_earlier_source_box/input/body_interval_new_kappa28_earlier_b711.json.gz",
+          "sha256": "f2c1276d62b7f34b13e2b828375470ecabdc57ea22f0d26de1a9b977b3a43f18"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa28_earlier_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa28_earlier_source_box/input/exterior_interval_new_kappa28_earlier_b711.json.gz",
+          "sha256": "94971c955d28aa31192ce5cbcfed3489df8da4fbc55529f78f11365a386f3f41"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa28_earlier_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa28_earlier_source_box/input/tail_interval_new_kappa28_earlier_b711.json",
+          "sha256": "f356b143d4f7a33ded832247eed269ad0fbe2b896e65cd0e2e7542e67c9e3c13"
+        }
+      ]
+    }
+  ]
+}

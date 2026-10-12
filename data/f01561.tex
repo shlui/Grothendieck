@@ -1,0 +1,58 @@
+% Analytic criterion only; every numerical use needs its own bound/partition
+% replay. Native radial pieces must be split before applying this lemma.
+\begin{proposition}[A common affine envelope for source prices]
+\label{prop:new-hybrid-affine-source-envelope}
+Let $P$ be a nonempty closed polygon, segment, or point contained in
+$[u_-,u_+]\times[r_-,r_+]$.  Suppose a finite family of independently
+valid upper bounds for a sign-pair objective has the form
+\[
+ F_i(u,r)=u^2+\gamma_i r^2+a_i u+b_i r+c_i.
+\]
+Write $r_0=(r_-+r_+)/2$ and define the affine functions
+\[
+ U_i(u,r)=(u_-+u_++a_i)u-u_-u_++b_i r+c_i+
+ \begin{cases}
+  \gamma_i((r_-+r_+)r-r_-r_+),&\gamma_i\geq0,\\
+  \gamma_i(2r_0r-r_0^2),&\gamma_i<0.
+ \end{cases}
+\]
+For each $i$ form the closed dominance region
+$P_i=P\cap\bigcap_j\{U_i\leq U_j\}$, retaining all its vertices even
+when it is a segment or point.  Then the objective is bounded by
+\[
+ \max_{i:P_i\ne\varnothing}\ \max_{v\in\operatorname{vert}(P_i)}U_i(v)
+       =\sup_{(u,r)\in P}\min_i U_i(u,r).
+\]
+Moreover, with
+$\varepsilon=((u_+-u_-)^2+\max_i|\gamma_i|(r_+-r_-)^2)/4$,
+\[
+ \sup_P\min_iF_i\ \leq\ \sup_P\min_iU_i
+                          \ \leq\ \sup_P\min_iF_i+\varepsilon.
+\]
+All intersections and values are exactly rational when the input is
+rational.  Any nonempty subset of the valid bounds gives a valid
+upper bound by the same construction.
+\end{proposition}
+\begin{proof}
+For $u\in[u_-,u_+]$, the secant error is
+$(u_-+u_+)u-u_-u_+-u^2=(u-u_-)(u_+-u)$, between zero and
+$(u_+-u_-)^2/4$.  For $\gamma_i\geq0$ the corresponding error in
+$r$ is $\gamma_i(r-r_-)(r_+-r)$; for $\gamma_i<0$ the tangent error
+is $-\gamma_i(r-r_0)^2$.  Thus $F_i\leq U_i\leq F_i+\varepsilon$
+on the rectangle.  Taking pointwise minima and then suprema proves
+both inequalities.
+
+The closed regions $P_i$ cover $P$, including ties, and on $P_i$ the
+minimum of the affine functions is $U_i$.  A linear function reaches
+its maximum on a nonempty compact polygon at a vertex; the same
+statement holds for a segment or point.  This proves the displayed
+identity.  Removing bounds increases their pointwise minimum and
+therefore preserves validity.
+\end{proof}
+
+For a native price that is given by different quadratic formulas
+between radial knots, first partition the polygon at every such
+knot and apply the proposition separately to each closed piece.
+Moment and source constants used on a piece must bound the entire
+same moment cell; the lemma does not license mixing coefficients
+from different valid profiles.

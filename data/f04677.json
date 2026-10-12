@@ -1,0 +1,722 @@
+{
+  "status": "PASS_COMPLETE_SAME_OPERATOR_NATIVE_R3_AMPLITUDE_UNION",
+  "operator_b": "7171/10000",
+  "amplitude_interval": [
+    "341/500",
+    "1381/2000"
+  ],
+  "target": "40/71",
+  "maximum_rounded_cell_cap": "563379835873/1000000000000",
+  "native_cells": 9661,
+  "r3_cells": 41,
+  "physical_source_rho": "847/1000",
+  "native_binding": {
+    "path": "tonight/recovery/profile_cover/native_union_b7171_target.json",
+    "sha256": "cbead97ab57f0d164100e462378a7ff93e68dd9a390896c3b8c0d8db22b27b31"
+  },
+  "R3_binding": {
+    "path": "tonight/operator/projection/lower_amp_certificate/b7171_native_remainder_extended_box.json",
+    "sha256": "3e52eb38ec5ad64a91322d45b0ad340b5ad20203c584ebf58282cf287b9aed2c"
+  },
+  "R3_remainder_cells": [
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "70424593789/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "112684533421/200000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "563415997503/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "563389162713/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "281695974539/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "563417185247/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "281704568969/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "47/125",
+        "189/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "281692235913/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "563414223299/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "112687652551/200000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "563428157199/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "70424446949/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "112677941597/200000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "563412353437/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "70428660859/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "563432832047/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "137/200",
+        "69/100"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "281695961467/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "56341014657/100000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "140859015841/250000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "281727926471/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "70428627269/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "0",
+        "1/10"
+      ],
+      "cap": "563396552739/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "563405345337/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "281715290753/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "563448993377/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "35213730707/62500000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "1/10",
+        "3/10"
+      ],
+      "cap": "70423259173/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "47/125",
+        "189/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "140849467021/250000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "281713809779/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "563451659013/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "281734006319/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "70429428879/125000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "3/10",
+        "53/100"
+      ],
+      "cap": "281698609401/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "189/500",
+        "19/50"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "563403104243/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "19/50",
+        "191/500"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "8803527339/15625000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "191/500",
+        "48/125"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "56344268313/100000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "48/125",
+        "193/500"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "563453904547/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "563431778373/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "97/250",
+        "38943846876463833/100000000000000000"
+      ],
+      "kappa_interval": [
+        "53/100",
+        "4/5"
+      ],
+      "cap": "140846309659/250000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "193/500",
+        "97/250"
+      ],
+      "kappa_interval": [
+        "4/5",
+        "1"
+      ],
+      "cap": "281690173337/500000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    },
+    {
+      "u_interval": [
+        "69/100",
+        "1381/2000"
+      ],
+      "r_interval": [
+        "97/250",
+        "38943846876463833/100000000000000000"
+      ],
+      "kappa_interval": [
+        "4/5",
+        "1"
+      ],
+      "cap": "563380336453/1000000000000",
+      "accepted": false,
+      "frame": "tonight/recovery/profile_cover/repriced685_b7171_target_mask.json"
+    }
+  ],
+  "scope": "Complete all-source regional amplitude theorem only. No unrestricted norm or Grothendieck endpoint is asserted.",
+  "proof": "The full directed physical-source partition is explicitly checked. Each cell uses either its accepted native upper bound or the same-b accepted R3 box. All actual source cumulants [0,90] and shapes zeta[2/5,1] are included."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS_PORTABLE_COMPLETE_FULLUPPER_PREFERRED_GLOBAL",
+  "operator_b": "713/1000",
+  "norm_upper_bound": "35245449/62500000",
+  "constructive_G_R_lower_bound": "62500000/35245449",
+  "original_source_sha256": "ea763375a19e63a49174bcf18975c948ab188f993edfb471014cbb2bfec04d2d",
+  "mathematical_and_operational_rewrite_exact": true,
+  "immutable_evidence_manifest_pass": true,
+  "mode": "accepted_fresh_primitive_reports_plus_fresh_prices_and_complete_cover",
+  "scalar_local_primitives_freshly_replayed_this_run": false,
+  "seconds": 602.9986128807068,
+  "original_and_strengthened_base_reused_from_complete_fresh_checkpoint": true,
+  "extension_filter_used": false,
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "scope": "Complete same-coefficient full-amplitude norm and constructive lower bound. The actual matrix sequence limit is 1/N(b); a three-digit enclosure of unrestricted G_R is not asserted.",
+  "cumulant_points": 68,
+  "complete_whole_q_profiles": 29,
+  "full_upper_original_cells": 281316,
+  "full_upper_priced_cells": 272579,
+  "proved_physically_empty_full_upper_cells": 8737,
+  "full_upper_complete_groups": 1400,
+  "baseline_native_endpoint_prices": 11648,
+  "independent_R3_corner_prices": 6048,
+  "independent_plane_corner_prices": 2240,
+  "uniform_physical_source_planes": 560,
+  "forward_verified_inverse_source_caps": 250,
+  "fixed_contact_credit_cells": 23,
+  "new_native_endpoint_prices": 13936,
+  "new_uniform_source_planes": 140
+}

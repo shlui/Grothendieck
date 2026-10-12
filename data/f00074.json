@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+  "profile": "interval_new_diffuse_kappa03_b711",
+  "branch": "q50",
+  "part": "body",
+  "nodes": 7383,
+  "accepted": 3692,
+  "excluded": 0,
+  "distinct_points": 4427,
+  "q_intervals": 366,
+  "largest_directed_gap": "-2714148942455567171826354937678734487719700633265843857284894087453692282783859974183986887700509416088785070600665820600278204718003059001011/486267039023476839218715712435801136761060959808539627538955209729431156878231465768378442219810462877603594240000000000000000000000000000000000000000",
+  "seconds": 6.559104681015015,
+  "tree_sha256": "00a8444de087664cb348176a4dce45afe326b00c77edc726f01590022d1ff75c",
+  "profile_sha256": "34d486409068fe48503fd95af7942650f0fa5542919aca6d276fb542e9068783",
+  "precision_bits": 384,
+  "cubic_integral_backend_sha256": "e4a4eec7ef7a72c708050201129ef8f391e6af2765dbf25b0e8692b71d1ecaf0",
+  "scope": "Frozen R3 physical moment and complete q interval only. Outer source parameters require a separate convex price proof."
+}

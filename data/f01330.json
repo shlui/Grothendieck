@@ -1,0 +1,34 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_highu_highk_linear_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_highu_highk_linear_b711.json",
+      "profile_sha256": "db5b65cdb127ca96ac4ed43972995347f4b4732d2ea323525ed6a3b57291a8b2",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "proof_status": "PRODUCER_COMPLETE_WHOLE_Q_AND_RESTRICTED_PHYSICAL_SHAPE_SOURCE_PRICE_PASS_PENDING_INDEPENDENT_REPLAY",
+      "acceptance_kind": "PRODUCER_ONLY",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_highu_highk_linear_source_box.json",
+      "acceptance_sha256": "28a82fc6a8ab70f7e6d5cbdaac7cd1d68ab1bb8980015893166ab2422df0d197",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_highu_highk_linear_b711.json.gz",
+          "sha256": "7f05c02eefab82543e056d6da8819170ab1e5638cb563cdd32712ad87ace472e"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_highu_highk_linear_b711_to64.json.gz",
+          "sha256": "e633b864c84eff2aaaf3c2f9fc0dfb7c8ebaa7f269fb4f4df890c6fb9d4a812e"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_highu_highk_linear_b711_at64.json",
+          "sha256": "dfce2209d03c2bb45b67850700fd1328042b93d3c3f3f17a072c0351aba6c814"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_highu_highk_linear_source_box.json",
+      "source_price_operator_b": "711/1000",
+      "tail_start": "64"
+    }
+  ]
+}

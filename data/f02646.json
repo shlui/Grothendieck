@@ -1,0 +1,39 @@
+{
+  "status": "FROZEN_INDEPENDENTLY_ACCEPTED_LINEAR_CONTACT_SOURCE_BANK",
+  "files": [
+    {
+      "path": "tonight/moments/linear_contact_bank/README.md",
+      "sha256": "0e52a5444b057700e848466bd78f2340feb7536ba5ad334505a1e527b079a728"
+    },
+    {
+      "path": "tonight/moments/linear_contact_bank/certify_source_bank.py",
+      "sha256": "1ecfec129f4e88dbc82b0db40152183ddd361b11cb958c9662226958196da5b2"
+    },
+    {
+      "path": "tonight/moments/linear_contact_bank/source_bank.json",
+      "sha256": "81501d52d87de02743a955be40ac9157f60098cf940a8aaa65cf3b6e33cba94c"
+    },
+    {
+      "path": "tonight/moments/linear_contact_bank/certification.log",
+      "sha256": "7b37a0de60f926d663e5bc6f3a9b2364090cf0fd94092aba3a888accce2f2423"
+    },
+    {
+      "path": "tonight/moments/linear_contact_bank/independent_replay.json",
+      "sha256": "f586d39886a82e449ebfa8ee1f08417e70503c777cde575b6228e3b8c9204b48"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "tonight/moments/cubic_head_contact/SHA256.json",
+      "sha256": "1599d8e67f0ed5850151e5238f56703508ff86d7ec1f6b7929b2bb3160bae38c"
+    },
+    {
+      "path": "tonight/moments/cubic_head_contact/SHA256_EXTENDED.json",
+      "sha256": "182a35d33d23076a4510d63649c589868dc812a6e3292b8c8169a6c5224c0b24"
+    },
+    {
+      "path": "tonight/audit/verify_linear_contact_bank.py",
+      "sha256": "e77ca44ae7c88d8554e7a2ff0210189e9a0c332eb0f3919a3e45d519c7a8eeb1"
+    }
+  ]
+}

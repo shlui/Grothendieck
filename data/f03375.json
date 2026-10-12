@@ -1,0 +1,18 @@
+{
+  "norm_upper_bound": "56513883/100000000",
+  "constructive_G_R_lower_bound": "100000000/56513883",
+  "middle_price_cells": 39657,
+  "proved_physically_empty_middle_cells": 5,
+  "independent_native_endpoint_prices": 9120,
+  "independent_R3_corner_prices": 504,
+  "independent_physical_inverse_caps": 238,
+  "selected_contact_credit_cells": 226,
+  "status": "PASS_PORTABLE_STRENGTHENED_GLOBAL_B7171",
+  "original_strengthened_envelope_sha256": "eb9410a67000ba887f7dc531915d7d8e1334c4f7078e0787dea272e75edc2a7e",
+  "math_content_equal": true,
+  "immutable_evidence_manifest_pass": true,
+  "mode": "accepted_fresh_primitive_reports_plus_fresh_prices_and_complete_cover",
+  "scalar_local_primitives_freshly_replayed_this_run": false,
+  "seconds": 113.91181826591492,
+  "scope": "Accepted strengthened nine-profile/contact result only. Later joint-credit/middle-profile research upgrades are not global premises here."
+}

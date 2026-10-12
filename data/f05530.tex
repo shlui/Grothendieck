@@ -1,0 +1,71 @@
+% Fragment for the main report.  This is a source-parameter cell theorem,
+% not a global norm theorem and not a new Grothendieck lower bound.
+\begin{proposition}[A complete directed $R_3$ source cell]
+Let $S=P_1-\frac{18}{25}P_3$ on a real Gaussian space of arbitrary finite
+dimension.  For a measurable sign pair $f,g$, choose its polarization so that
+$\langle Sf,g\rangle\ge0$, put $h=(f+g)/2$, $k=(f-g)/2$, and rotate the first
+chaos of $h$ to $P_1h=uZ$.  Write $W$ for the independent transverse Gaussian
+coordinates, $k_0(W)=\mathbb E_Zk(Z,W)$, and
+\[
+ r=\|P_3^W k_0\|_2,\qquad Q=r^{-1}P_3^Wk_0,
+ \qquad \kappa=\mathbb E Q^4-3.
+\]
+If
+\[
+ \frac{7549}{10000}\le u\le\frac{7551}{10000},\qquad
+ \frac{1287}{5000}\le r\le\frac{2577}{10000},\qquad
+ \frac{51}{100}\le\kappa\le\frac{11}{20},
+\]
+then, uniformly over all physical transverse cubic tensors and their shared
+shape parameters,
+\[
+ 0\le\langle Sf,g\rangle
+ \le\frac{28167}{50000}=0.56334<\frac{40}{71}.
+\]
+\end{proposition}
+
+\begin{proof}[Certificate and scope]
+The exact rational profile is recorded in
+\texttt{frozen\_R3\_profile\_exact.json}.  All spectral and residual-projection
+matrix gates are checked by rational determinants.  In raw Hermite
+coordinates $H_2(z)=z^2-1$, $H_3(z)=z^3-3z$, its even matrix is exactly
+$E=pp^{\mathsf T}$.  The positive completion therefore reduces to the three
+physical moment coordinates $(s,m_1,m_3)$, with
+\[
+ \frac{s^2}{p_0^2+2p_2^2}+m_1^2+\frac{m_3^2}{6}\le1.
+\]
+Gaussian reflection permits $m_1\ge0$.  The projection residual
+$\mathcal R=Q^3-(3+\kappa)Q-P_1Q^3$ is retained; its norm and covariance
+prices use the fresh uniform $633$ tensor certificate.
+
+With scalar reserve $2\cdot10^{-5}+10^{-6}q^6$, the complete local gate on
+$0\le q\le8$ is certified by $6751$ rational boxes, $3376$ accepted leaves,
+and exact Bernstein bounds for derivatives of the rational Stein function.
+The interval $8\le q\le64$ has a stronger certificate with $759$ boxes and
+$380$ accepted leaves.  An exact shifted sextic polynomial certifies every
+$q\ge64$.  Reflection covers negative $q$ as well.  Every accepted local box
+uses directed whole-line Gaussian integrals and a quadratic moment-center
+allowance; no numerical maximizer is used for acceptance.
+
+For outer transport, choose
+$y(r)=y_0+E_{02}(r-r_0)$, so the local potential is exactly unchanged.
+Freeze the Stein centering at $\theta_0=53/759$ and retain the nuisance
+covariance correction
+\[
+ +\gamma_2\bigl[\kappa/3-\theta_0(\kappa+2)\bigr].
+\]
+The remaining outer price is convex separately in $u,r,\kappa$ and in the
+shared tensor shape on $[2/5,1]$; the exact coefficient signs are checked by
+the replay.  Directed evaluation of its endpoint vertices gives
+\[
+ \text{price}<0.563333433603497<\frac{28167}{50000}.
+\]
+The optimizer-free replay and the SHA-256 manifest are in
+\texttt{assemble\_local\_gate.py} and
+\texttt{R3\_complete\_local\_and\_outer\_cell.json}.
+
+The parameter restrictions are part of the theorem.  A global bound
+$\|S\|_{\infty\to1}\le40/71$ requires coverage of every remaining admissible
+outer source parameter.  This cell theorem alone yields no new lower bound
+for the Grothendieck constant.
+\end{proof}

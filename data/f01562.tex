@@ -1,0 +1,73 @@
+% A smaller implicit grid at each fixed dimension, not merely reindexing.
+\begin{proposition}[A logarithmic-cutoff reduced sequence]
+\label{prop:new-log-cutoff-sequence}
+Fix $0<b<1$ and a separately certified complete norm cap
+$N(P_1-bP_3)\leq B$.  For each integer $d\geq4$, let
+\[
+ R_d=\min\{R\in\mathbb Z_{\geq1}:\exp(R^2/10)\geq d\}
+           =\lceil\sqrt{10\log d}\rceil.
+\]
+Use mesh $h_d=1/d$ on $[-R_d,R_d]$ in every coordinate, the two
+exterior intervals, odd half-cell compression, and total entrywise
+dyadic approximation error $\eta_d=d^{-2}$.  Apply the same exact
+reduced-class maps.  Write the resulting rational matrix as $H_d^*(b)$.
+Put
+\[
+ p_d=\min\left(1,\frac{2d\varphi(R_d)}{R_d}\right),\quad
+ q_d(b)=a_d\left(1-\frac b{2(d+2)}\right),
+\]
+\begin{align*}
+ \mathcal L_d^*(b)={}&\frac1d
+ \left[\frac{1-b/2}{d-1}+\frac b{2(d+2)}+\frac b{d-2}\right]\\
+ &+4\left[1-\frac b2+\frac b2\sqrt{\frac{d+4}{d+2}}\right]
+                                      \sqrt{p_d}+4bp_d.
+\end{align*}
+Then
+\[
+ G(H_d^*(b))\geq
+ \frac{\max(0,q_d(b)-\mathcal L_d^*(b)-d^{-2})}{B+d^{-2}}.
+\]
+The actual ratios converge to $1/N(P_1-bP_3)$.
+The displayed certified lower bounds converge to $1/B$ at rate
+$O(d^{-1})$, with $\mathcal L_d^*(b)=O(d^{-2})$.
+Each coordinate has only $2dR_d+2=O(d\sqrt{\log d})$ intervals,
+instead of $O(d^{3/2})$ for cutoff $\sqrt d$ at the same mesh.
+The implicit half-cell count is $(2dR_d+2)^d/2$, before further
+rational cloning; no practical enumeration guarantee is asserted.
+\end{proposition}
+\begin{proof}
+Mills' inequality and the coordinate union bound give clipping
+probability at most $p_d$.  From the definition of $R_d$,
+\[
+ \varphi(R_d)\leq(2\pi)^{-1/2}d^{-5},\qquad
+ p_d\leq\sqrt{2/\pi}\,d^{-4}/R_d\leq d^{-4}.
+\]
+The exact radial/unit-field calculation in the powered-dimension
+proposition gives $\mathcal L_d^*$ after substituting $h=1/d$ and
+this clipping probability.  Its bulk term is $O(d^{-2})$, and
+the displayed probability bound gives the same order for its tail.
+Entrywise approximation and exact cloning/balancing give the finite
+ratio bound.  Both $R_d\to\infty$ and $h_d\to0$, so conditional
+averaging of every fixed cylindrical odd function still converges
+in $L_2$, proving the qualitative scalar norm limit.  The radial
+unit field proves vector norm convergence to one.
+Finally $q_d(b)=1-(1+b)/(2d)+O(d^{-2})$, proving the stated
+rate only for the certified lower bounds.
+
+The integer cutoff can be computed without assuming a floating
+logarithm is exact.  Test $\exp(R^2/10)\geq d$ with increasingly
+precise directed intervals.  Equality is impossible for positive
+$R$ and integer $d$, because the exponential of a nonzero algebraic
+number is transcendental.  Therefore every comparison terminates
+and determines the smallest admissible integer.
+\end{proof}
+
+\paragraph{Compatibility with a powered index and an odd tail.}
+Taking $d=n^4$ retains certified lower-bound rate $O(n^{-4})$, now
+with $2n^4R_{n^4}+2$ intervals in each coordinate and rational error
+$n^{-8}$.  For the normalized tail family with
+$\alpha=1-\tau\geq b/2$, replace $q_d$ by
+$\tau+\alpha a_d-be_3$ and replace each $1-b/2$ in the loss formula
+by $\alpha-b/2$.  Its uniform scalar norm needs a separate complete
+certificate.  There is still no quantitative rate claimed for the
+actual denominator convergence.

@@ -1,0 +1,106 @@
+{
+  "status": "PASS_INDEPENDENT_ALL_LINE_CUBIC_HEAD_CONTACT_GATE",
+  "input_sha256": "3826dff3d6e714276380bda4fcee40b6757162786f514a3597616a8207e53613",
+  "precision_bits": 768,
+  "positive_derivative_numerators": [
+    {
+      "order": 1,
+      "coefficient_count": 5,
+      "minimum_coefficient": "1"
+    },
+    {
+      "order": 2,
+      "coefficient_count": 12,
+      "minimum_coefficient": "1"
+    },
+    {
+      "order": 3,
+      "coefficient_count": 22,
+      "minimum_coefficient": "1"
+    }
+  ],
+  "directed_coefficients_checked": 28,
+  "directed_moment_prices_checked": 98,
+  "rows": [
+    {
+      "contact_w": "3/5",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-82880749059533107/25000000000000000000",
+        "2043121631954231/20000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "29447767115782019/10000000000000000"
+    },
+    {
+      "contact_w": "7/10",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-163354119382246061/50000000000000000000",
+        "9337856327984379/100000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "14700737760369053/5000000000000000"
+    },
+    {
+      "contact_w": "13/10",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-58557178595977249/20000000000000000000",
+        "279116453673023/5000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "14606369439461517/5000000000000000"
+    },
+    {
+      "contact_w": "2",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-250858293375442739/100000000000000000000",
+        "3211460832706083/100000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "29107947913036453/10000000000000000"
+    },
+    {
+      "contact_w": "3",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-197669323782020527/100000000000000000000",
+        "392372124458193/25000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "14526139889538639/5000000000000000"
+    },
+    {
+      "contact_w": "189/50",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-163849393411225061/100000000000000000000",
+        "23608461930109/2500000000000000000"
+      ],
+      "uniform_kappa2_4_price": "29040583649083683/10000000000000000"
+    },
+    {
+      "contact_w": "17/4",
+      "coefficients": [
+        "137957132894348330419/50000000000000000000",
+        "1510422344526876849/10000000000000000000",
+        "-36638569917547417/25000000000000000000",
+        "708191689280161/100000000000000000000"
+      ],
+      "uniform_kappa2_4_price": "29044047108687857/10000000000000000"
+    }
+  ],
+  "producer_code_imported": false,
+  "analytic_review": [
+    "Gprime=nu/2 integral_0^1 exp(-wt^2/2)/(A+Bw) dt.",
+    "Exact recurrence proves Ktau derivatives signs through order3 and hence G fourth derivative nonpositive globally.",
+    "Repeated-node Hermite remainder applies outside contact interval; all-line majorant follows.",
+    "All coefficients already contain nu; componentwise rational upward rounding preserves comparison.",
+    "Physical source inequality uses diamond and independence of transverse Q and longitudinal Z.",
+    "Fixed nonnegative lambda credit has PLUS beta*d/b and retains local gates; no pointwise-min convexity inference permitted."
+  ],
+  "scope": "Accepted additional physical source gate and fixed-lambda credit. Does not alone prove a global norm bound."
+}

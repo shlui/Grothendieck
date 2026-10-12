@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa26_source_box/REPLAY_MANIFEST.json",
+    "sha256": "2599ee4d0a166ba44af763ad334ce0080cb5390df899988ef7e81addb5634208"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa26_source_box/reports/independent_interval_new_kappa26_b711_q50_body.json",
+      "sha256": "d4cc96fb31552a18f898bb05c161068469656cde10cff704e0f0459781e8c1ec",
+      "profile": "interval_new_kappa26_b711",
+      "part": "body",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3102
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa26_source_box/reports/independent_interval_new_kappa26_b711_q50_exterior.json",
+      "sha256": "eb61ff8d80333a13d326b159d1c7fc79a59bdf1a3f06d509022a641897ed7f4e",
+      "profile": "interval_new_kappa26_b711",
+      "part": "exterior",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 213
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa26_source_box/reports/independent_interval_new_kappa26_b711_q50_tail.json",
+      "sha256": "2ecd23e5420a9e37c8ea64914d3b0d22762c017190db55dbd6f43b2513d784c0",
+      "profile": "interval_new_kappa26_b711",
+      "part": "tail",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 4.454707145690918,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

@@ -1,0 +1,81 @@
+{
+  "status": "PASS_REPOSITORY_LAYOUT_INVENTORY_AND_PLANS",
+  "date": "2026-10-04",
+  "top_level_directory": "Grothendieck",
+  "folders": [
+    "data",
+    "inv",
+    "s",
+    "tools"
+  ],
+  "root_files": [
+    ".dockerignore",
+    ".gitattributes",
+    ".gitignore",
+    "CHECKSUMS.sha256",
+    "Dockerfile",
+    "PROVENANCE.md",
+    "README.md",
+    "paths.json",
+    "requirements.txt"
+  ],
+  "current_main_paper_included": false,
+  "current_verification_included": false,
+  "omitted_publication_files": [
+    "docs/verification.pdf",
+    "docs/verification.tex",
+    "paper/paper.pdf",
+    "paper/paper.tex",
+    "paper/prev.pdf",
+    "paper/prev.tex"
+  ],
+  "removed_unused_path_map_entries": {
+    "paper/Grothendieck_streamlined.pdf": "paper/paper.pdf",
+    "paper/Grothendieck_streamlined.tex": "paper/paper.tex"
+  },
+  "frozen_inputs_checker_sources_and_saved_certificates_unchanged": true,
+  "inventory_mode_result": {
+    "status": "PASS_PACKAGED_VERIFICATION_INVENTORY",
+    "original_archive_files_checked": 7647,
+    "frozen_manifest_entries": 3300,
+    "distinct_frozen_manifest_files": 3292,
+    "packaged_verification_files": 7755,
+    "frozen_manifest_sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a",
+    "package_inventory_sha256": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "logical_path_map_sha256": "ac35ca2f97accef1814c3da52c177ea137bafc62c1ddb835e6b50b0543ebf6c2",
+    "mapped_package_members": 7775,
+    "compact_physical_paths_validated": true,
+    "mathematical_replay_performed": false
+  },
+  "stage_plan_checks": {
+    "strict": {
+      "stages": 37,
+      "numerical_stages_executed": false
+    },
+    "full": {
+      "stages": 219,
+      "numerical_stages_executed": false
+    }
+  },
+  "separately_delivered_verification": {
+    "pages": 17,
+    "statement_count": 4,
+    "mathematical_formulas_and_result_statements_unchanged": true,
+    "equation_and_theorem_numbers_unchanged": true,
+    "named_proof_headings": 5,
+    "unresolved_references": [],
+    "compiler_issues": [],
+    "source_sha256": "7920c73a496e770149a25265d128ee29a16cd6d1cf8d8131a84f09e64bd3be0f",
+    "pdf_sha256": "49f1f3d17900aff65264b31fe54de746fa9bd5a6dc35c6ab59e932f062dded5d",
+    "final_rendered_pages_inspected": true,
+    "document_distributed_separately": true,
+    "text_within_page_bounds": true
+  },
+  "full_or_strict_numerical_replay_performed": false,
+  "source_package_sha256": "6bb09c5e50113636ac569c76a1ed4b8eee3de36e79a1b204cce710e8b0813cf6",
+  "all_repository_checksums_valid": true,
+  "all_mapped_files_exist": true,
+  "root_configuration_preserves_exact_git_bytes": true,
+  "markdown_links_resolve": true,
+  "github_publication_performed": false
+}

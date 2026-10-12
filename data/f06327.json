@@ -1,0 +1,36 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_TARGETED_LOWR_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_lowr_u76_r16_k0_2.json",
+  "profile_sha256": "0acb51e62ac020cb729c4464d64b04aeafeefd844276f99debe0d4d471d009a9",
+  "reserves": [
+    "1/1000",
+    "1/1000000"
+  ],
+  "q_domain": [
+    "0",
+    "infinity"
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/targeted_lowr_R3_recheck/independent_interval_lowr_u76_r16_k0_2_generous_body.json",
+      "sha256": "5b7b407f6a0c437962c5c3a29fb1130a4a9033a7851f88d851f049ce1c959ef3",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5701
+    },
+    "exterior": {
+      "path": "tonight/audit/targeted_lowr_R3_recheck/independent_interval_lowr_u76_r16_k0_2_generous_exterior.json",
+      "sha256": "d81db66ef868e5cfd5fe3fb9148ec3d5d1125f5fef5ab6ac1bf6a90b795e39c5",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 45
+    },
+    "tail": {
+      "path": "tonight/audit/targeted_lowr_R3_recheck/independent_interval_lowr_u76_r16_k0_2_generous_tail.json",
+      "sha256": "8c1a0b4a3e04806c59a606a7898e9f119a0335f3c072f0c0bc30bb46bda6e598",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  },
+  "adapter_sha256": "62eea471e3eb00e385e8ff882e64dc2a7199ffd3d7a618a7b38e89997865316d",
+  "adapter_change": "Only literal generous reserve branch and CLI choice added; all mathematical code identical to independently audited physical q replay.",
+  "scope": "Whole-q physical local gate only. Exact outer source prices and exhaustive physical source coverage remain separate."
+}

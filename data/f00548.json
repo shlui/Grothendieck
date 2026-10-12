@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_dense_highk_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_extra_manifest.json",
+    "sha256": "a2850aeaa472cbe764805770244e77ca9414aa926964f628037eb6e865525af3"
+  },
+  "profiles": [
+    {
+      "name": "new_root_kappa225_neighbor_budget01_b711",
+      "label": "interval_new_root_kappa225_neighbor_budget01_b711",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "tail_R": "64",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa225_neighbor.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input/profile_interval_new_root_kappa225_neighbor_budget01_b711.json",
+          "sha256": "f1dcfea5e9d00f4bdebd8b955b665a5012bc03d441e698a8816c1eddbd039b0e"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input/body_interval_new_root_kappa225_neighbor_budget01_b711.json.gz",
+          "sha256": "cc4df86e951465127e793cad9afdc4d2abe619bdb810fc0d66b73c2269e5e427"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input/exterior_interval_new_root_kappa225_neighbor_budget01_b711.json.gz",
+          "sha256": "e03df75ffc84934447fcf272c332a0433a84a0055fa4eb6a84317a276054f3ee"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa225_neighbor_budget01_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa225_neighbor_budget01_source_box/input/tail_interval_new_root_kappa225_neighbor_budget01_b711.json",
+          "sha256": "90ff12bd9ba62b90eeabd0b5604aa4a9daab4179cf4bf404b9829e8e62992946"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_highu_kappa09_producer_manifest.json",
+    "sha256": "07926999db8eed7ea9f1ea1f5b65fbf4b647852ceecde8b6cf1b2aae426be04c"
+  },
+  "profiles": [
+    {
+      "name": "new_highu_kappa09_b711",
+      "label": "interval_new_highu_kappa09_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_highu_kappa09_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa09_source_box/input/profile_interval_new_highu_kappa09_b711.json",
+          "sha256": "2d587767dd67485c8855934819a95d9ccea9ca71bfd3ba1326dacdc5b0b151d4"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_highu_kappa09_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa09_source_box/input/body_interval_new_highu_kappa09_b711.json.gz",
+          "sha256": "c356ea012f9d91ff39115698abc51a68772e4e33c46a88a6e6ecc4bfd4fe69c4"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_highu_kappa09_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/highu_kappa09_source_box/input/exterior_interval_new_highu_kappa09_b711.json.gz",
+          "sha256": "09b3aa562f231ceed931cd71f56f2b83a54cc0f3ab04c5e5bdc9481db970d4c4"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_highu_kappa09_b711.json",
+          "alias": "new_round_2026-10-02/audit/highu_kappa09_source_box/input/tail_interval_new_highu_kappa09_b711.json",
+          "sha256": "3e6074a2fcae89edb666f24d2605cf3206b6f15feb3873824166c73ecf83cd30"
+        }
+      ]
+    }
+  ]
+}

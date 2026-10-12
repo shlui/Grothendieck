@@ -1,0 +1,360 @@
+{
+  "mode": "strict",
+  "top_level_stages": 37,
+  "stages": [
+    {
+      "name": "BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_linear_tensor_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_linear_tensor_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK48_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank48_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank48_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK48_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK49_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank49_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank49_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK49_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK50_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank50_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank50_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK50_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK52_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank52_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank52_monotone_rank_upgrade_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK52_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK55_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank55_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank55_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK55_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK59_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank59_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank59_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK59_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK63_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank63_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank63_monotone_rank_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK63_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK66_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank66_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank66_full_rank_peak_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK66_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_MONOTONE_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_monotone_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK70_MONOTONE_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank63_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank63_kappa_shape2_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank66_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank66_kappa_shape2_fullrank_refinement_pending_components.json.gz",
+        "--output",
+        "{numeric}/BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_split_linear_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank70_split_linear_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank73_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank73_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank76_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank76_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank77_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank77_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank78_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank78_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank80_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank80_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank81_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank81_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank83_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank83_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank84_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank84_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank86_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank86_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank88_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank88_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_affine_hybrid_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank84_kappa6_moment2_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank84_kappa6_moment2_affine_delta_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank86_final_moment2_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank86_moment2_final_refinement_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_final_moment2_goal_R3_cache.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY",
+      "script": "new_round_2026-10-02/audit/numeric/replay_bank89_final_moment2_goal_B0_planes.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "--output",
+        "{numeric}/BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY.json"
+      ]
+    },
+    {
+      "name": "native_curved",
+      "script": "new_round_2026-10-02/audit/numeric/replay_curved_native_prices.py",
+      "args": [
+        "--source",
+        "new_round_2026-10-02/native_curved_endpoint_prices.json",
+        "--output",
+        "{numeric}/native_curved.json"
+      ]
+    },
+    {
+      "name": "strong43_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_strong_shape_geometry.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_strong_shape_rank_envelope_proposal.json.gz",
+        "{output}/strong43_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "u_refinement_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_u_refinement_geometry.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank43_u0005_refinement_proposal.json.gz",
+        "{output}/u_refinement_geometry.json",
+        "--parent-report",
+        "{output}/strong43_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "layer_00_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_monotone_rank_children_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+        "{output}/layer_00_geometry.json",
+        "--parent-report",
+        "{output}/u_refinement_geometry.json"
+      ],
+      "compatibility_copy": false
+    },
+    {
+      "name": "layer_01_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_rank_child_moment_refinement_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+        "{output}/layer_01_geometry.json",
+        "--parent-report",
+        "{output}/layer_00_geometry.json"
+      ],
+      "compatibility_copy": true
+    },
+    {
+      "name": "layer_02_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_affine_hybrid_delta_v2.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+        "{output}/layer_02_geometry.json",
+        "--parent-report",
+        "{output}/layer_01_geometry.json"
+      ],
+      "compatibility_copy": true
+    },
+    {
+      "name": "final_geometry",
+      "script": "new_round_2026-10-02/sequence_theory/audit_affine_moment_subrefinement.py",
+      "args": [
+        "new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+        "{output}/final_geometry.json",
+        "--parent-report",
+        "{output}/layer_02_geometry.json"
+      ],
+      "compatibility_copy": true
+    }
+  ],
+  "supplemental_checks": [
+    "exact uncapped 305039-leaf assembly",
+    "finite modified-sequence arithmetic",
+    "independent affine helper fixtures",
+    "fresh report/hash acceptance"
+  ],
+  "materialization_root": "/workspace/scratch/8242d848994f",
+  "source_root": "/workspace/scratch/7cbe1f6dcfec/revision4/github/Grothendieck/verification/frozen",
+  "full_local_replay": false,
+  "mathematical_replay_performed": false
+}

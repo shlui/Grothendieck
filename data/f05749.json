@@ -1,0 +1,50 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_LOWERDIFFUSE_U72125_K0_01_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_lowerdiffuse_u72125_k0_01.json",
+  "profile_sha256": "5d7ceb48c37e88bb9d532e327b044ab56d978d2bd7bcec09127263ff91905ef0",
+  "reserves": [
+    "1/10000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/lowerdiffuse_u72125_R3_recheck/independent_interval_lowerdiffuse_u72125_k0_01_lowerface_body.json",
+      "sha256": "5660e62367d138cb602fb19ec27f45ac816452be0754e4b8d85721b60cd257e2",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3231,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/lowerdiffuse_u72125_R3_recheck/independent_interval_lowerdiffuse_u72125_k0_01_lowerface_exterior.json",
+      "sha256": "dbd9494949bfeaef1f69e4fe6c344b582e37379b11fb4cc955b0b0845135d808",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 21,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/lowerdiffuse_u72125_R3_recheck/independent_interval_lowerdiffuse_u72125_k0_01_lowerface_tail.json",
+      "sha256": "907d2b4a61dd940bf4c4682dba6e814d4ad67d76f2d0a3e616c0a263e96ea167",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "2824b098fc2d657d3ad16b30557f45ad6c2e81e1d45d855d75f0b58d8d9b9c3a",
+  "adapter_path": "tonight/audit/replay_R3_lowerface_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance."
+}

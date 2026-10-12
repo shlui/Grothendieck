@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_LINEAR_CONTACT_SOURCE_BANK",
+  "input_sha256": "81501d52d87de02743a955be40ac9157f60098cf940a8aaa65cf3b6e33cba94c",
+  "precision_bits": 768,
+  "base_rows": 6,
+  "base_coefficients_checked": 24,
+  "exact_scaled_rows": 60,
+  "directed_endpoint_prices": 1800,
+  "frozen_boxes_checked": 227,
+  "ledger_reports": [
+    {
+      "source": "tonight/recovery/profile_cover/native_union_b7171_target.json",
+      "boxes": 70,
+      "reduced": 45,
+      "excluded": 0
+    },
+    {
+      "source": "tonight/recovery/profile_cover/native_upper_b7171_target_union.json",
+      "boxes": 157,
+      "reduced": 101,
+      "excluded": 0
+    }
+  ],
+  "producer_code_imported": false,
+  "analytic_review": "Positive rational homogeneity preserves the accepted all-line majorants, including negative q4. Every selected row is fixed over its entire source box. q6>0 makes price convex in cumulant and affine in shape; subtracting positive a*u makes u_lo its uniform upper source cap. Only strict cap<r_lo yields a complete physical exclusion.",
+  "scope": "Additional all-source physical inequalities and frozen-box clipping only, not a complete global norm certificate."
+}

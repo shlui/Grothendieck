@@ -1,0 +1,15 @@
+{"tables": 67, "fresh_directed_endpoint_prices": 2144, "seconds": 1.73}
+{"tables": 134, "fresh_directed_endpoint_prices": 4288, "seconds": 3.6}
+{"tables": 201, "fresh_directed_endpoint_prices": 6432, "seconds": 5.45}
+{"tables": 268, "fresh_directed_endpoint_prices": 8576, "seconds": 7.69}
+{"tables": 335, "fresh_directed_endpoint_prices": 9648, "seconds": 9.25}
+{"tables": 402, "fresh_directed_endpoint_prices": 12864, "seconds": 12.26}
+{"tables": 469, "fresh_directed_endpoint_prices": 13936, "seconds": 12.88}
+{
+  "status": "PASS_INDEPENDENT_CURVED_NATIVE_SELECTED_ENDPOINT_PRICES",
+  "operator_b": "711/1000",
+  "curved_uniform_tables": 469,
+  "selected_endpoint_prices_recomputed": 13936,
+  "distinct_expanded_prices": 8412,
+  "seconds": 12.91943359375
+}

@@ -1,0 +1,777 @@
+[
+  {
+    "row": 0,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 469,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 1,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 444,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 2,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 422,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 3,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 395,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 4,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 397,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 5,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 489,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 6,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 554,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 7,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 600,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 8,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 378,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 9,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 365,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 10,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 304,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 11,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 327,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 12,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 331,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 13,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 424,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 14,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 492,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 15,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 539,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 16,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 352,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 17,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 337,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 18,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 278,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 19,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 318,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 20,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 328,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 21,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 415,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 22,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 482,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 23,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 530,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 24,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 366,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 25,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 356,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 26,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 292,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 27,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 333,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 28,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 338,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 29,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 417,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 30,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 467,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 31,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 523,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 32,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 406,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 33,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 375,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 34,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 356,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 35,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 331,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 36,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 358,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 37,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 452,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 38,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 511,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 39,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 594,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 40,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 394,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 41,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 391,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 42,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 380,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 43,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 339,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 44,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 362,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 45,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 410,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 46,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 496,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 47,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 534,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 48,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 401,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 49,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 389,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 50,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 354,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 51,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 373,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 52,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 393,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 53,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 389,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 54,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 465,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 55,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 529,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 56,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 358,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 57,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 364,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 58,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 321,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 59,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 347,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 60,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 355,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 61,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 341,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 62,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 422,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 63,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 508,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 64,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 346,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 65,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 365,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 66,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 345,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 67,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 337,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 68,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 343,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 69,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 384,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 70,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 470,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 71,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 545,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 72,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 387,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 73,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 367,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 74,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 361,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 75,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 332,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 76,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 349,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 77,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 407,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 78,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 499,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 79,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 562,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 80,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 355,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 81,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 279,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 82,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 326,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 83,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 337,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 84,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 345,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 85,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 389,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 86,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 453,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 87,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 533,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 88,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 357,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 89,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "FAIL_NOT_ACCEPTED",
+    "error": "('COMPACT_FAIL', 89, '383586254726915/4398046511104', '767172509453859/8796093022208', '[-5.367901987471107691781090282106310072923931e-10 +/- 1.20e-53]')"
+  },
+  {
+    "row": 89,
+    "q0": "1/20000",
+    "q6": "3/100000000",
+    "status": "PASS",
+    "leaves": 421,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 90,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 360,
+    "tail_cutoff": "128"
+  },
+  {
+    "row": 91,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 329,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 92,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 354,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 93,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 396,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 94,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 443,
+    "tail_cutoff": "64"
+  },
+  {
+    "row": 95,
+    "q0": "1/20000",
+    "q6": "1/1000000000",
+    "status": "PASS",
+    "leaves": 517,
+    "tail_cutoff": "64"
+  }
+]

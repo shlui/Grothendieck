@@ -1,0 +1,49 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_ROBUST_MODERATEK_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_robust_moderatek_box.json",
+  "profile_sha256": "1136c914eb7c620150aae88925c201a9e04759bcad74308d7e0b8b8b9e9c6857",
+  "reserves": [
+    "1/50000",
+    "1/10000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "20"
+    ],
+    [
+      "20",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/robust_moderatek_R3_recheck/independent_interval_robust_moderatek_box_robustcurrent_body.json",
+      "sha256": "c3b1538892b4fb34337182b600b5c9924bb9d3e1004aec8e6dac4a9d1e93bfb1",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3278,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/robust_moderatek_R3_recheck/independent_interval_robust_moderatek_box_robustcurrent_exterior.json",
+      "sha256": "e770b17aa7205bb217d963f2255415398d1d486d357d96183c2c0a8e8e1f97f1",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 67,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/robust_moderatek_R3_recheck/independent_interval_robust_moderatek_box_robustcurrent_tail.json",
+      "sha256": "537572d8572310206a7e9f10de9fbe70aaff8af262c543a3432797fbb0b88f06",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "e88a73aa12ce7c8f946327f3c412bec26657ac41026f91746ac5d7ad0304e556",
+  "adapter_review": "Exact source diff against the accepted rank replay contains only two literal reserve-map and CLI-choice line changes. All body/exterior leaves and tail20 polynomial freshly checked. Tail replay reads the exact profile anew, with its hash bound here.",
+  "scope": "Whole-q physical local gate only. Outer moment/source pricing and exhaustive amplitude coverage are separate."
+}

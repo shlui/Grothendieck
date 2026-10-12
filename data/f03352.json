@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_REFIT847_PRICE_COVER",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 768,
+    "status": "PASS"
+  },
+  "rows": 10,
+  "leaves": 2780,
+  "corner_prices": 11120,
+  "target": "847/1000",
+  "maximum_price": "423485406457/500000000000",
+  "maximum_display": 0.846970812914,
+  "source_cover_sha256": "5fef4c9ea0478bb55fae053b577db10fa85e6ceac070c9e5ebf3e4951c4a65d1",
+  "scope": "Independent expanded prices and exhaustive rational kappa cover; complete-halfline acceptance of all ten rows and fresh633/Stein premises are separate proof inputs."
+}

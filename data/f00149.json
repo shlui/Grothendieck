@@ -1,0 +1,37 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_CLOSED_MOMENT_AFFINE_REFINEMENT_GEOMETRY",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank89_final_moment2_goal_proposal.json.gz",
+    "sha256": "bdcde16a1efcc9a1e414236394ea0edb1f63722e3711bcd1a01c2530e005c8ff"
+  },
+  "parent": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+    "sha256": "c99d0a98d1ad8f04d5b6fff5f5f62a7622e540523b56a1b546a9e512dfde8fc4",
+    "accepted_geometry_report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/layer_02_geometry.json",
+    "accepted_geometry_report_sha256": "9d4bd16f855ef6e1d887efeaed450e4e5ad20c9a87223b80653764f1f46fbb94"
+  },
+  "operator_b": "711/1000",
+  "original_physical_parent_cells": 272579,
+  "closed_u_children": 19693,
+  "inherited_closed_moment_children": 18480,
+  "selected_moment_children": 2,
+  "added_closed_moment_children": 8,
+  "exact_empty_children": 0,
+  "improved_moment_children": 2,
+  "failed_moment_children": 0,
+  "profile_count": 89,
+  "fresh_uniform_moment_tables": 356,
+  "fresh_uniform_plane_boxes": 4,
+  "maximum": "40/71",
+  "strict_upper_cap": "40/71",
+  "cap_relation": "LEQ_EXACT_TARGET_40_OVER_71",
+  "producer_imports": false,
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "dd1fd9222b49288c3f70fab18e2b1fb3a680e965ed587cbefec4766d8eba36d1",
+  "affine_replay_sha256": "cb41880d1260cc80dc311470c86b822e38ff9b56bd1e150aa63b2f76134a0a28",
+  "scope": "Complete closed cumulant/shared-shape descendant partition and affine source geometry; all inherited caps retained. Directed prices/local gates remain separately audited premises.",
+  "radial_pieces": 8,
+  "native_piece_bindings": 24,
+  "affine_dominance_regions": 15,
+  "affine_dominance_vertices": 62
+}

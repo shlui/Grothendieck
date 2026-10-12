@@ -1,0 +1,85 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_PREFERRED_GLOBAL_B713_SCALAR_BOUND",
+  "operator_b": "713/1000",
+  "norm_upper_bound": "564479481/1000000000",
+  "constructive_G_R_lower_bound": "1000000000/564479481",
+  "constructive_G_R_lower_bound_display": 1.7715435789241736,
+  "proved_middle_maximum": "282239739989/500000000000",
+  "proved_outer_cap": "144154052987/255646150000",
+  "global_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "source_rho": "847/1000",
+  "middle_price_cells": 185761,
+  "proved_physically_empty_middle_cells": 1574,
+  "complete_middle_groups": 945,
+  "cumulant_grid_points": 46,
+  "baseline_directed_native_endpoint_prices": 9360,
+  "exact_target_b_native_frames": 7,
+  "independent_R3_corner_prices": 2520,
+  "complete_whole_q_profiles": 14,
+  "uniform_physical_source_planes": 450,
+  "independent_plane_corner_prices": 1800,
+  "independently_certified_physical_inverse_caps": 250,
+  "fixed_contact_credit_cells": 97,
+  "envelope": {
+    "path": "tonight/recovery/profile_cover/global_middle_b713_finekappa46_fourteenbank_polygon_envelope.json.gz",
+    "sha256": "489ee80b4e13134ad2ba57eb929432d496e00525fa67a8ea74bf8060f23061ca"
+  },
+  "bindings": {
+    "baseline_directed_native_prices": {
+      "path": "tonight/audit/global_b7171/final46_kappa_native_endpoint_replay.json",
+      "sha256": "a2ed5eb51f7d054bf7ed1634e05da4e73b753cba31840f2f329c8505768a63df",
+      "status": "PASS_INDEPENDENT_ALL_FINAL46_KAPPA_NATIVE_SELECTED_ENDPOINT_PRICES"
+    },
+    "exact_target_b_native_transport": {
+      "path": "tonight/audit/global_b7171/b713_final46_native_transport.json",
+      "sha256": "5b161ae221e83acc7deb547b27fb4f4e1f59246e09efb309f04f0813bcae6dda",
+      "status": "PASS_INDEPENDENT_EXACT_REFINED_NATIVE_SMALLER_B_TRANSPORT"
+    },
+    "target_b_R3_corners_and_whole_q": {
+      "path": "tonight/audit/global_b7171/conditional_b713_fine46_R3_corner_replay.json",
+      "sha256": "a7291aa88221e3025464bbe08b412121c61e30fdc8d9c237dc9569e3a4629fa7",
+      "status": "PASS_INDEPENDENT_GENERIC_COMPLETE_R3_KAPPA_CACHE"
+    },
+    "uniform_planes_and_inverse": {
+      "path": "tonight/audit/global_b7171/b713_final46_polygon_plane_prices.json",
+      "sha256": "43cb739144e42861cf992bbfe6b746fb193485600efb6ee4b8384b79aa9d3763",
+      "status": "PASS_INDEPENDENT_UNIFORM_POLYGON_PLANES_AND_INVERSE_CAPS"
+    },
+    "fixed_contact_credits": {
+      "path": "tonight/audit/global_b7171/b713_final46_selected_contact_prices.json",
+      "sha256": "6e4c7f171edabc8c5cdc2e0d11eaa3ed706507c7aefc8ad61ab7616dffe572ca",
+      "status": "PASS_INDEPENDENT_SELECTED_CONTACT_CREDIT_NUMERIC_BINDINGS"
+    },
+    "complete_exact_middle_geometry": {
+      "path": "tonight/theory/final46_b713_polygon_envelope_audit.json",
+      "sha256": "8435c0e95838825add9458181f01f388967267c83f2f498bd2672b8b6123f5f0",
+      "status": "PASS_PRODUCER_FREE_EXACT_POLYGON_GLOBAL_MIDDLE_COVER"
+    },
+    "complete_exact_same_b_outer_transport": {
+      "path": "tonight/audit/global_b7171/b713_complete_outer_transport.json",
+      "sha256": "64a70b5383b92588b9418d2572a3a49816dcb031e89b5b8d8868bb58dba36096",
+      "status": "PASS_INDEPENDENT_COMPLETE_SMALLER_B_OUTER_SOURCE_TRANSPORT"
+    },
+    "all_line_source_bank": {
+      "path": "tonight/audit/linear_contact_bank_independent.json",
+      "sha256": "f586d39886a82e449ebfa8ee1f08417e70503c777cde575b6228e3b8c9204b48",
+      "status": "PASS_INDEPENDENT_COMPLETE_LINEAR_CONTACT_SOURCE_BANK"
+    },
+    "all_line_contact_rows": {
+      "path": "tonight/audit/cubic_head_contact_independent.json",
+      "sha256": "a695c2d2709ceeaf013779c8be65edb892288ff6c48f48df52d77fd8832d5932",
+      "status": "PASS_INDEPENDENT_ALL_LINE_CUBIC_HEAD_CONTACT_GATE"
+    },
+    "cubic_L1_moment_prices": {
+      "path": "tonight/audit/refit847/independent_complete_price_cover.json",
+      "sha256": "111c0f9c34a9cff93c93382dd1fc55477e633dedbf5c2ef01a8fc3afb7701d83",
+      "status": "PASS_INDEPENDENT_COMPLETE_CUBIC_L1_REFIT847_PRICE_COVER"
+    }
+  },
+  "historical_1773_or_1780498_premises_used": false,
+  "actual_sequence_limit": "1/N(713/1000), bounded below by1000000000/564479481; the cap is not identified with N",
+  "scope": "Complete same-coefficient global scalar norm proof and explicit reduced rational matrix lower bound. The target1.775 and a certified three-significant-digit value of G_R remain unproved. Higher-profile and alternative-coefficient discovery data are not used."
+}

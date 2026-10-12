@@ -1,0 +1,1202 @@
+{
+  "status": "PASS_INDEPENDENT_FORWARD_CERTIFICATION_OF_PHYSICAL_INVERSE_CAPS",
+  "input_sha256": "df91d9c5fe996ad10c5c26aa5c1f3ff6185695ef21893205316863200dbfb761",
+  "precision_bits": 768,
+  "bounds_checked": 238,
+  "source_rho": "847/1000",
+  "inverse_function_used": false,
+  "producer_code_imported": false,
+  "rows": [
+    {
+      "r_lower": "0",
+      "u_upper": "398942280401433/500000000000000",
+      "method": "physical u<=nu endpoint"
+    },
+    {
+      "r_lower": "1/500",
+      "u_upper": "398941027086381/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/250",
+      "u_upper": "49867158391281/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/500",
+      "u_upper": "398931000500103/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/125",
+      "u_upper": "199461113570529/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/100",
+      "u_upper": "199455473488133/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/250",
+      "u_upper": "797794319813831/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/500",
+      "u_upper": "1558128382079/1953125000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2/125",
+      "u_upper": "797724129098861/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/500",
+      "u_upper": "797681511907579/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/50",
+      "u_upper": "797633879677113/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11/500",
+      "u_upper": "797581231989959/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/125",
+      "u_upper": "199380892096143/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "13/500",
+      "u_upper": "398730444177667/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/250",
+      "u_upper": "49837074459533/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2801019582192001/100000000000000000",
+      "u_upper": "797392833385003/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3562094844952633/125000000000000000",
+      "u_upper": "797375598934167/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/100",
+      "u_upper": "797320476782301/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "4/125",
+      "u_upper": "797242744006627/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17/500",
+      "u_upper": "79715999234327/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/250",
+      "u_upper": "797072221065739/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19/500",
+      "u_upper": "796979429403249/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/25",
+      "u_upper": "796881616540667/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "21/500",
+      "u_upper": "796778781618463/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11/250",
+      "u_upper": "398335461866331/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "23/500",
+      "u_upper": "398279020967391/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "6/125",
+      "u_upper": "398220067615889/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "4867980859557979/100000000000000000",
+      "u_upper": "159279782756847/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/20",
+      "u_upper": "796317202585983/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "13/250",
+      "u_upper": "796189242915039/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5215320760118039/100000000000000000",
+      "u_upper": "39808961669589/50000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "27/500",
+      "u_upper": "796056255091833/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/125",
+      "u_upper": "795918237944427/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2801019582192001/50000000000000000",
+      "u_upper": "49744800302597/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5699351751924213/100000000000000000",
+      "u_upper": "795847806620989/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7126162949578377/125000000000000000",
+      "u_upper": "795846677512457/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "29/500",
+      "u_upper": "159155038051197/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/50",
+      "u_upper": "99453388845587/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "31/500",
+      "u_upper": "795473998163699/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "8/125",
+      "u_upper": "795315851100999/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "33/500",
+      "u_upper": "795152668179383/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17/250",
+      "u_upper": "794984447956333/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/100",
+      "u_upper": "397405594471969/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/125",
+      "u_upper": "993291112011/1250000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "37/500",
+      "u_upper": "158889909674387/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19/250",
+      "u_upper": "794261163608679/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "39/500",
+      "u_upper": "158813546729717/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2/25",
+      "u_upper": "198467314193829/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "41/500",
+      "u_upper": "396832865613269/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "21/250",
+      "u_upper": "793457155193811/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "8403058746576003/100000000000000000",
+      "u_upper": "396726963033521/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "8549027627886319/100000000000000000",
+      "u_upper": "198324613097209/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "43/500",
+      "u_upper": "31729741072899/40000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11/125",
+      "u_upper": "99128105526441/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/100",
+      "u_upper": "396400552706757/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "23/250",
+      "u_upper": "792572308434393/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "47/500",
+      "u_upper": "39616922561671/50000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "12/125",
+      "u_upper": "792099531723011/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "4867980859557979/50000000000000000",
+      "u_upper": "791934220651527/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "49/500",
+      "u_upper": "197963886942153/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/10",
+      "u_upper": "98950812148571/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "51/500",
+      "u_upper": "395676188876987/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "13/125",
+      "u_upper": "395546593594271/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5215320760118039/50000000000000000",
+      "u_upper": "791053029092931/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "53/500",
+      "u_upper": "197707230792113/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "27/250",
+      "u_upper": "395279791661101/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11/100",
+      "u_upper": "790285165230457/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "14/125",
+      "u_upper": "790005666425897/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2801019582192001/25000000000000000",
+      "u_upper": "394999957054953/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5699351751924213/50000000000000000",
+      "u_upper": "394861472782611/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "57/500",
+      "u_upper": "15794421687861/20000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11401860719325403/100000000000000000",
+      "u_upper": "394859206441219/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "29/250",
+      "u_upper": "394715708284069/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "59/500",
+      "u_upper": "789136660338909/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/25",
+      "u_upper": "49302300815279/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "61/500",
+      "u_upper": "788531871975089/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "31/250",
+      "u_upper": "9852772929651/12500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "63/500",
+      "u_upper": "787906697427559/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "16/125",
+      "u_upper": "787586458284291/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "13/100",
+      "u_upper": "787261114035503/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "33/250",
+      "u_upper": "49183166357793/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "67/500",
+      "u_upper": "786595098345413/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17/125",
+      "u_upper": "786254420841121/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "69/500",
+      "u_upper": "785908626104931/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/50",
+      "u_upper": "785557710979429/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "71/500",
+      "u_upper": "49075104516029/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "14248379379810533/100000000000000000",
+      "u_upper": "785114777636153/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "18/125",
+      "u_upper": "196210126669233/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "73/500",
+      "u_upper": "392237105465279/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "14603942578673937/100000000000000000",
+      "u_upper": "98058367324613/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "37/250",
+      "u_upper": "784102781655679/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/20",
+      "u_upper": "391863107719509/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19/125",
+      "u_upper": "783344508815453/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "77/500",
+      "u_upper": "782957658267789/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "39/250",
+      "u_upper": "195641415056629/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "15645962280354117/100000000000000000",
+      "u_upper": "97809355852927/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "79/500",
+      "u_upper": "195542127767393/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "4/25",
+      "u_upper": "48860387945131/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "81/500",
+      "u_upper": "39067937232809/50000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "41/250",
+      "u_upper": "156189223978123/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "83/500",
+      "u_upper": "390264164495317/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "21/125",
+      "u_upper": "156021073613529/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17/100",
+      "u_upper": "389838616589487/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17098055255772637/100000000000000000",
+      "u_upper": "779465437417369/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3420558215797621/20000000000000000",
+      "u_upper": "97431897087067/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "43/250",
+      "u_upper": "779243920327583/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "87/500",
+      "u_upper": "194701356365451/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "22/125",
+      "u_upper": "778361744475053/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "89/500",
+      "u_upper": "777912873205547/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/50",
+      "u_upper": "155491761487203/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "91/500",
+      "u_upper": "776999542893403/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "23/125",
+      "u_upper": "776535075248577/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "93/500",
+      "u_upper": "388032700058009/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "47/250",
+      "u_upper": "775590513053513/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19/100",
+      "u_upper": "387555204780921/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "24/125",
+      "u_upper": "774625085084461/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "97/500",
+      "u_upper": "96766816875897/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19471923438231917/100000000000000000",
+      "u_upper": "773956846362769/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "49/250",
+      "u_upper": "773638754657817/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "99/500",
+      "u_upper": "773137739305899/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2493466391466843/12500000000000000",
+      "u_upper": "386382148551649/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/5",
+      "u_upper": "772631484162289/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "101/500",
+      "u_upper": "38605999218943/50000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "51/250",
+      "u_upper": "385801617524069/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "103/500",
+      "u_upper": "771081231202949/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "26/125",
+      "u_upper": "770553967816057/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5215320760118039/25000000000000000",
+      "u_upper": "770391352805723/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "21/100",
+      "u_upper": "770021439799801/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "53/250",
+      "u_upper": "192370910501429/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "107/500",
+      "u_upper": "768940569224163/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "27/125",
+      "u_upper": "38419610809197/50000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "109/500",
+      "u_upper": "191959644387973/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11/50",
+      "u_upper": "767279647932519/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "111/500",
+      "u_upper": "766715421867571/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "28/125",
+      "u_upper": "383072946917821/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "113/500",
+      "u_upper": "382785529125877/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "5699351751924213/25000000000000000",
+      "u_upper": "382499232546963/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "57/250",
+      "u_upper": "764990909466939/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "11401860719325403/50000000000000000",
+      "u_upper": "764980064138387/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "23/100",
+      "u_upper": "764405441767809/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "29/125",
+      "u_upper": "6110517195009/8000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "117/500",
+      "u_upper": "152643705289671/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "59/250",
+      "u_upper": "762617067075229/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "119/500",
+      "u_upper": "152402053056257/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "6/25",
+      "u_upper": "380699057512203/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "121/500",
+      "u_upper": "380390305097679/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "24339904297789897/100000000000000000",
+      "u_upper": "152069093220067/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "61/250",
+      "u_upper": "190039436154327/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "123/500",
+      "u_upper": "759529512045351/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "31/125",
+      "u_upper": "189723976541503/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "1/4",
+      "u_upper": "758256920596757/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "63/250",
+      "u_upper": "757612548885483/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "127/500",
+      "u_upper": "75696278451001/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "32/125",
+      "u_upper": "756307620877561/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "129/500",
+      "u_upper": "377823525662117/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "13/50",
+      "u_upper": "188745267278617/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2607660380059019/10000000000000000",
+      "u_upper": "754724550239459/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "131/500",
+      "u_upper": "47144354215031/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "33/125",
+      "u_upper": "753632839421797/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "133/500",
+      "u_upper": "94118822263067/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "67/250",
+      "u_upper": "752262876460993/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "27/100",
+      "u_upper": "751569727388987/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "34/125",
+      "u_upper": "75087112371129/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "137/500",
+      "u_upper": "93770882271879/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "69/250",
+      "u_upper": "374728761725549/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "139/500",
+      "u_upper": "149748502426703/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/25",
+      "u_upper": "93502752092353/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "141/500",
+      "u_upper": "373648014852729/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "71/250",
+      "u_upper": "186641135848273/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2850465179831351/10000000000000000",
+      "u_upper": "373089796196841/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "143/500",
+      "u_upper": "149165510016399/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "36/125",
+      "u_upper": "745085041972367/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "29/100",
+      "u_upper": "74433701118367/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "73/250",
+      "u_upper": "371791724876971/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "14603942578673937/50000000000000000",
+      "u_upper": "92944203320827/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "147/500",
+      "u_upper": "742824349639111/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "37/125",
+      "u_upper": "185514925678071/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "149/500",
+      "u_upper": "741289500763039/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3/10",
+      "u_upper": "740513735496697/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "151/500",
+      "u_upper": "73973239853359/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "38/125",
+      "u_upper": "369472740704153/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "153/500",
+      "u_upper": "369076487784469/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "77/250",
+      "u_upper": "737354872376307/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "31/100",
+      "u_upper": "147310232620637/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "39/125",
+      "u_upper": "735741838933491/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "15645962280354117/50000000000000000",
+      "u_upper": "367683984597151/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "157/500",
+      "u_upper": "146985378192299/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "79/250",
+      "u_upper": "367053155095493/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "159/500",
+      "u_upper": "45830005470903/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "8/25",
+      "u_upper": "732448213812209/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "161/500",
+      "u_upper": "731610679751583/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "81/250",
+      "u_upper": "182691868996499/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "163/500",
+      "u_upper": "729918593054101/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "41/125",
+      "u_upper": "5832512171191/8000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "33/100",
+      "u_upper": "45512734460419/62500000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "83/250",
+      "u_upper": "145467554641291/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "167/500",
+      "u_upper": "363233038534263/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "42/125",
+      "u_upper": "90698581625487/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "169/500",
+      "u_upper": "724705490963137/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17/50",
+      "u_upper": "361908290397717/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "17037933008452927/50000000000000000",
+      "u_upper": "723477884530793/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "171/500",
+      "u_upper": "180730478061893/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3420558215797621/10000000000000000",
+      "u_upper": "361448429319073/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "43/125",
+      "u_upper": "361010737481457/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "173/500",
+      "u_upper": "721115258480361/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "87/250",
+      "u_upper": "720203252233297/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "7/20",
+      "u_upper": "719285445548513/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "44/125",
+      "u_upper": "359180913822557/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "177/500",
+      "u_upper": "717432387633413/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "89/250",
+      "u_upper": "358248557256901/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "179/500",
+      "u_upper": "715555997175603/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9/25",
+      "u_upper": "714609024395907/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "181/500",
+      "u_upper": "142731236967677/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "91/250",
+      "u_upper": "356348733526043/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "9126811330206569/25000000000000000",
+      "u_upper": "71218095190501/100000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "183/500",
+      "u_upper": "355866429735107/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "46/125",
+      "u_upper": "355381175204439/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "37/100",
+      "u_upper": "709785928065829/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "93/250",
+      "u_upper": "28352143220767/40000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "187/500",
+      "u_upper": "353907647863033/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "47/125",
+      "u_upper": "706821061521367/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "189/500",
+      "u_upper": "141164173123261/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "19/50",
+      "u_upper": "352407347798543/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "191/500",
+      "u_upper": "1407605077847/2000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "48/125",
+      "u_upper": "702784382927491/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "193/500",
+      "u_upper": "140352042962343/200000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "97/250",
+      "u_upper": "87591252706007/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "38943846876463833/100000000000000000",
+      "u_upper": "699985338906787/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "39/100",
+      "u_upper": "174923447594033/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "49/125",
+      "u_upper": "698651507801767/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "197/500",
+      "u_upper": "697603160595437/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "99/250",
+      "u_upper": "696548735290689/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "199/500",
+      "u_upper": "86936027285317/125000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "3990651251763891/10000000000000000",
+      "u_upper": "694920935890247/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "2/5",
+      "u_upper": "347210797912907/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "201/500",
+      "u_upper": "173337213508381/250000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "101/250",
+      "u_upper": "346134989437563/500000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    },
+    {
+      "r_lower": "203/500",
+      "u_upper": "691184956174823/1000000000000000",
+      "method": "R_rho(u_cap)<=r_lo via forward log/sqrt/erf"
+    }
+  ],
+  "analytic_review": "R_rho is decreasing. Every physical r>=r_lo obeys r_lo<=R_rho(u), hence the independent forward comparison R_rho(u_cap)<=r_lo implies u<=u_cap. Endpoint u_cap>=nu follows directly. These caps are bounding rectangles; continuous source coverage is checked separately."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS_EXACT_UNCAPPED_COMPLETE_PARENT_ASSEMBLY",
+  "operator_b": "711/1000",
+  "source_sha256": "bdcde16a1efcc9a1e414236394ea0edb1f63722e3711bcd1a01c2530e005c8ff",
+  "counts": {
+    "protected_original_parents": 272579,
+    "strong43_changed": 13178,
+    "u_split_leaf_count": 287708,
+    "rank70_changed": 8222,
+    "moment_split_leaf_count": 305033,
+    "affine_uncapped": 4122,
+    "final_leaf_count": 305039
+  },
+  "exact_upper_maximum": "281690137769807/500000000000000",
+  "rational_uniform_cap": "281690137769807/500000000000000",
+  "rational_cap_decimal": "0.56338027553961401",
+  "strict_margin": "218343703/35500000000000000",
+  "strict_margin_decimal": 6.150526845070423e-09,
+  "reciprocal_lower": "500000000000000/281690137769807",
+  "reciprocal_decimal": 1.7750000193780038,
+  "worst": [
+    [
+      [
+        155205,
+        1,
+        0
+      ],
+      "281690137769807/500000000000000",
+      "moment70"
+    ]
+  ],
+  "threshold_equal_leaf_count": 0,
+  "strict_all_leaves": true,
+  "scope": "Exact uncapping and complete parent assembly; valid after companion fresh producer-free geometry replays and inherited analytic/numeric premises."
+}

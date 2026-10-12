@@ -1,0 +1,9 @@
+{
+  "files": {
+    "reduced_search/energy/633/PROOF.md": "50005af5cea73d38a9d616ffb8b48f5cf71e76c021468c51688b725ad20100c6",
+    "tonight/audit/verify_cubic_head_contact.py": "5030d8a64f86155d8b87f269b5fd015ba7fd6074114d17d838a07ec3cfb17902",
+    "tonight/audit/cubic_head_contact_independent.json": "a695c2d2709ceeaf013779c8be65edb892288ff6c48f48df52d77fd8832d5932",
+    "tonight/theory/cubic_head_contact_fragment.tex": "bbb4f7f17a70fa57a954e992d1679dec8a4e5f2e0b6ce9516660d06feca5409d"
+  },
+  "scope": "Fresh scalar source gate independently accepted. Global norm assembly pending."
+}

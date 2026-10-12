@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/REPLAY_MANIFEST.json",
+    "sha256": "efaed85f42a9f2668fa2ce15967a96be48036d3b2a830af2e1317ddce36d4af3"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/reports/independent_interval_kappa16_shifted_pe15_b7171_nextface_body.json",
+      "sha256": "9b086e199f7d86550e7f6cd3a122c48aa86655692f55a5aef01b8519599b7ab2",
+      "profile": "interval_kappa16_shifted_pe15_b7171",
+      "part": "body",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 5622
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/reports/independent_interval_kappa16_shifted_pe15_b7171_nextface_exterior.json",
+      "sha256": "dc51631ad6f8c64da189e6eaa5dc16a435903f11e6da91c8c9dd2be8b32e516e",
+      "profile": "interval_kappa16_shifted_pe15_b7171",
+      "part": "exterior",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 301
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa16_shifted_pe15_source_box/reports/independent_interval_kappa16_shifted_pe15_b7171_nextface_tail.json",
+      "sha256": "e345ded8dc02ee69a041741312ea64997128c6f5889596bb695fd63b8486d447",
+      "profile": "interval_kappa16_shifted_pe15_b7171",
+      "part": "tail",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 10.01156497001648,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_REFERENCE_B7171_KAPPA26_COMPONENT",
+  "profiles": [
+    {
+      "name": "new_kappa26_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_kappa26_b711.json",
+      "profile_sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_B711_SOURCE_PRICES",
+      "acceptance_kind": "INDEPENDENT_COMPLETE_COMPONENT",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa26_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "839e2720a1c77104f5c5b551dfaf4b9ccc31cfd8e1442690ad0c6399cd748393",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_kappa26_b711.json.gz",
+          "sha256": "93c719ff42f269d8a5ca91f1e449eb449a660dea2a0e02bb84e5260ac061048a"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_kappa26_b711.json.gz",
+          "sha256": "e004ca809824959a6287ed38b673703c560c4bd454a83e2f7d450f9cebbd62ab"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_kappa26_b711.json",
+          "sha256": "17983547b9ea1b1be48cb6e035b59e964c8f02b88904b3504e1a4856251cc6a7"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_kappa26_source_box.json",
+      "source_price_operator_b": "711/1000"
+    }
+  ]
+}

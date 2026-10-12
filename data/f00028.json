@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_CURRENT_DIFFUSE_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_source_ledger": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_current_diffuse_source_box.json",
+    "sha256": "ea1e287e83460f921f9ea0109f98119c663ebadf23084f0b42508f5feeef342e"
+  },
+  "profiles": [
+    {
+      "name": "new_current_diffuse_b711",
+      "label": "interval_new_current_diffuse_b711",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_current_diffuse_b711.json",
+          "alias": "new_round_2026-10-02/audit/current_diffuse_source_box/input/profile_interval_new_current_diffuse_b711.json",
+          "sha256": "ace0d7d4c870f60959befebece0919e15d26b55afdca31396c8d992583a33dd6"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_current_diffuse_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/current_diffuse_source_box/input/body_interval_new_current_diffuse_b711.json.gz",
+          "sha256": "8d4498a55141ad491e23b4fdf52330bb89fea72cad54972905e8273a634ad115"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_current_diffuse_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/current_diffuse_source_box/input/exterior_interval_new_current_diffuse_b711.json.gz",
+          "sha256": "a6708757539aea8ff38eca91b02e0c7e960ab2e14e3725b92edbe130a5d922df"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_current_diffuse_b711.json",
+          "alias": "new_round_2026-10-02/audit/current_diffuse_source_box/input/tail_interval_new_current_diffuse_b711.json",
+          "sha256": "d621419ff332f07fefb2f0a2f73548a34d93940366013d89a53dee4dfa97d4e9"
+        }
+      ]
+    }
+  ]
+}

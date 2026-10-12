@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RECORDED_COMPACT_PARTITION_AND_RATIONAL_TAIL",
+  "scope": "Frozen profile only; no outer source-parameter cover.",
+  "compact_interval": [
+    "8",
+    "64"
+  ],
+  "leaves_rechecked": 380,
+  "partition_events": 759,
+  "directed_corners": 1275,
+  "tail_from": "64",
+  "tail_nonnegative_shifted_coefficients": 7,
+  "largest_leaf_residual": "-6943096524253234006347392959790998045656578129819/5000000000000000000000000000000000000000000000000000",
+  "seconds": 14.327325820922852,
+  "certificate_sha256": "2d47ddfc7af36d66b534bc1e85ef2db34908f450befadf5dc018f97228e3e604"
+}

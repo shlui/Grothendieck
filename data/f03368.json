@@ -1,0 +1,172 @@
+{
+  "status": "FLOATING_MINIMAX_SIGN_WITNESS_OBSTRUCTION_ONLY",
+  "history": [
+    {
+      "iteration": 0,
+      "b": 0.747438260091392,
+      "t": 0.012179329764119501,
+      "LP_lower_norm": 0.563167716329825,
+      "found_witness_norm": 0.5631835517015245,
+      "separation_gap": 1.583537169946858e-05
+    },
+    {
+      "iteration": 1,
+      "b": 0.7411755831820543,
+      "t": 0.010355822533107267,
+      "LP_lower_norm": 0.5631714174690919,
+      "found_witness_norm": 0.563178076104693,
+      "separation_gap": 6.658635601008989e-06
+    },
+    {
+      "iteration": 2,
+      "b": 0.7484294887394031,
+      "t": 0.013335492409319409,
+      "LP_lower_norm": 0.563176281099978,
+      "found_witness_norm": 0.563180272673759,
+      "separation_gap": 3.991573781059188e-06
+    },
+    {
+      "iteration": 3,
+      "b": 0.7446071964752206,
+      "t": 0.01207747315440101,
+      "LP_lower_norm": 0.5631770149466011,
+      "found_witness_norm": 0.5631787143570948,
+      "separation_gap": 1.6994104936607357e-06
+    },
+    {
+      "iteration": 4,
+      "b": 0.7448289721432549,
+      "t": 0.011790560243595842,
+      "LP_lower_norm": 0.563177215276928,
+      "found_witness_norm": 0.5631782400549546,
+      "separation_gap": 1.0247780266592343e-06
+    },
+    {
+      "iteration": 5,
+      "b": 0.7431676168895193,
+      "t": 0.01129932455276917,
+      "LP_lower_norm": 0.5631774974542713,
+      "found_witness_norm": 0.563177936663236,
+      "separation_gap": 4.39208964753135e-07
+    },
+    {
+      "iteration": 6,
+      "b": 0.7429677412814363,
+      "t": 0.011026753143149989,
+      "LP_lower_norm": 0.5631776757550156,
+      "found_witness_norm": 0.5631779391109942,
+      "separation_gap": 2.63355978580293e-07
+    },
+    {
+      "iteration": 7,
+      "b": 0.7422835060970618,
+      "t": 0.010855570143641437,
+      "LP_lower_norm": 0.5631777710552657,
+      "found_witness_norm": 0.563177884051063,
+      "separation_gap": 1.129957972745288e-07
+    },
+    {
+      "iteration": 8,
+      "b": 0.7432214754554979,
+      "t": 0.011223694535229296,
+      "LP_lower_norm": 0.5631778135804291,
+      "found_witness_norm": 0.563177880973462,
+      "separation_gap": 6.739303293201715e-08
+    },
+    {
+      "iteration": 9,
+      "b": 0.7427947126447126,
+      "t": 0.01109789521763709,
+      "LP_lower_norm": 0.5631778483288544,
+      "found_witness_norm": 0.563177877323849,
+      "separation_gap": 2.8994994627495885e-08
+    },
+    {
+      "iteration": 10,
+      "b": 0.7427442226645075,
+      "t": 0.011028277080990957,
+      "LP_lower_norm": 0.5631778489069195,
+      "found_witness_norm": 0.5631778662075216,
+      "separation_gap": 1.7300602173087043e-08
+    },
+    {
+      "iteration": 11,
+      "b": 0.7429714392161317,
+      "t": 0.011142360729665785,
+      "LP_lower_norm": 0.5631778624673187,
+      "found_witness_norm": 0.5631778699069555,
+      "separation_gap": 7.4396367955031906e-09
+    },
+    {
+      "iteration": 12,
+      "b": 0.7427306689626119,
+      "t": 0.011047881240079126,
+      "LP_lower_norm": 0.5631778632540847,
+      "found_witness_norm": 0.563177867691679,
+      "separation_gap": 4.43759429202828e-09
+    },
+    {
+      "iteration": 13,
+      "b": 0.7428401404776401,
+      "t": 0.011080114717630941,
+      "LP_lower_norm": 0.5631778641861362,
+      "found_witness_norm": 0.5631778660962488,
+      "separation_gap": 1.9101125126042007e-09
+    },
+    {
+      "iteration": 14,
+      "b": 0.742717655283605,
+      "t": 0.011029983331818538,
+      "LP_lower_norm": 0.5631778648351609,
+      "found_witness_norm": 0.5631778659748446,
+      "separation_gap": 1.1396837917843072e-09
+    },
+    {
+      "iteration": 15,
+      "b": 0.7427818007108636,
+      "t": 0.011050825272292966,
+      "LP_lower_norm": 0.5631778651461932,
+      "found_witness_norm": 0.5631778656366702,
+      "separation_gap": 4.904769923541608e-10
+    },
+    {
+      "iteration": 16,
+      "b": 0.7427783297746614,
+      "t": 0.011055862941014249,
+      "LP_lower_norm": 0.5631778655274338,
+      "found_witness_norm": 0.5631778658200779,
+      "separation_gap": 2.9264413115015486e-10
+    }
+  ],
+  "best": {
+    "b": 0.7427783297746614,
+    "t": 0.011055862941014249,
+    "vector_numerator_limit": 1.0110558629410142,
+    "sampled_scalar_norm_lower": 0.5694042831159987,
+    "normalized_norm_lower": 0.563177865820079,
+    "ratio_ceiling": 1.7756379657141472,
+    "target_norm_headroom": 0.00020241587006186723,
+    "unnormalized_target_headroom": 0.00020465375217837423,
+    "witness_values": {
+      "reflected_quintic": 0.5694042831159987,
+      "hemisphere": 0.5688644067718094,
+      "opposite_cubic_CLT": 0.461811508279703,
+      "opposite_H3": 0.07601192848385911
+    },
+    "reflected_coefficients": [
+      0.05495871422780927,
+      2.5055745234253615,
+      0.40833100752169055,
+      -4.364833360463251e-09
+    ],
+    "reflected_moments": [
+      0.7504659330881638,
+      -0.2708849261647054,
+      0.2708300494292915
+    ],
+    "quadrature_discrepancy": 1.1102230246251565e-15
+  },
+  "cut_count": 111,
+  "scope": "Witness norms are lower bounds on true scalar norms. Ratio ceilings are NOT Grothendieck lower bounds; positive targetheadroom does NOT prove globalcap.",
+  "seconds": 6.097841024398804
+}

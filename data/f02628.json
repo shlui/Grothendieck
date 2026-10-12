@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INDEPENDENTLY_ACCEPTED_LINEAR_CONTACT_PHYSICAL_EXCLUSION",
+  "original_manifest_sha256": "1599d8e67f0ed5850151e5238f56703508ff86d7ec1f6b7929b2bb3160bae38c",
+  "added_files": {
+    "LINEAR_EXCLUSION.md": "8865f26520053fa05e6591a5231528d15d66a021f08836e7089e74bf48700c6c",
+    "certify_linear_contact_exclusion.py": "3225324fe9990517a685889be96eecc76fe9dd69f7139dbb8faaae0c1a845d6c",
+    "linear_contact_exclusion.json": "6cf314eeadc348d1a4c692fa267512aa93bb36a28ea3a1f3846bdf4eee136afe",
+    "linear_exclusion.log": "42ca7ae8193341c87e08b3eb159e0c4ad88e53b78a7cb63d4b2c577be6b11acd",
+    "linear_exclusion_independent.json": "e59628be90baa7d12aeb4492e11884a3b2186f72d953554b5632ec93a71acf8c"
+  },
+  "external_inputs": {
+    "tonight/audit/verify_linear_contact_exclusion.py": "5d79aa51b3bdbdc9d3f70d9a8785edf629cba8af780aaeaa5e9f02c535a530e7",
+    "tonight/audit/linear_contact_exclusion_independent.json": "e59628be90baa7d12aeb4492e11884a3b2186f72d953554b5632ec93a71acf8c",
+    "tonight/theory/linear_contact_source_fragment.tex": "073e640bde706b7f6706e2e5d4d3bdda46441cf47f1187463c77cb3a0a5f1f54"
+  },
+  "scope": "Independent of b; source-domain exclusion only. Original accepted contact package is unchanged."
+}

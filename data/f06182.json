@@ -1,0 +1,182 @@
+{
+  "status": "PASS_DIRECTED_ROBUST_RESTRICTED_R3_SOURCE_BOXES",
+  "scope": "Only these continuous source boxes. Complete amplitude/source union is separate.",
+  "convexity": "Positive rank-one r curvature; u quadratic positive. Cumulant price separately convex in kappa and shared shape, including positive covariance term.",
+  "boxes": [
+    {
+      "name": "interval_finalface_u7475_r269_k4_10",
+      "u": [
+        "149/200",
+        "3/4"
+      ],
+      "r": [
+        "133/500",
+        "34/125"
+      ],
+      "kappa": [
+        "4",
+        "10"
+      ],
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "cap": "112659/200000",
+      "branch": "q50",
+      "audit": "finalface_u7475_R3_recheck",
+      "profile": "profile_interval_finalface_u7475_r269_k4_10.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "32",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 3087
+        },
+        {
+          "q": [
+            "8",
+            "32"
+          ],
+          "accepted": 157
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_body.json",
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_exterior.json",
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_tail.json"
+      ],
+      "maximum_directed_upper": "2816456324151553055372846242152524173212171408719754228883393968506781/5000000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "149/200",
+          "r": "133/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.632662731475955611155522625797290984845458099431725498819064537271963e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "133/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632157637054143513580409862223498928034814710371660613671493804507527e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "133/500",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.632816615439431177711298020728009898206598652866216448208754321125312e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "133/500",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627723070802832974487637348104603387672670288971400196347162229329529e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "34/125",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.632758764339630544189917089374329433063202264005017508377098153160213e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "34/125",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632253669917818446614804325800537376252558874944952623229527420395777e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "34/125",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.632912648303106110745692484305048346424342817439508457766787937013562e-1"
+        },
+        {
+          "u": "149/200",
+          "r": "34/125",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627819103666507907522031811681641835890414453544692205905195845217779e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "133/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.632662731475955611155522625797290984845458099431725498819064537271963e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "133/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632157637054143513580409862223498928034814710371660613671493804507527e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "133/500",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.632816615439431177711298020728009898206598652866216448208754321125312e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "133/500",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627723070802832974487637348104603387672670288971400196347162229329529e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "34/125",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.632758764339630544189917089374329433063202264005017508377098153160213e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "34/125",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632253669917818446614804325800537376252558874944952623229527420395777e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "34/125",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.632912648303106110745692484305048346424342817439508457766787937013562e-1"
+        },
+        {
+          "u": "3/4",
+          "r": "34/125",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627819103666507907522031811681641835890414453544692205905195845217779e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_finalface_u7475_r269_k4_10.json": "43837bd1b58ea268d56efc687c009e4f253f62ba7ad0ae63ff990f01c0936c66",
+        "tonight/operator/projection/targeted_certificate/price_finalface_source_box.py": "44e5d5aa4e5a5847d18e9758d68e140e893e82eeeb4be12e0acabfa811bcba6c",
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_body.json": "7b428d37e77a105eec79112791dd1e33c730c187272144ae277a0824270fef09",
+        "tonight/operator/projection/targeted_certificate/body_interval_finalface_u7475_r269_k4_10.json.gz": "7f3b209485d7892646553e29eceb760ab22a0fe058d5e0ed80c18831cb3dfaf8",
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_exterior.json": "533b850e7b00a03a261f6844cef3fb7a6d14656b31c1897db6418c4f70d47997",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_finalface_u7475_r269_k4_10.json.gz": "5f31df4aef706792fe648029904f9fd1cf95ef986452bed1a2f90fe9e4cfc9e5",
+        "tonight/audit/finalface_u7475_R3_recheck/independent_interval_finalface_u7475_r269_k4_10_q50_tail.json": "3f1819549eed042eeee95636935a1ab45c7eb6d28a6ec5e5bd1d60ca548a2568",
+        "tonight/operator/projection/targeted_certificate/tail_interval_finalface_u7475_r269_k4_10.json": "2121191790632aec3ab1ab8cdd711f634750a0ba8a7c2daeb4faf5742fd95ab7"
+      }
+    }
+  ]
+}

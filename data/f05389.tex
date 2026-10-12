@@ -1,0 +1,115 @@
+\begin{proposition}[Cubic-head contact source gate]\label{prop:contact-head-source}
+Let $A>0$, $B\ge0$, $L(z)=Az+Bz^3=a z+dH_3(z)$, where
+$H_3(z)=(z^3-3z)/\sqrt6$, $a=A+3B$, $d=\sqrt6B$, and let
+$J(x)=\mathbb E_Z\max\{|L(Z)|,|x|\}$.
+Set $G(s)=J(\sqrt s)$ on $s\ge0$.  Then
+$G''\le0$, $G'''\ge0$ and $G''''\le0$.
+For every $s_0>0$, the cubic Hermite interpolant $P$ matching
+$G(0),G'(0),G(s_0),G'(s_0)$ satisfies
+\[
+ J(x)\le P(x^2)=p_0+p_2x^2+p_4x^4+p_6x^6
+ \quad(x\in\mathbb R),\qquad p_6\ge0.
+\]
+Here $p_0=\nu(A+2B)$, $p_2=\nu/(2A)$, $\nu=\sqrt{2/\pi}$, and, with
+$D=G(s_0)-p_0-p_2s_0$ and $E=G'(s_0)-p_2$,
+\[
+ p_4=(3D-s_0E)/s_0^2,\qquad p_6=(s_0E-2D)/s_0^3.
+\]
+Any componentwise upward rational rounding $q_j\ge p_j$ gives a global
+majorant with $q_6\ge0$.  Its coefficients already contain $\nu$.
+\end{proposition}
+\begin{proof}
+Write $s=w(A+Bw)^2$, $D_1=A+Bw$, $D_3=A+3Bw$.
+Since $ds/dw=D_1D_3>0$, Gaussian tail differentiation gives
+\[
+ G'(s)=\frac\nu2\int_0^1
+       \frac{e^{-t^2w(s)/2}}{A+Bw(s)}\,dt.
+\]
+For $K_\tau(s)=e^{-\tau w(s)}/(A+Bw(s))$, $\tau\ge0$, differentiation
+shows
+\[
+ K_\tau^{(j)}(s)=(-1)^j
+  \frac{e^{-\tau w}P_j(A,B,w,\tau)}{D_1^{2j+1}D_3^{2j}},\qquad j=1,2,3.
+\]
+Starting from $P_0=1$, the numerator recurrence is
+\[
+ P_{j+1}=(\tau P_j-\partial_wP_j)D_1D_3
+       +(2j+1)BP_jD_3+6jBP_jD_1.
+\]
+For $j=1,2,3$, exact expansion gives respectively $5$, $12$ and $22$
+nonnegative coefficients.  Integrating the derivative signs at
+$\tau=t^2/2$ proves the claimed signs of $G$.
+The Hermite interpolation error is
+\[
+ G(s)-P(s)=G''''(\xi)s^2(s-s_0)^2/4!\le0
+ \quad(s\ge0),
+\]
+including outside the interpolation interval.  The leading coefficient
+$p_6=G[0,0,s_0,s_0]\ge0$ by the sign of $G'''$.
+\end{proof}
+
+\begin{corollary}[Moment price and retained longitudinal completion]
+Let $h=(f+g)/2$, $k=(f-g)/2$, $P_1h=uZ$, and
+$v=\mathbb E[H_3(Z)h]$.  Put
+$r=\|P_3^W\mathbb E_Zk\|_2$ and
+$Q=P_3^W\mathbb E_Zk/r$ when $r>0$.
+For a majorant from Proposition~\ref{prop:contact-head-source}, the physical
+diamond and the coefficient-$633$ moment theorem give
+\[
+ au+dv+r\le A_q(\kappa,\zeta)
+ =q_0+q_2+(3+\kappa)q_4+
+ \left[15+15\kappa+
+  \left(\frac{194}{\sqrt{10}}-\frac{633\zeta}{15}\right)\kappa^{3/2}\right]q_6.
+\]
+No extra $\nu$ multiplies this price.  For a fixed row the price is convex
+in $\kappa$ and affine in $\zeta$.
+If a certified frame completed its longitudinal penalty by
+$-bv^2\le2\beta v+\beta^2/b$, with $\beta$ multiplying normalized $H_3$,
+then for any fixed $\lambda\ge0$ its saved completed bound may be augmented by
+\[
+ \lambda\left(A_q-au-r+\frac{\beta d}{b}\right)
+       +\frac{\lambda^2d^2}{4b}.
+\]
+With $\lambda$ fixed throughout each price rectangle, the existing cumulant,
+shape, amplitude and source-chord certification can be reused.
+If a frame instead stores $\beta_{\rm raw}$ multiplying $z^3-3z$, use
+$\beta=\sqrt6\,\beta_{\rm raw}$.  The same correction is then
+\[
+ \lambda\left(A_q-(A+3B)u-r+\frac{6\beta_{\rm raw}B}{b}\right)
+       +\frac{3\lambda^2B^2}{2b}.
+\]
+Both the contact row and $\lambda$ are chosen once for each whole cell;
+they cannot be optimized independently at its corner points and then treated
+as a single convex price.
+\end{corollary}
+\begin{proof}
+Pointwise $L(Z)h+Qk\le\max(|L(Z)|,|Q|)$, and $\mathbb EQk=r$.
+Take expectations, use the global majorant, and price its second, fourth and
+sixth moments.  The sixth coefficient is nonnegative and
+$194/\sqrt{10}-633/15>0$, proving the price properties.
+Before completing the longitudinal penalty, add the nonnegative quantity
+$\lambda(A_q-au-dv-r)$ and complete with
+$(\beta+\lambda d/2)^2/b$ in place of $\beta^2/b$.
+Subtracting the old completion gives the displayed correction.
+\end{proof}
+
+For the exact head $A=26412631/10^7$, $B=4084047/10^7$ and contact
+$w_0=189/50$, so $s_0=w_0(A+Bw_0)^2$, one certified rational row is
+\[
+\begin{split}
+q_0&=137957132894348330419/(5\cdot10^{19}),\\
+q_2&=1510422344526876849/10^{19},\\
+q_4&=-163849393411225061/10^{20},\\
+q_6&=23608461930109/(25\cdot10^{17}).
+\end{split}
+\]
+Its uniform four-corner price on $\kappa\in[2,4]$, $\zeta\in[0,1]$ is at most
+$29040583649083683/10^{16}$.
+The exact coefficient-sign proof, rational rounding and directed corner
+prices are reproduced by
+\texttt{tonight/moments/cubic\_head\_contact/certify\_direct\_contact\_majorant.py}.
+This source proposition alone does not assert a global operator norm bound.
+The scalar comparison was independently accepted by an exact rational
+recurrence check and a separate 768-bit MPFR replay of all $28$ upward-rounded
+coefficients and $98$ directed moment prices.  A global norm conclusion still
+requires complete fixed-row, fixed-multiplier cell coverage.

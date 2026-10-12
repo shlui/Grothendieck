@@ -1,0 +1,94 @@
+{
+  "status": "NUMERICAL_COUPLED_633_CUBIC_L1_REFIT",
+  "degree": 12,
+  "scale": 2,
+  "kappa": 6.775,
+  "sigma": 1,
+  "odd_weights": [
+    1,
+    0,
+    0
+  ],
+  "sixth_offset": 0,
+  "combined_sixth": false,
+  "eta": 0.13461244283693533,
+  "phi_coefficients": [
+    -526.4952985614046,
+    29.259510096306204,
+    -0.6645412621733134,
+    0.003287635247020036,
+    3843.5286385983777,
+    4330.770669031194,
+    2355.733147601061,
+    1231.2686796101843,
+    614.6260750662922,
+    290.91020698008583,
+    129.27711750875275,
+    53.19171888738196,
+    19.87875955828438,
+    6.5588757356083995,
+    1.8147080810638823,
+    0.3768450130546983,
+    0.044078813508032416
+  ],
+  "majorant": [
+    -0.41027570571927086,
+    0.5263296472777603,
+    -0.019192727724593017,
+    4.0152224378934796e-05
+  ],
+  "kappa_interval": [
+    6.25,
+    7.3
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "kappa_interval": [
+        6.25,
+        7.3
+      ],
+      "sampled_cap": 0.8462659538560995,
+      "scaled_violation": 2.4004869074322496e-06,
+      "rank": 17,
+      "seconds": 0.746640682220459,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 1,
+      "kappa_interval": [
+        6.25,
+        7.3
+      ],
+      "sampled_cap": 0.8462648457196182,
+      "scaled_violation": 5.28463902353264e-09,
+      "rank": 17,
+      "seconds": 1.2449469566345215,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 2,
+      "kappa_interval": [
+        6.25,
+        7.3
+      ],
+      "sampled_cap": 0.8462663615832989,
+      "scaled_violation": 4.811314229904514e-09,
+      "rank": 17,
+      "seconds": 1.7265281677246094,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 3,
+      "kappa_interval": [
+        6.25,
+        7.3
+      ],
+      "sampled_cap": 0.8462662434559881,
+      "scaled_violation": 2.7007304696150594e-09,
+      "rank": 17,
+      "seconds": 2.2115726470947266,
+      "status": "optimal_inaccurate"
+    }
+  ]
+}

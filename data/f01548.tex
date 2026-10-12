@@ -1,0 +1,78 @@
+\begin{proposition}[Compact evaluation of cubic cell entries]
+\label{prop:new-compact-cubic-cell-entry}
+Let $h_\alpha(x)=\prod_{j=1}^d
+\operatorname{He}_{\alpha_j}(x_j)/\sqrt{\alpha_j!}$ denote the
+orthonormal probabilists' Hermite polynomials for standard Gaussian
+measure. The degree-three projection kernel has the exact formula
+\[
+ \mathcal K_3(x,y):=\sum_{|\alpha|=3}h_\alpha(x)h_\alpha(y)
+ =\frac{(x\cdot y)^3-3(x\cdot y)(\|x\|^2+\|y\|^2)
+                  +3(d+2)(x\cdot y)}6.
+\]
+For two product cells $C,D$, let
+\[
+ a_{j,k}=\mathbb E[X_j^k\mid X\in C],\qquad
+ b_{j,k}=\mathbb E[Y_j^k\mid Y\in D],\qquad k=1,2,3,
+\]
+where $X,Y$ are independent standard Gaussian vectors. Put
+\[
+ u_j=a_{j,1}b_{j,1},\quad
+ e_j=(a_{j,2}-1)(b_{j,2}-1),\quad
+ t_j=(a_{j,3}-3a_{j,1})(b_{j,3}-3b_{j,1}),\quad S=\sum_j u_j.
+\]
+Then
+\[
+ \mathbb E[\mathcal K_3(X,Y)\mid X\in C,Y\in D]
+ =\frac16\left\{
+ \sum_j t_j+3S\sum_j e_j-3\sum_j e_ju_j
+          +S^3-3S\sum_j u_j^2+2\sum_j u_j^3\right\}.
+\]
+Consequently, one compressed cubic matrix entry requires $O(d)$
+arithmetic operations after its one-dimensional conditional moments are
+known. No enumeration of the $\binom{d+2}{3}$ degree-three features is
+required.
+\end{proposition}
+\begin{proof}
+The degree-three multi-indices have patterns $(3)$, $(2,1)$ and
+$(1,1,1)$. Since $\operatorname{He}_1(x)=x$,
+$\operatorname{He}_2(x)=x^2-1$ and
+$\operatorname{He}_3(x)=x^3-3x$, their conditional contributions are
+\[
+ \frac16\sum_j t_j
+ +\frac12\sum_{i\ne j}e_i u_j
+ +\sum_{i<j<k}u_i u_j u_k.
+\]
+Use $\sum_{i\ne j}e_i u_j=S\sum_i e_i-\sum_i e_i u_i$ and
+$6\sum_{i<j<k}u_i u_j u_k
+ =S^3-3S\sum_i u_i^2+2\sum_i u_i^3$.
+Product conditioning preserves the independence of the coordinates,
+so these identities prove the stated expectation. Substituting the
+point moments $a_{j,k}=x_j^k$, $b_{j,k}=y_j^k$ and collecting terms
+gives the displayed projection kernel.
+
+For an interval $I=(\ell,r)$ with positive Gaussian mass
+$p_I=\Phi(r)-\Phi(\ell)$, its required conditional moments are
+\[
+ m_1(I)=\frac{\varphi(\ell)-\varphi(r)}{p_I},\qquad
+ m_2(I)=1+\frac{\ell\varphi(\ell)-r\varphi(r)}{p_I},
+\]
+\[
+ m_3(I)=
+ \frac{(\ell^2+2)\varphi(\ell)-(r^2+2)\varphi(r)}{p_I}.
+\]
+The expressions at infinite endpoints are interpreted by their zero
+limits. These formulas follow by integrating
+$\varphi'(x)=-x\varphi(x)$.
+
+For a selected half-cell $C$ in the antipodal fold, let
+$w_C=2\gamma_d(C)$. The analytic cubic seed entry is exactly
+\[
+ A_{C,D}=w_Cw_D\left(S-
+ b\,\mathbb E[\mathcal K_3(X,Y)\mid C,D]\right).
+\]
+Indeed, every degree-one or degree-three Hermite cell feature equals
+$w_C\mathbb E[h_\alpha(X)\mid C]$, so its outer product is exactly
+the folded cell compression. Rational approximation and the reduced
+matrix maps are applied subsequently as before; this entry formula
+changes neither the sequence nor its certified bounds.
+\end{proof}

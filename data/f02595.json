@@ -1,0 +1,46 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_TARGETED_MIDDLEHIGH_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/projection/targeted_certificate/profile_interval_middlehigh_u7475_r275_k11_2.json",
+  "profile_sha256": "ecb655ebe1dc3380f6f643c3ab04dc2f64d053be9366364817fac0b7c5f3977e",
+  "reserves": [
+    "1/10000",
+    "1/1000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "16"
+    ],
+    [
+      "16",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/targeted_middlehigh_R3_recheck/independent_interval_middlehigh_u7475_r275_k11_2_middle_body.json",
+      "sha256": "89b881f6071a332e3340ed100c5c985e43382b1a9b587d4d2efd019aec2dbfff",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4565
+    },
+    "exterior": {
+      "path": "tonight/audit/targeted_middlehigh_R3_recheck/independent_interval_middlehigh_u7475_r275_k11_2_middle_exterior.json",
+      "sha256": "0f23a9d1a71768512efdb9fb51adc4690732ab0f530e987e80225b0beb9829e2",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 22
+    },
+    "tail": {
+      "path": "tonight/audit/targeted_middlehigh_R3_recheck/independent_interval_middlehigh_u7475_r275_k11_2_middle_tail.json",
+      "sha256": "77dcf16a7bf0abf1fcfdb7180337f98f8be1cdd8c3cf991dd80e556c5d297f89",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  },
+  "adapter_sha256": "bb1cf350db18ca91304bc0d9635fdcba2891fbb6d3ec07da654760b00c148c5b",
+  "adapter_review": "Uses the already independently reviewed middle branch and tail parameter16; every integration leaf and exact tail polynomial freshly checked.",
+  "scope": "Whole-q physical local gate only. Actual outer moment/source price and exhaustive amplitude cover are separate."
+}

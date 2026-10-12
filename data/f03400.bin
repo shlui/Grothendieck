@@ -1,0 +1,31 @@
+{
+  "status": "PASS_PRODUCER_FREE_ADAPTIVE_POLYGON_REFINEMENT",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_refined_envelope.json.gz",
+    "sha256": "41874864eddaf9beadf67cda0b78f9219d99b06fc0f2ff07209efd19403df5c7"
+  },
+  "source_sha256": "41874864eddaf9beadf67cda0b78f9219d99b06fc0f2ff07209efd19403df5c7",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+    "sha256": "80d146ce0b584119ab20158e6f10e1e50ca1e3b5a12d96200f79473e995a111d",
+    "accepted_audit": "tonight/theory/fullupper57_b713_twentytwobank_monotone_audit.json",
+    "audit_sha256": "349fa49e8b938fd4ced340310250c46c38f7cc8c9da935ecc6d0af3482c025b5"
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "refined_parents": 2814,
+  "unchanged_price_cells": 250468,
+  "exact_child_intervals": 27340,
+  "priced_children": 20749,
+  "exact_empty_children": 6591,
+  "total_priced_cells": 271217,
+  "total_empty_cells": 8669,
+  "native_knot_pieces": 7478,
+  "edge_stationary_points": 3226,
+  "maximum_cell_cap": "282095133327/500000000000",
+  "strict_rational_cap": "141047567/250000000",
+  "proof": "Every accepted parent cell is retained unchanged or exactly partitioned into its recorded child amplitude intervals. Original physical constraints are inherited; each new clipped polygon is independently verified. Selected old parent bounds or recomputed exact cached polynomial maxima bound every nonempty child."
+}

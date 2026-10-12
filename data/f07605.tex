@@ -1,0 +1,36 @@
+\begin{corollary}[A physical source exclusion at the remaining native bottleneck]
+In the notation of Proposition~\ref{prop:contact-head-source}, every physical
+source with $u\ge151/200$, $\kappa\in[2,4]$ and $\zeta\in[0,1]$ satisfies
+\[
+ r\le\frac{3218564576843929081}{12500000000000000000}
+ <\frac{257485167}{10^9}<\frac{129}{500}.
+\]
+Thus the entire source domain $u\ge.755$, $r\ge.258$, $\kappa\in[2,4]$
+is physically impossible.  This exclusion is independent of the operator
+coefficient $b$ and uses no longitudinal-completion multiplier.
+\end{corollary}
+\begin{proof}
+Use the globally valid contact family at $A=147/50$, $B=0$, $w_0=11/2$,
+so that $s_0=237699/5000$.  One upward-rounded rational row is
+\[
+\begin{split}
+q_0&=234578060876042414629/10^{20},\\
+q_2&=13569465319776621699/10^{20},\\
+q_4&=-57073674634011611/(5\cdot10^{19}),\\
+q_6&=648580884546013/10^{20}>0.
+\end{split}
+\]
+These coefficients already contain $\nu$.  The price for this single fixed
+row is convex in $\kappa$ and affine in $\zeta$.  Directed evaluation of the
+four corners of $[2,4]\times[0,1]$ gives
+\[
+ A_q(\kappa,\zeta)
+ \le\frac{30964814576843929081}{12500000000000000000}.
+\]
+The physical source gate is simply $(147/50)u+r\le A_q$ since $d=0$.
+Subtract $(147/50)(151/200)$ to obtain the asserted bound.
+All four rational coefficient roundings and four corner prices passed a
+separate 768-bit MPFR replay; the globally valid contact-family argument
+also applies at $B=0$.
+This is a source-domain exclusion, not a complete operator norm theorem.
+\end{proof}

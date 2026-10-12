@@ -1,0 +1,89 @@
+% Genuine finite-matrix sequence refinement. Denominator convergence is
+% qualitative; the rate applies to the displayed certified lower bounds.
+\begin{proposition}[A powered-dimension cubic sequence]
+\label{prop:new-powered-cubic-sequence}
+Fix $0<b<1$, and suppose a complete all-sign theorem proves
+$N(P_1-bP_3)\leq B$.  In the analytic cell-compression construction,
+take
+\[
+ d_n=n^4,\qquad h_n=n^{-4},\qquad \text{coordinate cutoff }n,
+                   \qquad \eta_n=n^{-8},\quad n\geq2.
+\]
+Here $h_n$ is the interval mesh and $\eta_n$ is the total entrywise
+dyadic approximation error.  Apply the same exact cloning, symmetric
+dilation and balanced copy, producing reduced rational matrices
+$\widehat H_n(b)$.  Put $d=d_n$ and
+\[
+ p_n=\min(1,2n^3\varphi(n)),\qquad
+ q_d(b)=a_d\left(1-\frac b{2(d+2)}\right),
+\]
+\begin{align*}
+ \widehat{\mathcal L}_n(b)={}&dh_n^2
+ \left[\frac{1-b/2}{d-1}+\frac b{2(d+2)}+\frac b{d-2}\right]\\
+ &+4\left[1-\frac b2+\frac b2\sqrt{\frac{d+4}{d+2}}\right]
+                         \sqrt{p_n}+4bp_n.
+\end{align*}
+Then the explicit finite lower bound is
+\[
+ G(\widehat H_n(b))\geq
+ \frac{\max(0,q_d(b)-\widehat{\mathcal L}_n(b)-n^{-8})}
+                           {B+n^{-8}}.
+\]
+The matrices have actual ratio limit $1/N(P_1-bP_3)$.
+The displayed certified lower bounds converge to $1/B$ at rate
+$O(n^{-4})$.  No rate for the actual scalar-norm convergence is
+asserted.
+\end{proposition}
+\begin{proof}
+For $V=X/R$, the radial projection identity gives
+\[
+ (P_1-bP_3)V=t_d(R)V,\qquad
+ t_d(R)+b=b+\frac{\mathbb ER}{d}R
+           \left[1-\frac b2+\frac{bR^2}{2(d+2)}\right]\geq0.
+\]
+The unit-field difference identity and minimum odd eigenvalue $-b$
+give a trial-objective loss at most
+$\mathbb E[(t_d(R)+b)\|v-V\|^2]$.
+Off the clipping event, $\|v-V\|^2\leq dh_n^2/R^2$.
+The exact negative radial moments and $a_d\leq1$ give the first
+line of $\widehat{\mathcal L}_n$.  The clipping event has probability
+at most $p_n$ by the union bound and Gaussian Mills inequality.
+On that event $\|v-V\|^2\leq4$.  Cauchy--Schwarz and
+\[
+ \mathbb ER^2=d,\qquad \mathbb ER^6=d(d+2)(d+4),\qquad a_d\leq1
+\]
+give its remaining two terms.  These steps use no independence of
+the clipping event and $R$.
+
+As before, analytic cell compression has scalar norm at most $B$
+and vector norm at least $q_d-\widehat{\mathcal L}_n$.
+Entrywise approximation changes each norm by at most $\eta_n$ and
+the exact reductions preserve the ratio, proving the finite bound.
+The qualitative scalar/vector limits hold for the new nonnested
+grids because both the dimension and cutoff tend to infinity and
+the mesh tends to zero.
+Finally
+\[
+ q_{n^4}(b)=1-\frac{1+b}{2n^4}+O(n^{-8}),\qquad
+ \widehat{\mathcal L}_n(b)=(1+b)n^{-8}+O(n^{-12})
+                         +O(n^{3/2}e^{-n^2/4}).
+\]
+The latter exponential term is $o(n^{-m})$ for every fixed $m$.
+Together with $\eta_n=n^{-8}$ this proves the stated lower-bound
+rate.  Qualitative convergence of the scalar norm supplies the
+actual limit, without supplying a quantitative denominator rate.
+\end{proof}
+
+\paragraph{Extension to a normalized odd tail.}
+For $T_{\tau,b}=(1-\tau)P_1-bP_3+\tau P_{\rm odd}$, let
+$\alpha=1-\tau\geq b/2$, and impose the spectral-cube conditions.
+The same proof holds with $q_d=\tau+\alpha a_d-be_3$ and
+\[
+ \widehat{\mathcal L}_n(\tau,b)=dh_n^2
+ \left[\frac{\alpha-b/2}{d-1}+\frac b{2(d+2)}+\frac b{d-2}\right]
+ +4\left[\alpha-\frac b2+\frac b2\sqrt{\frac{d+4}{d+2}}\right]
+                       \sqrt{p_n}+4bp_n.
+\]
+Its leading natural-vector loss is $(\alpha+b)/(2n^4)$, and its
+midpoint bulk loss is $(\alpha+b)n^{-8}$.  A separately certified
+complete norm bound remains necessary for every selected $(\tau,b)$.

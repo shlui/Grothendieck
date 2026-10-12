@@ -1,0 +1,12 @@
+{
+  "status": "PASS_COMPLETE_LOCAL_AND_SCALAR_PRIMITIVES",
+  "operator": "P1-(18/25)P3",
+  "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+  "local_nodes": 51,
+  "scalar_rows": 64,
+  "scope": "Complete physical and scalar gates only. No regional or unrestricted norm cap is asserted; directed continuous cell pricing must be checked separately.",
+  "local_boxes_replayed": 595593,
+  "scalar_leaves_replayed": 29264,
+  "precision_bits": 512,
+  "seconds": 200.3397343158722
+}

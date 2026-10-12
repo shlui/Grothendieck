@@ -1,0 +1,71 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_HIGHK_DENSE_GATE_PENDING_INDEPENDENT_AUDIT",
+  "profile_alias": "highk_dense76625",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_denseq_b7171.json",
+    "sha256": "0bd2b059e4c4e1b5d6ba12db0bca29803656a2ac587e7a059288fe20fbdef33d"
+  },
+  "reference_b": "7171/10000",
+  "regional_target_b": "711/1000",
+  "reserve0": "1/100",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_denseq_q01.json.gz",
+      "sha256": "8e6bc32a1cc36bbc873bb4b8a18c89f52d071b727c62696b68182c7f97f89dec"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_denseq_q01.json.gz",
+      "sha256": "8699f8527fafff7c249441af37c1b88a2b76a96422f4026f5660bd8da2a3597e"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_denseq_q01.json",
+    "sha256": "2698260101bb2799d3c4da9557d231e5b93a7bb6b77beca22d2cfd506a271b34"
+  },
+  "counts": {
+    "body_highk_denseq_q01.json.gz": {
+      "nodes": 3851,
+      "accepted": 1926,
+      "pending": 0
+    },
+    "exterior_highk_denseq_q01.json.gz": {
+      "nodes": 65,
+      "accepted": 33,
+      "pending": 0
+    }
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/source_price_denseq_b711_q01.json",
+    "sha256": "8efac3d870f28de28c30ffe9c3d940eed2f85d05bcc01dcd7ddf3dcfb24919d3"
+  },
+  "source_box_cap": "53209446602778611386840966700487538252241090863484972220209189038912151963507197/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "source_box_cap_display": 0.5320944660277861,
+  "adapter_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+    }
+  ],
+  "scope": "Distinct dense exterior-grid discovery profile. Completed producer body[0,8], exterior[8,32], exact tail[32,infinity), using only literal q0=1/100 andq6=1/100000000. Smaller q0 budgets had directed counterexamples and are excluded. Same-b global source cover and independent audit remain separate."
+}

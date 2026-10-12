@@ -1,0 +1,106 @@
+{
+  "status": "PASS_EXACT_AGGREGATE_PERTURBATION_ARITHMETIC",
+  "frozen_accepted_inputs": {
+    "baseline_norm_cap": "1000/1773",
+    "baseline_epsilon": "699/1000",
+    "mixed_energy_A": "2403891349687/2000000000000",
+    "mixed_energy_B": "12706580435619/10000000000000"
+  },
+  "perturbation_penalty_positive_epsilon": "1142108650313000000/1526545967736956751",
+  "perturbation_penalty_positive_epsilon_decimal": 0.7481652530949529,
+  "perturbation_penalty_negative_epsilon": "1142108650313000000/7484960877204038049",
+  "perturbation_penalty_negative_epsilon_decimal": 0.152587123573534,
+  "triangle_penalty_from_same_energy": "10000000000000/12706580435619",
+  "rows": [
+    {
+      "epsilon": "698999/1000000",
+      "norm_upper_from_baseline_and_energy": "4221637282663663313/7484960877204038049",
+      "norm_upper_decimal": 0.564015945029312,
+      "reciprocal_lower": "7484960877204038049/4221637282663663313",
+      "reciprocal_decimal": 1.7729995203380817,
+      "improves_baseline": false
+    },
+    {
+      "epsilon": "699001/1000000",
+      "norm_upper_from_baseline_and_energy": "860997175801237313/1526545967736956751",
+      "norm_upper_decimal": 0.5640165406074414,
+      "reciprocal_lower": "1526545967736956751/860997175801237313",
+      "reciprocal_decimal": 1.7729976481239498,
+      "improves_baseline": false
+    },
+    {
+      "epsilon": "7/10",
+      "norm_upper_from_baseline_and_energy": "862138142342900000/1526545967736956751",
+      "norm_upper_decimal": 0.5647639576952833,
+      "reciprocal_lower": "1526545967736956751/862138142342900000",
+      "reciprocal_decimal": 1.7706512364578813,
+      "improves_baseline": false
+    },
+    {
+      "epsilon": "707/1000",
+      "norm_upper_from_baseline_and_energy": "870132902895091000/1526545967736956751",
+      "norm_upper_decimal": 0.570001114466948,
+      "reciprocal_lower": "1526545967736956751/870132902895091000",
+      "reciprocal_decimal": 1.7543825347344753,
+      "improves_baseline": false
+    },
+    {
+      "epsilon": "18/25",
+      "norm_upper_from_baseline_and_energy": "294993438449720000/508848655912318917",
+      "norm_upper_decimal": 0.5797272627571823,
+      "reciprocal_lower": "508848655912318917/294993438449720000",
+      "reciprocal_decimal": 1.724949065262173,
+      "improves_baseline": false
+    }
+  ],
+  "aggregate_allowed_saturating_point_positive": {
+    "E1_h": "20887362374600000/508848655912318917",
+    "E1_k": "0",
+    "E3_h": "0",
+    "E3_k": "1142108650313000000/1526545967736956751",
+    "warning": "Feasible for these necessary aggregate constraints only; not claimed to be realizable by signs."
+  },
+  "new_pure_P3_section_status": "CONDITIONAL_UNACCEPTED_DISCOVERY_INPUT",
+  "assumed_uniform_cubic_L1_cap": "437/500",
+  "pure_mixed_switch_amplitude_squared": "4319825928839717/176756716888750000",
+  "pure_mixed_switch_safe_rational": "156331019/1000000000",
+  "conditional_low_u_rows": [
+    {
+      "epsilon": "699/1000",
+      "target": "40/71",
+      "pure_cutoff_squared": "522399499/17750000000",
+      "pure_safe_rational_right": "42888633/250000000",
+      "mixed_cutoff_squared": "266071498328000/6792302043574853",
+      "mixed_safe_rational_right": "39584091/200000000",
+      "combined_safe_right": "39584091/200000000",
+      "combined_safe_right_decimal": 0.197920455
+    },
+    {
+      "epsilon": "707/1000",
+      "target": "40/71",
+      "pure_cutoff_squared": "413929107/17750000000",
+      "pure_safe_rational_right": "38177177/250000000",
+      "mixed_cutoff_squared": "179806212136000/8537901157935923",
+      "mixed_safe_rational_right": "145119837/1000000000",
+      "combined_safe_right": "38177177/250000000",
+      "combined_safe_right_decimal": 0.152708708
+    },
+    {
+      "epsilon": "18/25",
+      "target": "40/71",
+      "pure_cutoff_squared": "2970809/221875000",
+      "pure_safe_rational_right": "115713273/1000000000",
+      "mixed_cutoff_squared": "-4894637625400/479554303248253",
+      "mixed_safe_rational_right": "None",
+      "combined_safe_right": "115713273/1000000000",
+      "combined_safe_right_decimal": 0.115713273
+    }
+  ],
+  "rho_squared_threshold_to_improve_aggregate_positive_penalty": "1142108650313000000/1526545967736956751",
+  "rho_threshold_to_improve_aggregate_positive_penalty_decimal": 0.8649654635272745,
+  "rho_squared_needed_for_pure_low_u_old_cover_at_720": "155594988711401/214412820480000",
+  "rho_needed_for_pure_low_u_old_cover_at_720_decimal": 0.8518682419489271,
+  "norm_decrease_needed_for_1_77301": "1000/314354673",
+  "scope": "Rigorous perturbation upper bounds from frozen accepted premises; they yield no endpoint improvement. New pure-P3 consequences are conditional until its global certificate passes.",
+  "producer_sha256": "e3e061c8cceb927e6ba8f661259a79f45a48f2e7d481a2bb0e7655ad62e70b18"
+}

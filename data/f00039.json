@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/dense_highk_source_box/REPLAY_MANIFEST.json",
+    "sha256": "f2d073b673edd1b250439d2ae38ff15766651e070fb59d1c4f221b48c881f502"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_dense_highk_q_trees.py",
+    "sha256": "7a1d97ae95f0f43e39d02ea3add42218ef3be4d58db7c551776d6b51bbefb026"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/dense_highk_source_box/reports/independent_interval_highk_dense76625_highk01_body.json",
+      "sha256": "e6d31ba8286a57b2622c49b6183c3ec829883f5e3cc263ed13befc62dc4ec193",
+      "profile": "interval_highk_dense76625",
+      "part": "body",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1926
+    },
+    {
+      "path": "new_round_2026-10-02/audit/dense_highk_source_box/reports/independent_interval_highk_dense76625_highk01_exterior.json",
+      "sha256": "d41edc8d76d4fe57213478ae868b3600923fe78fc4a92b03a5233ac7ba44c0b6",
+      "profile": "interval_highk_dense76625",
+      "part": "exterior",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 33
+    },
+    {
+      "path": "new_round_2026-10-02/audit/dense_highk_source_box/reports/independent_interval_highk_dense76625_highk01_tail.json",
+      "sha256": "cd4f21db92339d071cfd8789779ff8accd0b4e96118e803ec3fe46dc95050083",
+      "profile": "interval_highk_dense76625",
+      "part": "tail",
+      "branch": "highk01",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 4.1925928592681885,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

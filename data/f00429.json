@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa0375_lowu_source_box/REPLAY_MANIFEST.json",
+    "sha256": "32277941b2101398066853441299d0ae8da4e2498224a4ad2fbc5f19a557d957"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa0375_lowu_source_box/reports/independent_interval_new_kappa0375_lowu_b711_q50_body.json",
+      "sha256": "8392276c3f1bd8257469e858a81a474c96a021d53e065f621ab3c1cbb6b6d9a9",
+      "profile": "interval_new_kappa0375_lowu_b711",
+      "part": "body",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 3708
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa0375_lowu_source_box/reports/independent_interval_new_kappa0375_lowu_b711_q50_exterior.json",
+      "sha256": "fc7c9eb1adfa16a24c1a1dd8bacacb1b137e3f8339877e56aca4a6fdf167f514",
+      "profile": "interval_new_kappa0375_lowu_b711",
+      "part": "exterior",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa0375_lowu_source_box/reports/independent_interval_new_kappa0375_lowu_b711_q50_tail.json",
+      "sha256": "a362cd4a0dfe9884ba9a48341ec851e9238451a9627103916f786eb7273a7bc3",
+      "profile": "interval_new_kappa0375_lowu_b711",
+      "part": "tail",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 6.416810750961304,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

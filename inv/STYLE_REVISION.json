@@ -1,0 +1,224 @@
+{
+  "changes": [
+    {
+      "old": "\\abs{\\sum_{i,j=1}^n a_{ij}u_i^Tv_j}",
+      "new": "\\left|\\sum_{i,j=1}^n a_{ij}u_i^Tv_j\\right|",
+      "occurrences": 1
+    },
+    {
+      "old": "{A constructive lower bound for the real Grothendieck constant}",
+      "new": "{A lower bound for the real Grothendieck constant}",
+      "occurrences": 1
+    },
+    {
+      "old": "{The problem, its history, and the approach}",
+      "new": "{Introduction}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Why the Gaussian formulation is useful.}",
+      "new": "{Gaussian formulation.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Weighted Gaussian notation.}",
+      "new": "{Gaussian notation.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Hermite and matrix notation.}",
+      "new": "{Polynomials and matrices.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{The Gaussian coefficient formulation}",
+      "new": "{Gaussian coefficients}",
+      "occurrences": 1
+    },
+    {
+      "old": "{An explicit rational matrix sequence}",
+      "new": "{Rational matrix sequence}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Cubic moments and a common weighted-integral bound}",
+      "new": "{Cubic moment bounds}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Source bounds and a unified conditional comparison}",
+      "new": "{Bounds for sign pairs}",
+      "occurrences": 1
+    },
+    {
+      "old": "{From continuous criteria to the uniform norm bound}",
+      "new": "{Uniform norm bound}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Exact scalar verification of the tensor bound}",
+      "new": "{Tensor estimates}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Whole-line Stein and source comparisons}",
+      "new": "{Integral and source bounds}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Local bounds, complete coverage and the strict cap}",
+      "new": "{Finite verification}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Matrix entries and the first three certificates}",
+      "new": "{Matrix entries and examples}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Physical endpoint rules.}",
+      "new": "{Cell endpoints.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Cover assembly.}",
+      "new": "{Coverage.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{Reproduction and provenance.}",
+      "new": "{Verification records.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{The cutoff and mesh error.}",
+      "new": "{Grid and tail errors.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{The first three matrices.}",
+      "new": "{First three matrices.}",
+      "occurrences": 1
+    },
+    {
+      "old": "{First three rational bounds.}",
+      "new": "{Ratio bounds.}",
+      "occurrences": 1
+    },
+    {
+      "old": "For $|t|<1$, define the Mehler integral operator by",
+      "new": "For $|t|<1$, define the Gaussian integral operator by",
+      "occurrences": 1
+    },
+    {
+      "old": "Mehler's formula identifies $\\sum_{m\\ {\\rm odd}}b_m t^m$ with",
+      "new": "Its Hermite expansion identifies $\\sum_{m\\ {\\rm odd}}b_m t^m$ with",
+      "occurrences": 1
+    },
+    {
+      "old": "Flatten $f$ into the $n^2$-by-$n$ matrix $F_{(a,b),c}=f_{abc}$.",
+      "new": "Arrange the entries of $f$ in the $n^2$-by-$n$ matrix $F_{(a,b),c}=f_{abc}$.",
+      "occurrences": 1
+    },
+    {
+      "old": "The connected Wick contractions give the identity",
+      "new": "Expanding the sixth Gaussian moment and using the definition of $\\kappa_6$ gives the identity",
+      "occurrences": 1
+    },
+    {
+      "old": "checked by the formal Wick expansion described in Appendix~\\ref{app:tensor}.",
+      "new": "checked by the exact pairing calculation in Appendix~\\ref{app:tensor}.",
+      "occurrences": 1
+    },
+    {
+      "old": "The following Stein comparison turns a whole-line polynomial majorant into a moment bound for normalized cubic Hermite polynomials.",
+      "new": "The next result uses integration by parts to turn a scalar inequality on all of $\\R$ into a bound in terms of cubic moments.",
+      "occurrences": 1
+    },
+    {
+      "old": "The flattening satisfies",
+      "new": "The associated matrix $F_{(a,b),i}=f_{abi}$ satisfies",
+      "occurrences": 1
+    },
+    {
+      "old": "The following coordinate criterion combines the Gram penalties and the cubic residual correction.",
+      "new": "The following coordinate criterion combines the quadratic terms and the cubic residual correction.",
+      "occurrences": 1
+    },
+    {
+      "old": "The Stein lemma applies to $\\Phi$, or to $\\Phi-\\lambda|q|$",
+      "new": "Lemma~\\ref{prop:physical-r3-stein-majorant} applies to $\\Phi$, or to $\\Phi-\\lambda|q|$",
+      "occurrences": 1
+    },
+    {
+      "old": "Stein majorants give uniformly bounded cells of",
+      "new": "polynomial upper bounds give uniformly bounded cells of",
+      "occurrences": 1
+    },
+    {
+      "old": "whole-line Stein comparisons, and coverage are separate acceptance",
+      "new": "integral comparisons on all of $\\R$, and coverage are separate acceptance",
+      "occurrences": 1
+    },
+    {
+      "old": "The formal Wick check of \\eqref{eq:wick6} enumerates connected\nloopless degree-three multigraphs: a graph with multiplicities\n$m_{ij}$ has weight $(3!)^r/\\prod_{i<j}m_{ij}!$ for $r$ tensors.\nThere are seven labelled connected fourth-order graphs and $640$\nsixth-order graphs. Expanding the three pairings in $S$ gives the\nsame rational coefficients in each of the six sixth-order graph\nclasses. This checks the tensor identity, rather than a set of\nnumerical tensor examples.",
+      "new": "To check \\eqref{eq:wick6}, pair the three indices in each tensor with\nindices in other tensors, retaining patterns that link all tensors.\nFor $r$ tensors, a pattern with $m_{ij}$ pairs between tensors $i,j$\nhas weight $(3!)^r/\\prod_{i<j}m_{ij}!$. There are seven labelled\nmultiplicity patterns $(m_{ij})$ for four tensors and $640$ for six.\nThe six-tensor patterns form six classes when patterns differing only\nby relabeling the tensors are grouped together. Expanding the three\npairings in $S$ gives the same rational coefficients in every class.\nThis checks the tensor identity for every tensor.",
+      "occurrences": 1
+    },
+    {
+      "old": "Upward rounding of its coefficients preserves the majorant on $s\\ge0$.",
+      "new": "Upward rounding of its coefficients preserves the upper bound on $s\\ge0$.",
+      "occurrences": 1
+    },
+    {
+      "old": "These affine majorants have",
+      "new": "These affine upper bounds have",
+      "occurrences": 1
+    },
+    {
+      "old": "the moment price is",
+      "new": "the moment bound is",
+      "occurrences": 1
+    },
+    {
+      "old": "cumulants cover $[0,90]$ and shapes",
+      "new": "the $\\kappa$ intervals cover $[0,90]$ and shapes",
+      "occurrences": 1
+    },
+    {
+      "old": "$56$ cumulant intervals on $[0,90]$;",
+      "new": "$56$ intervals for $\\kappa$ on $[0,90]$;",
+      "occurrences": 1
+    },
+    {
+      "old": "The vector maximum optimizes over Gram matrices with diagonal one;",
+      "new": "The vector maximum optimizes over matrices of inner products with diagonal one;",
+      "occurrences": 1
+    },
+    {
+      "old": "The normalized Gram matrix $6G$",
+      "new": "The normalized matrix $6G$",
+      "occurrences": 1
+    }
+  ],
+  "bibliography_order": [
+    "AlonNaor2006",
+    "BMMN2013",
+    "Davie1984",
+    "Grothendieck1953",
+    "HeilmanLower2026",
+    "HJM",
+    "JonesMalavolta2026",
+    "KhotNaor2012",
+    "Krivine1977",
+    "Krivine1979",
+    "NaorRegev2014",
+    "Peng2026",
+    "Pisier2012",
+    "Reeds1991",
+    "SahaEtAl2026",
+    "SongYue2026",
+    "Tsirelson1987"
+  ],
+  "bibliography_entries_unchanged": true
+}

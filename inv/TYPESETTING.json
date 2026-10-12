@@ -1,0 +1,238 @@
+{
+  "main_paper_no_appendices": true,
+  "main_text_ends_with_proof_of_theorem_1": true,
+  "author_metadata_packages_font_and_geometry_preserved": true,
+  "full_numerical_certificate_replayed_this_revision": false,
+  "status": "PASS_REVISED_SOURCE_LAYOUT_AND_SELECTED_MATH_CHECKS",
+  "date": "2026-10-04",
+  "author_attachments_sha256": {
+    "author_main.tex": "879dde16ae532b84073a62f5c99dd518d5f7527d72a0450ec60e02681eda7b09",
+    "author_verification.tex": "019bbb45618cc76ceb6d7af0a45a9585333486566867a6a79e3f16709ac333fd"
+  },
+  "latest_author_result_statements_preserved": {
+    "main": [
+      {
+        "label": "thm:main",
+        "statement_preserved": true
+      },
+      {
+        "label": "lem:PAQ-invariance",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:new-log-cutoff-sequence",
+        "statement_preserved": true
+      },
+      {
+        "label": "cor:balanced-search",
+        "statement_preserved": true
+      },
+      {
+        "label": "thm:633",
+        "statement_preserved": true
+      },
+      {
+        "label": "thm:l1",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:source",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:gram",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:new-strong-curved-shape-bound",
+        "statement_preserved": true
+      }
+    ],
+    "verification": [
+      {
+        "label": "prop:physical-r3-stein-majorant",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:source",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:gram",
+        "statement_preserved": true
+      },
+      {
+        "label": "prop:new-strong-curved-shape-bound",
+        "statement_preserved": true
+      }
+    ]
+  },
+  "equation_and_theorem_numbers_preserved": true,
+  "author_front_matter_and_bibliography_preserved": true,
+  "fresh_rewritten_math_checks": {
+    "exact_gaussian_polynomial_checks": [
+      {
+        "case": "one-dimensional Hermite cubic",
+        "normalization": "6",
+        "kappa": "90",
+        "sigma": "2/5",
+        "sixth_cumulant": "52380",
+        "contractions_moments_wick_identity_projection_restrictions": "passed exactly"
+      },
+      {
+        "case": "mixed symmetric cubic",
+        "normalization": "42",
+        "kappa": "2538/49",
+        "sigma": "58/141",
+        "sixth_cumulant": "6239160/343",
+        "contractions_moments_wick_identity_projection_restrictions": "passed exactly"
+      },
+      {
+        "case": "two independent Hermite cubics",
+        "normalization": "60",
+        "kappa": "369/5",
+        "sigma": "2/5",
+        "sixth_cumulant": "191187/5",
+        "contractions_moments_wick_identity_projection_restrictions": "passed exactly"
+      },
+      {
+        "case": "equal eigenvalues",
+        "normalization": "24",
+        "kappa": "45",
+        "sigma": "2/5",
+        "sixth_cumulant": "13095",
+        "contractions_moments_wick_identity_projection_restrictions": "passed exactly"
+      },
+      {
+        "case": "mixed signs, largest eigenvalue on second axis",
+        "normalization": "78",
+        "kappa": "5418/169",
+        "sigma": "178/301",
+        "sixth_cumulant": "13478940/2197",
+        "contractions_moments_wick_identity_projection_restrictions": "passed exactly"
+      }
+    ],
+    "coordinate_counting_centered_gradient_and_polynomial_integration_identities": "passed exactly on five tensor examples",
+    "quadratic_interpolation_model_and_moment_substitution": "passed exactly",
+    "six_component_energy_identity_and_retained_matrix_comparison": {
+      "status": "passed exactly",
+      "comparison_slack": "129310148959/21464352000"
+    },
+    "quadratic_radial_error_expansion": "passed exactly on a weighted Hilbert-space example",
+    "secant_and_tangent_error_formulas": "passed exactly",
+    "stein_integration_by_parts_numerical_spot_check": {
+      "case": "one-dimensional normalized Hermite cubic",
+      "absolute_identity_residual": 1.6653345369377348e-16,
+      "tolerance": 1e-10,
+      "method": "SciPy quadrature, stable erfcx, intervals ending at 12",
+      "status": "passed",
+      "formal_interval_certificate": false
+    },
+    "rough_bound_cover_cap_and_final_ratio_arithmetic": "passed exactly",
+    "full_or_strict_numerical_certificate_replayed_this_revision": false
+  },
+  "inherited_prior_selected_exact_checks": {
+    "direct_block_examples": [
+      {
+        "phi1_B": "1",
+        "phi1_H": "4"
+      },
+      {
+        "phi1_B": "4/3",
+        "phi1_H": "16/3"
+      }
+    ],
+    "first_three_exact_ratios": [
+      "1999999998288999979/1126760554000000002",
+      "3999999998288999989/2253521108000000001",
+      "15999999996577999988/9014084432000000001"
+    ]
+  },
+  "inherited_checks_rerun_this_revision": false,
+  "proof_step_counts_in_main": {
+    "coefficient_derivation": 3,
+    "Proposition_3": 5,
+    "Theorem_5": 3,
+    "Lemma_7": 3,
+    "Lemma_9": 3,
+    "Theorem_1": 3
+  },
+  "short_continuous_main_proofs": [
+    "Lemma_2",
+    "Corollary_4",
+    "Corollary_6",
+    "Proposition_8"
+  ],
+  "proof_step_counts_in_verification": {
+    "full_tensor_calculation": 5,
+    "Lemma_V1": 2,
+    "Lemma_V2": 3,
+    "Proposition_V3": 4,
+    "Lemma_V4": 4
+  },
+  "analytic_reviews": [
+    "Coordinate-counting proof of the extra cubic restriction and sixth-moment scalar reduction",
+    "Direct quadratic radial error identity and cell-field normalization",
+    "Gaussian integration identities and absolute-moment completed square",
+    "Explicit source interpolation, coefficient signs and R_rho minimization",
+    "Six-component Hermite energy decomposition, matrix comparisons and residual squares",
+    "Cauchy--Schwarz bound on the linear projection of Q cubed",
+    "Moment convexity, closed source edges and exact affine-envelope errors",
+    "Matrix construction, copying invariance, entry termination and final theorem arithmetic"
+  ],
+  "full_or_strict_numerical_certificate_replayed_this_revision": false,
+  "frozen_inputs_checker_sources_and_saved_certificate_bytes_unchanged": true,
+  "github": {
+    "repository": "shlui/Grothendieck",
+    "visibility": "public",
+    "accessible": true,
+    "empty": true,
+    "pull_permission": true,
+    "push_permission": false,
+    "publication_performed": false
+  },
+  "previous_proof_revision_documents": {
+    "Grothendieck5_revised": {
+      "pages": 17,
+      "labels": 31,
+      "duplicate_labels": [],
+      "unresolved_references": [],
+      "unresolved_citations": [],
+      "compiler_issues": [],
+      "text_within_page_bounds": true,
+      "tex_sha256": "1c26b8129d3647e30eb87290b5a10b3181c484c654dc3357f1a96f99ec9c05ed",
+      "pdf_sha256": "e4826cabf19861624b629cecba82c78f036ae6d4d59c5a2316d25df942170a23",
+      "all_rendered_pages_inspected": true
+    },
+    "verification": {
+      "pages": 17,
+      "labels": 21,
+      "duplicate_labels": [],
+      "unresolved_references": [],
+      "unresolved_citations": [],
+      "compiler_issues": [],
+      "text_within_page_bounds": true,
+      "tex_sha256": "38c03bfa5615be3bb24d9bc7dbdbd3fd9a82ce9cc4187b040198675990e136c2",
+      "pdf_sha256": "64fe2061ddea0921165da4d4429e662c8ed6d0080c417449629572226373fb87",
+      "all_rendered_pages_inspected": true
+    }
+  },
+  "current_document_location": "Current documents are delivered separately; no current manuscript source/PDF is stored in this repository.",
+  "current_verification_document": {
+    "pages": 17,
+    "statement_count": 4,
+    "mathematical_formulas_and_result_statements_unchanged": true,
+    "equation_and_theorem_numbers_unchanged": true,
+    "named_proof_headings": 5,
+    "unresolved_references": [],
+    "compiler_issues": [],
+    "source_sha256": "7920c73a496e770149a25265d128ee29a16cd6d1cf8d8131a84f09e64bd3be0f",
+    "pdf_sha256": "49f1f3d17900aff65264b31fe54de746fa9bd5a6dc35c6ab59e932f062dded5d",
+    "final_rendered_pages_inspected": true,
+    "document_distributed_separately": true,
+    "text_within_page_bounds": true
+  },
+  "current_repository_record": "inv/REPOSITORY_LAYOUT.json",
+  "previous_package_checks": "Full checksum validation and SHA-256 comparison of every noneditorial file with revision13; all current document bindings and README links checked.",
+  "package_checks": "Current repository-wide file, layout, map and replay-plan checks are recorded in inv/REPOSITORY_LAYOUT.json."
+}

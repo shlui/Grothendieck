@@ -1,0 +1,29 @@
+{
+  "status": "PASS_INDEPENDENT_DENSE_HIGHK_SOURCE_COMPONENT",
+  "profiles": [
+    {
+      "name": "highk_dense76625",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_denseq_b7171.json",
+      "profile_sha256": "0bd2b059e4c4e1b5d6ba12db0bca29803656a2ac587e7a059288fe20fbdef33d",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/dense_highk_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "0d36784e35000e88f7038f16b20fff52e5cc80406a88b81e1b004cd18835ef9d",
+      "reserve0": "1/100",
+      "reserve6": "1/100000000",
+      "proof_status": "PASS_INDEPENDENT_COMPLETE_WHOLE_Q_GATE_AND_REFERENCE_SOURCE_PRICES",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_denseq_q01.json.gz",
+          "sha256": "8e6bc32a1cc36bbc873bb4b8a18c89f52d071b727c62696b68182c7f97f89dec"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_denseq_q01.json.gz",
+          "sha256": "8699f8527fafff7c249441af37c1b88a2b76a96422f4026f5660bd8da2a3597e"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_denseq_q01.json",
+          "sha256": "2698260101bb2799d3c4da9557d231e5b93a7bb6b77beca22d2cfd506a271b34"
+        }
+      ]
+    }
+  ]
+}

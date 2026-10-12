@@ -1,0 +1,34 @@
+{
+  "status": "INDEPENDENTLY_ACCEPTED_SUPPLEMENT",
+  "profiles": [
+    {
+      "name": "new_root_kappa16_lowu_step5_q150_b7171",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_kappa16_lowu_step5.json",
+      "profile_sha256": "1135b37117364ad3824d2cd3c3e433405015243255cbb56b7f8677c3c4762187",
+      "reserve0": "3/20000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/kappa16_lowu_step5_q150_source_box/COMPONENT_ACCEPTANCE.json",
+      "acceptance_sha256": "cac71c7909e1615cf7e8a8660683510bba75095a05b6acf175ab371888d49eb6",
+      "proof_status": "INDEPENDENT_WHOLE_Q_SOURCE_AND_TARGET_B711_ACCEPTED",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_body.json.gz",
+          "sha256": "6aa0a84e9bc988a7c8e7aea40a9f3748de343a75850826bbf8274ca87977f801"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_exterior.json.gz",
+          "sha256": "2295b56d7e95927a7442db789e77de013175c6c0302913a436ad74fd4af05c38"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_tail.json",
+          "sha256": "f8651e7c3bde133789bfbfa679fbaa102a3da914b99d318c73a9d943b0baae72"
+        }
+      ],
+      "acceptance_kind": "INDEPENDENT_COMPONENT"
+    }
+  ],
+  "producer_manifest_binding": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/kappa16_lowu_step5_q150_extra_manifest.json",
+    "sha256": "fbe3dc905a13b36a41ec17ec86a13e7b64607067fb59c9404cd5402e52dd3e8c"
+  }
+}

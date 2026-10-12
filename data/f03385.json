@@ -1,0 +1,97 @@
+{
+  "status": "PASS_FINAL711_COMPLETE_PORTABLE_GLOBAL_REPLAY",
+  "default_result": {
+    "status": "PASS_PORTABLE_COMPLETE_FULLUPPER_PREFERRED_GLOBAL",
+    "operator_b": "711/1000",
+    "norm_upper_bound": "112782853/200000000",
+    "constructive_G_R_lower_bound": "200000000/112782853",
+    "original_source_sha256": "ea763375a19e63a49174bcf18975c948ab188f993edfb471014cbb2bfec04d2d",
+    "mathematical_and_operational_rewrite_exact": true,
+    "immutable_evidence_manifest_pass": true,
+    "mode": "complete_fresh713_portable_global_replay_plus_fresh_uniform711_all_cell_and_lower_transport",
+    "scalar_local_primitives_freshly_replayed_this_run": false,
+    "seconds": 624.9107687473297,
+    "original_and_strengthened_base_reused_from_complete_fresh_checkpoint": true,
+    "extension_filter_used": false,
+    "full_amplitude_coverage": [
+      "0",
+      "sqrt(2/pi)"
+    ],
+    "scope": "Complete single-coefficient711 global scalar norm and constructive lower bound. The713 envelope is only an independently accepted proof baseline; no three-digit enclosure of unrestricted G_R is asserted.",
+    "cumulant_points": 68,
+    "complete_whole_q_profiles": 29,
+    "full_upper_original_cells": 281316,
+    "full_upper_priced_cells": 272579,
+    "proved_physically_empty_full_upper_cells": 8737,
+    "full_upper_complete_groups": 1400,
+    "baseline_native_endpoint_prices": 11648,
+    "independent_R3_corner_prices": 6048,
+    "independent_plane_corner_prices": 2240,
+    "uniform_physical_source_planes": 560,
+    "forward_verified_inverse_source_caps": 250,
+    "fixed_contact_credit_cells": 23,
+    "new_native_endpoint_prices": 13936,
+    "new_uniform_source_planes": 140,
+    "reference_envelope_operator_b": "713/1000",
+    "final_uniform_target_coefficient_transport_freshly_replayed": true,
+    "reference713_complete_portable_replay_result_sha256": "3832f006750a8fd0687fd76bf607230be92360395ad9cb90f0fd3cecfc202b30",
+    "uniform711_delta_seconds": 21.91215443611145
+  },
+  "default_replay_result_sha256": "a4ce6622320f6c76b7856e330cd2ed5ee38d468111870f2441bd27c624ddae19",
+  "default_replay_acceptance_sha256": "877ca4296d8c2cc94077f8aacbfd58a32e89f3a69648df57fb5e855e96fcfe4a",
+  "full_prerequisite_leaf_replay_repeated_this_packaging_run": false,
+  "prerequisite_evidence": "Complete previously fresh accepted scalar/local leaf replay reports are bound to their exact profiles, reserves and trees. The default freshly replays numeric prices, complete exact partition geometry, same-b lower coverage and global assembly. The optional --full mode and every input tree are included.",
+  "final_two_profile_optional_exact_tail_smoke": "Both final profile exact tails were freshly replayed from the portable payload in this packaging run.",
+  "post_default_changes": "After the previous successful staged713/711 replay, the scheduler gained explicit temporary-copy baseline isolation and post-run manifest checks. This isolated baseline was freshly exercised against the exact final graph and left all1937 then-frozen inputs unchanged. Previously passed713/711 numeric/partition jobs were not repeated. The optional full local-leaf mode was not repeated.",
+  "phase_validation": "The original/strengthened base freshly passed, then its unchanged byte-bound checkpoint was reused for all40 fresh713 ancestor/global jobs. The four final711 transport/assembly jobs subsequently passed against the identical frozen713 proof inputs. The default entrypoint includes all phases in one fresh ordered run; no mathematical stage is omitted.",
+  "commands": {
+    "default": "python preferred_global/verify_bundle.py",
+    "full": "python preferred_global/verify_bundle.py --full --workers 4"
+  },
+  "original_and_strengthened_packages": [
+    {
+      "path": "tonight/operator/native_global_b7171",
+      "manifest_sha256": "881d75a081720a6b34e6fdbce2fee13888e96a1b23a97b8e07f0849238f0bdf5",
+      "unchanged": true
+    },
+    {
+      "path": "tonight/operator/native_global_b7171_strengthened",
+      "manifest_sha256": "beb1cd5e082bcb077edde2b0774850b197977f1f18258960f88c310889cf5969",
+      "unchanged": true
+    }
+  ],
+  "previous_final14_checkpoint_sha256": "ca2db028c1769337b65d954de6ae306717d5f21c192788e83eee5658b2a64409",
+  "fresh_base_checkpoint_seconds": 113.91181826591492,
+  "successful_validation_phase_seconds": 738.8225870132446,
+  "single_fresh_default_invocation_repeated_after_final711_append": false,
+  "extension_filter_used": false,
+  "original_envelope_and_metadata_archives_preserved": true,
+  "scope": "Explicit constructive lower bound; no three-digit enclosure of unrestricted G_R is asserted.",
+  "final_graph_fresh_isolated_baseline": {
+    "status": "PASS_FRESH_FINAL_GRAPH_ISOLATED_BASELINE_AND_CANONICAL_IMMUTABILITY",
+    "seconds": 144.17212414741516,
+    "base_result": {
+      "norm_upper_bound": "56513883/100000000",
+      "constructive_G_R_lower_bound": "100000000/56513883",
+      "middle_price_cells": 39657,
+      "proved_physically_empty_middle_cells": 5,
+      "independent_native_endpoint_prices": 9120,
+      "independent_R3_corner_prices": 504,
+      "independent_physical_inverse_caps": 238,
+      "selected_contact_credit_cells": 226,
+      "status": "PASS_PORTABLE_STRENGTHENED_GLOBAL_B7171",
+      "original_strengthened_envelope_sha256": "eb9410a67000ba887f7dc531915d7d8e1334c4f7078e0787dea272e75edc2a7e",
+      "math_content_equal": true,
+      "immutable_evidence_manifest_pass": true,
+      "mode": "accepted_fresh_primitive_reports_plus_fresh_prices_and_complete_cover",
+      "scalar_local_primitives_freshly_replayed_this_run": false,
+      "seconds": 140.95966410636902,
+      "scope": "Accepted strengthened nine-profile/contact result only. Later joint-credit/middle-profile research upgrades are not global premises here."
+    },
+    "canonical_manifest_files": 1937,
+    "all_canonical_inputs_unchanged": true,
+    "scope": "Only baseline temporary-copy isolation was newly exercised; previously passed preferred713 and711 numeric/partition proofs remain unchanged."
+  },
+  "all_frozen_inputs_unchanged_after_fresh_baseline": true,
+  "scheduler_hardening": "The baseline now runs in its own private temporary copy, followed by a separate pristine preferred copy. Complete immutable-manifest identity is asserted after both phases. Only scheduler isolation changed;713/711 mathematical checkers and inputs are unchanged."
+}

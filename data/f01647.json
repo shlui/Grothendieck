@@ -1,0 +1,15 @@
+{
+  "status": "PASS_DIRECTED_AND_INDEPENDENT_CUBIC7171_NORM_LOWER_WITNESS",
+  "files": {
+    "PROOF.md": "459ea523af0e04cd7931fe5694d388f13a60b501e7cd55dcede8e9c3a6dad6fa",
+    "README.md": "441bb1790ae11671b760ea2291141650bab0d0be5879ca253f3749c86aae406d",
+    "WITNESS.tex": "d45f29a15a98bc722a8085c353960a0d79b54a4b92aee9ff62b82e3831b1fbd4",
+    "certification.log": "fc97bf03f7ba84a5bc93f3199366c5ab453ee127711ec8835097d065400beda3",
+    "certify_cubic7171_norm_witness.py": "83e5fe4741caa9a5bb429c6cdfb17c059acdbdb877694abf7f501a48d86a48e1",
+    "cubic7171_norm_witness.json": "04c25cce0c7c5b5439dd94d9c9707aa7dafced367359e11b2778f808913adff4",
+    "dependencies.json": "59a8df68a9a8efa52b45dc968c537c802af1e045f428c156b6d11c0e50cdbad3",
+    "independent_acceptance.json": "08c740a15c5ebd8b60295f3ec545a736c8e7f859f4744a7e0e216a1780226352",
+    "independent_replay.json": "ec68d32dde0cd0be7caad9ce6c382866c2c00737fe4fb99f052622c8ad73124f",
+    "mpfr_interval.py": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+  }
+}

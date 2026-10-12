@@ -1,0 +1,91 @@
+{
+  "status": "PRODUCER_COMPLETE_UNCHANGED_KAPPA26_Q40_PENDING_INDEPENDENT_AUDIT",
+  "profile_alias": "new_kappa26_q40_b711",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/profile_new_kappa26_b711.json",
+    "sha256": "2607368f8d2bfc495de450eb26bbaae919d940ad395a850195e2f8d42d14e359"
+  },
+  "reference_b": "7171/10000",
+  "operator_b": "711/1000",
+  "reserve0": "1/25000",
+  "reserve6": "1/100000000",
+  "old_immutable_profile_and_budget_bindings": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/IMMUTABLE_REPROOF_BINDINGS.json",
+    "sha256": "6b99e3a086f1006b994d92ce735c27159db0c273e9b423dd4df42ee82560362a"
+  },
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/body_kappa26_q40.json.gz",
+      "sha256": "bb6e50a52c344aaf4b682dc6f30e94091e379ba132906388cd4f8b60135b6f57"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/exterior_kappa26_q40.json.gz",
+      "sha256": "2569d615de6bfeafdf3766b045496356cf90efb348dd604d9c44c93718b890d9"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/tail_kappa26_q40.json",
+    "sha256": "6b77d782df645a54064ed07529414d67a0f7e8d8e15f8ef778be9c92122160f0"
+  },
+  "counts": {
+    "body_kappa26_q40.json.gz": {
+      "nodes": 6481,
+      "accepted": 3241,
+      "pending": 0
+    },
+    "exterior_kappa26_q40.json.gz": {
+      "nodes": 425,
+      "accepted": 213,
+      "pending": 0
+    }
+  },
+  "source_box": {
+    "u": [
+      ".751",
+      ".7515"
+    ],
+    "r": [
+      ".264",
+      ".266"
+    ],
+    "kappa": [
+      "2.5",
+      "2.75"
+    ]
+  },
+  "source_prices": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/source_price_kappa26_q40_b711.json",
+      "sha256": "08dad790e5f8eefe92c21a3988e7158895fcea5a69729e5389cabd4aa53fda7d",
+      "operator_b": "711/1000",
+      "maximum_upper_display": 0.5633283540662584
+    }
+  ],
+  "adapter_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/kappa26_q40_reproof/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+    }
+  ],
+  "scope": "Only literal reserve0 is reduced from 1/20000 to 1/25000; the exact profile bytes and reserve6 are unchanged. Fresh body [0,8], exterior [8,32], tail [32,infinity) producer PASS, target711 six PSD and 16 nominal-source-corner prices. Independent replay and a complete same-b global source cover remain necessary."
+}

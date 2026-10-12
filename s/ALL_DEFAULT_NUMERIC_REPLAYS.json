@@ -1,0 +1,227 @@
+{
+  "status": "PASS_FRESH_ALL_DEFAULT_NUMERIC_PRICE_REPLAYS",
+  "jobs": 31,
+  "bits": 768,
+  "config_sha256": "5d1eb1b7291afd78080aa9ecfbb3624d94268b2fee41d596c2a01bc4da7997b3",
+  "results": [
+    {
+      "name": "BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "c8ff5638adbf879fb3bae09187b66abdfbcf515232ff2e39422b0b42ceb10720",
+      "checker_sha256": "fab5706c503b348583fabd4551c4793446e7f2d6e66382ee0fe52b71e57bd88c"
+    },
+    {
+      "name": "BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY.json",
+      "fresh_sha256": "95e5759438757f6322361e5e64ec1fc295d5f92e3519d447b30c8e8760b46055",
+      "checker_sha256": "d992b5cbc1e3f22ea34aff3f661eff3e767d2f862c2fcd25abba1ef8b75ac404"
+    },
+    {
+      "name": "BANK48_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK48_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "61d3524d2fb731e61b37987388106247d7e21c9edfd5726175b751f8959feb83",
+      "checker_sha256": "79c350af99910b00c30ee5470c07da2bb779e6712c33064bb96331a9c47d2d7a"
+    },
+    {
+      "name": "BANK49_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK49_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "11e27338e394e576bf8f420c0958ebaac53b7c6378b9d23c6e501c5ad5614ec8",
+      "checker_sha256": "66469d512c3f6a676d05b529f008392f82f082982231408a944f58a6625caf39"
+    },
+    {
+      "name": "BANK50_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK50_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "f1a25af8e9ca2b9b559a063571a75f6eb0ead5923ae496c11cdd6456af67d957",
+      "checker_sha256": "3a001e42ebd64b99462bb97cca4889af1084a49e5dc56c8e1c95278e7db2bad0"
+    },
+    {
+      "name": "BANK52_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK52_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "e2f9e90557900794b483b48af68348ccc62a715218d1f42cec68eae51fd76548",
+      "checker_sha256": "ce6753cfd0e74daa3ee8df894410297909c3653701d6320f1c428cb3a4e9a727"
+    },
+    {
+      "name": "BANK55_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK55_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "aaaa6cf251b4e31e34025771bd73ba3fb30c6d1fb8efe895b467a4d14da9d966",
+      "checker_sha256": "ac0263022ca99fdf4974f42fa63c9435642f448730718188848eeb4c972b1851"
+    },
+    {
+      "name": "BANK59_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK59_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "06f5cd91c5fe38acd77f5ce42e9dfb08c37a92915925c5d14f99e4c36c55d9d7",
+      "checker_sha256": "4dbc7fe0a047d42770dafac508e69dc09aaa2a363ccc57b6d3b3db12bd8142f2"
+    },
+    {
+      "name": "BANK63_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK63_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "1bf7e94e97ae273beabe1e2c4368a1b3bfb0428504c4cf438ace6938abcff207",
+      "checker_sha256": "393131af4eee41038e31bd6e165ecdfa959e28cd170d84a8fdd77160b9d0c65b"
+    },
+    {
+      "name": "BANK66_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK66_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "1603280e1d94600a6d058dea8481ae494c24e0927904c7354d949f421b6b99f6",
+      "checker_sha256": "911669061c96378955833195ff571a03440b5766661d09876e9b41f817ecebe3"
+    },
+    {
+      "name": "BANK70_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK70_MONOTONE_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "1de6fef77733cec1e11a5fd0cc8d99b8e1e62cb902ff62f39317734acafe69a2",
+      "checker_sha256": "ea1fb0d9f076d751e2f16a22495a96648dcc01b0f77ad6618ce97c13b9f23baa"
+    },
+    {
+      "name": "BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "6d72e39d25fcd245d145b1cf85ec605f3c961f0ae4dc39ab121da771cdcc49ad",
+      "checker_sha256": "0bfcc1f686d63a6ff21de958b14af9395b081133b8373e59ae385395a945f8ab"
+    },
+    {
+      "name": "BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "284dc3bf85cf367d0976c04555ecfb4e8435c5ceda884eaad47297be95554a7a",
+      "checker_sha256": "0ec08bf6dc85c83f27eb3840962981a8be7ae7108d0ed22ffed689cbff4de15c"
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "8679c9340e04fa7060ff1981f25e546c38074f426183937bd7177a692e37e6b2",
+      "checker_sha256": "eada82bdcc00464d176a2ed31cd3be01bf94f93c63e75069da98bb41607b9d6e"
+    },
+    {
+      "name": "BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY.json",
+      "fresh_sha256": "12eaae65d24541f8c6745a3045c539aa11420cfe85699c3ff0a9c215ec322f71",
+      "checker_sha256": "d4cc6de0316b6370a90d5aaa5e87a3344b7a29cd81252828fac58b2793de611f"
+    },
+    {
+      "name": "BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "71039a1eaf91a66942695ebf2f3055f17927b188e3a0bc6f3382566968b4b557",
+      "checker_sha256": "79069708bfed579297103c22e085a0f96a3784427aa4a91549a276ca49cbf137"
+    },
+    {
+      "name": "BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "dfc2bdf8778f964b7cfc9f4d610d0c6334f57703c90f204b29f47146de1050c3",
+      "checker_sha256": "3f6f95abd1565ac9b4d99a06e832da87671560149270a8bc566d4a106723317c"
+    },
+    {
+      "name": "BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "8c72d009e1930575de116b1a6c5fee1ded6ffdfa40e7af18f79319ed25c7b77e",
+      "checker_sha256": "21f8b264c21139122e9c47db1a59c11bc5e1e2a7c30e04c0b26e17b8a71fadf3"
+    },
+    {
+      "name": "BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "45beae09dd13181b324ee2ce998149790d7321f06f2cef60c8448557154037fa",
+      "checker_sha256": "61a012563aa558b022661d784f33d9f714ccb55bc1824ebfcf7ff046724905a6"
+    },
+    {
+      "name": "BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "3dfdc970d7399a72f3e0b91f54f6b7dd77a0e2cd859ff81a2f1ef8d896416925",
+      "checker_sha256": "aca6b285b92e30059b791a76588f8c85c3ab43f38398216302cfb01c671612ed"
+    },
+    {
+      "name": "BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "3b3eec4a38401aa075c6c68ef0d9f04bd35ab5f647544ad1c188ff3e3a18e86a",
+      "checker_sha256": "5990d20dd0bba1e65b1aa9cceb25f5ce81d592f28bb22cb4a4089f2c44b7cc93"
+    },
+    {
+      "name": "BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "a4ce1253a5e1b61887f13989c731d4840bfac1587860f33dc3d0dd77c9eed6ba",
+      "checker_sha256": "7768ea36f44ce523e4e74ff1b68ea195691851a037126e0a06b963101a4a1a2e"
+    },
+    {
+      "name": "BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "4da988c36b10bee40798160cf3a393b24a3ae54e912ba3e45c1d102d964115c4",
+      "checker_sha256": "708b40732d368ddcad5c28076527d2dc927f037fc9ff34e2bcde1f8fc5b2d22a"
+    },
+    {
+      "name": "BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "cd489e63ff2d0e7f91ad3a586e35cb0b03896f5cd896f4858e85e1f32b9cec98",
+      "checker_sha256": "6132a9eaa438cc6d89017a1b0df43676c51692b25af9ea05236f42b339c83f49"
+    },
+    {
+      "name": "BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "4baffe42c64ae92ca4db0ee464a862bb203df1ecb3d8afa606a7bc1d61d3d507",
+      "checker_sha256": "7f51b81e85ab283b561ba3f3355e00dd76984b6dbc036beaf39063338bd028b0"
+    },
+    {
+      "name": "BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "bdc041666517a981a334176403631f46f010353e7b97522ab6a203c8ba5b6783",
+      "checker_sha256": "d5322922c67459fab747966fc417daaa3901a1565be9e9342aa42387e2a7e8a4"
+    },
+    {
+      "name": "BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "5b355bd2d55c781af007225e3bb83f7252223af3253ea1352b3463c1d3bdbaa2",
+      "checker_sha256": "db0cfc194ea0fbe1da1bc023daf995783dd768b0bedecab2a20965d648a6e068"
+    },
+    {
+      "name": "BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "8c412588d5f94566cfe24c57f07f7c9ee18913e857807bd48b67ac9c1dd5af35",
+      "checker_sha256": "21123b0c33d2ade5fd65de92ba9a28d9309078bc2b0ac9f70fbd9238ac47fc6a"
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY.json",
+      "fresh_sha256": "5911c82b885facad6200ef2433a54c6ae4aed37fb02203aa87f076c4ef261b5f",
+      "checker_sha256": "c77903ef1d9c70b38ebb732030b1187612229e0519e4e2a337474620ce7d0a24"
+    },
+    {
+      "name": "BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY.json",
+      "fresh_sha256": "9a0d39f58ee05a5919d5104c6e01eaa4c0e4b211125dd03b71497cb433a11837",
+      "checker_sha256": "addd53524657bbaa1e3aff9da5af5e6d9f5309b2a5a9f9007dc4827c5ec82275"
+    },
+    {
+      "name": "native_curved",
+      "status": "PASS_INDEPENDENT_CURVED_NATIVE_SELECTED_ENDPOINT_PRICES",
+      "fresh_report": "/workspace/scratch/7cbe1f6dcfec/strict_norm/native_curved.json",
+      "fresh_sha256": "af17b0a1174d9309a82e6183e369997583dc8adf3e4cf026520b2efd8e9874b2",
+      "checker_sha256": "b8acfa2d23001cd0eac87c897bf07697da57eefd4aab507072bd1b6d315176b4"
+    }
+  ],
+  "local_whole_line_trees_rerun": false,
+  "scope": "All current directed price/plane/native jobs repriced; inherited accepted whole-line criteria remain analytic inputs."
+}

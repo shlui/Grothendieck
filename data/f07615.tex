@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{lemma}{Lemma}\newtheorem{theorem}{Theorem}\newtheorem{remark}{Remark}
+\newcommand{\N}{\mathcal N}
+\begin{document}
+% Standalone analytic fragment. No numerical coverage is asserted here.
+\begin{lemma}[Exact pricing on physical source polygons]
+\label{lem:physical-source-polygon-price}
+Fix an amplitude interval $[u_-,u_+]$, a source interval $[r_-,r_+]$,
+and a cumulant interval. Suppose that, throughout the cumulant interval
+and for every allowed shape, proved scalar inequalities imply
+\[
+ a_j u+r\le C_j,\qquad a_j>0\quad(1\le j\le m).
+\]
+Let $K$ be the intersection of these half-planes with the amplitude--source
+rectangle, after any separately proved coordinate restrictions.
+For rational inputs its vertices and the maximum on $K$ of
+\[
+ F(u,r)=u^2+L_u u+g r^2+L_r r+C
+\]
+are computable using rational arithmetic. For a nonempty $K$, it suffices
+to check its vertices and, on each edge, the stationary point in the edge
+interior when the restricted quadratic is concave. This includes segments
+and singletons. An empty intersection contains no physical source.
+
+For a native certificate interpolated in $r$, first split $K$ at every
+source knot. On each resulting piece apply this rule to each of the four
+cumulant--shape corner bounds, and take the maximum of the resulting
+bounds. A fixed nonnegative contact multiplier may be included by changing
+only $L_u,L_r,C$.
+\end{lemma}
+\begin{proof}
+Every defining half-plane contains every physical source in the nominal
+rectangle, so intersection and coordinate clipping preserve all physical
+points. Rational line intersections give all vertices, retaining points
+on the boundaries. If a full-dimensional polygon had a maximizing point
+in its interior, sufficiently small horizontal displacements would stay
+in the polygon. Their two objective values have average
+$F(u,r)+\delta^2$, contradicting maximality. Thus its maximum lies on its
+boundary. On the edge $(u,r)=(u_0,r_0)+t(\Delta u,\Delta r)$,
+$0\le t\le1$, the quadratic coefficient is
+$(\Delta u)^2+g(\Delta r)^2$. Endpoints suffice when this coefficient is
+nonnegative; otherwise also check the unique stationary point if it lies
+in $(0,1)$. All these operations are rational. The same calculation covers
+the lower-dimensional cases.
+
+A native source chord is valid only between successive saved knots.
+Splitting at every knot therefore retains its validity on each closed
+piece; shared boundaries have both valid endpoint bounds. For each fixed
+cumulant--shape corner the chord changes only the linear and constant
+coefficients in $r$. The already proved corner inequalities and positive
+interpolation uniformly bound the whole cumulant--shape cell. Taking the
+maximum over the four corner prices and all source pieces gives a uniform
+bound. The scalar row chosen at a source endpoint is fixed throughout its
+cumulant--shape cell; different endpoints may use different globally
+valid scalar rows.
+
+For a contact with parameters $a,B$, put $d^2=6B^2$ and let $A$ be its
+uniform scalar price. The nonnegative multiplier $\lambda$ adds
+\[
+ -\lambda a u-\lambda r+
+ \lambda\left(A+\frac{\beta d}{b}\right)
+ +\frac{\lambda^2d^2}{4b}.
+\]
+Here $\beta$ is the normalized native Hermite coefficient; for a raw
+Hermite R3 profile the product $\beta d$ is $6\beta_{\rm raw}B$.
+The coefficient of $u^2$ remains one, so the same boundary computation
+applies. The multiplier and scalar contact are fixed on the whole
+cell. Selecting any one of several proved upper bounds on each cell
+preserves validity.
+\end{proof}
+
+\begin{remark}[Uniform source planes]
+For the accepted even sextic scalar rows, the moment price is affine in
+shape and convex in cumulant: the sextic coefficient is nonnegative and
+the coefficient multiplying $\kappa^{3/2}$ is positive throughout the
+shape interval. Hence the largest of the four endpoint prices is a
+uniform $C_j$. A single fixed scalar row is used for each plane over the
+whole cumulant interval. Taking the smallest uniform price among several
+such rows is valid; taking separate minima at the four corners would
+require a separate justification.
+\end{remark}
+\begin{theorem}[Complete scalar certificate with source polygons]
+\label{thm:global-b7171-polygon}
+For $b_*=7171/10000$ one has
+\[
+ \N(b_*)\le B_2:=\frac{141203321}{250000000}=.564813284.
+\]
+The explicit reduced rational matrix sequence therefore satisfies
+\[
+ \lim_{n\to\infty}G(H_n(b_*))
+ =\frac1{\N(b_*)}
+ \ge\frac{250000000}{141203321}
+ =1.7704966018469213\ldots .
+\]
+In particular this rational number is an unconditional lower bound for
+$G_{\mathbb R}$.
+\end{theorem}
+\begin{proof}[Certificate proof]
+The complete outer amplitude branches of
+Theorem~\ref{thm:same-b7171-regions} are below $B_2$.
+For the remaining interval $[1381/2000,31/40]$, the frozen source cover
+has $21$ amplitude bands and $14$ cumulant bands. Its $294$ groups
+partition the full cumulant range $[0,90]$ and, on each amplitude band,
+the source range from zero to the outward bound $R_{.847}(u_-)$.
+All tensor shapes are retained, with the exact correspondence
+$z=2/5+(3/5)s$ between native and R3 coordinates.
+
+The eleven accepted R3 profiles have $154$ cumulant-band constants.
+An independent directed replay verifies all $616$ cumulant--shape
+corner prices, every whole-line compact and tail binding, and the six
+spectral matrix gates at the common coefficient $b_*$. The selected
+native bounds use seven independently replayed endpoint tables,
+including the extended critical-source table and its actual scalar
+row allowances. One accepted profile gives each cell's upper bound;
+profile selection need not be optimal.
+
+Coordinate clipping uses $250$ outward inverse source caps, checked
+independently by the forward comparison $R_{.847}(u_{\rm cap})\le r_-$,
+the previously proved contact exclusion on cumulant bands contained
+in $[2,4]$, and accepted positive-head source planes. For each cumulant
+band there are ten fixed uniform source planes. Their $560$ moment
+corner prices are independently replayed; each selected plane holds
+for the whole band and every tensor shape. Thus every clipping step
+retains all physical sources. The original $58282$ cells consist of
+$57857$ nonempty cells and $425$ exactly empty cells.
+
+Apply Lemma~\ref{lem:physical-source-polygon-price} to each remaining
+cell. A producer-free exact checker verifies each recorded polygon by
+vertex feasibility and by matching every polygon facet to an original
+constraint. For the selected native bounds it splits at every saved
+source knot, checking $14228$ closed source pieces. It computes every
+selected price independently, including $3190$ interior stationary
+points on concave edges and the fixed nonnegative contact corrections.
+All selected rational caps agree with the frozen record. It also
+verifies the original gap-free source partition and accounts for every
+retained or discarded cell exactly once. The largest cap is
+\[
+ \frac{564813282537}{10^{12}}< B_2.
+\]
+The frozen record is
+\texttt{global\_\allowbreak middle\_\allowbreak b7171\_\allowbreak elevenbank\_\allowbreak exactpolygon\_\allowbreak envelope.json};
+its producer-free reconstruction is
+\texttt{polygon\_\allowbreak envelope\_\allowbreak audit.json}.
+Together with the same-coefficient outer branches this covers every
+pair of odd signs in every finite Gaussian dimension. Replacing one
+sign by its negative gives the absolute pairing bound. The previously
+proved Gaussian-to-matrix convergence and the exact ratio-preserving
+reductions give the actual limit $1/\N(b_*)$ and the stated lower bound.
+\end{proof}
+\end{document}

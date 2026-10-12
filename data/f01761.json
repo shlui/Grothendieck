@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "coefficient": "711/1000",
+  "cap": "112782853/200000000",
+  "certified_lower_bound": "200000000/112782853",
+  "independent_sequence_review": "PASS",
+  "analytic_adversarial_review": "PASS",
+  "finite_arithmetic_independent_768_bit": "PASS",
+  "target_1_775_achieved": false,
+  "three_significant_digit_determination": false,
+  "base_coefficient_713_ceiling_is_separate": true
+}

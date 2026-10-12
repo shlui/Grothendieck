@@ -1,0 +1,72 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_PHYSICAL_BANK39_B711_GLOBAL_SCALAR_CERTIFICATE",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "563790807/1000000000",
+  "constructive_G_R_lower_bound": "1000000000/563790807",
+  "constructive_G_R_lower_bound_decimal": "1.77370753049543782291576102268726776171077227231198893954296",
+  "full_amplitude_coverage": [
+    "0",
+    "sqrt(2/pi)"
+  ],
+  "lower_amplitude_coverage": [
+    "0",
+    "1381/2000"
+  ],
+  "lower_amplitude_upper_bound": "563307766601/1000000000000",
+  "upper_amplitude_coverage": [
+    "1381/2000",
+    "sqrt(2/pi)"
+  ],
+  "upper_amplitude_exact_maximum": "112758161184409/200000000000000",
+  "physical_upper_priced_cells": 272579,
+  "inherited_proved_empty_cells": 8737,
+  "complete_whole_q_profiles": 39,
+  "moment_tables": 2730,
+  "directed_moment_point_prices": 10959,
+  "new_selected_polygon_offers": 12955,
+  "rank_envelope_offers": 3173,
+  "rank_dominance_regions": 7322,
+  "uniform_source_boxes": 70,
+  "bindings": {
+    "envelope": {
+      "path": "new_round_2026-10-02/cubic_search/b711_bank39_native_curved_rank_envelope_pending.json.gz",
+      "sha256": "15b9b5bdefbbf8cc6d97637b6a8a14b5d4809cf43b42763fd9917f7389f4bda2"
+    },
+    "exhaustive_geometry": {
+      "path": "new_round_2026-10-02/sequence_theory/BANK39_NATIVE_CURVED_GEOMETRY_AUDIT.json",
+      "sha256": "7651bed5b56c476a32b0ef8f48697e7c2c50a8bf8cfcc21bedd22d1b5553ad58"
+    },
+    "curved_R3_prices_and_local_gates": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK39_CURVED_R3_CACHE_REPLAY.json",
+      "sha256": "0ab4cf0541aa3b906611c5ef78bf6c978a6b0d40d704c545b759a094fb13f85b"
+    },
+    "curved_uniform_B0_planes": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK39_CURVED_B0_PLANE_REPLAY.json",
+      "sha256": "1d8a9bd69e8c935deac9e6d5288620e6dc26c426e1d89896a7ed6c97e79fc4b6"
+    },
+    "protected_global_parent": {
+      "path": "verified_2026-10-01/tonight/operator/preferred_global/tonight/audit/global_b7171/FINAL_B711_GLOBAL_ACCEPTANCE.json",
+      "sha256": "877ca4296d8c2cc94077f8aacbfd58a32e89f3a69648df57fb5e855e96fcfe4a"
+    },
+    "same711_lower": {
+      "path": "verified_2026-10-01/tonight/operator/preferred_global/tonight/audit/global_b7171/b711_complete_lower_target_transport.json",
+      "sha256": "cca65e7ffd484f09af6759f30acad5a1f9f0e335c40cc61fabae87a06f3b03dc"
+    },
+    "curved_native_prices": {
+      "path": "new_round_2026-10-02/audit/numeric/BANK39_CURVED_NATIVE_PRICE_BINDING.json",
+      "sha256": "b1ee47c0603a1af1886264887dc4a551c22210dcb2422d34cd1547b705a212ba"
+    },
+    "TENSOR_SHAPE_NECESSARY_CONSTRAINT": {
+      "path": "new_round_2026-10-02/audit/TENSOR_SHAPE_NECESSARY_CONSTRAINT.md",
+      "sha256": "39e3a076ef801f91526b2e286170343f63af56bab4774809b0973aeb37e5e048"
+    },
+    "PHYSICAL_SHAPE_BOUNDARY_PRICING": {
+      "path": "new_round_2026-10-02/audit/PHYSICAL_SHAPE_BOUNDARY_PRICING.md",
+      "sha256": "3558b284511c315122ac2b214db51ac93d7de9273ea98d7e9f8bdde86892f535"
+    }
+  },
+  "target_1775_reached": false,
+  "target_norm_threshold": "40/71",
+  "analytic_composition": "Every protected physical source cell is retained at the single coefficient .711. The dimension-free necessary constraint \u03ba\u03b6\u226436 permits directed moment/source pricing at feasible rectangle and hyperbolic-boundary endpoints, with convexity proved for the accepted price families. New uniform B0 halfspaces retain every actual point. Accepted rank offers shareu\u00b2+.711r\u00b2; exact affine dominance regions cover the physical polygon and each convex branch is maximized at vertices. Unchanged/native/nonrank offers and all source knots are handled by the exhaustive producer-free geometry audit. The same711 lower branch completes the remaining amplitudes.",
+  "scope": "Complete new all-dimension scalar norm certificate. The explicit reduced Gaussian matrix family approaches1/N(.711), at least the certified reciprocal. Equality to this certificate cap or to unrestrictedG_R is not asserted. Frozen baseline is unchanged; no inherited historical1.773 premise is used."
+}

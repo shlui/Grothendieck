@@ -1,0 +1,95 @@
+% Extends the previously proved physical R3 criterion. Raw Hermites.
+\begin{proposition}[The full even-block physical criterion]
+\label{prop:full-even-r3}
+Retain the notation $T_b,h,k,u,Q,r,\kappa,c_6,\mathcal R,\Delta,D$
+and $m_j=\mathbb E_Z[H_jk]$ from the physical residual-source criterion.
+Let $E=(E_{ij})_{i,j\in\{0,2\}}$, $R=(R_{ij})_{i,j\in\{1,3\}}$
+be symmetric matrices and $p=(p_0,p_2)^T$ satisfying
+\begin{align*}
+ E&\succeq0,& E-\operatorname{diag}(-1,b/2)&\succeq0,&
+ E-pp^T&\succeq0,\\
+ R&\succeq0,& R-\operatorname{diag}(-1,b/6)&\succeq0,&
+ R-\operatorname{diag}(b,0)&\succeq0.
+\end{align*}
+In particular $E_{22}\geq b/2>0$.  For arbitrary real
+$\ell,\beta,\gamma,y,\zeta,c,d$ and $G>0$, put
+\begin{gather*}
+ S(q)=q^3-3q,\quad g(q)=cq+dS(q),\\
+ a(q)=\zeta[-S(q)+g(q)/(2G)],\quad L(z)=\ell z+\beta H_3(z).
+\end{gather*}
+With the coordinate order $(0,1,2,3)$, let $N$ have even block
+$E+(\zeta^2/G)pp^T$ and odd block $R$, and set
+\[
+ b_0(q)=(q\gamma+a(q)p_0,\,0,\,
+           q(y-E_{02}r)+a(q)p_2,\,0)^T,
+ \quad H(z)=(H_0,H_1,H_2,H_3)^T.
+\]
+Define the physical ellipsoid and local dual value by
+\begin{align*}
+ \mathcal E&=\{v:v_0^2+v_1^2+v_2^2/2+v_3^2/6\leq1\},\\
+ \Phi_E(q)&=\sup_{v\in\mathcal E}\left\{
+ 2\mathbb E_Z\max\bigl(|L(Z)|,|(b_0(q)+Nv)^TH(Z)|\bigr)
+ -v^TNv+\frac{g(q)^2}{4G}\right\}.
+\end{align*}
+Then
+\begin{align*}
+ \langle T_bf,g\rangle\leq{}&
+ u^2-2\ell u+\frac{6\beta^2}{b}
+ +(b-E_{00})r^2-2\gamma r+\frac{y^2}{E_{22}}
+ +\mathbb E\Phi_E(Q)\\
+ &+\zeta^2(6+9\kappa+c_6)-c\kappa+(G-d-\zeta^2)D.
+\end{align*}
+The supremum may be restricted to $v_1\geq0$, and $\Phi_E$ is even.
+\end{proposition}
+\begin{proof}
+Put $t=\mathbb E[Qm_2]$, $V=p_0m_0+p_2m_2$, and let $\Pi$
+project onto odd transverse degrees at least three, orthogonally to
+$Q$.  Hermite orthogonality gives
+\begin{align*}
+ -\|P_1k\|_2^2+b\|P_3k\|_2^2\leq{}&
+ \mathbb E(m_0,m_2)E(m_0,m_2)^T+
+ \mathbb E(m_1,m_3)R(m_1,m_3)^T\\
+ &+(b-E_{00})r^2-2E_{02}rt-E_{22}t^2
+ -\|\Pi V\|_2^2.
+\end{align*}
+To verify this inequality, the transverse degree-one even block is
+$\operatorname{diag}(-1,b/2)$, while the degree-zero and degree-two
+odd blocks are $\operatorname{diag}(-1,b/6)$ and
+$\operatorname{diag}(b,0)$.  The corresponding gates cover them.
+In transverse degree three, $P_3^Wm_0=rQ$ exactly.  Subtracting the
+$Q$-component of the $E$ quadratic leaves a nonnegative multiple
+$E_{22}\|P_{3,Q^\perp}^Wm_2\|_2^2$.  This covers the same component
+of $\|\Pi V\|_2^2$, since $E_{22}\geq p_2^2$.
+In every higher odd transverse degree, $E-pp^T\succeq0$ covers
+the unused loss.  The other odd-block degrees use $R\succeq0$.
+
+Apply the residual square completion to $V$ exactly as before:
+$-\|\Pi V\|_2^2\leq-2\zeta\mathbb E[\mathcal RV]
++\zeta^2\mathbb E\mathcal R^2$, followed by the completion of
+$-2\zeta\Delta V$.  This adds only $(\zeta^2/G)pp^T$ to the
+even block and gives the displayed $D,c_6,\kappa$ terms.
+Complete $-E_{22}t^2\leq2yt+y^2/E_{22}$ and the longitudinal
+agreement penalty, and insert the exact linear and source identities.
+For each transverse point, Bessel's inequality places the physical
+four-moment vector in $\mathcal E$.
+The identity $x^TNx=\sup_v(2v^TNx-v^TNv)$, valid also for
+singular positive semidefinite $N$, and the four pointwise values of
+$(h,k)$ now give precisely $\Phi_E$.
+The reflections $z\mapsto-z$ and
+$(q,v_0,v_2)\mapsto(-q,-v_0,-v_2)$ give the final symmetry claims.
+\end{proof}
+
+\paragraph{Transport and a necessary concavity allowance.}
+Set $y(r)=y_0+E_{02}(r-r_0)$ and $v_y=y_0-E_{02}r_0$.
+This freezes $b_0$ and hence the whole local certificate, while
+\[
+ (b-E_{00})r^2-2\gamma r+\frac{y(r)^2}{E_{22}}
+ =a_r r^2-2\left(\gamma-\frac{E_{02}v_y}{E_{22}}\right)r
+                +\frac{v_y^2}{E_{22}},\qquad
+ a_r=b-E_{00}+\frac{E_{02}^2}{E_{22}}.
+\]
+Unlike the rank-one case, $a_r$ can be negative.  On a source cell
+$r\in[r_-,r_+]$, endpoint interpolation remains an upper bound after
+adding $\max(0,-a_r)(r_+-r_-)^2/4$.
+No compact local certificate, or fixed-source price, alone proves a
+global operator norm bound.

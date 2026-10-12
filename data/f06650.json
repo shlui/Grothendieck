@@ -1,0 +1,182 @@
+{
+  "status": "PASS_DIRECTED_ROBUST_RESTRICTED_R3_SOURCE_BOXES",
+  "scope": "Only these continuous source boxes. Complete amplitude/source union is separate.",
+  "convexity": "Positive rank-one r curvature; u quadratic positive. Cumulant price separately convex in kappa and shared shape, including positive covariance term.",
+  "boxes": [
+    {
+      "name": "interval_refinedface_u75125_r262_k10_12",
+      "u": [
+        "1501/2000",
+        "94/125"
+      ],
+      "r": [
+        "13/50",
+        "33/125"
+      ],
+      "kappa": [
+        "10",
+        "12"
+      ],
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "cap": "70359/125000",
+      "branch": "lowerface",
+      "audit": "refinedface_u75125_R3_recheck",
+      "profile": "profile_interval_refinedface_u75125_r262_k10_12.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "32",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 2716
+        },
+        {
+          "q": [
+            "8",
+            "32"
+          ],
+          "accepted": 112
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_body.json",
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_exterior.json",
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_tail.json"
+      ],
+      "maximum_directed_upper": "562841287069963582764499186409435521582047485896300932946730987879943/1000000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "1501/2000",
+          "r": "13/50",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.628397999555847558125845733321208047216915716148096176630015088977998e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "13/50",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.625430396883787287047470115784526769119842076728675073859378701913817e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "13/50",
+          "kappa": "12",
+          "shape": "2/5",
+          "upper": "5.627370432535500173417835974476393872150077950459549745490849933282525e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "13/50",
+          "kappa": "12",
+          "shape": "1",
+          "upper": "5.623089817903318503734616116315607616799414884148963341102005275714873e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "33/125",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.628412870699635827644991864094355215820474858963009329467309878799430e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "33/125",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.625445268027575556566616246557673937723401219543588226696673491735249e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "33/125",
+          "kappa": "12",
+          "shape": "2/5",
+          "upper": "5.627385303679288442936982105249541040753637093274462898328144723103956e-1"
+        },
+        {
+          "u": "1501/2000",
+          "r": "33/125",
+          "kappa": "12",
+          "shape": "1",
+          "upper": "5.623104689047106773253762247088754785402974026963876493939300065536305e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "13/50",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.628397999555847558125845733321208047216915716148096176630015088977998e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "13/50",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.625430396883787287047470115784526769119842076728675073859378701913817e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "13/50",
+          "kappa": "12",
+          "shape": "2/5",
+          "upper": "5.627370432535500173417835974476393872150077950459549745490849933282525e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "13/50",
+          "kappa": "12",
+          "shape": "1",
+          "upper": "5.623089817903318503734616116315607616799414884148963341102005275714873e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "33/125",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.628412870699635827644991864094355215820474858963009329467309878799430e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "33/125",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.625445268027575556566616246557673937723401219543588226696673491735249e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "33/125",
+          "kappa": "12",
+          "shape": "2/5",
+          "upper": "5.627385303679288442936982105249541040753637093274462898328144723103956e-1"
+        },
+        {
+          "u": "94/125",
+          "r": "33/125",
+          "kappa": "12",
+          "shape": "1",
+          "upper": "5.623104689047106773253762247088754785402974026963876493939300065536305e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_refinedface_u75125_r262_k10_12.json": "27d4ff398a218d217de7974c0590758373c286719001b490984ea618783935d6",
+        "tonight/operator/projection/targeted_certificate/price_refinedface_source_box.py": "c1dcbc168612ab878a703adaa82ab011af7b36cb39a5d7a38ee6bdd571d31893",
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_body.json": "be8ea194c84bd29fe619ac24064a476926076c7f5e53ad6cfe852ecb6cb85079",
+        "tonight/operator/projection/targeted_certificate/body_interval_refinedface_u75125_r262_k10_12.json.gz": "329db8dcf5dae342fe7434b638f21d2ef50c8245bba8f08537bcdd53eadba3b1",
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_exterior.json": "77a261e51412fc431ff83498f037a4d5ee117e3dbc9c3faa355b986e9f68b975",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_refinedface_u75125_r262_k10_12.json.gz": "4700ad29e32881e3db57a7ad9ed8ebd23792a3b643d2cfdba73a5af766cf1115",
+        "tonight/audit/refinedface_u75125_R3_recheck/independent_interval_refinedface_u75125_r262_k10_12_lowerface_tail.json": "b1e367c4b0d532336f9151322f0dc17207205d5d48c19eb17c1c4709b1de5150",
+        "tonight/operator/projection/targeted_certificate/tail_interval_refinedface_u75125_r262_k10_12.json": "e115d77b15d9ad13b6cf857897b6405b449bc3f3f6ced2f8d9ea54058141ced7"
+      }
+    }
+  ]
+}

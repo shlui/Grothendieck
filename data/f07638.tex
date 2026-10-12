@@ -1,0 +1,89 @@
+% Primary input: Saha et al., New Lower and Upper Bounds for the
+% Grothendieck Constant, arXiv:2608.11158v2, Sections 8--9.
+% The external computer-assisted proof is invoked, not replayed here.
+\begin{proposition}[An exactly evaluable Gaussian benchmark]
+\label{prop:saha-exact-benchmark}
+Let $T=P_1-\frac12P_3$ on standard Gaussian space and let $A_n$
+be its antipodally folded product-cell compression, with dimension
+$d=n^2$, mesh $n^{-2}$, cutoff $\pm n$, and $0$ a coordinate-cell
+boundary.  Then, for every $n\geq2$,
+\[
+ C(A_n)=\frac{11}{6\pi},\qquad Q(A_n)\leq1,
+ \qquad \lim_{n\to\infty}G(A_n)=\frac{6\pi}{11}.
+\]
+Choose a symmetric rational approximation $\widehat A_n$ with total
+entrywise error at most $\eta_n=n^{-4}$, and apply the exact cloning,
+symmetric dilation and balancing reductions to obtain $H_n$.
+Thus $H_n$ is symmetric, has zero diagonal and zero row sums, and
+$|H_n|$ is doubly stochastic.  The same actual ratio limit holds:
+\[
+ \lim_{n\to\infty}G(H_n)=\frac{6\pi}{11}
+ =1.713595992867159948\ldots.
+\]
+The rationalized ratios need not lie below their limiting value.
+\end{proposition}
+\begin{proof}
+The all-odd-sign inequality proved by Saha et al.,
+arXiv:2608.11158v2, Sections 8--9, is
+\[
+ 2\langle P_1f,P_1g\rangle-\langle P_3f,P_3g\rangle
+ \leq\frac{11}{6}\frac2\pi.
+\]
+Replacing $g$ by $-g$ gives the corresponding absolute bound.
+It also holds for odd functions of absolute value at most one:
+successively maximize the bilinear pairing in each function, choosing
+the odd sign of the other function's image under $T$.
+For $s(X)=\operatorname{sgn}(X_1)$ and
+$\nu=\sqrt{2/\pi}$, the raw Hermite polynomial
+$\operatorname{He}_3(z)=z^3-3z$ gives
+\[
+ P_1s=\nu X_1,\qquad P_3s=-\frac\nu6
+ \operatorname{He}_3(X_1),\qquad
+ \langle s,Ts\rangle=\nu^2-\frac{\nu^2}{12}
+ =\frac{11}{6\pi}.
+\]
+The hemisphere sign is exactly constant on each product cell.
+Consequently its folded matrix assignment attains the external upper
+bound, establishing the exact scalar norm for every finite $n$.
+For any pair of unit-vector assignments, their odd cell fields $v,w$
+have $\int\|v\|^2\,d\gamma_d=\int\|w\|^2\,d\gamma_d=1$;
+the $L^2$ operator norm $\|T\|_{2\to2}=1$ and Cauchy--Schwarz give
+$Q(A_n)\leq1$.
+The radial unit field and the established midpoint estimate give
+$Q(A_n)\to1$.
+Finally, total entrywise error bounds both norm errors by $\eta_n$,
+and every subsequent reduction preserves $G$ exactly.  This proves
+both asserted limits.
+\end{proof}
+
+For completeness, the following are explicit finite lower bounds.
+Put $d=n^2$, $p_n=2n\phi(n)$, and
+\begin{align*}
+ e_n={}&\frac1d\left(\frac{3}{4(d-1)}+
+             \frac1{4(d+2)}+\frac1{2(d-2)}\right)\\
+ &+4\left(\frac34+\frac14\sqrt{\frac{d+4}{d+2}}\right)
+       \sqrt{p_n}+2p_n,\\
+ q_n={}&\left(1-\frac1{2d}\right)
+             \left(1-\frac1{4(d+2)}\right)-e_n.
+\end{align*}
+The gamma-ratio lower bound $a_d>1-1/(2d)$ and the quadratic
+midpoint loss imply
+\[
+ G(A_n)\geq\frac{q_n}{11/(6\pi)},\qquad
+ G(H_n)\geq\frac{q_n-n^{-4}}{11/(6\pi)+n^{-4}}.
+\]
+Directed MPFR256 evaluation, rounded down to twelve decimal places,
+gives
+\[
+\begin{array}{c|cc}
+ n & G(A_n)\text{ lower bound} & G(H_n)\text{ lower bound}\\\hline
+ 32&1.712339483749&1.712335051217\\
+ 128&1.713517545081&1.713517527758\\
+ 1024&1.713594767206&1.713594767202
+\end{array}
+\]
+These evaluations are recorded in
+\texttt{saha\_benchmark\_certificate.json}; the external scalar
+theorem is the sole new norm input and has not been independently
+replayed here.  This benchmark does not invoke the retained, unverified
+global norm premise used for the earlier $1.773$ candidate.

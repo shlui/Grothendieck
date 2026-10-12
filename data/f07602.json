@@ -1,0 +1,101 @@
+{
+  "status": "PASS_EXACT_ENVELOPE_ALGEBRA_AND_EXHAUSTIVE_PHYSICAL_SOURCE_COVERAGE",
+  "scope": "Continuous regional middle bound; cached directed R3 corner constants and local/scalar primitive gates require their separate independent replays. A global norm also requires lower and upper amplitude branches.",
+  "operator_b": "7171/10000",
+  "amplitude_interval": [
+    "1381/2000",
+    "31/40"
+  ],
+  "u_bands": 16,
+  "kappa_bands": 14,
+  "complete_groups": 224,
+  "cell_count": 39662,
+  "maximum_cell_cap": "566053014383/1000000000000",
+  "strict_rational_cap": "70756627/125000000",
+  "winners": {
+    "native:tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json": 716,
+    "native:tonight/recovery/profile_cover/repriced685_b7171_target_mask.json": 18571,
+    "R3:rank70": 3969,
+    "R3:rank68": 44,
+    "R3:full70": 126,
+    "native:tonight/recovery/profile_cover/repriced700_b7171_target_mask.json": 12229,
+    "R3:diffuse7505": 51,
+    "R3:diffuse7478": 19,
+    "R3:critical755": 226,
+    "native:tonight/recovery/profile_cover/core077_b7171_target_mask.json": 3711
+  },
+  "convexity_and_reserves": {
+    "rank68": {
+      "sixth_coefficient": "1142401428196089/25000000000000000000",
+      "residual_coefficient": "18109196071803911/25000000000000000000",
+      "reserve0": "1/50000",
+      "reserve6": "1/5000000"
+    },
+    "rank70": {
+      "sixth_coefficient": "81155441130495289/2500000000000000000000",
+      "residual_coefficient": "1503481883869504711/2500000000000000000000",
+      "reserve0": "1/50000",
+      "reserve6": "1/5000000"
+    },
+    "full68": {
+      "sixth_coefficient": "12500559474085184921/10000000000000000000000",
+      "residual_coefficient": "3592862525914815079/10000000000000000000000",
+      "reserve0": "1/1000",
+      "reserve6": "1/1000000"
+    },
+    "full70": {
+      "sixth_coefficient": "9573393998617371409/10000000000000000000000",
+      "residual_coefficient": "2783964001382628591/10000000000000000000000",
+      "reserve0": "1/1000",
+      "reserve6": "1/1000000"
+    },
+    "critical755": {
+      "sixth_coefficient": "22262234067601129/2500000000000000000000",
+      "residual_coefficient": "172316040932398871/2500000000000000000000",
+      "reserve0": "1/50000",
+      "reserve6": "1/1000000"
+    },
+    "diffuse7478": {
+      "sixth_coefficient": "2146980566569321/39062500000000000000",
+      "residual_coefficient": "32781305761555679/39062500000000000000",
+      "reserve0": "1/50000",
+      "reserve6": "1/5000000"
+    },
+    "diffuse7505": {
+      "sixth_coefficient": "84906811475744009/2500000000000000000000",
+      "residual_coefficient": "1368054988524255991/2500000000000000000000",
+      "reserve0": "1/50000",
+      "reserve6": "1/5000000"
+    }
+  },
+  "source_upper_at_lower_u": {
+    "1381/2000": "20362837815627/50000000000000",
+    "139/200": "398916869921903/1000000000000000",
+    "7/10": "389410206784347/1000000000000000",
+    "141/200": "379632555398039/1000000000000000",
+    "71/100": "73912510772731/200000000000000",
+    "143/200": "359175761819261/1000000000000000",
+    "18/25": "2177775006017/6250000000000",
+    "147/200": "156910571187837/500000000000000",
+    "37/50": "9416144433169/31250000000000",
+    "149/200": "144114061023607/500000000000000",
+    "3/4": "274472286156201/1000000000000000",
+    "151/200": "259943372758359/1000000000000000",
+    "19/25": "12225189804563/50000000000000",
+    "153/200": "227968802105193/1000000000000000",
+    "77/100": "210080108717651/1000000000000000",
+    "771/1000": "103154714414347/500000000000000"
+  },
+  "native_inputs": [
+    {
+      "path": "tonight/recovery/profile_cover/native_union_b7171_target.json",
+      "sha256": "cbead97ab57f0d164100e462378a7ff93e68dd9a390896c3b8c0d8db22b27b31"
+    },
+    {
+      "path": "tonight/recovery/profile_cover/native_upper_b7171_target_union.json",
+      "sha256": "ded5b76c00fc0d9de62bb69c1ea44b748a3633c8c2e95c974a48c13afbbd3064"
+    }
+  ],
+  "envelope_path": "tonight/recovery/profile_cover/global_middle_b7171_native_R3_envelope.json",
+  "envelope_sha256": "cfdf430efaa9ed0f1dc4dd12f69a8a9c83674ef9ce57f9ca7834c3f80e9c1007"
+}

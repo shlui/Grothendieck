@@ -1,0 +1,30 @@
+{
+  "status": "PRODUCER_COMPLETE_MODERATE_U753_PENDING_INDEPENDENT_AUDIT",
+  "profiles": [
+    {
+      "name": "new_moderate_u753_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/profile_moderate_u753_b7171.json",
+      "profile_sha256": "4e4aadd5ad201b26095e8b5a2f3141928532cb7d860a48ccba39c7f71fe962a7",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/MODERATE_U753_Q20_GATE_MANIFEST.json",
+      "acceptance_sha256": "96752addffeb56492939135a968282b1400442bc2a990c1a3fc84fb7841ebc47",
+      "proof_status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/body_moderate_u753_q20.json.gz",
+          "sha256": "393f40d92e66f150535341310fa77d56e830614a09c49e9a06f6c62ee25d0442"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/exterior_moderate_u753_q20.json.gz",
+          "sha256": "ac2a256efd8eebd277edaed2730ecce269d0cb9e89aea3d1e8d718e311a4d9e1"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/moderate_u753_fit/certificate/tail_moderate_u753_q20.json",
+          "sha256": "464067062ac88b71804410419eac522ca999024809b37bfe56b8c2145d631e0a"
+        }
+      ]
+    }
+  ]
+}

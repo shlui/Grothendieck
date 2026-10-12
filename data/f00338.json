@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_REPAIRED_HIGHK_RANK_ALIASES",
+  "adapter": "replay_new_rank_highk_repair_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/HIGHK_Q03_Q6_2E_MINUS7_GATE_MANIFEST.json",
+    "sha256": "b2a2e0c2013bee6886dce3e76d73bdc40ace855f629d10fef87c0301920e948f"
+  },
+  "profiles": [
+    {
+      "name": "highk_native76625_repaired",
+      "label": "interval_highk_native76625_repaired",
+      "branch": "highk03repair",
+      "reserve0": "3/100",
+      "reserve6": "1/5000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_native_face_b7171.json",
+          "alias": "new_round_2026-10-02/audit/highk_repaired_source_box/input/profile_interval_highk_native76625_repaired.json",
+          "sha256": "939773f8d3542b86b3459748b289f3f0dbf7bbbb4193147f8c592396fd54b7e7"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_q6_2e7.json.gz",
+          "alias": "new_round_2026-10-02/audit/highk_repaired_source_box/input/body_interval_highk_native76625_repaired.json.gz",
+          "sha256": "5cd6fc956d3c11d0f2d1b7d2dca4ba3aac7f028cd0f589d6c2baaa05cf4a0123"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_q6_2e7.json.gz",
+          "alias": "new_round_2026-10-02/audit/highk_repaired_source_box/input/exterior_interval_highk_native76625_repaired.json.gz",
+          "sha256": "c0d69eb904d088ad5111ef0dd7569d319424466ae10c33c0ea72a6323b445c3d"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_q6_2e7.json",
+          "alias": "new_round_2026-10-02/audit/highk_repaired_source_box/input/tail_interval_highk_native76625_repaired.json",
+          "sha256": "7f0518e86af8c1ff8d5a4448fea86f395e2a69cd6699a7908d6125345ab2409d"
+        }
+      ]
+    }
+  ]
+}

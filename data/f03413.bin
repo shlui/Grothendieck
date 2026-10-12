@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_SELECTED_CONTACT_CREDIT_NUMERIC_BINDINGS",
+  "input_sha256": "241dfdf71b17a0b868da71d7bb50a8a09d8749644fee60bc932755a60d589c17",
+  "precision_bits": 768,
+  "selected_contact_cells": 23,
+  "inactive_contact_metadata_cells": 0,
+  "distinct_contact_corner_prices": 50,
+  "native_normalized_beta_terms_checked": 0,
+  "R3_raw_beta_terms_checked": 3,
+  "producer_code_imported": false,
+  "analytic_review": "Every contact row and lambda is fixed over its whole cell. All four coupled cumulant/shape gate prices are bounded; normalized native beta*d/b uses directed sqrt6, raw R3 beta*d/b equals6*beta_raw*B/b. The recorded S has PLUS beta*d/b. The exact cell outer/chord/quadratic pricing is separately audited.",
+  "scope": "Numeric contact-credit premises on all selected cells; complete physical partition and all options are separate.",
+  "accepted_parent_contact_premise": {
+    "path": "tonight/audit/global_b7171/full_upper57_b713_22_contact_credits.json",
+    "sha256": "c11c0d9989d59b8e69b563652bd933303c26570490a143589ce3a6fb0f387d48",
+    "input_sha256": "80d146ce0b584119ab20158e6f10e1e50ca1e3b5a12d96200f79473e995a111d"
+  },
+  "inactive_metadata_review": "Only active native-contact/R3-contact winners are repriced here. Contact fields on inherited or newly replaced plain-profile winners are inactive. Exact parent/child geometry proves their chosen bound without using those fields; inherited parent contact bounds are additionally bound to the accepted parent numeric proof."
+}

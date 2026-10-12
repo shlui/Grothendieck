@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank66_full_rank_peak_upgrade_pending_components.json.gz",
+    "sha256": "b5fd7a4edb6a8275d2f00caa9d21edceac85fefc812842236e1e2e25aa76269b"
+  },
+  "profiles": 23,
+  "fresh_tables": 272,
+  "fresh_directed_prices": 1088,
+  "reused_tables": 1292,
+  "corner_tables": 1564,
+  "directed_corner_prices": 6256,
+  "verified_premise_file_count": 203
+}

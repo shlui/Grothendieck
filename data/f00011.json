@@ -1,0 +1,21 @@
+{
+  "status": "PASS_INDEPENDENT_ANALYTIC_HYBRID_AFFINE_ENVELOPE_REVIEW",
+  "source": {
+    "path": "new_round_2026-10-02/sequence_theory/HYBRID_AFFINE_SOURCE_ENVELOPE.tex",
+    "sha256": "c4c8363ffbf2c6c72be5855f1068bf3400381db22e43297d00851ce28f9339b4"
+  },
+  "checks": [
+    "For each coefficient-consistent valid bound F_i=u^2+gamma_i*r^2+a_i*u+b_i*r+c_i, the u secant is an upper bound with error at most width(u)^2/4.",
+    "For gamma_i>=0 the radial secant is upper with error at most gamma_i*width(r)^2/4; for gamma_i<0 the midpoint tangent is upper with error at most -gamma_i*width(r)^2/4.",
+    "Uniform error control passes to pointwise minima: min(F_i)<=min(U_i)<=min(F_i)+epsilon, using the minimizer of F_i for the latter inequality.",
+    "Closed affine dominance regions cover the entire clipped polygon including all ties. On each, the minimum is exactly one affine U_i, whose maximum occurs at an extreme point. Degenerate segments and points must be retained.",
+    "Selecting any nonempty valid subfamily raises its minimum and preserves upper-bound validity. No claim of the best envelope is needed to certify a nominated subfamily."
+  ],
+  "necessary_implementation_conditions": [
+    "Partition at every native radial knot before fixing the quadratic coefficients.",
+    "Every moment constant must uniformly bound the same closed cumulant/shape child domain as every source plane on that piece.",
+    "Use each full profile with its own budget, target b, spectral gates, and source convention; do not mix coefficients from different profiles.",
+    "Enumerate all closed dominance-region vertices, including degenerate cases, and preserve every physical point in the source partition."
+  ],
+  "scope": "Analytic lemma only. No proposed numerical hybrid bound is accepted by this record."
+}

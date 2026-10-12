@@ -1,0 +1,31 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_BROAD_HIGH_KAPPA_PENDING_INDEPENDENT_REPLAY",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/profile_broad_highk.json",
+    "sha256": "f9235c547f98b9c77eae51c997d0259d921fc5c614af195f6643aedf87bff6f1"
+  },
+  "reference_b": "7171/10000",
+  "target_b": "711/1000",
+  "reserve0": "1/1000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/broad_highk_body.json.gz",
+      "sha256": "2d850156d93e9bc2ee6869c6764e3a71c634dbc05f960c79a18764d6f7ce7d2f"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/broad_highk_exterior.json.gz",
+      "sha256": "042ffdb01d01a84c16040fe4b8886b9cbd28c89390c1bdf8377e9d985992a54a"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/broad_highk_tail.json",
+    "sha256": "9f13b128f72f0f3611048cd411cf7aceeef0d5f1b383ef0a8a880916e7741225"
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/root_highk_fit/certificate/broad_price_q0_.001.json",
+    "sha256": "032dcf085f12c29272d98a1639d0beb8d2121f1911e095adb5f2f95f47941451"
+  },
+  "source_box_cap": "140555857341556316203186098921697821292889463/250000000000000000000000000000000000000000000",
+  "scope": "Fresh complete real-q local gate; physical source rectangle at targetb711 all\u03ba60..90 with k\u03b6\u226436; global source cover separately required."
+}

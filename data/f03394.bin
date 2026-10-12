@@ -1,0 +1,67 @@
+{
+  "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_twentytwobank_polygon_envelope.json.gz",
+    "sha256": "80d146ce0b584119ab20158e6f10e1e50ca1e3b5a12d96200f79473e995a111d"
+  },
+  "source_sha256": "80d146ce0b584119ab20158e6f10e1e50ca1e3b5a12d96200f79473e995a111d",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_finekappa57_nineteenbank_polygon_envelope.json.gz",
+    "sha256": "3fef1faa9b148fe29d1a9346cb98bb8f9f3c124324737599ec9659c9fe35680d",
+    "accepted_geometry_audit": "tonight/theory/fullupper57_b713_nineteenbank_geometry_audit.json",
+    "audit_sha256": "fafa3892832071e8b5cf48c184b501f843401e1f03166ea38263463d4ebc2c31"
+  },
+  "numeric_cache_audit": {
+    "path": "tonight/audit/global_b7171/full_upper57_twentytwobank_R3_corner_replay.json",
+    "sha256": "c2e3d02b314c13ee7967304f681001268394ba2b73b3d44c5e5dc3e0682dde09"
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "identical_priced_cells": 253282,
+  "identical_empty_cells": 2078,
+  "improved_cells": 1069,
+  "new_winner_counts": {
+    "lowerdiffuse72125": 134,
+    "nextface7375": 706,
+    "moderateface7375q50": 229
+  },
+  "improved_polygon_prices": 922,
+  "new_profiles": {
+    "nextface7375": {
+      "path": "tonight/operator/projection/targeted_certificate/profile_interval_nextface_u7375_k4_10.json",
+      "sha256": "8992fa825c6c8abb01a92c8f4a1ca78d9ba40a05d72846c47e3977ed1db808ea",
+      "reserves": [
+        "1/50000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/nextface_u7375_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "99e44001e59b9d902004d27ce028cdb2664d123b7d12197015e3708b4ccdbed3"
+    },
+    "lowerdiffuse72125": {
+      "path": "tonight/operator/projection/targeted_certificate/profile_interval_lowerdiffuse_u72125_k0_01.json",
+      "sha256": "5d7ceb48c37e88bb9d532e327b044ab56d978d2bd7bcec09127263ff91905ef0",
+      "reserves": [
+        "1/10000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/lowerdiffuse_u72125_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "fa2a4f80382ed4aa40d0b67f5a8777efe988168c49e61bbe176121103c052ffa"
+    },
+    "moderateface7375q50": {
+      "path": "tonight/operator/moderateface_literature/q50/profile_rank_exact.json",
+      "sha256": "5fd1c1b6594fc23a9e6c4ee9c40db303e27f94dcc88143db1676dc47e51ce39e",
+      "reserves": [
+        "1/20000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/moderateface_q50_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "e9fa2b2d0567cdf6524472574b91b1104305d84a4752cf535245190fcf1ac720"
+    }
+  },
+  "maximum_cell_cap": "141058709369/250000000000",
+  "strict_rational_cap": "564234839/1000000000",
+  "proof": "The accepted parent provides the identical physical partition. Every changed price is an independently accepted rank-profile polynomial maximum on that same polygon or containing rectangle. All unchanged old prices remain valid."
+}

@@ -1,0 +1,50 @@
+\begin{proposition}[Exact reflected norm witness at $b=7171/10000$]
+Let $N(b)=\sup_d\|P_1-bP_3\|_{L^\infty(\gamma_d)\to L^1(\gamma_d)}$.
+Then
+\[
+ N\left(\frac{7171}{10000}\right)
+ >\frac{56323352479769}{10^{14}}.
+\]
+Consequently the asymptotically unit-numerator reciprocal-norm construction
+for this fixed coefficient has ceiling strictly below
+$1775462496412/10^{12}=1.775462496412$.
+This is a construction ceiling, not a Grothendieck lower endpoint.
+\end{proposition}
+\begin{proof}
+Set $a=26412631/10^7$, $c=4084047/10^7$, $q(z)=az+cz^3$ and
+$Y_n=n^{-1/2}\sum_{j=1}^nH_3(X_j)$ for independent standard Gaussian variables.
+Use the actual original-space signs
+$f_n=\operatorname{sgn}(Y_n+q(Z))$ and
+$g_n=\operatorname{sgn}(-Y_n+q(Z))$.
+The original-degree projection accounting for the reflected sign witness
+applies because $q'(z)\ge a>0$; in particular the diffuse channel retains
+original degree three.  Thus the limiting first- and third-chaos pairings are
+$m_1^2$ and $m_3^2-m_Y^2$, respectively, where
+\[
+ m_Y=\frac2\pi\int_0^\infty e^{-(z^2+q(z)^2)/2}\,dz,
+\quad
+ m_1=\frac2\pi\int_0^\infty q'(z)e^{-(z^2+q(z)^2)/2}\,dz,
+\]
+\[
+ m_3=\frac2{\pi\sqrt6}\int_0^\infty(z^2-1)q'(z)
+                       e^{-(z^2+q(z)^2)/2}\,dz.
+\]
+The exact-rational directed certificate
+\texttt{operator/cubic7171/certify\_cubic7171\_norm\_witness.py}
+integrates Taylor terms through degree eight on 320 rational cells of $[0,5]$,
+bounds the degree-ten remainder over each entire cell, and bounds the omitted
+Gaussian tails explicitly.  At 384-bit MPFR precision it encloses
+\[
+ m_1^2-\frac{7171}{10000}(m_3^2-m_Y^2)
+ \in[0.56323352479769013377939128145064207\ldots,
+      0.56323352479769013443552131880652919\ldots].
+\]
+Every finite-dimensional sign pairing is bounded above by $N(7171/10000)$;
+taking the limit proves the assertion.  The reciprocal enclosure has upper
+endpoint $1.77546249641157915826962638014795618\ldots$, proving the stated
+construction ceiling.  The witness remains below $40/71$ and therefore
+does not exclude a future certified lower endpoint of $1.775$.
+A separate Arb replay at 512 bits, Taylor order twelve and 400 rational cells
+recomputed all three integrals and Gaussian tails without importing the
+producer, independently accepting the stated inequalities.
+\end{proof}

@@ -1,0 +1,204 @@
+{
+  "status": "RECOMMENDED_READ_ONLY_EXTRAS_TO_FROZEN_GOAL_PACKAGE",
+  "frozen_input_manifest": "new_round_2026-10-02/audit/portable_replay/FINAL_GOAL_INPUT_MANIFEST.json",
+  "frozen_manifest_sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a",
+  "files": [
+    {
+      "category": "compact_entry",
+      "path": "new_round_2026-10-02/sequence_theory/COMPACT_CUBIC_CELL_ENTRIES.tex",
+      "sha256": "a36e3a43baea5ca0a9493e6230356b641b3d2a4fd99a89038a259c309c4ef8e1",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "compact_entry",
+      "path": "new_round_2026-10-02/sequence_theory/certify_compact_cubic_entries.py",
+      "sha256": "90322e4ea1882e41340cd1ac222559de5d21ab38003944c1d21acff8c8e13b12",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "compact_entry",
+      "path": "new_round_2026-10-02/sequence_theory/COMPACT_CUBIC_CELL_ENTRY_CERTIFICATE.json",
+      "sha256": "fdac6c078c126187db79d9b98cb10f09a48a4809959bc9c9ae74c5bb672ee12c",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/RATIONAL_LOG_CUTOFF_FINITE_BOUND_POINCARE.tex",
+      "sha256": "0759c29c4ecdc4e310f7469ce558580dcc6ada37dba3d0b701dff2cc36aaede9",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/RATIONAL_LOG_CUTOFF_POINCARE_ANALYTIC_RECORD.json",
+      "sha256": "9c09d172fba0b0dd51a6bdec1beae164cbe7b4de19da641225f4b2aeffe35419",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/evaluate_rational_finite_bound.py",
+      "sha256": "5660e5ff118a2c1a2f5cf811941d71ea7d7fe8ef006b46b67cafa1e430166451",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_RATIONAL_FINITE_BOUND.json",
+      "sha256": "45e6b6892265684c7b78f4bdd40610d66979acaada9f2d7b53582d71c8947a70",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_LOG_CUTOFF_FINITE_ARB768.json",
+      "sha256": "47b466b6deef7acae6006891f6c4267fdc4d9ce880e7265e72e4b2939f779bc4",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/audit_log_cutoff_arithmetic.py",
+      "sha256": "274f476af9674876169e352517a355e854b9fde7f5262f233e0b191158341681",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_LOG_CUTOFF_FINITE_MPFR_AUDIT.json",
+      "sha256": "06e3b26d46ae5cb06b3630b9337a3f2874b2f59d5c5366b8022a152b786ad28c",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/assemble_final_finite_acceptance.py",
+      "sha256": "cd1b245dadb22776d2172187b72425c6bdfdf9514c06af6be98905f9d37b5533",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_finite",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_FINITE_FORMULA_ACCEPTANCE.json",
+      "sha256": "7b7112752918a3e71d0f1f4756212c26d6b8985171d7e4ccd58d5b7d5243cb75",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_report_scope",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_CERTIFIED_SEQUENCE_THEOREM.tex",
+      "sha256": "86c76410a2c7be70d96f07942ae3a1b1d75452d51d899f3866efe8deffb82493",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_report_scope",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_MAIN_MATHEMATICAL_SCOPE_AUDIT.json",
+      "sha256": "beba2cbc81a2001fe9b0b0caa4ae8fa2341b5bceae7cd05573555dba7b896369",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "final_report_scope",
+      "path": "new_round_2026-10-02/sequence_theory/FINAL_GOAL_MAIN_MATHEMATICAL_SCOPE_AUDIT.md",
+      "sha256": "2a96a1ad45e8e563e0b27e6ab1f1f10534f0823d60f5acf7fd3122405b79b5fa",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/LOGARITHMIC_CUTOFF_SEQUENCE.tex",
+      "sha256": "a0ec7c276c521a97ce59df0bc10f8ecc27e711f764ef14a51ff2e0d41a4a6dfe",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/ODD_MULTIPLIER_SEQUENCE.tex",
+      "sha256": "67cf98af7aac64b8a3b3ee83ec79991e48df01a04ff877e60040ea602ae76feb",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/POWERED_DIMENSION_SEQUENCE.tex",
+      "sha256": "e82e8c0b515723ea99afabfd0fed8d41b8cca16272b03b10fc5f8d7a0b559543",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/GENERAL_ODD_SOURCE_STEIN.tex",
+      "sha256": "d5c204182be4319033df7cb401a63f075d852afcf4e24376b9cf8be13a3be81c",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/IDENTITY_TAIL_R3_CRITERION.tex",
+      "sha256": "1d06ae98628aa1adbbfa904154064dcf5af442a8a0d146e1228dec98aef43df7",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/RANK_DOMINANCE_ENVELOPE.tex",
+      "sha256": "5f8b67c50a064ab2e70cad30863c7f6e9c3e535fba81b4ea9a0c6f93f33932ac",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/SHARED_SHAPE_NATIVE_REFINEMENT.tex",
+      "sha256": "b2a54e6e1a4537951df2ec627b98c98c8ad0915d5202500af51b55e252e30721",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/STRONG_CUBIC_SHAPE_CURVED_PRICE.tex",
+      "sha256": "5441af4d4c5840e6b3d8cb7cae9e31c212cdceef63fd78d9ef9166a283226c86",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/CUBIC_SHAPE_AND_CURVED_PRICE.tex",
+      "sha256": "742af0a927772aed2ba9e46c0a83ec008e1c86b5422aa28d4d4db8eafa46563f",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/HYBRID_AFFINE_SOURCE_ENVELOPE.tex",
+      "sha256": "c4c8363ffbf2c6c72be5855f1068bf3400381db22e43297d00851ce28f9339b4",
+      "already_in_frozen_3300_manifest": true
+    },
+    {
+      "category": "analytic_fragments",
+      "path": "new_round_2026-10-02/sequence_theory/THREE_SIGNIFICANT_DIGIT_UPPER_COROLLARY.tex",
+      "sha256": "99d9cd594ca6dc1f678c1b79f92d5fc4fab729db65ab0db02c99e1e10fdfae80",
+      "already_in_frozen_3300_manifest": true
+    },
+    {
+      "category": "dependencies_and_independent_analytic_records",
+      "path": "new_round_2026-10-02/evaluate_log_cutoff_sequence.py",
+      "sha256": "bcdcf4a7c7f4b0e9642318027dbebd1e459681f111cc4e228dac07ef4e4fd612",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "dependencies_and_independent_analytic_records",
+      "path": "new_round_2026-10-02/audit/RATIONAL_LOG_CUTOFF_POINCARE_INDEPENDENT_AUDIT.json",
+      "sha256": "fb191425757b86bee7a19c569f8a899eaa97da59bb4b7062b93307cf31d30e88",
+      "already_in_frozen_3300_manifest": false
+    },
+    {
+      "category": "dependencies_and_independent_analytic_records",
+      "path": "new_round_2026-10-02/audit/COMPACT_CUBIC_ENTRY_INDEPENDENT_AUDIT.json",
+      "sha256": "cc7ccaf8639f1c5b156c4a03316e07864a9ddb87db98d2adbfa80c00838eb66a",
+      "already_in_frozen_3300_manifest": false
+    }
+  ],
+  "runtime_dependencies": {
+    "evaluate_log_cutoff_sequence.py": "python-flint (flint.arb), precision 768; standard library otherwise",
+    "audit_log_cutoff_arithmetic.py": "same-directory mpfr_interval.py plus system libmpfr, using ctypes; no gmpy2/python-flint",
+    "evaluate_rational_finite_bound.py": "Python standard library only",
+    "certify_compact_cubic_entries.py": "Python standard library only",
+    "assemble_final_finite_acceptance.py": "Python standard library only; preserve relative sequence_theory/../audit acceptance path"
+  },
+  "path_dependencies": {
+    "assemble_final_finite_acceptance.py": "accepted global aggregate audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json already in the 3300 manifest",
+    "FINAL_GOAL_MAIN_MATHEMATICAL_SCOPE_AUDIT.json": "hash-bound final MAIN source, supplied separately as final report source"
+  },
+  "excluded": [
+    "LaTeX .aux/.log outputs and compile-only check files",
+    "Intermediate FRESH32--FRESH70 theorem drafts: optional history only",
+    "write_accepted_goal_theorem.py: initial reporting template; final publication fragment is authoritative and contains corrected current counts; do not use this template to regenerate final prose"
+  ],
+  "scope": "No frozen inputs were changed. List distinguishes already-manifest proof fragments from genuinely new optional explanatory/finite arithmetic extras."
+}

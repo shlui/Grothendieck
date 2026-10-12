@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/highu_highk_linear_source_box/REPLAY_MANIFEST.json",
+    "sha256": "04fe65a0e36c6acace6ecba1ca98b1b6c409f6d3a8819c56a666b1ff99f23ade"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_broad_highk_q_trees.py",
+    "sha256": "c83c88c29beb2475f7ef21990a3fa62ebe52ba474f7d34ae676972302c55258c"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/highu_highk_linear_source_box/reports/independent_interval_new_highu_highk_linear_b711_broad1000_body.json",
+      "sha256": "82044180944c18f125e108bc55dcc07d750b9d95fe88008fff282322fc42c68b",
+      "profile": "interval_new_highu_highk_linear_b711",
+      "part": "body",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2319
+    },
+    {
+      "path": "new_round_2026-10-02/audit/highu_highk_linear_source_box/reports/independent_interval_new_highu_highk_linear_b711_broad1000_exterior.json",
+      "sha256": "880dcdf673237e80a7f48abf1dcddf2d60b20550781b10f496574915caeaaae5",
+      "profile": "interval_new_highu_highk_linear_b711",
+      "part": "exterior",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "path": "new_round_2026-10-02/audit/highu_highk_linear_source_box/reports/independent_interval_new_highu_highk_linear_b711_broad1000_tail.json",
+      "sha256": "115f28eaf894c8b314c653e6b78c99a4bb4f84fb51e1f296fdda4cc6402ddc31",
+      "profile": "interval_new_highu_highk_linear_b711",
+      "part": "tail",
+      "branch": "broad1000",
+      "reserve0": "1/1000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 2.7408084869384766,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

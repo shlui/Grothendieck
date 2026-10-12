@@ -1,0 +1,51 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_DIFFUSE_R3_SOURCE_MASKS",
+  "u_domain": [
+    "743/1000",
+    "151/200"
+  ],
+  "kappa_domain": [
+    "0",
+    "1/10"
+  ],
+  "shape_domain": [
+    "2/5",
+    "1"
+  ],
+  "physical_source_upper": "r<.3 by source bridge for u>=.743; each mask has its explicit piecewise affine lower boundary",
+  "operator_masks": [
+    {
+      "b": "18/25",
+      "cap": "56337/100000",
+      "cells": 12
+    },
+    {
+      "b": "7171/10000",
+      "cap": "3521/6250",
+      "cells": 12
+    }
+  ],
+  "whole_q_accepted_leaves": 6502,
+  "frozen_theta": "1/123",
+  "reserve0": "1/50000",
+  "reserve6": "1/5000000",
+  "q_proofs": [
+    {
+      "file": "independent_interval_u7478_k0_01_finer_body.json",
+      "sha256": "79b4ae7f34901f802066ff1d112c24c061743a6c97de65dc50e0a81fd49abc6f",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_interval_u7478_k0_01_finer_exterior.json",
+      "sha256": "5dc557b81008a66f67d61ea24c270091849a11f724486de9c05df68b38a61287",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE"
+    },
+    {
+      "file": "independent_interval_u7478_k0_01_finer_tail.json",
+      "sha256": "281a90385f7f9bfcf9e273094e431fb039fe3667ed1815cdb360b0173ff8fe07",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL"
+    }
+  ],
+  "source_price_audit_sha256": "e1ab1a95e4d7dce93c7f33ee0bd0d4cee7e44d83f086446dcc9cb3f858f60639",
+  "excluded": "Sources below each lower-r boundary, kappa>.1, and amplitudes outside this interval are not covered. This is not all-amplitude coverage."
+}

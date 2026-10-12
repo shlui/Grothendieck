@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q25_q_trees.py",
+  "profiles": [
+    {
+      "name": "new_kappa13_b711_q25",
+      "label": "interval_new_kappa13_b711_q25",
+      "branch": "q25",
+      "reserve0": "1/40000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa13.json",
+          "alias": "new_round_2026-10-02/audit/kappa13_q25_source_box/input/profile_interval_new_kappa13_b711_q25.json",
+          "sha256": "a8595f0dca3087c063c77968fe5ddbc8a4fe84be5a1e934a7b24885ed71985f4"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa13_q25_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa13_q25_source_box/input/body_interval_new_kappa13_b711_q25.json.gz",
+          "sha256": "ac7383ddef6c66e9a9d2eb39f474f01386020a9792057eb51af1a7a3947362bf"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa13_q25_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa13_q25_source_box/input/exterior_interval_new_kappa13_b711_q25.json.gz",
+          "sha256": "19e84c0d2c4f9d65009d663e3ac099d351beeb9ff70866a49851602ff12026f8"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa13_q25_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa13_q25_source_box/input/tail_interval_new_kappa13_b711_q25.json",
+          "sha256": "f29f9ccdf9884486ea3819d16fc42fefa6bf00b20d70deb5222fae6c6b5f0101"
+        }
+      ]
+    }
+  ],
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/KAPPA13_Q25_GATE_MANIFEST.json",
+    "sha256": "c9787bcf184d6873f44a9c6e6fc8726441fc1bc535b8c5f43671eecf063f178a"
+  }
+}

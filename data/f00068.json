@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/DIFFUSE_KAPPA03_Q50_GATE_MANIFEST.json",
+    "sha256": "760fe7f4f8791b05ee83650e88fc822d597d7c27f6e63abaf3c26ed505618bca"
+  },
+  "profiles": [
+    {
+      "name": "new_diffuse_kappa03_b711",
+      "label": "interval_new_diffuse_kappa03_b711",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/profile_diffuse_kappa03_b7171.json",
+          "alias": "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input/profile_interval_new_diffuse_kappa03_b711.json",
+          "sha256": "34d486409068fe48503fd95af7942650f0fa5542919aca6d276fb542e9068783"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/body_diffuse_kappa03_q50.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input/body_interval_new_diffuse_kappa03_b711.json.gz",
+          "sha256": "00a8444de087664cb348176a4dce45afe326b00c77edc726f01590022d1ff75c"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/exterior_diffuse_kappa03_q50.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input/exterior_interval_new_diffuse_kappa03_b711.json.gz",
+          "sha256": "7ec9aea5ece085604a22887ce64378edce97d5ecfc20e627e4f4201e94d7a396"
+        },
+        {
+          "source": "new_round_2026-10-02/cubic_search/coefficient/diffuse_kappa03_fit/certificate/tail_diffuse_kappa03_q50.json",
+          "alias": "new_round_2026-10-02/audit/diffuse_kappa03_source_box/input/tail_interval_new_diffuse_kappa03_b711.json",
+          "sha256": "1c4fd2af36edfbfdc9b1665cc0bf32368c50a5878460e50195990ff59fc3c52c"
+        }
+      ]
+    }
+  ]
+}

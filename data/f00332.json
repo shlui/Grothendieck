@@ -1,0 +1,34 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_AFFINE_HYBRID_DELTA_GEOMETRY",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank89_affine_hybrid_proposal.json.gz",
+    "sha256": "c99d0a98d1ad8f04d5b6fff5f5f62a7622e540523b56a1b546a9e512dfde8fc4"
+  },
+  "parent": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+    "sha256": "322eb4c03bace797cf4f75377cd915979005a88959395ed5300ad6558b4d0eb6",
+    "accepted_geometry_report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/layer_01_geometry.json",
+    "accepted_geometry_report_sha256": "3e9d527bc400874e01bcf845a15546f7ae1afa865abeff3bab728e08c694cb2f"
+  },
+  "operator_b": "711/1000",
+  "original_physical_parent_cells": 272579,
+  "closed_u_children": 19693,
+  "closed_moment_children": 18480,
+  "selected_moment_children": 4124,
+  "changed_moment_children": 4122,
+  "failed_moment_children": 2,
+  "profile_count": 89,
+  "fresh_uniform_moment_tables": 5280,
+  "maximum": "563381245322927/1000000000000000",
+  "strict_upper_cap": "563381247/1000000000",
+  "cap_relation": "STRICT_UPPER_BOUND",
+  "producer_imports": false,
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "b9b502d47a6223c02b3b9aa2f3207b5f12abd232fecaaaa40d874d2cf77a6ed7",
+  "affine_replay_sha256": "cb41880d1260cc80dc311470c86b822e38ff9b56bd1e150aa63b2f76134a0a28",
+  "scope": "Complete unchanged source/moment partition, old-cap retention, native radial knots and affine quadratic-price assembly. Fresh profile gates and directed moment values remain separate independent premises.",
+  "radial_pieces": 4122,
+  "native_piece_bindings": 17976,
+  "affine_dominance_regions": 8109,
+  "affine_dominance_vertices": 33263
+}

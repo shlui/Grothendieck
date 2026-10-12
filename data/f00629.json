@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/kappa43_source_box/REPLAY_MANIFEST.json",
+    "sha256": "59592b7a46ad6321efc58fb8639c40cdf8f0ad6d75e369c42a67e1e9997884dc"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_q_trees.py",
+    "sha256": "0e2472b512e1bbbb905daa828f038f4e9e561a058a1bc5f0e3c0283e383b542a"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/kappa43_source_box/reports/independent_interval_new_kappa43_b711_lowerface_body.json",
+      "sha256": "58ba993c23f8f4b5df265b2143d056acfc1544fd2447bf01c8ea69f1c58e6fdd",
+      "profile": "interval_new_kappa43_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2900
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa43_source_box/reports/independent_interval_new_kappa43_b711_lowerface_exterior.json",
+      "sha256": "c5bbe93ee520cc527eb517f028479a616ca85c6b702b7682dafa8d098179d8e4",
+      "profile": "interval_new_kappa43_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 147
+    },
+    {
+      "path": "new_round_2026-10-02/audit/kappa43_source_box/reports/independent_interval_new_kappa43_b711_lowerface_tail.json",
+      "sha256": "64535695cd753cecc8e7ecf7171f5e955ae93fc96632ff98a0113e73b56c832f",
+      "profile": "interval_new_kappa43_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 5.6523120403289795,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

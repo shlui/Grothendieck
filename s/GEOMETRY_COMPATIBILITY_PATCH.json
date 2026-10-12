@@ -1,0 +1,12 @@
+{
+  "missing_unused_legacy_filename": "audit_monotone_rank_children.py",
+  "original_auditor": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/audit_rank_child_moment_refinement_v2.py",
+  "original_sha256": "928ebd49e7dcbd4ac63425b16595feb63a599e449d5b2a02b2660d159773e1e1",
+  "patched_auditor": "/workspace/scratch/7cbe1f6dcfec/strict_norm/portable_geometry/audit_rank_child_moment_refinement_v2.py",
+  "patched_sha256": "a64f96048f596f335e1fb820f5ced836895e165c67263376aa3d8d19ea246afc",
+  "exact_removed_line": "allowed_parent_entries={H.sha(Path(__file__).with_name(n))for n in ('audit_monotone_rank_children.py','audit_monotone_rank_children_v2.py')}",
+  "exact_added_line": "allowed_parent_entries={H.sha(Path(__file__).with_name(n))for n in ('audit_monotone_rank_children.py','audit_monotone_rank_children_v2.py')if Path(__file__).with_name(n).is_file()}",
+  "actual_active_parent_hash_still_checked": true,
+  "numeric_and_geometry_arithmetic_changes": false,
+  "immutable_input_changes": false
+}

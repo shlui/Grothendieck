@@ -1,0 +1,114 @@
+{
+  "status": "PASS_INDEPENDENT_MANIFESTED_NEW_RANK_WHOLE_Q_GATES",
+  "manifest": {
+    "path": "new_round_2026-10-02/audit/ridge_source_boxes/REPLAY_MANIFEST.json",
+    "sha256": "442e14e7b896c312c5def953f3f83bba533aa1bfa10f2dbc19aafbb2e3a9a07e"
+  },
+  "adapter": {
+    "path": "new_round_2026-10-02/audit/replay_new_rank_ridge_q_trees.py",
+    "sha256": "68505add9c3d896756801c97505b5a92565dd6aaf5f36a8e4f959239f68a370b"
+  },
+  "reports": [
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_body.json",
+      "sha256": "b7f4b993abc7a0369300edf88109e41675b62f210619c84f2b40ab7706ead411",
+      "profile": "interval_new_ridge_diffuse_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 7580
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_exterior.json",
+      "sha256": "bcf53a04ab0afff84ac345904e91b9f739c7160ea249d9b98f3e165465a52cf7",
+      "profile": "interval_new_ridge_diffuse_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 201
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_diffuse_b711_lowerface_tail.json",
+      "sha256": "b9cd6ed70351c6127fb1b0c3c5e4c0cd3c23c2a6f845d515c090fb0324ddab31",
+      "profile": "interval_new_ridge_diffuse_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_body.json",
+      "sha256": "9a50069dfc55b47f62a7bc31d16f1722ec993e8bb2e6ff04c4d9489e90009cc3",
+      "profile": "interval_new_ridge_moderate_b711",
+      "part": "body",
+      "branch": "ridge500",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 4508
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_exterior.json",
+      "sha256": "4ab396cb21a126a0531a41e350d8b4bd68ef24287a66973ffb2ff10844835187",
+      "profile": "interval_new_ridge_moderate_b711",
+      "part": "exterior",
+      "branch": "ridge500",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 224
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_new_ridge_moderate_b711_ridge500_tail.json",
+      "sha256": "6e7be78d5584a9064dc5ae41aee52cf0f21f1334f1a3ef15253d439b4384bb11",
+      "profile": "interval_new_ridge_moderate_b711",
+      "part": "tail",
+      "branch": "ridge500",
+      "reserve0": "1/2000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_body.json",
+      "sha256": "32f55aa71a3af2ec6d4dc02132ed12e2362d3bf32ae12ab57f8ef9498ef23081",
+      "profile": "interval_root_ridge_k125_b711",
+      "part": "body",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 2749
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_exterior.json",
+      "sha256": "3cfe96cebad89b414ed35f13aa41e2ba7ffa07c7090a64464748a7de20c0b2f0",
+      "profile": "interval_root_ridge_k125_b711",
+      "part": "exterior",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 156
+    },
+    {
+      "path": "new_round_2026-10-02/audit/ridge_source_boxes/reports/independent_interval_root_ridge_k125_b711_lowerface_tail.json",
+      "sha256": "8b868ac4d757bc65ab14dcca22ee99989017468e65a3a1c82e02b0255b29b1e3",
+      "profile": "interval_root_ridge_k125_b711",
+      "part": "tail",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null
+    }
+  ],
+  "elapsed_seconds": 7.902471303939819,
+  "scope": "Whole real line physical rank-gate proof only. Exact target-b PSD/source prices and complete global physical coverage are separate prerequisites."
+}

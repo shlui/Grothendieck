@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa4125_producer_manifest.json",
+    "sha256": "b71e0a993adeeeafed20917e3f7c6324c6f7e003fe14fdc8b02333bce0fb7e86"
+  },
+  "profiles": [
+    {
+      "name": "new_moderate_kappa4125_b711",
+      "label": "interval_new_moderate_kappa4125_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate_kappa4125_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input/profile_interval_new_moderate_kappa4125_b711.json",
+          "sha256": "5421ccd043db68d887cb565d6dd07628b9c9af4684e71a1ea9c102146d834490"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate_kappa4125_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input/body_interval_new_moderate_kappa4125_b711.json.gz",
+          "sha256": "81bab0e47101a7dfd837a00fa1d5a2358a6a5284afaa42b51ef182c7483ee125"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate_kappa4125_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input/exterior_interval_new_moderate_kappa4125_b711.json.gz",
+          "sha256": "308f620f840013b2c7e1d502d19dbcec536878950293cc0f712d4dda5a3d7cc2"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate_kappa4125_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_kappa4125_source_box/input/tail_interval_new_moderate_kappa4125_b711.json",
+          "sha256": "06c912e7e6c5ced434f7c7b693c271e4e090fe1b1ebf5c7da47d3058b0334457"
+        }
+      ]
+    }
+  ]
+}

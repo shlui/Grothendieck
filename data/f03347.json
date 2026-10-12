@@ -1,0 +1,14 @@
+{
+  "verify_cover.py": "2b4cb0347b95589e780b67560f78cdab006e1c1d48a38b125c85728f309f45e6",
+  "cover.log": "c20655abd4570c9cf7e9a4b4552a827eb6c781acca64f03da782231996e8abec",
+  "dependencies.json": "c48626c2fa6f6bb702254712a410a27f9e12cae178f65790056203a3989a85d0",
+  "complete_price_cover.json": "5fef4c9ea0478bb55fae053b577db10fa85e6ceac070c9e5ebf3e4951c4a65d1",
+  "README.md": "77ca9c6bdbdee1ff0aec6651ff63a280e87ffee847d13f5c0a318dbdec71018d",
+  "independent_price_verification.json": "b215eef4babdd59c949946460d1e83f19f17335f60c4ad7946255b02e237658e",
+  "row_96.json": "27d7cb0485df1bbc6f144f882b5b4a99ff98c75d0a3ea0b51b32e3b00efbbd0e",
+  "PROOF.md": "85b8aec1f7d3c187719b890d0f473dca65a26cf42be700a1f13722fe2c9dd380",
+  "THEOREM.tex": "53c9447dbf068356eceaf4be9457e94841fd7715193282a5ab608e6c93f64325",
+  "row_68.json": "f9d5dcbe993d045fae116a4e3e79c95f400164f78fb2549c8a1d93eaac56df58",
+  "certify_cover.py": "faa6d3f53678a9c66fa274f511ce6ef00a072dbf3426e22a77aea39b94d4d018",
+  "independent_price_verification.log": "b215eef4babdd59c949946460d1e83f19f17335f60c4ad7946255b02e237658e"
+}

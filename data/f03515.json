@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_PHYSICAL_SOURCE_EXCLUSION",
+  "input_sha256": "6cf314eeadc348d1a4c692fa267512aa93bb36a28ea3a1f3846bdf4eee136afe",
+  "precision_bits": 768,
+  "parameters": {
+    "A": "147/50",
+    "B": "0",
+    "w": "11/2"
+  },
+  "u_lower": "151/200",
+  "kappa_interval": [
+    "2",
+    "4"
+  ],
+  "all_native_shapes": [
+    "0",
+    "1"
+  ],
+  "uniform_source_upper": "3218564576843929081/12500000000000000000",
+  "clean_source_upper": "257485167/1000000000",
+  "excluded_r_lower": "129/500",
+  "directed_coefficients_checked": 4,
+  "directed_corner_prices_checked": 4,
+  "producer_code_imported": false,
+  "analytic_review": "The accepted positive-polynomial derivative proof includes B=0. The fixed contact Hermite polynomial is an all-line majorant; q6>=0 makes its source moment price convex in kappa and affine in shape. The exact physical gate A*u+r<=price and A>0 imply the complete exclusion for u>=.755, kappa[2,4], all shapes. No operator coefficient or law assumption is used.",
+  "scope": "Physical domain exclusion only; clipping remaining source cells and a complete global bound require a separate envelope replay."
+}

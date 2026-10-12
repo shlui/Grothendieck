@@ -1,0 +1,49 @@
+{
+  "status": "PASS_PORTABLE_PACKAGE_BUILD_SMOKE",
+  "inventory": {
+    "status": "PASS_PACKAGED_VERIFICATION_INVENTORY",
+    "original_archive_files_checked": 7647,
+    "frozen_manifest_entries": 3300,
+    "distinct_frozen_manifest_files": 3292,
+    "packaged_verification_files": 7755,
+    "frozen_manifest_sha256": "2e49c298fc886e3fd1f4cc058f5a5194bb25ad616b4fadf9e0a194503ac2758a",
+    "package_inventory_sha256": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "mathematical_replay_performed": false
+  },
+  "package_only_inventory_historical_root_reads_blocked": true,
+  "changed_packaged_input_rejected_while_historical_root_present": true,
+  "full_dry_run_top_level_stages": 219,
+  "strict_dry_run_top_level_stages": 37,
+  "saved_historical_successful_stage_records": 219,
+  "strict_dependencies": {
+    "required_python_modules": [],
+    "missing": [],
+    "mpfr_library": "libmpfr.so.6",
+    "python": "3.12.14"
+  },
+  "full_dependencies": {
+    "required_python_modules": [
+      "flint",
+      "gmpy2",
+      "scipy"
+    ],
+    "missing": [
+      "flint",
+      "gmpy2"
+    ],
+    "mpfr_library": "libmpfr.so.6",
+    "python": "3.12.14"
+  },
+  "bindings": {
+    "tools/replay.py": "2adcee012887b922cb1af0bce01c2da811b73d0a51e0700b741ba223a3ac551a",
+    "tools/build_inventory.py": "a86cbcf99996abcc63dc77a52f07fcbf7cb5fb0a3c530c3baf29b0212a6f6e36",
+    "tools/package_smoke.py": "6f904aa1aa5a013a377a7c1873d9b9bad29b0cf8faed936a6444bc441e4556e7",
+    "Dockerfile": "fa53c33992d649d045f5fc06cf5abe5714421a6f26ccd520c85968b31db10e67",
+    "requirements.txt": "661e6aa9cf240182cc37c21287ae8f028a0891b22d86f784a5bb8a64c53d1eed",
+    "inventories/VERIFICATION_FILES.json": "5e570a1daa9940eb70e174c7a4635286859ac6a9ca0ae70098516d0b37041dfc",
+    "inventories/SOURCE_ARCHIVE_FILES.json": "622666d5e223466d781b257230ee30d3fac4c0dec8bb2d255c03cb8c21d0f394"
+  },
+  "new_complete_math_replay_performed": false,
+  "new_31_job_strict_math_replay_performed": false,
+  "scope": "Package byte identities, complete stage plans, source lookup independence, and tamper rejection. Saved mathematical replay reports are included and kept separate; this packaging smoke does not rerun them."
+}

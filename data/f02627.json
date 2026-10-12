@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENTLY_ACCEPTED_DIRECT_CONTACT_SOURCE_MAJORANT",
+  "files": {
+    "CONTACT_SOURCE_GATE.tex": "bbb4f7f17a70fa57a954e992d1679dec8a4e5f2e0b6ce9516660d06feca5409d",
+    "PROOF.md": "ac7ccdc2008b2397e06e85b322b80e06324660173e01469f8ee1a35308230bbe",
+    "README.md": "d51198eb56416b596644aef7bf7e255d1b2638d1d515968b152c0575addd8e84",
+    "certification.log": "561ff2ac5ca9a3b4c00784fa0e7a3e77e0999bc2775917c71f89a035ef97ada9",
+    "certify_contact_majorant.py": "8983965d1a2defcf40bee784c593e44b91545b0e3a375a0960e019c29f1f9ef9",
+    "certify_direct_contact_majorant.py": "6ddf5e61a816d4509727aef26cbe3b7e66f55c096c608c90ce217e374d54e210",
+    "contact_majorants.json": "3fd10ffa6a26bd07abd5c7c7bfe75e32f3f3b105277f66e52a4df2e3ca55dff9",
+    "dependencies.json": "a7e0d831556684fb1b6b24bf030ec2ad0a246e0cd56f130c217285773bce73f6",
+    "direct_certification.log": "6ed2eda6e3f5229e62b09e908845f863be763a3fa5cd4c058b1a3e58ad65213c",
+    "direct_contact_majorants.json": "3826dff3d6e714276380bda4fcee40b6757162786f514a3597616a8207e53613",
+    "independent_replay.json": "a695c2d2709ceeaf013779c8be65edb892288ff6c48f48df52d77fd8832d5932"
+  }
+}

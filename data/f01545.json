@@ -1,0 +1,33 @@
+{
+  "status": "PASS_PRODUCER_FREE_COMPLETE_RANK_CHILD_MOMENT_REFINEMENT_GEOMETRY",
+  "source": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank70_kappa_shape4_fullrank_refinement_proposal.json.gz",
+    "sha256": "322eb4c03bace797cf4f75377cd915979005a88959395ed5300ad6558b4d0eb6"
+  },
+  "parent": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/b711_bank70_full_rank_peak_upgrade_pending_components.json.gz",
+    "sha256": "73e209757177e0278cad69b7dc1b96eca888daecce15235770099715c1894eed",
+    "accepted_geometry_report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/BANK70_FULL_RANK_PEAK_GEOMETRY_AUDIT.json",
+    "accepted_geometry_report_sha256": "f8d4ebec16652d8b98f9a664e9301dfb7a142f23ee082e480cef0ff20b9c3d72"
+  },
+  "operator_b": "711/1000",
+  "original_physical_parent_cells": 272579,
+  "closed_u_children": 19693,
+  "selected_u_children": 1155,
+  "moment_children": 18480,
+  "exact_empty_moment_children": 356,
+  "improved_u_children": 673,
+  "rank_offers": 17632,
+  "rank_dominance_regions": 36227,
+  "rank_dominance_vertices": 148907,
+  "fresh_uniform_moment_tables": 43550,
+  "fresh_uniform_plane_boxes": 655,
+  "maximum": "14085923098681/25000000000000",
+  "strict_upper_cap": "22537477/40000000",
+  "failed_moment_children": 4124,
+  "cap_relation": "STRICT_UPPER_BOUND",
+  "producer_imports": false,
+  "arithmetic": "fractions.Fraction",
+  "entrypoint_sha256": "928ebd49e7dcbd4ac63425b16595feb63a599e449d5b2a02b2660d159773e1e1",
+  "scope": "Exact complete parent-linked shared cumulant/shape partition, source clipping and rank-price assembly. Fresh moment/source numeric caches remain independent premises."
+}

@@ -1,0 +1,2944 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\GR}{G_{\R}}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\newcommand{\norm}[1]{\lVert #1\rVert}
+\newcommand{\N}{\mathcal N}
+\newcommand{\tr}{\operatorname{tr}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\allowdisplaybreaks
+\setlength{\emergencystretch}{2em}
+\title{Reduced matrix sequences and Gaussian cubic estimates\\for the real Grothendieck constant}
+\author{}
+\date{October 1, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We construct an explicit sequence of rational matrices whose Grothendieck
+ratios converge to the reciprocal of a dimension-uniform Gaussian operator
+norm. Symmetry, zero diagonal, zero row and column sums, and doubly stochastic
+entrywise absolute values are imposed simultaneously by exact ratio-preserving
+maps. An exhaustive reduced sequence has monotone ratios converging to
+the full constant. We prove a coupled fourth- and sixth-cumulant inequality for
+real cubic Gaussian chaos and complete scalar Stein certificates giving
+$\E|Q|<0.847$ whenever $\E Q^2=1$. Independently replayed continuous
+physical-source certificates then give
+\[
+ \sup_d\|P_1-(711/1000)P_3\|_{L^\infty(\gamma_d)\to L^1(\gamma_d)}
+ \le\frac{112782853}{200000000}.
+\]
+The explicit reduced matrix sequence consequently proves
+$\GR\ge200000000/112782853=1.7733192119\ldots$, with quantified
+finite-matrix errors. A new global Hermite contact majorant retains the
+longitudinal cubic moment for further refinement. At $b=1/2$, a published
+sharp operator inequality gives the unconditional benchmark $6\pi/11$.
+The target $1.775$ and a three-significant-digit determination remain open.
+\end{abstract}
+
+\section{Introduction and the numerical target}
+For a nonzero finite real matrix $A$, define the bilinear norms
+\[
+ C(A)=\max_{s_i,t_j\in\{-1,1\}}\sum_{ij}A_{ij}s_it_j,
+ \qquad
+ V(A)=\max_{\norm{u_i}=\norm{v_j}=1}
+                 \sum_{ij}A_{ij}\ip{u_i}{v_j}.
+\]
+The vector dimension is arbitrary; finite dimension $m+n$ suffices for an
+$m$-by-$n$ matrix. Write $G(A)=V(A)/C(A)$ and
+$\GR=\sup_A G(A)$.
+
+Saha et al.~\cite{saha} prove the unconditional bounds
+\[
+ \frac{6\pi}{11}\le\GR\le
+ \frac{\pi}{2\log(1+\sqrt2)}-3.47\cdot10^{-4}.
+\]
+Corollary~\ref{cor:half-benchmark} gives an exactly evaluable sequence
+attaining the published lower endpoint. The fresh complete norm proof below
+also gives the unconditional constructive bound
+\[
+ \GR\ge\frac{200000000}{112782853}=1.7733192119\ldots.
+\]
+ The earlier internal September 30
+project estimate is retained solely as the all-dimension premise
+\begin{equation}\label{eq:baseline}
+ \N(699/1000):=
+ \sup_{d\ge1}\norm{P_1-(699/1000)P_3}_{L_\infty(\gamma_d)\to L_1(\gamma_d)}
+ \le\frac{1000}{1773}.
+\end{equation}
+The earlier report attributes this estimate to a 55-interval amplitude
+cover and inherited integrations \cite{baseline}. That complete cover
+has not been reconstructed or independently replayed here. Assuming
+\eqref{eq:baseline} gives $\GR\ge1.773$; it is not an unconditional
+conclusion of this continuation.
+
+The aim is a complete estimate $\N(b)\le40/71$ for a single
+coefficient $b$, since its reciprocal is $1.775$. Together with the
+published upper bound above, that would determine $\GR$ to three
+significant digits as $1.78$. The published enclosure and the putative
+stronger project enclosure both cross the rounding boundary. A three-decimal lower bound is not a
+three-decimal approximation of the constant.
+
+The principal results proved in this paper are the global constructive
+lower bound, the exact reduced sequence in Section~3, the coupled cumulant theorem in Section~5, the uniform cubic
+absolute-moment theorem in Section~6, and the support--source comparisons
+in Section~7. We also prove a sharper conditional Gaussian profile and a
+mixed cubic penalty in Section~\ref{sec:mixed}, and certify continuous
+operator regions in Section~\ref{sec:regional}. Section~\ref{sec:r3}
+retains the actual cubic projection in a residual comparison and gives
+an exact transport between source amplitudes. Their proofs and numerical inputs do not require the missing
+historical amplitude data underlying \eqref{eq:baseline}. The use of that
+earlier operator norm estimate is confined to the stated corollary for
+$b=.699$.
+
+\section{The exact $PAQ$ reduction}
+The right transformation is denoted $R$ here to distinguish it from a
+Gaussian cubic $Q$. Suppose distinct columns of $P$ have disjoint supports,
+and distinct rows of $R$ have disjoint supports. Put
+\[
+ p_i=\sum_a|P_{ai}|,\qquad r_j=\sum_b|R_{jb}|.
+\]
+Then
+\begin{equation}\label{eq:copies}
+ C(PAR)=C(D_pAD_r),\qquad V(PAR)=V(D_pAD_r).
+\end{equation}
+In particular, if $p_i=\alpha>0$ for every original row and
+$r_j=\beta>0$ for every original column, both norms are multiplied by
+$\alpha\beta$, and $G(PAR)=G(A)$.
+
+For scalar signs, the aggregate in row group $i$ lies in
+$[-p_i,p_i]$. The maximum of the resulting bilinear form on the product
+of these intervals occurs at a vertex, and every vertex is attainable
+by aligned copied signs. For vectors the aggregate lies in the ball of
+radius $p_i$; aligned copies attain its boundary. Ball vectors may be
+completed to unit vectors using separate left and right orthogonal
+coordinates without changing cross inner products. This proves
+\eqref{eq:copies} for both norms.
+
+Signed permutations and common scaling are special cases. Ordinary
+diagonal balancing and arbitrary orthogonal changes of coordinates are
+not consequences of this theorem. The requirements concern total
+absolute copying weights, not the number of copies.
+
+\subsection{A universal absolute doubly stochastic class}
+Let $Z$ be a nonzero integer matrix with zero rows and columns removed.
+Set
+\[
+ r_i=\sum_j|Z_{ij}|,\qquad c_j=\sum_i|Z_{ij}|,
+ \qquad L=\sum_i r_i=\sum_jc_j.
+\]
+Make $r_i$ copies of row $i$, and $c_j$ copies of column $j$, and define
+the square matrix of order $L$ by
+\begin{equation}\label{eq:clone}
+ \boxed{\quad B_{(i,a),(j,b)}=\frac{Z_{ij}}{r_ic_j},
+ \quad 1\le a\le r_i,\quad1\le b\le c_j.\quad}
+\end{equation}
+Each original row or column has total copying weight one. Thus
+\begin{equation}\label{eq:clone-norm}
+ C(B)=C(Z),\qquad V(B)=V(Z),\qquad G(B)=G(Z).
+\end{equation}
+Every row and column of $|B|$ sums to one. For example, a cloned row
+has sum $\sum_jc_j|Z_{ij}|/(r_ic_j)=1$.
+
+For rational input first clear its denominator. For real input choose
+rational approximations; both norms satisfy
+\begin{equation}\label{eq:lipschitz}
+ |C(A)-C(A')|,\ |V(A)-V(A')|
+                 \le\sum_{ij}|A_{ij}-A'_{ij}|.
+\end{equation}
+Consequently the supremum defining $\GR$ is unchanged by restricting
+to rational matrices whose entrywise absolute values are doubly stochastic,
+over all orders. The clone order can be enormous, but both objectives
+can be evaluated on the smaller seed $Z$.
+
+\subsection{Symmetry, zero diagonal and zero sums}
+For $B$ in \eqref{eq:clone}, set
+\begin{equation}\label{eq:balanced}
+ K(B)=\begin{pmatrix}0&B\\B^T&0\end{pmatrix},\qquad
+ J_0=\frac12\begin{pmatrix}1&-1\\-1&1\end{pmatrix},\qquad
+ H(B)=J_0\otimes K(B).
+\end{equation}
+Then $H(B)$ is rational, symmetric, zero-diagonal, has zero row and
+column sums, and $|H(B)|$ is doubly stochastic. Its order is $4L$ and
+\begin{equation}\label{eq:balanced-norm}
+ C(H(B))=4C(B),\qquad V(H(B))=4V(B).
+\end{equation}
+The two off-diagonal terms in $K(B)$ use independent left/right variable
+lists and can optimize simultaneously, giving factor two. The signed
+two-copy map $J_0$ gives a further factor two by \eqref{eq:copies}.
+Hence all these restrictions can be imposed simultaneously without
+changing the supremum or any individual rational seed ratio.
+
+\subsection{A monotone sequence converging to the full constant}
+The analytic cubic sequence below has limit $1/\N(b)$.
+The reduction also permits an unconditional sequence converging to the
+full Grothendieck constant, without assuming that a cubic operator is
+optimal.
+
+\begin{proposition}\label{prop:universal-monotone}
+Let $\mathcal A_n$ consist of all nonzero real matrices of dimensions
+at most $n$ whose entries lie in
+$2^{-n}\mathbb Z\cap[-1,1]$. Choose a matrix $S_n\in\mathcal A_n$
+maximizing $G$, with a fixed lexicographic rule for ties. Clear its
+dyadic denominator and apply \eqref{eq:clone} and \eqref{eq:balanced},
+obtaining $\widetilde H_n$. Then every $\widetilde H_n$ belongs to the simultaneous reduced
+class and
+\[
+ G(\widetilde H_n)\le G(\widetilde H_{n+1}),\qquad
+ \lim_{n\to\infty}G(\widetilde H_n)=G_{\mathbb R}.
+\]
+\end{proposition}
+\begin{proof}
+Each candidate set is finite and the sets are nested. Both norms are
+positive on a nonzero matrix, and the exact reductions preserve their
+ratio, so the maxima exist and increase monotonically.
+For any fixed nonzero real matrix $A$, homogeneity permits the
+normalization $\max_{ij}|A_{ij}|\le1$. Its dyadic approximants $A^{(n)}$
+belong to $\mathcal A_n$ for sufficiently large $n$ and have total
+entry error tending to zero. The two norms satisfy
+\[
+ |C(A)-C(B)|\le\sum_{ij}|A_{ij}-B_{ij}|,
+ \qquad |V(A)-V(B)|\le\sum_{ij}|A_{ij}-B_{ij}|.
+\]
+Consequently $G(A^{(n)})\to G(A)$ and
+$\liminf_nG(\widetilde H_n)\ge G(A)$. Taking the supremum over $A$ proves the
+asserted limit; the reverse inequality follows from the definition of
+$G_{\mathbb R}$.
+\end{proof}
+
+This is a finite exact specification at every stage. The scalar norm is
+computed by sign enumeration. The vector norm is the maximum of the
+rational linear functional
+$\sum_{ij}A_{ij}X_{i,m+j}$ on the compact set of positive semidefinite
+$(m+n)$-by-$(m+n)$ matrices with diagonal one. Its polynomial
+description makes exact algebraic optimization and comparison possible.
+Enumeration is computationally expensive. The analytic subfamily gives
+controlled candidates and a quantitative limit, while retaining a best
+previous candidate prevents a weaker trial from replacing it.
+
+\section{An explicit analytic seed and its limit}
+Let $b\in[0,1)$ be computable (a rational coefficient suffices), and put
+$T_b=P_1-bP_3$, where $P_j$ projects onto total
+Hermite degree $j$ in Gaussian space. Start at $n\ge2$ and let $d_n=n^2$. In each coordinate
+partition the line by the grid of mesh $n^{-2}$ from $-n$ to $n$, together
+with its two exterior intervals. The grid has zero as an edge and is
+antipodally symmetric. Form product cells and retain the cells whose
+first coordinate lies on the negative half-line. These represent all
+antipodal pairs.
+
+For a normalized product Hermite $H_\xi$, define
+\[
+ F_{j,n}[C,\xi]=2\int_C H_\xi\,d\gamma_{d_n},\qquad |\xi|=j,
+ \quad j\in\{1,3\}.
+\]
+The finite seed is
+\begin{equation}\label{eq:seed}
+ A_n(b)=F_{1,n}F_{1,n}^T-bF_{3,n}F_{3,n}^T.
+\end{equation}
+All entries are analytic and computable. With normalized one-variable
+Hermites $h_k=\mathrm{He}_k/\sqrt{k!}$,
+\[
+ \int_a^b h_0\,d\gamma=\Phi(b)-\Phi(a),\qquad
+ \int_a^b h_k\,d\gamma
+ =\frac{\varphi(a)\mathrm{He}_{k-1}(a)
+       -\varphi(b)\mathrm{He}_{k-1}(b)}{\sqrt{k!}}\quad(k\ge1),
+\]
+with boundary terms zero at infinite endpoints. Products give the
+multivariate entries, so there is no unevaluated high-dimensional integral.
+
+Extending cell signs oddly shows $C(A_n(b))\le\N(b)$, where
+$\N(b)$ is the supremum of the scalar operator norm over all Gaussian
+dimensions. Conversely any bounded odd functions in a fixed dimension
+can be approximated by these partitions in their first coordinates as
+$n\to\infty$. Conditional cell averaging converges in $L_2$; the
+remaining coordinates integrate out. The partitions need not be nested:
+continuous compactly supported functions are dense in $L_2$, and their
+cell-average error tends to zero as the mesh shrinks and the cutoff grows.
+Conditional averaging is an $L_2$ contraction, so density gives the same
+conclusion for arbitrary $L_2$ functions. Therefore
+\begin{equation}\label{eq:classical-limit}
+ C(A_n(b))\longrightarrow\N(b).
+\end{equation}
+The supremum can be restricted to odd functions because $T_b$ annihilates
+the even part. Maximization over bounded step functions reduces to signs
+at the vertices of the finite cubes.
+
+For $X\sim\gamma_d$, the radial vector field $X/\norm X$ gives
+\begin{equation}\label{eq:radial}
+ q_d(b)=a_d\left(1-\frac{b}{2(d+2)}\right),\qquad
+ a_d=\frac{2\Gamma((d+1)/2)^2}{d\Gamma(d/2)^2}
+ \longrightarrow1.
+\end{equation}
+Its total degree-one energy is $a_d$; its degree-three energy is
+$a_d/[2(d+2)]$, by Gaussian radial integration. The ordinary $L_2$
+norm of $T_b$ is one. Consequently $V(A_n(b))\le1$.
+
+For an explicit approximation bound, let $r_n(X)$ be the vector of
+cell midpoints, with exterior coordinates clipped to $\pm n$, and set
+$v_n=r_n/\|r_n\|$. All its coordinates are nonzero because zero is an
+edge of the grid. Thus this is an odd unit vector field, constant on cells.
+With $d=n^2$, $h=n^{-2}$, and
+\[
+ p_n=\min\{1,2n\varphi(n)\},\qquad
+ E_n=\sqrt{\frac1{n^2(n^2-2)}+8n\varphi(n)},
+\]
+the elementary normalization inequality and Gaussian Mills bound give
+\begin{equation}\label{eq:direction-error}
+ \|v_n-X/\|X\|\|_{L_2}^2
+ \le dh^2\E\|X\|^{-2}+4\Pr(\max_i|X_i|>n)
+ \le E_n^2.
+\end{equation}
+Here $\E\|X\|^{-2}=1/(d-2)$, and the union bound gives
+$\Pr(\max_i|X_i|>n)\le2d\varphi(n)/n$.
+In particular $E_n=n^{-2}+O(n^{-4})$.
+
+The vector objective admits a sharper, quadratic error estimate.
+Write $R=\|X\|$, $\mu=\E R$, $w=X/R$, and $e=v_n-w$.
+The degree-one and degree-three projections above give
+\[
+ T_bw=t(R)w,\qquad
+ t(R)=\frac{\mu R}{d}
+ \left(1-\frac b2+\frac{bR^2}{2(d+2)}\right)\ge0.
+\]
+Pointwise unit length implies $e\cdot w=-\|e\|^2/2$.
+Since the lowest odd spectral coefficient of $T_b$ is $-b$,
+\[
+ \langle w,T_bw\rangle-\langle v_n,T_bv_n\rangle
+ =\E[t(R)\|e\|^2]-\langle e,T_be\rangle
+ \le\E[(t(R)+b)\|e\|^2].
+\]
+Off the exterior event, $\|e\|^2\le dh^2/R^2$; on it,
+$\|e\|^2\le4$. Using
+$\mu\E R^{-1}=d a_d/(d-1)$, $a_d\le1$, and
+\[
+ \E[R\mathbf1_E]\le\sqrt{d\Pr(E)},\qquad
+ \E[R^3\mathbf1_E]\le\sqrt{d(d+2)(d+4)\Pr(E)},
+\]
+proves the entirely explicit bound
+\begin{align}\label{eq:quadratic-error}
+ L_n(b)={}&\frac1{n^2}\left[
+ \frac{1-b/2}{n^2-1}+\frac b{2(n^2+2)}+\frac b{n^2-2}\right]\notag\\
+ &+4\left[1-\frac b2+\frac b2\sqrt{\frac{n^2+4}{n^2+2}}\right]
+ \sqrt{p_n}+4bp_n.
+\end{align}
+Thus
+\begin{equation}\label{eq:vector-bound}
+ V(A_n(b))\ge q_{n^2}(b)-L_n(b)\longrightarrow1,
+ \qquad L_n(b)=(1+b)n^{-4}+O(n^{-6}).
+\end{equation}
+The exponentially small terms in \eqref{eq:quadratic-error} are retained
+in every finite bound. The first-order direction error cancels because
+the radial field is pointwise aligned with its operator image.
+
+\subsection{The sequence inside the reduced class}
+Choose computable symmetric dyadic matrices $\widehat A_n(b)$ with
+total entry error $\eta_n\le n^{-4}$. Directed entry intervals select
+the first dyadic approximation whose certified error meets that budget;
+this avoids deciding an exact rounding tie. Clear the denominator to
+$Z_n(b)$, apply \eqref{eq:clone}, and then \eqref{eq:balanced}:
+\begin{equation}\label{eq:final-sequence}
+ \boxed{\quad H_n(b)=H(B(Z_n(b))).\quad}
+\end{equation}
+Every $H_n(b)$ lies in the simultaneous reduced class, and
+\[
+ G(H_n(b))=G(\widehat A_n(b))
+ \ge\frac{q_{n^2}(b)-L_n(b)-\eta_n}{\N(b)+\eta_n}.
+\]
+Indeed $C(A_n(b))$ is bounded away from zero: a first-coordinate
+hemisphere gives $(2/\pi)(1-b/6)>5/(3\pi)>1/4$.
+Thus $n\ge2$ also ensures $\widehat A_n(b)\ne0$. Equations
+\eqref{eq:lipschitz}--\eqref{eq:vector-bound} prove
+\begin{equation}\label{eq:limit}
+ \lim_{n\to\infty}G(H_n(b))=\frac1{\N(b)}.
+\end{equation}
+In particular \eqref{eq:baseline} proves
+$\lim_nG(H_n(.699))\ge1.773$ assuming that premise.
+The exact normalization preserves this endpoint.
+The gamma recurrence gives
+$a_{d+2}/a_d=(d+1)^2/[d(d+2)]$, and consequently
+$a_d>1-1/(2d)$: along each parity the quotient
+$a_d/(1-1/(2d))$ decreases to one.
+Therefore any proved $\N(b)\le B$ gives the finite, computable lower bound
+\begin{equation}\label{eq:finite-ratio}
+ G(H_n(b))\ge
+ \frac{(1-1/(2n^2))(1-b/[2(n^2+2)])-L_n(b)-n^{-4}}
+ {B+n^{-4}}
+ =\frac1B-\frac{1+b}{2Bn^2}+O(n^{-4}).
+\end{equation}
+
+% Primary input: Saha et al., New Lower and Upper Bounds for the
+% Grothendieck Constant, arXiv:2608.11158v2, Sections 8--9.
+% The external computer-assisted proof is invoked, not replayed here.
+\begin{corollary}[An exactly evaluable Gaussian benchmark]
+\label{cor:half-benchmark}
+Let $T=P_1-\frac12P_3$ on standard Gaussian space and let $A_n$
+be its antipodally folded product-cell compression, with dimension
+$d=n^2$, mesh $n^{-2}$, cutoff $\pm n$, and $0$ a coordinate-cell
+boundary.  Then, for every $n\geq2$,
+\[
+ C(A_n)=\frac{11}{6\pi},\qquad V(A_n)\leq1,
+ \qquad \lim_{n\to\infty}G(A_n)=\frac{6\pi}{11}.
+\]
+Choose a symmetric rational approximation $\widehat A_n$ with total
+entrywise error at most $\eta_n=n^{-4}$, and apply the exact cloning,
+symmetric dilation and balancing reductions to obtain $H_n$.
+Thus $H_n$ is symmetric, has zero diagonal and zero row sums, and
+$|H_n|$ is doubly stochastic.  The same actual ratio limit holds:
+\[
+ \lim_{n\to\infty}G(H_n)=\frac{6\pi}{11}
+ =1.713595992867159948\ldots.
+\]
+The rationalized ratios need not lie below their limiting value.
+\end{corollary}
+\begin{proof}
+The all-odd-sign inequality proved by Saha et al.~\cite{saha},
+Sections 8--9, is
+\[
+ 2\langle P_1f,P_1g\rangle-\langle P_3f,P_3g\rangle
+ \leq\frac{11}{6}\frac2\pi.
+\]
+Replacing $g$ by $-g$ gives the corresponding absolute bound.
+It also holds for odd functions of absolute value at most one:
+successively maximize the bilinear pairing in each function, choosing
+the odd sign of the other function's image under $T$.
+For $s(X)=\operatorname{sgn}(X_1)$ and
+$\nu=\sqrt{2/\pi}$, the raw Hermite polynomial
+$\operatorname{He}_3(z)=z^3-3z$ gives
+\[
+ P_1s=\nu X_1,\qquad P_3s=-\frac\nu6
+ \operatorname{He}_3(X_1),\qquad
+ \langle s,Ts\rangle=\nu^2-\frac{\nu^2}{12}
+ =\frac{11}{6\pi}.
+\]
+The hemisphere sign is exactly constant on each product cell.
+Consequently its folded matrix assignment attains the external upper
+bound, establishing the exact scalar norm for every finite $n$.
+For any pair of unit-vector assignments, their odd cell fields $v,w$
+have $\int\|v\|^2\,d\gamma_d=\int\|w\|^2\,d\gamma_d=1$;
+the $L^2$ operator norm $\|T\|_{2\to2}=1$ and Cauchy--Schwarz give
+$V(A_n)\leq1$.
+The radial unit field and the established midpoint estimate give
+$V(A_n)\to1$.
+Finally, total entrywise error bounds both norm errors by $\eta_n$,
+and every subsequent reduction preserves $G$ exactly.  This proves
+both asserted limits.
+\end{proof}
+
+For completeness, the following are explicit finite lower bounds.
+Put $d=n^2$, $p_n=2n\varphi(n)$, and
+\begin{align*}
+ e_n={}&\frac1d\left(\frac{3}{4(d-1)}+
+             \frac1{4(d+2)}+\frac1{2(d-2)}\right)\\
+ &+4\left(\frac34+\frac14\sqrt{\frac{d+4}{d+2}}\right)
+       \sqrt{p_n}+2p_n,\\
+ q_n={}&\left(1-\frac1{2d}\right)
+             \left(1-\frac1{4(d+2)}\right)-e_n.
+\end{align*}
+The gamma-ratio lower bound $a_d>1-1/(2d)$ and the quadratic
+midpoint loss imply
+\[
+ G(A_n)\geq\frac{q_n}{11/(6\pi)},\qquad
+ G(H_n)\geq\frac{q_n-n^{-4}}{11/(6\pi)+n^{-4}}.
+\]
+Directed MPFR256 evaluation, rounded down to twelve decimal places,
+gives
+\[
+\begin{array}{c|cc}
+ n & G(A_n)\text{ lower bound} & G(H_n)\text{ lower bound}\\\hline
+ 32&1.712339483749&1.712335051217\\
+ 128&1.713517545081&1.713517527758\\
+ 1024&1.713594767206&1.713594767202
+\end{array}
+\]
+These evaluations are recorded in
+\texttt{saha\_benchmark\_certificate.json}; the external scalar
+theorem is the sole new norm input and has not been independently
+replayed here.  This benchmark does not invoke the retained, unverified
+global norm premise used for the earlier $1.773$ candidate.
+
+The same external theorem determines the complete analytic range
+$0\le b\le1/2$. Indeed
+$T_b=2bT_{1/2}+(1-2b)P_1$, and $\N(0)=2/\pi$.
+Convexity and the same hemisphere equality give
+\[
+ \N(b)=\frac2\pi(1-b/6),\qquad
+ \lim_nG(H_n(b))=\frac{\pi}{2(1-b/6)}
+ \quad(0\le b\le1/2).
+\]
+This exactly soluble range ends at $6\pi/11$; improving it requires
+$b>1/2$ or a different operator family.
+
+\section{Coefficient choices and construction ceilings}
+The final certified sequence uses $b=711/1000$, with the complete norm
+cap in Theorem~\ref{thm:final-preferred-polygon}. Reaching the stronger
+target requires a bound $\N(b)\le40/71$ at one fixed coefficient.
+
+The initial candidate uses $b=18/25=.72$ in
+\eqref{eq:seed}--\eqref{eq:final-sequence}. For this coefficient,
+the target requires the all-dimension inequality
+\begin{equation}\label{eq:target}
+ \boxed{\quad\N(18/25)\le\frac{40}{71}.
+ \quad}\qquad \frac1{40/71}=1.775.
+\end{equation}
+The previous $.699$ operator cannot reach this target: its retained
+directed diffuse-cubic sign witness limits its reciprocal-norm construction
+to $1.77440101857\ldots$ \cite{history}. Changing the coefficient is
+therefore necessary within the pure cubic family.
+
+The $.72$ coefficient has a fresh directed lower witness. Let
+$h_3(x)=(x^3-3x)/\sqrt6$, let all Gaussians below be independent, and put
+\[
+ \begin{gathered}
+ Y_N=N^{-1/2}\sum_{j=1}^Nh_3(X_j),\qquad a=511/200,\quad c=393/1000,\\
+ f_N=\operatorname{sgn}(Y_N+aZ+cZ^3),\qquad
+ g_N=\operatorname{sgn}(-Y_N+aZ+cZ^3).
+ \end{gathered}
+\]
+The spectral central limit calculation assigns ordinary $Z$-degree $j$
+and diffuse-cubic degree $k$ to total original Hermite degree $j+3k$.
+Its full degree accounting is proved in Appendix~\ref{app:witness}. Writing
+$q(z)=az+cz^3$, the limiting moments are
+\[
+ m_Y=2\int_{\R}\varphi(z)\varphi(q(z))\,dz,\quad
+ m_1=2\int_{\R}\varphi(z)q'(z)\varphi(q(z))\,dz,
+\]
+\[
+ m_3=\frac{2}{\sqrt6}\int_{\R}
+              (z^2-1)\varphi(z)q'(z)\varphi(q(z))\,dz.
+\]
+The scalar pairing is $m_1^2-b(m_3^2-m_Y^2)$. Directed Taylor
+integration and explicit tails give
+\begin{equation}\label{eq:new-witness}
+ \N(.72)>.563241882518393914882,
+ \qquad
+ \frac1{\N(.72)}<1.7754361511.
+\end{equation}
+This is a ceiling for the construction, not an achieved lower bound.
+The witness lies below $40/71$ by more than $.00013839917$, and hence
+does not rule out \eqref{eq:target}. Old whole-frame profile transfers
+fail to certify \eqref{eq:target}; their failure is a limitation of
+those sufficient estimates, not an obstruction from the true norm.
+
+\begin{proposition}[Exact reflected norm witness at $b=7171/10000$]
+Let $\N(b)=\sup_d\|P_1-bP_3\|_{L^\infty(\gamma_d)\to L^1(\gamma_d)}$.
+Then
+\[
+ \N\left(\frac{7171}{10000}\right)
+ >\frac{56323352479769}{10^{14}}.
+\]
+Consequently the asymptotically unit-numerator reciprocal-norm construction
+for this fixed coefficient has ceiling strictly below
+$1775462496412/10^{12}=1.775462496412$.
+This is a construction ceiling, not a Grothendieck lower endpoint.
+\end{proposition}
+\begin{proof}
+Use the normalized Hermite $h_3(x)=(x^3-3x)/\sqrt6$. Set $a=26412631/10^7$, $c=4084047/10^7$, $q(z)=az+cz^3$ and
+$Y_n=n^{-1/2}\sum_{j=1}^nh_3(X_j)$ for independent standard Gaussian variables.
+Use the actual original-space signs
+$f_n=\operatorname{sgn}(Y_n+q(Z))$ and
+$g_n=\operatorname{sgn}(-Y_n+q(Z))$.
+The original-degree projection accounting for the reflected sign witness
+applies because $q'(z)\ge a>0$; in particular the diffuse channel retains
+original degree three.  Thus the limiting first- and third-chaos pairings are
+$m_1^2$ and $m_3^2-m_Y^2$, respectively, where
+\[
+ m_Y=\frac2\pi\int_0^\infty e^{-(z^2+q(z)^2)/2}\,dz,
+\quad
+ m_1=\frac2\pi\int_0^\infty q'(z)e^{-(z^2+q(z)^2)/2}\,dz,
+\]
+\[
+ m_3=\frac2{\pi\sqrt6}\int_0^\infty(z^2-1)q'(z)
+                       e^{-(z^2+q(z)^2)/2}\,dz.
+\]
+The exact-rational directed certificate
+\texttt{certify\_\allowbreak cubic7171\_\allowbreak norm\_\allowbreak witness.py}
+integrates Taylor terms through degree eight on 320 rational cells of $[0,5]$,
+bounds the degree-ten remainder over each entire cell, and bounds the omitted
+Gaussian tails explicitly.  At 384-bit MPFR precision it encloses
+\[
+ m_1^2-\frac{7171}{10000}(m_3^2-m_Y^2)
+ \in[0.5632335247976901337793,\,0.5632335247976901344356].
+\]
+Every finite-dimensional sign pairing is bounded above by $\N(7171/10000)$;
+taking the limit proves the assertion.  The reciprocal enclosure has an upper
+endpoint below $1.77546249641158$, proving the stated
+construction ceiling.  The witness remains below $40/71$ and therefore
+does not exclude a future certified lower endpoint of $1.775$.
+A separate Arb replay at 512 bits, Taylor order twelve and 400 rational cells
+recomputed all three integrals and Gaussian tails without importing the
+producer, independently accepting the stated inequalities.
+\end{proof}
+
+A fresh reflected-sign witness also excludes $b=141/200=.705$ from
+reaching the target within this reciprocal-norm family. Use the exact head
+$q(z)=(31091537/10^7)z+(49105809/10^8)z^3$ in the same construction.
+Directed integration gives
+\[
+ \N(.705)>\frac{563383848679}{10^{12}}>\frac{40}{71},
+ \qquad \frac1{\N(.705)}<1.774988761828<1.775.
+\]
+An independent 512-bit Arb replay, with Taylor order twelve and 400
+rational cells, checks all three moments and the omitted Gaussian tails.
+The same replay at $b=.713$ gives a construction ceiling below
+$1.775407850864$, leaving the target possible at the base coefficient $b=.713$. These are ceilings for the specified matrix
+limits, and impose no upper bound on $G_{\mathbb R}$.
+
+\section{A coupled cumulant inequality for real cubic chaos}\label{sec:cumulants}
+Let $Q=I_3(f)$ be a real third Gaussian chaos, normalized by
+$\E Q^2=6\|f\|_F^2=1$, where $f$ is a real fully symmetric
+third-order tensor. The flattening Gram matrices below are symmetric
+matrices; they need not be fully symmetric as four-index tensors.
+The norm $\|\cdot\|_F$ is the Euclidean norm of all entries. Define
+\[
+ \kappa=\E Q^4-3,\qquad \kappa_6=\E Q^6-15\E Q^4+30,
+ \qquad U=\tfrac13\|DQ\|^2-1,
+ \qquad K=194/\sqrt{10}.
+\]
+\begin{theorem}\label{thm:633}
+In every finite Gaussian dimension,
+\begin{equation}\label{eq:deficit}
+ \kappa_6\le K\kappa^{3/2}
+ -633\sqrt\kappa\left(\E U^2-\frac{7\kappa}{45}\right).
+\end{equation}
+Also $0<\kappa\le90$ and
+$7\kappa/45\le\E U^2\le2\kappa/9$. Equality holds in
+\eqref{eq:deficit} for $Q=(Z^3-3Z)/\sqrt6$.
+\end{theorem}
+
+The scalar endpoint $\kappa=0$ is included by continuity in the later
+price calculations. A nonzero normalized cubic tensor in finite dimension
+has $\kappa>0$.
+
+Write $F_{ab,c}=f_{abc}$, $A=FF^T$, $G=F^TF$, and let $S$ be the full
+symmetrization of the four-index tensor $A$. Put
+\[
+ s=\|A\|_F^2=\|G\|_F^2,\quad h=\|S\|_F^2,
+ \quad V=\tr A^3,\quad V_4=\tr A^4.
+\]
+Symmetrization is an orthogonal projection, so
+$\langle A,S\rangle=h$, $0\le h\le s$, and
+\begin{equation}\label{eq:snorm}
+ \|S+tA\|_F^2=t^2s+(1+2t)h \qquad(t\in\R).
+\end{equation}
+The Gaussian product formula gives
+\begin{equation}\label{eq:products}
+ U=3I_4(S)+12I_2(G),\quad
+ \E U^2=216h+288s,\quad \kappa=1296s+1944h.
+\end{equation}
+For example, the first identity follows by applying
+$D_iI_3(f)=3I_2(f_i)$ and
+\[
+ I_2(g)^2=I_4(\operatorname{Sym}(g\otimes g))
+ +4I_2(g\otimes_1 g)+2\|g\|_F^2
+\]
+to each tensor slice. Orthogonality of Hermite degrees gives the variance.
+Since $\tr A=1/6$, $s\le1/36$, which also proves $\kappa\le90$.
+
+The sixth-cumulant identity is
+\begin{equation}\label{eq:wick6}
+ \frac{\kappa_6}{46656}
+ =\frac{135}{2}\tr S^3+45\tr(AS^2)+\frac{165}{2}\tr(A^2S)
+ -20\tr A^3+\frac{135}{2}\langle S,G\otimes G\rangle.
+\end{equation}
+It agrees with the real cubic identity in \cite[Eq.~(8.12)]{HJM}.
+For completeness, the accompanying exact program derives it from connected
+Wick diagrams. For $r$ copies of $f$, a loopless multigraph with
+multiplicities $m_{ij}$ and degree three at each vertex has weight
+$(3!)^r/\prod_{i<j}m_{ij}!$. Cumulants retain precisely the connected
+graphs, by the exponential formula for the logarithm of the Wick generating
+function. There are seven labelled connected graphs in the fourth cumulant
+and 640 in the sixth. Expanding each term of \eqref{eq:wick6}, including
+the three pairings in $S$, gives the same rational coefficient in each of
+the six sixth-order graph classes. This checks a formal tensor identity;
+finite examples of tensors are not substituted for that identity.
+
+Set
+\[
+ y=\sqrt{h/s},\qquad a=(V/s^{3/2})^{1/3},\qquad d=1+\tfrac32y^2.
+\]
+Then $0\le y,a\le1$ and
+\begin{equation}\label{eq:variance-shape}
+ \kappa=1296sd,\qquad \frac{\E U^2}{\kappa}
+ =\frac19\left(1+\frac1d\right).
+\end{equation}
+The stated variance interval follows immediately from $1\le d\le5/2$.
+
+For any of the four pairs
+\[
+ (p,q)=(17/33,-1),\ (62/105,-3/4),\ (28/39,-1/2),\ (3/4,-1),
+\]
+put
+\[
+ c_p=\frac{55/2-15q}{p(p-q)},\quad
+ c_q=\frac{55/2-15p}{q(q-p)},\quad
+ \zeta=135/2-c_p-c_q,\quad \beta=20+c_pp^3+c_qq^3.
+\]
+These pairs have $c_p,c_q>0$ and $\zeta\ge0$. Direct expansion completes
+the first four terms on the right of \eqref{eq:wick6} as
+\[
+ c_p\tr(S+pA)^3+c_q\tr(S+qA)^3+\zeta\tr S^3-\beta V.
+\]
+For a real symmetric matrix $B$, $\tr B^3\le\|B\|_F^3$.
+Also
+\[
+ \|\operatorname{Sym}(G\otimes G)\|_F^2=(s^2+2V_4)/3,
+ \qquad V_4\le V^{4/3}.
+\]
+Together with \eqref{eq:snorm}, these inequalities prove
+$\kappa_6/\kappa^{3/2}\le\mathcal J_{p,q}(y,a)/d^{3/2}$, where
+\begin{align}\label{eq:J}
+ \mathcal J_{p,q}={}&c_p[p^2+(1+2p)y^2]^{3/2}
+ +c_q[q^2+(1+2q)y^2]^{3/2}\notag\\
+ &+\zeta y^3-\beta a^3+\frac{135}{2}y\sqrt{(1+2a^4)/3}.
+\end{align}
+An additional valid bound is $\mathcal M(y,a)/d^{3/2}$, with
+\begin{align}\label{eq:M}
+ \mathcal M={}&\frac{135}{2}y^3+\frac{135}{2}y\sqrt{(1+2a^4)/3}
+ +45ay^2-20a^3\notag\\
+ &+\frac{165}{2}\min\left\{a^{3/2}y,
+ y^2a^3+ya^2\sqrt{(1-y^2)(1-a^2)}\right\}.
+\end{align}
+For the first mixed bound use
+$\tr(A^2S)\le\sqrt{hV_4}$ and $V_4\le\sqrt{s}V$.
+For the second, write $R=S-(h/s)A$ and apply Cauchy--Schwarz to
+$\langle A^2-(V/s)A,R\rangle$, then use $V_4\le V^{4/3}$.
+Finally $\tr(AS^2)\le V^{1/3}h$ since
+$\|A\|_{\mathrm{op}}\le V^{1/3}$. No positivity of $S$ is assumed.
+
+The exact scalar comparison, supplied in Appendix~\ref{app:tensor}, is
+\begin{equation}\label{eq:633scalar}
+ \frac{\min\{\mathcal M,\mathcal J_{17/33,-1},
+ \mathcal J_{62/105,-3/4},\mathcal J_{28/39,-1/2},
+ \mathcal J_{3/4,-1}\}}{d^{3/2}}+\frac{211}{3d}
+ \le\frac{194}{\sqrt{10}}+\frac{422}{15}
+ \quad(0\le y,a\le1).
+\end{equation}
+Its certificate consists of 84 rational rectangles and 2100 exact
+Bernstein coefficient checks in $\mathbb Q(\sqrt{10})$.
+Combining \eqref{eq:variance-shape}--\eqref{eq:633scalar} with
+\[
+ 633\left\{\frac19(1+1/d)-\frac7{45}\right\}
+ =\frac{211}{3d}-\frac{422}{15}
+\]
+proves Theorem~\ref{thm:633}. At $Q=(Z^3-3Z)/\sqrt6$,
+$y=a=1$, $\kappa=90$, and $\kappa_6=52380=K90^{3/2}$.
+
+\section{A uniform cubic absolute-moment bound}\label{sec:stein}
+\begin{theorem}\label{thm:l1}
+For every normalized real third Gaussian chaos $Q$ in every finite
+dimension,
+\begin{equation}\label{eq:rho}
+ \E|Q|<\rho:=849/1000,\qquad
+ \|P_3\|_{L_\infty\to L_2}^2\le720801/1000000.
+\end{equation}
+\end{theorem}
+
+Put $c=\sqrt{2/\pi}$ and
+$R(x)=e^{x^2/2}\int_x^\infty e^{-t^2/2}\,dt$ for $x\ge0$.
+The odd extension of $g(x)=-1+cR(x)$ solves
+$g'(x)-xg(x)=|x|-c$, with
+\[
+ g'(x)=-c(1-|x|R(|x|)).
+\]
+The cubic Gaussian Stein identity is
+\begin{equation}\label{eq:stein}
+ \E[Qv(Q)]=\E[(1+U)v'(Q)],
+ \qquad U=\tfrac13\|DQ\|^2-1.
+\end{equation}
+It follows directly from Gaussian integration by parts and the
+Ornstein--Uhlenbeck eigenvalue of $Q$. Consequently, for every odd
+continuously differentiable regression $\psi$ of polynomial growth and
+every $\eta>0$,
+\begin{equation}\label{eq:stein-young}
+ \E|Q|\le c+\E\left[\psi'(Q)-Q\psi(Q)
+ +\frac{(g'(Q)-\psi'(Q))^2}{2\eta}\right]
+ +\frac\eta2\E U^2.
+\end{equation}
+Indeed $\E|Q|-c=-\E[Ug'(Q)]$ and
+$\E[\psi'(Q)-Q\psi(Q)]=-\E[U\psi'(Q)]$; Young's inequality
+applied to $-U(g'-\psi')$ gives \eqref{eq:stein-young}.
+
+The eight rational rows in Appendix~\ref{app:stein} supply
+$\eta>0$, coefficients $q_0,q_2,q_4,q_6$ with $q_6>0$, and a
+regression $\psi$, such that on the entire real line
+\begin{equation}\label{eq:stein-majorant}
+ \psi'(x)-x\psi(x)+\frac{(g'(x)-\psi'(x))^2}{2\eta}
+ \le q_0+q_2x^2+q_4x^4+q_6x^6.
+\end{equation}
+For $x\ge0$, each regression has the explicit rational form
+\begin{equation}\label{eq:regression}
+ \psi(x)=v_0x+\frac{v_1x^2}{2}+\frac{v_2x^3}{3}
+ +\frac{v_3x^4}{4}
+ +\frac{x}{x+2}\sum_{j=0}^{12}v_{4+j}
+ T_j\left(\frac{x-2}{x+2}\right),
+\end{equation}
+extended oddly. It is continuously differentiable at zero.
+All $v_j$, all $q_j$, and $\eta$ are rational and are supplied in the
+source archive as exact inputs, separately from floating discovery output.
+
+Combining \eqref{eq:stein-young}--\eqref{eq:stein-majorant} with
+Theorem~\ref{thm:633} gives a price affine in $\E U^2$.
+Its maximum therefore occurs at one of the two permitted variance
+endpoints. The resulting functions of $\kappa$ are
+\begin{align}\label{eq:cornerprices}
+ p_0(\kappa)={}&c+q_0+q_2+(3+\kappa)q_4
+ +[15+15\kappa+K\kappa^{3/2}]q_6+7\eta\kappa/90,\notag\\
+ p_1(\kappa)={}&c+q_0+q_2+(3+\kappa)q_4
+ +[15+15\kappa+(K-633/15)\kappa^{3/2}]q_6+\eta\kappa/9.
+\end{align}
+Both are convex for $\kappa\ge0$ because $q_6>0$ and $K-633/15>0$.
+On a closed cumulant interval, four corner prices thus suffice.
+The eight intervals in Appendix~\ref{app:stein} cover $[0,90]$,
+and every directed corner enclosure is below $.848521<.849$.
+This proves the first assertion of Theorem~\ref{thm:l1}.
+
+For the second assertion, normalize $P_3f$ to a variance-one cubic $Q$
+when that projection is nonzero. For $|f|\le1$,
+$\|P_3f\|_2=\E fQ\le\E|Q|<\rho$. Taking the supremum and squaring
+proves the projection norm bound.
+
+% Fragment for the main paper; requires its theorem/proof environments.
+% Self-contained proof fragment for insertion after the sharp633/Stein lemmas.
+\begin{theorem}[A refitted uniform cubic absolute-moment bound]\label{thm:l1-repriced}
+For every normalized real third Gaussian chaos $Q$ in every finite dimension,
+\[
+ \mathbb E|Q|<\frac{847}{1000},\qquad
+ \|P_3\|_{L_\infty\to L_2}^2\le\frac{717409}{10^6}.
+\]
+\end{theorem}
+\begin{proof}
+Parameterize the coupled shape by
+$\mathbb E U^2=\kappa(7/45+s/15)$, where
+$\kappa=\mathbb E Q^4-3\in[0,90]$ and $s\in[0,1]$.
+For any complete-halfline scalar row with frozen rational parameters
+$(q_0,q_2,q_4,q_6,\eta)$, the Stein identity and sharp633 theorem imply
+\[
+\mathbb E|Q|\le c+q_0+q_2+(3+\kappa)q_4
++[15+15\kappa+(K-633s/15)\kappa^{3/2}]q_6
++\eta\kappa(7/90+s/30),
+\]
+where $c=\sqrt{2/\pi}$ and $K=194/\sqrt{10}$.
+Eight accepted scalar rows are supplemented by two fresh rational Chebyshev rows.
+Their entire-halfline inequalities are verified by directed compact Taylor
+and exact polynomial-tail comparisons; a separate direct-Chebyshev
+implementation replays the new rows with 768-bit sixth-order Taylor bounds
+on $[0,80]$ and independently reconstructed Fraction tails.
+Each row has $q_6>0$ and $\eta>0$, so its price is convex in $\kappa$
+and affine in $s$ on every allowed rectangle. Its validity is global in
+cumulant, independent of the interval where it was discovered.
+The exact certificate partitions $[0,90]$ into 2780 rational intervals,
+selects one of the ten rows on each, and verifies all four corner prices.
+The largest outward rational cap is
+$423485406457/500000000000=.846970812914<.847$.
+An independent MPFR implementation reconstructs all 11120 selected
+prices and 111200 ten-row candidate checks, verifies source hashes and
+exact exhaustive coverage, and agrees with the bound. This proves the
+first assertion using only the freshly included sharp633 and Stein inputs.
+Normalizing a nonzero cubic projection proves the second by duality.
+\end{proof}
+
+\begin{corollary}\label{cor:low}
+Let $f,g$ be signs, $h=(f+g)/2$, $k=(f-g)/2$, and
+$u=\|P_1h\|_2$. For $T_{.72}=P_1-(18/25)P_3$, if $u\le21/100$, then
+\begin{equation}\label{eq:lowcap}
+ \langle f,T_{.72}g\rangle\le.56307672<40/71.
+\end{equation}
+\end{corollary}
+\begin{proof}
+Self-adjointness and orthogonality give
+\[
+ \langle f,T_{.72}g\rangle
+ =\|P_1h\|_2^2-.72\|P_3h\|_2^2
+ -\|P_1k\|_2^2+.72\|P_3k\|_2^2
+ \le u^2+.72\rho^2.
+\]
+Since $|k|\le1$, Theorem~\ref{thm:l1} applies. At $u=.21$ the exact
+right side is $441/10000+6487209/12500000=.56307672$.
+\end{proof}
+The amplitude is the actual first-projection norm, without division by
+$\sqrt{2/\pi}$. The corollary covers a complete interval of amplitudes,
+but does not cover the middle range needed for \eqref{eq:target}.
+
+With the refitted cap $847/1000$, the same elementary energy proof gives
+$\langle f,T_{.72}g\rangle\le u^2+(18/25)(847/1000)^2$.
+It therefore also closes $0\le u\le541/2500=.2164$, where its
+rational cap is $7042043/12500000=.56336344<40/71$.
+The frozen regional certificates below retain their original, valid
+choice $\rho=.849$.
+
+\section{A support--source comparison}\label{sec:source}
+Let $Z$ be standard Gaussian, independent of a transverse Gaussian
+vector $W$. Suppose $|h|+|k|\le1$, set
+\[
+ u=\E[Zh]\ge0,\qquad p=\E|k|,\qquad
+ r=\|P_3^W\E_Z k\|_2.
+\]
+The source here is the transverse cubic projection. Its independence
+of $Z$ is essential to the following comparison.
+For $a>0$ and $y\ge0$ write
+\[
+ J_a(y)=\E_Z\max\{a|Z|,y\}
+ =ac e^{-y^2/(2a^2)}+y\operatorname{erf}(y/(\sqrt2a)).
+\]
+\begin{proposition}\label{prop:source}
+For every $a>0$ and $\lambda\ge0$,
+\begin{equation}\label{eq:sourcegate}
+ au+r+\lambda p\le
+ (1-\rho^2)J_a(\lambda)+\rho^2J_a(\lambda+1/\rho),
+ \qquad \rho=849/1000.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Set $F(y)=J_a(y+\lambda)$ and $x=1/\rho$.
+Its third derivative on $[0,\infty)$ is nonpositive:
+\[
+ F'''(y)=-\frac{c(y+\lambda)}{a^3}e^{-(y+\lambda)^2/(2a^2)}\le0.
+\]
+Let $D=F(x)-F(0)$ and interpolate with the quadratic
+\[
+ H(y)=F(0)+\beta y+\gamma y^2,\quad
+ \beta=2D/x-F'(x),\quad \gamma=[xF'(x)-D]/x^2.
+\]
+The Hermite interpolation remainder is
+$F'''(\xi)y(y-x)^2/6$, so $F(y)\le H(y)$ for every $y\ge0$.
+Since $F'$ is increasing and concave, the trapezoid comparison gives
+$D\ge x(F'(0)+F'(x))/2$, hence $\beta\ge0$; also
+$D\le xF'(x)$ implies $\gamma\ge0$.
+For any $Y\ge0$ with $\E Y^2=1$ and $\E Y\le\rho$, therefore,
+\[
+ \E F(Y)\le F(0)+\beta\rho+\gamma
+ =(1-\rho^2)F(0)+\rho^2F(1/\rho).
+\]
+
+For $r>0$ normalize $P_3^W\E_Z k$ to a variance-one cubic $Q(W)$.
+Then $\E[Qk]=r$, and pointwise
+\[
+ aZh+Qk+\lambda|k|\le\max\{a|Z|,|Q|+\lambda\}.
+\]
+Independence and Theorem~\ref{thm:l1} allow the preceding comparison
+with $Y=|Q|$, proving \eqref{eq:sourcegate}. If $r=0$, choose any
+normalized transverse cubic: its pairing with $k$ is zero by orthogonality.
+An unused Gaussian coordinate can be adjoined if necessary.
+\end{proof}
+
+At $\lambda=0$, minimizing the right side of \eqref{eq:sourcegate}
+minus $au$ gives the explicit whole-amplitude source cap
+\begin{equation}\label{eq:Rrho}
+ r\le R_\rho(u)=
+ \begin{cases}
+ \rho,&0\le u\le c(1-\rho^2),\\
+ \rho\operatorname{erf}\!\sqrt{-\log v},
+ &c(1-\rho^2)<u<c,\\
+ 0,&u=c,
+ \end{cases}
+ \quad v=\frac{u/c-(1-\rho^2)}{\rho^2}.
+\end{equation}
+Indeed the derivative of
+$(1-\rho^2)ac+\rho^2J_a(1/\rho)$ is
+$c[1-\rho^2+\rho^2e^{-1/(2a^2\rho^2)}]$.
+In the middle range the minimizing value is
+$a=1/(\rho\sqrt{-2\log v})$. The two endpoints follow by limits.
+Retaining $\lambda>0$ preserves the actual disagreement mass in the
+comparison. Additional source information is still needed to close the
+full operator norm bound.
+
+\begin{lemma}[Physical clipping of source cells]
+\label{lem:physical-source-clipping}
+Let $c=\sqrt{2/\pi}$, $0<\rho<1$, and use the support bound
+$r\le R_\rho(u)$ of \eqref{eq:Rrho}.  Define
+\[
+ U_\rho(r)=c\{1-\rho^2+\rho^2
+  e^{-[\operatorname{erf}^{-1}(r/\rho)]^2}\},
+ \qquad 0<r<\rho,
+\]
+with $U_\rho(0)=c$ and $U_\rho(\rho)=c(1-\rho^2)$.
+Every physical point in a cell
+$[u_-,u_+]\times[r_-,r_+]$ also satisfies
+\[
+ u\le\min\{u_+,U_\rho(r_-)\}.
+\]
+Thus any outward rational upper bound on $U_\rho(r_-)$ may replace
+the cell's amplitude endpoint in all native and R3 price maxima.
+If this upper bound is below $u_-$, the cell is physically empty.
+\end{lemma}
+\begin{proof}
+The source envelope is decreasing.  For $0<r<\rho$, solving
+$R_\rho(u)=r$ gives the displayed inverse; its endpoint values
+follow by limits.  Hence $r\ge r_-$ and $r\le R_\rho(u)$ imply
+the asserted restriction.  To certify the inverse without assuming
+a special-function inverse, bracket
+$s=\operatorname{erf}^{-1}(r_-/\rho)$ by rational numbers
+$s_-\le s\le s_+$ using directed monotone evaluations of
+$\operatorname{erf}$.  Since $e^{-s^2}$ decreases for $s\ge0$,
+an outward evaluation using $s_-$ gives the required upper bound.
+\end{proof}
+
+\subsection{Retaining the longitudinal cubic moment}
+The preceding comparison can also retain
+$v=\E[H_3(Z)h]$, with $H_3(z)=(z^3-3z)/\sqrt6$.
+Take $A>0$, $B\ge0$, and write
+\[
+ L(z)=Az+Bz^3=az+dH_3(z),\qquad a=A+3B,\quad d=\sqrt6B,
+ \qquad J_{A,B}(x)=\E_Z\max\{|L(Z)|,|x|\}.
+\]
+\begin{proposition}\label{prop:cubic-source}
+For every real $x$,
+\begin{equation}\label{eq:cubic-majorant}
+ J_{A,B}(x)\le c\left[
+ A+2B+\frac{x^2}{2A}-\frac{A+6B}{24A^4}x^4
+ +\frac{A^2+20AB+120B^2}{240A^7}x^6\right].
+\end{equation}
+If $r>0$ and $Q=P_3^W\E_Zk/r$ has cumulant $\kappa$ and shape
+$V=\E[(\|DQ\|^2/3-1)^2]$, then
+\begin{align}\label{eq:cubic-source-price}
+ au+dv+r\le c\bigg[&q_0+q_2+(3+\kappa)q_4\notag\\
+ &+q_6\left\{15+15\kappa+K\kappa^{3/2}
+ -633\sqrt\kappa(V-7\kappa/45)\right\}\bigg],
+\end{align}
+where $(q_0,q_2,q_4,q_6)$ are the four coefficients in the brackets
+of \eqref{eq:cubic-majorant}.
+\end{proposition}
+\begin{proof}
+For $x\ge0$ let $z\ge0$ solve $x=Az+Bz^3$.
+Differentiating the distribution function gives
+\[
+ J'_{A,B}(x)=\Pr(|Z|\le z),\qquad
+ J''_{A,B}(x)=\frac{ce^{-z^2/2}}{A+3Bz^2}.
+\]
+Moreover $J_{A,B}(0)=c(A+2B)$ and $J'_{A,B}(0)=0$.
+Set $w=z^2$, $q=x^2=w(A+Bw)^2$, and
+$F(q)=J''_{A,B}(\sqrt q)$. With $D_1=A+Bw$ and $D_3=A+3Bw$,
+\[
+ F(q)=ce^{-w/2}/D_3,\qquad
+ \frac d{dq}=\frac1{D_1D_3}\frac d{dw}.
+\]
+The recurrence
+\[
+ P_0=1,\qquad
+ P_{j+1}=(P_j/2-\partial_wP_j)D_1D_3
+ +2jBP_jD_3+3(2j+1)BP_jD_1
+\]
+gives
+\[
+ (-1)^jF^{(j)}(q)=
+ \frac{ce^{-w/2}P_j(A,B,w)}{D_1^{2j}D_3^{2j+1}}.
+\]
+For $j=1,2,3$, the expanded numerator has respectively 5, 12 and
+22 nonnegative coefficients. The explicit third numerator is given in
+Appendix~\ref{app:cubic-source}; hence $F'''(q)\le0$ on the whole
+half-line. Taylor's formula with its integral remainder gives
+\[
+ F(q)\le\frac cA-\frac{c(A+6B)}{2A^4}q
+ +\frac{c(A^2+20AB+120B^2)}{8A^7}q^2.
+\]
+Integrating twice in $x$, using the two initial values, proves
+\eqref{eq:cubic-majorant}. Evenness covers negative $x$.
+
+Pointwise $L(Z)h+Qk\le\max\{|L(Z)|,|Q|\}$, so independence and
+projection orthogonality give $au+dv+r\le\E J_{A,B}(Q)$.
+Apply \eqref{eq:cubic-majorant} and Theorem~\ref{thm:633}.
+The fourth moment is exact, so its negative coefficient causes no
+inequality reversal; the sixth coefficient is positive.
+\end{proof}
+This comparison retains the actual longitudinal cubic moment.
+A global norm proof must quantify that moment jointly with the same
+source and profile; assigning it a favorable numerical value would not
+prove an operator bound.
+
+\begin{proposition}[Cubic-head contact source gate]\label{prop:contact-head-source}
+Let $A>0$, $B\ge0$, $L(z)=Az+Bz^3=a z+dH_3(z)$, where
+$H_3(z)=(z^3-3z)/\sqrt6$, $a=A+3B$, $d=\sqrt6B$, and let
+$J(x)=\mathbb E_Z\max\{|L(Z)|,|x|\}$.
+Set $G(s)=J(\sqrt s)$ on $s\ge0$.  Then
+$G''\le0$, $G'''\ge0$ and $G''''\le0$.
+For every $s_0>0$, the cubic Hermite interpolant $P$ matching
+$G(0),G'(0),G(s_0),G'(s_0)$ satisfies
+\[
+ J(x)\le P(x^2)=p_0+p_2x^2+p_4x^4+p_6x^6
+ \quad(x\in\mathbb R),\qquad p_6\ge0.
+\]
+Here $p_0=\nu(A+2B)$, $p_2=\nu/(2A)$, $\nu=\sqrt{2/\pi}$, and, with
+$D=G(s_0)-p_0-p_2s_0$ and $E=G'(s_0)-p_2$,
+\[
+ p_4=(3D-s_0E)/s_0^2,\qquad p_6=(s_0E-2D)/s_0^3.
+\]
+Any componentwise upward rational rounding $q_j\ge p_j$ gives a global
+majorant with $q_6\ge0$.  Its coefficients already contain $\nu$.
+\end{proposition}
+\begin{proof}
+Write $s=w(A+Bw)^2$, $D_1=A+Bw$, $D_3=A+3Bw$.
+Since $ds/dw=D_1D_3>0$, Gaussian tail differentiation gives
+\[
+ G'(s)=\frac\nu2\int_0^1
+       \frac{e^{-t^2w(s)/2}}{A+Bw(s)}\,dt.
+\]
+For $K_\tau(s)=e^{-\tau w(s)}/(A+Bw(s))$, $\tau\ge0$, differentiation
+shows
+\[
+ K_\tau^{(j)}(s)=(-1)^j
+  \frac{e^{-\tau w}P_j(A,B,w,\tau)}{D_1^{2j+1}D_3^{2j}},\qquad j=1,2,3.
+\]
+Starting from $P_0=1$, the numerator recurrence is
+\[
+ P_{j+1}=(\tau P_j-\partial_wP_j)D_1D_3
+       +(2j+1)BP_jD_3+6jBP_jD_1.
+\]
+For $j=1,2,3$, exact expansion gives respectively $5$, $12$ and $22$
+nonnegative coefficients.  Integrating the derivative signs at
+$\tau=t^2/2$ proves the claimed signs of $G$.
+The Hermite interpolation error is
+\[
+ G(s)-P(s)=G''''(\xi)s^2(s-s_0)^2/4!\le0
+ \quad(s\ge0),
+\]
+including outside the interpolation interval.  The leading coefficient
+$p_6=G[0,0,s_0,s_0]\ge0$ by the sign of $G'''$.
+\end{proof}
+
+\begin{corollary}[Moment price and retained longitudinal completion]
+Let $h=(f+g)/2$, $k=(f-g)/2$, $P_1h=uZ$, and
+$v=\mathbb E[H_3(Z)h]$.  Put
+$r=\|P_3^W\mathbb E_Zk\|_2$ and
+$Q=P_3^W\mathbb E_Zk/r$ when $r>0$.
+Write $\kappa=\E Q^4-3$ and
+$\E(\|DQ\|^2/3-1)^2=\kappa(7/45+\zeta/15)$, with $0\le\zeta\le1$.
+The endpoint $\kappa=0$ is interpreted by continuity.
+For a majorant from Proposition~\ref{prop:contact-head-source}, the physical
+diamond and the coefficient-$633$ moment theorem give
+\[
+ au+dv+r\le A_q(\kappa,\zeta)
+ =q_0+q_2+(3+\kappa)q_4+
+ \left[15+15\kappa+
+  \left(\frac{194}{\sqrt{10}}-\frac{633\zeta}{15}\right)\kappa^{3/2}\right]q_6.
+\]
+No extra $\nu$ multiplies this price.  For a fixed row the price is convex
+in $\kappa$ and affine in $\zeta$.
+If a certified frame completed its longitudinal penalty by
+$-bv^2\le2\beta v+\beta^2/b$, with $\beta$ multiplying normalized $H_3$,
+then for any fixed $\lambda\ge0$ its saved completed bound may be augmented by
+\[
+ \lambda\left(A_q-au-r+\frac{\beta d}{b}\right)
+       +\frac{\lambda^2d^2}{4b}.
+\]
+With $\lambda$ fixed throughout each price rectangle, the existing cumulant,
+shape, amplitude and source-chord certification can be reused.
+If a frame instead stores $\beta_{\rm raw}$ multiplying $z^3-3z$, use
+$\beta=\sqrt6\,\beta_{\rm raw}$.  The same correction is then
+\[
+ \lambda\left(A_q-(A+3B)u-r+\frac{6\beta_{\rm raw}B}{b}\right)
+       +\frac{3\lambda^2B^2}{2b}.
+\]
+Both the contact row and $\lambda$ are chosen once for each whole cell;
+they cannot be optimized independently at its corner points and then treated
+as a single convex price.
+\end{corollary}
+\begin{proof}
+Pointwise $L(Z)h+Qk\le\max(|L(Z)|,|Q|)$, and $\mathbb EQk=r$.
+Take expectations, use the global majorant, and price its second, fourth and
+sixth moments.  The sixth coefficient is nonnegative and
+$194/\sqrt{10}-633/15>0$, proving the price properties.
+Before completing the longitudinal penalty, add the nonnegative quantity
+$\lambda(A_q-au-dv-r)$ and complete with
+$(\beta+\lambda d/2)^2/b$ in place of $\beta^2/b$.
+Subtracting the old completion gives the displayed correction.
+\end{proof}
+
+For the exact head $A=26412631/10^7$, $B=4084047/10^7$ and contact
+$w_0=189/50$, so $s_0=w_0(A+Bw_0)^2$, one certified rational row is
+\[
+\begin{split}
+q_0&=137957132894348330419/(5\cdot10^{19}),\\
+q_2&=1510422344526876849/10^{19},\\
+q_4&=-163849393411225061/10^{20},\\
+q_6&=23608461930109/(25\cdot10^{17}).
+\end{split}
+\]
+Its uniform four-corner price on $\kappa\in[2,4]$, $\zeta\in[0,1]$ is at most
+$29040583649083683/10^{16}$.
+The exact coefficient-sign proof, rational rounding and directed corner
+prices are reproduced by
+\texttt{certify\_\allowbreak direct\_\allowbreak contact\_\allowbreak majorant.py}.
+This source proposition alone does not assert a global operator norm bound.
+The scalar comparison was independently accepted by an exact rational
+recurrence check and a separate 768-bit MPFR replay of all $28$ upward-rounded
+coefficients and $98$ directed moment prices.  A global norm conclusion still
+requires complete fixed-row, fixed-multiplier cell coverage.
+
+\begin{corollary}[A physical source exclusion at the remaining native bottleneck]
+In the notation of Proposition~\ref{prop:contact-head-source}, every physical
+source with $u\ge151/200$, $\kappa\in[2,4]$ and $\zeta\in[0,1]$ satisfies
+\[
+ r\le\frac{3218564576843929081}{12500000000000000000}
+ <\frac{257485167}{10^9}<\frac{129}{500}.
+\]
+Thus the entire source domain $u\ge.755$, $r\ge.258$, $\kappa\in[2,4]$
+is physically impossible.  This exclusion is independent of the operator
+coefficient $b$ and uses no longitudinal-completion multiplier.
+\end{corollary}
+\begin{proof}
+Use the globally valid contact family at $A=147/50$, $B=0$, $w_0=11/2$,
+so that $s_0=237699/5000$.  One upward-rounded rational row is
+\[
+\begin{split}
+q_0&=234578060876042414629/10^{20},\\
+q_2&=13569465319776621699/10^{20},\\
+q_4&=-57073674634011611/(5\cdot10^{19}),\\
+q_6&=648580884546013/10^{20}>0.
+\end{split}
+\]
+These coefficients already contain $\nu$.  The price for this single fixed
+row is convex in $\kappa$ and affine in $\zeta$.  Directed evaluation of the
+four corners of $[2,4]\times[0,1]$ gives
+\[
+ A_q(\kappa,\zeta)
+ \le\frac{30964814576843929081}{12500000000000000000}.
+\]
+The physical source gate is simply $(147/50)u+r\le A_q$ since $d=0$.
+Subtract $(147/50)(151/200)$ to obtain the asserted bound.
+All four rational coefficient roundings and four corner prices passed a
+separate 768-bit MPFR replay; the globally valid contact-family argument
+also applies at $B=0$.
+This is a source-domain exclusion, not a complete operator norm theorem.
+\end{proof}
+
+\section{Conditional Gaussian profiles and a mixed cubic penalty}\label{sec:mixed}
+% Self-contained fragment.  Requires amsmath, amssymb, and theorem environments
+% named proposition and proof.  No numerical-profile certificate is asserted.
+\begin{proposition}[Sharp conditional Gaussian profile and a quartic budget]
+\label{prop:conditional-gaussian-budget}
+Let $Z$ be standard normal and let measurable real functions $h,k$ satisfy
+$|h|+|k|\leq1$.  Put
+\[
+ \nu=\sqrt{2/\pi},\qquad A=\mathbb E[Zh],\qquad
+ p=|\mathbb E k|,\qquad C=1-\nu^2.
+\]
+If $p=2\Phi(t)-1$, $t\in[0,\infty]$, then
+\begin{equation}\label{eq:sharp-conditional-profile}
+ |A|\leq\nu e^{-t^2/2}.
+\end{equation}
+This bound is sharp for every $p$.  In particular,
+\begin{equation}\label{eq:quartic-conditional-budget}
+ A^2+p^2-Cp^4\leq\nu^2.
+\end{equation}
+The quartic budget improves the ellipse
+$A^2+\nu^2p^2\leq\nu^2$ by $Cp^2(1-p^2)$.
+\end{proposition}
+
+\begin{proof}
+Write $\alpha=|k|$ and $\alpha_0=\mathbf1_{\{|Z|\leq t\}}$.
+Since $\mathbb E\alpha\geq p=\mathbb E\alpha_0$ and
+$(|Z|-t)(\alpha-\alpha_0)\geq0$ pointwise,
+\[
+ \mathbb E[|Z|\alpha]\geq\mathbb E[|Z|\alpha_0].
+\]
+Consequently $|A|\leq\mathbb E[|Z|(1-\alpha)]\leq2\varphi(t)
+=\nu e^{-t^2/2}$.  Equality is attained by
+$h=\operatorname{sgn}(Z)\mathbf1_{\{|Z|>t\}}$ and
+$k=\mathbf1_{\{|Z|\leq t\}}$.
+
+For the polynomial budget set $p(t)=2\Phi(t)-1$, so
+$p'=\nu e^{-t^2/2}$ and $p''=-tp'$.  Define
+\[
+ D(t)=\nu^2e^{-t^2}-\nu^2+p(t)^2-Cp(t)^4,
+ \qquad g(t)=p(t)-2Cp(t)^3-tp'(t).
+\]
+Then $D'=2p'g$ and $g'=p'(t^2-6Cp^2)$.
+The ratio $t/p(t)$ strictly increases from $1/\nu$ to infinity:
+indeed $p(t)>tp'(t)$ for $t>0$ because $p'$ strictly decreases.
+Furthermore $1/\nu^2<6C$ and $1-2C>0$; for example these follow
+already from $3<\pi<22/7$.
+Thus $g'$ changes sign exactly once, from negative to positive.
+As $g(0)=0$ and $\lim_{t\to\infty}g(t)=1-2C>0$, the function $g$
+has exactly one further zero.  It follows that $D$ first decreases
+and then increases.  Its two endpoint limits are zero, so $D\leq0$.
+Combining this with \eqref{eq:sharp-conditional-profile} proves
+\eqref{eq:quartic-conditional-budget}.
+\end{proof}
+
+\begin{proposition}[A mixed cubic completion with one scalar source]
+\label{prop:mixed-cubic-completion}
+Let $Z$ and $W$ be independent standard Gaussian coordinates.  Let $f,g$
+be odd signs and put $h=(f+g)/2$, $k=(f-g)/2$,
+\[
+ A(W)=\mathbb E_Z[Zh],\qquad k_0(W)=\mathbb E_Z k.
+\]
+Suppose $r=\|P_3^Wk_0\|_2>0$ and write
+$Q=P_3^Wk_0/r=I_3(F)$, with $6\|F\|^2=1$.  Here Wiener integrals are
+normalized by $\mathbb E I_j(H)^2=j!\|H\|^2$.
+Set
+\[
+ G=F\otimes_2F,\quad s=\|G\|^2,\quad
+ D=1+\frac{3\|\operatorname{Sym}(F\otimes_1F)\|^2}{2s},\quad
+ R_2=\frac{I_2(G)}{\sqrt{2s}},\quad \kappa=\mathbb E Q^4-3.
+\]
+Then $\mathbb ER_2=0$, $\mathbb ER_2^2=1$, and
+\begin{equation}\label{eq:mixed-source-normalization}
+ \theta:=\mathbb E[Q^2R_2]=18\sqrt{2s},\qquad
+ \theta^2=\frac{\kappa}{2D}.
+\end{equation}
+For $t=\mathbb E[AR_2]$, any $b,w>0$ and $a,c\in\mathbb R$ satisfy
+\begin{align}
+ -bt^2\leq{}&w\{\nu^2+a^2+2ac+c^2(3+\kappa)\}
+ -w\mathbb E k_0^2+wC\mathbb E k_0^4
+ \notag\\[-1mm]
+ &-2w\mathbb E[(a+cQ^2)A]
+ -\frac{bw c^2\kappa}{2D(b+w)},
+ \label{eq:quartic-mixed-completion}
+\end{align}
+where $\nu^2=2/\pi$ and $C=1-\nu^2$.
+The direction $ZR_2(W)$ is a unit cubic Hermite function orthogonal to
+$H_3(Z)=(Z^3-3Z)/\sqrt6$.  Hence its penalty $-bt^2$ can be retained
+in addition to a completion using only the longitudinal cubic direction.
+\end{proposition}
+
+\begin{proof}
+The Gaussian product formula yields
+\[
+ P_2(Q^2)=18I_2(G),\qquad
+ \kappa=1296s+1944\|\operatorname{Sym}(F\otimes_1F)\|^2=1296sD.
+\]
+These identities give \eqref{eq:mixed-source-normalization}.
+Also $G$ is positive semidefinite, since
+$G_{ij}=\sum_{a,b}F_{iab}F_{jab}$.  Thus $R_2$ is the normalized,
+centered quadratic form determined by this actual cubic source.
+
+Put $\eta=a+cQ^2$.  Orthogonal projection onto the unit vector $R_2$
+gives $\mathbb E(A-\eta)^2\geq(t-c\theta)^2$.  Completing one scalar
+square gives
+\[
+ bt^2+w(t-c\theta)^2\geq\frac{bw}{b+w}c^2\theta^2,
+\]
+and therefore
+\[
+ -bt^2\leq w\mathbb E(A-\eta)^2-
+ \frac{bw}{b+w}c^2\theta^2.
+\]
+Conditionally on $W$, $h,k$ satisfy $|h|+|k|=1$, so
+Proposition~\ref{prop:conditional-gaussian-budget} gives
+$A^2\leq\nu^2-k_0^2+Ck_0^4$.  Expanding the square and using
+$\mathbb E\eta^2=a^2+2ac+c^2(3+\kappa)$ proves
+\eqref{eq:quartic-mixed-completion}.  The final orthogonality claim
+follows from independence of $Z,W$ and $\mathbb ER_2=0$.
+\end{proof}
+
+\paragraph{Insertion into a local scalar criterion.}
+If the original conditional potential contains $2\ell A$ and local
+moments $\mathbf k=(k_0,k_1,k_2,k_3)$, formula
+\eqref{eq:quartic-mixed-completion} replaces
+\[
+ \ell\quad\hbox{by}\quad\ell-w(a+cq^2)
+\]
+at scalar source value $q$, adds the local polynomial
+$-wk_0^2+wCk_0^4$, and adds only the explicit outer price
+\[
+ w\{\nu^2+a^2+2ac+c^2(3+\kappa)\}
+ -\frac{bw c^2\kappa}{2D(b+w)}.
+\]
+It introduces no additional source or local moment coordinate.
+This insertion is an exact inequality, not a global norm certificate:
+the modified local potential and its source tail must still be bounded
+on their complete domains.  In particular the quadratic dependence
+on $q$ requires a new chord allowance.  If the unmodified local
+potential is a supremum of affine functions of $q$, then its modified
+physical supremum $\Psi$ obeys, for $q\in[q_0,q_1]$,
+\[
+ \Psi(q)\leq\operatorname{Chord}_{q_0,q_1}\Psi(q)
+       +2w|c|\nu(q-q_0)(q_1-q).
+\]
+Indeed adding $2w|c|\nu q^2$ makes every candidate convex, because
+$|A|\leq\nu$.  Any pre-existing curvature allowance must also be retained.
+
+\section{Continuous regional norm certificates}\label{sec:regional}
+We next convert local inequalities into bounds on complete intervals of
+the agreement amplitude. All source and cumulant parameters are covered
+continuously; finite sampling is used only to choose the rational inputs.
+
+Throughout this section the longitudinal Hermites are orthonormal:
+\[
+ H_0=1,\quad H_1=Z,\quad H_2=(Z^2-1)/\sqrt2,\quad
+ H_3=(Z^3-3Z)/\sqrt6.
+\]
+Section~\ref{sec:r3} explicitly switches to the raw Hermite convention.
+
+\begin{proposition}[A transverse Gram comparison]\label{prop:gram}
+Let $b>0$, let $f,g$ be odd signs, put $h=(f+g)/2$, $k=(f-g)/2$,
+and rotate so that $P_1h=uZ$. In the transverse coordinates $W$, set
+$k_j(W)=\E_Z[H_j(Z)k]$, $h_j(W)=\E_Z[H_j(Z)h]$, and
+$r=\|P_3^Wk_0\|_2$. Suppose the even block $E$ on coordinates $(0,2)$
+and odd block $R$ on coordinates $(1,3)$ satisfy
+\[
+ E\succeq0,\quad E-\operatorname{diag}(-1,b)\succeq0,
+ \quad R\succeq0,\quad R-\operatorname{diag}(-1,b)\succeq0,
+ \quad R-\operatorname{diag}(b,0)\succeq0,
+ \qquad E_{22}>0.
+\]
+Let $M$ be the corresponding four-coordinate matrix. For arbitrary
+real $\ell,\beta,\delta,\omega$, define
+\[
+ s=(\delta,0,-\omega,0),\qquad
+ \xi=\frac{(\omega-E_{02})^2}{E_{22}}-E_{00}+b-2\delta.
+\]
+Let $\mathcal P(t)$ be the supremum, over conditional functions satisfying
+$|h|+|k|\le1$, of
+\[
+ \mathbf k^TM\mathbf k+2t\,s^T\mathbf k
+       +2\ell h_1+2\beta h_3+\beta^2/b,
+ \qquad \mathbf k=(k_0,k_1,k_2,k_3)^T.
+\]
+For $r>0$, with $Q=P_3^Wk_0/r$, one has
+\begin{equation}\label{eq:gram-regional}
+ \langle f,T_bg\rangle\le
+ u^2-2\ell u+\E\mathcal P(rQ)+\xi r^2.
+\end{equation}
+For $r=0$, replace the expectation by $\mathcal P(0)$.
+\end{proposition}
+\begin{proof}
+Retain $-b(\E h_3)^2$ from the agreement penalty and use
+$-bx^2\le2\beta x+\beta^2/b$. Expand the disagreement function by
+longitudinal and transverse Hermite degree. In transverse degree one,
+the even block must dominate $\operatorname{diag}(-1,b)$; in transverse
+degrees zero and two, the odd block must dominate the two displayed
+diagonal matrices. In the source direction $Q$, write
+$a=\E[Qk_2]$. The even quadratic and source terms are
+\[
+ E_{22}a^2+2(E_{02}-\omega)ra+(E_{00}+2\delta+\xi)r^2
+ \ge br^2,
+\]
+by their exact Schur completion. The component of $P_3^Wk_0$
+orthogonal to $Q$ is zero by definition. All remaining transverse
+components are dominated by the positive blocks. Finally insert
+$2\ell\E Zh-2\ell u=0$. These comparisons give
+\eqref{eq:gram-regional} after conditional maximization.
+\end{proof}
+
+For completeness, the finite local comparison is particularly simple.
+If the actual conditional moment vector lies in a box centered at $c$
+with half widths $w$, exact quadratic completion and the diamond
+constraint give the entire box bound
+\begin{align}\label{eq:physical-box}
+ \mathcal L(t;h,k)\le{}&
+ 2\E_Z\max\{|(Mc+ts)\cdot H|,|\ell H_1+\beta H_3|\}
+       -c^TMc+\beta^2/b+w^T|M|w,
+\end{align}
+where $\mathcal L$ denotes the objective defining $\mathcal P$ and
+$|M|$ is entrywise absolute value. This is a bound for actual moments
+in that box, with no stationary-point assumption. Bessel's inequality
+and $|k_j|\le\E|H_j|$ restrict the moments to
+\[
+ \sum_{j=0}^3k_j^2\le1,\qquad
+ (|k_0|,|k_1|,|k_2|,|k_3|)\le(1,4/5,7/10,5/8).
+\]
+The expectation in \eqref{eq:physical-box} is the sum of two Gaussian
+absolute-cubic integrals, since
+$\max(|A|,|B|)=(|A+B|+|A-B|)/2$.
+Certified real-root isolation and Gaussian antiderivatives evaluate
+these integrals with outward rounding.
+
+The potential $\mathcal P$ is even and convex in $t$. Its certified
+nodal heights therefore give upper chords on every source interval;
+a tail slope at least $2\|s\|$ gives an affine extension to infinity.
+Denote this even convex upper function by $F$. To price $\E F(rQ)$,
+solve $g_F'(x)-xg_F(x)=F(rx)-\E F(rN)$ for a standard normal $N$.
+For any $\lambda\ge0$, any odd regression $\psi$, and $\eta>0$, the
+same Stein calculation as in Section~\ref{sec:stein} gives
+\begin{align}\label{eq:regional-scalar-price}
+ \E F(rQ)\le{}&\E F(rN)+\lambda(\rho-c)
+ +\E\left[\psi'(Q)-Q\psi(Q)
+ +J_\eta(g_F'(Q)-\lambda g'(Q)-\psi'(Q))\right]
+ +\frac\eta2\E U^2,\\
+ J_\eta(x)={}&
+ \begin{cases}x^2/(2\eta),&x\le\eta,\\x-\eta/2,&x\ge\eta.
+ \end{cases}\notag
+\end{align}
+Here $c=\sqrt{2/\pi}$, $g$ is the absolute-value Stein solution above,
+and $\rho=849/1000$. The clipped quadratic follows by maximizing
+$-vx-\eta v^2/2$ over $v\ge-1$, since $U\ge-1$.
+Smooth approximation justifies the finitely many target knots.
+
+A whole-line sextic majorant for the bracket in
+\eqref{eq:regional-scalar-price}, with nonnegative sextic coefficient,
+has a price convex in $\kappa$ and affine in the shared variance shape.
+Consequently its four endpoint comparisons cover each complete
+cumulant--shape rectangle. Source interpolation adds only
+\[
+ (-\xi)_+\max_i(r_{i+1}-r_i)^2/4
+\]
+to the endpoint prices, because $\E F(rQ)$ is convex in $r$.
+Checking the two endpoints of $u^2-2\ell u$ covers an entire amplitude
+interval. These facts explain the continuous scope of the following
+certificates.
+
+\begin{theorem}[Complete regional amplitude bounds]\label{thm:regional-coverage}
+For odd Gaussian signs $f,g$, put $u=\|P_1((f+g)/2)\|_2$.
+In every finite Gaussian dimension,
+\[
+ \langle f,T_{.72}g\rangle<
+ \begin{cases}
+ 563367/10^6,&0\le u\le341/500,\\[2pt]
+ 563334/10^6,&77/100\le u\le\sqrt{2/\pi}.
+ \end{cases}
+ \qquad <\frac{40}{71}.
+\]
+\end{theorem}
+\begin{proof}
+The seven frozen profiles in Appendix~\ref{app:regional} cover the
+intervals $[.14,.42]$, $[.30,.485]$, $[.40,.54]$, $[.50,.638]$,
+$[.60,.662]$, $[.662,.682]$, and $[.77,.797885]$.
+Each satisfies Proposition~\ref{prop:gram}, complete local moment-box
+comparisons, and complete scalar inequalities of
+\eqref{eq:regional-scalar-price}. Directed prices and exact convex
+endpoint comparisons cover every source amplitude, cumulant and
+shared shape in each region. Their first six rational caps are all
+at most $563367/10^6$; the seventh cap is $563334/10^6$.
+For $u\le.14$, the energy comparison gives
+$u^2+.72\rho^2\le.53857672$. The intervals therefore cover every
+$u\le.682$. Finally $u\le\E|Z|=\sqrt{2/\pi}<.797885$, so the last
+interval contains every feasible $u\ge.77$.
+\end{proof}
+
+The accepted broad profile uses a source grid ending exactly at
+$\rho$, which is valid at every agreement amplitude by projection
+norm duality. Hence its original discovery interval imposes no
+restriction on its larger accepted interval. The other extensions
+retain their verified outward source endpoint. This accounts for
+the continuous scope of the theorem. The remaining entire amplitude
+range is $.682<u<.77$; a local source-parameter subregion inside that
+range does not complete its full norm cover.
+
+\section{Retaining the actual cubic projection}\label{sec:r3}
+% Self-contained mathematical fragment. Requires amsmath, amssymb, amsthm,
+% and proposition/proof environments. All Hermites here are unnormalized.
+Let $T_b=P_1-bP_3$, $b>0$, on real standard Gaussian space, where $P_j$
+is the orthogonal projection onto total Hermite degree $j$.
+For odd signs $f,g$ put $h=(f+g)/2$, $k=(f-g)/2$.
+Then $(h,k)$ takes the four values $(\pm1,0),(0,\pm1)$.
+Rotate the Gaussian coordinates as $(Z,W)$ so that $P_1h=uZ$,
+with $Z$ independent of $W$.  Use the raw longitudinal Hermites
+\[
+ H_0=1,\quad H_1=Z,\quad H_2=Z^2-1,\quad H_3=Z^3-3Z,
+ \qquad m_j(W)=\mathbb E_Z[H_jk].
+\]
+If $r=\|P_3^Wm_0\|_2>0$, define the normalized cubic source
+$Q=P_3^Wm_0/r$.  Thus $\mathbb EQ^2=1$ and
+$\mathbb E[Qm_0]=r$.  All remaining projections act on $W$.
+
+\begin{proposition}[An exact residual of the physical cubic source]
+\label{prop:physical-r3-source}
+Put
+\[
+ \kappa=\mathbb EQ^4-3,\quad c_6=\mathbb EQ^6-15\mathbb EQ^4+30,
+ \quad S(q)=q^3-3q,
+\]
+\[
+ \mathcal R=Q^3-(3+\kappa)Q-P_1^W(Q^3),\quad
+ \Delta=\mathcal R-S(Q),\quad
+ D=\kappa^2+\|P_1^W(Q^3)\|_2^2.
+\]
+The residual $\mathcal R$ is odd, orthogonal to first chaos and to $Q$, and
+\begin{equation}\label{eq:physical-r3-identities}
+ \mathbb E\mathcal R^2=6+9\kappa+c_6-D,\quad
+ \mathbb E\Delta^2=D,\quad
+ \mathbb E[Q\Delta]=-\kappa,\quad
+ \mathbb E[S(Q)\Delta]=-D.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Since $Q$ has pure degree three, $P_1^W(Q^3)$ is orthogonal to $Q$.
+The coefficient removed from $Q^3$ along the unit vector $Q$ is
+$\mathbb EQ^4=3+\kappa$.  Also
+$\Delta=-\kappa Q-P_1^W(Q^3)$.  Orthogonal expansion of these two
+expressions proves all four identities.
+\end{proof}
+
+Write $Q=I_3(F)$ and put $s_F=\|F\otimes_2F\|_F^2$ and
+$z=1296s_F/\kappa\in[2/5,1]$, as in the tensor shape comparison
+of Section~\ref{sec:cumulants}.
+The residual parameter has the dimension-free bounds
+\begin{equation}\label{eq:r3-D-price}
+ \kappa^2\le D\le\kappa^2+\frac94(\kappa z)^{3/2}.
+\end{equation}
+Indeed Gaussian differentiation and the product formula give
+$\E[X_iQ^3]=324\langle F_i,F\otimes_2F\rangle$.
+The flattening map of $F$ has squared operator norm at most $\sqrt{s_F}$,
+so the sum of the squared inner products is at most $s_F^{3/2}$.
+Multiplication by $324^2$ proves \eqref{eq:r3-D-price}.
+
+\begin{proposition}[An inverse-free physical dual criterion]
+\label{prop:physical-r3-dual}
+Fix $p=(p_0,p_2)$ and a symmetric matrix
+$R=\left(\begin{smallmatrix}R_{11}&R_{13}\\R_{13}&R_{33}\end{smallmatrix}\right)$
+such that
+\begin{equation}\label{eq:physical-r3-gates}
+ p_2^2\geq\frac b2(1+p_0^2),\qquad
+ R\succeq0,\quad R-\operatorname{diag}(-1,b/6)\succeq0,
+ \quad R-\operatorname{diag}(b,0)\succeq0.
+\end{equation}
+Choose real $\ell,\beta,\gamma,y,\zeta,c,d$ and $G>0$.  Write
+\[
+ \sigma^2=p_0^2+2p_2^2,\quad \rho=1+\zeta^2/G,\quad
+ \mathfrak g(q)=cq+dS(q),\quad a(q)=\zeta[-S(q)+\mathfrak g(q)/(2G)].
+\]
+For $v=(s,v_1,v_3)$ define
+\begin{align*}
+ L(z)&=\ell z+\beta H_3(z),\\
+ B(q,z;v)&=q\gamma+q(y-p_0p_2r)H_2(z)
+       +[a(q)+\rho s][p_0+p_2H_2(z)]\\
+ &\quad +(R_{11}v_1+R_{13}v_3)z
+       +(R_{13}v_1+R_{33}v_3)H_3(z),
+\end{align*}
+and the physical dual ellipsoid
+\[
+ \mathcal E_p=\{(s,v_1,v_3):s^2/\sigma^2+v_1^2+v_3^2/6\leq1\}.
+\]
+Put
+\begin{equation}\label{eq:physical-r3-local}
+ \Phi(q)=\sup_{v\in\mathcal E_p}\left\{
+ 2\mathbb E_Z\max(|L(Z)|,|B(q,Z;v)|)
+ -\rho s^2-R_{11}v_1^2-2R_{13}v_1v_3-R_{33}v_3^2
+ +\frac{\mathfrak g(q)^2}{4G}\right\}.
+\end{equation}
+Then
+\begin{align}\label{eq:physical-r3-criterion}
+ \langle T_bf,g\rangle\leq{}&u^2-2\ell u+\frac{6\beta^2}{b}
+ +(b-p_0^2)r^2-2\gamma r+\frac{y^2}{p_2^2}
+ +\mathbb E\Phi(Q)\notag\\
+ &+\zeta^2(6+9\kappa+c_6)-c\kappa+(G-d-\zeta^2)D.
+\end{align}
+The ellipsoid in \eqref{eq:physical-r3-local} may be restricted to
+$v_1\geq0$ without changing the supremum, and $\Phi(-q)=\Phi(q)$.
+\end{proposition}
+\begin{proof}
+Let $V=p_0m_0+p_2m_2$ and $t=\mathbb E[Qm_2]$.
+Let $\Pi$ project onto odd transverse degrees at least three,
+orthogonally to $Q$.  Hermite orthogonality and
+\eqref{eq:physical-r3-gates} give
+\begin{align*}
+ -\|P_1k\|_2^2+b\|P_3k\|_2^2
+ \leq{}&\mathbb EV^2+
+ \mathbb E(R_{11}m_1^2+2R_{13}m_1m_3+R_{33}m_3^2)\\
+ &+(b-p_0^2)r^2-2p_0p_2rt-p_2^2t^2-\|\Pi V\|_2^2.
+\end{align*}
+Indeed the relevant raw-Hermite blocks are
+$\operatorname{diag}(-1,b/2)$ on $(m_0,m_2)$ in transverse degree one,
+$\operatorname{diag}(-1,b/6)$ on $(m_1,m_3)$ in degree zero, and
+$\operatorname{diag}(b,0)$ on that latter pair in degree two.
+The first gate is exactly the first block inequality for $pp^T$.
+In even longitudinal/transverse degree three,
+$P_3^Wm_0=rQ$; subtracting the $Q$ component of $V$ leaves precisely
+the indicated unused loss.  Higher odd transverse degrees supply the
+remaining part of $\|\Pi V\|_2^2$.
+
+Now $\mathcal R$ lies in the range of $\Pi$, so
+\[
+ -\|\Pi V\|_2^2\leq-2\zeta\mathbb E[\mathcal RV]
+                          +\zeta^2\mathbb E\mathcal R^2.
+\]
+The pointwise square inequality
+\[
+ -2\zeta\Delta V\leq \mathfrak g(Q)\Delta+G\Delta^2+
+                    (\zeta V+\mathfrak g(Q)/2)^2/G
+\]
+and \eqref{eq:physical-r3-identities} yield the last line of
+\eqref{eq:physical-r3-criterion}; the remaining local quadratic is
+$\rho V^2$ with linear coefficient $2a(Q)V$ and constant $\mathfrak g(Q)^2/(4G)$.
+Complete $-p_2^2t^2\leq2yt+y^2/p_2^2$, and insert the exact zeros
+$2\gamma\mathbb E[Qm_0]-2\gamma r$ and
+$2\ell\mathbb E[Zh]-2\ell u$.
+Finally
+$-b\|P_3h\|_2^2\leq-(b/6)(\mathbb E[H_3h])^2
+\leq2\beta\mathbb E[H_3h]+6\beta^2/b$.
+
+For each fixed $W$, Bessel's inequality gives
+$m_0^2+m_1^2+m_2^2/2+m_3^2/6\leq\mathbb E_Zk^2\leq1$.
+Hence $(V,m_1,m_3)\in\mathcal E_p$ by Cauchy--Schwarz in the even block.
+For a positive quadratic form $A$, the identity
+\[
+ x^TAx=\sup_v\{2v^TAx-v^TAv\}
+\]
+holds also when $A$ is singular, with equality at $v=x$.
+Apply it to $\operatorname{diag}(\rho,R)$ and interchange the two
+suprema.  Maximizing the resulting linear functional over the four
+pointwise possibilities for $(h,k)$ gives $2\max(|L|,|B|)$.
+Restricting the dual supremum to $\mathcal E_p$ loses no value because
+it contains every physical moment vector.  Conversely every dual vector
+gives at most the physical supremum by the same quadratic identity.
+This proves \eqref{eq:physical-r3-local} without a matrix inverse.
+
+Under $z\mapsto-z$, the simultaneous reflection
+$(v_1,v_3)\mapsto(-v_1,-v_3)$ preserves the value and the ellipsoid.
+Thus $v_1\geq0$ suffices.  Under $(q,s)\mapsto(-q,-s)$ the even part
+of $B$ changes sign; reflecting $z$ and changing the overall sign
+of $B$ restores the same absolute value.  This proves the evenness in $q$.
+\end{proof}
+
+% Extends the previously proved physical R3 criterion. Raw Hermites.
+\begin{proposition}[A full even-block criterion]
+\label{prop:full-even-r3}
+Retain the physical residual-source notation, including
+$m_j=\mathbb E_Z[H_jk]$.
+Let $E=(E_{ij})_{i,j\in\{0,2\}}$, $R=(R_{ij})_{i,j\in\{1,3\}}$
+be symmetric matrices and $p=(p_0,p_2)^T$ satisfying
+\begin{align*}
+ E&\succeq0,& E-\operatorname{diag}(-1,b/2)&\succeq0,&
+ E-pp^T&\succeq0,\\
+ R&\succeq0,& R-\operatorname{diag}(-1,b/6)&\succeq0,&
+ R-\operatorname{diag}(b,0)&\succeq0.
+\end{align*}
+In particular $E_{22}\geq b/2>0$.  For arbitrary real
+$\ell,\beta,\gamma,y,\zeta,c,d$ and $G>0$, put
+\begin{gather*}
+ S(q)=q^3-3q,\quad \mathfrak g(q)=cq+dS(q),\\
+ a(q)=\zeta[-S(q)+\mathfrak g(q)/(2G)],\quad L(z)=\ell z+\beta H_3(z).
+\end{gather*}
+With the coordinate order $(0,1,2,3)$, let $N$ have even block
+$E+(\zeta^2/G)pp^T$ and odd block $R$, and set
+\[
+ b_0(q)=(q\gamma+a(q)p_0,\,0,\,
+           q(y-E_{02}r)+a(q)p_2,\,0)^T,
+ \quad H(z)=(H_0,H_1,H_2,H_3)^T.
+\]
+Define the physical ellipsoid and local dual value by
+\begin{align*}
+ \mathcal E&=\{v:v_0^2+v_1^2+v_2^2/2+v_3^2/6\leq1\},\\
+ \Phi_E(q)&=\sup_{v\in\mathcal E}\left\{
+ 2\mathbb E_Z\max\bigl(|L(Z)|,|(b_0(q)+Nv)^TH(Z)|\bigr)
+ -v^TNv+\frac{\mathfrak g(q)^2}{4G}\right\}.
+\end{align*}
+Then
+\begin{align*}
+ \langle T_bf,g\rangle\leq{}&
+ u^2-2\ell u+\frac{6\beta^2}{b}
+ +(b-E_{00})r^2-2\gamma r+\frac{y^2}{E_{22}}
+ +\mathbb E\Phi_E(Q)\\
+ &+\zeta^2(6+9\kappa+c_6)-c\kappa+(G-d-\zeta^2)D.
+\end{align*}
+The supremum may be restricted to $v_1\geq0$, and $\Phi_E$ is even.
+\end{proposition}
+\begin{proof}
+Put $t=\mathbb E[Qm_2]$, $V=p_0m_0+p_2m_2$, and let $\Pi$
+project onto odd transverse degrees at least three, orthogonally to
+$Q$.  Hermite orthogonality gives
+\begin{align*}
+ -\|P_1k\|_2^2+b\|P_3k\|_2^2\leq{}&
+ \mathbb E(m_0,m_2)E(m_0,m_2)^T+
+ \mathbb E(m_1,m_3)R(m_1,m_3)^T\\
+ &+(b-E_{00})r^2-2E_{02}rt-E_{22}t^2
+ -\|\Pi V\|_2^2.
+\end{align*}
+To verify this inequality, the transverse degree-one even block is
+$\operatorname{diag}(-1,b/2)$, while the degree-zero and degree-two
+odd blocks are $\operatorname{diag}(-1,b/6)$ and
+$\operatorname{diag}(b,0)$.  The corresponding gates cover them.
+In transverse degree three, $P_3^Wm_0=rQ$ exactly.  Subtracting the
+$Q$-component of the $E$ quadratic leaves a nonnegative multiple
+$E_{22}\|P_{3,Q^\perp}^Wm_2\|_2^2$.  This covers the same component
+of $\|\Pi V\|_2^2$, since $E_{22}\geq p_2^2$.
+In every higher odd transverse degree, $E-pp^T\succeq0$ covers
+the unused loss.  The other odd-block degrees use $R\succeq0$.
+
+Apply the residual square completion to $V$ exactly as before:
+$-\|\Pi V\|_2^2\leq-2\zeta\mathbb E[\mathcal RV]
++\zeta^2\mathbb E\mathcal R^2$, followed by the completion of
+$-2\zeta\Delta V$.  This adds only $(\zeta^2/G)pp^T$ to the
+even block and gives the displayed $D,c_6,\kappa$ terms.
+Complete $-E_{22}t^2\leq2yt+y^2/E_{22}$ and the longitudinal
+agreement penalty, and insert the exact linear and source identities.
+For each transverse point, Bessel's inequality places the physical
+four-moment vector in $\mathcal E$.
+The identity $x^TNx=\sup_v(2v^TNx-v^TNv)$, valid also for
+singular positive semidefinite $N$, and the four pointwise values of
+$(h,k)$ now give precisely $\Phi_E$.
+The reflections $z\mapsto-z$ and
+$(q,v_0,v_2)\mapsto(-q,-v_0,-v_2)$ give the final symmetry claims.
+\end{proof}
+
+\paragraph{Transport and a necessary concavity allowance.}
+Set $y(r)=y_0+E_{02}(r-r_0)$ and $v_y=y_0-E_{02}r_0$.
+This freezes $b_0$ and hence the whole local certificate, while
+\[
+ (b-E_{00})r^2-2\gamma r+\frac{y(r)^2}{E_{22}}
+ =a_r r^2-2\left(\gamma-\frac{E_{02}v_y}{E_{22}}\right)r
+                +\frac{v_y^2}{E_{22}},\qquad
+ a_r=b-E_{00}+\frac{E_{02}^2}{E_{22}}.
+\]
+Unlike the rank-one case, $a_r$ can be negative.  On a source cell
+$r\in[r_-,r_+]$, endpoint interpolation remains an upper bound after
+adding $\max(0,-a_r)(r_+-r_-)^2/4$.
+No compact local certificate, or fixed-source price, alone proves a
+global operator norm bound.
+
+% Analytic extensions only. No new numerical norm certificate is asserted.
+\begin{proposition}[Jensen reductions with a rank local oracle]
+\label{prop:jensen-rank-reductions}
+Retain the raw-Hermite rank residual-source notation
+$p=(p_0,p_2)$, $L$, $B$, $\mathcal E_p$, $\Phi$, $b>0$ and $R$.
+Let $0\le\omega<1$, $\nu^2=2/\pi$, and put $C_0=1-\nu^2$.
+Use the exact source transport
+\[
+ y(r)=y_0+p_0p_2(r-r_0),\qquad v_y=y_0-p_0p_2r_0,
+ \qquad \eta=\gamma-p_0v_y/p_2.
+\]
+Write $\mathcal C$ for the usual residual price, including
+$6\beta^2/b$ and $v_y^2/p_2^2$, but excluding the amplitude and
+source quadratics and $\mathbb E\Phi(Q)$.
+Assume the three usual odd-block spectral gates for $R$.
+
+For the ellipse reduction choose any $v_{\rm e}\ge\nu^2$ and assume only
+\begin{equation}\label{eq:jensen-ellipse-even-gate}
+ p_2^2\ge\frac b2\left(1+\frac{p_0^2}{1+v_{\rm e}\omega}\right).
+\end{equation}
+Then the ordinary rank local oracle, with constant longitudinal head,
+gives
+\begin{equation}\label{eq:jensen-ellipse-rank-price}
+ \langle T_bf,g\rangle\le
+ (1-\omega)u^2-2\ell u+(b-v_{\rm e}\omega)r^2-2\eta r
+ +\mathcal C+v_{\rm e}\omega+\mathbb E\Phi(Q).
+\end{equation}
+The stronger old gate $p_2^2\ge(b/2)(1+p_0^2)$ is not required.
+
+For the quartic reduction replace the even gate by
+\begin{equation}\label{eq:jensen-quartic-even-gate}
+ p_2^2\ge\frac b2\left(1+\frac{p_0^2}{1+\omega}\right).
+\end{equation}
+Define the modified local oracle by adding one independent bounded
+dual variable $\tau\in[-1,1]$ to the rank oracle: replace $B(q,Z;v)$
+inside $2\mathbb E_Z\max(|L|,|B|)$ by
+$B(q,Z;v)+2\omega C_0\tau^3$, subtract $3\omega C_0\tau^4$
+outside this expectation, and maximize over both $v\in\mathcal E_p$
+and $\tau\in[-1,1]$. Denote the result by $\Phi_\omega(q)$.
+Then
+\begin{equation}\label{eq:jensen-quartic-rank-price}
+ \langle T_bf,g\rangle\le
+ (1-\omega)u^2-2\ell u+(b-\omega)r^2-2\eta r
+ +\mathcal C+\omega\nu^2+\mathbb E\Phi_\omega(Q),
+\end{equation}
+and $0\le\Phi_\omega(q)-\Phi(q)\le\omega C_0$.
+Neither extension introduces a quadratic dependence of the longitudinal
+head on $q$. Existing residual curvature allowances remain necessary;
+the quartic extension adds no new such allowance and its coarse tail
+increases by at most $\omega C_0$.
+\end{proposition}
+\begin{proof}
+Set $A(W)=\mathbb E_Z[Zh]$ and $m_0(W)=\mathbb E_Zk$.
+Alignment of $P_1h=uZ$ gives $\mathbb EA=u$, and Jensen gives
+$\mathbb EA^2\ge u^2$. The conditional profile budget proves
+\[
+ A^2+\nu^2m_0^2\le\nu^2,\qquad
+ A^2+m_0^2-C_0m_0^4\le\nu^2.
+\]
+Thus the integrated quantities
+\[
+ v_{\rm e}-u^2-v_{\rm e}\mathbb Em_0^2,\qquad
+ \nu^2-u^2-\mathbb Em_0^2+C_0\mathbb Em_0^4
+\]
+are nonnegative, using $v_{\rm e}\ge\nu^2$ for the first.
+
+Apply the full even-block criterion with
+$E=pp^T+a e_0e_0^T$, taking $a=v_{\rm e}\omega$ or $a=\omega$.
+The gates $E\succeq0$ and $E-pp^T\succeq0$ are automatic.
+The remaining gate is equivalent to
+\[
+ \det(E-\operatorname{diag}(-1,b/2))
+ =(1+a)p_2^2-\frac b2(1+a+p_0^2)\ge0,
+\]
+which is exactly the respective displayed even gate. In particular
+$p_2\ne0$. Add $\omega$ times the corresponding nonnegative
+integrated budget to the full criterion. Its negative $m_0^2$ term
+cancels the extra local even-block entry exactly, so the effective
+local quadratic remains the original rank quadratic. The extra outer
+terms are $\omega(v_{\rm e}-u^2-r^2v_{\rm e})$ in the ellipse case and
+$\omega(\nu^2-u^2-r^2)$ in the quartic case. Exact $y(r)$ transport
+then gives the two stated prices.
+
+In the quartic case the additional local term is
+$\omega C_0m_0^4$. Convexity of $x^4$ gives, for $|x|\le1$,
+\[
+ x^4=\sup_{|\tau|\le1}(4\tau^3x-3\tau^4),
+\]
+with equality at $\tau=x$. Since $m_0=\mathbb E_Zk$, the linear
+part shifts the support field by $2\omega C_0\tau^3$, proving
+the stated local formula by the same PSD duality as for the rank
+oracle. The actual physical moment vector and $\tau=m_0$ are
+admissible, and the two dual suprema may be interchanged with the
+physical supremum. The added physical term lies between zero and
+$\omega C_0$, proving the local gap and tail statements.
+The extra dual terms do not depend on $q$, and $1-\omega>0$ preserves
+the positive amplitude curvature needed for exact polygon pricing.
+\end{proof}
+
+These are analytic sufficient criteria. Any newly fitted parameters,
+including ones violating the stronger old rank gate, require validation
+of the true even-block gates and a complete local scalar certificate
+before yielding an operator norm bound.
+
+\begin{proposition}[A frozen-centering scalar majorant]
+\label{prop:physical-r3-stein-majorant}
+Let $U=\|\nabla_WQ\|^2/3-1$ and $\mathcal V=\mathbb EU^2$.
+Fix any $\theta\in\mathbb R$, $\eta>0$, real $a_0,a_2$, and a
+continuously differentiable test function $\varphi$ such that
+$\varphi$ and $\varphi'$ have at most polynomial growth.
+Set
+\[
+ e(q)=\varphi'(q)-a_0-a_2(q^2-1),\qquad
+ \lambda(q)=-1-\theta(q^2-1),
+\]
+\[
+ P(q)=\begin{cases}
+ e(q)^2/(2\eta),&e(q)\geq\eta\lambda(q),\\
+ \lambda(q)e(q)-\eta\lambda(q)^2/2,&e(q)<\eta\lambda(q).
+ \end{cases}
+\]
+If, for every real $q$,
+\begin{equation}\label{eq:physical-r3-scalar-majorant}
+ \Phi(q)\leq A_0+A_2q^2+A_4q^4+A_6q^6+
+ q\varphi(q)-[1+\theta(q^2-1)]\varphi'(q)-P(q),
+\end{equation}
+then
+\begin{align}\label{eq:physical-r3-stein-price}
+ \mathbb E\Phi(Q)\leq{}&A_0+A_2+(3+\kappa)A_4
+ +(15+15\kappa+c_6)A_6\notag\\
+ &+\frac\eta2[\mathcal V-2\theta\kappa/3+\theta^2(\kappa+2)]
+ +a_2[\kappa/3-\theta(\kappa+2)].
+\end{align}
+In particular one may freeze $\theta=\kappa_0/[3(\kappa_0+2)]$
+throughout a whole cumulant interval; the covariance correction in
+\eqref{eq:physical-r3-stein-price} keeps its displayed positive sign.
+When $\varphi$ is odd, the proposed majorant is even, so it suffices
+to verify \eqref{eq:physical-r3-scalar-majorant} for $q\geq0$. The same
+proof applies to the full-even-block potential $\Phi_E$ after replacing
+$\Phi$ by $\Phi_E$.
+\end{proposition}
+\begin{proof}
+Since $Q$ has pure degree three, Gaussian integration by parts gives
+$\mathbb E[Q\varphi(Q)]=\mathbb E[(1+U)\varphi'(Q)]$.
+It also gives $\mathbb EU=0$ and
+$\mathbb E[U(Q^2-1)]=\kappa/3$; the latter follows by using
+$\varphi(q)=q^3$.  Put $U_\theta=U-\theta(Q^2-1)$.
+Then $U_\theta\geq\lambda(Q)$, its variance is
+$\mathcal V-2\theta\kappa/3+\theta^2(\kappa+2)$, and
+$\mathbb E[U_\theta(Q^2-1)]=\kappa/3-\theta(\kappa+2)$.
+By construction $P(q)=\sup_{v\geq\lambda(q)}[ve(q)-\eta v^2/2]$.
+Therefore $U_\theta e(Q)-P(Q)\leq\eta U_\theta^2/2$.
+Take expectations in \eqref{eq:physical-r3-scalar-majorant} and apply
+these identities.  This proves \eqref{eq:physical-r3-stein-price}.
+\end{proof}
+
+\paragraph{Exact transport of the source amplitude.}
+Freeze a reference $r_0$ and $y_0$, and set
+\[
+ y(r)=y_0+p_0p_2(r-r_0),\qquad v_y=y_0/p_2-p_0r_0.
+\]
+Then $y(r)-p_0p_2r=y_0-p_0p_2r_0$, so the entire function $\Phi$ is
+unchanged for every $r$.  Its outer quadratic simplifies exactly to
+\begin{equation}\label{eq:physical-r3-transport}
+ (b-p_0^2)r^2-2\gamma r+y(r)^2/p_2^2
+ =br^2-2(\gamma-p_0v_y)r+v_y^2.
+\end{equation}
+Consequently no local amplitude error is needed for this transport;
+both the $u$ and $r$ outer quadratics are convex and are bounded on
+rectangles by their vertex values.  The source moments and cumulants
+must still be covered separately.  A proposed scalar majorant becomes
+a norm certificate only after it bounds \eqref{eq:physical-r3-local}
+for the whole real $q$ line and its outer expectation is bounded for
+every admissible physical source.  No finite grid maximization establishes
+those requirements.  The case $r=0$ can be handled separately by a
+source-free criterion, without normalizing a zero projection.
+
+% Numerical corollary; uses the notation of r3_physical_dual_criterion.tex.
+\begin{proposition}[A certified cubic-source rectangle]
+\label{prop:r3-certified-rectangle}
+For $b=18/25$, every odd Gaussian sign pair whose physical parameters satisfy
+\[
+ u\in[7549/10000,7551/10000],\qquad
+ r\in[2574/10000,2577/10000],\qquad
+ \kappa\in[51/100,55/100]
+\]
+obeys
+\[
+ \langle(P_1-bP_3)f,g\rangle\leq\frac{28167}{50000}
+ =0.56334<\frac{40}{71}.
+\]
+The bound covers every admissible cubic tensor shape and every Gaussian
+dimension.
+\end{proposition}
+\begin{proof}[Certificate proof]
+The exact rational profile is frozen in
+\texttt{frozen\_R3\_profile\_exact.json}.  The scalar majorant uses reserves
+$2\cdot10^{-5}$ in its constant coefficient and $10^{-6}$ in its
+degree-six coefficient.  Exact rational Bernstein derivative bounds and
+directed $256$-bit MPFR arithmetic certify the whole interval $q\in[0,8]$:
+the completed partition has $6751$ nodes and $3376$ accepted leaves.
+A fresh independent traversal rechecked all accepted leaves and the
+physical-center quadratic radii, with stable source hashes.
+The independently replayed $[8,64]$ cover and exact nonnegative-coefficient
+tail proof for $q\geq64$ remain valid after increasing the constant reserve.
+Evenness covers negative $q$.
+
+Use the fresh sixth-cumulant comparison and the exact cubic projection bound
+\[
+ c_6\leq\left[\frac{194}{\sqrt{10}}
+              -\frac{633}{9}(z-2/5)\right]\kappa^{3/2},\qquad
+ D\leq\kappa^2+\frac94(\kappa z)^{3/2},\quad z\in[2/5,1].
+\]
+In the outer price their respective coefficients are nonnegative.
+After the exact $y(r)$ transport, the price is separately convex in
+$u,r,\kappa,z$; thus its $16$ rectangle vertices suffice.
+Independent directed evaluation gives the upper bound
+$0.563333433603497\ldots<28167/50000$.
+\end{proof}
+This certifies the displayed rectangle of physical parameters.  It is not
+a global bound for $\|P_1-(18/25)P_3\|_{\infty\to1}$.
+
+% Uses the physical parameters and exact profile of r3_physical_dual_criterion.tex.
+\begin{proposition}[Certified moving bands of cubic-source parameters]
+\label{prop:r3-certified-moving-polygons}
+Let $b=18/25$ and use the physical parameters $u,r,\kappa$ of an odd
+Gaussian sign pair.  Define
+\[
+ t=r-\frac{5151}{20000}+3\left(u-\frac{151}{200}\right).
+\]
+In each of the following three cases, the pairing is bounded by the
+listed cap, in every Gaussian dimension and for every admissible
+dimensionless cubic tensor shape $z\in[2/5,1]$:
+\[
+\begin{array}{c|c|c|c}
+ u& |t|\text{ at most}&\kappa&
+ \langle(P_1-bP_3)f,g\rangle\text{ at most}\\ \hline
+ {[.7538,.7562]}&.00025&[.3,.8]&28168/50000\\
+ {[.75,.76]}&.001&[.3,.8]&451/800\\
+ {[.7505,.7595]}&.001&[.15,1.1]&451/800
+\end{array}
+\]
+All finite decimals in the table are exact rational numbers.  The first
+cap is $0.56336<40/71$; the other two are $0.56375$.
+\end{proposition}
+\begin{proof}[Certificate proof]
+Use the accepted whole-line scalar majorant from the exact frozen profile,
+with constant reserve $1/50000$ and sixth-degree reserve $1/1000000$.
+The transport $y(r)=y_0+p_0p_2(r-r_0)$ leaves this entire local majorant
+unchanged.  Its outer amplitude part is
+\[
+ u^2-2\ell u+br^2-2(\gamma-p_0v_y)r+v_y^2,
+ \qquad v_y=y_0/p_2-p_0r_0.
+\]
+After $r=5151/20000-3(u-151/200)+t$, its Hessian divided by two is
+\[
+ \begin{pmatrix}187/25&-54/25\\-54/25&18/25\end{pmatrix},
+ \qquad \det=18/25>0.
+\]
+Thus it is jointly convex in $(u,t)$.
+
+In the source-moment price the coefficients of the sixth cumulant and
+the projection allowance are respectively
+\[
+ A=\frac{22262234067601129}{2500000000000000000000}>0,
+ \qquad
+ B=\frac{172316040932398871}{2500000000000000000000}>0.
+\]
+The fresh source bounds therefore give a price consisting of affine
+terms in each source coordinate, plus
+\[
+ \left[A\left\{\frac{194}{\sqrt{10}}
+       -\frac{633}{9}(z-2/5)\right\}
+       +\frac94Bz^{3/2}\right]\kappa^{3/2}+B\kappa^2.
+\]
+The coefficient in braces is positive for $2/5\leq z\leq1$.
+Consequently the price is separately convex in $\kappa$ and $z$.
+Each affine parameter rectangle $(u,t,\kappa,z)$ is therefore bounded
+by its $16$ vertex prices.  Independent exact-profile directed evaluation
+at $256$ bits gives, respectively,
+\[
+ 0.563356280368,\qquad 0.563648547036,\qquad 0.563686934863
+\]
+as rational upper bounds for the three vertex maxima.  These are strictly
+below the respective table caps.
+\end{proof}
+The restrictions on $t$ are restrictions on the actual projection norm $r$.
+These moving bands do not cover every $r$ at their listed amplitudes and
+do not by themselves bound the global operator norm.
+
+\begin{proposition}[Further certified source regions]
+\label{prop:r3-additional-source-regions}
+For $b=18/25$, use the physical parameters $u,r,\kappa$ of an odd
+Gaussian sign pair.  In every Gaussian dimension and for every
+admissible cubic tensor shape,
+\begin{gather*}
+ u\in[341/500,1381/2000],\quad 0\leq\kappa\leq1,
+ \quad r\geq1/5\\
+ \Longrightarrow\quad
+ \langle T_bf,g\rangle\leq\frac{563371}{10^6}<\frac{40}{71}.
+\end{gather*}
+There are also the following full-even-block bounds.  Put
+\[
+ t=r-\frac{389}{1000}+\frac95\left(u-\frac7{10}\right).
+\]
+Under the common restriction $-1/200\leq t\leq1/50$, the bounds are
+\[
+\begin{array}{c|c|c}
+ u&\kappa&\langle T_bf,g\rangle\text{ at most}\\\hline
+ {[.69,.70]}&[0,1]&551/1000\\
+ {[.70,.72]}&[0,1]&68/125\\
+ {[.70,.72]}&[0,2]&451/800
+\end{array}
+\]
+The first two table caps are below $40/71$; the last is $0.56375$.
+Every finite decimal here denotes its exact rational value.
+\end{proposition}
+\begin{proof}[Certificate proof]
+On $0\leq\kappa\leq1$, the accepted Stein row prices give
+\[
+ \mathbb E|Q|\leq\frac{830643632499}{10^{12}}
+ <\rho_1:=\frac{207661}{250000}.
+\]
+The support--source comparison with this cap, $a=9/5$, and
+$\lambda=0$ has directed right side below
+$1.649920196798<1649921/10^6$.  Thus every such physical
+source satisfies
+\[
+ r\leq\frac{1649921}{10^6}-\frac95u.
+\]
+The two accepted rank-one R3 profiles cover the source intervals
+\[
+ [1/5,199/500],\qquad[199/500,1649921/10^6-(9/5)u].
+\]  Their whole-line local proofs use
+constant reserve $1/50000$ and sixth-degree reserve $1/5000000$.
+Independent replay accepts all $21873$ compact scalar leaves and the
+exact tails starting at64.  Exact $y(r)$ transport and convex
+endpoint pricing on the two source polygons give respective maxima
+below $0.563249470254$ and $0.563370758117$, proving the first cap.
+The complete replay is recorded in
+\texttt{COMPLETE\_\allowbreak RESTRICTED\_\allowbreak DOMAIN\_\allowbreak REPLAY.json}.
+The outer extension is recorded in
+\texttt{independent\_\allowbreak finer\_\allowbreak amplitude\_\allowbreak extension.json}.
+
+For the table, the accepted full-even profile uses constant reserve
+$1/1000$ and sixth-degree reserve $1/10^6$.
+Its independent whole-line replay checks $56194$ partition events,
+$27636$ accepted leaves and $462$ exact physical-ellipsoid exclusions,
+then glues the exact tail beyond64.  The six matrix gates and
+$y(r)$ transport are exact.  Let
+$a_r=b-E_{00}+E_{02}^2/E_{22}<0$.  On each $(u,t)$ rectangle,
+product-corner interpolation incurs at most
+\[
+ (-a_r)\{(9/5)^2(\Delta u)^2+(\Delta t)^2\}/4.
+\]
+This follows because the mixed term is interpolated exactly and the
+variance of the affine source is $(9/5)^2\operatorname{Var}(u)+
+\operatorname{Var}(t)$; the positive $u^2$ term only improves the
+comparison.  Source prices are separately convex in $\kappa$ and
+the shared shape.  All48 vertex prices, including these reserves,
+have independent directed maxima below
+$0.550507802111$, $0.543476058131$, and $0.563687366986$.
+They prove the table caps; the record is
+\texttt{general\_r3\_source\_bands\_audit.json}.
+\end{proof}
+The first conclusion retains both $\kappa\leq1$ and $r\geq1/5$.
+The table retains its restrictions on $t$ and $\kappa$.
+Their union is a collection of physical-source regions, and does not
+establish complete amplitude coverage or a global operator norm bound.
+
+\begin{proposition}[Exact transport to a smaller cubic coefficient]
+\label{prop:smaller-b-transport}
+Freeze a valid physical Gaussian profile at $b_0>0$, including its
+whole-line local and scalar majorants.  For every $0<b\leq b_0$ all
+its positive semidefinite gates remain valid.  At the same physical
+parameters $(u,r,\kappa,\text{shape})$, the resulting pairing upper
+price changes exactly by
+\[
+ (b-b_0)r^2+c_\beta\left(\frac1b-\frac1{b_0}\right).
+\]
+Here $c_\beta=\beta^2$ for orthonormal longitudinal Hermites and
+$c_\beta=6\beta^2$ for raw longitudinal Hermites in the R3 criterion.
+No new local Gaussian integration is required.  In the first case
+the local potential changes only by its constant
+$\beta^2(1/b-1/b_0)$; in the second it is unchanged.
+\end{proposition}
+\begin{proof}
+Each gate at the smaller coefficient is the old gate plus a positive
+semidefinite diagonal matrix.  For example, the raw even gate gains
+$\operatorname{diag}(0,(b_0-b)/2)$, and the raw odd gates gain
+$\operatorname{diag}(0,(b_0-b)/6)$ or
+$\operatorname{diag}(b_0-b,0)$.  The normalized gates behave likewise;
+the independent gates $E\succeq pp^T$, $E\succeq0$, $R\succeq0$
+do not change.  The rank-one raw gate also weakens.
+
+The only remaining appearances of $b$ in the completed criterion are
+the source term $br^2$ and the longitudinal square-completion constant.
+The norm of the raw third Hermite is squared norm six, accounting for
+the displayed factor.  All source residual and scalar majorant terms
+are independent of $b$.  In the normalized native criterion the added
+local constant cancels out of the centered Stein target, so its Stein
+solution and all derivative inequalities remain the same.  Its added
+constant is simply charged in the outer expectation.  This proves the
+exact price identity.
+\end{proof}
+
+\paragraph{Uniform cell pricing and a global coefficient.}
+Suppose an old valid uniform cap $U_0$ covers a physical source cell
+$r\in[r_-,r_+]$ with $0\le r_-\le r_+$. Since $b-b_0\leq0$, the transported uniform cap
+\[
+ U_0+(b-b_0)r_-^2+c_\beta(1/b-1/b_0)
+\]
+is immediately valid.  For tighter endpoint repricing, the native
+source curvature changes to $\xi(b)=\xi(b_0)+b-b_0$, and the full-even
+R3 curvature changes to $a_r(b)=a_r(b_0)+b-b_0$.  Their respective
+chord reserves must be updated to
+\[
+ (-\xi(b))_+(r_+-r_-)^2/4,
+ \qquad (-a_r(b))_+(r_+-r_-)^2/4.
+\]
+Every such fixed-profile cell cap is convex in $b>0$.  A fixed
+selection of profiles covering all physical cells therefore gives a
+convex maximum of caps.  A norm certificate requires one coefficient
+$b$ valid for the entire cover.  Minimizing separately for each sign
+pair, at $b=\min\{b_0,\sqrt{c_\beta}/r\}$ when $r,c_\beta>0$,
+does not prove a bound for a single operator.
+
+\begin{theorem}[Complete amplitude branches at one coefficient]
+\label{thm:same-b7171-regions}
+Set $b_*=7171/10000$.  For every pair of odd Gaussian signs $f,g$,
+in every finite Gaussian dimension, put
+$u=\|P_1((f+g)/2)\|_2$.  Then
+\[
+ \langle f,T_{b_*}g\rangle\le
+ \begin{cases}
+ 56338/10^5,&0\le u\le1381/2000,\\[2pt]
+ 563315250991/10^{12},&31/40\le u\le\sqrt{2/\pi}.
+ \end{cases}
+ \qquad <\frac{40}{71}.
+\]
+Both conclusions include every physical source amplitude, cumulant
+and cubic tensor shape.
+\end{theorem}
+\begin{proof}[Certificate proof]
+All the profiles here use the single coefficient $b_*$.
+The elementary energy estimate with $\rho=847/1000$ gives
+\[
+ \langle f,T_{b_*}g\rangle
+ \le u^2+b_*\rho^2
+ \le\frac{7042043}{12500000}<\frac{40}{71}
+ \quad(0\le u\le541/2500),
+\]
+where the displayed cap conservatively uses $b=18/25$.
+Four previously replayed complete native frames, transported by
+Proposition~\ref{prop:smaller-b-transport}, cover
+$[.14,.42]$, $[.30,.485]$, $[.40,.54]$ and $[.50,.638]$.
+Their outward caps are respectively below
+$.561498051269$, $.562840841523$, $.563045009361$ and
+$.563207127166$.  The intervals overlap each other and the elementary
+branch.
+
+The exact native-frame union on $[.60,.682]$ consists of $30268$
+accepted cells and has maximum rational cap
+$563067382411/10^{12}$.  On $[.682,.6905]$, $9661$ accepted native
+cells and $41$ cells covered by the transported R3 profile have
+maximum cap $563379835873/10^{12}<56338/10^5$.
+The R3 replacement uses the independently replayed $11470+88$
+compact leaves and exact tail beyond64, with constant and sixth-degree
+reserves $1/50000$ and $1/5000000$.
+
+For completeness of these source unions, the support--source proof
+of \eqref{eq:Rrho} applies with the freshly proved $\rho=.847$.
+For each amplitude subinterval $[u_-,u_+]$, its source grid covers
+\[
+ 0\le r\le R_{.847}(u_-),
+\]
+an outward bound on the entire physical source range because
+$R_{.847}$ is decreasing.  The cumulant intervals partition $[0,90]$.
+Native prices are affine in the variance shape $s\in[0,1]$;
+the R3 coordinate is exactly $z=2/5+(3/5)s\in[2/5,1]$.
+Every cell has either one complete native bound or one same-coefficient
+R3 bound.  Exact positive source chords and quadratic source maxima,
+including interior vertices, cover its full continuous interior.
+Independent price replays check $2240$ and $1344$ native endpoint
+prices in these two unions, all selected profile hashes, and the
+sixteen R3 replacement corners.  A separate exact verifier checks
+all $112+42$ amplitude--cumulant groups and every gap-free source
+partition.  This proves the first branch.
+
+The upper native union on $[.775,.797885]$ has $5096$ cells and
+maximum cap $563315250991/10^{12}$; its independent replay checks
+$1568$ endpoint prices and the same exhaustive physical-source
+partitions.  Finally $u\le\sqrt{2/\pi}<.797885$.
+The complete union records are
+\texttt{native\_\allowbreak lower\_\allowbreak base\_\allowbreak b7171\_\allowbreak target\_\allowbreak union.json},
+\texttt{native\_\allowbreak R3\_\allowbreak b7171\_\allowbreak u682\_\allowbreak 6905\_\allowbreak union.json}, and
+\texttt{native\_\allowbreak upper\_\allowbreak b7171\_\allowbreak target\_\allowbreak union.json}; their frozen
+input hashes are checked in
+\texttt{same\_\allowbreak b\_\allowbreak native\_\allowbreak R3\_\allowbreak glue\_\allowbreak audit.json} and the independent
+native price replay ledgers.
+\end{proof}
+The uncovered amplitude range for this theorem alone is
+$1381/2000<u<31/40$.  The theorem is an upper bound for the indicated
+pairings, and does not by itself bound the unrestricted operator norm.
+
+% Standalone analytic fragment. No numerical coverage is asserted here.
+\begin{lemma}[Exact pricing on physical source polygons]
+\label{lem:physical-source-polygon-price}
+Fix an amplitude interval $[u_-,u_+]$, a source interval $[r_-,r_+]$,
+and a cumulant interval. Suppose that, throughout the cumulant interval
+and for every allowed shape, proved scalar inequalities imply
+\[
+ a_j u+r\le C_j,\qquad a_j>0\quad(1\le j\le m).
+\]
+Let $K$ be the intersection of these half-planes with the amplitude--source
+rectangle, after any separately proved coordinate restrictions.
+For rational inputs its vertices and the maximum on $K$ of
+\[
+ F(u,r)=u^2+L_u u+g r^2+L_r r+C
+\]
+are computable using rational arithmetic. For a nonempty $K$, it suffices
+to check its vertices and, on each edge, the stationary point in the edge
+interior when the restricted quadratic is concave. This includes segments
+and singletons. An empty intersection contains no physical source.
+
+For a native certificate interpolated in $r$, first split $K$ at every
+source knot. On each resulting piece apply this rule to each of the four
+cumulant--shape corner bounds, and take the maximum of the resulting
+bounds. A fixed nonnegative contact multiplier may be included by changing
+only $L_u,L_r,C$.
+\end{lemma}
+\begin{proof}
+Every defining half-plane contains every physical source in the nominal
+rectangle, so intersection and coordinate clipping preserve all physical
+points. Rational line intersections give all vertices, retaining points
+on the boundaries. If a full-dimensional polygon had a maximizing point
+in its interior, sufficiently small horizontal displacements would stay
+in the polygon. Their two objective values have average
+$F(u,r)+\delta^2$, contradicting maximality. Thus its maximum lies on its
+boundary. On the edge $(u,r)=(u_0,r_0)+t(\Delta u,\Delta r)$,
+$0\le t\le1$, the quadratic coefficient is
+$(\Delta u)^2+g(\Delta r)^2$. Endpoints suffice when this coefficient is
+nonnegative; otherwise also check the unique stationary point if it lies
+in $(0,1)$. All these operations are rational. The same calculation covers
+the lower-dimensional cases.
+
+A native source chord is valid only between successive saved knots.
+Splitting at every knot therefore retains its validity on each closed
+piece; shared boundaries have both valid endpoint bounds. For each fixed
+cumulant--shape corner the chord changes only the linear and constant
+coefficients in $r$. The already proved corner inequalities and positive
+interpolation uniformly bound the whole cumulant--shape cell. Taking the
+maximum over the four corner prices and all source pieces gives a uniform
+bound. The scalar row chosen at a source endpoint is fixed throughout its
+cumulant--shape cell; different endpoints may use different globally
+valid scalar rows.
+
+For a contact with parameters $a,B$, put $d^2=6B^2$ and let $A$ be its
+uniform scalar price. The nonnegative multiplier $\lambda$ adds
+\[
+ -\lambda a u-\lambda r+
+ \lambda\left(A+\frac{\beta d}{b}\right)
+ +\frac{\lambda^2d^2}{4b}.
+\]
+Here $\beta$ is the normalized native Hermite coefficient; for a raw
+Hermite R3 profile the product $\beta d$ is $6\beta_{\rm raw}B$.
+The coefficient of $u^2$ remains one, so the same boundary computation
+applies. The multiplier and scalar contact are fixed on the whole
+cell. Selecting any one of several proved upper bounds on each cell
+preserves validity.
+\end{proof}
+
+\paragraph{Uniform source planes.}
+For the accepted even sextic scalar rows, the moment price is affine in
+shape and convex in cumulant: the sextic coefficient is nonnegative and
+the coefficient multiplying $\kappa^{3/2}$ is positive throughout the
+shape interval. Hence the largest of the four endpoint prices is a
+uniform $C_j$. A single fixed scalar row is used for each plane over the
+whole cumulant interval. Taking the smallest uniform price among several
+such rows is valid; taking separate minima at the four corners would
+require a separate justification.
+
+
+\begin{proposition}[Base scalar certificate at $.713$]
+\label{prop:base-final29-713}
+Set $\widehat b=713/1000$. Then
+\[
+ \N(\widehat b)\le\widehat B:=\frac{35245449}{62500000}
+ =.563927184.
+\]
+Consequently the explicit reduced rational matrix sequence has actual limit
+\[
+ \lim_{n\to\infty}G(H_n(\widehat b))
+ =\frac1{\N(\widehat b)}
+ \ge\frac{62500000}{35245449}
+ =1.7732785869744488\ldots .
+\]
+The rational reciprocal is an unconditional lower bound for
+$G_{\mathbb R}$. The scalar certificate does not assert
+$\N(\widehat b)=\widehat B$.
+\end{proposition}
+\begin{proof}[Certificate proof]
+All branches use the same coefficient $\widehat b$. The independently
+verified lower-amplitude ledger covers $u\in[0,1381/2000]$ with bound
+$563295214999/10^{12}<\widehat B$. It combines the low-energy branch,
+four transported regional frames and two complete native--R3 source
+unions. The exact transfer from $\bar b=7171/10000$ is
+\[
+ (\widehat b-\bar b)r^2+
+ \beta_{\rm norm}^2(1/\widehat b-1/\bar b),
+\]
+where $\beta_{\rm norm}^2=6\beta_{\rm raw}^2$ for an R3 profile.
+The selected source unions retain the nonpositive first term; the
+spectral gates remain valid at the smaller coefficient. The lower
+ledger checks all $39929$ native cells and $41$ R3 cells in these two
+unions, along with the four earlier regional frames.
+
+The original upper cover has $25$ amplitude bands on
+$[1381/2000,159577/200000]$ and $56$ cumulant bands on $[0,90]$.
+The endpoint $159577/200000$ exceeds the maximum physical amplitude
+$\sqrt{2/\pi}$. Every one of its $1400$ groups covers every physical
+source from zero to an outward $R_{.847}(u_-)$ endpoint, with all shapes
+included. Native shape $s\in[0,1]$ corresponds exactly to
+$z=2/5+(3/5)s$ for the R3 prices. Directed checks verify all $25$
+original source-grid upper endpoints and $250$ inverse clips.
+Nineteen initial R3 profiles give $1064$ cumulant-band constants,
+checked at all $4256$ cumulant--shape corners. Seven native tables
+have $11648$ independently checked baseline endpoint prices, followed
+by the exact transfer above. Their source quadratics also gain
+$\widehat b-\bar b$.
+
+Each cumulant band has ten proved uniform positive-head source planes.
+The $560$ planes and their moment corner prices are independently
+verified. Of the original $255360$ source cells, $253282$ retain
+upper prices and $2078$ are exactly empty. The producer-free exact
+replay checks every original interval, selected polygon or containing
+rectangle, native radial knot and concave edge stationary point, using
+Lemma~\ref{lem:physical-source-polygon-price}. It reconstructs all
+selected contact and ordinary prices and accounts for every original
+cell exactly once.
+
+Three additional independently accepted whole-line profiles strengthen
+$1069$ prices on the identical cover. An exact amplitude refinement
+then replaces $2814$ difficult parent cells by $27340$ child intervals:
+$20749$ are nonempty and $6591$ are exactly empty. The other $250468$
+price cells remain unchanged. Each child inherits its parent's proved
+source restrictions; its clipped polygon and selected price are checked
+independently. The old parent bound is retained as an option. Five
+further accepted whole-line profiles then strengthen prices on this
+same refined cover in three successive monotone stages, changing
+$2397$, $27889$ and $2428$ prices respectively. Their $224$, $448$ and
+$448$ new cumulant--shape corner prices are independently recomputed.
+The resulting $27$-profile cover has $271217$ price cells and $8669$
+exact empty cells.
+
+Finally, introduce a $68$-point cumulant grid while retaining every
+previous bound. Only $364$ difficult parents are split, giving an exact
+partition into $1794$ cumulant children. Of these, $1726$ retain prices
+and $68$ are exactly empty; the remaining $270853$ price cells are
+unchanged. Seven native endpoint tables on this finer grid have $13936$
+independently checked baseline corner prices, transported exactly to
+$\widehat b$. Fourteen new cumulant bands use ten fixed positive-head
+planes each, chosen from the already proved $60$-row analytic bank.
+All $140$ planes are independently checked at their $560$ moment
+corners. Their intersections contain every physical child point.
+An exact replay verifies every child cumulant partition and complete
+clipped polygon. It reconstructs $1110$ newly selected native prices,
+splitting every radial knot and including every concave edge stationary
+point; the other $616$ nonempty children retain their valid parent bounds.
+No new R3 constant is needed in this last refinement.
+
+Two final independently accepted whole-line profiles are added on
+this identical cumulant-refined cover. They strengthen $691$ and $343$
+prices respectively, while retaining every prior bound. Each new profile
+has $280$ independently recomputed cumulant--shape corner prices on
+the mixed collection of original and refined bands. An exact replay
+reconstructs every changed polygonal or rectangular price and verifies
+that all other cell records and all empty cells are unchanged.
+
+The final complete upper cover thus contains $272579$ price cells and
+$8737$ exact empty cells. Its maximum recorded price is
+\[
+ \frac{4511417459}{8\cdot10^9}<\widehat B.
+\]
+\begingroup\raggedright
+The frozen source is
+\texttt{global\_\allowbreak upper\_\allowbreak b713\_\allowbreak native\_\allowbreak kappa68\_\allowbreak twentyninebank\_\allowbreak envelope.json.gz},
+with SHA-256
+\texttt{ea763375a19e63a49174bcf18975c948ab188f993edfb471014cbb2bfec04d2d}.
+The final independent reconstruction is
+\texttt{fullupper\_\allowbreak b713\_\allowbreak native\_\allowbreak kappa68\_\allowbreak twentyninebank\_\allowbreak monotone\_\allowbreak audit.json};
+it binds the complete chain of accepted parent covers and replay hashes.
+\par\endgroup
+These upper and lower branches therefore bound every odd sign pairing
+in every finite Gaussian dimension. Negating one sign gives the absolute
+norm bound. The established Gaussian-to-matrix convergence and exact
+ratio-preserving reductions give the actual matrix limit and lower bound.
+\end{proof}
+
+\begin{theorem}[Complete transported scalar certificate]
+\label{thm:final-preferred-polygon}
+Set $\widehat b=711/1000$. Then
+\[
+ \N(\widehat b)\le\widehat B:=\frac{112782853}{2\cdot10^8}
+ =.563914265.
+\]
+Consequently the explicit reduced rational matrix sequence has actual limit
+\[
+ \lim_{n\to\infty}G(H_n(\widehat b))
+ =\frac1{\N(\widehat b)}
+ \ge\frac{2\cdot10^8}{112782853}
+ =1.7733192119195636\ldots .
+\]
+The rational reciprocal is an unconditional lower bound for
+$G_{\mathbb R}$; the norm need not equal its certified cap.
+\end{theorem}
+\begin{proof}[Coefficient transport]
+Retain the complete upper physical partition and every selected frozen
+criterion from Proposition~\ref{prop:base-final29-713}, at
+$b_0=713/1000$. Amplitude, source, cumulant, shape and all physical
+source restrictions are independent of the operator coefficient.
+All $8737$ empty cells therefore remain empty.
+
+For an ordinary frozen criterion let $\beta_i$ be its normalized
+longitudinal coefficient: it is the recorded native coefficient, or
+$\sqrt6$ times the recorded raw R3 coefficient. Its pointwise price
+changes by
+\[
+ (\widehat b-b_0)r^2+
+ \beta_i^2(1/\widehat b-1/b_0).
+\]
+For a fixed head-contact criterion, with multiplier $\lambda_i\ge0$
+and head $a_cZ+B_cH_3(Z)$, put $d_c=\sqrt6B_c$. Completing the same
+longitudinal square gives instead
+\[
+ (\widehat b-b_0)r^2+
+ (\beta_i+\lambda_i d_c/2)^2
+       (1/\widehat b-1/b_0).
+\]
+Thus the ordinary case is included by taking $\lambda_i=0$.
+These identities follow by grouping the longitudinal cost
+$\beta_i^2/b$, its contact cross term
+$\lambda_i\beta_i d_c/b$ and the contact square cost
+$\lambda_i^2d_c^2/(4b)$. All other frozen prices are unchanged.
+All spectral matrix gates are checked at the smaller coefficient.
+
+Let $a_i$ be the accepted old upper price and $r_{i,-}$ its source
+cell's lower endpoint. Since $\widehat b-b_0<0$ and every physical
+point in that cell satisfies $r\ge r_{i,-}\ge0$, a valid new uniform
+price is
+\[
+ a_i+(\widehat b-b_0)r_{i,-}^2+
+ (\beta_i+\lambda_i d_c/2)^2(1/\widehat b-1/b_0).
+\]
+An inherited parent bound is treated in precisely the same way, using
+its original frozen criterion and multiplier; it already bounds every
+physical child point. The coefficient $\widehat b$ is fixed throughout
+all cells and is not chosen separately for different sign pairs.
+
+An independent producer-free replay reconstructs all $43$ exact
+profile bindings, verifies the target spectral gates and evaluates
+these shifts on every one of the $272579$ price cells. The final assigned mosaic has $272557$ ordinary cells and $22$ R3
+contact cells. Every one of their transport shifts is rational and is
+computed exactly. The maximum rounded shifted price is
+\[
+ \frac{563914263671}{10^{12}}<\widehat B.
+\]
+The source is the hash-bound
+\texttt{assigned\_\allowbreak twenty-nine\_\allowbreak coefficient\_\allowbreak scan.json};
+the exhaustive independent cell replay is
+\texttt{assigned\_\allowbreak b711\_\allowbreak shifted\_\allowbreak cells\_\allowbreak audit.json}.
+The separately verified complete lower-amplitude branch at the same
+coefficient, $u\in[0,1381/2000]$, has upper bound
+$563307766601/10^{12}<\widehat B$. It includes the elementary branch,
+four earlier regional frames and both complete lower source unions.
+Together the transported upper and lower covers contain every physical
+odd sign pair in every finite Gaussian dimension. Negating one sign
+gives the absolute norm bound. Gaussian-to-matrix convergence and the
+exact ratio-preserving reductions give the stated actual matrix limit.
+\end{proof}
+
+\section{Consequences for search and reflection representations}
+The sequence lies in the full absolute doubly stochastic class. Formula \eqref{eq:final-sequence}
+now performs that conversion. Evaluate the copies on their smaller seed,
+merge proportional rows and columns with their total absolute weights,
+and quotient signed row/column permutations.
+
+At fixed order, decompose $|B|$ into a convex combination of permutation
+matrices and restore the fixed entry signs, giving signed permutations
+with simplex weights and no cancellation. A signed left permutation
+fixes the first term to the identity. Disconnected support ratios are
+$C$-weighted component averages, so keep a best component. A balanced
+cycle-sign support gauges to a nonnegative matrix and has ratio one.
+For two signed permutations with weights $t,1-t$, each nontrivial
+component is an alternating cycle on $k\ge2$ rows and $k$ columns.
+A frustrated cycle has $C=k-2\min(t,1-t)$ and
+\[
+ V\le k\sqrt{1-4t(1-t)\sin^2(\pi/(2k))}.
+\]
+To see the latter bound, gauge its matrix to $tI+(1-t)S$, where the
+signed cyclic permutation has $S^k=-I$, and use $V\le k\|\cdot\|_{\rm op}$.
+For $0\le t\le1/2$ the squared ratio is increasing, since
+$k\sin^2(\pi/(2k))\le1$. Its maximum is at most
+$k\cos(\pi/(2k))/(k-1)$, which is $\sqrt2$ at $k=2$ and at most
+$3/2$ for $k\ge3$. Thus a search near $1.775$ needs frustrated cycles
+and at least three permutation terms; this does not assert that three suffice.
+
+A weighted-reflection representative is also explicit. Since $|H_n|$
+is doubly stochastic, $\norm{H_n}_{\mathrm{op}}\le1$. If its order is
+$M_n$, put
+\[
+ U_n=\begin{pmatrix}H_n&(I-H_n^2)^{1/2}\\
+                     (I-H_n^2)^{1/2}&-H_n\end{pmatrix},\quad
+ P_n=(I-U_n)/2,\quad D_n=\operatorname{diag}((2/M_n)I_{M_n},0).
+\]
+Then $P_n=P_n^T=P_n^2$, its diagonal is $1/2$, and
+\[
+ D_n-2D_n^{1/2}P_nD_n^{1/2}=(2/M_n)H_n\oplus0.
+\]
+Its ratio is unchanged. Zero auxiliary weights are essential to this
+universal representation. Strictly equal positive weights on every
+coordinate would give an orthogonal matrix, whose ratio is at most
+$\pi/2$, and would wrongly exclude the target. Indeed, for an orthogonal matrix $O$ of order $m$, $V(O)\le m$.
+Gaussian signs of $Z_i$ and $(O^TZ)_j$ give
+\[
+ C(O)\ge\frac2\pi\sum_{ij}O_{ij}\arcsin(O_{ij})
+ \ge\frac2\pi\sum_{ij}O_{ij}^2=\frac{2m}\pi,
+\]
+so $G(O)\le\pi/2$.
+
+\begin{thebibliography}{9}
+\bibitem{saha} R. Saha, A. Li, A. Xue, S. Chaudhuri, A. Klivans,
+P. K. Kothari and R. Meka, \emph{New Lower and Upper Bounds for the
+Grothendieck Constant}, arXiv:2608.11158v2, 2026.
+\bibitem{baseline} Retained project report,
+\emph{Real Grothendieck continuation}, September 30, 2026,
+Theorem 3 and its inherited analytic premises.
+\bibitem{maps} Retained project report,
+\emph{Matrix invariance and stochastic normalization}, September 30,
+2026; independently reconstructed reductions in this continuation.
+\bibitem{history} Recovered matrix-mining sign certificates and
+ \emph{Baseline and transfer review}, October 1, 2026, included in the
+source package. The fixed-coefficient sign witnesses have fresh directed numerical replays;
+the historical global norm cover remains a separate premise.
+\bibitem{songnote} \emph{Grothendieck 177128}, preceding delivered
+note and source package, October 1, 2026. Its endpoint depends on the
+cited Song--Yue uniform norm theorem and the stated nonlinear-cover scope.
+\bibitem{HJM} S. Heilman, C. Jones and G. Malavolta,
+\emph{Sharper Bounds for the Complex Grothendieck Constant},
+arXiv:2609.25462v1 (2026), equation (8.12). The tensor identities used
+here are also freshly checked by connected Wick diagrams.
+\end{thebibliography}
+
+\appendix
+\section{Exact tensor comparison}\label{app:tensor}
+We give the finite acceptance rules for \eqref{eq:633scalar}.
+Set $x=1-y$ and $z=1-a$. Each of 84 leaves specifies a closed rational
+rectangle in $[0,1]^2$, one of the upper bounds \eqref{eq:J}--\eqref{eq:M},
+and rational tangent parameters. For $t>0$ the inequalities
+\[
+ \sqrt X\le(X+t^2)/(2t),\qquad
+ \sqrt{XY}\le(tX+Y/t)/2
+\]
+replace square roots by polynomial upper bounds. For a cube $X^{3/2}$
+multiply the first inequality by $X\ge0$.
+Choose rational $y_0\in[0,1]$ and $l_0>0$ with
+$l_0^2\ge1+3y_0^2/2$. Cauchy--Schwarz gives
+\[
+ \sqrt d\ge L(y)=(1+3y_0y/2)/l_0.
+\]
+The bracket $[(K+422/15)d-211/3]$ is positive, since its minimum
+is $K-211/5>0$. It is enough to show that the selected polynomial upper
+bound for $\mathcal M$ or $\mathcal J$ is at most this bracket times
+$L(y)$.
+
+The dedicated equality-corner rectangle is
+$x,z\in[0,2^{-19}]$. It uses $(p,q)=(3/4,-1)$ and
+$L(y)=(2+3y)/\sqrt{10}$. Here
+$(1-y^2)^{3/2}\le(1-y^2)/512$; tangent parameters $7/4$ and $1$
+handle the remaining roots. This retains equality at the corner.
+
+Each difference polynomial has degree at most $(4,4)$ over
+$\mathbb Q(\sqrt{10})$. After substitution of the affine rectangle
+coordinates, let $c_{kl}$ be its power coefficients. Its Bernstein
+coefficients are
+\[
+ b_{ij}=\sum_{k\le i,\,l\le j}c_{kl}
+ \frac{\binom ik}{\binom4k}\frac{\binom jl}{\binom4l},
+ \qquad 0\le i,j\le4.
+\]
+Every coefficient is nonnegative. The sign of $r+s\sqrt{10}$ is
+decided by rational sign cases and comparisons of $r^2$ with $10s^2$.
+Since the Bernstein basis is nonnegative and sums to one, the 25 checks
+prove the entire rectangle. The leaf counts are 21, 36 and 7 for the
+first three $\mathcal J$ bounds, 1 and 18 for the two Gram branches,
+and 1 for the dedicated corner: 84 rectangles and 2100 coefficients.
+
+The rectangles lie within the square, have pairwise disjoint interiors,
+and have exact total area one. Their finite closed union covers the square:
+an omitted point would have a relatively open neighborhood of positive
+area. This checks every boundary as well as the interior. Two independent
+programs reconstruct the polynomials from the formulas. Neither imports
+the producer's coefficient lists or the older 99-rectangle data.
+
+\section{Whole-line scalar certificates}\label{app:stein}
+All parameters of \eqref{eq:regression} and \eqref{eq:stein-majorant}
+are frozen in exact rational row files. The rows and complete cumulant
+cover are shown below; displayed prices are rounded upward, while
+acceptance uses directed rational enclosures.
+\begin{center}\small
+\begin{tabular}{lll}
+Row & Cumulant interval & Corner price upper\\\hline
+$0$ & $[0,39/100]$ & $.825942224105$\\
+$2$ & $[39/100,39/25]$ & $.839598147439$\\
+$3$ & $[39/25,4]$ & $.847061071421$\\
+$4$ & $[4,34/5]$ & $.847358899934$\\
+$k8$ & $[34/5,48/5]$ & $.848520760642$\\
+$5$ & $[48/5,76/5]$ & $.848507934475$\\
+$6$ & $[76/5,28]$ & $.846999761374$\\
+$7$ & $[28,90]$ & $.838404593017$\\\hline
+\end{tabular}
+\end{center}
+For each row, 512-bit outward Arb arithmetic and fourth-order Taylor
+bounds verify the entire compact interval $[0,64]$ on an adaptive rational
+partition. Mills' ratio is enclosed at the endpoints, and $R'=xR-1$
+generates the needed Taylor coefficients.
+For $x\ge64$, $0\le1-xR(x)\le x^{-2}$ and convexity of the square
+reduce the comparison to two rational polynomial tests. Clearing the
+positive denominators and substituting $x=64+t$ gives nonnegative
+coefficients and positive constants, proving the complete unbounded tail.
+Evenness supplies the negative half-line.
+
+The independent verifier uses direct Chebyshev recurrence, 768-bit
+arithmetic and sixth-order Taylor bounds on $[0,80]$, followed by a
+separately reconstructed exact tail at 80. It also independently assembles
+all 32 prices in \eqref{eq:cornerprices}. A further checker reconstructs
+the 16 tail comparisons and 32 corner prices without importing either
+scalar implementation. Complete comparisons, rather than sampled maxima,
+are the acceptance criterion.
+
+\section{Polynomial certificate for the cubic source gate}\label{app:cubic-source}
+The third numerator in Proposition~\ref{prop:cubic-source} is explicitly
+\begin{align*}
+ P_3={}&A^6/8+A^5B(3w/2+21/4)\\
+ &+A^4B^2(57w^2/8+195w/4+84)\\
+ &+A^3B^3(17w^3+339w^2/2+540w+504)\\
+ &+A^2B^4(171w^4/8+549w^3/2+1194w^2+1728w)\\
+ &+AB^5(27w^5/2+837w^4/4+1116w^3+1980w^2)\\
+ &+B^6(27w^6/8+243w^5/4+378w^4+756w^3).
+\end{align*}
+Every coefficient is nonnegative for $A>0$, $B,w\ge0$.
+Thus this finite identity establishes the derivative sign on the entire
+half-line; no numerical Gaussian quadrature is used.
+As an exact example, take $A=97/40$, $B=1/6$. Then
+\[
+ a=117/40,\quad d=\sqrt6/6,\quad
+ (q_0,q_2,q_4,q_6)=
+ \left(\frac{331}{120},\frac{20}{97},
+ -\frac{1096000}{265587843},
+ \frac{106274560000}{727184560303017}\right).
+\]
+At $\kappa=53/100$, $u=151/200$, $v=-1/4$, the two variance
+endpoints give the directed source caps
+\[
+ r<252844293/10^9 \quad(V=7\kappa/45),\qquad
+ r<250945617/10^9 \quad(V=2\kappa/9).
+\]
+The same affine shape interpolation applies between them.
+These conditional examples illustrate the gate; $v=-1/4$ is not assumed
+for arbitrary optimizing signs. Independent exact polynomial and directed
+price implementations verify the recurrence, integration constants and
+two rational caps.
+
+\section{Complete continuous regional certificates}\label{app:regional}
+For $T=P_1-(18/25)P_3$, odd signs $f,g$, and
+$u=\|P_1((f+g)/2)\|_2$, the following complete certificates give
+the displayed bounds on $\langle f,Tg\rangle$:
+\begin{center}
+\begin{tabular}{c|r|r|c}
+amplitude interval & local boxes & scalar rows & rational upper cap\\ \hline
+$[7/50,21/50]$ & $63681$ & $24$ & $561523/10^6$\\
+$[3/10,97/200]$ & $61829$ & $24$ & $562857/10^6$\\
+$[2/5,27/50]$ & $58841$ & $24$ & $563039/10^6$\\
+$[1/2,319/500]$ & $151929$ & $24$ & $563266/10^6$\\
+$[3/5,331/500]$ & $153593$ & $24$ & $563302/10^6$\\
+$[331/500,341/500]$ & $627497$ & $24$ & $563367/10^6$\\
+$[77/100,159577/200000]$ & $53541$ & $24$ & $563334/10^6$
+\end{tabular}
+\end{center}
+Every cap is strictly below $40/71$.
+The respective directed totals are below
+$0.561522410$,
+$0.562856131$, $0.563038808$, $0.563265432$,
+$0.563301723$, $0.563366577$, and $0.563333793$.
+The first profile uses the universal transverse bound $r\le849/1000$
+and therefore remains valid throughout its extended amplitude interval.
+The other extensions are checked against the outward source endpoint.
+The outer polynomial $u^2-2\ell u+C$ is convex, so rational endpoint
+checks cover each entire interval.
+
+Each certificate has an optimizer-free, directed-arithmetic replay of
+all physical moment boxes, scalar compact leaves, infinite scalar tails,
+the five matrix gates, and the continuous cumulant, shape, and source
+interpolations. Infinite tails explicitly begin beyond every target and
+regression hinge. Local height and scalar coefficient repairs are fully
+priced. These are regional norm bounds; amplitudes outside the stated
+coverage still require certification before a new unrestricted norm cap
+or Grothendieck lower endpoint follows.
+The primary union is $[.14,.682]\cup[.77,\sqrt{2/\pi}]$.
+The separately proved low-energy branch covers $[0,.14]$.
+Thus the presently unclosed target amplitude interval is $(.682,.77)$.
+The earlier, tighter bound $9/16$ on $[.79,\sqrt{2/\pi}]$ and its
+original portable certificate are retained as supplementary results.
+
+\section{Original-degree accounting for the sign witness}\label{app:witness}
+In this appendix $H_j=\operatorname{He}_j/\sqrt{j!}$ denotes the
+orthonormal longitudinal Hermite polynomial.
+The central limit theorem for $Y_N$ alone does not justify assigning it
+ordinary Hermite degree one. Each summand has original degree three.
+Here we verify all projections used in \eqref{eq:new-witness}.
+
+First replace the sign by a bounded smooth approximation with bounded
+derivatives. Expand in one transverse summand $H_3(X_i)/\sqrt N$.
+Orthogonality and parity give
+\[
+ \E[H_1H_3]=\E[H_1H_3^2]=\E[H_2H_3]=0.
+\]
+Taylor expansion therefore makes the $H_1(X_i)$ coefficient
+$O(N^{-3/2})$ and the $H_2(X_i)$ coefficient $O(N^{-1})$.
+The $H_3(X_i)$ coefficient is
+$N^{-1/2}\E\partial_y f+O(N^{-3/2})$.
+Expand separately in distinct transverse coordinates for mixed terms.
+The complete list of original-degree-one and degree-three basis types is
+\begin{center}\small
+\begin{tabular}{lcc}
+Basis type & Coefficient order & Summed squared energy\\\hline
+$H_1(Z)$ & $\to m_1$ & retained\\
+$H_1(X_i)$ & $O(N^{-3/2})$ & $O(N^{-2})$\\
+$H_3(Z)$ & $\to m_3$ & retained\\
+$H_2(Z)H_1(X_i)$ & $O(N^{-3/2})$ & $O(N^{-2})$\\
+$H_1(Z)H_2(X_i)$ & $O(N^{-1})$ & $O(N^{-1})$\\
+$H_1(Z)H_1(X_i)H_1(X_j)$ & $O(N^{-3})$ & $O(N^{-4})$\\
+$H_3(X_i)$ & $N^{-1/2}m_Y+o(N^{-1/2})$ & $\to m_Y^2$\\
+$H_2(X_i)H_1(X_j)$ & $O(N^{-5/2})$ & $O(N^{-3})$\\
+$H_1(X_i)H_1(X_j)H_1(X_k)$ & $O(N^{-9/2})$ & $O(N^{-6})$\\\hline
+\end{tabular}
+\end{center}
+The indices $i,j,k$ are distinct. For a fixed smooth approximation the
+orders are uniform in these indices; the last column counts every term
+of the displayed type. The ordinary central limit theorem and normal
+integration by parts identify the three retained moments.
+Reflection of $Y_N$ preserves $m_1,m_3$ and changes $m_Y$ to $-m_Y$.
+Thus the degree-one and degree-three cross-pairings tend respectively
+to $m_1^2$ and $m_3^2-m_Y^2$.
+
+Finally $q'(z)\ge511/200>0$. Conditional on $Y_N$, the normal density
+and this derivative bound give a small-band estimate
+\[
+ \Pr(|Y_N+q(Z)|\le\varepsilon)
+ \le\frac{2\varepsilon}{(511/200)\sqrt{2\pi}},
+\]
+uniformly in $N$. The same holds for the reflected witness.
+Consequently the smooth approximation can be removed uniformly in
+$L_2$; orthogonal projection is an $L_2$ contraction. This completes
+the limiting degree calculation. The exact witness parameters,
+directed compact integration and infinite-tail bounds are supplied in
+\texttt{reduced\_search/operator/cubic720/README.md} and the adjacent
+\texttt{cubic720\_norm\_witness.json}.
+
+\section{Reproduction, retained premises and proof status}\label{app:status}
+The source archive contains the exact row inputs, tensor rectangles,
+complete-halfline checkers, formal Wick enumeration, implicit matrix
+construction, independent audits, and directed MPFR numerator and sign
+witness calculations. The main checks can be run from the archive root:
+\begin{verbatim}
+python reduced_search/energy/633/certify_wick_identity.py
+python reduced_search/energy/633/discover_cover.py --replay
+python reduced_search/energy/633/independent_replay.py
+python reduced_search/energy/certify_stein_cubic_L1.py
+python reduced_search/energy/audit_stein_L1_independent.py
+python tonight/moments/certify_cubic_head_polynomial.py
+python tonight/theory/certify_numerator_rate.py
+python tonight/theory/certify_retained_finite_ratio.py
+python tonight/theory/certify_saha_benchmark.py
+python tonight/theory/certify_published_upper_rounding.py
+python tonight/operator/cubic_L1_refinement/refit847/verify_cover.py
+python tonight/audit/refit847/replay_complete_refit_cover.py
+python tonight/regional_certificates/u014_042/code/verify_region.py
+python tonight/regional_certificates/u030_0485/code/verify_region.py
+python tonight/regional_certificates/u040_054/code/verify_region.py
+python tonight/regional_certificates/u050_0638/code/verify_region.py
+python tonight/regional_certificates/u060_0662/code/verify_region.py
+python tonight/regional_certificates/u0662_0682/code/verify_region.py
+python tonight/regional_certificates/u077_c/code/verify_region.py
+python tonight/operator/projection/replay_R3_cell/verify_all.py
+python tonight/operator/projection/replay_accepted_R3/verify_all.py --quick
+python tonight/operator/preferred_global/verify_bundle.py
+python reduced_search/operator/cubic7171/certify_cubic7171_norm_witness.py
+python tonight/audit/replay_cubic7171_witness.py
+python tonight/audit/replay_selected_cubic_witnesses.py
+\end{verbatim}
+Python, python-flint and the system MPFR library suffice for these accepted
+checks; discovery programs have additional numerical dependencies.
+Files are bound by a SHA-256 manifest. Floating optimization identifies
+candidate inputs and is kept separate from proof outputs.
+
+For $b=.72$, directed evaluations of \eqref{eq:vector-bound} give
+\begin{center}\small
+\begin{tabular}{rr}
+$n$ & Certified vector numerator lower bound\\\hline
+32 & $.999159371292$\\
+128 & $.999947506710$\\
+1024 & $.999999179839$\\\hline
+\end{tabular}
+\end{center}
+These bounds are unconditional numerator estimates. A denominator bound
+valid for all sign pairs in every dimension is still required before
+\eqref{eq:finite-ratio} gives the target lower endpoint.
+
+The global cap in Theorem~\ref{thm:final-preferred-polygon}, inserted
+into \eqref{eq:finite-ratio} at $b=711/1000$, gives
+\begin{center}\small
+\begin{tabular}{rr}
+$n$ & Unconditional lower bound for $G(H_n(.711))$\\\hline
+32 & $1.771831610393$\\
+128 & $1.773226593281$\\
+1024 & $1.773317765118$\\\hline
+\end{tabular}
+\end{center}
+These displayed lower bounds converge to $200000000/112782853$.
+The actual ratio converges to $1/\N(.711)$, which may be larger.
+All finite rounding losses, including the total entry error $n^{-4}$,
+are charged by the directed checker
+\texttt{evaluate\_\allowbreak finite\_\allowbreak ratio.py}.
+
+For comparison, the retained $.699$ denominator premise already gives
+explicit finite members of the reduced sequence. Directed evaluation of
+\eqref{eq:finite-ratio}, with that premise stated separately, yields
+\begin{center}\small
+\begin{tabular}{rr}
+$n$ & Conditional lower bound for $G(H_n(.699))$\\\hline
+32 & $1.771523050434$\\
+128 & $1.772908047308$\\
+1024 & $1.772998563604$\\\hline
+\end{tabular}
+\end{center}
+These conditional finite lower bounds converge quantitatively to
+$1.773$; the actual ratio limit remains $1/\N(.699)$. These numbers
+use the earlier scalar norm premise and do not reprove it. The very large matrices are specified implicitly
+by their analytic seed and exact cloning maps.
+
+The inherited project estimate \eqref{eq:baseline} remains an
+explicit premise. Its 55-interval cover and inherited integrations are
+not reconstructed by the present archive. The exact reductions,
+asymptotic sequence, coupled cumulant theorem, cubic absolute-moment
+theorem, and support--source propositions above have their own fresh
+proofs and do not depend on that missing reconstruction.
+
+The conditional project lower endpoint is $1.773$, at distance $.002$ from
+$1.775$. The later $1.7712846852\ldots$ family was weaker and does not
+replace it. The fixed $.699$ construction has a directed ceiling
+$1.77440101857\ldots$; the fresh $.72$ ceiling is
+$1.77543615103\ldots$, and the fresh $.7171$ ceiling is
+$1.775462496412$. These ceilings bound the reciprocal-norm methods,
+not the unrestricted Grothendieck constant. The regional amplitude
+caps and the complete same-coefficient global envelope prove the fresh
+unconditional lower endpoint $1.7733192119\ldots$. They do not prove
+the stronger target norm estimate $\N(b)\le40/71$ at the remaining candidate coefficients.
+
+\end{document}

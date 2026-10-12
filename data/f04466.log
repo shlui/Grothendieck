@@ -1,0 +1,18 @@
+{"event": "local_replay", "node": 0, "total_boxes": 11655}
+{"event": "local_replay", "node": 10, "total_boxes": 145793}
+{"event": "local_replay", "node": 20, "total_boxes": 316755}
+{"event": "local_replay", "node": 30, "total_boxes": 418477}
+{"event": "local_replay", "node": 40, "total_boxes": 509395}
+{"event": "local_replay", "node": 50, "total_boxes": 595593}
+{
+  "status": "PASS_COMPLETE_LOCAL_AND_SCALAR_PRIMITIVES",
+  "operator": "P1-(18/25)P3",
+  "source_sha256": "d63dda2f23b04599d23fba2b77fe9102cad876cbfef55171ed42abb7188c883e",
+  "local_nodes": 51,
+  "scalar_rows": 24,
+  "scope": "Complete physical and scalar gates only. No regional or unrestricted norm cap is asserted; directed continuous cell pricing must be checked separately.",
+  "local_boxes_replayed": 595593,
+  "scalar_leaves_replayed": 10577,
+  "precision_bits": 512,
+  "seconds": 158.82869505882263
+}

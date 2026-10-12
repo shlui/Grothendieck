@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "profiles": [
+    {
+      "name": "new_moderate1_b711",
+      "label": "interval_new_moderate1_b711",
+      "branch": "lowerface",
+      "reserve0": "1/10000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate1_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/profile_interval_new_moderate1_b711.json",
+          "sha256": "19cb93418920d791a1cb11b02c6c991e09a852744dc66f1c32966d982ffbbb89"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate1_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/body_interval_new_moderate1_b711.json.gz",
+          "sha256": "b3921acf04b6520b9f12d8fae28b35658f4c1e6429a7afd5309a6a84e62d0299"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate1_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/exterior_interval_new_moderate1_b711.json.gz",
+          "sha256": "956f43e68adf8d7beef1a2676a509bc3b1464bb190d5404c85c51581e8fcb0bd"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate1_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/tail_interval_new_moderate1_b711.json",
+          "sha256": "87e8b18fc42926f82e00686bf488eeb3a68ed9e0d0983dd248d37785a9f7d016"
+        }
+      ]
+    },
+    {
+      "name": "new_moderate2_b711",
+      "label": "interval_new_moderate2_b711",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate2_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/profile_interval_new_moderate2_b711.json",
+          "sha256": "f78bf606f85588a5f0d9738f2046c44e30aa3096abd378d1a6caada6a17338d1"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate2_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/body_interval_new_moderate2_b711.json.gz",
+          "sha256": "9c7ebe9e2c415526482a001d310c163646fd2acb1a3d28791f929bf79302377d"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate2_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/exterior_interval_new_moderate2_b711.json.gz",
+          "sha256": "479cd74df2e78aa7b34e1db3cb7fc85b4ffbbfe66f07826154a88c90e86979cf"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate2_b711.json",
+          "alias": "new_round_2026-10-02/audit/moderate_source_boxes/input/tail_interval_new_moderate2_b711.json",
+          "sha256": "f021959cbed053fe6fabb32495880682def1bbb1d9fbb410250c56541ecae547"
+        }
+      ]
+    }
+  ]
+}

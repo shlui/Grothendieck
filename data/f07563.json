@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EXACT_CLIPPED_CONTACT_GLOBAL_MIDDLE_COVER",
+  "scope": "Complete physical middle interval; lower and upper same-b branches complete the global norm.",
+  "source": "tonight/recovery/profile_cover/global_middle_b7171_critical_ninebank_contact_envelope.json",
+  "source_sha256": "eb9410a67000ba887f7dc531915d7d8e1334c4f7078e0787dea272e75edc2a7e",
+  "operator_b": "7171/10000",
+  "amplitude_interval": [
+    "1381/2000",
+    "31/40"
+  ],
+  "u_bands": 16,
+  "kappa_bands": 14,
+  "complete_groups": 224,
+  "original_cells": 39662,
+  "accepted_price_cells": 39657,
+  "exact_physically_empty_cells": 5,
+  "directed_inverse_caps": 238,
+  "contact_corner_groups": 11,
+  "winners": {
+    "R3:lowr76": 27376,
+    "R3:rank70": 985,
+    "R3:rank68": 43,
+    "R3:full70": 113,
+    "native:tonight/recovery/profile_cover/repriced685_b7171_target_mask.json": 5214,
+    "native:tonight/recovery/profile_cover/lower662_b7171_functional_target_mask.json": 100,
+    "native:tonight/recovery/profile_cover/repriced700_b7171_target_mask.json": 3611,
+    "R3-contact:full70": 13,
+    "native-contact:tonight/recovery/profile_cover/repriced700_b7171_target_mask.json": 176,
+    "R3:diffuse7478": 9,
+    "native:tonight/recovery/profile_cover/critical0750_0760_b7171_endpoint_ledger.json": 621,
+    "R3:diffuse7505": 28,
+    "R3:highk7575": 21,
+    "R3:critical755": 46,
+    "native-contact:tonight/recovery/profile_cover/critical0750_0760_b7171_endpoint_ledger.json": 16,
+    "R3-contact:critical755": 12,
+    "R3-contact:highk7575": 9,
+    "native:tonight/recovery/profile_cover/core077_b7171_target_mask.json": 1264
+  },
+  "maximum_cell_cap": "141284707091/250000000000",
+  "strict_rational_cap": "56513883/100000000",
+  "cache_replay_status": "PASS_INDEPENDENT_NINEBANK_504_R3_CORNER_PRICES",
+  "convexity": {
+    "rank68": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "rank70": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "full68": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "full70": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "critical755": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "diffuse7478": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "diffuse7505": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "lowr76": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE",
+    "highk7575": "PASS_SEPARATELY_CONVEX_KAPPA_AND_SHAPE"
+  }
+}

@@ -1,0 +1,687 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\newcommand{\GR}{G_{\R}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\newcommand{\norm}[1]{\lVert #1\rVert}
+\newcommand{\cnorm}[1]{\lVert #1\rVert_{\mathrm{coef}}}
+\allowdisplaybreaks
+\title{New coupled moment bounds and a sharper real Grothendieck construction}
+\author{Research continuation}
+\date{30 September 2026}
+\begin{document}
+\setlength{\abovedisplayskip}{8pt}
+\setlength{\belowdisplayskip}{8pt}
+\setlength{\abovedisplayshortskip}{4pt}
+\setlength{\belowdisplayshortskip}{6pt}
+\maketitle
+\begin{abstract}
+We continue the real Grothendieck calculation. An exact completion into two matrix cubes strengthens the sixth-cumulant deficit coefficient from $315$ to $633$. A refitted whole-line scalar potential improves the moment price. A characteristic-function comparison supplies further third- and fifth-moment prices on the independent-Hermite boundary, and a qualitative closure theorem identifies the possible limiting laws near that boundary. For the upper bound, new polynomial covariance corrections cancel more of the nonlinear coefficients of a fixed Gaussian sign construction. All retained odd coefficients through degree $3001$ and the complete omitted tails are accounted for. The fully replayed upper endpoint is $1.780498480511303$. A complete outer refinement raises the lower endpoint from $1.77295$ to $1.773$, using explicitly retained analytic premises. The new enclosure still crosses the rounding boundary $1.775$, so three significant digits remain unresolved.
+\end{abstract}
+
+\section{The target and the two constructions}
+For a nonzero finite real matrix $A=(a_{ij})$, put
+\begin{equation}
+ D(A)=\max_{\varepsilon_i,\delta_j\in\{-1,1\}}
+ \left|\sum_{i,j}a_{ij}\varepsilon_i\delta_j\right|,
+ \qquad
+ V(A)=\sup_{\norm{v_i}=\norm{w_j}=1}
+ \left|\sum_{i,j}a_{ij}\ip{v_i}{w_j}\right|.
+\end{equation}
+The real Grothendieck constant is $\GR=\sup_A V(A)/D(A)$.
+The preceding saved complete enclosure was
+\begin{equation}\label{eq:inherited}
+ 1.77295\le\GR<1.781105856801334.
+\end{equation}
+It crosses the rounding boundary $1.775$. Thus a three-significant-digit conclusion cannot be obtained by rounding either endpoint or their midpoint. In the present range, proving $\GR\ge1.775$ while retaining an upper bound below $1.785$ would give the answer $1.78$.
+
+The two constructions have different roles. A dimension-independent upper bound $B$ for the Gaussian projection operator
+\begin{equation}\label{eq:cubic-operator}
+ T=P_1-\frac{699}{1000}P_3,
+ \qquad
+ \norm{T}_{\infty\to1}
+ =\sup_{|f|,|g|\le1}|\ip{Tf}{g}|
+\end{equation}
+gives the lower bound $\GR\ge B^{-1}$ by the Gaussian-to-finite-matrix transfer in the saved manuscript \cite{saved}. Here $P_j$ denotes orthogonal projection onto total Hermite degree $j$. A different construction produces pairs of signs whose expected product is a prescribed function of a vector inner product; that gives an upper bound for $\GR$.
+
+The newer moment bounds below help the first construction. The upper construction improves by mixing its correlation with additional analytic corrections. Improvements from different projection operators cannot be joined into one operator norm estimate. Likewise, a scalar moment improvement becomes a Grothendieck improvement only after the complete amplitude and source ranges have been covered for one operator.
+
+\section{An upper bound from almost linear correlations}
+Call an odd function $H$ admissible if, for any finite families of unit vectors, there are jointly defined random signs $\varepsilon_i,\delta_j$ with
+\begin{equation}\label{eq:admissible}
+ \E[\varepsilon_i\delta_j]
+ =\frac2\pi H(\ip{v_i}{w_j}).
+\end{equation}
+The normalization makes the ordinary Gaussian sign construction $H(t)=\arcsin t$ admissible. Tensor preprocessing and inverse-series rounding are classical ingredients \cite{Krivine,BMMN,NR}. For an absolutely summable power series, let $\cnorm{H}$ be the sum of the absolute values of its coefficients.
+
+\begin{lemma}[A finite comparison with complete errors]\label{lem:upper}
+Let $H_i$ be admissible and let $C_i(t)=\sum_m c_{i,m}t^m$ be finite odd polynomials with $\cnorm{H_i-C_i}\le E_i$. If rational weights $w_i\ge0$ sum to one and
+\begin{equation}\label{eq:upper-margin}
+ \sum_iw_ic_{i,1}
+ -\sum_{m\ge3}\left|\sum_iw_ic_{i,m}\right|
+ -\sum_iw_iE_i>\gamma>0,
+\end{equation}
+then $\GR\le\pi/(2\gamma)$.
+\end{lemma}
+\begin{proof}
+Choosing one common index with probabilities $w_i$ shows that $H=\sum_iw_iH_i$ is admissible. Its true coefficients $b_m$ satisfy $b_1-\sum_{m\ge3}|b_m|>\gamma$: the single complete coefficient allowance charges both the possible loss in $b_1$ and the possible increase of the remaining absolute coefficients.
+
+To justify the inverse step, start at zero and iterate the positive-coefficient equation
+\begin{equation*}
+ b_1Y=\gamma z+\sum_{m\ge3}|b_m|Y^m.
+\end{equation*}
+The coefficients increase, and their sums at $z=1$ remain at most one. The limiting series dominates the absolute coefficients of the formal inverse $H^{-1}(\gamma z)$. Signed tensor powers therefore realize $H^{-1}(\gamma\ip vw)$ as a cross inner product of vectors of norm at most one. Add separate orthogonal coordinates to make both norms one and apply \eqref{eq:admissible}. The resulting sign product has mean $(2\gamma/\pi)\ip vw$. For each realization, the scalar matrix sum is at most $D(A)$. Taking expectations yields $(2\gamma/\pi)V(A)\le D(A)$. Infinite tensor sums follow by Hilbert-space convergence.
+\end{proof}
+
+The absolute values in \eqref{eq:upper-margin} are taken after mixing. This retains cancellations between different correlations. Taking absolute values separately would discard the improvement.
+
+An odd polynomial $p(t)=\sum_jq_jt^{2j+1}$ with $\sum_j|q_j|\le1$ is realized by the two tensor maps
+\begin{equation*}
+ v\longmapsto\bigoplus_j\sqrt{|q_j|}\,v^{\otimes(2j+1)},
+ \qquad
+ w\longmapsto\bigoplus_j\operatorname{sgn}(q_j)\sqrt{|q_j|}\,
+ w^{\otimes(2j+1)}.
+\end{equation*}
+Consequently $\arcsin p(t)$ is admissible. This construction permits negative coefficients through different maps on the two sides.
+
+\subsection{A complete analytic tail}
+\begin{proposition}\label{prop:analytic-tail}
+Suppose $p$ is a real odd polynomial and rational $R>1$, $\delta>0$ satisfy
+\begin{equation}\label{eq:circle}
+ \Re\{1-p(Re^{i\theta})^2\}\ge\delta
+ \quad(0\le\theta\le2\pi).
+\end{equation}
+Put $L=\sum_j(2j+1)|q_j|R^{2j}$ and choose $B>0$ with $B^2\delta\ge L^2$. For every positive odd integer $M$,
+\begin{equation}\label{eq:analytic-tail}
+ \sum_{m>M}|[t^m]\arcsin p(t)|
+ \le\frac{B}{(M+2)R^{M+1}(1-R^{-2})}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The harmonic minimum principle extends \eqref{eq:circle} to the disk. There, $1-p^2$ has a square root positive at zero, and the primitive of $p'/\sqrt{1-p^2}$ is the local series of $\arcsin p$. On the boundary its derivative has modulus at most $B$. Cauchy's coefficient inequality gives $|[t^m]\arcsin p|\le B/(mR^{m-1})$. The function is odd. Summing over $m=M+2,M+4,\ldots$ proves \eqref{eq:analytic-tail}.
+\end{proof}
+
+The circle condition is a finite real polynomial comparison. If $c_j=\sum_{a+b=j}q_aq_b$ and $u=\cos(2\theta)$, it is equivalent to
+\begin{equation}\label{eq:circle-polynomial}
+ 1-\delta-\sum_jc_jR^{2j+2}T_{j+1}(u)\ge0,
+ \qquad -1\le u\le1,
+\end{equation}
+where $T_j$ is the Chebyshev polynomial. Rational Bernstein comparisons and an independent rational root count verify this comparison. If all nonzero coefficients of $p$ have the same sign, all nonzero coefficients of $\arcsin p$ also have one sign; their total absolute sum is $\pi/2$ when $\sum_j|q_j|=1$. Subtracting the retained coefficients then bounds the complete tail directly.
+
+\subsection{The Gaussian tail}
+The nonanalytic source is the normalized correlation of two threshold signs. Its exact rational odd threshold $u(x)$ is specified in Appendix~\ref{app:records}, and its covariance change is
+\begin{equation*}
+ \rho(t)=rt-(1-r)t^3,
+ \qquad r=0.8973691055181.
+\end{equation*}
+Take independent Gaussian pair blocks $(W,W')$ and $(X,Y)$, with correlations $\rho(t)$ and $-t$, respectively. The actual normalized sign correlation is
+\begin{equation}\label{eq:actual-signs}
+ H_*(t)=\frac\pi2\E[\operatorname{sgn}(W+u(X))
+                    \operatorname{sgn}(W'+u(Y))].
+\end{equation}
+Thus, with $C_\rho(x,y)=(\pi/2)\E[\operatorname{sgn}(W+u(x))\operatorname{sgn}(W'+u(y))]$, one has $H_*(t)=T_{-t}C_{\rho(t)}$. The signed tensor maps realize the two covariance channels simultaneously for every finite vector family, proving admissibility. The following estimate bounds the complete tail.
+
+\begin{proposition}\label{prop:gaussian-tail}
+Put $\Phi=(t\partial_t-t\partial_x\partial_y)^3C_{\rho(t)}$ and
+\begin{equation}\label{eq:energy}
+ E_0=\frac1{2\pi}\int_0^{2\pi}\int_{\R^2}
+ |\Phi(e^{i\theta};x,y)|^2\,d\gamma_2(x,y)\,d\theta.
+\end{equation}
+If $\Phi$ has an integrable Gaussian majorant for $|t|\le1$, then
+\begin{equation}\label{eq:c3-tail}
+ \sum_{m>M}|[t^m]H_*(t)|
+ \le\sqrt{\frac{E_0}{8(M+1)^4}}
+ \quad(M\text{ positive and odd}).
+\end{equation}
+\end{proposition}
+\begin{proof}
+Expand $\Phi=\sum_{a,b,k}\phi_{ab,k}\psi_a(x)\psi_b(y)t^k$ in normalized Hermites. Gaussian integration by parts gives
+\begin{equation*}
+ m^3(H_*)_m=\sum_{n=0}^{m-1}(-1)^n\phi_{nn,m-n}.
+\end{equation*}
+Cauchy--Schwarz in this finite sum, and then in the odd index $m$, bounds the tail by
+\begin{equation*}
+ \left(\sum_{m>M,\ m\text{ odd}}m^{-5}\right)^{1/2}
+ \left(\sum_{m>M}\sum_{n=0}^{m-1}|\phi_{nn,m-n}|^2\right)^{1/2}.
+\end{equation*}
+The second factor is at most $\sqrt{E_0}$ by Parseval. Convexity gives $2m^{-5}\le\int_{m-1}^{m+1}x^{-5}\,dx$; summing over the odd integers gives the first factor at most $1/\sqrt{8(M+1)^4}$. The integrable majorant justifies passage to the coefficient limits.
+\end{proof}
+
+The new mixture uses $28$ sources: this threshold correlation and $27$ newly certified $\arcsin p$ corrections. Exactly $18$ rational weights are nonzero. The retained degree is $M=3001$. The exact assembly passes \eqref{eq:upper-margin} with
+\begin{equation}\label{eq:new-gamma}
+ \gamma=\frac{441111392115261547}{500000000000000000}.
+\end{equation}
+The resulting completely verified upper endpoint is
+\begin{equation}\label{eq:new-upper}
+ \GR<\frac{1780498480511303}{10^{15}}
+ =1.780498480511303.
+\end{equation}
+The Gaussian coefficients, compact energy integral, exterior estimate, and all analytic coefficients have been freshly recomputed. An independent final audit reconstructs the analytic tails, mixed coefficients, source bindings, rational weights and endpoint inequality. The compact energy upper bound is $675942.0106448863\ldots$ on $500{,}001$ exact rational boxes; the exterior estimate gives $E_0<675944$. Thus the complete Gaussian tail is at most $32254401624719/10^{18}$.
+
+\subsection{A limitation of this fixed upper source}
+There is now a proved reason to seek a different Gaussian sign source if the upper endpoint is to cross $1.775$. The following limitation applies to the specified construction class; it is not a lower bound for $\GR$.
+\begin{proposition}\label{prop:source-barrier}
+Allow arbitrary odd $p$ with $\cnorm p\le1$, arbitrary convex mixtures of $H_*\circ p$ and $\arcsin p$, and inverse preprocessing by an odd series of coefficient norm at most one. No resulting upper endpoint is smaller than
+\begin{equation*}
+ \frac{\pi}{2(0.883457)}=1.778011071048049\ldots.
+\end{equation*}
+\end{proposition}
+\begin{proof}
+Put $z=0.817244$, $w=-0.262183$ and $\mathcal D(H)=h_1-zh_3-wh_5$. Since $|z|,|w|\le1$, $h_1-\sum_{m\ge3}|h_m|\le\mathcal D(H)$. If $H(t)=At+Bt^3+Ct^5+\cdots$ and $p(t)=at+bt^3+ct^5+\cdots$, composition and $|b|+|c|\le1-|a|$ give
+\begin{equation*}
+ \mathcal D(H\circ p)\le Aa-zBa^3-wCa^5
+ +(1-|a|)\max\{|zA+3wBa^2|,|wA|\}.
+\end{equation*}
+Set $a=\pm t$, $0\le t\le1$, and replace the maximum by its four signed alternatives. For $\arcsin$, use $(A,B,C)=(1,1/6,3/40)$; for $H_*$ use its freshly enclosed first three coefficients with the complete $2\cdot10^{-8}$ head allowance. All sixteen resulting quintic comparisons with $0.883457$ pass an exact $22$-interval Bernstein certificate. Thus $\mathcal D\le0.883457$ for each composition and each convex mixture. A later inverse preprocessor $P$ with $\cnorm P\le1$ preserves $\cnorm{p\circ P}\le1$. If it linearizes the correlation to $\gamma t$, the same comparison gives $\gamma\le0.883457$.
+\end{proof}
+
+\section{A stronger sixth-cumulant deficit}
+Let $Q=I_3(f)$ be a real cubic Gaussian chaos with $\E Q^2=1$, so that $6\norm f^2=1$. Set
+\begin{equation}\label{eq:moment-defs}
+ \kappa=\E Q^4-3,\qquad
+ \kappa_6=\E Q^6-15\E Q^4+30,\qquad
+ U=\frac13\norm{DQ}^2-1,
+ \qquad K=\frac{194}{\sqrt{10}}.
+\end{equation}
+\begin{theorem}[A coupled deficit]\label{thm:633}
+For every normalized real cubic Gaussian chaos,
+\begin{equation}\label{eq:deficit633}
+ \boxed{\quad
+ \kappa_6\le K\kappa^{3/2}
+ -633\sqrt\kappa\left(\E U^2-\frac{7\kappa}{45}\right).
+ \quad}
+\end{equation}
+Moreover $7\kappa/45\le\E U^2\le2\kappa/9$. Equality holds for $Q=(Z^3-3Z)/\sqrt6$. We do not assert that $633$ is optimal.
+\end{theorem}
+
+The new ingredient is an exact identity combining the matrix cubes before they are estimated. Let
+\begin{equation}\label{eq:tensor-defs}
+ \begin{gathered}
+ F_{ab,c}=f_{abc},\quad A=FF^T,\quad G=F^TF,\quad S=\Pi_4A,\\
+ s=\norm A_F^2,\quad h=\norm S_F^2,\quad V=\tr A^3,\quad V_4=\tr A^4.
+ \end{gathered}
+\end{equation}
+Here $\Pi_4$ is full symmetrization of the four tensor indices. It is an orthogonal projection, so $\ip AS=h$. Consequently, for every real $t$,
+\begin{equation}\label{eq:cube-norms}
+ \norm{S+tA}_F^2=t^2s+(1+2t)h.
+\end{equation}
+For $s>0$, put $y=\sqrt{h/s}$, $a=(V/s^{3/2})^{1/3}$, and $d=1+3y^2/2$. Then $0\le y,a\le1$. The Gaussian product formula yields
+\begin{equation}\label{eq:cubic-products}
+ \kappa=1296sd,\qquad
+ \E U^2=216h+288s=\frac\kappa9\left(1+\frac1d\right).
+\end{equation}
+This proves the stated variance range.
+
+The exact sixth-cumulant identity \cite{HJM}, regrouped as in the saved tensor report \cite{tensor}, is
+\begin{equation}\label{eq:cumulant-id}
+ \frac{\kappa_6}{46656}=H+\frac{135}{2}\ip S{G\otimes G},
+ \qquad
+ H=\frac{135}{2}\tr S^3+45\tr(AS^2)
+       +\frac{165}{2}\tr(A^2S)-20V.
+\end{equation}
+Its matrix part admits a family of exact completions. For $p>0$, $q<0$, define
+\begin{equation}\label{eq:cube-coefficients}
+\begin{gathered}
+ c_p=\frac{55/2-15q}{p(p-q)},\qquad
+ c_q=\frac{55/2-15p}{q(q-p)},\\
+ \zeta=\frac{135}{2}-c_p-c_q,\qquad
+ \beta=20+c_pp^3+c_qq^3.
+\end{gathered}
+\end{equation}
+Expansion and cyclicity of the trace give
+\begin{equation}\label{eq:cube-completion}
+ H=c_p\tr(S+pA)^3+c_q\tr(S+qA)^3
+   +\zeta\tr S^3-\beta V.
+\end{equation}
+The two mixed coefficients match because $3(c_pp+c_qq)=45$ and $3(c_pp^2+c_qq^2)=165/2$. For the three pairs
+\begin{equation}\label{eq:cube-pairs}
+ \left(\frac{17}{33},-1\right),\qquad
+ \left(\frac{62}{105},-\frac34\right),\qquad
+ \left(\frac{28}{39},-\frac12\right),
+\end{equation}
+$c_p,c_q>0$ and $\zeta=0$. We also use $(p,q)=(3/4,-1)$, whose coefficients are $c_p=680/21$, $c_q=65/7$, $\zeta=155/6$ and $\beta=195/8$.
+
+For every symmetric matrix $B$, $\tr B^3\le\norm B_F^3$; positivity of $S$ is not needed. Symmetrizing $G\otimes G$ gives squared norm $(s^2+2V_4)/3$. These facts, \eqref{eq:cube-norms}, Cauchy--Schwarz, and $V_4\le V^{4/3}$ imply
+\begin{equation}\label{eq:J}
+ \frac{\kappa_6}{\kappa^{3/2}}\le\frac{\mathcal J_{p,q}(y,a)}{d^{3/2}},
+\end{equation}
+where
+\begin{equation}\label{eq:Jformula}
+\begin{aligned}
+ \mathcal J_{p,q}(y,a)={}&
+ c_p[p^2+(1+2p)y^2]^{3/2}
+ +c_q[q^2+(1+2q)y^2]^{3/2}\\
+ &+\zeta y^3-\beta a^3
+ +\frac{135}{2}y\sqrt{\frac{1+2a^4}{3}}.
+\end{aligned}
+\end{equation}
+Retain also the preceding Gram bound
+\begin{equation}\label{eq:Mformula}
+\begin{aligned}
+ \mathcal M(y,a)={}&\frac{135}{2}y^3
+ +\frac{135}{2}y\sqrt{\frac{1+2a^4}{3}}+45ay^2-20a^3\\
+ &+\frac{165}{2}\min\left\{a^{3/2}y,
+ y^2a^3+ya^2\sqrt{(1-y^2)(1-a^2)}\right\}.
+\end{aligned}
+\end{equation}
+For clarity, its less usual mixed estimate follows by writing $R=S-(h/s)A$. Then $\ip AR=0$, $\norm R_F^2=h-h^2/s$, and
+\begin{equation*}
+ \tr(A^2S)-hV/s
+ =\ip{A^2-(V/s)A}{R}.
+\end{equation*}
+Cauchy--Schwarz bounds the right side by
+$\sqrt{(h-h^2/s)(V_4-V^2/s)}$. The alternative bound follows from $\norm{A^2}_F^2=V_4\le s^{1/2}V$. The remaining terms use $\norm A_{\mathrm{op}}\le V^{1/3}$ and $\tr S^3\le h^{3/2}$.
+
+The final exact scalar comparison is
+\begin{equation}\label{eq:633comparison}
+ \frac{\min\{\mathcal M(y,a),\mathcal J_{p,q}(y,a)\}}{d^{3/2}}
+ +\frac{211}{3d}\le K+\frac{422}{15},
+ \qquad 0\le y,a\le1.
+\end{equation}
+The minimum ranges over the three pairs in \eqref{eq:cube-pairs} and $(3/4,-1)$. Its certificate has $99$ rational rectangles and $2475$ coefficients in $\mathbb Q(\sqrt{10})$; the complete verification is described after the references. Substitution of \eqref{eq:cubic-products} into \eqref{eq:633comparison} proves \eqref{eq:deficit633}. For the normalized third Hermite polynomial, $y=a=1$, $\kappa=90$, and $\kappa_6=52380$, giving equality.
+
+\subsection{The equality boundary has an exact description}
+Let $F_i=(f_{ijk})_{j,k}$ be the symmetric matrix slices of $f$. Then
+\begin{equation}\label{eq:commutators}
+ \sum_{i,j}\norm{F_iF_j-F_jF_i}_F^2=3(s-h).
+\end{equation}
+Indeed, if $T_0=\sum_{i,j}\tr(F_iF_jF_iF_j)$, expansion gives the left side $2s-2T_0$, while direct relabeling of the three paired symmetrizations gives $h=(s+2T_0)/3$.
+
+Consequently $y=1$ is equivalent to simultaneous commutation of all slices. They then have a common orthonormal eigenbasis. In that basis every tensor slice is diagonal, and symmetry of the three indices forces all entries except $f_{jjj}$ to vanish. Thus exactly on this boundary,
+\begin{equation}\label{eq:diagonal-laws}
+ Q=\sum_jb_jH_3(Z_j),\qquad \sum_jb_j^2=1,
+ \qquad
+ \kappa=90\sum_jb_j^4,\quad \kappa_6=52380\sum_jb_j^6,
+\end{equation}
+with independent standard Gaussians $Z_j$ and normalized $H_3$. This gives additional exact information about the laws on the boundary where the variance-deficit correction vanishes.
+
+\section{A distributional bound on the diagonal boundary}
+The laws in \eqref{eq:diagonal-laws} allow another comparison, which uses their characteristic functions rather than replacing their higher moments independently. This result also permits an independent Gaussian component. It is a statement about the specified laws; no estimate for laws merely close to $y=1$ is asserted.
+
+Let $Y=(Z^3-3Z)/\sqrt6$, let $\varphi(u)=\E\cos(uY)$, and set
+\begin{equation}\label{eq:cf-shape}
+ g(u)=\frac{\log\varphi(u)+u^2/2}{u^4}.
+\end{equation}
+A complete directed comparison, independently reconstructed, proves
+\begin{equation}\label{eq:cf-monotonic}
+ \varphi(u)>0,\qquad g'(u)<0\qquad(0<u\le29/10).
+\end{equation}
+The finite verification and the elementary near-zero argument are given after the references.
+
+\begin{theorem}[A diagonal-law comparison]\label{thm:cf-law}
+Let $Q=w_0Z_0+\sum_jw_jY_j$, where all variables are independent, $Z_0$ is standard Gaussian, each $Y_j$ has the law of $Y$, and $w_0^2+\sum_jw_j^2=1$. Finite and square-summable infinite sums are allowed. Put
+\begin{equation*}
+ 0<\kappa=90\sum_jw_j^4\le90,\qquad
+ r=(\kappa/90)^{1/4},\qquad T=\frac{29}{10r},
+ \qquad M_r=\sqrt{1-r^2}\,Z+rY,
+\end{equation*}
+with independent $Z,Y$. Then
+\begin{equation}\label{eq:cf-third}
+ \E|Q|^3\ge\E|M_r|^3
+ -\frac4{\pi T^3}\left[1+e^{-(1-r^2)T^2/2}\right].
+\end{equation}
+For $\kappa=0$, $Q$ is Gaussian and its third absolute moment is $2\sqrt{2/\pi}$.
+\end{theorem}
+\begin{proof}
+Every $|w_j|\le r$. Independence, evenness of $\varphi$, and \eqref{eq:cf-monotonic} give, for $0<t\le T$,
+\begin{equation*}
+ \log\varphi_Q(t)=-\frac{t^2}{2}
+   +t^4\sum_jw_j^4g(|w_j|t)
+ \ge-\frac{t^2}{2}+r^4t^4g(rt)=\log\varphi_{M_r}(t).
+\end{equation*}
+The Fourier identity for a symmetric variance-one law is
+\begin{equation*}
+ \E|Q|^3=\frac{12}{\pi}\int_0^\infty
+ \frac{\varphi_Q(t)-1+t^2/2}{t^4}\,dt.
+\end{equation*}
+Subtract this identity for $M_r$. The integral over $(0,T]$ is nonnegative. On the remaining interval, $|\varphi_Q|\le1$ and $|\varphi_{M_r}(t)|\le e^{-(1-r^2)t^2/2}$. Integrating $t^{-4}$ proves \eqref{eq:cf-third}. When $r=1$, the exponential term equals one, so the same formula remains valid. Infinite sums follow by finite truncation and moment convergence; the explicit fourth-moment formula bounds the fourth moments of the tails by $93$ times the squared tail variance.
+\end{proof}
+
+\begin{proposition}[The possible laws near the commuting boundary]\label{prop:law-closure}
+Let $Q_n=I_3(f_n)$ be normalized real cubics, possibly in growing dimensions. If $s_n-h_n\to0$, every subsequential weak limit has the independent Gaussian-plus-Hermite law in Theorem~\ref{thm:cf-law}. In particular this applies if $y_n\to1$. No quantitative modulus for the finite spectral blocks is asserted.
+\end{proposition}
+\begin{proof}
+Write $\eta=s-h$. The slice identity \eqref{eq:commutators}, $G=\sum_jF_j^2$, and $\sum_j\norm{F_j}_{\mathrm{op}}^2\le\norm f^2=1/6$ give by Cauchy--Schwarz
+\begin{equation*}
+ \sum_i\norm{[F_i,G]}_F^2\le2\eta,
+ \qquad
+ \sum_{i,j,k}(\lambda_j-\lambda_k)^2f_{ijk}^2\le2\eta
+\end{equation*}
+in an eigenbasis of $G$. Between spectral clusters separated by $\delta$, the total mixed tensor energy is at most $3\eta/\delta^2$, since at least two index pairs of each mixed triple cross clusters.
+
+Order the eigenvalues and extract limits $\lambda_i$, with $\sum_i\lambda_i\le1/6$. Fix $\varepsilon>0$ distinct from the positive limits. The finitely many clusters above $\varepsilon$ have positive limiting gaps. Removing their mixed entries changes $Q_n$ by $o(1)$ in $L^2$. The finite block tensors have subsequential limits; their slices commute, so they are orthogonal sums of cubes. In a cluster of limiting eigenvalue $\lambda$, each cube coefficient has squared magnitude $\lambda$.
+
+The remaining independent tail has $\norm{G_{\mathrm{tail}}}_{\mathrm{op}}\le\varepsilon+o(1)$. With variance $\sigma^2=6\tr G_{\mathrm{tail}}$, the product formula and the Gaussian Stein identity give
+\begin{equation*}
+ \kappa_{4,\mathrm{tail}}\le540\norm{G_{\mathrm{tail}}}_{\mathrm{op}}\sigma^2,
+ \qquad
+ W_1(Q_{\mathrm{tail}},N(0,\sigma^2))
+ \le\sqrt{120\norm{G_{\mathrm{tail}}}_{\mathrm{op}}}.
+\end{equation*}
+Here $W_1$ measures the largest difference of expectations over functions with Lipschitz constant at most one; the zero-variance tail is zero. Letting $\varepsilon\downarrow0$ gives Hermite weights $w_i^2=6\lambda_i$ and Gaussian variance $1-\sum_iw_i^2$. The bounds $\E Q_n^4\le93$ and $\E Q_n^6\le53745$ also give convergence of the first, third and fifth absolute moments. Since $s\le1/36$, the assumption $y_n\to1$ implies $s_n-h_n\to0$. The gap-dependent removal argument gives the qualitative limit without a uniform finite-dimensional rate.
+\end{proof}
+
+\begin{corollary}[A fifth-moment price from a third-moment bound]\label{cor:hankel-price}
+Let $Q$ have a finite fifth absolute moment, $\E Q^2=1$, $a=\E Q^4$, and suppose $\E|Q|\le\rho$, $\E|Q|^3\ge L$, $\rho L>1$. If $\theta\ge0$ and
+\begin{equation}\label{eq:price-derivative-condition}
+ \theta(3a+\rho^2a^2)<(\rho L-1)^2,
+\end{equation}
+then
+\begin{equation}\label{eq:hankel-price}
+ \E|Q|^3+\theta\E|Q|^5
+ \ge L+\theta\frac{\rho a^2-2aL+L^3}{\rho L-1}.
+\end{equation}
+One can always take $\rho=1$. The result applies to any real law with these moments.
+\end{corollary}
+\begin{proof}
+Write $x=\E|Q|^3$, $m_5=\E|Q|^5$. The moment matrix
+\begin{equation*}
+ \begin{pmatrix}\rho&1&x\\1&x&a\\x&a&m_5\end{pmatrix}
+\end{equation*}
+is positive semidefinite: with $\rho$ replaced by $\E|Q|$, its quadratic form is $\E[|Q|(b_0+b_1|Q|+b_2|Q|^2)^2]$; increasing its first diagonal preserves positivity. Its determinant gives
+$m_5\ge R_\rho(x)=(\rho a^2-2ax+x^3)/(\rho x-1)$.
+Also $x^2\le a$ by Cauchy--Schwarz. Direct differentiation yields
+\begin{equation*}
+ \frac{d}{dx}\{x+\theta R_\rho(x)\}
+ \ge1-\frac{\theta(3a+\rho^2a^2)}{(\rho L-1)^2}>0.
+\end{equation*}
+Thus the minimum is at $x=L$. Increasing a proved third-moment lower bound can therefore improve the combined third- and fifth-moment charge without separately minimizing the fifth moment.
+\end{proof}
+
+Theorem~\ref{thm:cf-law} gives these independently verified examples:
+\begin{center}\small
+\begin{tabular}{ccc}
+\hline
+$\kappa$ & Lower bound for $\E|Q|^3$ & Combined price upper bound\\\hline
+$103/100$ & $1.712686115970$ & $-1.758192527725$\\
+$[51/50,26/25]$ & $1.708704667235$ & $-1.754196140928$\\\hline
+\end{tabular}
+\end{center}
+The last column bounds $-\E|Q|^3-(21/5000)\E|Q|^5$ and additionally assumes $\E|Q|\le887127/10^6$; this restriction is not automatic for the class with a Gaussian component. It follows from Corollary~\ref{cor:hankel-price}, whose derivative condition passes on both ranges. Adding $(27/500000)\E Q^6$ gives upper bounds $-1.753085237013$ at $\kappa=103/100$ and $-1.749030195302$ on the interval. The sixth moment uses $\kappa_6=52380\sum_jw_j^6\le K\kappa^{3/2}$. These are law-specific moment prices, without a new complete operator conclusion.
+
+\section{Refitting the scalar potential with the new moments}
+The next estimate explains why the stronger moment coupling can be used without another optimization over tensor shapes.
+\begin{corollary}[Moment prices]\label{cor:price}
+If $b_6,b_U\ge0$, then
+\begin{equation}\label{eq:price}
+\begin{aligned}
+ b_6\kappa_6+b_U\E U^2\le\max\bigg\{&
+ b_6K\kappa^{3/2}+\frac7{45}b_U\kappa,\\
+ &b_6\left(K-\frac{211}{5}\right)\kappa^{3/2}
+       +\frac29b_U\kappa\bigg\}.
+\end{aligned}
+\end{equation}
+If $b_U\le633b_6\sqrt\kappa$, only the first expression is needed.
+\end{corollary}
+\begin{proof}
+Apply Theorem~\ref{thm:633}. The resulting expression is affine in $\E U^2$, so its maximum occurs at one of the two endpoints of the variance range. Under the extra condition its slope is nonpositive.
+\end{proof}
+
+Let $h(x)=-|x|^3-|x|^5/200$ and $c=\sqrt{2/\pi}$, so $\E h(Z)=-(51/25)c$. If $g'-xg=h-\E h(Z)$ and a differentiable odd potential $\phi$ satisfies the whole-line comparison
+\begin{equation}\label{eq:stein-majorant}
+ \phi'(x)-x\phi(x)+\frac{(g'(x)-\phi'(x))^2}{2\eta}
+ \le q_0+q_2x^2+q_4x^4+q_6x^6,
+\end{equation}
+then cubic Gaussian integration by parts and Young's inequality give
+\begin{equation}\label{eq:scalar-price}
+ \E h(Q)\le-\frac{51}{25}c+q_0+q_2+(3+\kappa)q_4
+ +(15+15\kappa+\kappa_6)q_6+\frac\eta2\E U^2.
+\end{equation}
+Indeed $\E[Qv(Q)]=\E[(1+U)v'(Q)]$. Apply this with $v=g,\phi$, and bound $-U(g'-\phi')$ by $\eta U^2/2+(g'-\phi')^2/(2\eta)$.
+
+The newly refitted degree-$32$ compactified Chebyshev potential has the following exact prices:
+\begin{align*}
+ q_0&=1.768750930736352317,&q_2&=-1.001492589210169371,\\
+ q_4&=-0.268870852810803973,&q_6&=0.003114160275201747,\\
+ \eta&=0.7930639215363184.
+\end{align*}
+Its whole-line verification is fresh. At $\kappa=3/25$, directed arithmetic proves $\eta/2<633q_6\sqrt\kappa$, so Corollary~\ref{cor:price} reduces \eqref{eq:scalar-price} to
+\begin{equation}\label{eq:scalar-closed}
+ -\frac{51}{25}c+q_0+q_2+(3+\kappa)q_4
+ +(15+15\kappa+K\kappa^{3/2})q_6+\frac{7\eta\kappa}{90}.
+\end{equation}
+This gives the closed consequence
+\begin{equation}\label{eq:scalar-new}
+ \boxed{\quad-\E|Q|^3-\frac{\E|Q|^5}{200}
+ \le-1.6316416809\qquad(\kappa=0.12).\quad}
+\end{equation}
+The previous accepted scalar cap was $-1.631599748026$. A separate refitted profile was also checked by a direct tensor-shape cover and by an independently reconstructed Taylor cover, giving $-1.6316357$ without using the closed price simplification. These scalar estimates concern one fourth-cumulant value, not the norm of an entire Grothendieck operator.
+
+\section{The lower endpoint and the remaining gap}
+The complete refinement of the lower construction keeps the same operator \eqref{eq:cubic-operator}:
+\begin{theorem}\label{thm:lower}
+\begin{equation}\label{eq:new-lower}
+ \norm T_{\infty\to1}\le\frac{1000}{1773},
+ \qquad\text{hence}\qquad \GR\ge1.773.
+\end{equation}
+\end{theorem}
+\begin{proof}
+Reuse the frozen, previously certified local scalar potentials and the $35$ exterior amplitude pieces. The new work adds nine independently verified whole-line scalar rows, replaces the shape-dependent signed cubic charges, recomputes the outer source comparisons, and verifies the remaining amplitude intervals with exact arithmetic. The final $55$ amplitude intervals cover $[0,0.797884561]$, which contains every feasible first-degree amplitude $u\le\sqrt{2/\pi}$. Sixteen fresh outer frames have $255{,}144$ accepted leaves and $920{,}551$ exact sextic sign comparisons. Four retained seven-price intervals already satisfy a stronger cap; the $35$ exterior pieces likewise retain sufficient margin. Independent full-domain outer replays and an exact entire-cover assembly all pass. The local integrations, energy comparisons and Gaussian-to-finite-matrix transfer are inherited accepted premises, bound by their saved hashes; they were not reintegrated in this refinement.\end{proof}
+
+The transfer of a complete uniform norm estimate is unchanged. Partition the Gaussian domain into finitely many cells, average the operator kernel over each cell pair, and use the normalized field $x/\norm x$ as the vector assignment in growing dimension. Its first Hermite energy tends to one, while each fixed higher odd energy tends to zero. The scalar assignment is bounded by the same uniform operator norm. Finite partitions converge to the integral expressions and therefore give finite matrices with ratio approaching $B^{-1}$.
+
+The new enclosure $1.773\le\GR<1.780498480511303$ crosses $1.775$. The remaining task is a complete common-operator norm bound at most $40/71$, or an independently successful upper construction below $1.775$. The stronger tensor theorem removes a proved moment-relaxation loss, and the new upper corrections improve a complete coefficient comparison. Neither fact by itself closes that gap. Exploratory coefficients above $633$, finite-grid maxima, and incomplete amplitude covers are not used as mathematical conclusions.
+
+\noindent\begin{minipage}{\textwidth}\small
+\begin{thebibliography}{9}
+\bibitem{Grothendieck} A. Grothendieck, \emph{R\'esum\'e de la th\'eorie m\'etrique des produits tensoriels topologiques}, Bol. Soc. Mat. S\~ao Paulo \textbf{8} (1953), 1--79.
+\bibitem{Krivine} J.-L. Krivine, \emph{Sur la constante de Grothendieck}, C. R. Acad. Sci. Paris S\'er. A--B \textbf{284} (1977), A445--A446.
+\bibitem{BMMN} M. Braverman, K. Makarychev, Y. Makarychev and A. Naor, \emph{The Grothendieck constant is strictly smaller than Krivine's bound}, Forum Math. Pi \textbf{1} (2013), e4.
+\bibitem{NR} A. Naor and O. Regev, \emph{Krivine schemes are optimal}, Proc. Amer. Math. Soc. \textbf{142} (2014), 4315--4320.
+\bibitem{HJM} S. Heilman, C. Jones and G. Malavolta, \emph{Sharper Bounds for the Complex Grothendieck Constant}, arXiv:2609.25462v1 (2026), Section 8.3, especially the real cubic identity (8.12).
+\bibitem{saved} Research manuscript, \emph{Gaussian Projection Certificates for the Real Grothendieck Constant}, saved version 12, and \emph{A Stronger Lower Bound for the Real Grothendieck Constant}, recovered complete certificate dated 30 September 2026.
+\bibitem{networkCS} J. Haferkamp, C. Bertoni, I. Roth and J. Eisert, \emph{Emergent Statistical Mechanics from Properties of Disordered Random Matrix Product States}, PRX Quantum \textbf{2} (2021), 040308; arXiv:2103.02634v4, Lemma 5.
+\bibitem{tensor} Research continuation, \emph{A Coupled Moment Inequality for the Real Grothendieck Construction}, preceding report dated 30 September 2026; exact tensor identities and coefficient-$315$ certificate.
+\end{thebibliography}
+\end{minipage}
+
+\appendix
+\section{The finite comparison for the deficit coefficient}\label{app:633}
+The certificate for \eqref{eq:633comparison} uses only polynomial inequalities, with exact rational data. On each rectangle it selects one of the four two-cube bounds $\mathcal J_{p,q}$ or the Gram bound in $\mathcal M$. Each square root is replaced by
+\begin{equation*}
+ \sqrt X\le\frac{X+t^2}{2t},\qquad t>0,
+\end{equation*}
+which follows from $(\sqrt X-t)^2\ge0$. For the Gram square root, use $\sqrt{XY}\le(tX+Y/t)/2$. The rational parameters are frozen separately on each rectangle.
+
+Put $x=1-y$ and $z=1-a$. Away from the equality corner, choose rational $y_0,l_0>0$ with $l_0^2\ge1+3y_0^2/2$. Cauchy--Schwarz yields
+\begin{equation*}
+ \sqrt d\ge L(y)=\frac{1+3y_0y/2}{l_0}.
+\end{equation*}
+The bracket $[(K+422/15)d-211/3]$ is positive on the square: its minimum is $K-211/5>0$. It therefore suffices to show that the chosen polynomial majorant of $\mathcal M$ or $\mathcal J_{p,q}$ is at most
+\begin{equation*}
+ L(y)\left[\left(K+\frac{422}{15}\right)d-\frac{211}{3}\right].
+\end{equation*}
+Near the corner, use $L(y)=(2+3y)/\sqrt{10}$. Use the pair $(3/4,-1)$ on the corner rectangle. There $x\le1/524288$, so $1-y^2\le1/262144$ and $(1-y^2)^{3/2}\le(1-y^2)/512$. Tangent parameters $7/4$ and $1$ treat the other roots.
+
+The resulting comparison polynomials have degrees at most $(4,4)$ in $(x,z)$. For a rectangle $[l,h]\times[r,t]$, substitute $x=l+(h-l)X$, $z=r+(t-r)Z$ and denote its power coefficients by $c_{kl}$. Its degree-$(4,4)$ Bernstein coefficient is
+\begin{equation*}
+ b_{ij}=\sum_{k\le i,\,l\le j}c_{kl}
+ \frac{\binom{i}{k}}{\binom{4}{k}}
+ \frac{\binom{j}{l}}{\binom{4}{l}}.
+\end{equation*}
+The basis functions are nonnegative and sum to one. Thus nonnegative $b_{ij}$ prove nonnegativity throughout a rectangle. Every coefficient is $p+q\sqrt{10}$ with rational $p,q$; its sign follows from rational sign checks and comparison of $p^2$ with $10q^2$. The $99$ rectangles have pairwise disjoint interiors and total area one: $89$ use the three-pair family, $9$ use the Gram bound, and one uses the fourth pair at the corner. All $2475$ coefficients pass. The independent checker reconstructs the polynomials from the formulas rather than importing the producer's coefficients.
+
+\section{Numerical records and their scope}\label{app:records}
+The package contains the frozen rational source coefficients, rational weights, rectangle partitions and directed arithmetic certificates. Discovery searches are separately labeled. The following distinction is essential to the reported conclusions:
+\begin{center}\small
+\begin{tabular}{p{0.38\textwidth}p{0.53\textwidth}}
+\hline
+Calculation & Verification scope\\\hline
+Tensor and scalar estimates & Exact $99$-rectangle theorem; complete scalar line cover; independent $424$-leaf outer replay.\\
+Upper bound & Fresh Gaussian and analytic coefficients, complete energies and tails; exact mixture and independent assembly.\\
+Lower bound & Sixteen fresh complete outer replays and a $55$-interval exact assembly; inherited local potentials and analytic reductions.\\\hline
+\end{tabular}
+\end{center}
+
+For the exact threshold in \eqref{eq:actual-signs}, put $y=x/3$, $s=y^2$, and
+\begin{equation}\label{eq:threshold}
+ u(x)=\frac{y\sum_{j=0}^3A_js^j}{((1-bs)^2+cs)(1+ds)}
+       +\sum_{j=0}^3\frac{B_jys^{j+1}}{(1+s)^{j+2}}.
+\end{equation}
+All eleven parameters below are exact terminating decimals:
+\begin{equation*}
+\begin{array}{r@{\,=\,}r@{\qquad}r@{\,=\,}r}
+ A_0&-0.3338547205588441&A_1&6.8711971011965733\\
+ A_2&-8.3151282534341728&A_3&2.8547789465397271\\
+ b&0.6236377059682473&c=d&0.05\\
+ B_0&-5.6334528461144719&B_1&-8.6788612856652652\\
+ B_2&-20&B_3&-20
+\end{array}
+\end{equation*}
+Both denominator factors are positive on the real line. With $X=\sqrt{1+(x/3)^2}$, fresh rational denominator comparisons give
+\begin{equation*}
+ |u|\le40000X,\qquad |u'|\le10^8,\qquad
+ |u''|\le5\cdot10^{11}/X,\qquad
+ |u'''|\le4\cdot10^{15}/X^2.
+\end{equation*}
+An exact subdivision of the circle gives $|1-\rho(t)^2|>1/3$. Substitution into the differentiated kernel gives the integrable majorant
+$|\Phi|^2\le10^{150}(1+|x|)^8(1+|y|)^8$.
+The resulting energy contribution outside $[-30,30]^2$ is less than $10^{-25}$. The compact integration uses exact rational box endpoints and directed interval unions; its complete energy sum and exterior allowance both pass. The final upper certificate uses no inherited numerical Gaussian enclosure.
+
+For the scalar comparison, the refitted potential uses Chebyshev polynomials of $(x-2)/(x+2)$ on $x\ge0$ and is extended oddly. Clearing its positive denominator gives degree-$78$ tail polynomials, whose coefficients after $x=64+z$ are nonnegative. Directed Mills-ratio bounds verify the compact interval. These are whole-line comparisons.
+
+The closed scalar value in \eqref{eq:scalar-new} is evaluated at $512$-bit precision from the displayed exact prices. Its unrounded upper value is less than $-1.6316416809372325$. The positive price margin $633q_6\sqrt{3/25}-\eta/2$ is greater than $0.24749$. These checks require no shape search after Theorem~\ref{thm:633}.
+
+\section{Verification of the characteristic-function comparison}\label{app:cf}
+The proof of \eqref{eq:cf-monotonic} covers the complete interval, including its scaled endpoint at zero. The exact moments of $Y$ are
+\begin{equation*}
+ \E Y^2=1,\qquad \E Y^4=93,\qquad
+ \E Y^6=53745,\qquad \E Y^8=84097545.
+\end{equation*}
+For $z=u^2\le1/400$, global finite trigonometric inequalities give
+\begin{equation*}
+ \varphi(u)\ge L_0(z)=1-\frac z2+\frac{93z^2}{24}
+ -\frac{53745z^3}{720},
+\end{equation*}
+and
+\begin{equation*}
+ u\varphi'(u)\le D_0(z)=-z+\frac{93z^2}{6}
+ -\frac{53745z^3}{120}+\frac{84097545z^4}{5040}.
+\end{equation*}
+Here $9/10<L_0\le\varphi\le1$. Put $v=1-L_0$. The series for $-(1-p)\log(1-p)$, with $0\le p<1$, and monotonicity in $\varphi$ give
+\begin{equation*}
+ \varphi(u)\{u\varphi'(u)/\varphi(u)-u^2-4\log\varphi(u)\}
+ \le D_0-zL_0+4v-2v^2-\frac23v^3=-z^3R(z).
+\end{equation*}
+The polynomial $R$ is obtained by this displayed exact formula. Dropping its positive nonconstant coefficients and using $z\le1/400$ gives $R(z)>104$. Since $u^5g'(u)=u\varphi'(u)/\varphi(u)-u^2-4\log\varphi(u)$, this proves the comparison for $0<u\le1/20$ using finite bounds only.
+
+On $[1/20,29/10]$, the characteristic function has the exact expression
+\begin{equation}\label{eq:airy-characteristic}
+ \varphi(u)=\frac{\sqrt{2\pi}}{(3c)^{1/3}}
+ e^{1/(108c^2)-1/2}
+ \operatorname{Ai}\!\left(\frac{1/(12c)-3c}{(3c)^{1/3}}\right),
+ \qquad c=u/\sqrt6.
+\end{equation}
+This follows by shifting the Gaussian integral to remove its quadratic term and using the Airy integral. The function $\operatorname{Ai}$ satisfies $\operatorname{Ai}''(x)=x\operatorname{Ai}(x)$. The producer differentiates the logarithm in \eqref{eq:airy-characteristic}, and proves positivity of $\varphi$ and negativity of $u^5g'$ by fourth-order directed Taylor bounds on $518$ rational intervals, at $512$-bit precision. The independent replay instead differentiates via the quotient $\operatorname{Ai}'/\operatorname{Ai}$ and its equation $v'=x-v^2$, at $768$-bit precision. It reconstructs all $518$ intervals, the exact near-zero polynomial, and the complete partition. Both pass; their records are included. This characteristic-function theorem is used only for the explicitly stated independent-Hermite class in Theorem~\ref{thm:cf-law}.
+
+The two third-moment examples use positive integration of $\E|\sqrt{1-r^2}Z+rY|^3$ on $610$ and $620$ directed intervals, respectively. Independent $768$-bit replays reconstruct the integrals on $2440$ and $2480$ intervals, the characteristic-function tail allowances, and the rational combined prices. The fifth-moment expression $R_\rho(L)$ is used as part of the increasing combined price; it is not claimed as a standalone fifth-moment lower bound.
+\section{Bounds for the eighth and tenth cumulants}\label{app:higher-cumulants}
+\begin{proposition}\label{prop:cubic-eighth-cumulant}
+For a normalized real cubic Gaussian chaos $Q=I_3(f)$, with the preceding
+notation $s=\operatorname{tr}G^2$, one has
+\begin{equation*}
+ \kappa_8(Q)\le106697606400\,s^2.
+\end{equation*}
+One also has
+\begin{equation*}
+ \kappa_{10}(Q)\le2125513670031360\,s^{5/2}.
+\end{equation*}
+Both inequalities have equality for $Q=(Z^3-3Z)/\sqrt6$.
+Consequently, writing $\kappa=\kappa_4(Q)$,
+\begin{equation*}
+ \mathbb EQ^8\le105+210\kappa+35\kappa^2
+             +28\kappa_6(Q)+106697606400\,s^2.
+\end{equation*}
+Any established upper bound for $\kappa_6$ may be substituted on the right.
+The corresponding tenth-moment bound is
+\begin{equation*}
+ \begin{aligned}
+ \mathbb EQ^{10}\le{}&945+3150\kappa+1575\kappa^2
+ +(630+210\kappa)\kappa_6(Q)\\
+ &+45\kappa_8(Q)+2125513670031360\,s^{5/2},
+ \end{aligned}
+\end{equation*}
+where the preceding eighth-cumulant upper bound may also be substituted.
+\end{proposition}
+\begin{proof}
+The connected Wick-diagram formula expresses the eighth cumulant as a sum
+over pairings of the three labelled legs at each of eight vertices, with
+no within-vertex pairs and with connected resulting graph. Each graph is
+therefore a connected loopless cubic multigraph on eight vertices.
+
+A perfect matching is a selection of disjoint edges covering every vertex. Every such graph has one. Indeed, if not, Tutte's criterion
+gives a set $S$ of $k$ vertices with $q>k$ odd components in its complement.
+Connectedness and the even total number of vertices give $k\ge1$ and
+$q\ge k+2$. Let $r$ of these components be singletons. Each singleton has
+three boundary edges, and every other odd component has at least one.
+Hence $q+2r\le3k$. The nonsingleton odd components have at least three
+vertices, so
+\begin{equation*}
+ 8-k\ge3q-2r\ge4q-3k\ge k+8,
+\end{equation*}
+a contradiction. This argument allows parallel edges.
+
+Pair vertices according to a perfect matching and contract each matched
+edge. A pair with just this one edge between its vertices becomes a
+four-leg block, a permutation of
+$A_{ab,cd}=\sum_e f_{abe}f_{cde}$, whose Frobenius norm is $\sqrt s$.
+If the pair has a second parallel edge, contracting that edge gives instead
+the two-leg block $G$, also of norm $\sqrt s$.
+Three parallel edges would isolate the pair and are excluded by
+connectedness. Thus the remaining network has four blocks and no
+self-loops. Cauchy--Schwarz over the remaining edge indices bounds its
+absolute contraction by the product of the four block Frobenius norms,
+namely $s^2$. Explicitly, regard each remaining edge index as an independent
+counting variable and each block as a function of its incident variables;
+every variable occurs in exactly two functions. The graph form of Cauchy--Schwarz gives the product of their $\ell^2$ norms \cite{networkCS}.
+
+The number of connected labelled Wick diagrams is the eighth cumulant of
+$\operatorname{He}_3(Z)$, since every diagram contraction for $f=e^{\otimes3}$
+equals one. Exact Gaussian polynomial integration gives
+\begin{equation*}
+ \mathbb E\bigl(\operatorname{He}_3(Z)/\sqrt6\bigr)^4=93,\quad
+ \mathbb E\bigl(\operatorname{He}_3(Z)/\sqrt6\bigr)^6=53745,\quad
+ \mathbb E\bigl(\operatorname{He}_3(Z)/\sqrt6\bigr)^8=84097545.
+\end{equation*}
+The moment--cumulant recurrence therefore gives
+$\kappa_8(\operatorname{He}_3(Z)/\sqrt6)=82328400$, and multiplying by
+$6^4$ gives $106697606400$. This count is replayed independently in
+\texttt{audit\_cubic\_eighth\_count.py}.
+Finally, $Q$ is symmetric, so its odd cumulants vanish. The standard
+moment--cumulant expansion gives
+$\mathbb EQ^8=105+210\kappa_4+35\kappa_4^2+28\kappa_6+\kappa_8$,
+which proves the eighth-moment assertion.
+
+For ten vertices, a diagram with a perfect matching is similarly bounded
+by $s^{5/2}$. If no perfect matching exists, the same Tutte argument gives
+$10\ge2k+8$, so $k=1$. The complement has exactly three odd components,
+each with three vertices and one boundary edge. A loopless three-vertex
+component with internal degrees $(2,3,3)$ is a triangle whose edge opposite
+the boundary vertex is doubled. Its open tensor is therefore
+$v=F^T\operatorname{vec}G$. The exceptional diagram contraction is
+$\langle f,v^{\otimes3}\rangle$. Since
+\begin{equation*}
+ \|v\|^2\le\|G\|_{\rm op}s,\qquad
+ |\langle f,v^{\otimes3}\rangle|
+ \le\sqrt{\|G\|_{\rm op}}\,\|v\|^3,
+ \qquad\|G\|_{\rm op}\le\sqrt s,
+\end{equation*}
+it too is bounded by $s^{5/2}$.
+Exact Gaussian integration gives
+$\mathbb E(\operatorname{He}_3(Z)/\sqrt6)^{10}=278083608705$ and
+$\kappa_{10}(\operatorname{He}_3(Z)/\sqrt6)=273342807360$.
+Multiplication by $6^5$ gives the displayed diagram count.
+The tenth-moment expansion follows because all odd cumulants vanish.
+\end{proof}
+
+The independent exact counter reconstructs the one-dimensional Gaussian moments, both cumulant counts and both moment expansions. These inequalities are additional inputs for higher-order whole-line scalar fits. They do not assert that increasing the polynomial degree alone improves an operator norm.
+\end{document}

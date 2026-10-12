@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_diffuseu753_kappa02_producer_manifest.json",
+    "sha256": "f875e02b6ea5df852ac65fe7201b00af89e37dd13f115795b14c25880d46ff0c"
+  },
+  "profiles": [
+    {
+      "name": "new_diffuseu753_kappa02_b711",
+      "label": "interval_new_diffuseu753_kappa02_b711",
+      "branch": "nextface",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_diffuseu753_kappa02_b711.json",
+          "alias": "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input/profile_interval_new_diffuseu753_kappa02_b711.json",
+          "sha256": "f0d1f98bae0168616a0f801590fe53a77638a217cd5fe4159fc0198ea24d295b"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_diffuseu753_kappa02_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input/body_interval_new_diffuseu753_kappa02_b711.json.gz",
+          "sha256": "611510bdcbdbb22c83daa55a7cd8b833587163e9f6bb8c0bcc588c35c91985ed"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_diffuseu753_kappa02_b711.json.gz",
+          "alias": "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input/exterior_interval_new_diffuseu753_kappa02_b711.json.gz",
+          "sha256": "daba954ca82dd1915cd59159da754743fa7f7b6c276922984094d3f8fdd5784c"
+        },
+        {
+          "source": "new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_diffuseu753_kappa02_b711.json",
+          "alias": "new_round_2026-10-02/audit/diffuseu753_kappa02_source_box/input/tail_interval_new_diffuseu753_kappa02_b711.json",
+          "sha256": "a573e58938782e0675b08f25b4c6b5cb29441abde6b87a3b193bcb31a640fee7"
+        }
+      ]
+    }
+  ]
+}

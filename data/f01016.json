@@ -1,0 +1,98 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_DIFFUSE_U754_PENDING_INDEPENDENT_AUDIT",
+  "profile_alias": "new_diffuse_u754_b711",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/profile_diffuse_u754_b7171.json",
+    "sha256": "0f4468e77e7cb0a0e225448c4cdb1373488f4730d528c5676141042131f7aaf0"
+  },
+  "reference_b": "7171/10000",
+  "reserve0": "1/50000",
+  "reserve6": "1/100000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/body_diffuse_u754_q20.json.gz",
+      "sha256": "e3c1642120d6c50a2d1e0f180f903f93ae9a3a871eb2dcfa1004b438bf185b2a"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/exterior_diffuse_u754_q20.json.gz",
+      "sha256": "fbad9939dbc9aecc3be5fbadfbbbf90c07a0e36e2f260150a4f221b04908980f"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/tail_diffuse_u754_q20.json",
+    "sha256": "3a57f82643b4bdbbf1f25905ef4d89f4b9602eb17f3cb0c5d12770fb7b21bd8b"
+  },
+  "counts": {
+    "body_diffuse_u754_q20.json.gz": {
+      "nodes": 8545,
+      "accepted": 4273,
+      "pending": 0
+    },
+    "exterior_diffuse_u754_q20.json.gz": {
+      "nodes": 377,
+      "accepted": 189,
+      "pending": 0
+    }
+  },
+  "source_box": {
+    "u": [
+      ".7535",
+      ".7545"
+    ],
+    "r": [
+      ".260",
+      ".262"
+    ],
+    "kappa": [
+      "0",
+      ".1"
+    ]
+  },
+  "source_prices": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/source_price_diffuse_u754_b0711_q0_1_50000.json",
+      "sha256": "807bdcb5b224aa2a6eb37f5de6a742192d1810e907edf8002e0df96ecbfff55f",
+      "operator_b": "711/1000",
+      "maximum_upper_display": 0.5633207134310501
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/source_price_diffuse_u754_b0715_q0_1_50000.json",
+      "sha256": "40728b7d690d748b013122fc7ae32b4112094bae2b5db88d8ad6bc7efae419f7",
+      "operator_b": "143/200",
+      "maximum_upper_display": 0.5632881934887112
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/source_price_diffuse_u754_b07171_q0_1_50000.json",
+      "sha256": "96eff376f1a0dfe4eb6685335dae6d3ae45b843278eab6770b2b95a0ea1fb774",
+      "operator_b": "7171/10000",
+      "maximum_upper_display": 0.5632739825801832
+    }
+  ],
+  "adapter_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/diffuse_u754_fit/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+    }
+  ],
+  "scope": "Producer complete body [0,8], exterior [8,32], and exact tail [32,infinity), one immutable reference7171 rational rank-one profile with the indicated literal reserves. Separate exact target711/715/7171 PSD/source-corner prices pass on the indicated rectangle. Independent whole-q and source numeric replay and a complete same-b global cover remain necessary."
+}

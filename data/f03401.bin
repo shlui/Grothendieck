@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PRODUCER_FREE_MONOTONE_R3_UPGRADE",
+  "source": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_twentyeightbank_envelope.json.gz",
+    "sha256": "a8a5a9be33c16ad0f0da95b00914e32f34f6592574431f017e0be4a4ce287f4e"
+  },
+  "source_sha256": "a8a5a9be33c16ad0f0da95b00914e32f34f6592574431f017e0be4a4ce287f4e",
+  "parent": {
+    "path": "tonight/recovery/profile_cover/global_upper_b713_native_kappa68_refined_envelope.json.gz",
+    "sha256": "125ed171cc804e026d868c73351afe47c73ca27ce625cd561af59d8c51551aaa",
+    "accepted_geometry_audit": "tonight/theory/fullupper_b713_native_kappa68_refinement_audit.json",
+    "audit_sha256": "f402d037f5850d8f57a8a4ffef5982c41c0486aa88e153c7db9f4ac346bc652f"
+  },
+  "numeric_cache_audit": {
+    "status": "PASS_FRESH_PRODUCER_FREE_NEW_MPFR768_CORNERS",
+    "fresh_corners": 280,
+    "unchanged_parent_cache_entries": 1512
+  },
+  "operator_b": "713/1000",
+  "amplitude_interval": [
+    "1381/2000",
+    "159577/200000"
+  ],
+  "identical_priced_cells": 272579,
+  "identical_empty_cells": 8737,
+  "improved_cells": 691,
+  "new_winner_counts": {
+    "last20_40": 691
+  },
+  "improved_polygon_prices": 691,
+  "new_profiles": {
+    "last20_40": {
+      "path": "tonight/operator/last20_40_literature/profile_rank_exact.json",
+      "sha256": "e0eca57ada5b2d0d7da52dba3ecf6b20303df273635c5f6c7cf89f1d098065c8",
+      "reserves": [
+        "1/1000",
+        "1/100000000"
+      ],
+      "report_path": "tonight/audit/last20_40_R3_recheck/ACCEPTANCE.json",
+      "report_sha256": "b4147cde47f8998abaaf1e86deddccfd4432beb96b5b9ff5941dfb662349bf1e"
+    }
+  },
+  "maximum_cell_cap": "563952716919/1000000000000",
+  "strict_rational_cap": "281976359/500000000",
+  "proof": "The accepted parent provides the identical physical partition. Every changed price is an independently accepted rank-profile polynomial maximum on that same polygon or containing rectangle. All unchanged old prices remain valid."
+}

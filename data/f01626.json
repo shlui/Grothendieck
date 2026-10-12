@@ -1,0 +1,14 @@
+{
+  "status": "PASS_EXACT_LOW_AMPLITUDE_ENERGY_CONSEQUENCE",
+  "cubic_L1_cap": "849/1000",
+  "cubic_squared_projection_cap": "720801/1000000",
+  "coefficient": "18/25",
+  "bilinear_cap": "7038459/12500000",
+  "target": "40/71",
+  "exact_margin": "269411/887500000",
+  "L1_certificate_sha256": "e6cb519fa141c797bbf9a8409b98730c8162746c399d5f67241cc74e89511988",
+  "scope": "For arbitrary signsf,g with agreement amplitudeu<=.21. Uses freshly reconstructed633andcomplete8-row cubicL1 proof. This is a regional norm certificate, not a global norm or newGrothendieckendpoint.",
+  "agreement_amplitude_definition": "u=norm(P1((f+g)/2))",
+  "agreement_amplitude_at_most": "21/100",
+  "identity": "<f,Tg>=||P1h||^2-b||P3h||^2-||P1k||^2+b||P3k||^2, h=(f+g)/2,k=(f-g)/2"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "interpretation": "Scalar moment relaxation barrier; no third-chaos realization claimed",
+  "main_example": {
+    "absolute_atoms": [
+      "9/10",
+      "5"
+    ],
+    "absolute_atom_probabilities": [
+      "2400/2419",
+      "19/2419"
+    ],
+    "symmetric_atom_probabilities": [
+      "1200/2419",
+      "19/4838"
+    ],
+    "moments": {
+      "1": "55/59",
+      "2": "1",
+      "4": "139/25",
+      "6": "154067/1250"
+    },
+    "kappa4": "64/25",
+    "kappa6": "87317/1250",
+    "deficit_valid_for_every_variance_in": [
+      "448/1125",
+      "128/225"
+    ],
+    "strict_rational_slack_at_worst_variance": "7019/1250",
+    "absolute_first_moment_decimal": 0.9322033898305084,
+    "squared_absolute_first_moment": "3025/3481"
+  },
+  "dual_factorization": {
+    "denominator": "1848411/1000",
+    "numerator_coefficients": [
+      "318411/400",
+      "-1848411/1000",
+      "11158411/10000",
+      "0",
+      "-1403/25",
+      "0",
+      "1"
+    ]
+  },
+  "small_cumulant_example": {
+    "absolute_atoms": [
+      "9/10",
+      "4"
+    ],
+    "absolute_atom_probabilities": [
+      "1500/1519",
+      "19/1519"
+    ],
+    "absolute_first_moment": "46/49",
+    "kappa4": "17/20",
+    "kappa6": "48017/2000",
+    "satisfies_sharp_bound_at_minimum_variance": true
+  },
+  "kappa_zero_relaxation": {
+    "squared_atoms": [
+      "3-sqrt(6)",
+      "3+sqrt(6)"
+    ],
+    "absolute_first_moment_squared": "(3+sqrt(3))/6",
+    "strict_rational_lower_bound_on_squared_value": "47/60"
+  }
+}

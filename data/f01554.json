@@ -1,0 +1,82 @@
+{
+  "status": "PASS_COMPLETE_GOAL_NORM_AND_FINITE_ARITHMETIC_BINDING",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "40/71",
+  "G_R_lower_bound": "71/40",
+  "directed_power4_rows": [
+    {
+      "n": 8,
+      "dimension": 4096,
+      "integer_cutoff": 10,
+      "finite_ratio_decimal": "1.774628887002051"
+    },
+    {
+      "n": 16,
+      "dimension": 65536,
+      "integer_cutoff": 11,
+      "finite_ratio_decimal": "1.774976827815737"
+    },
+    {
+      "n": 32,
+      "dimension": 1048576,
+      "integer_cutoff": 12,
+      "finite_ratio_decimal": "1.774998551827387"
+    },
+    {
+      "n": 64,
+      "dimension": 16777216,
+      "integer_cutoff": 13,
+      "finite_ratio_decimal": "1.774999909489575"
+    },
+    {
+      "n": 128,
+      "dimension": 268435456,
+      "integer_cutoff": 14,
+      "finite_ratio_decimal": "1.774999994343100"
+    },
+    {
+      "n": 1024,
+      "dimension": 1099511627776,
+      "integer_cutoff": 17,
+      "finite_ratio_decimal": "1.774999999998618"
+    }
+  ],
+  "exact_rational_rows": [
+    {
+      "dimension": 1000,
+      "ratio_lower_floor12": "1.773467997012"
+    },
+    {
+      "dimension": 10000,
+      "ratio_lower_floor12": "1.774848013893"
+    },
+    {
+      "dimension": 1000000,
+      "ratio_lower_floor12": "1.774998481474"
+    },
+    {
+      "dimension": 100000000,
+      "ratio_lower_floor12": "1.774999984814"
+    }
+  ],
+  "bindings": {
+    "accepted_global_norm": {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/FINAL_GOAL_AFFINE_MOMENT_GLOBAL_ACCEPTANCE.json",
+      "sha256": "f1e6bf6641fa20dd23e1f60cd1c2deb743ac0be98035210ab6d58b24718c6f08"
+    },
+    "Arb768_table": {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/FINAL_GOAL_LOG_CUTOFF_FINITE_ARB768.json",
+      "sha256": "47b466b6deef7acae6006891f6c4267fdc4d9ce880e7265e72e4b2939f779bc4"
+    },
+    "independent_MPFR768_audit": {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/FINAL_GOAL_LOG_CUTOFF_FINITE_MPFR_AUDIT.json",
+      "sha256": "06e3b26d46ae5cb06b3630b9337a3f2874b2f59d5c5366b8022a152b786ad28c"
+    },
+    "exact_Fraction_table": {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/sequence_theory/FINAL_GOAL_RATIONAL_FINITE_BOUND.json",
+      "sha256": "45e6b6892265684c7b78f4bdd40610d66979acaada9f2d7b53582d71c8947a70"
+    }
+  },
+  "scope": "Certified finite lower formulas tend to71/40. The actual reduced matrix ratio tends to1/N(.711), at least71/40; no rate or equality for the actual denominator is asserted.",
+  "entrypoint_sha256": "cd1b245dadb22776d2172187b72425c6bdfdf9514c06af6be98905f9d37b5533"
+}

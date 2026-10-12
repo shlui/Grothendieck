@@ -1,0 +1,66 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_SAME_B_AMPLITUDE_UNION",
+  "path": "tonight/recovery/profile_cover/native_lower_base_b7171_target_union.json",
+  "input_sha256": "5708e8ad1e375e04524d601c94e12967995b6b7edcb888ae254b03d8487c2dc8",
+  "b": "7171/10000",
+  "interval": [
+    "3/5",
+    "341/500"
+  ],
+  "threshold": "40/71",
+  "native_cells": 30268,
+  "R3_cells": 0,
+  "source_band_groups": 112,
+  "maximum_rounded_cap": "563067382411/1000000000000",
+  "source_rho": "847/1000",
+  "precision_bits": 768,
+  "selected_endpoint_prices_recomputed": 2240,
+  "frames_repriced": 5,
+  "accepted_package_bindings": [
+    {
+      "package": "tonight/regional_certificates/u050_0638",
+      "source_sha256": "177097b34111920751b05b843b5c0439eb83f6cf81a51fa64e7f4a095cf87124",
+      "manifest_sha256": "2804ca587193bd535ab8b1d1c6042a4ec1e8a85e080ada34b29a61b7c88b6aae",
+      "replay_sha256": "913a0413a044f622b50b6f467b37ce4d859b2a6975a809af6fa95e90696d76e9"
+    },
+    {
+      "package": "tonight/regional_certificates/u060_0662",
+      "source_sha256": "ed735814619d9022c0213bacc97b030ae3819c6344d1ba6c1f38255a231f4d94",
+      "manifest_sha256": "5dadee8eb05b22885def32dca4c1cf89c2d694866d2af173fa1a6be314044ca3",
+      "replay_sha256": "32d6ec3511112f996d826f93b9504aa3cd359e566a70f1212b768a3f00143b4f"
+    },
+    {
+      "package": "tonight/regional_certificates/u0662_0682",
+      "source_sha256": "cc800857284b69a78e61d5c40bc982cc08f49b723a6b02b9b6fb9c5127c7eb60",
+      "manifest_sha256": "e8f5ee150e1e523f014b01f28fa1981e6d7ee13226b36dc7b8741d4097442996",
+      "replay_sha256": "249603987837576e95ef53f8663e6c0d8ae0049b0eec801965bb43de014b362a"
+    },
+    {
+      "package": "tonight/native_frames/repriced0685_0700",
+      "source_sha256": "631cb81cd5a42afe6cb9963601a3d905edcded1c8d963d4e29103f82b20a6b12",
+      "manifest_sha256": "fd33c2c637b0311f26685d5e072ed5d76c80b4f7a7297900dafd62e5d14469b2",
+      "replay_sha256": "555a1c5bb4f2719a89ed7496a60cbceaaf1fd45cd7ae38c8d5b7cc3047df8f88"
+    },
+    {
+      "package": "tonight/native_frames/u0685_0700",
+      "source_sha256": "a8eabbcb7d9000990c4e14c553a9096df5e337898c2899d37546add9f4fd7f85",
+      "manifest_sha256": "719bc9121b97dd9a054711ff9124ff954d437f5104c42eca2cec2aab6011d0e9",
+      "replay_sha256": "a9e53073628a7d2185a715769a9400bb9e26d9046f08ba35e6f8e544a0569735"
+    },
+    {
+      "package": "tonight/native_frames/repriced0700_0720",
+      "source_sha256": "0f2a4c51b4979520b04d7b7dc1cf0e1cda803689219416c159a65f019a994a55",
+      "manifest_sha256": "63cb82aba3082b76c8e3d343227f1a965844278aaece8ecf08270144d5096dca",
+      "replay_sha256": "9fa290d2ebe056c00bfc4671c8cafd580323bb235e8e3fdd8ed02dc4267235dd"
+    },
+    {
+      "package": "tonight/native_frames/u0700_0720",
+      "source_sha256": "d63dda2f23b04599d23fba2b77fe9102cad876cbfef55171ed42abb7188c883e",
+      "manifest_sha256": "cac5e2e672a743c461ba25e963ecec0e2e9341659f73f29177bdb8caae5615ff",
+      "replay_sha256": "1c81eb01fc48b88d3f1015078bbdd0fa92fe4611e8f6db9b3883b3f6b58cc876"
+    }
+  ],
+  "producer_modules_imported": false,
+  "seconds": 16.47305154800415,
+  "scope": "Complete regional all-source amplitude theorem for ONE b. No unrestricted norm or Grothendieck endpoint."
+}

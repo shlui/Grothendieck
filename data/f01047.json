@@ -1,0 +1,71 @@
+{
+  "status": "PRODUCER_COMPLETE_WHOLE_Q_HIGHK_GATE_PENDING_INDEPENDENT_AUDIT",
+  "profile_alias": "highk_native76625",
+  "profile": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/profile_highk_native_face_b7171.json",
+    "sha256": "939773f8d3542b86b3459748b289f3f0dbf7bbbb4193147f8c592396fd54b7e7"
+  },
+  "reference_b": "7171/10000",
+  "regional_target_b": "711/1000",
+  "reserve0": "3/100",
+  "reserve6": "1/5000000",
+  "whole_q_covers": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/body_highk_q6_2e7.json.gz",
+      "sha256": "5cd6fc956d3c11d0f2d1b7d2dca4ba3aac7f028cd0f589d6c2baaa05cf4a0123"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/exterior_highk_q6_2e7.json.gz",
+      "sha256": "c0d69eb904d088ad5111ef0dd7569d319424466ae10c33c0ea72a6323b445c3d"
+    }
+  ],
+  "tail": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/tail_highk_q6_2e7.json",
+    "sha256": "7f0518e86af8c1ff8d5a4448fea86f395e2a69cd6699a7908d6125345ab2409d"
+  },
+  "counts": {
+    "body_highk_q6_2e7.json.gz": {
+      "nodes": 2805,
+      "accepted": 1403,
+      "pending": 0
+    },
+    "exterior_highk_q6_2e7.json.gz": {
+      "nodes": 37,
+      "accepted": 19,
+      "pending": 0
+    }
+  },
+  "source_box": {
+    "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/source_price_b711_q6_2e7.json",
+    "sha256": "a9a6bf6a5367e47e210b22bd6b7d93e874d1c06350c648c7b188c92e2ce5ada5"
+  },
+  "source_box_cap": "13827691294196362891174058725913685238368279444903396738022348651779212321547619/25000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "source_box_cap_display": 0.5531076517678545,
+  "adapter_bindings": [
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/certify_local_point.py",
+      "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/certify_local_bernstein_region.py",
+      "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/rational_phi_bounds.py",
+      "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/bernstein_integer_bounds.py",
+      "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/gaussian_max_certificate.py",
+      "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+    },
+    {
+      "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/cubic_search/coefficient/highk_fit/certificate/mpfr_interval.py",
+      "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+    }
+  ],
+  "scope": "The fixed local profile has complete producer q coverage: body[0,8], exterior[8,32], exact tail[32,infinity). All pricing carries q0=3/100 and q6=1/5000000. Original q6=1e-8 was invalid and is explicitly excluded; only these larger literal reserves can be considered for promotion. Same coefficient and complete source partition assembly remain separate."
+}

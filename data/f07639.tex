@@ -1,0 +1,77 @@
+\begin{theorem}[Complete amplitude branches at one coefficient]
+\label{thm:same-b7171-regions}
+Set $b_*=7171/10000$.  For every pair of odd Gaussian signs $f,g$,
+in every finite Gaussian dimension, put
+$u=\|P_1((f+g)/2)\|_2$.  Then
+\[
+ \langle f,T_{b_*}g\rangle\le
+ \begin{cases}
+ 56338/10^5,&0\le u\le1381/2000,\\[2pt]
+ 563315250991/10^{12},&31/40\le u\le\sqrt{2/\pi}.
+ \end{cases}
+ \qquad <\frac{40}{71}.
+\]
+Both conclusions include every physical source amplitude, cumulant
+and cubic tensor shape.
+\end{theorem}
+\begin{proof}[Certificate proof]
+All the profiles here use the single coefficient $b_*$.
+The elementary energy estimate with $\rho=847/1000$ gives
+\[
+ \langle f,T_{b_*}g\rangle
+ \le u^2+b_*\rho^2
+ \le\frac{7042043}{12500000}<\frac{40}{71}
+ \quad(0\le u\le541/2500),
+\]
+where the displayed cap conservatively uses $b=18/25$.
+Four previously replayed complete native frames, transported by
+Proposition~\ref{prop:smaller-b-transport}, cover
+$[.14,.42]$, $[.30,.485]$, $[.40,.54]$ and $[.50,.638]$.
+Their outward caps are respectively below
+$.561498051269$, $.562840841523$, $.563045009361$ and
+$.563207127166$.  The intervals overlap each other and the elementary
+branch.
+
+The exact native-frame union on $[.60,.682]$ consists of $30268$
+accepted cells and has maximum rational cap
+$563067382411/10^{12}$.  On $[.682,.6905]$, $9661$ accepted native
+cells and $41$ cells covered by the transported R3 profile have
+maximum cap $563379835873/10^{12}<56338/10^5$.
+The R3 replacement uses the independently replayed $11470+88$
+compact leaves and exact tail beyond64, with constant and sixth-degree
+reserves $1/50000$ and $1/5000000$.
+
+For completeness of these source unions, the support--source proof
+of \eqref{eq:Rrho} applies with the freshly proved $\rho=.847$.
+For each amplitude subinterval $[u_-,u_+]$, its source grid covers
+\[
+ 0\le r\le R_{.847}(u_-),
+\]
+an outward bound on the entire physical source range because
+$R_{.847}$ is decreasing.  The cumulant intervals partition $[0,90]$.
+Native prices are affine in the variance shape $s\in[0,1]$;
+the R3 coordinate is exactly $z=2/5+(3/5)s\in[2/5,1]$.
+Every cell has either one complete native bound or one same-coefficient
+R3 bound.  Exact positive source chords and quadratic source maxima,
+including interior vertices, cover its full continuous interior.
+Independent price replays check $2240$ and $1344$ native endpoint
+prices in these two unions, all selected profile hashes, and the
+sixteen R3 replacement corners.  A separate exact verifier checks
+all $112+42$ amplitude--cumulant groups and every gap-free source
+partition.  This proves the first branch.
+
+The upper native union on $[.775,.797885]$ has $5096$ cells and
+maximum cap $563315250991/10^{12}$; its independent replay checks
+$1568$ endpoint prices and the same exhaustive physical-source
+partitions.  Finally $u\le\sqrt{2/\pi}<.797885$.
+The complete union records are
+\texttt{native\_lower\_base\_b7171\_target\_union.json},
+\texttt{native\_R3\_b7171\_u682\_6905\_union.json}, and
+\texttt{native\_upper\_b7171\_target\_union.json}; their frozen
+input hashes are checked in
+\texttt{same\_b\_native\_R3\_glue\_audit.json} and the independent
+native price replay ledgers.
+\end{proof}
+The uncovered amplitude range for this theorem alone is
+$1381/2000<u<31/40$.  The theorem is an upper bound for the indicated
+pairings, and does not by itself bound the unrestricted operator norm.

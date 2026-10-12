@@ -1,0 +1,72 @@
+{
+  "status": "PASSED",
+  "cases": [
+    {
+      "integer_seed": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "orders": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "exact_classical_norms": [
+        "2",
+        "2",
+        "4",
+        "8"
+      ],
+      "exact_structural_checks": "PASSED",
+      "floating_Halmos_diagnostic_errors": {
+        "U_squared": 2.55351295663786e-15,
+        "projection_squared": 6.661338147750939e-16,
+        "projection_half_diagonal": 0.0,
+        "projection_zero_row_sums": 1.191300210067936e-15,
+        "weighted_identity": 3.469446951953614e-18,
+        "trace_D": 0.0
+      }
+    },
+    {
+      "integer_seed": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "orders": [
+        2,
+        5,
+        10,
+        20
+      ],
+      "exact_classical_norms": [
+        "3",
+        "3",
+        "6",
+        "12"
+      ],
+      "exact_structural_checks": "PASSED",
+      "floating_Halmos_diagnostic_errors": {
+        "U_squared": 3.1086244689504383e-15,
+        "projection_squared": 7.216449660063518e-16,
+        "projection_half_diagonal": 0.0,
+        "projection_zero_row_sums": 1.7763568394002505e-15,
+        "weighted_identity": 1.734723475976807e-18,
+        "trace_D": 0.0
+      }
+    }
+  ],
+  "scope": "Exact finite classical and structural checks, floating Halmos diagnostics; no new endpoint."
+}

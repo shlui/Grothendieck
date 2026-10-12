@@ -1,0 +1,18 @@
+{
+  "tonight/audit/highu_highk_R3_input/profile_interval_highu_highk.json": {
+    "original": "tonight/operator/highu_highk_literature/profile_rank_exact.json",
+    "sha256": "525be8e9bde51f2fcf3d680cef02e30bda14eaf91889580f4f72ac8adefec5f4"
+  },
+  "tonight/audit/highu_highk_R3_input/body_interval_highu_highk.json.gz": {
+    "original": "tonight/operator/highu_highk_literature/body_rank.json.gz",
+    "sha256": "9f830416730d33adba1f43af8a224b7e2529d7b418dac6abddd2d482af967ca9"
+  },
+  "tonight/audit/highu_highk_R3_input/exterior_interval_highu_highk.json.gz": {
+    "original": "tonight/operator/highu_highk_literature/exterior_rank.json.gz",
+    "sha256": "89b7f5917c04eb096cf2be9839b12273220ecf385f57e3b464ccf04849fc6111"
+  },
+  "tonight/audit/highu_highk_R3_input/tail_interval_highu_highk.json": {
+    "original": "tonight/operator/highu_highk_literature/tail32_rank.json",
+    "sha256": "30468a4e5ddcefaa8cf6b37be72aa8e86bf85b4eac5ab007264d24e124938e11"
+  }
+}

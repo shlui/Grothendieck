@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_LAST20_40_R3_SCALAR_GATE",
+  "profile_path": "tonight/operator/last20_40_literature/profile_rank_exact.json",
+  "profile_sha256": "e0eca57ada5b2d0d7da52dba3ecf6b20303df273635c5f6c7cf89f1d098065c8",
+  "reserves": [
+    "1/1000",
+    "1/100000000"
+  ],
+  "q_cover": [
+    [
+      "0",
+      "8"
+    ],
+    [
+      "8",
+      "32"
+    ],
+    [
+      "32",
+      "infinity"
+    ]
+  ],
+  "reports": {
+    "body": {
+      "path": "tonight/audit/last20_40_R3_recheck/independent_interval_last20_40_highu_body.json",
+      "sha256": "3b68186a267fb869e0b0f316f0c1df535e9e42fed14b015f84b3f41c1fe8aa87",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 1669,
+      "excluded": 0
+    },
+    "exterior": {
+      "path": "tonight/audit/last20_40_R3_recheck/independent_interval_last20_40_highu_exterior.json",
+      "sha256": "08a4daae874569e1be37b4bb85a65411c7e09f0ad33d46ba6b6667e52d79b007",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "accepted": 116,
+      "excluded": 0
+    },
+    "tail": {
+      "path": "tonight/audit/last20_40_R3_recheck/independent_interval_last20_40_highu_tail.json",
+      "sha256": "339516757b0e34bb9db55d111850c69241b6695d4bd1f014869fdbed3f3a455c",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "accepted": null,
+      "excluded": null
+    }
+  },
+  "adapter_sha256": "15767b345f04247ae2cce1c6a9c4b79d59e5854044111359e515ebdf81164d09",
+  "adapter_path": "tonight/audit/replay_R3_highu_q_trees.py",
+  "adapter_review": "Complete compact trees and physical exclusions freshly checked; exact rational tail regenerated. This adapter changes only literal reserves relative to the independently reviewed rank replay.",
+  "scope": "Complete whole-q physical local gate only. Outer pricing and exhaustive amplitude/source coverage require separate acceptance.",
+  "byte_identical_input_aliases": {
+    "tonight/audit/last20_40_R3_input/profile_interval_last20_40.json": {
+      "original": "tonight/operator/last20_40_literature/profile_rank_exact.json",
+      "sha256": "e0eca57ada5b2d0d7da52dba3ecf6b20303df273635c5f6c7cf89f1d098065c8"
+    },
+    "tonight/audit/last20_40_R3_input/body_interval_last20_40.json.gz": {
+      "original": "tonight/operator/last20_40_literature/body_rank.json.gz",
+      "sha256": "bf60a1e0bc2093844c61cef709aaf16b99afa8b4c7e6e3a4126ae6654f47126b"
+    },
+    "tonight/audit/last20_40_R3_input/exterior_interval_last20_40.json.gz": {
+      "original": "tonight/operator/last20_40_literature/exterior_rank.json.gz",
+      "sha256": "a3a10b50bdf99ba4ec10ff446749426f55bd8f78ee6bc62b99831c5419662211"
+    },
+    "tonight/audit/last20_40_R3_input/tail_interval_last20_40.json": {
+      "original": "tonight/operator/last20_40_literature/tail32_rank.json",
+      "sha256": "621a5c34132862ef04ac3b61ee9e3904fb5ffbcd79847ee3788c258a37ab8f9e"
+    }
+  }
+}

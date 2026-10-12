@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+  "source": {
+    "path": "new_round_2026-10-02/cubic_search/b711_bank66_kappa_shape2_fullrank_refinement_pending_components.json.gz",
+    "sha256": "0d84f41b0517c51636b56f3ef6b3f97e54ecf2163c60ed825e54d8abfaae19c0"
+  },
+  "profiles": 63,
+  "kappa_bands": 88,
+  "moment_boxes": 175,
+  "corner_tables": 11025,
+  "directed_corner_prices": 43596,
+  "verified_premise_file_count": 481,
+  "fresh_tables": 700,
+  "fresh_directed_prices": 2768,
+  "reused_tables": 10325
+}

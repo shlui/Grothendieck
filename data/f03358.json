@@ -1,0 +1,94 @@
+{
+  "status": "NUMERICAL_COUPLED_633_CUBIC_L1_REFIT",
+  "degree": 12,
+  "scale": 2,
+  "kappa": 9.575,
+  "sigma": 1,
+  "odd_weights": [
+    1,
+    0,
+    0
+  ],
+  "sixth_offset": 0,
+  "combined_sixth": false,
+  "eta": 0.11474418132977898,
+  "phi_coefficients": [
+    -405.63438145535156,
+    22.621334464184617,
+    -0.513810558781765,
+    0.002605852146597327,
+    2965.233233724667,
+    3345.0861946113623,
+    1822.742888671942,
+    955.0046052085357,
+    478.2502432617158,
+    227.31413680351957,
+    101.55348305916213,
+    42.0534269933863,
+    15.837788104943371,
+    5.274534872897437,
+    1.4737057066267238,
+    0.307742629557789,
+    0.03566840566802693
+  ],
+  "majorant": [
+    -0.4050434075844194,
+    0.5242091399643847,
+    -0.017121433577118945,
+    2.9591023240043884e-05
+  ],
+  "kappa_interval": [
+    8.85,
+    10.3
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "kappa_interval": [
+        8.85,
+        10.3
+      ],
+      "sampled_cap": 0.8462813769858398,
+      "scaled_violation": 1.6619112726046728e-06,
+      "rank": 17,
+      "seconds": 0.42511439323425293,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 1,
+      "kappa_interval": [
+        8.85,
+        10.3
+      ],
+      "sampled_cap": 0.846281134289753,
+      "scaled_violation": 3.184055939842252e-09,
+      "rank": 17,
+      "seconds": 0.9088084697723389,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 2,
+      "kappa_interval": [
+        8.85,
+        10.3
+      ],
+      "sampled_cap": 0.8462824824990026,
+      "scaled_violation": 4.0630049721642884e-09,
+      "rank": 17,
+      "seconds": 1.3714921474456787,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "iteration": 3,
+      "kappa_interval": [
+        8.85,
+        10.3
+      ],
+      "sampled_cap": 0.8462828409146977,
+      "scaled_violation": 2.0238656800307845e-09,
+      "rank": 17,
+      "seconds": 1.8758747577667236,
+      "status": "optimal_inaccurate"
+    }
+  ]
+}

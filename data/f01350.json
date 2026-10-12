@@ -1,0 +1,33 @@
+{
+  "status": "PRODUCER_COMPLETE_PENDING_INDEPENDENT_REPLAY",
+  "profiles": [
+    {
+      "name": "new_moderate_kappa215_b711",
+      "profile_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/profile_new_moderate_kappa215_b711.json",
+      "profile_sha256": "4125096795f028bf9f3252e29b94982321475eb5d3f5026e67262fb99cb16f56",
+      "reference_operator_b": "7171/10000",
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "proof_status": "PRODUCER_COMPLETE_WHOLE_Q_AND_RESTRICTED_SOURCE_PRICE_PASS_PENDING_INDEPENDENT_REPLAY",
+      "acceptance_kind": "PRODUCER_ONLY",
+      "acceptance_path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa215_source_box.json",
+      "acceptance_sha256": "8583c8980198666c142d123473a91326f019d652b3ef8eeec0667575472249cb",
+      "gate_parts": [
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/body_new_moderate_kappa215_b711.json.gz",
+          "sha256": "2871c44eaa743718029b1aaeaad184e8162575c18a8c19f5d512559fa1f8cb05"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/exterior_new_moderate_kappa215_b711.json.gz",
+          "sha256": "ea25af9cc128636949cf345e76f52d157c671ad097e41a522397def543f3a1f3"
+        },
+        {
+          "path": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/tail_new_moderate_kappa215_b711.json",
+          "sha256": "e977e22e88f9467c0f3e64b27e5b27e981abccd7e1874d063724ae21981d3abd"
+        }
+      ],
+      "source_ledger": "/workspace/scratch/8242d848994f/new_round_2026-10-02/expanded_operator/pure_cubic_refit/certificate/new_moderate_kappa215_source_box.json",
+      "source_price_operator_b": "711/1000"
+    }
+  ]
+}

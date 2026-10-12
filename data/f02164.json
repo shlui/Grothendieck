@@ -1,0 +1,375 @@
+{
+  "status": "PASS_COMPLETE_REPRICED_NATIVE_SCALAR_ROWS",
+  "source": "/workspace/scratch/8242d848994f/tonight/recovery/profile_cover/repriced685_700_source.json",
+  "rows": 64,
+  "leaves": 28090,
+  "q0": "1/20000",
+  "q6_counts": {
+    "1/100000000": 20,
+    "3/100000000": 22,
+    "3/10000000": 5,
+    "1/10000000": 11,
+    "1/500000": 1,
+    "1/1000000": 5
+  },
+  "repaired_rows": [
+    {
+      "row": 8,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ]
+    },
+    {
+      "row": 11,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 12,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "row": 13,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 14,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 15,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 16,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ]
+    },
+    {
+      "row": 20,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "row": 21,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 22,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 23,
+      "q6": "3/10000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 24,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ]
+    },
+    {
+      "row": 25,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "3/10",
+        "11/10"
+      ]
+    },
+    {
+      "row": 27,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 28,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "row": 29,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 30,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 31,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 35,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 37,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 38,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 39,
+      "q6": "3/10000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 41,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "3/10",
+        "11/10"
+      ]
+    },
+    {
+      "row": 42,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "11/10",
+        "4"
+      ]
+    },
+    {
+      "row": 43,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 45,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 46,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 47,
+      "q6": "3/10000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 48,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ]
+    },
+    {
+      "row": 49,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "3/10",
+        "11/10"
+      ]
+    },
+    {
+      "row": 50,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "11/10",
+        "4"
+      ]
+    },
+    {
+      "row": 51,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 52,
+      "q6": "3/10000000",
+      "kappa_interval": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "row": 53,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 54,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 55,
+      "q6": "3/100000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    },
+    {
+      "row": 56,
+      "q6": "1/500000",
+      "kappa_interval": [
+        "0",
+        "3/10"
+      ]
+    },
+    {
+      "row": 57,
+      "q6": "1/1000000",
+      "kappa_interval": [
+        "3/10",
+        "11/10"
+      ]
+    },
+    {
+      "row": 58,
+      "q6": "3/10000000",
+      "kappa_interval": [
+        "11/10",
+        "4"
+      ]
+    },
+    {
+      "row": 59,
+      "q6": "1/1000000",
+      "kappa_interval": [
+        "4",
+        "10"
+      ]
+    },
+    {
+      "row": 60,
+      "q6": "1/1000000",
+      "kappa_interval": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "row": 61,
+      "q6": "1/1000000",
+      "kappa_interval": [
+        "20",
+        "40"
+      ]
+    },
+    {
+      "row": 62,
+      "q6": "1/10000000",
+      "kappa_interval": [
+        "40",
+        "60"
+      ]
+    },
+    {
+      "row": 63,
+      "q6": "1/1000000",
+      "kappa_interval": [
+        "60",
+        "90"
+      ]
+    }
+  ],
+  "tail_branches": {
+    "linear": 31,
+    "quadratic_endpoints": 33
+  },
+  "scope": "Whole-line scalar comparisons only. Explicit per-row q0/q6 must be repriced. No full amplitude region or global norm follows before native source-mask union.",
+  "scalar_summary_sha256": "09aa4bcf8bfb0bd541ee750c70034123037fbe128f9b6a6fbbe4b83b153ff226"
+}

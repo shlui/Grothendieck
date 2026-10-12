@@ -1,0 +1,50 @@
+\begin{lemma}[Physical clipping of source cells]
+\label{lem:physical-source-clipping}
+Let $c=\sqrt{2/\pi}$, $0<\rho<1$, and use the support bound
+$r\le R_\rho(u)$ of \eqref{eq:Rrho}.  Define
+\[
+ U_\rho(r)=c\{1-\rho^2+\rho^2
+  e^{-[\operatorname{erf}^{-1}(r/\rho)]^2}\},
+ \qquad 0<r<\rho,
+\]
+with $U_\rho(0)=c$ and $U_\rho(\rho)=c(1-\rho^2)$.
+Every physical point in a cell
+$[u_-,u_+]\times[r_-,r_+]$ also satisfies
+\[
+ u\le\min\{u_+,U_\rho(r_-)\}.
+\]
+Thus any outward rational upper bound on $U_\rho(r_-)$ may replace
+the cell's amplitude endpoint in all native and R3 price maxima.
+If this upper bound is below $u_-$, the cell is physically empty.
+\end{lemma}
+\begin{proof}
+The source envelope is decreasing.  For $0<r<\rho$, solving
+$R_\rho(u)=r$ gives the displayed inverse; its endpoint values
+follow by limits.  Hence $r\ge r_-$ and $r\le R_\rho(u)$ imply
+the asserted restriction.  To certify the inverse without assuming
+a special-function inverse, bracket
+$s=\operatorname{erf}^{-1}(r_-/\rho)$ by rational numbers
+$s_-\le s\le s_+$ using directed monotone evaluations of
+$\operatorname{erf}$.  Since $e^{-s^2}$ decreases for $s\ge0$,
+an outward evaluation using $s_-$ gives the required upper bound.
+\end{proof}
+
+On the smooth source branch put
+$v=(u/c-1+\rho^2)/\rho^2$ and $s=\sqrt{-\log v}$.
+Direct differentiation gives
+\[
+ R_\rho'(u)=-\frac1{\sqrt2\rho s},\qquad
+ R_\rho''(u)=-\frac1{2\sqrt2c\rho^3s^3v}<0.
+\]
+For a fixed source quadratic the boundary price
+$F(u)=u^2-2\ell u+aR_\rho(u)^2+dR_\rho(u)+C$ has
+\[
+ F''(u)=2+2aR_\rho'(u)^2+
+                 (2aR_\rho(u)+d)R_\rho''(u).
+\]
+If directed bounds give $F''\ge-K$ on an interval of width $w$,
+then its maximum is at most the larger endpoint value plus $Kw^2/8$:
+$F(u)+(K/2)u^2$ is convex, so its chord proves this estimate.
+When source clipping switches at a knot or at a quadratic vertex,
+the intervals must first be split there; an unpriced derivative
+jump cannot be included in this smooth curvature estimate.

@@ -1,0 +1,182 @@
+{
+  "status": "PASS_DIRECTED_ROBUST_RESTRICTED_R3_SOURCE_BOXES",
+  "scope": "Only these continuous source boxes. Complete amplitude/source union is separate.",
+  "convexity": "Positive rank-one r curvature; u quadratic positive. Cumulant price separately convex in kappa and shared shape, including positive covariance term.",
+  "boxes": [
+    {
+      "name": "interval_nextface_u7375_k4_10",
+      "u": [
+        "147/200",
+        "37/50"
+      ],
+      "r": [
+        "149/500",
+        "3/10"
+      ],
+      "kappa": [
+        "4",
+        "10"
+      ],
+      "reserve0": "1/50000",
+      "reserve6": "1/100000000",
+      "cap": "563333/1000000",
+      "branch": "nextface",
+      "audit": "nextface_u7375_R3_recheck",
+      "profile": "profile_interval_nextface_u7375_k4_10.json",
+      "kind": "rank",
+      "operator_b": "7171/10000",
+      "shape": [
+        "2/5",
+        "1"
+      ],
+      "r_quadratic": "7171/10000",
+      "tail_start": "32",
+      "regions": [
+        {
+          "q": [
+            "0",
+            "8"
+          ],
+          "accepted": 3847
+        },
+        {
+          "q": [
+            "8",
+            "32"
+          ],
+          "accepted": 147
+        }
+      ],
+      "independent_q_replays": [
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_body.json",
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_exterior.json",
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_tail.json"
+      ],
+      "maximum_directed_upper": "1408330806898878300577322748329152821791474131360774917124951446462411/2500000000000000000000000000000000000000000000000000000000000000000000",
+      "vertices": [
+        {
+          "u": "147/200",
+          "r": "149/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.633169340315486104976352639639796855124840012819708067008143321827925e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "149/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632772777531436483954450983238374644230551429368619656552378619787292e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "149/500",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.633323227592785502083655968412761020976528346137873645587341969347077e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "149/500",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627197195235640942718377506150889937720749367736449295509388563651312e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "3/10",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.633169340318213805201987664543647121314208192124934089920607138330492e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "3/10",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632772777534164184180086008142224910419919608673845679464842436289859e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "3/10",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.633323227595513202309290993316611287165896525443099668499805785849644e-1"
+        },
+        {
+          "u": "147/200",
+          "r": "3/10",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627197195238368642944012531054740203910117547041675318421852380153879e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "149/500",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.633169340315486104976352639639796855124840012819708067008143321827925e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "149/500",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632772777531436483954450983238374644230551429368619656552378619787292e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "149/500",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.633323227592785502083655968412761020976528346137873645587341969347077e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "149/500",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627197195235640942718377506150889937720749367736449295509388563651312e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "3/10",
+          "kappa": "4",
+          "shape": "2/5",
+          "upper": "5.633169340318213805201987664543647121314208192124934089920607138330492e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "3/10",
+          "kappa": "4",
+          "shape": "1",
+          "upper": "5.632772777534164184180086008142224910419919608673845679464842436289859e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "3/10",
+          "kappa": "10",
+          "shape": "2/5",
+          "upper": "5.633323227595513202309290993316611287165896525443099668499805785849644e-1"
+        },
+        {
+          "u": "37/50",
+          "r": "3/10",
+          "kappa": "10",
+          "shape": "1",
+          "upper": "5.627197195238368642944012531054740203910117547041675318421852380153879e-1"
+        }
+      ],
+      "sha256": {
+        "tonight/operator/projection/targeted_certificate/profile_interval_nextface_u7375_k4_10.json": "8992fa825c6c8abb01a92c8f4a1ca78d9ba40a05d72846c47e3977ed1db808ea",
+        "tonight/operator/projection/targeted_certificate/price_nextface_source_box.py": "52fbd913d2603e4e022af0782dd0088c4d7e6b1443d94e836d60c2bea26edcd8",
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_body.json": "b97de0aa10dcfee6936cba9d08f6a7ce84c807c52c995a2421370a0afe1b1e6b",
+        "tonight/operator/projection/targeted_certificate/body_interval_nextface_u7375_k4_10.json.gz": "f3ee6eaeedde8578599fcf775189f8c998a063a3f07fadc3425d1e598727ba33",
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_exterior.json": "8043775a2377ba6f50f8f3a02398c90caa4855398a396114573b7439d58865df",
+        "tonight/operator/projection/targeted_certificate/exterior_interval_nextface_u7375_k4_10.json.gz": "58fcb0900806b83b10331706e6823ac2e2692f2768de9c73aeab1dda5dcd0be5",
+        "tonight/audit/nextface_u7375_R3_recheck/independent_interval_nextface_u7375_k4_10_nextface_tail.json": "db2d0db2bfe810959f650c3825442ff77f891b980763701f98bb542cf058b11e",
+        "tonight/operator/projection/targeted_certificate/tail_interval_nextface_u7375_k4_10.json": "12702cf330c97402ed6e584632178ce212dc68486c5928a4975786b89a2ac98c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BYTE_IDENTICAL_NEW_RANK_ALIASES",
+  "adapter": "replay_new_rank_q_trees.py",
+  "producer_manifest": {
+    "path": "new_round_2026-10-02/root_highk_fit/certificate/KAPPA39_EARLIER_GATE_MANIFEST.json",
+    "sha256": "2f2e91afc599a3174796db11e01fd197a4d7ac4275d37e66ca8a98887c79cbe1"
+  },
+  "profiles": [
+    {
+      "name": "new_kappa39_earlier_b711",
+      "label": "interval_new_kappa39_earlier_b711",
+      "branch": "q50",
+      "reserve0": "1/20000",
+      "reserve6": "1/100000000",
+      "tail_R": "32",
+      "inputs": [
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/profile_kappa39_earlier.json",
+          "alias": "new_round_2026-10-02/audit/kappa39_earlier_source_box/input/profile_interval_new_kappa39_earlier_b711.json",
+          "sha256": "35abcb6ba34b5226cebcde2ee5e9cfc7c528c82e84fa3a07f0d8fa0a22d0edc0"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa39_earlier_body.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa39_earlier_source_box/input/body_interval_new_kappa39_earlier_b711.json.gz",
+          "sha256": "eea00feb3be234922a744d12ee19464887856af86b21b9784edc4470197603e4"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa39_earlier_exterior.json.gz",
+          "alias": "new_round_2026-10-02/audit/kappa39_earlier_source_box/input/exterior_interval_new_kappa39_earlier_b711.json.gz",
+          "sha256": "96ca034db17a29fb7f3202b6053b8e4c0f4dfe60d55851ffabb57125f9f4abb0"
+        },
+        {
+          "source": "new_round_2026-10-02/root_highk_fit/certificate/kappa39_earlier_tail.json",
+          "alias": "new_round_2026-10-02/audit/kappa39_earlier_source_box/input/tail_interval_new_kappa39_earlier_b711.json",
+          "sha256": "2b18b542f4e6ffdb4d88135fe9ba0897e5745d920f0c715cdb8592e875a4a508"
+        }
+      ]
+    }
+  ]
+}

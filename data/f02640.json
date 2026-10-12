@@ -1,0 +1,307 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "rows": [
+    {
+      "status": "NUMERICAL_CUBIC_HEAD_SOURCE_ONLY",
+      "degree": 12,
+      "scale": 2.0,
+      "kappa": 0.53,
+      "a": 2.925,
+      "eta": 0.0008543944563600071,
+      "phi_coefficients": [
+        -15.319629158536207,
+        0.929019084792571,
+        -0.022946631149380878,
+        0.00010654422268090939,
+        105.23131354157191,
+        114.57378430859809,
+        59.833489195310214,
+        29.76477381074328,
+        13.986421722005039,
+        6.145553987146515,
+        2.49345380323085,
+        0.9188106984410281,
+        0.3003656182482505,
+        0.08406059034569338,
+        0.01899079737314781,
+        0.003101865604909217,
+        0.0002787080343679824
+      ],
+      "majorant": [
+        -0.13250837104053967,
+        0.1360505278882792,
+        -0.001207633905094417,
+        6.825312542665933e-06
+      ],
+      "J_upper_sampled": 2.4660672674287065,
+      "J_Gaussian": 2.466434635730266,
+      "max_scaled_violation_dense": 6.0381742752029835e-12,
+      "history": [
+        {
+          "iteration": 0,
+          "status": "Optimization terminated successfully",
+          "iterations": 74,
+          "rank": 17,
+          "cap": 2.4660672673658826,
+          "constraint_min": -2.991819641963607e-14,
+          "violation": 8.651368933509992e-10,
+          "seconds": 2.0725269317626953
+        },
+        {
+          "iteration": 1,
+          "status": "Optimization terminated successfully",
+          "iterations": 19,
+          "rank": 17,
+          "cap": 2.466067267426519,
+          "constraint_min": -1.6769075142147524e-13,
+          "violation": 1.5647364716983897e-10,
+          "seconds": 3.077026605606079
+        },
+        {
+          "iteration": 2,
+          "status": "Optimization terminated successfully",
+          "iterations": 10,
+          "rank": 17,
+          "cap": 2.4660672674287065,
+          "constraint_min": -5.414109237973294e-14,
+          "violation": 6.0381742752029835e-12,
+          "seconds": 3.7452898025512695
+        }
+      ],
+      "d": 0.0,
+      "Gaussian_mean": 2.466434635730266,
+      "source_formula": "a*u+d*v+r <= A_ad(kappa,V)",
+      "mean_quadrature_difference": -3.552713678800501e-15,
+      "derivative_quadrature_difference": 3.552713678800501e-15,
+      "shape_endpoint_prices": [
+        2.4660672674287607,
+        2.465971227256749
+      ],
+      "zeta_slope": -9.604017201150176e-05
+    },
+    {
+      "status": "NUMERICAL_CUBIC_HEAD_SOURCE_ONLY",
+      "degree": 12,
+      "scale": 2.0,
+      "kappa": 0.53,
+      "a": 2.925,
+      "eta": 0.0014468429485799475,
+      "phi_coefficients": [
+        -24.908518685097906,
+        1.4881464727923162,
+        -0.035547089431122655,
+        0.00015795088658555773,
+        171.96894165150505,
+        187.3941504425841,
+        97.85084457368434,
+        48.634217302065906,
+        22.821188354172087,
+        10.010559275896382,
+        4.054283807474992,
+        1.4912077237092158,
+        0.48654272261268033,
+        0.13585962261878273,
+        0.030604062842136383,
+        0.004978349686344844,
+        0.0004445663839980994
+      ],
+      "majorant": [
+        -0.13756800796409865,
+        0.1417515845498108,
+        -0.0014253575944798693,
+        8.621696838590228e-06
+      ],
+      "J_upper_sampled": 2.438620301012516,
+      "J_Gaussian": 2.439006643028571,
+      "max_scaled_violation_dense": 9.810994139981281e-11,
+      "history": [
+        {
+          "iteration": 0,
+          "status": "Optimization terminated successfully",
+          "iterations": 53,
+          "rank": 17,
+          "cap": 2.4386203009365253,
+          "constraint_min": -4.5196444785518264e-14,
+          "violation": 1.2962615648108303e-09,
+          "seconds": 1.7030458450317383
+        },
+        {
+          "iteration": 1,
+          "status": "Optimization terminated successfully",
+          "iterations": 3,
+          "rank": 17,
+          "cap": 2.438620301012516,
+          "constraint_min": -2.5648767506582237e-14,
+          "violation": 9.810994139981281e-11,
+          "seconds": 2.229567050933838
+        }
+      ],
+      "d": 0.1,
+      "Gaussian_mean": 2.439006643028571,
+      "source_formula": "a*u+d*v+r <= A_ad(kappa,V)",
+      "mean_quadrature_difference": -3.1086244689504383e-15,
+      "derivative_quadrature_difference": 3.1086244689504383e-15,
+      "shape_endpoint_prices": [
+        2.4386203010122975,
+        2.4385054774549166
+      ],
+      "zeta_slope": -0.00011482355738108156
+    },
+    {
+      "status": "NUMERICAL_CUBIC_HEAD_SOURCE_ONLY",
+      "degree": 12,
+      "scale": 2.0,
+      "kappa": 0.53,
+      "a": 2.925,
+      "eta": 0.002299946180840877,
+      "phi_coefficients": [
+        -37.47633900964057,
+        2.212351855526231,
+        -0.051537291501206714,
+        0.00022107622289798735,
+        259.81150559233254,
+        283.4908643685256,
+        148.1531068938199,
+        73.66965835178783,
+        34.57614236071554,
+        15.167782392783739,
+        6.142612466252256,
+        2.25878603179424,
+        0.7365414286429912,
+        0.20540416001692233,
+        0.04615893223720922,
+        0.007478292745249877,
+        0.000663436395278684
+      ],
+      "majorant": [
+        -0.14293947974150192,
+        0.14785954446841224,
+        -0.0016735260834954194,
+        1.0625182608372267e-05
+      ],
+      "J_upper_sampled": 2.4115373959178363,
+      "J_Gaussian": 2.411934713355116,
+      "max_scaled_violation_dense": 1.770467184519025e-11,
+      "history": [
+        {
+          "iteration": 0,
+          "status": "Optimization terminated successfully",
+          "iterations": 45,
+          "rank": 17,
+          "cap": 2.411537395632595,
+          "constraint_min": -1.3120063049903334e-14,
+          "violation": 1.8467960445768768e-09,
+          "seconds": 1.5017037391662598
+        },
+        {
+          "iteration": 1,
+          "status": "Optimization terminated successfully",
+          "iterations": 33,
+          "rank": 17,
+          "cap": 2.4115373957241224,
+          "constraint_min": -1.3873337157896404e-13,
+          "violation": 3.379366227967846e-10,
+          "seconds": 2.7091846466064453
+        },
+        {
+          "iteration": 2,
+          "status": "Optimization terminated successfully",
+          "iterations": 11,
+          "rank": 17,
+          "cap": 2.4115373959178363,
+          "constraint_min": -1.0863619032130956e-13,
+          "violation": 1.770467184519025e-11,
+          "seconds": 3.496259927749634
+        }
+      ],
+      "d": 0.2,
+      "Gaussian_mean": 2.411934713355116,
+      "source_formula": "a*u+d*v+r <= A_ad(kappa,V)",
+      "mean_quadrature_difference": -3.552713678800501e-15,
+      "derivative_quadrature_difference": 3.552713678800501e-15,
+      "shape_endpoint_prices": [
+        2.4115373959179447,
+        2.4114050217057215
+      ],
+      "zeta_slope": -0.00013237421222314424
+    },
+    {
+      "status": "NUMERICAL_CUBIC_HEAD_SOURCE_ONLY",
+      "degree": 12,
+      "scale": 2.0,
+      "kappa": 0.53,
+      "a": 2.925,
+      "eta": 0.0050703530296548945,
+      "phi_coefficients": [
+        -74.1745655125539,
+        4.303260303115065,
+        -0.0964798178246005,
+        0.00039303974770843036,
+        517.0095021934776,
+        565.2736819994655,
+        295.81836810242663,
+        147.21299691602596,
+        69.1114893140249,
+        30.309472541172887,
+        12.263001600240557,
+        4.500631410142811,
+        1.4624858150895226,
+        0.4055367132720108,
+        0.09033250440030766,
+        0.014445009072219551,
+        0.0012570144705897834
+      ],
+      "majorant": [
+        -0.15467614801708063,
+        0.16139927065203327,
+        -0.002273575110641458,
+        1.5233677245241319e-05
+      ],
+      "J_upper_sampled": 2.3586002812265945,
+      "J_Gaussian": 2.3589836591348097,
+      "max_scaled_violation_dense": 9.572898029830412e-14,
+      "history": [
+        {
+          "iteration": 0,
+          "status": "Optimization terminated successfully",
+          "iterations": 37,
+          "rank": 17,
+          "cap": 2.3586002804678343,
+          "constraint_min": -8.540396037939879e-16,
+          "violation": 2.9161375745821926e-09,
+          "seconds": 1.2304086685180664
+        },
+        {
+          "iteration": 1,
+          "status": "Optimization terminated successfully",
+          "iterations": 19,
+          "rank": 17,
+          "cap": 2.358600280669329,
+          "constraint_min": -5.715455100299346e-14,
+          "violation": 2.5057165825829744e-10,
+          "seconds": 2.139225959777832
+        },
+        {
+          "iteration": 2,
+          "status": "Optimization terminated successfully",
+          "iterations": 8,
+          "rank": 17,
+          "cap": 2.3586002812265945,
+          "constraint_min": -1.3199732851339706e-14,
+          "violation": 9.572898029830412e-14,
+          "seconds": 2.8520138263702393
+        }
+      ],
+      "d": 0.4,
+      "Gaussian_mean": 2.3589836591348097,
+      "source_formula": "a*u+d*v+r <= A_ad(kappa,V)",
+      "mean_quadrature_difference": -4.440892098500626e-15,
+      "derivative_quadrature_difference": 4.440892098500626e-15,
+      "shape_endpoint_prices": [
+        2.3586002812260465,
+        2.358441812161201
+      ],
+      "zeta_slope": -0.00015846906484547188
+    }
+  ]
+}

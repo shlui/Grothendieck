@@ -1,0 +1,1330 @@
+{
+  "status": "PASS_PORTABLE_COMPLETE_NEW_ROUND_GLOBAL_REPLAY",
+  "operator_b": "711/1000",
+  "norm_upper_bound": "40/71",
+  "constructive_G_R_lower_bound": "71/40",
+  "norm_cap_relation": "LEQ_EXACT_TARGET_40_OVER_71",
+  "immutable_input_files": 3300,
+  "all_local_replayed": true,
+  "three_significant_digit_rounding": "1.78",
+  "universal_strict_upper": "1760/987",
+  "certificate_bytes_rewritten": false,
+  "original_root_preserved": "/workspace/scratch/8242d848994f",
+  "seconds": 1774.0098571777344,
+  "jobs": [
+    {
+      "job": "protected_baseline",
+      "status": "PASS_FRESH_PORTABLE_BASELINE",
+      "all_local": true
+    },
+    {
+      "job": "interval_new_worst_b711_tight_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_worst_b711_tight_body.json",
+      "sha256": "685256e1ab5a6e26838eb4cf736589ff71f9f469df0d7a68ea70a13a813c0f24"
+    },
+    {
+      "job": "interval_new_worst_b711_tight_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_worst_b711_tight_exterior.json",
+      "sha256": "aeabd9f173c638b132d0f10ff6292e37eedca7eb061eb3de59e5854db2d0a1d0"
+    },
+    {
+      "job": "interval_new_worst_b711_tight_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_worst_b711_tight_tail.json",
+      "sha256": "8f104487e06f832d019d8f5110b066f88bf39fa55db06872077b411b3ea8aea1"
+    },
+    {
+      "job": "interval_new_diffuse_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_b711_body.json",
+      "sha256": "7cac8b8fa2e19bd593f1d0b6a01a1125143b7c50afa794afe0cb4a4047564843"
+    },
+    {
+      "job": "interval_new_diffuse_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_b711_exterior.json",
+      "sha256": "547159da66c5d7c8eac4216542c75f7769ef806e692b7f0e27e7302a64a3b648"
+    },
+    {
+      "job": "interval_new_diffuse_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_b711_tail.json",
+      "sha256": "55baff57778b82814687aa0078965058050cb441ddf411dade4427b1505f4421"
+    },
+    {
+      "job": "interval_new_moderate1_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate1_b711_body.json",
+      "sha256": "a6c3ab10cfa97cbe3c5b9f32abacd94359bfff0552d456c0603faa98558ca4eb"
+    },
+    {
+      "job": "interval_new_moderate1_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate1_b711_exterior.json",
+      "sha256": "5921f0740b57f54ed3ccd0007de14542cf02c7d06c2e97109d64861b5a55df7a"
+    },
+    {
+      "job": "interval_new_moderate1_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate1_b711_tail.json",
+      "sha256": "89ba1b1cb3e9b6695680f103f19f52f7ebfe67c57acf4ebc4467f69d2cebd721"
+    },
+    {
+      "job": "interval_new_moderate2_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate2_b711_body.json",
+      "sha256": "0dfbdb8470303bd3f90939da074ba286fd0cdb67f1c8143b8f45ed464cf49dd7"
+    },
+    {
+      "job": "interval_new_moderate2_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate2_b711_exterior.json",
+      "sha256": "6e860b132761f003fd1b14a46c5445d4e0e214da2570c4d128bbc03e046d8ff7"
+    },
+    {
+      "job": "interval_new_moderate2_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate2_b711_tail.json",
+      "sha256": "471bd56a52403d9c8b7ad273cdf08e8ac94ee9b6d808226faf94d14c7b739709"
+    },
+    {
+      "job": "interval_new_ridge_diffuse_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_diffuse_b711_body.json",
+      "sha256": "efb432477905fe16717c09e610ec257f1953d2fbfc88ddbf378f61af5b37d1bf"
+    },
+    {
+      "job": "interval_new_ridge_diffuse_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_diffuse_b711_exterior.json",
+      "sha256": "3f7013e75a625142c3bb3e51eac0717e9f075e834877a73ce3427979239136b0"
+    },
+    {
+      "job": "interval_new_ridge_diffuse_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_diffuse_b711_tail.json",
+      "sha256": "b9cd6ed70351c6127fb1b0c3c5e4c0cd3c23c2a6f845d515c090fb0324ddab31"
+    },
+    {
+      "job": "interval_new_ridge_moderate_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_moderate_b711_body.json",
+      "sha256": "19b3f0ff155f26249ef9ff0d394e7b2aabbb99fc19e029eef2c64cc7b1e7f350"
+    },
+    {
+      "job": "interval_new_ridge_moderate_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_moderate_b711_exterior.json",
+      "sha256": "b4e6204feb32496bc3375a7ea1be43b4e4c4e0022311f718a93a22dc5784fdfa"
+    },
+    {
+      "job": "interval_new_ridge_moderate_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_ridge_moderate_b711_tail.json",
+      "sha256": "6e7be78d5584a9064dc5ae41aee52cf0f21f1334f1a3ef15253d439b4384bb11"
+    },
+    {
+      "job": "interval_highk_native76625_repaired_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_native76625_repaired_body.json",
+      "sha256": "c58358118ee29978e66adc2625f07ed18e36689a9ad1f0c12b724f6ae941e252"
+    },
+    {
+      "job": "interval_highk_native76625_repaired_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_native76625_repaired_exterior.json",
+      "sha256": "e8e7aebed660a91c8247f7768ccae3fe72aac22ede2c6434bb167b07b260c9db"
+    },
+    {
+      "job": "interval_highk_native76625_repaired_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_native76625_repaired_tail.json",
+      "sha256": "8b7ab41673c094b5616b1577f860f7c941b721daa439a27e2b87b4aca1a2cd09"
+    },
+    {
+      "job": "interval_root_ridge_k125_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_root_ridge_k125_b711_body.json",
+      "sha256": "a8cd423400fdbb8bae318cbbfd204ea47ba83dd3d469d0370c0c2ff43f027e72"
+    },
+    {
+      "job": "interval_root_ridge_k125_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_root_ridge_k125_b711_exterior.json",
+      "sha256": "f40421cae391c253bb25b4e2c7af40cc81a44d1392a90dfe84157844ee26f531"
+    },
+    {
+      "job": "interval_root_ridge_k125_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_root_ridge_k125_b711_tail.json",
+      "sha256": "8b868ac4d757bc65ab14dcca22ee99989017468e65a3a1c82e02b0255b29b1e3"
+    },
+    {
+      "job": "interval_highk_dense76625_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_dense76625_body.json",
+      "sha256": "ecf70a9c5404e3e93407a5224415809054339bbfa932c07b4175e95a404f3978"
+    },
+    {
+      "job": "interval_highk_dense76625_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_dense76625_exterior.json",
+      "sha256": "324e690d087b7003fdc0f70bfcc5ddb67da7909691b79088835cffbf0f4667bb"
+    },
+    {
+      "job": "interval_highk_dense76625_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_highk_dense76625_tail.json",
+      "sha256": "cd4f21db92339d071cfd8789779ff8accd0b4e96118e803ec3fe46dc95050083"
+    },
+    {
+      "job": "interval_new_secondary_moderate_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_moderate_b711_body.json",
+      "sha256": "3b5aedc41e179c6185d5813f0bb1d5f5081837f3a0eb90ccd8ec25539762f21d"
+    },
+    {
+      "job": "interval_new_secondary_moderate_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_moderate_b711_exterior.json",
+      "sha256": "5bf3789eb79a7851af0fb0ce31892e3bf8bc0845f49ae7899738275d0bfb74df"
+    },
+    {
+      "job": "interval_new_secondary_moderate_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_moderate_b711_tail.json",
+      "sha256": "0ca6a04187050d2d9b8333539c7277462269ee967c809f4fdcad534e78c6b707"
+    },
+    {
+      "job": "interval_new_current_diffuse_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_current_diffuse_b711_body.json",
+      "sha256": "042bdf4d3ed329e2356445977e58e2e15c1d546ebabd0af70b8470ad3aa4f274"
+    },
+    {
+      "job": "interval_new_current_diffuse_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_current_diffuse_b711_exterior.json",
+      "sha256": "9a4f94d6e0ad189e53c0a6b7c1630e59924c07ddc40e3d52b4c0e151b1fd56e1"
+    },
+    {
+      "job": "interval_new_current_diffuse_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_current_diffuse_b711_tail.json",
+      "sha256": "8f8cd0da0c71c84a1860d12ebbd7c7d9f06bd464cf97dc69ecfd7f7b10b8adea"
+    },
+    {
+      "job": "interval_new_kappa15_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa15_b711_body.json",
+      "sha256": "3ea383706927f7d5bdab97f90c0ce4cb8a19c78502843357f28529ba63882830"
+    },
+    {
+      "job": "interval_new_kappa15_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa15_b711_exterior.json",
+      "sha256": "34e8b5c90574a796db1b1b00757a0f0a1f90af41bb0f5882c5d43f27e72e7928"
+    },
+    {
+      "job": "interval_new_kappa15_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa15_b711_tail.json",
+      "sha256": "6da0cf6efa9922b5331aa36ee2b00f9d863a361aec598b047cd9bd2c8638f33d"
+    },
+    {
+      "job": "interval_new_broad_highk_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_broad_highk_b711_body.json",
+      "sha256": "13343d92f0fcc3175d0696ea41589663fb217131ef74a43f1bb45ba26c51439c"
+    },
+    {
+      "job": "interval_new_broad_highk_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_broad_highk_b711_exterior.json",
+      "sha256": "1c8e15c09af5a3aac1c2f41203374b37caa215c4246df7e72119fde65d590e02"
+    },
+    {
+      "job": "interval_new_broad_highk_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_broad_highk_b711_tail.json",
+      "sha256": "6d434a85be7da9e133e196360f0c65652f981e328f1f99d14df6a484f8381f50"
+    },
+    {
+      "job": "interval_new_diffuse751_q50_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse751_q50_b711_body.json",
+      "sha256": "ad7743030695595813c950b523722e6ffaf317f56a3a74be0296f8f249b6cc06"
+    },
+    {
+      "job": "interval_new_diffuse751_q50_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse751_q50_b711_exterior.json",
+      "sha256": "707318ef129fe22cb21a00c43be3f196fc502f6b5c1eba17c932e564f100e326"
+    },
+    {
+      "job": "interval_new_diffuse751_q50_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse751_q50_b711_tail.json",
+      "sha256": "776a71a319f79c78b8b9dc2778b32b207ec41596738fbbdf7db7c6245ed9a780"
+    },
+    {
+      "job": "interval_new_kappa13_b711_q25_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa13_b711_q25_body.json",
+      "sha256": "7e1081deb447a0208210ce0fea7058cd348df033f11442f5f1951a10e89dcab0"
+    },
+    {
+      "job": "interval_new_kappa13_b711_q25_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa13_b711_q25_exterior.json",
+      "sha256": "bb2a95266925ca96bf0e6ae7329b13069c23ea72fa71477444daddf0a0861e65"
+    },
+    {
+      "job": "interval_new_kappa13_b711_q25_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa13_b711_q25_tail.json",
+      "sha256": "1fee9d4b88501517a00e6b4a34c5aa6422e2c86b75a124870d7cdd6c1a1c4361"
+    },
+    {
+      "job": "interval_new_low_r_highk_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_low_r_highk_b711_body.json",
+      "sha256": "1dae574d1fbe3f7fe01ec56b1e3b65691e8b850f4f60b1b2027426774e9e3c93"
+    },
+    {
+      "job": "interval_new_low_r_highk_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_low_r_highk_b711_exterior.json",
+      "sha256": "cf091bcc0ed23bcda3b8faa2bf165dff5c91cba4ca46682dccf13ed6f6a0ad6d"
+    },
+    {
+      "job": "interval_new_low_r_highk_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_low_r_highk_b711_tail.json",
+      "sha256": "8fc4caa9eb944f9e061f9350aefdc39661608aa9208b372c07c52bd94ade44f1"
+    },
+    {
+      "job": "interval_new_moderate_crossover_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_crossover_b711_body.json",
+      "sha256": "ed51991aca0e82ebafb4af13d890410819ec1ed62c803a906b486b0a92641a0d"
+    },
+    {
+      "job": "interval_new_moderate_crossover_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_crossover_b711_exterior.json",
+      "sha256": "59709c1f61ba38be123eb57566006fef357d626ddae0c986ef24ebce0c62c5ec"
+    },
+    {
+      "job": "interval_new_moderate_crossover_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_crossover_b711_tail.json",
+      "sha256": "4c7632da7fa35b12a66c0ffef22c86011d85ffc44ba25c5dc36fd2e689fd822d"
+    },
+    {
+      "job": "interval_new_highu_kappa10_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa10_b711_body.json",
+      "sha256": "215ff3f03d618f4654285661eccc211f161b6ecdea5541c935b7b4b9c932d02c"
+    },
+    {
+      "job": "interval_new_highu_kappa10_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa10_b711_exterior.json",
+      "sha256": "ee49050a0130633071ef0b75e74d1ee2f7fb89e41adb85fabcb0a3be5cf44bac"
+    },
+    {
+      "job": "interval_new_highu_kappa10_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa10_b711_tail.json",
+      "sha256": "7b2357f6ae76e576656877ba4bc14d5c8c81a244d8e1e629d034f13116a4986d"
+    },
+    {
+      "job": "interval_new_highu_kappa4_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_b711_body.json",
+      "sha256": "af28ca3592cd82b85be5ff2194a61e22e922f04ac8c16d24ee3ac230ce20c754"
+    },
+    {
+      "job": "interval_new_highu_kappa4_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_b711_exterior.json",
+      "sha256": "e2061d3951cda387ae58329866506f28bcd4a7bfcefd179d9b88d600f276ee78"
+    },
+    {
+      "job": "interval_new_highu_kappa4_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_b711_tail.json",
+      "sha256": "0d51dfd936d364908835ab9eca00094627a8479f6fe7fd4be072767681086019"
+    },
+    {
+      "job": "interval_new_kappa28_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_b711_body.json",
+      "sha256": "8a2dd9cc5b3e057de2222fb9de00e8f1a77cc2e542d3f112c2bc94d71cf9e22b"
+    },
+    {
+      "job": "interval_new_kappa28_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_b711_exterior.json",
+      "sha256": "9f30dc1d3e3e6392c929bd89a65056a284fa89851c17dae0b0c59f4e4f0f8d8f"
+    },
+    {
+      "job": "interval_new_kappa28_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_b711_tail.json",
+      "sha256": "4113a15bdaa426a6270b67e295a644e59fcb98735566ea730ca0ce14ffb330e1"
+    },
+    {
+      "job": "interval_new_secondary_kappa066_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_kappa066_b711_body.json",
+      "sha256": "ab3ed088efae61b2e2378a3c31c1ad6b3af2523b91241964accbf009747d9c43"
+    },
+    {
+      "job": "interval_new_secondary_kappa066_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_kappa066_b711_exterior.json",
+      "sha256": "9daa9e1534fdc889e2423fee02b123e89e916755362de1468bd3b281a807ea4f"
+    },
+    {
+      "job": "interval_new_secondary_kappa066_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_secondary_kappa066_b711_tail.json",
+      "sha256": "7c22b84e37d403b0a46277beac12433514aab1709887024fb6cb08d9696966be"
+    },
+    {
+      "job": "interval_new_kappa43_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa43_b711_body.json",
+      "sha256": "256927c6dc78e16f5ce2b652d11e62198c41424cb7cc8c66b3e80eb873310ce4"
+    },
+    {
+      "job": "interval_new_kappa43_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa43_b711_exterior.json",
+      "sha256": "77b9fffbaf9f9b9fde43821f20e939ec668fad9303dcff48856c26504eba38a6"
+    },
+    {
+      "job": "interval_new_kappa43_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa43_b711_tail.json",
+      "sha256": "64535695cd753cecc8e7ecf7171f5e955ae93fc96632ff98a0113e73b56c832f"
+    },
+    {
+      "job": "interval_new_diffuse_kappa03_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa03_b711_body.json",
+      "sha256": "d1e32e96b5fd4bc08536a37781c028b8f3df380bb3377d9b0ee8a6d0a64fbe53"
+    },
+    {
+      "job": "interval_new_diffuse_kappa03_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa03_b711_exterior.json",
+      "sha256": "295bb32876cc2f2032d2b1456cbfe438f08fc78f2117b7fb4ec6fa50d0dd2237"
+    },
+    {
+      "job": "interval_new_diffuse_kappa03_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa03_b711_tail.json",
+      "sha256": "fd90be630d6a608a12febb32eafaf43c9d6dae2ed8a12026f3b0a95ceedccc87"
+    },
+    {
+      "job": "interval_new_highu_kappa09_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa09_b711_body.json",
+      "sha256": "658cdad3bc9561e6ce7e49642cc63ce395eb12288b7bcafd4978b7749ccb2887"
+    },
+    {
+      "job": "interval_new_highu_kappa09_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa09_b711_exterior.json",
+      "sha256": "9205e0a69980ce8b9f36c9e452eddf948b74303057c5583eb4c3fa1ad410031b"
+    },
+    {
+      "job": "interval_new_highu_kappa09_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa09_b711_tail.json",
+      "sha256": "3b5ace51093323d9ff7406ad67b85cc82f53a21646002541f8261798b23619ae"
+    },
+    {
+      "job": "interval_new_kappa28_earlier_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_earlier_b711_body.json",
+      "sha256": "174fedd92e88f642e1c76cf2478ce519a9af8ebb967482c185c84d8b5c0288cd"
+    },
+    {
+      "job": "interval_new_kappa28_earlier_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_earlier_b711_exterior.json",
+      "sha256": "f196677b8b1ba1116092472f74a6c66b4bd1d8780604d3de3ef9fbe6f81cd9c0"
+    },
+    {
+      "job": "interval_new_kappa28_earlier_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa28_earlier_b711_tail.json",
+      "sha256": "67501387a9ab91c501ae9346d054a0366a6925aa7238237ca98b3ec470cc0e0f"
+    },
+    {
+      "job": "interval_new_diffuse_kappa015_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa015_b711_body.json",
+      "sha256": "22b7f64139772e3db5a92420c4011b0e68ed55aaa7ba661f64def0f3e219bc54"
+    },
+    {
+      "job": "interval_new_diffuse_kappa015_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa015_b711_exterior.json",
+      "sha256": "927d149c90888fefb5940f1a5fcfdb6ae21418f4699d407e1c64cc66ba073e3c"
+    },
+    {
+      "job": "interval_new_diffuse_kappa015_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_kappa015_b711_tail.json",
+      "sha256": "2738d89670b5256555a81a296afac4dc75804b80c505df095325a6d3b0214073"
+    },
+    {
+      "job": "interval_new_kappa39_earlier_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa39_earlier_b711_body.json",
+      "sha256": "33b0d06256904e7d2330d79cfc46e0ecf13505ea0eaa12e709e762c9c739c541"
+    },
+    {
+      "job": "interval_new_kappa39_earlier_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa39_earlier_b711_exterior.json",
+      "sha256": "4a3c498531422535774c3648a32674b744c80fb0464252cb48db7a9ff692cb4f"
+    },
+    {
+      "job": "interval_new_kappa39_earlier_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa39_earlier_b711_tail.json",
+      "sha256": "ec71ae9226bb47a9dd1d6417e75cfc5b263014c72e31dbdac2ddb01374d33d12"
+    },
+    {
+      "job": "interval_new_kappa26_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_b711_body.json",
+      "sha256": "dbd6ff88b3d2ce4fa2ed9528dc47a228d9e911c71456fdfdb36fb7fb5599b253"
+    },
+    {
+      "job": "interval_new_kappa26_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_b711_exterior.json",
+      "sha256": "65dc8f6217e9573718b909680921ce3b4b6511efb65e2b359efb86787f7e8163"
+    },
+    {
+      "job": "interval_new_kappa26_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_b711_tail.json",
+      "sha256": "2ecd23e5420a9e37c8ea64914d3b0d22762c017190db55dbd6f43b2513d784c0"
+    },
+    {
+      "job": "interval_new_highu_kappa4_r205_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_r205_b711_body.json",
+      "sha256": "692b9d16510624030e480ca5b3dcd67d9e90c01176d7cd9622036f590ebb73dd"
+    },
+    {
+      "job": "interval_new_highu_kappa4_r205_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_r205_b711_exterior.json",
+      "sha256": "5538f1035b65df5c6af40c1887abb9c79a04b709cc8f0eaee99fd3ee66f0ba89"
+    },
+    {
+      "job": "interval_new_highu_kappa4_r205_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa4_r205_b711_tail.json",
+      "sha256": "b79aa563ce4aa9094054337ef42302b74e09f27cab9246173c73646680b303db"
+    },
+    {
+      "job": "interval_new_diffuse_u7635_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u7635_b711_body.json",
+      "sha256": "be4bab5dec374685ed4ad1071805e671b8f9b7a8b5909d9c7e4ce71bf7f4452b"
+    },
+    {
+      "job": "interval_new_diffuse_u7635_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u7635_b711_exterior.json",
+      "sha256": "f76d526e9faceceb6b276eec50bcf02139cb82b839e9cea760828826b459c401"
+    },
+    {
+      "job": "interval_new_diffuse_u7635_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u7635_b711_tail.json",
+      "sha256": "bd38bcddec2fb28cad3f7e41e5a2474b8aa8b9e222ec13916ec6ac1b4fae4b52"
+    },
+    {
+      "job": "interval_new_highu_highk_linear_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_highk_linear_b711_body.json",
+      "sha256": "7c144969b851adf21b455f5c07fa63c8f9651fb3ac0609f91b6e8d1a19e0c5f1"
+    },
+    {
+      "job": "interval_new_highu_highk_linear_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_highk_linear_b711_exterior.json",
+      "sha256": "3f28758ab5c220a2dbbcdde327c0f02960770b0c98a8ac2fba54c74589ac5c1c"
+    },
+    {
+      "job": "interval_new_highu_highk_linear_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_highk_linear_b711_tail.json",
+      "sha256": "115f28eaf894c8b314c653e6b78c99a4bb4f84fb51e1f296fdda4cc6402ddc31"
+    },
+    {
+      "job": "interval_new_kappa225_rank_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa225_rank_b711_body.json",
+      "sha256": "7b70e858e0e48ac919c073e52cb40132f0b94e3dc13f444dbbaf233732dba2e8"
+    },
+    {
+      "job": "interval_new_kappa225_rank_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa225_rank_b711_exterior.json",
+      "sha256": "dacbe14c6ddf0c6e90eed759600aeebedef84cbc76f07045cb9c322eac52e12a"
+    },
+    {
+      "job": "interval_new_kappa225_rank_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa225_rank_b711_tail.json",
+      "sha256": "0965da8b6d3a89bce611d4d8567f6782fedd2790decff70207950d6ad080f905"
+    },
+    {
+      "job": "interval_new_kappa065_early_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa065_early_b711_body.json",
+      "sha256": "e5beb64c369c255bab4ed58b57bb312f20a888387364ef4e73055606ede43535"
+    },
+    {
+      "job": "interval_new_kappa065_early_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa065_early_b711_exterior.json",
+      "sha256": "57f22e0f6c1f978839a08fc5433d6f1ce01d9c9f627d5c813a0b1245aaafd88f"
+    },
+    {
+      "job": "interval_new_kappa065_early_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa065_early_b711_tail.json",
+      "sha256": "7a51ee8ab67dc8a5235f2a3609e8f10dc2198fcb49cb7d473c2dbf77a88a3980"
+    },
+    {
+      "job": "interval_new_kappa175_middle_q25_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa175_middle_q25_b711_body.json",
+      "sha256": "b0999d6c48b556937d3c9490aeb2f74c18b7975f9c1a974aaa8afd560a9aa864"
+    },
+    {
+      "job": "interval_new_kappa175_middle_q25_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa175_middle_q25_b711_exterior.json",
+      "sha256": "cf1f1b483327df20d9d3e75385cb1fa8d792e449ab97be2b70220a8022be29a6"
+    },
+    {
+      "job": "interval_new_kappa175_middle_q25_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa175_middle_q25_b711_tail.json",
+      "sha256": "b09d0ccf1ac5b11a09ff266259189370db8620773dfa866c8f3fce86e745c2f7"
+    },
+    {
+      "job": "interval_new_kappa0375_lowu_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa0375_lowu_b711_body.json",
+      "sha256": "35ca30c7776a3e61c1e52fb2a1b4e7305e3826af0143e71049525d6c322140e5"
+    },
+    {
+      "job": "interval_new_kappa0375_lowu_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa0375_lowu_b711_exterior.json",
+      "sha256": "9705a0512a2c09ad69ea18e8db08310c8e31bdf65760264c143ea93094896139"
+    },
+    {
+      "job": "interval_new_kappa0375_lowu_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa0375_lowu_b711_tail.json",
+      "sha256": "a362cd4a0dfe9884ba9a48341ec851e9238451a9627103916f786eb7273a7bc3"
+    },
+    {
+      "job": "interval_new_kappa02_mid_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa02_mid_b711_body.json",
+      "sha256": "882e4c79ae3ecffc524ca06762c2a6304bba709dc6abde9e1e4534172ab2a0ae"
+    },
+    {
+      "job": "interval_new_kappa02_mid_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa02_mid_b711_exterior.json",
+      "sha256": "89d4cf8a69b4fb2ef20169c55c19320d52a6f4999e81d67fd971d6dee5b763d5"
+    },
+    {
+      "job": "interval_new_kappa02_mid_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa02_mid_b711_tail.json",
+      "sha256": "a7f96ebc234ba1d9553adcb5c1466583312ae294b0b1191895e934583cbc9b39"
+    },
+    {
+      "job": "interval_new_moderate_u753_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u753_b711_body.json",
+      "sha256": "bbaf2cb1ecf1e974503e077a651026ca98988a6e19be58f8048accb87173c5d6"
+    },
+    {
+      "job": "interval_new_moderate_u753_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u753_b711_exterior.json",
+      "sha256": "252715df8b869d834f169cbd496d9173d6946aa2f3a2935b6bf960419b190c91"
+    },
+    {
+      "job": "interval_new_moderate_u753_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u753_b711_tail.json",
+      "sha256": "f6dbf88ec3b8f37d9f31ae017c73f41b33c09e3148b7ee30f7568ffcd83bbb73"
+    },
+    {
+      "job": "interval_new_highu_kappa375_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa375_b711_body.json",
+      "sha256": "3d4c0b5e862bc0628cea7d67c5851acc5ec2321401aa679ea40ab61554a03cf2"
+    },
+    {
+      "job": "interval_new_highu_kappa375_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa375_b711_exterior.json",
+      "sha256": "0a115029c3776bbc240284a3cb38f400f6750c13a740b7960baa7ddda0c82ea1"
+    },
+    {
+      "job": "interval_new_highu_kappa375_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_kappa375_b711_tail.json",
+      "sha256": "4cfd52190076c0e3cb6fc0a3f8be132934a5c13b15b1b3e29dfba41392c696d4"
+    },
+    {
+      "job": "interval_new_highu_k20_40_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_k20_40_b711_body.json",
+      "sha256": "7aaaeaa6af8b2c8bc479e7c3694b57b4241b30f88f55f203d238ccefc27de94e"
+    },
+    {
+      "job": "interval_new_highu_k20_40_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_k20_40_b711_exterior.json",
+      "sha256": "3d4d60181df0a248173e0acb0c70bd45fb2dc04d9183e4103c9208347678c86e"
+    },
+    {
+      "job": "interval_new_highu_k20_40_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_highu_k20_40_b711_tail.json",
+      "sha256": "2d0ae381008d736933bce7f283ad734ae93e3cd56b9a1c2ac2d07ded8d29cb26"
+    },
+    {
+      "job": "interval_new_lowu_kappa02_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_lowu_kappa02_b711_body.json",
+      "sha256": "8c8ac84449e6861963650da0c4712acbfcbcd53dd95949b7743741eed48b477c"
+    },
+    {
+      "job": "interval_new_lowu_kappa02_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_lowu_kappa02_b711_exterior.json",
+      "sha256": "ea5ba4a11e4ae6bf23d91fcc191ebcaa66e0131074c3f5a12b2b6e7c8e18f791"
+    },
+    {
+      "job": "interval_new_lowu_kappa02_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_lowu_kappa02_b711_tail.json",
+      "sha256": "f6a3152c4ffc233fc58bd47b1945ac6a2514aa65cf421bf9aeb9e72641bb0d21"
+    },
+    {
+      "job": "interval_new_kappa24_middle_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa24_middle_b711_body.json",
+      "sha256": "f50453f49dd6d1b219242508ee20e86cb84986c76aa5d19a850ff54eaba14c49"
+    },
+    {
+      "job": "interval_new_kappa24_middle_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa24_middle_b711_exterior.json",
+      "sha256": "1188771019599a308cd0c33d47acc464b869fff88aaccbade5e10893b7a73997"
+    },
+    {
+      "job": "interval_new_kappa24_middle_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa24_middle_b711_tail.json",
+      "sha256": "05a3e513dc03d34752c4b1c1971857e5059fc635d93c458809754be4d532b0af"
+    },
+    {
+      "job": "interval_new_diffuse_u754_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u754_b711_body.json",
+      "sha256": "25216bb3bfbb4df436b86af79bc68f4c3e0ed1bccde291af619de7f2c144ea2f"
+    },
+    {
+      "job": "interval_new_diffuse_u754_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u754_b711_exterior.json",
+      "sha256": "7cbb9871b3c9908953249209c889226926951bf42f62f1a63068b752c3c237d6"
+    },
+    {
+      "job": "interval_new_diffuse_u754_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuse_u754_b711_tail.json",
+      "sha256": "4a6a48e54a1e4486025db0de6b95e4d334e2903430c0731f1f89172305a78c3c"
+    },
+    {
+      "job": "interval_new_diffuseu753_kappa02_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu753_kappa02_b711_body.json",
+      "sha256": "50c833d592ecf0fa82dff723413ad670bdc5baf18e74998c2ed40fe4a9755dbd"
+    },
+    {
+      "job": "interval_new_diffuseu753_kappa02_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu753_kappa02_b711_exterior.json",
+      "sha256": "62196322121319b5bb92d9cadf60eea1f91096a05c6871447e31c2883bb590f0"
+    },
+    {
+      "job": "interval_new_diffuseu753_kappa02_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu753_kappa02_b711_tail.json",
+      "sha256": "612067533d9db5c389d40ec79cf3264c525d39f37a2b7ad860158ed2250bc176"
+    },
+    {
+      "job": "interval_new_diffuseu760_kappa015_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu760_kappa015_b711_body.json",
+      "sha256": "b6555df0a26b00f45e5b68313c9583a9779306872cda16286be3373f069b59b6"
+    },
+    {
+      "job": "interval_new_diffuseu760_kappa015_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu760_kappa015_b711_exterior.json",
+      "sha256": "dae1533f21faca8bd7685b1840410a20a845c7c1c3f076935d8569a9f44a925f"
+    },
+    {
+      "job": "interval_new_diffuseu760_kappa015_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_diffuseu760_kappa015_b711_tail.json",
+      "sha256": "b5e76dd9fd9fe77e029823b752f256926c2255f76e58b780fafed74f5d98e57d"
+    },
+    {
+      "job": "interval_new_kappa26_q40_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_q40_b711_body.json",
+      "sha256": "362ec14506abd8dc86ebc6c8c2ce5b28dec37cb8005e3f54d107636643e6d435"
+    },
+    {
+      "job": "interval_new_kappa26_q40_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_q40_b711_exterior.json",
+      "sha256": "90301b6e4ee455c91b36ab8f97d5347c8e986c7486aed68b1badf1cd257d9274"
+    },
+    {
+      "job": "interval_new_kappa26_q40_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_kappa26_q40_b711_tail.json",
+      "sha256": "4502fc3fa5ad8bc27be0792060c127b534ec7f4d789426ab70798eea5dbd611f"
+    },
+    {
+      "job": "interval_new_mediumu_kappa069_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa069_b711_body.json",
+      "sha256": "54be8010222a6eefd96d07e4ac8bfc20a9c1a7e2edc7076d634621e679c278c6"
+    },
+    {
+      "job": "interval_new_mediumu_kappa069_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa069_b711_exterior.json",
+      "sha256": "dea8e38b009d116f7b38dfee61742f786ac1a53bd4630e2f9c333af730307f49"
+    },
+    {
+      "job": "interval_new_mediumu_kappa069_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa069_b711_tail.json",
+      "sha256": "08b1c2fa237c933704a4bfbc7b496e6f38892fe0429d456462256282a4550da1"
+    },
+    {
+      "job": "interval_new_mediumu_kappa125_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa125_b711_body.json",
+      "sha256": "8cb03a14de9f7214baa7f630aab1d52659407591f9de04663f02d2dfd26f8c0e"
+    },
+    {
+      "job": "interval_new_mediumu_kappa125_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa125_b711_exterior.json",
+      "sha256": "cd8bcfe925b173cca36c99f047743580f6f7936c3b2b1e63d2e208c2cf29c4cc"
+    },
+    {
+      "job": "interval_new_mediumu_kappa125_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa125_b711_tail.json",
+      "sha256": "0d74dfdc563010bbfb1498d49688e48dd7880c06f5b0feb37c767e8362f39b7b"
+    },
+    {
+      "job": "interval_new_mediumu_kappa325_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa325_b711_body.json",
+      "sha256": "882ac40ff702f801facc0d352ca82c7fa1c34f37636f0227c260a248c9e6c40c"
+    },
+    {
+      "job": "interval_new_mediumu_kappa325_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa325_b711_exterior.json",
+      "sha256": "e6fa49edc198ba9813121f76caacc624f496ccfdcf8c28d0e42721371606779f"
+    },
+    {
+      "job": "interval_new_mediumu_kappa325_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_mediumu_kappa325_b711_tail.json",
+      "sha256": "51ec17769be6dba2b4e6a82b89639c33463fc3722951daf38e81c38323edcb41"
+    },
+    {
+      "job": "interval_new_moderate_kappa215_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa215_b711_body.json",
+      "sha256": "dd3be89880fce3e132902e43b29bfad17d76acfd3c0d305ea78ca0b033ff0363"
+    },
+    {
+      "job": "interval_new_moderate_kappa215_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa215_b711_exterior.json",
+      "sha256": "82160ef9c1e749a193a65a73173fcaab2cdd1b6993f93143f018b79b40d17d9c"
+    },
+    {
+      "job": "interval_new_moderate_kappa215_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa215_b711_tail.json",
+      "sha256": "0b1f3ed4e47bc028fa7f6795f8458c539bd0f8b3d2dca08628c53a6e9640c013"
+    },
+    {
+      "job": "interval_new_moderate_kappa4125_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa4125_b711_body.json",
+      "sha256": "cf93d70fff258b6e3638c1037de5b833dcf00123313d88d9c3d4d5afacafc410"
+    },
+    {
+      "job": "interval_new_moderate_kappa4125_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa4125_b711_exterior.json",
+      "sha256": "6db64e259e199c9a067e8529951cff8b9d9f78646aef2023a1db60f7101d96b8"
+    },
+    {
+      "job": "interval_new_moderate_kappa4125_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_kappa4125_b711_tail.json",
+      "sha256": "6a35e9da83d855146c50f48e0dfdb2ff5d302019f470f7406a6ab600ea20a170"
+    },
+    {
+      "job": "interval_moderate_u741_k075_b7171_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u741_k075_b7171_body.json",
+      "sha256": "4fc8a5c1a623c6bf752e3fb229bdca14b02ac02999d4fd40cadd795bac166bd7"
+    },
+    {
+      "job": "interval_moderate_u741_k075_b7171_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u741_k075_b7171_exterior.json",
+      "sha256": "e647dfd8e3840203ea163fa272dd04ff3ba2303a7f88b6cef1f2d31aa627f8fe"
+    },
+    {
+      "job": "interval_moderate_u741_k075_b7171_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u741_k075_b7171_tail.json",
+      "sha256": "a843f5ac5c3ddc47a6ebae33fb4b03e561d251dca66d8facfe422ed9267373cc"
+    },
+    {
+      "job": "interval_new_moderate_u749_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u749_b711_body.json",
+      "sha256": "213eed6f757de9d278ca84abf6962575459f6a8c70ba882e9f521ee5f3122f33"
+    },
+    {
+      "job": "interval_new_moderate_u749_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u749_b711_exterior.json",
+      "sha256": "974eb2f4fa1b38dcda2acc7d70a2823ce66a3e524ecb06558907b71e81dbfa89"
+    },
+    {
+      "job": "interval_new_moderate_u749_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_moderate_u749_b711_tail.json",
+      "sha256": "186543874aef6dda55f30c4199349787470ddb0460033df80b17f61c4e601710"
+    },
+    {
+      "job": "interval_moderate_u751_k2_b7171_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u751_k2_b7171_body.json",
+      "sha256": "91ad8970ef5949efe084af387bba4b2b60787e6b360eaf02f38548288a34d94a"
+    },
+    {
+      "job": "interval_moderate_u751_k2_b7171_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u751_k2_b7171_exterior.json",
+      "sha256": "1469ca03b5769524041db3d5f1f08aacb498d9ce3a6880ada7ce0756e2ab1c69"
+    },
+    {
+      "job": "interval_moderate_u751_k2_b7171_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_moderate_u751_k2_b7171_tail.json",
+      "sha256": "19d96f87fbb2fba652076d93291a528c25f0aef8356daae5ec3aeb4139789f89"
+    },
+    {
+      "job": "interval_kappa115_mid_u_step2_b7171_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa115_mid_u_step2_b7171_body.json",
+      "sha256": "03fab4f31659cc902d407d39bb2b46526ed0c8103e34f235439302a7b44fc97c"
+    },
+    {
+      "job": "interval_kappa115_mid_u_step2_b7171_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa115_mid_u_step2_b7171_exterior.json",
+      "sha256": "c20494acef4db691eb2279f926d90ef6170074661b59b4c69ea57dc2f8da6ef8"
+    },
+    {
+      "job": "interval_kappa115_mid_u_step2_b7171_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa115_mid_u_step2_b7171_tail.json",
+      "sha256": "6fbc1b7a931da89096a479e326193f6039fc4f5df92ead58ba8fc8262eda3d70"
+    },
+    {
+      "job": "interval_new_root_kappa16_lowu_step5_q150_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa16_lowu_step5_q150_b711_body.json",
+      "sha256": "66dde3c07f14d6647d8f516bd20c207048cb3d13dfbc4a1bfc36ae089c5757c5"
+    },
+    {
+      "job": "interval_new_root_kappa16_lowu_step5_q150_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa16_lowu_step5_q150_b711_exterior.json",
+      "sha256": "59dc33612bf52eece98dfa47885cabbc66268638cdfb85769741e76d38186eb6"
+    },
+    {
+      "job": "interval_new_root_kappa16_lowu_step5_q150_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa16_lowu_step5_q150_b711_tail.json",
+      "sha256": "1390aba8166f6e8fa679a248255ded94c2ac2bccd1dca63293a7526ffab72198"
+    },
+    {
+      "job": "interval_kappa16_shifted_pe15_b7171_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa16_shifted_pe15_b7171_body.json",
+      "sha256": "6ef30b149cf27778a8c94fc459abf7f1db7f868e0d8b64263b9cb36403e7a138"
+    },
+    {
+      "job": "interval_kappa16_shifted_pe15_b7171_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa16_shifted_pe15_b7171_exterior.json",
+      "sha256": "806ea38e49ffd47bfc6e9018664be006922505c9b6e898f66d0b7ca4e7076683"
+    },
+    {
+      "job": "interval_kappa16_shifted_pe15_b7171_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_kappa16_shifted_pe15_b7171_tail.json",
+      "sha256": "e345ded8dc02ee69a041741312ea64997128c6f5889596bb695fd63b8486d447"
+    },
+    {
+      "job": "interval_new_root_kappa175_early_step1_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa175_early_step1_b711_body.json",
+      "sha256": "6fd220f20b635e2697945faabfd82cf307a1f3925d60542933bc0bb9b7b92928"
+    },
+    {
+      "job": "interval_new_root_kappa175_early_step1_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa175_early_step1_b711_exterior.json",
+      "sha256": "76029615d9bd418eb7f4d9a195c082ebaa864de7fa19cee57392aed1c8859ddd"
+    },
+    {
+      "job": "interval_new_root_kappa175_early_step1_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa175_early_step1_b711_tail.json",
+      "sha256": "a99cb22bbfc1b6245546f11cf1bc43d5077b074add771810f78afd54bb13fae4"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step0_budget01_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step0_budget01_b711_body.json",
+      "sha256": "2c8bbda909771f1b8180354b85385d0a1786e2d8e8568bd9745b52df9fd18506"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step0_budget01_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step0_budget01_b711_exterior.json",
+      "sha256": "cd37cda62e92dd57b4e6735d3e103bee918fe8aaa3b600374cdfd7232d0eb3d7"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step0_budget01_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step0_budget01_b711_tail.json",
+      "sha256": "2aff2feb3ac9ae06573d734ee5f784267b0cfeba0a524905a4ed64f13c333188"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step5_budget001_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step5_budget001_b711_body.json",
+      "sha256": "945d981d756df958b4ee9f37d478d46ce783fd3dcec8a6232eb9c18608968a88"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step5_budget001_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step5_budget001_b711_exterior.json",
+      "sha256": "de5bccc3aaf65f8e682ff44a776b074e7d66dd745186a84cf0e4a882a39a5283"
+    },
+    {
+      "job": "interval_new_root_kappa225_dense_step5_budget001_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_dense_step5_budget001_b711_tail.json",
+      "sha256": "2f1d13852f40b8fec316f3ad0fd2ba4a50eb5a640ce0763ea6f460ffae23ae6f"
+    },
+    {
+      "job": "interval_new_root_kappa225_neighbor_budget01_b711_body",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_neighbor_budget01_b711_body.json",
+      "sha256": "78184551436aefa440758e152a3deda9cb04f13e968fec2446b4bb3bb68ee33a"
+    },
+    {
+      "job": "interval_new_root_kappa225_neighbor_budget01_b711_exterior",
+      "status": "PASS_INDEPENDENT_PHYSICAL_Q_TREE",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_neighbor_budget01_b711_exterior.json",
+      "sha256": "1c1ec1c4c82a2987f3ca950ea0879427e614df362d562a76133bd50a603e7546"
+    },
+    {
+      "job": "interval_new_root_kappa225_neighbor_budget01_b711_tail",
+      "status": "PASS_INDEPENDENT_EXACT_R3_TAIL",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/interval_new_root_kappa225_neighbor_budget01_b711_tail.json",
+      "sha256": "87991dd9318670893cad2dc46f88568d631aaec4f3657b3a65db427fda818001"
+    },
+    {
+      "job": "BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK43_LINEAR_TENSOR_R3_CACHE_REPLAY.json",
+      "sha256": "c8ff5638adbf879fb3bae09187b66abdfbcf515232ff2e39422b0b42ceb10720"
+    },
+    {
+      "job": "BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK43_LINEAR_TENSOR_B0_PLANE_REPLAY.json",
+      "sha256": "95e5759438757f6322361e5e64ec1fc295d5f92e3519d447b30c8e8760b46055"
+    },
+    {
+      "job": "BANK48_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK48_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "61d3524d2fb731e61b37987388106247d7e21c9edfd5726175b751f8959feb83"
+    },
+    {
+      "job": "BANK49_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK49_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "11e27338e394e576bf8f420c0958ebaac53b7c6378b9d23c6e501c5ad5614ec8"
+    },
+    {
+      "job": "BANK50_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK50_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "f1a25af8e9ca2b9b559a063571a75f6eb0ead5923ae496c11cdd6456af67d957"
+    },
+    {
+      "job": "BANK52_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK52_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "e2f9e90557900794b483b48af68348ccc62a715218d1f42cec68eae51fd76548"
+    },
+    {
+      "job": "BANK55_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK55_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "aaaa6cf251b4e31e34025771bd73ba3fb30c6d1fb8efe895b467a4d14da9d966"
+    },
+    {
+      "job": "BANK59_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK59_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "06f5cd91c5fe38acd77f5ce42e9dfb08c37a92915925c5d14f99e4c36c55d9d7"
+    },
+    {
+      "job": "BANK63_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK63_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "1bf7e94e97ae273beabe1e2c4368a1b3bfb0428504c4cf438ace6938abcff207"
+    },
+    {
+      "job": "BANK66_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK66_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "1603280e1d94600a6d058dea8481ae494c24e0927904c7354d949f421b6b99f6"
+    },
+    {
+      "job": "BANK70_MONOTONE_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK70_MONOTONE_R3_CACHE_REPLAY.json",
+      "sha256": "1de6fef77733cec1e11a5fd0cc8d99b8e1e62cb902ff62f39317734acafe69a2"
+    },
+    {
+      "job": "BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK63_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "sha256": "6d72e39d25fcd245d145b1cf85ec605f3c961f0ae4dc39ab121da771cdcc49ad"
+    },
+    {
+      "job": "BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK66_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "sha256": "284dc3bf85cf367d0976c04555ecfb4e8435c5ceda884eaad47297be95554a7a"
+    },
+    {
+      "job": "BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK70_SPLIT_LINEAR_R3_CACHE_REPLAY.json",
+      "sha256": "8679c9340e04fa7060ff1981f25e546c38074f426183937bd7177a692e37e6b2"
+    },
+    {
+      "job": "BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK70_SPLIT_LINEAR_B0_PLANE_REPLAY.json",
+      "sha256": "12eaae65d24541f8c6745a3045c539aa11420cfe85699c3ff0a9c215ec322f71"
+    },
+    {
+      "job": "BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK73_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "71039a1eaf91a66942695ebf2f3055f17927b188e3a0bc6f3382566968b4b557"
+    },
+    {
+      "job": "BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK76_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "dfc2bdf8778f964b7cfc9f4d610d0c6334f57703c90f204b29f47146de1050c3"
+    },
+    {
+      "job": "BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK77_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "8c72d009e1930575de116b1a6c5fee1ded6ffdfa40e7af18f79319ed25c7b77e"
+    },
+    {
+      "job": "BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK78_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "45beae09dd13181b324ee2ce998149790d7321f06f2cef60c8448557154037fa"
+    },
+    {
+      "job": "BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK80_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "3dfdc970d7399a72f3e0b91f54f6b7dd77a0e2cd859ff81a2f1ef8d896416925"
+    },
+    {
+      "job": "BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK81_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "3b3eec4a38401aa075c6c68ef0d9f04bd35ab5f647544ad1c188ff3e3a18e86a"
+    },
+    {
+      "job": "BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK83_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "a4ce1253a5e1b61887f13989c731d4840bfac1587860f33dc3d0dd77c9eed6ba"
+    },
+    {
+      "job": "BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK84_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "4da988c36b10bee40798160cf3a393b24a3ae54e912ba3e45c1d102d964115c4"
+    },
+    {
+      "job": "BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK86_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "cd489e63ff2d0e7f91ad3a586e35cb0b03896f5cd896f4858e85e1f32b9cec98"
+    },
+    {
+      "job": "BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK88_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "4baffe42c64ae92ca4db0ee464a862bb203df1ecb3d8afa606a7bc1d61d3d507"
+    },
+    {
+      "job": "BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK89_AFFINE_HYBRID_R3_CACHE_REPLAY.json",
+      "sha256": "bdc041666517a981a334176403631f46f010353e7b97522ab6a203c8ba5b6783"
+    },
+    {
+      "job": "BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK84_KAPPA6_MOMENT2_R3_CACHE_REPLAY.json",
+      "sha256": "5b355bd2d55c781af007225e3bb83f7252223af3253ea1352b3463c1d3bdbaa2"
+    },
+    {
+      "job": "BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK86_FINAL_MOMENT2_R3_CACHE_REPLAY.json",
+      "sha256": "8c412588d5f94566cfe24c57f07f7c9ee18913e857807bd48b67ac9c1dd5af35"
+    },
+    {
+      "job": "BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY",
+      "status": "PASS_INDEPENDENT_NEW_ROUND_COMPLETE_R3_CACHE_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK89_FINAL_MOMENT2_GOAL_R3_CACHE_REPLAY.json",
+      "sha256": "5911c82b885facad6200ef2433a54c6ae4aed37fb02203aa87f076c4ef261b5f"
+    },
+    {
+      "job": "BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY",
+      "status": "PASS_INDEPENDENT_CURVED_B0_UNIFORM_SOURCE_PLANES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/BANK89_FINAL_MOMENT2_GOAL_B0_PLANE_REPLAY.json",
+      "sha256": "9a0d39f58ee05a5919d5104c6e01eaa4c0e4b211125dd03b71497cb433a11837"
+    },
+    {
+      "job": "native_curved",
+      "status": "PASS_INDEPENDENT_CURVED_NATIVE_SELECTED_ENDPOINT_PRICES",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/native_curved.json",
+      "sha256": "3734991febf0f457052efb0448958d4e481c80f63e4e691a03877507cfa8482b"
+    },
+    {
+      "job": "strong43_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_STRONG_SHAPE_NATIVE_CURVED_RANK_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/strong43_geometry.json",
+      "sha256": "4ba5ff57832cf7125f1355d538801e2467cdf18586a0a5549c62979e3ca7c44b"
+    },
+    {
+      "job": "u_refinement_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_STRONG_SHAPE_U_REFINEMENT_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/u_refinement_geometry.json",
+      "sha256": "d8644b268c6c580d16e8c12e667f70a946c41684498e5f460fbb682915aeb3c6"
+    },
+    {
+      "job": "layer_00_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_MONOTONE_RANK_CHILD_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/layer_00_geometry.json",
+      "sha256": "f0e50a3f0d4aa879e6f4f138978cd4313166d56686ce619c958dc8c47409ca5d"
+    },
+    {
+      "job": "layer_01_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_RANK_CHILD_MOMENT_REFINEMENT_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/layer_01_geometry.json",
+      "sha256": "3e9d527bc400874e01bcf845a15546f7ae1afa865abeff3bab728e08c694cb2f"
+    },
+    {
+      "job": "layer_02_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_AFFINE_HYBRID_DELTA_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/layer_02_geometry.json",
+      "sha256": "9d4bd16f855ef6e1d887efeaed450e4e5ad20c9a87223b80653764f1f46fbb94"
+    },
+    {
+      "job": "final_geometry",
+      "status": "PASS_PRODUCER_FREE_COMPLETE_CLOSED_MOMENT_AFFINE_REFINEMENT_GEOMETRY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/final_geometry.json",
+      "sha256": "8a60681133c0b4401d1e16310574e50e10172ef4fbf46c1aa88936f7f3f28b1e"
+    },
+    {
+      "job": "three_digit_rounding",
+      "status": "PASS_INDEPENDENT_READ_ONLY_ELEMENTARY_KRIVINE_UPPER_REPLAY",
+      "report": "/workspace/scratch/8242d848994f/new_round_2026-10-02/audit/final_goal_all_local_replay/three_digit_rounding.json",
+      "sha256": "30ea438147caf3b5fb1e06ca1f6276d530923225be8f847e6c6d088e61dd6d1e"
+    }
+  ],
+  "scope": "Also reconstruct all 60 current new whole-q criteria and the full protected baseline local/scalar mode."
+}

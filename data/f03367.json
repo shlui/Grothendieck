@@ -1,0 +1,2581 @@
+{
+  "status": "FLOATING_SIGN_WITNESS_SCREEN_ONLY",
+  "records": [
+    {
+      "b": 0.72,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.554319838127174,
+      "normalized_norm_lower": 0.5656324878848714,
+      "ratio_ceiling": 1.767932396774811,
+      "target_norm_headroom": -0.002252206194730544,
+      "unnormalized_target_headroom": -0.002207162070835933,
+      "witness_values": {
+        "reflected_quintic": 0.554319838127174,
+        "hemisphere": 0.5402253996834716,
+        "opposite_cubic_CLT": 0.4783662361046586,
+        "opposite_H3": 0.09841149742333037
+      },
+      "reflected_coefficients": [
+        -0.0762898321926704,
+        1.9426722535224668,
+        0.2544553923803284,
+        -5.732157008273536e-09
+      ],
+      "reflected_moments": [
+        0.709409860506588,
+        -0.22694355850765396,
+        0.3641085140718424
+      ],
+      "quadrature_discrepancy": 2.031130041935114e-09
+    },
+    {
+      "b": 0.72,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5555792499696683,
+      "normalized_norm_lower": 0.5649958474267814,
+      "ratio_ceiling": 1.769924512816161,
+      "target_norm_headroom": -0.0016155657366405674,
+      "unnormalized_target_headroom": -0.0015886396410298431,
+      "witness_values": {
+        "reflected_quintic": 0.5555792499696683,
+        "hemisphere": 0.5435587330168049,
+        "opposite_cubic_CLT": 0.47503290277132526,
+        "opposite_H3": 0.09507816408999703
+      },
+      "reflected_coefficients": [
+        -0.06566236745618524,
+        2.0084998744736566,
+        0.2699245343747325,
+        -1.301129568957405e-07
+      ],
+      "reflected_moments": [
+        0.7153443089838742,
+        -0.2330865683926837,
+        0.3525328189775099
+      ],
+      "quadrature_discrepancy": 7.053663542144761e-09
+    },
+    {
+      "b": 0.72,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.556922093528366,
+      "normalized_norm_lower": 0.5644480677652358,
+      "ratio_ceiling": 1.7716421706592116,
+      "target_norm_headroom": -0.0010677860750949453,
+      "unnormalized_target_headroom": -0.0010535489274269283,
+      "witness_values": {
+        "reflected_quintic": 0.556922093528366,
+        "hemisphere": 0.5468920663501383,
+        "opposite_cubic_CLT": 0.4716995694379919,
+        "opposite_H3": 0.0917448307566637
+      },
+      "reflected_coefficients": [
+        -0.054431363015548684,
+        2.083121097474113,
+        0.28727193116878635,
+        9.020969844143273e-10
+      ],
+      "reflected_moments": [
+        0.7213825148936197,
+        -0.23940110855127456,
+        0.3402178013661699
+      ],
+      "quadrature_discrepancy": 4.303672085370636e-09
+    },
+    {
+      "b": 0.72,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5583529657997977,
+      "normalized_norm_lower": 0.5639928947472703,
+      "ratio_ceiling": 1.7730719824903252,
+      "target_norm_headroom": -0.0006126130571294519,
+      "unnormalized_target_headroom": -0.0006064869265581807,
+      "witness_values": {
+        "reflected_quintic": 0.5583529657997977,
+        "hemisphere": 0.5502253996834716,
+        "opposite_cubic_CLT": 0.4683662361046586,
+        "opposite_H3": 0.08841149742333036
+      },
+      "reflected_coefficients": [
+        -0.04247577456290719,
+        2.1692213205942954,
+        0.30705470242211746,
+        -1.3460322548710715e-08
+      ],
+      "reflected_moments": [
+        0.7275642819484122,
+        -0.2459335028676772,
+        0.3269837700567765
+      ],
+      "quadrature_discrepancy": 1.8491442821400028e-09
+    },
+    {
+      "b": 0.72,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5598776805911861,
+      "normalized_norm_lower": 0.5636352489173015,
+      "ratio_ceiling": 1.7741970572651737,
+      "target_norm_headroom": -0.000254967227160674,
+      "unnormalized_target_headroom": -0.0002532674456462436,
+      "witness_values": {
+        "reflected_quintic": 0.5598776805911861,
+        "hemisphere": 0.5535587330168049,
+        "opposite_cubic_CLT": 0.46503290277132525,
+        "opposite_H3": 0.08507816408999704
+      },
+      "reflected_coefficients": [
+        -0.02962279401811786,
+        2.2708840288694194,
+        0.33011436571901975,
+        3.417819937018541e-10
+      ],
+      "reflected_moments": [
+        0.7339454730422892,
+        -0.2527495365616606,
+        0.3125721104893199
+      ],
+      "quadrature_discrepancy": 1.0406037143084745e-09
+    },
+    {
+      "b": 0.72,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5615038297001622,
+      "normalized_norm_lower": 0.5633817689299286,
+      "ratio_ceiling": 1.7749953142775132,
+      "target_norm_headroom": -1.487239787767436e-06,
+      "unnormalized_target_headroom": -1.4822823217741643e-06,
+      "witness_values": {
+        "reflected_quintic": 0.5615038297001622,
+        "hemisphere": 0.5568920663501383,
+        "opposite_cubic_CLT": 0.46169956943799195,
+        "opposite_H3": 0.0817448307566637
+      },
+      "reflected_coefficients": [
+        -0.01560976661132994,
+        2.3947703506012825,
+        0.35781832501822486,
+        1.0237045809828023e-08
+      ],
+      "reflected_moments": [
+        0.7406101842055541,
+        -0.2599489700555483,
+        0.2965854687668477
+      ],
+      "quadrature_discrepancy": 6.565746835107689e-10
+    },
+    {
+      "b": 0.72,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5632418877560426,
+      "normalized_norm_lower": 0.5632418877560426,
+      "ratio_ceiling": 1.7754361345247298,
+      "target_norm_headroom": 0.00013839393409831313,
+      "unnormalized_target_headroom": 0.00013839393409831313,
+      "witness_values": {
+        "reflected_quintic": 0.5632418877560426,
+        "hemisphere": 0.5602253996834716,
+        "opposite_cubic_CLT": 0.4583662361046586,
+        "opposite_H3": 0.07841149742333037
+      },
+      "reflected_coefficients": [
+        -6.303471653486258e-09,
+        2.5528920375778714,
+        0.392619993032439,
+        5.620892162040764e-08
+      ],
+      "reflected_moments": [
+        0.7476981226318615,
+        -0.2676981799411069,
+        0.27835397218977537
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.5651074576080569,
+      "normalized_norm_lower": 0.5632300241940766,
+      "ratio_ceiling": 1.7754735313176808,
+      "target_norm_headroom": 0.00015025749606423222,
+      "unnormalized_target_headroom": 0.0001507583543844948,
+      "witness_values": {
+        "reflected_quintic": 0.5651074576080569,
+        "hemisphere": 0.5635587330168049,
+        "opposite_cubic_CLT": 0.45503290277132524,
+        "opposite_H3": 0.07507816408999704
+      },
+      "reflected_coefficients": [
+        0.01804423993938279,
+        2.770603393683357,
+        0.439668318319283,
+        1.2900798353141854e-08
+      ],
+      "reflected_moments": [
+        0.7554780557173524,
+        -0.276317536784714,
+        0.2565710394868172
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5671274155739799,
+      "normalized_norm_lower": 0.5633716048748145,
+      "ratio_ceiling": 1.7750273378123265,
+      "target_norm_headroom": 8.676815326347231e-06,
+      "unnormalized_target_headroom": 8.73466076178886e-06,
+      "witness_values": {
+        "reflected_quintic": 0.5671274155739799,
+        "hemisphere": 0.5668920663501383,
+        "opposite_cubic_CLT": 0.45169956943799194,
+        "opposite_H3": 0.0717448307566637
+      },
+      "reflected_coefficients": [
+        0.040632153009378724,
+        3.1198604176394995,
+        0.5134774930158045,
+        -7.16542966056851e-10
+      ],
+      "reflected_moments": [
+        0.7646313819906377,
+        -0.28661799007954863,
+        0.227880104216537
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.5702253996834716,
+      "normalized_norm_lower": 0.5645796036470017,
+      "ratio_ceiling": 1.771229413071821,
+      "target_norm_headroom": -0.0011993219568607882,
+      "unnormalized_target_headroom": -0.0012113151764293617,
+      "witness_values": {
+        "reflected_quintic": 0.5701337166707342,
+        "hemisphere": 0.5702253996834716,
+        "opposite_cubic_CLT": 0.4483662361046586,
+        "opposite_H3": 0.06841149742333036
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5735587330168049,
+      "normalized_norm_lower": 0.5660119075823733,
+      "ratio_ceiling": 1.766747283235322,
+      "target_norm_headroom": -0.0026316258922324254,
+      "unnormalized_target_headroom": -0.00266671423746212,
+      "witness_values": {
+        "reflected_quintic": 0.573455805360046,
+        "hemisphere": 0.5735587330168049,
+        "opposite_cubic_CLT": 0.4450329027713253,
+        "opposite_H3": 0.06507816408999703
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5768920663501383,
+      "normalized_norm_lower": 0.5674348193607919,
+      "ratio_ceiling": 1.7623169496832911,
+      "target_norm_headroom": -0.004054537670651004,
+      "unnormalized_target_headroom": -0.004122113298495211,
+      "witness_values": {
+        "reflected_quintic": 0.576777894049358,
+        "hemisphere": 0.5768920663501383,
+        "opposite_cubic_CLT": 0.44169956943799193,
+        "opposite_H3": 0.061744830756663704
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.72,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5802253996834716,
+      "normalized_norm_lower": 0.568848431062227,
+      "ratio_ceiling": 1.7579375197232612,
+      "target_norm_headroom": -0.005468149372086173,
+      "unnormalized_target_headroom": -0.00557751235952797,
+      "witness_values": {
+        "reflected_quintic": 0.5800999827386699,
+        "hemisphere": 0.5802253996834716,
+        "opposite_cubic_CLT": 0.4383662361046586,
+        "opposite_H3": 0.058411497423330364
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5555529876008232,
+      "normalized_norm_lower": 0.5668908036743093,
+      "ratio_ceiling": 1.7640081538075558,
+      "target_norm_headroom": -0.0035105219841684576,
+      "unnormalized_target_headroom": -0.0034403115444850974,
+      "witness_values": {
+        "reflected_quintic": 0.5555529876008232,
+        "hemisphere": 0.5388106890782103,
+        "opposite_cubic_CLT": 0.48685449973622635,
+        "opposite_H3": 0.10347847355791494
+      },
+      "reflected_coefficients": [
+        -0.07043303108791722,
+        1.775989871654598,
+        0.2261971046099069,
+        -6.331757913980226e-08
+      ],
+      "reflected_moments": [
+        0.6969968896180716,
+        -0.2145429860639519,
+        0.38721496189686994
+      ],
+      "quadrature_discrepancy": 9.167401282539345e-10
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5566662802126144,
+      "normalized_norm_lower": 0.5661013019111334,
+      "ratio_ceiling": 1.7664682922014903,
+      "target_norm_headroom": -0.0027210202209925205,
+      "unnormalized_target_headroom": -0.0026756698839759396,
+      "witness_values": {
+        "reflected_quintic": 0.5566662802126144,
+        "hemisphere": 0.5421440224115436,
+        "opposite_cubic_CLT": 0.483521166402893,
+        "opposite_H3": 0.1001451402245816
+      },
+      "reflected_coefficients": [
+        -0.06036405604894178,
+        1.8285245536762944,
+        0.23915793807976243,
+        1.275084922542616e-08
+      ],
+      "reflected_moments": [
+        0.7029565881276515,
+        -0.22056139308288222,
+        0.3765034041511461
+      ],
+      "quadrature_discrepancy": 6.180531531008171e-09
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5578582394900803,
+      "normalized_norm_lower": 0.5653968643480544,
+      "ratio_ceiling": 1.7686691650705848,
+      "target_norm_headroom": -0.0020165826579134905,
+      "unnormalized_target_headroom": -0.001989694889141247,
+      "witness_values": {
+        "reflected_quintic": 0.5578582394900803,
+        "hemisphere": 0.545477355744877,
+        "opposite_cubic_CLT": 0.48018783306955964,
+        "opposite_H3": 0.09681180689124827
+      },
+      "reflected_coefficients": [
+        -0.04978322216284732,
+        1.8868986565684491,
+        0.25342775803134376,
+        1.6578713079937037e-08
+      ],
+      "reflected_moments": [
+        0.7089892173856136,
+        -0.22671720983326732,
+        0.3652197998963881
+      ],
+      "quadrature_discrepancy": 2.7678754843663e-09
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5591324023319683,
+      "normalized_norm_lower": 0.5647802043757255,
+      "ratio_ceiling": 1.7706003012363731,
+      "target_norm_headroom": -0.0013999226855846425,
+      "unnormalized_target_headroom": -0.0013859234587287883,
+      "witness_values": {
+        "reflected_quintic": 0.5591324023319683,
+        "hemisphere": 0.5488106890782103,
+        "opposite_cubic_CLT": 0.47685449973622634,
+        "opposite_H3": 0.09347847355791493
+      },
+      "reflected_coefficients": [
+        -0.0386034158157188,
+        1.952626192198011,
+        0.2693334612095796,
+        1.843535114516601e-08
+      ],
+      "reflected_moments": [
+        0.7151251234304108,
+        -0.23304457178904223,
+        0.3532424710641822
+      ],
+      "quadrature_discrepancy": 2.2163757495974323e-09
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5604931202105622,
+      "normalized_norm_lower": 0.5642548190039217,
+      "ratio_ceiling": 1.7722489313698706,
+      "target_norm_headroom": -0.0008745373137808432,
+      "unnormalized_target_headroom": -0.0008687070650222894,
+      "witness_values": {
+        "reflected_quintic": 0.5604931202105622,
+        "hemisphere": 0.5521440224115436,
+        "opposite_cubic_CLT": 0.473521166402893,
+        "opposite_H3": 0.0901451402245816
+      },
+      "reflected_coefficients": [
+        -0.026706090171437585,
+        2.027865742165396,
+        0.28733925255607834,
+        -2.9319707775327687e-09
+      ],
+      "reflected_moments": [
+        0.7214043953549807,
+        -0.23958943848288988,
+        0.3404058361310457
+      ],
+      "quadrature_discrepancy": 5.40098854528992e-10
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5619458535821484,
+      "normalized_norm_lower": 0.5638252711526572,
+      "ratio_ceiling": 1.7735991115752014,
+      "target_norm_headroom": -0.0004449894625163653,
+      "unnormalized_target_headroom": -0.00044350616430799406,
+      "witness_values": {
+        "reflected_quintic": 0.5619458535821484,
+        "hemisphere": 0.555477355744877,
+        "opposite_cubic_CLT": 0.4701878330695597,
+        "opposite_H3": 0.08681180689124826
+      },
+      "reflected_coefficients": [
+        -0.013922899472088357,
+        2.115852601021997,
+        0.30813845649787186,
+        1.4017034652018083e-07
+      ],
+      "reflected_moments": [
+        0.7278827066442063,
+        -0.24641646822195068,
+        0.3264736071954278
+      ],
+      "quadrature_discrepancy": 6.166503974114335e-10
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5634977093819613,
+      "normalized_norm_lower": 0.5634977093819613,
+      "ratio_ceiling": 1.7746301064769012,
+      "target_norm_headroom": -0.00011742769182043755,
+      "unnormalized_target_headroom": -0.00011742769182043755,
+      "witness_values": {
+        "reflected_quintic": 0.5634977093819613,
+        "hemisphere": 0.5588106890782103,
+        "opposite_cubic_CLT": 0.46685449973622634,
+        "opposite_H3": 0.08347847355791493
+      },
+      "reflected_coefficients": [
+        1.012910853364904e-10,
+        2.2217646956142167,
+        0.33283649150076705,
+        1.1483682527795027e-08
+      ],
+      "reflected_moments": [
+        0.734643180657585,
+        -0.25362306632831905,
+        0.31108722175630044
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.565158319879147,
+      "normalized_norm_lower": 0.5632807174875218,
+      "ratio_ceiling": 1.7753137449129042,
+      "target_norm_headroom": 9.95642026190291e-05,
+      "unnormalized_target_headroom": 9.989608329441513e-05,
+      "witness_values": {
+        "reflected_quintic": 0.565158319879147,
+        "hemisphere": 0.5621440224115436,
+        "opposite_cubic_CLT": 0.463521166402893,
+        "opposite_H3": 0.0801451402245816
+      },
+      "reflected_coefficients": [
+        0.015478986710977291,
+        2.354697174588055,
+        0.36336535019625626,
+        2.122262569174557e-11
+      ],
+      "reflected_moments": [
+        0.7418213952689521,
+        -0.26136889966675747,
+        0.2936532216858449
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5669415912146912,
+      "normalized_norm_lower": 0.5631870111404218,
+      "ratio_ceiling": 1.7756091319916214,
+      "target_norm_headroom": 0.0001932705497190712,
+      "unnormalized_target_headroom": 0.00019455902005049985,
+      "witness_values": {
+        "reflected_quintic": 0.5669415912146912,
+        "hemisphere": 0.565477355744877,
+        "opposite_cubic_CLT": 0.4601878330695597,
+        "opposite_H3": 0.07681180689124827
+      },
+      "reflected_coefficients": [
+        0.03329395854844648,
+        2.5330713942104475,
+        0.4036180113997362,
+        -4.430426506851303e-09
+      ],
+      "reflected_moments": [
+        0.7496706745229577,
+        -0.26995292925192393,
+        0.2730498335392864
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.5688710647444539,
+      "normalized_norm_lower": 0.5632386779648059,
+      "ratio_ceiling": 1.775446252401163,
+      "target_norm_headroom": 0.00014160372533500443,
+      "unnormalized_target_headroom": 0.0001430197625883478,
+      "witness_values": {
+        "reflected_quintic": 0.5688710647444539,
+        "hemisphere": 0.5688106890782103,
+        "opposite_cubic_CLT": 0.4568544997362263,
+        "opposite_H3": 0.07347847355791493
+      },
+      "reflected_coefficients": [
+        0.05530804099203407,
+        2.805420296752206,
+        0.46378520488359715,
+        5.549052741687339e-08
+      ],
+      "reflected_moments": [
+        0.758800316802049,
+        -0.28009338402203066,
+        0.24655299370618763
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5721440224115436,
+      "normalized_norm_lower": 0.564615811590339,
+      "ratio_ceiling": 1.7711158268545923,
+      "target_norm_headroom": -0.0012355299001981512,
+      "unnormalized_target_headroom": -0.0012520036322007932,
+      "witness_values": {
+        "reflected_quintic": 0.5710036896087577,
+        "hemisphere": 0.5721440224115436,
+        "opposite_cubic_CLT": 0.45352116640289303,
+        "opposite_H3": 0.0701451402245816
+      },
+      "reflected_coefficients": [
+        0.09078284600511147,
+        3.4518297937951328,
+        0.6021452103794525,
+        -2.7768691908738355e-06
+      ],
+      "reflected_moments": [
+        0.7722841775821798,
+        -0.2953989945643055,
+        0.20027821401708645
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.575477355744877,
+      "normalized_norm_lower": 0.566043300732666,
+      "ratio_ceiling": 1.7666492982173558,
+      "target_norm_headroom": -0.0026630190425250833,
+      "unnormalized_target_headroom": -0.0027074026932338846,
+      "witness_values": {
+        "reflected_quintic": 0.5753642085319048,
+        "hemisphere": 0.575477355744877,
+        "opposite_cubic_CLT": 0.4501878330695597,
+        "opposite_H3": 0.06681180689124827
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.7333333333333333,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5788106890782103,
+      "normalized_norm_lower": 0.5674614598805984,
+      "ratio_ceiling": 1.7622342144793652,
+      "target_norm_headroom": -0.004081178190457502,
+      "unnormalized_target_headroom": -0.004162801754266643,
+      "witness_values": {
+        "reflected_quintic": 0.5786862972212168,
+        "hemisphere": 0.5788106890782103,
+        "opposite_cubic_CLT": 0.4468544997362263,
+        "opposite_H3": 0.06347847355791493
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 3.3306690738754696e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5570905752608027,
+      "normalized_norm_lower": 0.5684597706742885,
+      "ratio_ceiling": 1.7591394353444438,
+      "target_norm_headroom": -0.005079488984147673,
+      "unnormalized_target_headroom": -0.004977899204464675,
+      "witness_values": {
+        "reflected_quintic": 0.5570905752608027,
+        "hemisphere": 0.537395978472949,
+        "opposite_cubic_CLT": 0.49534276336779415,
+        "opposite_H3": 0.1085454496924995
+      },
+      "reflected_coefficients": [
+        -0.06543632072262487,
+        1.6338086527426765,
+        0.20155139568852326,
+        -1.9818265736471835e-08
+      ],
+      "reflected_moments": [
+        0.6841653454984757,
+        -0.202090379870915,
+        0.4093402948536017
+      ],
+      "quadrature_discrepancy": 1.0690859308937206e-10
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5580618925926623,
+      "normalized_norm_lower": 0.5675205687383006,
+      "ratio_ceiling": 1.762050672847291,
+      "target_norm_headroom": -0.004140287048159719,
+      "unnormalized_target_headroom": -0.004071282264023757,
+      "witness_values": {
+        "reflected_quintic": 0.5580618925926623,
+        "hemisphere": 0.5407293118062823,
+        "opposite_cubic_CLT": 0.4920094300344608,
+        "opposite_H3": 0.10521211635916616
+      },
+      "reflected_coefficients": [
+        -0.05589486084209047,
+        1.6767151912189484,
+        0.21262867072767577,
+        -1.2659294690078753e-09
+      ],
+      "reflected_moments": [
+        0.6901652438487567,
+        -0.2079925220041343,
+        0.39934669652641636
+      ],
+      "quadrature_discrepancy": 5.189644491920831e-09
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5591079747313751,
+      "normalized_norm_lower": 0.5666634879034207,
+      "ratio_ceiling": 1.764715781671176,
+      "target_norm_headroom": -0.003283206213279821,
+      "unnormalized_target_headroom": -0.0032394301304360384,
+      "witness_values": {
+        "reflected_quintic": 0.5591079747313751,
+        "hemisphere": 0.5440626451396157,
+        "opposite_cubic_CLT": 0.48867609670112744,
+        "opposite_H3": 0.10187878302583284
+      },
+      "reflected_coefficients": [
+        -0.045916230679287774,
+        1.7236125942312528,
+        0.22464574563010534,
+        -5.305278673462909e-10
+      ],
+      "reflected_moments": [
+        0.6962099856179218,
+        -0.21400304741761073,
+        0.38890698355004477
+      ],
+      "quadrature_discrepancy": 1.1771817964856268e-09
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5602315655163865,
+      "normalized_norm_lower": 0.5658904702185723,
+      "ratio_ceiling": 1.7671264186756055,
+      "target_norm_headroom": -0.002510188528431434,
+      "unnormalized_target_headroom": -0.002485086643147061,
+      "witness_values": {
+        "reflected_quintic": 0.5602315655163865,
+        "hemisphere": 0.547395978472949,
+        "opposite_cubic_CLT": 0.48534276336779414,
+        "opposite_H3": 0.0985454496924995
+      },
+      "reflected_coefficients": [
+        -0.03543683296453699,
+        1.7753992955744966,
+        0.2378046894157197,
+        5.776346450443021e-08
+      ],
+      "reflected_moments": [
+        0.7023235579767332,
+        -0.2201476819248061,
+        0.3779359076503191
+      ],
+      "quadrature_discrepancy": 2.30463836903283e-09
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5614359765646132,
+      "normalized_norm_lower": 0.5652040032529664,
+      "ratio_ceiling": 1.7692726772008258,
+      "target_norm_headroom": -0.0018237215628255088,
+      "unnormalized_target_headroom": -0.001811563419073292,
+      "witness_values": {
+        "reflected_quintic": 0.5614359765646132,
+        "hemisphere": 0.5507293118062823,
+        "opposite_cubic_CLT": 0.4820094300344608,
+        "opposite_H3": 0.09521211635916617
+      },
+      "reflected_coefficients": [
+        -0.02437353168502083,
+        1.8332932336627457,
+        0.25237758460871496,
+        4.585229273661339e-08
+      ],
+      "reflected_moments": [
+        0.7085359776960308,
+        -0.22645956264626324,
+        0.3663227238387215
+      ],
+      "quadrature_discrepancy": 8.299028131375508e-11
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5627252505151157,
+      "normalized_norm_lower": 0.5646072747643301,
+      "ratio_ceiling": 1.7711426060130115,
+      "target_norm_headroom": -0.0012269930741892754,
+      "unnormalized_target_headroom": -0.0012229030972752408,
+      "witness_values": {
+        "reflected_quintic": 0.5627252505151157,
+        "hemisphere": 0.5540626451396157,
+        "opposite_cubic_CLT": 0.4786760967011275,
+        "opposite_H3": 0.09187878302583283
+      },
+      "reflected_coefficients": [
+        -0.012613894390769893,
+        1.8990059796325174,
+        0.2687477700567091,
+        3.312348016369779e-08
+      ],
+      "reflected_moments": [
+        0.7148861755651257,
+        -0.23298254743911653,
+        0.35391814005203936
+      ],
+      "quadrature_discrepancy": 5.807679892555484e-10
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5641044447714137,
+      "normalized_norm_lower": 0.5641044447714137,
+      "ratio_ceiling": 1.772721362628546,
+      "target_norm_headroom": -0.0007241630812728772,
+      "unnormalized_target_headroom": -0.0007241630812728772,
+      "witness_values": {
+        "reflected_quintic": 0.5641044447714137,
+        "hemisphere": 0.557395978472949,
+        "opposite_cubic_CLT": 0.47534276336779413,
+        "opposite_H3": 0.0885454496924995
+      },
+      "reflected_coefficients": [
+        1.367608262997242e-10,
+        1.9750574151399953,
+        0.2874759076988282,
+        -1.1353104296959094e-07
+      ],
+      "reflected_moments": [
+        0.7214277839114431,
+        -0.23977803921341506,
+        0.34051212103159845
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.5655800132306873,
+      "normalized_norm_lower": 0.5637010098644724,
+      "ratio_ceiling": 1.7739900807352194,
+      "target_norm_headroom": -0.00032072817433148604,
+      "unnormalized_target_headroom": -0.0003217972682458825,
+      "witness_values": {
+        "reflected_quintic": 0.5655800132306873,
+        "hemisphere": 0.5607293118062823,
+        "opposite_cubic_CLT": 0.4720094300344608,
+        "opposite_H3": 0.08521211635916617
+      },
+      "reflected_coefficients": [
+        0.013702849622039714,
+        2.0653850139060195,
+        0.309434730118654,
+        2.646259922451258e-07
+      ],
+      "reflected_moments": [
+        0.7282391009394573,
+        -0.24693664192811857,
+        0.3257919812625872
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.567160389160187,
+      "normalized_norm_lower": 0.563404360092901,
+      "ratio_ceiling": 1.7749241412244445,
+      "target_norm_headroom": -2.4078402760085993e-05,
+      "unnormalized_target_headroom": -2.423892544523021e-05,
+      "witness_values": {
+        "reflected_quintic": 0.567160389160187,
+        "hemisphere": 0.5640626451396157,
+        "opposite_cubic_CLT": 0.4686760967011275,
+        "opposite_H3": 0.08187878302583283
+      },
+      "reflected_coefficients": [
+        0.028871177335624762,
+        2.176667306254788,
+        0.33610120020414413,
+        2.1877819667652008e-07
+      ],
+      "reflected_moments": [
+        0.735444147077966,
+        -0.2546028793526859,
+        0.3092554731203201
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.5688577230269994,
+      "normalized_norm_lower": 0.5632254683435638,
+      "ratio_ceiling": 1.7754878928699414,
+      "target_norm_headroom": 0.00015481334657707624,
+      "unnormalized_target_headroom": 0.00015636148004283257,
+      "witness_values": {
+        "reflected_quintic": 0.5688577230269994,
+        "hemisphere": 0.567395978472949,
+        "opposite_cubic_CLT": 0.4653427633677941,
+        "opposite_H3": 0.07854544969249949
+      },
+      "reflected_coefficients": [
+        0.04618408441094344,
+        2.321787349937254,
+        0.3703065647219476,
+        4.208111614160738e-08
+      ],
+      "reflected_moments": [
+        0.7432662652734608,
+        -0.26303769541444866,
+        0.2899885835136655
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5707293118062823,
+      "normalized_norm_lower": 0.5632197155983049,
+      "ratio_ceiling": 1.775506027763439,
+      "target_norm_headroom": 0.0001605660918360119,
+      "unnormalized_target_headroom": 0.0001627069730605335,
+      "witness_values": {
+        "reflected_quintic": 0.5706918127962909,
+        "hemisphere": 0.5707293118062823,
+        "opposite_cubic_CLT": 0.4620094300344608,
+        "opposite_H3": 0.07521211635916616
+      },
+      "reflected_coefficients": [
+        0.06714757739832189,
+        2.5317003969685947,
+        0.4188151177456929,
+        4.884261122508217e-07
+      ],
+      "reflected_moments": [
+        0.7522031257588178,
+        -0.27282235318269676,
+        0.26593871164053945
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5740626451396157,
+      "normalized_norm_lower": 0.56465178210454,
+      "ratio_ceiling": 1.7710029998893357,
+      "target_norm_headroom": -0.0012715004143991626,
+      "unnormalized_target_headroom": -0.0012926920879725579,
+      "witness_values": {
+        "reflected_quintic": 0.5727044931055522,
+        "hemisphere": 0.5740626451396157,
+        "opposite_cubic_CLT": 0.45867609670112747,
+        "opposite_H3": 0.07187878302583284
+      },
+      "reflected_coefficients": [
+        0.09728228645869312,
+        2.9328449099267786,
+        0.5090505143098164,
+        -9.313915848880044e-09
+      ],
+      "reflected_moments": [
+        0.764098749824248,
+        -0.2861045158490458,
+        0.22945008074191678
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7466666666666667,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.577395978472949,
+      "normalized_norm_lower": 0.5660744886989696,
+      "ratio_ceiling": 1.7665519643860614,
+      "target_norm_headroom": -0.0026942070088287196,
+      "unnormalized_target_headroom": -0.002748091149005316,
+      "witness_values": {
+        "reflected_quintic": 0.5772726117037636,
+        "hemisphere": 0.577395978472949,
+        "opposite_cubic_CLT": 0.4553427633677941,
+        "opposite_H3": 0.0685454496924995
+      },
+      "reflected_coefficients": [
+        2.0,
+        8.0,
+        2.0,
+        0.5
+      ],
+      "reflected_moments": [
+        0.7978135550022112,
+        -0.3256482880178354,
+        0.004515936222312591
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.76,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5589316721796039,
+      "normalized_norm_lower": 0.5703384409995959,
+      "ratio_ceiling": 1.7533449056096653,
+      "target_norm_headroom": -0.006958159309454981,
+      "unnormalized_target_headroom": -0.006818996123265864,
+      "witness_values": {
+        "reflected_quintic": 0.5589316721796039,
+        "hemisphere": 0.5359812678676877,
+        "opposite_cubic_CLT": 0.5038310269993619,
+        "opposite_H3": 0.11361242582708407
+      },
+      "reflected_coefficients": [
+        -0.06111897148958529,
+        1.510910148100043,
+        0.17981405901653397,
+        3.8925304863676315e-09
+      ],
+      "reflected_moments": [
+        0.6709380393271391,
+        -0.1896441392883635,
+        0.43056664234244446
+      ],
+      "quadrature_discrepancy": 1.0633014468908186e-09
+    },
+    {
+      "b": 0.76,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5597647534029505,
+      "normalized_norm_lower": 0.5692522915962209,
+      "ratio_ceiling": 1.7566903370664249,
+      "target_norm_headroom": -0.005872009906080056,
+      "unnormalized_target_headroom": -0.00577414307431201,
+      "witness_values": {
+        "reflected_quintic": 0.5597647534029505,
+        "hemisphere": 0.539314601201021,
+        "opposite_cubic_CLT": 0.5004976936660286,
+        "opposite_H3": 0.11027909249375073
+      },
+      "reflected_coefficients": [
+        -0.05206929514153207,
+        1.5467090285743592,
+        0.1894479468273542,
+        -5.501912172601168e-09
+      ],
+      "reflected_moments": [
+        0.6769995489782867,
+        -0.19544261836274984,
+        0.4211661894980357
+      ],
+      "quadrature_discrepancy": 4.10493439240156e-09
+    },
+    {
+      "b": 0.76,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5606694401313126,
+      "normalized_norm_lower": 0.5682460541871411,
+      "ratio_ceiling": 1.7598010450428379,
+      "target_norm_headroom": -0.004865772497000265,
+      "unnormalized_target_headroom": -0.00480089553037355,
+      "witness_values": {
+        "reflected_quintic": 0.5606694401313126,
+        "hemisphere": 0.5426479345343544,
+        "opposite_cubic_CLT": 0.4971643603326952,
+        "opposite_H3": 0.1069457591604174
+      },
+      "reflected_coefficients": [
+        -0.042642585738323836,
+        1.5852981456866673,
+        0.19977421471524445,
+        5.280392133709853e-09
+      ],
+      "reflected_moments": [
+        0.6830797470212779,
+        -0.20132474068483908,
+        0.41141644793721405
+      ],
+      "quadrature_discrepancy": 4.192370894884334e-10
+    },
+    {
+      "b": 0.76,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5616478661878899,
+      "normalized_norm_lower": 0.5673210769574645,
+      "ratio_ceiling": 1.762670277231699,
+      "target_norm_headroom": -0.003940795267323605,
+      "unnormalized_target_headroom": -0.0039013873146503952,
+      "witness_values": {
+        "reflected_quintic": 0.5616478661878899,
+        "hemisphere": 0.5459812678676877,
+        "opposite_cubic_CLT": 0.4938310269993619,
+        "opposite_H3": 0.10361242582708406
+      },
+      "reflected_coefficients": [
+        -0.03279182944155973,
+        1.6272368668009551,
+        0.21092311343714004,
+        7.840817806489808e-08
+      ],
+      "reflected_moments": [
+        0.6891985130690959,
+        -0.2073104594667443,
+        0.40125552301502154
+      ],
+      "quadrature_discrepancy": 2.1851760401148113e-09
+    },
+    {
+      "b": 0.76,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5627025776343938,
+      "normalized_norm_lower": 0.5664791050010676,
+      "ratio_ceiling": 1.7652901778223848,
+      "target_norm_headroom": -0.0030988233109267016,
+      "unnormalized_target_headroom": -0.003078164488853896,
+      "witness_values": {
+        "reflected_quintic": 0.5627025776343938,
+        "hemisphere": 0.549314601201021,
+        "opposite_cubic_CLT": 0.4904976936660285,
+        "opposite_H3": 0.10027909249375073
+      },
+      "reflected_coefficients": [
+        -0.02245720897856351,
+        1.673251886216504,
+        0.2230642744214936,
+        -9.055107630228384e-08
+      ],
+      "reflected_moments": [
+        0.6953795211107385,
+        -0.2134245432173536,
+        0.3906061065763129
+      ],
+      "quadrature_discrepancy": 3.2303337782479957e-10
+    },
+    {
+      "b": 0.76,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5638366289087955,
+      "normalized_norm_lower": 0.5657223701426042,
+      "ratio_ceiling": 1.7676515067769472,
+      "target_norm_headroom": -0.002342088452463309,
+      "unnormalized_target_headroom": -0.002334281490955048,
+      "witness_values": {
+        "reflected_quintic": 0.5638366289087955,
+        "hemisphere": 0.5526479345343545,
+        "opposite_cubic_CLT": 0.4871643603326952,
+        "opposite_H3": 0.0969457591604174
+      },
+      "reflected_coefficients": [
+        -0.011561220936075839,
+        1.7243165930114623,
+        0.236422692919201,
+        2.719674637341983e-09
+      ],
+      "reflected_moments": [
+        0.7016516106792556,
+        -0.21969808051816309,
+        0.3793686773640543
+      ],
+      "quadrature_discrepancy": 5.473557163071519e-10
+    },
+    {
+      "b": 0.76,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5650537408800106,
+      "normalized_norm_lower": 0.5650537408800106,
+      "ratio_ceiling": 1.769743172468175,
+      "target_norm_headroom": -0.0016734591898697193,
+      "unnormalized_target_headroom": -0.0016734591898697193,
+      "witness_values": {
+        "reflected_quintic": 0.5650537408800106,
+        "hemisphere": 0.5559812678676878,
+        "opposite_cubic_CLT": 0.48383102699936187,
+        "opposite_H3": 0.09361242582708407
+      },
+      "reflected_coefficients": [
+        4.041289434329288e-09,
+        1.781775640120029,
+        0.2513110340298679,
+        -2.4075963193893208e-08
+      ],
+      "reflected_moments": [
+        0.7080519897734625,
+        -0.2261722335059942,
+        0.3674110505614708
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.5663584745575333,
+      "normalized_norm_lower": 0.5644768849410631,
+      "ratio_ceiling": 1.7715517263464382,
+      "target_norm_headroom": -0.0010966032509222012,
+      "unnormalized_target_headroom": -0.0011002585950918853,
+      "witness_values": {
+        "reflected_quintic": 0.5663584745575333,
+        "hemisphere": 0.559314601201021,
+        "opposite_cubic_CLT": 0.4804976936660285,
+        "opposite_H3": 0.09027909249375074
+      },
+      "reflected_coefficients": [
+        0.01237048880160211,
+        1.8475682104242095,
+        0.2681772279779091,
+        1.3878071968310092e-08
+      ],
+      "reflected_moments": [
+        0.7146306589731115,
+        -0.23290335423572311,
+        0.3545505459583069
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5677564110146766,
+      "normalized_norm_lower": 0.5639964347827913,
+      "ratio_ceiling": 1.773060853452246,
+      "target_norm_headroom": -0.0006161530926503955,
+      "unnormalized_target_headroom": -0.0006202607799348225,
+      "witness_values": {
+        "reflected_quintic": 0.5677564110146766,
+        "hemisphere": 0.5626479345343545,
+        "opposite_cubic_CLT": 0.4771643603326952,
+        "opposite_H3": 0.0869457591604174
+      },
+      "reflected_coefficients": [
+        0.025760200718178587,
+        1.9246372726135113,
+        0.2877001602097249,
+        -2.0218403812764147e-09
+      ],
+      "reflected_moments": [
+        0.7214586186462965,
+        -0.23997259053175118,
+        0.34052258298919535
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.569254930602059,
+      "normalized_norm_lower": 0.5636187431703554,
+      "ratio_ceiling": 1.7742490151675936,
+      "target_norm_headroom": -0.00023846148021455793,
+      "unnormalized_target_headroom": -0.00024084609501673349,
+      "witness_values": {
+        "reflected_quintic": 0.569254930602059,
+        "hemisphere": 0.5659812678676878,
+        "opposite_cubic_CLT": 0.47383102699936186,
+        "opposite_H3": 0.08361242582708406
+      },
+      "reflected_coefficients": [
+        0.04049667070588546,
+        2.017806572721646,
+        0.31098780989875235,
+        -2.405317826690894e-07
+      ],
+      "reflected_moments": [
+        0.7286453002058861,
+        -0.24750600502168982,
+        0.3249132276760769
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5708644747547255,
+      "normalized_norm_lower": 0.5633531000869001,
+      "ratio_ceiling": 1.7750856431707662,
+      "target_norm_headroom": 2.7181603240777896e-05,
+      "unnormalized_target_headroom": 2.7544024617354168e-05,
+      "witness_values": {
+        "reflected_quintic": 0.5708644747547255,
+        "hemisphere": 0.5693146012010211,
+        "opposite_cubic_CLT": 0.47049769366602856,
+        "opposite_H3": 0.08027909249375073
+      },
+      "reflected_coefficients": [
+        0.05714562892143447,
+        2.1358991531703717,
+        0.3400550635745378,
+        1.3618912898615638e-07
+      ],
+      "reflected_moments": [
+        0.7363790379951762,
+        -0.2557213904024954,
+        0.3070024906734639
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5726479345343545,
+      "normalized_norm_lower": 0.5632602634764142,
+      "ratio_ceiling": 1.7753782129562095,
+      "target_norm_headroom": 0.000120018213726647,
+      "unnormalized_target_headroom": 0.00012201851728865787,
+      "witness_values": {
+        "reflected_quintic": 0.5726012927469365,
+        "hemisphere": 0.5726479345343545,
+        "opposite_cubic_CLT": 0.4671643603326952,
+        "opposite_H3": 0.0769457591604174
+      },
+      "reflected_coefficients": [
+        0.07686490359368033,
+        2.298205139566456,
+        0.37928952905326035,
+        -6.597810569965469e-09
+      ],
+      "reflected_moments": [
+        0.7450459976021506,
+        -0.2650656792139139,
+        0.285303450377516
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.76,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5759812678676878,
+      "normalized_norm_lower": 0.5646875175173409,
+      "ratio_ceiling": 1.7708909245887325,
+      "target_norm_headroom": -0.0013072358272000484,
+      "unnormalized_target_headroom": -0.0013333805437441004,
+      "witness_values": {
+        "reflected_quintic": 0.5744959659079064,
+        "hemisphere": 0.5759812678676878,
+        "opposite_cubic_CLT": 0.46383102699936185,
+        "opposite_H3": 0.07361242582708406
+      },
+      "reflected_coefficients": [
+        0.10302387420441518,
+        2.56574505778173,
+        0.4424722718773203,
+        -3.681903774332354e-10
+      ],
+      "reflected_moments": [
+        0.7557785810117716,
+        -0.27684724870522626,
+        0.25543389490369195
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5610745043567871,
+      "normalized_norm_lower": 0.5725250044457011,
+      "ratio_ceiling": 1.746648604401419,
+      "target_norm_headroom": -0.00914472275556022,
+      "unnormalized_target_headroom": -0.008961828300449004,
+      "witness_values": {
+        "reflected_quintic": 0.5610745043567871,
+        "hemisphere": 0.5345665572624264,
+        "opposite_cubic_CLT": 0.5123192906309296,
+        "opposite_H3": 0.11867940196166858
+      },
+      "reflected_coefficients": [
+        -0.05734537614968056,
+        1.403363138749269,
+        0.16044599769328582,
+        3.2350164642720714e-08
+      ],
+      "reflected_moments": [
+        0.6573161282541458,
+        -0.17724317334628004,
+        0.45098811213657203
+      ],
+      "quadrature_discrepancy": 1.972582763798414e-09
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5617725828372914,
+      "normalized_norm_lower": 0.5712941520379234,
+      "ratio_ceiling": 1.7504117562429002,
+      "target_norm_headroom": -0.00791387034778257,
+      "unnormalized_target_headroom": -0.007781972508652868,
+      "witness_values": {
+        "reflected_quintic": 0.5617725828372914,
+        "hemisphere": 0.5378998905957597,
+        "opposite_cubic_CLT": 0.5089859572975963,
+        "opposite_H3": 0.11534606862833524
+      },
+      "reflected_coefficients": [
+        -0.04875144650760347,
+        1.4338335251482357,
+        0.1689542010150016,
+        7.467714675666682e-09
+      ],
+      "reflected_moments": [
+        0.6634663171874675,
+        -0.182952982614059,
+        0.4420735487682777
+      ],
+      "quadrature_discrepancy": 2.938032928057055e-09
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5625397555106961,
+      "normalized_norm_lower": 0.5701416440986785,
+      "ratio_ceiling": 1.753950111083138,
+      "target_norm_headroom": -0.006761362408537641,
+      "unnormalized_target_headroom": -0.006671210909757086,
+      "witness_values": {
+        "reflected_quintic": 0.5625397555106961,
+        "hemisphere": 0.5412332239290931,
+        "opposite_cubic_CLT": 0.5056526239642629,
+        "opposite_H3": 0.11201273529500191
+      },
+      "reflected_coefficients": [
+        -0.039828893367158585,
+        1.4662856982077066,
+        0.17798347537058737,
+        -2.3014966712695752e-09
+      ],
+      "reflected_moments": [
+        0.6696098542606669,
+        -0.18872498534247756,
+        0.4328862256828741
+      ],
+      "quadrature_discrepancy": 1.6614153386385055e-09
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.563377670145841,
+      "normalized_norm_lower": 0.5690683536826676,
+      "ratio_ceiling": 1.7572581457545517,
+      "target_norm_headroom": -0.005688071992526744,
+      "unnormalized_target_headroom": -0.005631191272601477,
+      "witness_values": {
+        "reflected_quintic": 0.563377670145841,
+        "hemisphere": 0.5445665572624264,
+        "opposite_cubic_CLT": 0.5023192906309296,
+        "opposite_H3": 0.10867940196166857
+      },
+      "reflected_coefficients": [
+        -0.030542458930762538,
+        1.5010838365346009,
+        0.18762119293996402,
+        2.813607653032951e-08
+      ],
+      "reflected_moments": [
+        0.6757642098043835,
+        -0.19457521737060204,
+        0.4233794687548829
+      ],
+      "quadrature_discrepancy": 1.9814514473637246e-09
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.564288287018009,
+      "normalized_norm_lower": 0.5680754567295393,
+      "ratio_ceiling": 1.760329526920752,
+      "target_norm_headroom": -0.004695175039398425,
+      "unnormalized_target_headroom": -0.0046638738724691375,
+      "witness_values": {
+        "reflected_quintic": 0.564288287018009,
+        "hemisphere": 0.5478998905957597,
+        "opposite_cubic_CLT": 0.49898595729759626,
+        "opposite_H3": 0.10534606862833525
+      },
+      "reflected_coefficients": [
+        -0.020848253981584797,
+        1.5386848053553024,
+        0.19797755385455498,
+        2.178953057254885e-09
+      ],
+      "reflected_moments": [
+        0.6819491867340257,
+        -0.2005228987204125,
+        0.4134969415095061
+      ],
+      "quadrature_discrepancy": 6.292384391315409e-10
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5652739391137203,
+      "normalized_norm_lower": 0.5671644874050705,
+      "ratio_ceiling": 1.7631569363153676,
+      "target_norm_headroom": -0.003784205714929656,
+      "unnormalized_target_headroom": -0.003771591695879817,
+      "witness_values": {
+        "reflected_quintic": 0.5652739391137203,
+        "hemisphere": 0.5512332239290931,
+        "opposite_cubic_CLT": 0.49565262396426296,
+        "opposite_H3": 0.1020127352950019
+      },
+      "reflected_coefficients": [
+        -0.010691160685040854,
+        1.5796758785371918,
+        0.20919380271808183,
+        2.3811686449202987e-09
+      ],
+      "reflected_moments": [
+        0.6881875586035542,
+        -0.206591079715649,
+        0.4031689953898302
+      ],
+      "quadrature_discrepancy": 5.154994209277675e-10
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5663374223911501,
+      "normalized_norm_lower": 0.5663374223911501,
+      "ratio_ceiling": 1.7657318066284056,
+      "target_norm_headroom": -0.0029571407010092754,
+      "unnormalized_target_headroom": -0.0029571407010092754,
+      "witness_values": {
+        "reflected_quintic": 0.5663374223911501,
+        "hemisphere": 0.5545665572624264,
+        "opposite_cubic_CLT": 0.4923192906309296,
+        "opposite_H3": 0.09867940196166858
+      },
+      "reflected_coefficients": [
+        5.035811646199652e-10,
+        1.6248305844294444,
+        0.22145616124887652,
+        -4.841276627192365e-09
+      ],
+      "reflected_moments": [
+        0.6945070157716081,
+        -0.212808885806543,
+        0.3923072583332306
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.5674820731733065,
+      "normalized_norm_lower": 0.5655967506710695,
+      "ratio_ceiling": 1.7680441035305092,
+      "target_norm_headroom": -0.002216468980928643,
+      "unnormalized_target_headroom": -0.0022238572108650434,
+      "witness_values": {
+        "reflected_quintic": 0.5674820731733065,
+        "hemisphere": 0.5578998905957597,
+        "opposite_cubic_CLT": 0.48898595729759625,
+        "opposite_H3": 0.09534606862833525
+      },
+      "reflected_coefficients": [
+        0.011319290078697954,
+        1.6751993518374375,
+        0.23501724775326915,
+        1.2645281832255351e-08
+      ],
+      "reflected_moments": [
+        0.7009422920061175,
+        -0.21921393617648624,
+        0.38079632447106315
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5687117856748568,
+      "normalized_norm_lower": 0.5649454824584671,
+      "ratio_ceiling": 1.7700823018325786,
+      "target_norm_headroom": -0.0015652007683262248,
+      "unnormalized_target_headroom": -0.0015756354401150752,
+      "witness_values": {
+        "reflected_quintic": 0.5687117856748568,
+        "hemisphere": 0.5612332239290931,
+        "opposite_cubic_CLT": 0.48565262396426295,
+        "opposite_H3": 0.09201273529500191
+      },
+      "reflected_coefficients": [
+        0.02339522693971595,
+        1.7322590593627676,
+        0.25023180706675746,
+        -2.4994581964906802e-08
+      ],
+      "reflected_moments": [
+        0.7075388482969438,
+        -0.22585664541861755,
+        0.3684807676341967
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.5700314482748388,
+      "normalized_norm_lower": 0.5643875725493454,
+      "ratio_ceiling": 1.7718320683125397,
+      "target_norm_headroom": -0.0010072908592044794,
+      "unnormalized_target_headroom": -0.0010173637677964864,
+      "witness_values": {
+        "reflected_quintic": 0.5700314482748388,
+        "hemisphere": 0.5645665572624264,
+        "opposite_cubic_CLT": 0.4823192906309296,
+        "opposite_H3": 0.08867940196166857
+      },
+      "reflected_coefficients": [
+        0.036411132571450795,
+        1.7981959945379962,
+        0.2676230482772365,
+        -4.117770651235958e-09
+      ],
+      "reflected_moments": [
+        0.7143598514374044,
+        -0.23280816120403425,
+        0.35513958721322747
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5714474844045427,
+      "normalized_norm_lower": 0.5639284385571145,
+      "ratio_ceiling": 1.7732746420071175,
+      "target_norm_headroom": -0.0005481568669736259,
+      "unnormalized_target_headroom": -0.0005554656251999246,
+      "witness_values": {
+        "reflected_quintic": 0.5714474844045427,
+        "hemisphere": 0.5678998905957597,
+        "opposite_cubic_CLT": 0.4789859572975963,
+        "opposite_H3": 0.08534606862833524
+      },
+      "reflected_coefficients": [
+        0.05064480532010091,
+        1.8764672051311286,
+        0.2880157504642565,
+        6.8298740287265386e-09
+      ],
+      "reflected_moments": [
+        0.7214995698199557,
+        -0.24017571841526913,
+        0.34043738464802015
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5729687528715199,
+      "normalized_norm_lower": 0.563575822496577,
+      "ratio_ceiling": 1.7743841380031409,
+      "target_norm_headroom": -0.00019554080643613414,
+      "unnormalized_target_headroom": -0.00019879981987680484,
+      "witness_values": {
+        "reflected_quintic": 0.5729687528715199,
+        "hemisphere": 0.5712332239290931,
+        "opposite_cubic_CLT": 0.47565262396426294,
+        "opposite_H3": 0.08201273529500192
+      },
+      "reflected_coefficients": [
+        0.06655513113484657,
+        1.97306898181808,
+        0.3128340679308862,
+        -6.441705235968279e-10
+      ],
+      "reflected_moments": [
+        0.7291126249683523,
+        -0.24813620707676454,
+        0.3238176201457051
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.7733333333333333,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5746084469185597,
+      "normalized_norm_lower": 0.5633416146260389,
+      "ratio_ceiling": 1.7751218337807806,
+      "target_norm_headroom": 3.866706410193821e-05,
+      "unnormalized_target_headroom": 3.944040538395033e-05,
+      "witness_values": {
+        "reflected_quintic": 0.5746084469185597,
+        "hemisphere": 0.5745665572624264,
+        "opposite_cubic_CLT": 0.4723192906309296,
+        "opposite_H3": 0.07867940196166857
+      },
+      "reflected_coefficients": [
+        0.08501125330959143,
+        2.1000069296125408,
+        0.3449156966926594,
+        1.6397221697294826e-08
+      ],
+      "reflected_moments": [
+        0.737491551768299,
+        -0.2570250557820085,
+        0.30421935462240385
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5635169601772555,
+      "normalized_norm_lower": 0.5750173063033219,
+      "ratio_ceiling": 1.7390780921513682,
+      "target_norm_headroom": -0.011637024613181057,
+      "unnormalized_target_headroom": -0.01140428412091743,
+      "witness_values": {
+        "reflected_quintic": 0.5635169601772555,
+        "hemisphere": 0.5331518466571651,
+        "opposite_cubic_CLT": 0.5208075542624975,
+        "opposite_H3": 0.12374637809625315
+      },
+      "reflected_coefficients": [
+        -0.054012011043726195,
+        1.3081548472570224,
+        0.14302988783662346,
+        -1.6801194239149517e-08
+      ],
+      "reflected_moments": [
+        0.6432804187085617,
+        -0.16491139828810203,
+        0.47070490601407544
+      ],
+      "quadrature_discrepancy": 2.853219105425353e-09
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.5640826929149525,
+      "normalized_norm_lower": 0.5736434165236806,
+      "ratio_ceiling": 1.7432432260097577,
+      "target_norm_headroom": -0.010263134833539689,
+      "unnormalized_target_headroom": -0.010092082586314,
+      "witness_values": {
+        "reflected_quintic": 0.5640826929149525,
+        "hemisphere": 0.5364851799904984,
+        "opposite_cubic_CLT": 0.5174742209291642,
+        "opposite_H3": 0.12041304476291981
+      },
+      "reflected_coefficients": [
+        -0.04584001137917831,
+        1.3345881440584053,
+        0.1506467238560827,
+        5.082196952900187e-08
+      ],
+      "reflected_moments": [
+        0.6495523557925812,
+        -0.1705490962829049,
+        0.46218234061576063
+      ],
+      "quadrature_discrepancy": 1.690724560354795e-09
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5647155902919514,
+      "normalized_norm_lower": 0.5723468820526534,
+      "ratio_ceiling": 1.7471921859932564,
+      "target_norm_headroom": -0.008966600362512511,
+      "unnormalized_target_headroom": -0.008847045691012356,
+      "witness_values": {
+        "reflected_quintic": 0.5647155902919514,
+        "hemisphere": 0.5398185133238318,
+        "opposite_cubic_CLT": 0.5141408875958308,
+        "opposite_H3": 0.11707971142958648
+      },
+      "reflected_coefficients": [
+        -0.03737824336532652,
+        1.3624382164365851,
+        0.15866266438076698,
+        -2.5174102624550225e-08
+      ],
+      "reflected_moments": [
+        0.6557918216268891,
+        -0.17622986373186555,
+        0.4534495990216257
+      ],
+      "quadrature_discrepancy": 2.5365578526503896e-09
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5654168957330453,
+      "normalized_norm_lower": 0.5711281775081266,
+      "ratio_ceiling": 1.7509204402470073,
+      "target_norm_headroom": -0.007747895817985739,
+      "unnormalized_target_headroom": -0.007670416859805851,
+      "witness_values": {
+        "reflected_quintic": 0.5654168957330453,
+        "hemisphere": 0.5431518466571651,
+        "opposite_cubic_CLT": 0.5108075542624975,
+        "opposite_H3": 0.11374637809625314
+      },
+      "reflected_coefficients": [
+        -0.028600033443763297,
+        1.3919534264848137,
+        0.16713791315009316,
+        -1.7042808750248707e-08
+      ],
+      "reflected_moments": [
+        0.6620152456347919,
+        -0.1819671389673725,
+        0.4444699552882108
+      ],
+      "quadrature_discrepancy": 1.7893547754610495e-09
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5661881014301485,
+      "normalized_norm_lower": 0.5699880215739751,
+      "ratio_ceiling": 1.7544228337265444,
+      "target_norm_headroom": -0.006607739883834229,
+      "unnormalized_target_headroom": -0.006563688284608626,
+      "witness_values": {
+        "reflected_quintic": 0.5661881014301485,
+        "hemisphere": 0.5464851799904984,
+        "opposite_cubic_CLT": 0.5074742209291642,
+        "opposite_H3": 0.11041304476291981
+      },
+      "reflected_coefficients": [
+        -0.01947281632448875,
+        1.4234354092540908,
+        0.17614727474006633,
+        2.6095291220948743e-08
+      ],
+      "reflected_moments": [
+        0.6682403478977343,
+        -0.18777647369458383,
+        0.4352005130277139
+      ],
+      "quadrature_discrepancy": 8.543160623375456e-10
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5670309879005009,
+      "normalized_norm_lower": 0.5689274126091982,
+      "ratio_ceiling": 1.7576934734324532,
+      "target_norm_headroom": -0.0055471309190573415,
+      "unnormalized_target_headroom": -0.005528640482660441,
+      "witness_values": {
+        "reflected_quintic": 0.5670309879005009,
+        "hemisphere": 0.5498185133238318,
+        "opposite_cubic_CLT": 0.5041408875958308,
+        "opposite_H3": 0.10707971142958647
+      },
+      "reflected_coefficients": [
+        -0.00995625752419314,
+        1.457257847394806,
+        0.18578393015405123,
+        -7.42498568458979e-09
+      ],
+      "reflected_moments": [
+        0.6744864292023003,
+        -0.19367577282157714,
+        0.42559015003950285
+      ],
+      "quadrature_discrepancy": 4.846011369963321e-10
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5679476751935659,
+      "normalized_norm_lower": 0.5679476751935659,
+      "ratio_ceiling": 1.7607255803260107,
+      "target_norm_headroom": -0.004567393503425055,
+      "unnormalized_target_headroom": -0.004567393503425055,
+      "witness_values": {
+        "reflected_quintic": 0.5679476751935659,
+        "hemisphere": 0.5531518466571651,
+        "opposite_cubic_CLT": 0.5008075542624975,
+        "opposite_H3": 0.10374637809625314
+      },
+      "reflected_coefficients": [
+        -7.107965817561066e-10,
+        1.4938944496779425,
+        0.1961654093354006,
+        1.0445230032926598e-08
+      ],
+      "reflected_moments": [
+        0.6807756303279351,
+        -0.19968669739425407,
+        0.4155765461266928
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.5689406518154076,
+      "normalized_norm_lower": 0.5670504835369511,
+      "ratio_ceiling": 1.763511413944216,
+      "target_norm_headroom": -0.003670201846810217,
+      "unnormalized_target_headroom": -0.003682435852966237,
+      "witness_values": {
+        "reflected_quintic": 0.5689406518154076,
+        "hemisphere": 0.5564851799904984,
+        "opposite_cubic_CLT": 0.4974742209291641,
+        "opposite_H3": 0.10041304476291982
+      },
+      "reflected_coefficients": [
+        0.010460323640458858,
+        1.5339588788101821,
+        0.20744486904114132,
+        6.917831691801471e-11
+      ],
+      "reflected_moments": [
+        0.6871340888853565,
+        -0.2058359358505688,
+        0.40508193444727986
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5700127201790686,
+      "normalized_norm_lower": 0.566237801502386,
+      "ratio_ceiling": 1.766042460158475,
+      "target_norm_headroom": -0.002857519812245135,
+      "unnormalized_target_headroom": -0.0028765699443268344,
+      "witness_values": {
+        "reflected_quintic": 0.5700127201790686,
+        "hemisphere": 0.5598185133238318,
+        "opposite_cubic_CLT": 0.4941408875958308,
+        "opposite_H3": 0.09707971142958648
+      },
+      "reflected_coefficients": [
+        0.021508678143670017,
+        1.5782661403980394,
+        0.21982550225119438,
+        -1.062666185562979e-09
+      ],
+      "reflected_moments": [
+        0.6935937329416062,
+        -0.2121572953602961,
+        0.3940073053044908
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.571167284597629,
+      "normalized_norm_lower": 0.5655121629679495,
+      "ratio_ceiling": 1.7683085625457629,
+      "target_norm_headroom": -0.0021318812778086116,
+      "unnormalized_target_headroom": -0.0021532000905867266,
+      "witness_values": {
+        "reflected_quintic": 0.571167284597629,
+        "hemisphere": 0.5631518466571651,
+        "opposite_cubic_CLT": 0.49080755426249745,
+        "opposite_H3": 0.09374637809625314
+      },
+      "reflected_coefficients": [
+        0.03325788894972189,
+        1.6279405833379248,
+        0.2335873555022103,
+        6.257751925716431e-10
+      ],
+      "reflected_moments": [
+        0.7001955623432408,
+        -0.21869533860495877,
+        0.3822210204225106
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5724086314455483,
+      "normalized_norm_lower": 0.5648769389265279,
+      "ratio_ceiling": 1.7702970878938067,
+      "target_norm_headroom": -0.0014966572363870334,
+      "unnormalized_target_headroom": -0.001516612666205508,
+      "witness_values": {
+        "reflected_quintic": 0.5724086314455483,
+        "hemisphere": 0.5664851799904984,
+        "opposite_cubic_CLT": 0.48747422092916415,
+        "opposite_H3": 0.09041304476291981
+      },
+      "reflected_coefficients": [
+        0.04586553976813506,
+        1.684603964432821,
+        0.24913299090706237,
+        1.921520555693555e-07
+      ],
+      "reflected_moments": [
+        0.7069950993944407,
+        -0.22551155110566312,
+        0.36953996992600197
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5737423060721097,
+      "normalized_norm_lower": 0.5643366944971572,
+      "ratio_ceiling": 1.771991808703904,
+      "target_norm_headroom": -0.0009564128070163047,
+      "unnormalized_target_headroom": -0.0009723530204666098,
+      "witness_values": {
+        "reflected_quintic": 0.5737423060721097,
+        "hemisphere": 0.5698185133238318,
+        "opposite_cubic_CLT": 0.4841408875958308,
+        "opposite_H3": 0.08707971142958648
+      },
+      "reflected_coefficients": [
+        0.05956351339368214,
+        1.7507311507231695,
+        0.26707614586836503,
+        -5.907407756405804e-09
+      ],
+      "reflected_moments": [
+        0.7140723967990881,
+        -0.23269573033632107,
+        0.35569495808961765
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.7866666666666667,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5751757744873216,
+      "normalized_norm_lower": 0.5638978181248251,
+      "ratio_ceiling": 1.7733709332754304,
+      "target_norm_headroom": -0.0005175364346842182,
+      "unnormalized_target_headroom": -0.000527887163377927,
+      "witness_values": {
+        "reflected_quintic": 0.5751757744873216,
+        "hemisphere": 0.5731518466571651,
+        "opposite_cubic_CLT": 0.48080755426249744,
+        "opposite_H3": 0.08374637809625314
+      },
+      "reflected_coefficients": [
+        0.07471871978514658,
+        1.8304055365593308,
+        0.288423080358623,
+        1.0409990680767317e-08
+      ],
+      "reflected_moments": [
+        0.7215526913933162,
+        -0.2403894872556977,
+        0.34025913903419924
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.8,
+      "t": -0.02,
+      "vector_numerator_limit": 0.98,
+      "sampled_scalar_norm_lower": 0.5662570086942481,
+      "normalized_norm_lower": 0.5778132741778043,
+      "ratio_ceiling": 1.7306629056297533,
+      "target_norm_headroom": -0.014432992487663387,
+      "unnormalized_target_headroom": -0.01414433263791004,
+      "witness_values": {
+        "reflected_quintic": 0.5662570086942481,
+        "hemisphere": 0.5317371360519039,
+        "opposite_cubic_CLT": 0.5292958178940652,
+        "opposite_H3": 0.1288133542308377
+      },
+      "reflected_coefficients": [
+        -0.05103901203764246,
+        1.2229314262379605,
+        0.12723722952594785,
+        -3.392345932485263e-11
+      ],
+      "reflected_moments": [
+        0.6287907193300079,
+        -0.15266069076833239,
+        0.48982138897351757
+      ],
+      "quadrature_discrepancy": 3.723442221215123e-09
+    },
+    {
+      "b": 0.8,
+      "t": -0.016666666666666666,
+      "vector_numerator_limit": 0.9833333333333333,
+      "sampled_scalar_norm_lower": 0.566692411469052,
+      "normalized_norm_lower": 0.5762973675956462,
+      "ratio_ceiling": 1.7352152833390018,
+      "target_norm_headroom": -0.012917085905505332,
+      "unnormalized_target_headroom": -0.012701801140413527,
+      "witness_values": {
+        "reflected_quintic": 0.566692411469052,
+        "hemisphere": 0.5350704693852372,
+        "opposite_cubic_CLT": 0.5259624845607319,
+        "opposite_H3": 0.12548002089750437
+      },
+      "reflected_coefficients": [
+        -0.04325802901989451,
+        1.24629274560666,
+        0.134140486904058,
+        -4.5716271829729733e-10
+      ],
+      "reflected_moments": [
+        0.6352248588230974,
+        -0.15824426196053457,
+        0.4816061545422681
+      ],
+      "quadrature_discrepancy": 3.5584901691976256e-10
+    },
+    {
+      "b": 0.8,
+      "t": -0.013333333333333332,
+      "vector_numerator_limit": 0.9866666666666667,
+      "sampled_scalar_norm_lower": 0.5671935931185611,
+      "normalized_norm_lower": 0.574858371403947,
+      "ratio_ceiling": 1.7395589065838102,
+      "target_norm_headroom": -0.01147808971380615,
+      "unnormalized_target_headroom": -0.01132504851762206,
+      "witness_values": {
+        "reflected_quintic": 0.5671935931185611,
+        "hemisphere": 0.5384038027185706,
+        "opposite_cubic_CLT": 0.5226291512273985,
+        "opposite_H3": 0.12214668756417105
+      },
+      "reflected_coefficients": [
+        -0.03521864763092187,
+        1.270660664520566,
+        0.14135232505657458,
+        1.909964370808876e-10
+      ],
+      "reflected_moments": [
+        0.6415986714763802,
+        -0.1638531753375586,
+        0.4732341537417877
+      ],
+      "quadrature_discrepancy": 3.1096883956749366e-09
+    },
+    {
+      "b": 0.8,
+      "t": -0.01,
+      "vector_numerator_limit": 0.99,
+      "sampled_scalar_norm_lower": 0.5677614426372816,
+      "normalized_norm_lower": 0.5734964067043248,
+      "ratio_ceiling": 1.7436900882197957,
+      "target_norm_headroom": -0.010116125014183908,
+      "unnormalized_target_headroom": -0.010014963764042095,
+      "witness_values": {
+        "reflected_quintic": 0.5677614426372816,
+        "hemisphere": 0.5417371360519039,
+        "opposite_cubic_CLT": 0.5192958178940652,
+        "opposite_H3": 0.1188133542308377
+      },
+      "reflected_coefficients": [
+        -0.02690052216950061,
+        1.2962127621448285,
+        0.14891653993853446,
+        4.347867756925089e-09
+      ],
+      "reflected_moments": [
+        0.6479288188934128,
+        -0.16949927937213238,
+        0.4646749898375962
+      ],
+      "quadrature_discrepancy": 1.6052403850608243e-09
+    },
+    {
+      "b": 0.8,
+      "t": -0.006666666666666666,
+      "vector_numerator_limit": 0.9933333333333333,
+      "sampled_scalar_norm_lower": 0.5683970587450953,
+      "normalized_norm_lower": 0.5722118041058006,
+      "ratio_ceiling": 1.7476046331527657,
+      "target_norm_headroom": -0.008831522415659765,
+      "unnormalized_target_headroom": -0.008772645599555373,
+      "witness_values": {
+        "reflected_quintic": 0.5683970587450953,
+        "hemisphere": 0.5450704693852372,
+        "opposite_cubic_CLT": 0.5159624845607319,
+        "opposite_H3": 0.11548002089750438
+      },
+      "reflected_coefficients": [
+        -0.018279098908076184,
+        1.3231582275164813,
+        0.15688575340983615,
+        3.448230730478944e-08
+      ],
+      "reflected_moments": [
+        0.6542323945683506,
+        -0.17519578590847418,
+        0.45589436607955275
+      ],
+      "quadrature_discrepancy": 1.0150821294629964e-09
+    },
+    {
+      "b": 0.8,
+      "t": -0.003333333333333334,
+      "vector_numerator_limit": 0.9966666666666667,
+      "sampled_scalar_norm_lower": 0.5691017766203025,
+      "normalized_norm_lower": 0.5710051270437817,
+      "ratio_ceiling": 1.7512977601045694,
+      "target_norm_headroom": -0.00762484535364083,
+      "unnormalized_target_headroom": -0.007599429202462038,
+      "witness_values": {
+        "reflected_quintic": 0.5691017766203025,
+        "hemisphere": 0.5484038027185706,
+        "opposite_cubic_CLT": 0.5126291512273985,
+        "opposite_H3": 0.11214668756417104
+      },
+      "reflected_coefficients": [
+        -0.00932447117694759,
+        1.3517476206960006,
+        0.16532401701273355,
+        -2.6331521366277178e-11
+      ],
+      "reflected_moments": [
+        0.6605270663382118,
+        -0.18095730657824477,
+        0.44685286639547633
+      ],
+      "quadrature_discrepancy": 4.542090037418234e-10
+    },
+    {
+      "b": 0.8,
+      "t": 0.0,
+      "vector_numerator_limit": 1.0,
+      "sampled_scalar_norm_lower": 0.5698771949273916,
+      "normalized_norm_lower": 0.5698771949273916,
+      "ratio_ceiling": 1.7547640244270708,
+      "target_norm_headroom": -0.006496913237250768,
+      "unnormalized_target_headroom": -0.006496913237250768,
+      "witness_values": {
+        "reflected_quintic": 0.5698771949273916,
+        "hemisphere": 0.5517371360519039,
+        "opposite_cubic_CLT": 0.5092958178940652,
+        "opposite_H3": 0.10881335423083771
+      },
+      "reflected_coefficients": [
+        -1.1232108123182545e-08,
+        1.3822876242233064,
+        0.17430937016424583,
+        1.0103401746876734e-08
+      ],
+      "reflected_moments": [
+        0.6668319645272476,
+        -0.18680078679933454,
+        0.4375042187956643
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.003333333333333334,
+      "vector_numerator_limit": 1.0033333333333334,
+      "sampled_scalar_norm_lower": 0.570725178487066,
+      "normalized_norm_lower": 0.5688290815485708,
+      "ratio_ceiling": 1.7579973184170132,
+      "target_norm_headroom": -0.005448799858429942,
+      "unnormalized_target_headroom": -0.005466962524624641,
+      "witness_values": {
+        "reflected_quintic": 0.570725178487066,
+        "hemisphere": 0.5550704693852372,
+        "opposite_cubic_CLT": 0.5059624845607319,
+        "opposite_H3": 0.10548002089750438
+      },
+      "reflected_coefficients": [
+        0.009739900211987644,
+        1.4151602285729774,
+        0.18394013780649576,
+        2.878358771920173e-08
+      ],
+      "reflected_moments": [
+        0.6731684047773567,
+        -0.1927462367183051,
+        0.42779294819468777
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.006666666666666668,
+      "vector_numerator_limit": 1.0066666666666666,
+      "sampled_scalar_norm_lower": 0.5716477697221167,
+      "normalized_norm_lower": 0.567862022902765,
+      "ratio_ceiling": 1.7609911557181734,
+      "target_norm_headroom": -0.004481741212624124,
+      "unnormalized_target_headroom": -0.004511619487374996,
+      "witness_values": {
+        "reflected_quintic": 0.5716477697221167,
+        "hemisphere": 0.5584038027185706,
+        "opposite_cubic_CLT": 0.5026291512273985,
+        "opposite_H3": 0.10214668756417104
+      },
+      "reflected_coefficients": [
+        0.019952831694087524,
+        1.450850043670471,
+        0.1943414744873318,
+        -3.1696660898642953e-10
+      ],
+      "reflected_moments": [
+        0.6795608403828519,
+        -0.198817831069504,
+        0.4176516616955756
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.010000000000000002,
+      "vector_numerator_limit": 1.01,
+      "sampled_scalar_norm_lower": 0.5726474027895052,
+      "normalized_norm_lower": 0.5669776265242625,
+      "ratio_ceiling": 1.7637380263667373,
+      "target_norm_headroom": -0.003597344834121663,
+      "unnormalized_target_headroom": -0.0036333182824629384,
+      "witness_values": {
+        "reflected_quintic": 0.5726474027895052,
+        "hemisphere": 0.5617371360519039,
+        "opposite_cubic_CLT": 0.4992958178940652,
+        "opposite_H3": 0.0988133542308377
+      },
+      "reflected_coefficients": [
+        0.030712898238333734,
+        1.4899916617665334,
+        0.20567709878514398,
+        6.884911821058132e-09
+      ],
+      "reflected_moments": [
+        0.6860386508615572,
+        -0.20504579394528658,
+        0.4069952433929028
+      ],
+      "quadrature_discrepancy": 6.661338147750939e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.013333333333333332,
+      "vector_numerator_limit": 1.0133333333333334,
+      "sampled_scalar_norm_lower": 0.5737270706772158,
+      "normalized_norm_lower": 0.5661780302735682,
+      "ratio_ceiling": 1.7662289006813208,
+      "target_norm_headroom": -0.0027977485834272953,
+      "unnormalized_target_headroom": -0.002835051897873031,
+      "witness_values": {
+        "reflected_quintic": 0.5737270706772158,
+        "hemisphere": 0.5650704693852372,
+        "opposite_cubic_CLT": 0.4959624845607319,
+        "opposite_H3": 0.09548002089750438
+      },
+      "reflected_coefficients": [
+        0.04211812046108212,
+        1.5334429169528336,
+        0.21816821710884632,
+        6.336118647215692e-08
+      ],
+      "reflected_moments": [
+        0.6926386634717985,
+        -0.2114691996063796,
+        0.3957124985256638
+      ],
+      "quadrature_discrepancy": 7.771561172376096e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.016666666666666666,
+      "vector_numerator_limit": 1.0166666666666666,
+      "sampled_scalar_norm_lower": 0.5748905077679065,
+      "normalized_norm_lower": 0.5654660732143343,
+      "ratio_ceiling": 1.7684526930423992,
+      "target_norm_headroom": -0.0020857915241934144,
+      "unnormalized_target_headroom": -0.0021205547162633787,
+      "witness_values": {
+        "reflected_quintic": 0.5748905077679065,
+        "hemisphere": 0.5684038027185706,
+        "opposite_cubic_CLT": 0.49262915122739853,
+        "opposite_H3": 0.09214668756417105
+      },
+      "reflected_coefficients": [
+        0.05430263284740851,
+        1.5824091571500276,
+        0.2321256894082257,
+        6.936184439151811e-10
+      ],
+      "reflected_moments": [
+        0.6994093748165143,
+        -0.21814070514488734,
+        0.38365236106681355
+      ],
+      "quadrature_discrepancy": 5.551115123125783e-16
+    },
+    {
+      "b": 0.8,
+      "t": 0.02,
+      "vector_numerator_limit": 1.02,
+      "sampled_scalar_norm_lower": 0.5761424772938781,
+      "normalized_norm_lower": 0.5648455659743903,
+      "ratio_ceiling": 1.7703954146739982,
+      "target_norm_headroom": -0.001465284284249413,
+      "unnormalized_target_headroom": -0.0014945899699344567,
+      "witness_values": {
+        "reflected_quintic": 0.5761424772938781,
+        "hemisphere": 0.5717371360519039,
+        "opposite_cubic_CLT": 0.4892958178940652,
+        "opposite_H3": 0.08881335423083771
+      },
+      "reflected_coefficients": [
+        0.06745827884305215,
+        1.638669682404572,
+        0.2480061710130423,
+        -2.752285501568789e-08
+      ],
+      "reflected_moments": [
+        0.7064183431008703,
+        -0.22513488879361193,
+        0.37059947016829525
+      ],
+      "quadrature_discrepancy": 4.440892098500626e-16
+    }
+  ],
+  "grid_best": {
+    "b": 0.7333333333333333,
+    "t": 0.006666666666666668,
+    "vector_numerator_limit": 1.0066666666666666,
+    "sampled_scalar_norm_lower": 0.5669415912146912,
+    "normalized_norm_lower": 0.5631870111404218,
+    "ratio_ceiling": 1.7756091319916214,
+    "target_norm_headroom": 0.0001932705497190712,
+    "unnormalized_target_headroom": 0.00019455902005049985,
+    "witness_values": {
+      "reflected_quintic": 0.5669415912146912,
+      "hemisphere": 0.565477355744877,
+      "opposite_cubic_CLT": 0.4601878330695597,
+      "opposite_H3": 0.07681180689124827
+    },
+    "reflected_coefficients": [
+      0.03329395854844648,
+      2.5330713942104475,
+      0.4036180113997362,
+      -4.430426506851303e-09
+    ],
+    "reflected_moments": [
+      0.7496706745229577,
+      -0.26995292925192393,
+      0.2730498335392864
+    ],
+    "quadrature_discrepancy": 6.661338147750939e-16
+  }
+}

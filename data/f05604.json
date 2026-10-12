@@ -1,0 +1,1402 @@
+{
+  "status": "PASS_INDEPENDENT_LOWER_AMPLITUDE_R3_SOURCE_PRICING",
+  "engine": {
+    "MPFR": "4.2.1",
+    "bits": 384,
+    "status": "PASS"
+  },
+  "producer_modules_imported": false,
+  "q_gates_executed": false,
+  "expanded_price": "C+u^2-2ell*u+eps*r^2-2(gamma-p0*vy)r+L(z)k+B*k^2+[A(K-633(z-2/5)/9)+(9/4)B*z^(3/2)]k^(3/2)",
+  "convexity": {
+    "minimum_K_shape": {
+      "lower": "1.9148186607266559040778534761994739554159369702909206441035594144e1",
+      "upper": "1.9148186607266559040778534761994739554159369702909206441035594145e1"
+    },
+    "u_r": "Hessian diag(2,2eps) is positive. Polygon vertex bounds are valid jointly in (u,r).",
+    "kappa": "Second derivative =2B+(3/4)[A*K(z)+(9/4)B*z^(3/2)]/sqrt(k)>=0; continuity extends to k=0.",
+    "shape": "Second derivative =(27/16)B*k^(3/2)/sqrt(z)>=0; all remaining shape dependence is affine.",
+    "scope": "Separate convexity in kappa and shape suffices by repeated endpoint interpolation; joint convexity in these two variables is not required."
+  },
+  "frozen_theta": "53/759 for both profiles, at fitting kappa0=53/100.",
+  "covariance_sign": "PLUS nuisance2*[k/3-theta*(k+2)]; covariance may be negative for k<53/100.",
+  "nuisance0": "Its expectation is exactly zero because E Utheta=0.",
+  "transport_identity": "y(r)-p0*p2*r=y0-p0*p2*r0 and r cost =eps*r^2-2(gamma-p0*vy)r+vy^2.",
+  "branches": [
+    {
+      "branch": "tight",
+      "source_path": "tonight/operator/projection/lower_amp_certificate/lower_source_cells_tight.json",
+      "source_sha256": "b47cb33c3def36a31e13c509b1a70788e810917dfdf21231919eb1eb16c78138",
+      "producer_path": "tonight/operator/projection/lower_amp_certificate/price_source_cells.py",
+      "producer_sha256": "82c2c6d6ad9f1d9d4028db837aa8fdc84956891082ac12b918481c462b3f3e7d",
+      "checked_hash_ledger": [
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/profile_u.68.json",
+          "sha256": "339e0bd6553cdda5eafeb7409f7786f6d20a05d1f115618c9f9942b92f835331"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/body_u68_tight.json.gz",
+          "sha256": "edd5af6176765aa38af33b79139d0722eeea8df8b6177eaec87d6439135ce529"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/exterior_u68_tight.json.gz",
+          "sha256": "8aee899c2ae7a814bf5b884f20bc52be67913beec066d8ec5382a222e1b0aa21"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/profile_u.70.json",
+          "sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/body_u70_tight.json.gz",
+          "sha256": "83aafb0117dfa015d1ba0eaa332bcf22876790048a08b169fce7f2699a5007dc"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/exterior_u70_tight.json.gz",
+          "sha256": "385a95b4c69e22c871eb8907e8b5fbfbac6bf2ae1628b70fc36de69b74b5ab8d"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/certify_local_bernstein_region.py",
+          "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/certify_local_point.py",
+          "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/rational_phi_bounds.py",
+          "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/bernstein_integer_bounds.py",
+          "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/gaussian_max_certificate.py",
+          "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/mpfr_interval.py",
+          "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/price_frozen_profile.py",
+          "sha256": "20bedc17dffb764b0807da4721dc2e3355c819834d466c92fbe7a1dba09b2684"
+        }
+      ],
+      "reserve0": "1/20000",
+      "reserve6": "1/1000000",
+      "source_bridge": null,
+      "cells": [
+        {
+          "profile": "68",
+          "profile_sha256": "339e0bd6553cdda5eafeb7409f7786f6d20a05d1f115618c9f9942b92f835331",
+          "theta": "53/759",
+          "coefficients": {
+            "theta": "53/759",
+            "q0": "20281343123/25000000000",
+            "q2": "24510122671/100000000000",
+            "q4": "-336059277/100000000000",
+            "q6": "221567/10000000000",
+            "A": "1162401428196089/25000000000000000000",
+            "B": "18109196071803911/25000000000000000000",
+            "vy": "2255866141124747295637/71492035310000000000000",
+            "constant": "3172801387369291456424141975737846393325618672041289/2944414000953515263784084100000000000000000000000000",
+            "r_linear": "-1037607179790899482766572055397353/1787300882750000000000000000000000"
+          },
+          "u_interval": [
+            "341/500",
+            "69/100"
+          ],
+          "ur_polygon_vertices": [
+            [
+              "341/500",
+              "37/100"
+            ],
+            [
+              "341/500",
+              "43/100"
+            ],
+            [
+              "69/100",
+              "37/100"
+            ],
+            [
+              "69/100",
+              "43/100"
+            ]
+          ],
+          "kappa_interval": [
+            "0",
+            "53/100"
+          ],
+          "shape_interval": [
+            "2/5",
+            "1"
+          ],
+          "cap": "563/1000",
+          "maximum_upper": "56293349146063920417972865991206983175736521335141/100000000000000000000000000000000000000000000000000",
+          "margin_to_cap": "6650853936079582027134008793016824263478664859/100000000000000000000000000000000000000000000000000",
+          "margin_to_40_71": "3172210629461650323926514624304194522706985204989/7100000000000000000000000000000000000000000000000000",
+          "local_gate_metadata": [
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/body_u68_tight.json.gz",
+              "sha256": "edd5af6176765aa38af33b79139d0722eeea8df8b6177eaec87d6439135ce529",
+              "q_interval": [
+                "0",
+                "8"
+              ],
+              "recorded_leaves": 7300,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            },
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/exterior_u68_tight.json.gz",
+              "sha256": "8aee899c2ae7a814bf5b884f20bc52be67913beec066d8ec5382a222e1b0aa21",
+              "q_interval": [
+                "8",
+                "64"
+              ],
+              "recorded_leaves": 39,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            }
+          ],
+          "vertices": [
+            {
+              "u": "341/500",
+              "r": "37/100",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6206569992102945606468261971070866555269016479687955999533624494e-1",
+                "upper": "5.6206569992102945606468261971070866555269016479687955999533624495e-1"
+              },
+              "producer_upper": "7025821249012868200808532746383858319408627059961/12500000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "37/100",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6206569992102945606468261971070866555269016479687955999533624494e-1",
+                "upper": "5.6206569992102945606468261971070866555269016479687955999533624495e-1"
+              },
+              "producer_upper": "7025821249012868200808532746383858319408627059961/12500000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "37/100",
+              "kappa": "53/100",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6209697851823920417972865991206983175736521335140917479374992745e-1",
+                "upper": "5.6209697851823920417972865991206983175736521335140917479374992746e-1"
+              },
+              "producer_upper": "56209697851823920417972865991206983175736521335141/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "37/100",
+              "kappa": "53/100",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6202800176763490475800642150043915190050685496706456289138360559e-1",
+                "upper": "5.6202800176763490475800642150043915190050685496706456289138360560e-1"
+              },
+              "producer_upper": "56202800176763490475800642150043915190050685496707/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "43/100",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6179304729476085922733552344500511749126066288164026926489585569e-1",
+                "upper": "5.6179304729476085922733552344500511749126066288164026926489585570e-1"
+              },
+              "producer_upper": "11235860945895217184546710468900102349825213257633/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "43/100",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6179304729476085922733552344500511749126066288164026926489585569e-1",
+                "upper": "5.6179304729476085922733552344500511749126066288164026926489585570e-1"
+              },
+              "producer_upper": "11235860945895217184546710468900102349825213257633/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "43/100",
+              "kappa": "53/100",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6182432589197060734238156364636628369593571143616988406330953820e-1",
+                "upper": "5.6182432589197060734238156364636628369593571143616988406330953821e-1"
+              },
+              "producer_upper": "56182432589197060734238156364636628369593571143617/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "43/100",
+              "kappa": "53/100",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6175534914136630792065932523473560383907735305182527216094321635e-1",
+                "upper": "5.6175534914136630792065932523473560383907735305182527216094321636e-1"
+              },
+              "producer_upper": "56175534914136630792065932523473560383907735305183/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "37/100",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6290221286342945606468261971070866555269016479687955999533624494e-1",
+                "upper": "5.6290221286342945606468261971070866555269016479687955999533624495e-1"
+              },
+              "producer_upper": "7036277660792868200808532746383858319408627059961/12500000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "37/100",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6290221286342945606468261971070866555269016479687955999533624494e-1",
+                "upper": "5.6290221286342945606468261971070866555269016479687955999533624495e-1"
+              },
+              "producer_upper": "7036277660792868200808532746383858319408627059961/12500000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "37/100",
+              "kappa": "53/100",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6293349146063920417972865991206983175736521335140917479374992745e-1",
+                "upper": "5.6293349146063920417972865991206983175736521335140917479374992746e-1"
+              },
+              "producer_upper": "56293349146063920417972865991206983175736521335141/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "37/100",
+              "kappa": "53/100",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6286451471003490475800642150043915190050685496706456289138360559e-1",
+                "upper": "5.6286451471003490475800642150043915190050685496706456289138360560e-1"
+              },
+              "producer_upper": "56286451471003490475800642150043915190050685496707/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "112506320163266319649959/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "43/100",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6262956023716085922733552344500511749126066288164026926489585569e-1",
+                "upper": "5.6262956023716085922733552344500511749126066288164026926489585570e-1"
+              },
+              "producer_upper": "11252591204743217184546710468900102349825213257633/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "43/100",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6262956023716085922733552344500511749126066288164026926489585569e-1",
+                "upper": "5.6262956023716085922733552344500511749126066288164026926489585570e-1"
+              },
+              "producer_upper": "11252591204743217184546710468900102349825213257633/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "43/100",
+              "kappa": "53/100",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6266083883437060734238156364636628369593571143616988406330953820e-1",
+                "upper": "5.6266083883437060734238156364636628369593571143616988406330953821e-1"
+              },
+              "producer_upper": "56266083883437060734238156364636628369593571143617/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "43/100",
+              "kappa": "53/100",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6259186208376630792065932523473560383907735305182527216094321635e-1",
+                "upper": "5.6259186208376630792065932523473560383907735305182527216094321636e-1"
+              },
+              "producer_upper": "56259186208376630792065932523473560383907735305183/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "0",
+              "frozen_theta": "53/759",
+              "y_transport": "127458243118911226783347/1000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "profile": "70",
+          "profile_sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78",
+          "theta": "53/759",
+          "coefficients": {
+            "theta": "53/759",
+            "q0": "66161992743/100000000000",
+            "q2": "2970337091/20000000000",
+            "q4": "-44676507/25000000000",
+            "q6": "32189/2500000000",
+            "A": "83155441130495289/2500000000000000000000",
+            "B": "1503481883869504711/2500000000000000000000",
+            "vy": "2039943541465187901823/53619026482500000000000",
+            "constant": "38743806313675392491658073066712431469920273680709/46006468764898675996626314062500000000000000000000",
+            "r_linear": "-504523770844788749027179001899387/1340475662062500000000000000000000"
+          },
+          "u_interval": [
+            "341/500",
+            "69/100"
+          ],
+          "ur_polygon_vertices": [
+            [
+              "341/500",
+              "1/5"
+            ],
+            [
+              "341/500",
+              "199/500"
+            ],
+            [
+              "69/100",
+              "1/5"
+            ],
+            [
+              "69/100",
+              "199/500"
+            ]
+          ],
+          "kappa_interval": [
+            "0",
+            "1"
+          ],
+          "shape_interval": [
+            "2/5",
+            "1"
+          ],
+          "cap": "40/71",
+          "maximum_upper": "11263688816151776387684442176145679566450874692483/20000000000000000000000000000000000000000000000000",
+          "margin_to_cap": "278094053223876474404605493656750781987896833707/1420000000000000000000000000000000000000000000000000",
+          "margin_to_40_71": "278094053223876474404605493656750781987896833707/1420000000000000000000000000000000000000000000000000",
+          "local_gate_metadata": [
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/body_u70_tight.json.gz",
+              "sha256": "83aafb0117dfa015d1ba0eaa332bcf22876790048a08b169fce7f2699a5007dc",
+              "q_interval": [
+                "0",
+                "8"
+              ],
+              "recorded_leaves": 8129,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            },
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/exterior_u70_tight.json.gz",
+              "sha256": "385a95b4c69e22c871eb8907e8b5fbfbac6bf2ae1628b70fc36de69b74b5ab8d",
+              "q_interval": [
+                "8",
+                "64"
+              ],
+              "recorded_leaves": 40,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            }
+          ],
+          "vertices": [
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.4858520356934856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.4858520356934856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "54858520356934856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.4858520356934856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.4858520356934856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "54858520356934856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.4983441427639524907460394023842395043757177438188242520987682556e-1",
+                "upper": "5.4983441427639524907460394023842395043757177438188242520987682557e-1"
+              },
+              "producer_upper": "54983441427639524907460394023842395043757177438189/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.4966907010907939772095797245024335148313964069322954097774681841e-1",
+                "upper": "5.4966907010907939772095797245024335148313964069322954097774681842e-1"
+              },
+              "producer_upper": "54966907010907939772095797245024335148313964069323/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5931350217942213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.5931350217942213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "55931350217942213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5931350217942213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.5931350217942213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "55931350217942213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6056271288646881938422210880728397832254373462414846680314700043e-1",
+                "upper": "5.6056271288646881938422210880728397832254373462414846680314700044e-1"
+              },
+              "producer_upper": "11211254257729376387684442176145679566450874692483/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6039736871915296803057614101910337936811160093549558257101699328e-1",
+                "upper": "5.6039736871915296803057614101910337936811160093549558257101699329e-1"
+              },
+              "producer_upper": "1120794737438305936061152282038206758736223201871/2000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5120693149046856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.5120693149046856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "55120693149046856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5120693149046856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.5120693149046856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "55120693149046856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5245614219751524907460394023842395043757177438188242520987682556e-1",
+                "upper": "5.5245614219751524907460394023842395043757177438188242520987682557e-1"
+              },
+              "producer_upper": "55245614219751524907460394023842395043757177438189/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5229079803019939772095797245024335148313964069322954097774681841e-1",
+                "upper": "5.5229079803019939772095797245024335148313964069322954097774681842e-1"
+              },
+              "producer_upper": "55229079803019939772095797245024335148313964069323/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6193523010054213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.6193523010054213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "56193523010054213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6193523010054213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.6193523010054213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "56193523010054213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6318444080758881938422210880728397832254373462414846680314700043e-1",
+                "upper": "5.6318444080758881938422210880728397832254373462414846680314700044e-1"
+              },
+              "producer_upper": "11263688816151776387684442176145679566450874692483/20000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6301909664027296803057614101910337936811160093549558257101699328e-1",
+                "upper": "5.6301909664027296803057614101910337936811160093549558257101699329e-1"
+              },
+              "producer_upper": "1126038193280545936061152282038206758736223201871/2000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "scope": "Conditional on separately replayed q gates: only the two specified source rectangles; no unrestricted amplitude-strip coverage."
+    },
+    {
+      "branch": "finer",
+      "source_path": "tonight/operator/projection/lower_amp_certificate/lower_source_domain_finer.json",
+      "source_sha256": "703368bb1e173c8dde391f9033dd0088b1a07e2fddfb9176d6232a5066295159",
+      "producer_path": "tonight/operator/projection/lower_amp_certificate/price_finer_support_cells.py",
+      "producer_sha256": "fb0e8730d30f2c735a5cbe66ea6712a9734b9e81ae815409a0343e548b4c569d",
+      "checked_hash_ledger": [
+        {
+          "path": "tonight/operator/cubic_L1_refinement/kappa_shape_caps.json",
+          "sha256": "182cffd5d930738f3d389705ed39fcbaffeb22a3f6f1136387db206ee2afe41e"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/price_finer_support_cells.py",
+          "sha256": "fb0e8730d30f2c735a5cbe66ea6712a9734b9e81ae815409a0343e548b4c569d"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/profile_u.70.json",
+          "sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/body_u70_finer.json.gz",
+          "sha256": "680ed03839e257c429ec7b843bfe946dfb1aa60ab2e2c80e126f6c2ff309f5c4"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/exterior_u70_finer.json.gz",
+          "sha256": "100fc45da0de5219a2329a0c5d82a4c524690b716b103a22512850dc3820a7a5"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/profile_u.68.json",
+          "sha256": "339e0bd6553cdda5eafeb7409f7786f6d20a05d1f115618c9f9942b92f835331"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/body_u68_finer.json.gz",
+          "sha256": "dfe7e71f8830f192942e1644b58cd972df085a23161729dc793e0f0f9a7d52d9"
+        },
+        {
+          "path": "tonight/operator/projection/lower_amp_certificate/exterior_u68_finer.json.gz",
+          "sha256": "2f4dd510051862f27540809c96881233a10c5c7680861d9875037f11d8a83eeb"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/certify_local_bernstein_region.py",
+          "sha256": "bcbc3e5f28759053c094947f4b9709cce807890c2705ff109bda2229617084ad"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/certify_local_point.py",
+          "sha256": "f9dbe28c5161b2fda41b55c0f9fc49eeca0d3e70b421bf50827ac174a33245c7"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/rational_phi_bounds.py",
+          "sha256": "ea640f2c207ce8bd287c40e52d05bce08fdd35d73071440bf9778a698fd78222"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/bernstein_integer_bounds.py",
+          "sha256": "746c5c96a41a77ec4dfd3eee533c12c08f1424eb864dcce2bdc98e407ea445cd"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/gaussian_max_certificate.py",
+          "sha256": "e2050ce53d0e4eec9340148d2e861b3b5220d0f6f44c4253131a5fb6161461e5"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/mpfr_interval.py",
+          "sha256": "c64536eb955d3e22a04419008a22baacab6abdc2facc5c2a904382e953dd1cfd"
+        },
+        {
+          "path": "tonight/operator/projection/certificate/price_frozen_profile.py",
+          "sha256": "20bedc17dffb764b0807da4721dc2e3355c819834d466c92fbe7a1dba09b2684"
+        }
+      ],
+      "reserve0": "1/50000",
+      "reserve6": "1/5000000",
+      "source_bridge": {
+        "rho": "207661/250000",
+        "accepted_l1_cap": "830643632499/1000000000000",
+        "accepted_l1_source_sha256": "182cffd5d930738f3d389705ed39fcbaffeb22a3f6f1136387db206ee2afe41e",
+        "independent_l1_audit_sha256": "7ca4af45561b68a237421f7c6b923a48c425dfc31f08799e5974883042772cf6",
+        "a": "9/5",
+        "source_bridge_upper": "1649921/1000000",
+        "contact_t": "250000/207661",
+        "J_contact": {
+          "lower": "1.7459566285579190267858875221839430509634717239949426903771945237e0",
+          "upper": "1.7459566285579190267858875221839430509634717239949426903771945238e0"
+        },
+        "linear_coefficient": {
+          "lower": "1.8214966331442611225171152639613948876793691240120354492722954621e-2",
+          "upper": "1.8214966331442611225171152639613948876793691240120354492722954622e-2"
+        },
+        "quadratic_coefficient": {
+          "lower": "1.9859783485843093417860476197366448038355245634444447592568881205e-1",
+          "upper": "1.9859783485843093417860476197366448038355245634444447592568881206e-1"
+        },
+        "bridge_price": {
+          "lower": "1.6499201967970033911209316446506186958474589474046677752602751647e0",
+          "upper": "1.6499201967970033911209316446506186958474589474046677752602751648e0"
+        },
+        "recorded_upper": "16499201967970033911209316446506186958474589474047/10000000000000000000000000000000000000000000000000",
+        "majorant_justification": "Hermite remainder J-P=J[0,t,t,x]*x*(x-t)^2<=0 because J third derivative is nonpositive.",
+        "mass_justification": "a*u+r=E[a*Z*h+Q*k]<=E max(a|Z|,|Q|), using the four physical point values and independence of Z,Q.",
+        "l1_use": "Positive linear interpolant coefficient permits E|Q|<=rho; E Q^2=1 supplies its quadratic expectation."
+      },
+      "cells": [
+        {
+          "profile": "70",
+          "profile_sha256": "3e6428a92a619eda5e5fe19bf5a319eca66a7831658b27dabeaa53dfcf0ade78",
+          "theta": "53/759",
+          "coefficients": {
+            "theta": "53/759",
+            "q0": "66158992743/100000000000",
+            "q2": "2970337091/20000000000",
+            "q4": "-44676507/25000000000",
+            "q6": "30189/2500000000",
+            "A": "81155441130495289/2500000000000000000000",
+            "B": "1503481883869504711/2500000000000000000000",
+            "vy": "2039943541465187901823/53619026482500000000000",
+            "constant": "38741874041987266747266214761521806469920273680709/46006468764898675996626314062500000000000000000000",
+            "r_linear": "-504523770844788749027179001899387/1340475662062500000000000000000000"
+          },
+          "u_interval": [
+            "341/500",
+            "69/100"
+          ],
+          "ur_polygon_vertices": [
+            [
+              "341/500",
+              "1/5"
+            ],
+            [
+              "341/500",
+              "199/500"
+            ],
+            [
+              "69/100",
+              "1/5"
+            ],
+            [
+              "69/100",
+              "199/500"
+            ]
+          ],
+          "kappa_interval": [
+            "0",
+            "1"
+          ],
+          "shape_interval": [
+            "2/5",
+            "1"
+          ],
+          "cap": "5631/10000",
+          "maximum_upper": "56308136225830300613698948597947438253090040712839/100000000000000000000000000000000000000000000000000",
+          "margin_to_cap": "1863774169699386301051402052561746909959287161/100000000000000000000000000000000000000000000000000",
+          "margin_to_40_71": "2122327966048656427374649545731884030607109388431/7100000000000000000000000000000000000000000000000000",
+          "local_gate_metadata": [
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/body_u70_finer.json.gz",
+              "sha256": "680ed03839e257c429ec7b843bfe946dfb1aa60ab2e2c80e126f6c2ff309f5c4",
+              "q_interval": [
+                "0",
+                "8"
+              ],
+              "recorded_leaves": 11470,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            },
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/exterior_u70_finer.json.gz",
+              "sha256": "100fc45da0de5219a2329a0c5d82a4c524690b716b103a22512850dc3820a7a5",
+              "q_interval": [
+                "8",
+                "64"
+              ],
+              "recorded_leaves": 88,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            }
+          ],
+          "vertices": [
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.4854320356934856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.4854320356934856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "54854320356934856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.4854320356934856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.4854320356934856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "54854320356934856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.4973133572710943582737131741061435464592844688612009784472399709e-1",
+                "upper": "5.4973133572710943582737131741061435464592844688612009784472399710e-1"
+              },
+              "producer_upper": "54973133572710943582737131741061435464592844688613/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.4959975155979358447372534962243375569149631319746721361259398994e-1",
+                "upper": "5.4959975155979358447372534962243375569149631319746721361259398995e-1"
+              },
+              "producer_upper": "54959975155979358447372534962243375569149631319747/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5927150217942213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.5927150217942213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "55927150217942213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5927150217942213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.5927150217942213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "55927150217942213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6045963433718300613698948597947438253090040712838613943799417196e-1",
+                "upper": "5.6045963433718300613698948597947438253090040712838613943799417197e-1"
+              },
+              "producer_upper": "56045963433718300613698948597947438253090040712839/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6032805016986715478334351819129378357646827343973325520586416481e-1",
+                "upper": "5.6032805016986715478334351819129378357646827343973325520586416482e-1"
+              },
+              "producer_upper": "28016402508493357739167175909564689178823413671987/50000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5116493149046856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.5116493149046856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "55116493149046856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5116493149046856401452353824653851482922527979062221811843936129e-1",
+                "upper": "5.5116493149046856401452353824653851482922527979062221811843936130e-1"
+              },
+              "producer_upper": "55116493149046856401452353824653851482922527979063/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.5235306364822943582737131741061435464592844688612009784472399709e-1",
+                "upper": "5.5235306364822943582737131741061435464592844688612009784472399710e-1"
+              },
+              "producer_upper": "55235306364822943582737131741061435464592844688613/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "1/5",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.5222147948091358447372534962243375569149631319746721361259398994e-1",
+                "upper": "5.5222147948091358447372534962243375569149631319746721361259398995e-1"
+              },
+              "producer_upper": "55222147948091358447372534962243375569149631319747/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "18579766420766319649959/250000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6189323010054213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.6189323010054213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "56189323010054213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6189323010054213432414170681539854271419724003288825971170953616e-1",
+                "upper": "5.6189323010054213432414170681539854271419724003288825971170953617e-1"
+              },
+              "producer_upper": "56189323010054213432414170681539854271419724003289/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-5386126007/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6308136225830300613698948597947438253090040712838613943799417196e-1",
+                "upper": "5.6308136225830300613698948597947438253090040712838613943799417197e-1"
+              },
+              "producer_upper": "56308136225830300613698948597947438253090040712839/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6294977809098715478334351819129378357646827343973325520586416481e-1",
+                "upper": "5.6294977809098715478334351819129378357646827343973325520586416482e-1"
+              },
+              "producer_upper": "28147488904549357739167175909564689178823413671987/50000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "4776375893/37950000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "309151028591733680350041/2500000000000000000000000"
+            }
+          ]
+        },
+        {
+          "profile": "68",
+          "profile_sha256": "339e0bd6553cdda5eafeb7409f7786f6d20a05d1f115618c9f9942b92f835331",
+          "theta": "53/759",
+          "coefficients": {
+            "theta": "53/759",
+            "q0": "20280593123/25000000000",
+            "q2": "24510122671/100000000000",
+            "q4": "-336059277/100000000000",
+            "q6": "213567/10000000000",
+            "A": "1142401428196089/25000000000000000000",
+            "B": "18109196071803911/25000000000000000000",
+            "vy": "2255866141124747295637/71492035310000000000000",
+            "constant": "3172677721981251408783063044205646393325618672041289/2944414000953515263784084100000000000000000000000000",
+            "r_linear": "-1037607179790899482766572055397353/1787300882750000000000000000000000"
+          },
+          "u_interval": [
+            "341/500",
+            "69/100"
+          ],
+          "ur_polygon_vertices": [
+            [
+              "341/500",
+              "199/500"
+            ],
+            [
+              "341/500",
+              "422321/1000000"
+            ],
+            [
+              "69/100",
+              "199/500"
+            ],
+            [
+              "69/100",
+              "407921/1000000"
+            ]
+          ],
+          "kappa_interval": [
+            "0",
+            "1"
+          ],
+          "shape_interval": [
+            "2/5",
+            "1"
+          ],
+          "cap": "14083/25000",
+          "maximum_upper": "56331422605758758899629065856040030020498352855071/100000000000000000000000000000000000000000000000000",
+          "margin_to_cap": "577394241241100370934143959969979501647144929/100000000000000000000000000000000000000000000000000",
+          "margin_to_40_71": "468994991128118126336324221157868544616947289959/7100000000000000000000000000000000000000000000000000",
+          "local_gate_metadata": [
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/body_u68_finer.json.gz",
+              "sha256": "dfe7e71f8830f192942e1644b58cd972df085a23161729dc793e0f0f9a7d52d9",
+              "q_interval": [
+                "0",
+                "8"
+              ],
+              "recorded_leaves": 10236,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            },
+            {
+              "path": "tonight/operator/projection/lower_amp_certificate/exterior_u68_finer.json.gz",
+              "sha256": "2f4dd510051862f27540809c96881233a10c5c7680861d9875037f11d8a83eeb",
+              "q_interval": [
+                "8",
+                "64"
+              ],
+              "recorded_leaves": 79,
+              "profile_binding": "exactly matches inflated frozen profile",
+              "q_gate_replayed_here": false
+            }
+          ],
+          "vertices": [
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6125134202877077754058730812004700979068973056976789098779739663e-1",
+                "upper": "5.6125134202877077754058730812004700979068973056976789098779739664e-1"
+              },
+              "producer_upper": "56125134202877077754058730812004700979068973056977/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6125134202877077754058730812004700979068973056976789098779739663e-1",
+                "upper": "5.6125134202877077754058730812004700979068973056976789098779739664e-1"
+              },
+              "producer_upper": "56125134202877077754058730812004700979068973056977/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6247771311518758899629065856040030020498352855070732490453168657e-1",
+                "upper": "5.6247771311518758899629065856040030020498352855070732490453168658e-1"
+              },
+              "producer_upper": "56247771311518758899629065856040030020498352855071/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6217879892901499317940386898231881221874944841640849248400327340e-1",
+                "upper": "5.6217879892901499317940386898231881221874944841640849248400327341e-1"
+              },
+              "producer_upper": "56217879892901499317940386898231881221874944841641/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "422321/1000000",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6149666575623280181256866264874407658398928196842564449021338484e-1",
+                "upper": "5.6149666575623280181256866264874407658398928196842564449021338485e-1"
+              },
+              "producer_upper": "56149666575623280181256866264874407658398928196843/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "627723230896523030426961129/5000000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "422321/1000000",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6149666575623280181256866264874407658398928196842564449021338484e-1",
+                "upper": "5.6149666575623280181256866264874407658398928196842564449021338485e-1"
+              },
+              "producer_upper": "56149666575623280181256866264874407658398928196843/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "627723230896523030426961129/5000000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "422321/1000000",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6272303684264961326827201308909736699828307994936507840694767479e-1",
+                "upper": "5.6272303684264961326827201308909736699828307994936507840694767480e-1"
+              },
+              "producer_upper": "56272303684264961326827201308909736699828307994937/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "627723230896523030426961129/5000000000000000000000000000"
+            },
+            {
+              "u": "341/500",
+              "r": "422321/1000000",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6242412265647701745138522351101587901204899981506624598641926162e-1",
+                "upper": "5.6242412265647701745138522351101587901204899981506624598641926163e-1"
+              },
+              "producer_upper": "56242412265647701745138522351101587901204899981507/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "627723230896523030426961129/5000000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6208785497117077754058730812004700979068973056976789098779739663e-1",
+                "upper": "5.6208785497117077754058730812004700979068973056976789098779739664e-1"
+              },
+              "producer_upper": "56208785497117077754058730812004700979068973056977/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6208785497117077754058730812004700979068973056976789098779739663e-1",
+                "upper": "5.6208785497117077754058730812004700979068973056976789098779739664e-1"
+              },
+              "producer_upper": "56208785497117077754058730812004700979068973056977/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6331422605758758899629065856040030020498352855070732490453168657e-1",
+                "upper": "5.6331422605758758899629065856040030020498352855070732490453168658e-1"
+              },
+              "producer_upper": "56331422605758758899629065856040030020498352855071/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "199/500",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6301531187141499317940386898231881221874944841640849248400327340e-1",
+                "upper": "5.6301531187141499317940386898231881221874944841640849248400327341e-1"
+              },
+              "producer_upper": "56301531187141499317940386898231881221874944841641/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "597419421046169714894367/5000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "407921/1000000",
+              "kappa": "0",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6208506627293726505353196575251292811873236242808307426551907826e-1",
+                "upper": "5.6208506627293726505353196575251292811873236242808307426551907827e-1"
+              },
+              "producer_upper": "56208506627293726505353196575251292811873236242809/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "609780923349749141866895529/5000000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "407921/1000000",
+              "kappa": "0",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6208506627293726505353196575251292811873236242808307426551907826e-1",
+                "upper": "5.6208506627293726505353196575251292811873236242808307426551907827e-1"
+              },
+              "producer_upper": "56208506627293726505353196575251292811873236242809/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "-3238213027/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "609780923349749141866895529/5000000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "407921/1000000",
+              "kappa": "1",
+              "shape": "2/5",
+              "price_interval": {
+                "lower": "5.6331143735935407650923531619286621853302616040902250818225336821e-1",
+                "upper": "5.6331143735935407650923531619286621853302616040902250818225336822e-1"
+              },
+              "producer_upper": "56331143735935407650923531619286621853302616040903/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "609780923349749141866895529/5000000000000000000000000000"
+            },
+            {
+              "u": "69/100",
+              "r": "407921/1000000",
+              "kappa": "1",
+              "shape": "1",
+              "price_interval": {
+                "lower": "5.6301252317318148069234852661478473054679208027472367576172495504e-1",
+                "upper": "5.6301252317318148069234852661478473054679208027472367576172495505e-1"
+              },
+              "producer_upper": "56301252317318148069234852661478473054679208027473/100000000000000000000000000000000000000000000000000",
+              "positive_sign_nuisance_term": "2871622873/12650000000000",
+              "frozen_theta": "53/759",
+              "y_transport": "609780923349749141866895529/5000000000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "scope": "Conditional on separately replayed q gates: all physical sources with u in [.682,.69], kappa in [0,1], and r>=.2, via the audited bridge. Does not cover r<.2 or kappa>1."
+    }
+  ],
+  "scope": "Independent outer-source pricing, domain algebra, source bridge, and file binding. All-q local proof replay is separate; no global operator norm or G_R endpoint is asserted."
+}

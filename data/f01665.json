@@ -1,0 +1,255 @@
+{
+  "scope": "Available discovery snapshots only; accepted Sept30 matrices were not recovered for this check.",
+  "records": [
+    {
+      "source_path": "raw/Grothendieck_operator_checkpoint_2026-09-30/Grothendieck_operator_checkpoint_2026-09-30/matrix_mining/moments/fine_native_profile_snapshot.json",
+      "source_sha256": "9af3b64bf8cde3b1320d0eb72d0f8c0e16e3d1aa82e86c427427baf27ed9369a",
+      "source_status": "DISCOVERY_SNAPSHOT_NOT_ACCEPTED_GLOBAL_CERTIFICATE",
+      "source_epsilon": "717/1000",
+      "profile": {
+        "M": [
+          [
+            "4795174211409571/5000000000000000",
+            "0",
+            "232127562272343/200000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "762191080371339/250000000000000",
+            "0",
+            "2971040955814531/1000000000000000"
+          ],
+          [
+            "232127562272343/200000000000000",
+            "0",
+            "280925145372443/200000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "2971040955814531/1000000000000000",
+            "0",
+            "1471360295054283/250000000000000"
+          ]
+        ],
+        "delta": "5999998859946303/200000000000000"
+      },
+      "gate_check_at_0_72": {
+        "status": "PASS_FIXED_GATE_ARITHMETIC_ONLY",
+        "epsilon_tested": "18/25",
+        "epsilon_maximum_exact": "19508758473973979495003362649/27208817253915475000000000000",
+        "epsilon_maximum_float_display": 0.7170013415840991,
+        "all_four_gates_pass": false,
+        "gate_margins_exact": {
+          "E_minus_diag_minus1_epsilon": "-81589948845162504996637351/27208817253915475000000000000",
+          "E_minus_diag_epsilon_minus_delta_0": "41127438159045802670738140316453/1404625726862215000000000000000",
+          "R_minus_diag_minus1_epsilon": "12086569594067010998115167569031/4048764321485356000000000000000",
+          "R_minus_diag_epsilon_0": "4878721075563000278115167569031/5885441180217132000000000000000"
+        },
+        "limiting_gate": "E_minus_diag_minus1_epsilon",
+        "scope": "Fixed matrix gates only. No potential or amplitude certificate is implied."
+      }
+    },
+    {
+      "source_path": "raw/Grothendieck_matrix_mining_2026-09-30/Grothendieck_matrix_mining_2026-09-30/matrix_mining/moments/critical_native_profile_snapshot.json",
+      "source_sha256": "0e170e655cfe3e1e7de59102987927bd49a574929f24f740fb361a954382be5a",
+      "source_status": "DISCOVERY_SNAPSHOT_NOT_ACCEPTED_GLOBAL_CERTIFICATE",
+      "source_epsilon": "717/1000",
+      "profile": {
+        "M": [
+          [
+            "34233725630722617/100000000000000000",
+            "0",
+            "1148014737744829/2000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "3896572020925111/5000000000000000",
+            "0",
+            "-9315904464817797/1000000000000000000"
+          ],
+          [
+            "1148014737744829/2000000000000000",
+            "0",
+            "4812279041038059/5000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "-9315904464817797/1000000000000000000",
+            "0",
+            "4408360402297209/5000000000000000"
+          ]
+        ],
+        "delta": "1278698086295703/1000000000000000"
+      },
+      "gate_check_at_0_72": {
+        "status": "PASS_FIXED_GATE_ARITHMETIC_ONLY",
+        "epsilon_tested": "18/25",
+        "epsilon_maximum_exact": "240613957346631846753480219587639/335584314076806542500000000000000",
+        "epsilon_maximum_float_display": 0.7170000123771028,
+        "all_four_gates_pass": false,
+        "gate_margins_exact": {
+          "E_minus_diag_minus1_epsilon": "-1006748788668863846519780412361/335584314076806542500000000000000",
+          "E_minus_diag_epsilon_minus_delta_0": "134430559842173115039837777611489/240613952051902950000000000000000",
+          "R_minus_diag_minus1_epsilon": "95859558480015681460042524066675597/593104801395007400000000000000000000",
+          "R_minus_diag_epsilon_0": "17403022687674377460042524066675597/293890693486480600000000000000000000"
+        },
+        "limiting_gate": "E_minus_diag_minus1_epsilon",
+        "scope": "Fixed matrix gates only. No potential or amplitude certificate is implied."
+      }
+    },
+    {
+      "source_path": "raw/Grothendieck_matrix_mining_2026-09-30/Grothendieck_matrix_mining_2026-09-30/matrix_mining/moments/joint_native_profile_snapshot.json",
+      "source_sha256": "d41177c5f494d4de18261608340eb1b5b4b8b91aff0df6cc949f165c062e1fa6",
+      "source_status": "DISCOVERY_SNAPSHOT_NOT_ACCEPTED_GLOBAL_CERTIFICATE",
+      "source_epsilon": "699/1000",
+      "profile": {
+        "M": [
+          [
+            "10416924856409143/50000000000000000",
+            "0",
+            "838972334431239/2000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "114687773355881/100000000000000",
+            "0",
+            "1232985582016803/5000000000000000"
+          ],
+          [
+            "838972334431239/2000000000000000",
+            "0",
+            "2111571529770839/2500000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "1232985582016803/5000000000000000",
+            "0",
+            "914159205863393/1250000000000000"
+          ]
+        ],
+        "delta": "7796901526256903/10000000000000000"
+      },
+      "gate_check_at_0_72": {
+        "status": "PASS_FIXED_GATE_ARITHMETIC_ONLY",
+        "epsilon_tested": "18/25",
+        "epsilon_maximum_exact": "46923812392196153753912719237087/67129916507121270000000000000000",
+        "epsilon_maximum_float_display": 0.6990000112277569,
+        "all_four_gates_pass": false,
+        "gate_margins_exact": {
+          "E_minus_diag_minus1_epsilon": "-1409727492931160646087280762913/67129916507121270000000000000000",
+          "E_minus_diag_epsilon_minus_delta_0": "25208010954014329587475110166123/422314305954167800000000000000000",
+          "R_minus_diag_minus1_epsilon": "-304097256533812963445713831403/17890647779656750000000000000000",
+          "R_minus_diag_epsilon_0": "6284430752756421909662858505791/18283184117267860000000000000000"
+        },
+        "limiting_gate": "E_minus_diag_minus1_epsilon",
+        "scope": "Fixed matrix gates only. No potential or amplitude certificate is implied."
+      }
+    },
+    {
+      "source_path": "raw/Grothendieck_matrix_mining_2026-09-30/Grothendieck_matrix_mining_2026-09-30/matrix_mining/moments/freeepsilon_native_profile_snapshot.json",
+      "source_sha256": "1f784a5a4d63f2b950e2a6def319c9236cf9ad0461cb5bd9cfacd116a845c934",
+      "source_status": "DISCOVERY_SNAPSHOT_NOT_ACCEPTED_GLOBAL_CERTIFICATE",
+      "source_epsilon": "7299999999910819/10000000000000000",
+      "profile": {
+        "M": [
+          [
+            "20309279686990267/100000000000000000",
+            "0",
+            "4223361315747969/10000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "54371721090913/50000000000000",
+            "0",
+            "10712856399843883/50000000000000000"
+          ],
+          [
+            "4223361315747969/10000000000000000",
+            "0",
+            "8782577421433301/10000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "10712856399843883/50000000000000000",
+            "0",
+            "7715773101168957/10000000000000000"
+          ]
+        ],
+        "delta": "4093950591094047/5000000000000000"
+      },
+      "gate_check_at_0_72": {
+        "status": "PASS_FIXED_GATE_ARITHMETIC_ONLY",
+        "epsilon_tested": "18/25",
+        "epsilon_maximum_exact": "878257755334300638554634700431757/1203092796869902670000000000000000",
+        "epsilon_maximum_float_display": 0.7300000113202171,
+        "all_four_gates_pass": true,
+        "gate_margins_exact": {
+          "E_minus_diag_minus1_epsilon": "12030941587970716154634700431757/1203092796869902670000000000000000",
+          "E_minus_diag_epsilon_minus_delta_0": "86763199363894741650323273614697/878257742143330100000000000000000",
+          "R_minus_diag_minus1_epsilon": "154395339063332127063025166187311/5218586054545650000000000000000000",
+          "R_minus_diag_epsilon_0": "593994864833548617063025166187311/1928943275292239250000000000000000"
+        },
+        "limiting_gate": "E_minus_diag_minus1_epsilon",
+        "scope": "Fixed matrix gates only. No potential or amplitude certificate is implied."
+      }
+    },
+    {
+      "source_path": "raw/Grothendieck_matrix_mining_2026-09-30/Grothendieck_matrix_mining_2026-09-30/matrix_mining/moments/conditional_native_profile_snapshot.json",
+      "source_sha256": "87702dd8ba8dfef22d0e1f4cf4dd2b320b0915f0140a8cf56bb9a3498277d4f7",
+      "source_status": "DISCOVERY_SNAPSHOT_NOT_ACCEPTED_GLOBAL_CERTIFICATE",
+      "source_epsilon": "717/1000",
+      "profile": {
+        "M": [
+          [
+            "338854809245617/625000000000000",
+            "0",
+            "3871347725141963/5000000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "3810166875086873/5000000000000000",
+            "0",
+            "-4724201277853361/1000000000000000000"
+          ],
+          [
+            "3871347725141963/5000000000000000",
+            "0",
+            "552867107462881/500000000000000",
+            "0"
+          ],
+          [
+            "0",
+            "-4724201277853361/1000000000000000000",
+            "0",
+            "849830265655237/1000000000000000"
+          ]
+        ],
+        "delta": "4951164960369459/2500000000000000"
+      },
+      "gate_check_at_0_72": {
+        "status": "PASS_FIXED_GATE_ARITHMETIC_ONLY",
+        "epsilon_tested": "18/25",
+        "epsilon_maximum_exact": "27643356423183044195086651912791/38554192369824680000000000000000",
+        "epsilon_maximum_float_display": 0.7170000128136195,
+        "all_four_gates_pass": false,
+        "gate_margins_exact": {
+          "E_minus_diag_minus1_epsilon": "-115662083090725404913348087209/38554192369824680000000000000000",
+          "E_minus_diag_epsilon_minus_delta_0": "34843510185595930925204422940371/27643355373144050000000000000000",
+          "R_minus_diag_minus1_epsilon": "228742943094185915139546868561203679/1762033375017374600000000000000000000",
+          "R_minus_diag_epsilon_0": "35698916179687987139546868561203679/849830265655237000000000000000000000"
+        },
+        "limiting_gate": "E_minus_diag_minus1_epsilon",
+        "scope": "Fixed matrix gates only. No potential or amplitude certificate is implied."
+      }
+    }
+  ]
+}
